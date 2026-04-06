@@ -28,12 +28,12 @@ graph LR
     D -->|kg/YYYY-MM-DD.json<br/>report-basis.md| E
     E -->|reports/YYYY/MM/DD.md| F
 
-    style A fill:#4ECDC4
-    style B fill:#45B7D1
-    style C fill:#FF6B6B
-    style D fill:#FF6B6B
-    style E fill:#96CEB4
-    style F fill:#FFEAA7
+    style A fill:none,stroke:#888
+    style B fill:none,stroke:#888
+    style C fill:none,stroke:#888
+    style D fill:none,stroke:#888
+    style E fill:none,stroke:#888
+    style F fill:none,stroke:#888
 ```
 
 | Phase | 에이전트 | 핵심 작업 | 산출물 |
