@@ -1,4 +1,5 @@
 name: Daily OSINT Report
+# Ontology-based OSINT daily report pipeline
 
 on:
   schedule:
