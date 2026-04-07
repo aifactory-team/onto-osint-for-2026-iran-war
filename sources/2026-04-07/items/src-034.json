@@ -1,0 +1,19 @@
+{
+  "id": "src-034",
+  "title": "The Human Dimension of the Iran War: The Intolerable Plight of Civilians",
+  "url": "https://thesoufancenter.org/intelbrief-2026-april-7/",
+  "snippet": "Soufan Center analysis on civilian dimension of Iran war. All warring parties targeting civilian infrastructure as leverage. Schools, hospitals, oil depots, hotels, airports regularly struck. Destruction of civilian infrastructure used to impose conditions making war intolerable.",
+  "source_name": "Soufan Center",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "수판센터의 민간 피해 분석 보고서는 이전에 수집되지 않은 신규 분석 자료",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" }
+  ],
+  "relations": []
+}

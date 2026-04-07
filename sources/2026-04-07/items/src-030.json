@@ -1,0 +1,21 @@
+{
+  "id": "src-030",
+  "title": "Iran fires ballistic missile salvos at central, southern Israel on Jewish holiday",
+  "url": "https://www.timesofisrael.com/liveblog-april-7-2026/",
+  "snippet": "Iran fired ballistic missile salvos at central and southern Israel on a Jewish holiday. Part of escalating retaliatory cycle between Iran and Israel.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고서에 없는 신규 세부사항: 유대교 공휴일 이스라엘 본토 탄도미사일 공격",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-004" }
+  ]
+}

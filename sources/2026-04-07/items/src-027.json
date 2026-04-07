@@ -1,0 +1,24 @@
+{
+  "id": "src-027",
+  "title": "Pakistan proposes 2-week Iran ceasefire ahead of Trump deadline",
+  "url": "https://www.axios.com/2026/04/07/iran-us-ceasefire-pakistan-two-weeks",
+  "snippet": "Pakistani PM Shehbaz Sharif called on Trump and Iran to agree to 2-week ceasefire. Asked Iran to open Hormuz as goodwill gesture. All warring parties to observe ceasefire everywhere for 2 weeks. Pakistan has been primary mediator over last several weeks.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "파키스탄 중재 제안의 구체적 내용을 담은 신규 보도",
+  "entities": [
+    { "id": "temp-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM" },
+    { "id": "temp-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "temp-027", "predicate": "affiliatedWith", "object": "temp-029" },
+    { "subject": "temp-029", "predicate": "participatesIn", "object": "ent-016" }
+  ]
+}

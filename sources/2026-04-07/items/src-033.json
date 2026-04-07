@@ -1,0 +1,24 @@
+{
+  "id": "src-033",
+  "title": "Security Council: Russia and China veto resolution on Strait of Hormuz",
+  "url": "https://news.un.org/en/story/2026/04/1167261",
+  "snippet": "11 voted in favour, Russia and China vetoed, Colombia and Pakistan abstained. Initial Bahrain proposal would have authorized 'all necessary means' including military force. Revised to eliminate offensive action references but still vetoed. Russia: resolution ignores US/Israel illegal attacks. China: draft fails to capture root causes.",
+  "source_name": "UN News",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "UN News 공식 보도로 투표 결과 상세(11-2-2) 및 결의안 변천 과정 포함 — 이전 PBS 보도보다 상세",
+  "entities": [
+    { "id": "ent-011", "type": "Organization", "name": "UN Security Council" },
+    { "id": "ent-009", "type": "Organization", "name": "Russia" },
+    { "id": "ent-010", "type": "Organization", "name": "China" },
+    { "id": "temp-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-009", "predicate": "participatesIn", "object": "ent-022" },
+    { "subject": "ent-010", "predicate": "participatesIn", "object": "ent-022" }
+  ]
+}

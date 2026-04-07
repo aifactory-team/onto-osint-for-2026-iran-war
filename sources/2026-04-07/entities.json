@@ -2,286 +2,152 @@
   "date": "2026-04-07",
   "entities": [
     {
-      "temp_id": "temp-001",
-      "matched_id": null,
-      "type": "Person",
-      "name": "Donald Trump",
-      "properties": { "role": "US President", "affiliation": "United States" },
-      "source_ids": ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-011", "src-013", "src-023"],
-      "mention_count": 13
-    },
-    {
-      "temp_id": "temp-002",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "Iran",
-      "properties": { "type": "state", "location": "Middle East" },
-      "source_ids": ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-011", "src-012", "src-013", "src-014", "src-015", "src-016", "src-017", "src-018", "src-019", "src-020", "src-021", "src-022", "src-023", "src-024", "src-025"],
-      "mention_count": 25
-    },
-    {
-      "temp_id": "temp-003",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "US Military",
-      "properties": { "type": "military", "location": "United States" },
-      "source_ids": ["src-001", "src-002", "src-007", "src-008", "src-014", "src-016", "src-018", "src-020"],
-      "mention_count": 8
-    },
-    {
-      "temp_id": "temp-004",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "Israel",
-      "properties": { "type": "state", "location": "Middle East" },
-      "source_ids": ["src-001", "src-002", "src-004", "src-008", "src-011"],
-      "mention_count": 5
-    },
-    {
-      "temp_id": "temp-005",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "IRGC (Islamic Revolutionary Guard Corps)",
-      "properties": { "type": "military", "location": "Iran" },
-      "source_ids": ["src-001", "src-007", "src-011", "src-014", "src-025"],
-      "mention_count": 5
-    },
-    {
-      "temp_id": "temp-006",
-      "matched_id": null,
-      "type": "Person",
-      "name": "Majid Khademi",
-      "properties": { "role": "IRGC Intelligence Chief", "affiliation": "IRGC" },
-      "source_ids": ["src-001"],
-      "mention_count": 1
-    },
-    {
-      "temp_id": "temp-007",
-      "matched_id": null,
-      "type": "Location",
-      "name": "Kharg Island",
-      "properties": { "type": "island/oil hub", "coordinates": "29.2333°N, 50.3167°E" },
-      "source_ids": ["src-001", "src-002", "src-007", "src-014", "src-018"],
-      "mention_count": 5
-    },
-    {
-      "temp_id": "temp-008",
-      "matched_id": null,
-      "type": "Location",
-      "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway" },
-      "source_ids": ["src-002", "src-003", "src-007", "src-008", "src-012", "src-015", "src-019", "src-021", "src-024", "src-025"],
-      "mention_count": 10
-    },
-    {
-      "temp_id": "temp-009",
-      "matched_id": null,
-      "type": "Event",
-      "name": "2026 Iran War (Day 39)",
-      "properties": { "date": "2026-04-07", "location": "Iran/Middle East", "participants": "US, Israel, Iran" },
-      "source_ids": ["src-001", "src-002", "src-008"],
-      "mention_count": 3
-    },
-    {
-      "temp_id": "temp-010",
-      "matched_id": null,
-      "type": "Event",
-      "name": "Ceasefire Negotiations",
-      "properties": { "date": "2026-04-06", "participants": "US, Iran, regional mediators" },
-      "source_ids": ["src-003", "src-004", "src-005", "src-006", "src-009", "src-013", "src-017", "src-019"],
-      "mention_count": 8
-    },
-    {
-      "temp_id": "temp-011",
-      "matched_id": null,
-      "type": "Event",
-      "name": "45-Day Ceasefire Proposal",
-      "properties": { "date": "2026-04-06", "participants": "US, Iran" },
-      "source_ids": ["src-003", "src-005"],
-      "mention_count": 2
-    },
-    {
-      "temp_id": "temp-012",
-      "matched_id": null,
-      "type": "Event",
-      "name": "Kharg Island Strikes (Apr 7)",
-      "properties": { "date": "2026-04-07", "location": "Kharg Island", "participants": "US Military" },
-      "source_ids": ["src-001", "src-007", "src-014", "src-018"],
-      "mention_count": 4
-    },
-    {
-      "temp_id": "temp-013",
-      "matched_id": null,
-      "type": "Event",
-      "name": "F-15E Shoot Down & Rescue",
-      "properties": { "date": "2026-04-03", "location": "Iran", "participants": "US Air Force, Iran" },
-      "source_ids": ["src-006", "src-016", "src-017"],
-      "mention_count": 3
-    },
-    {
-      "temp_id": "temp-014",
-      "matched_id": null,
-      "type": "Event",
-      "name": "Iran 10-Point Peace Plan",
-      "properties": { "date": "2026-04-06", "participants": "Iran" },
-      "source_ids": ["src-009", "src-010"],
-      "mention_count": 2
-    },
-    {
-      "temp_id": "temp-015",
-      "matched_id": null,
-      "type": "Event",
-      "name": "Trump Hormuz Deadline (Apr 8 8pm ET)",
-      "properties": { "date": "2026-04-08", "participants": "Donald Trump, Iran" },
-      "source_ids": ["src-002", "src-003", "src-006", "src-007", "src-011", "src-013", "src-023"],
-      "mention_count": 7
-    },
-    {
-      "temp_id": "temp-016",
-      "matched_id": null,
-      "type": "Event",
-      "name": "IRGC Intelligence Chief Assassination",
-      "properties": { "date": "2026-04-07", "location": "Iran", "participants": "Israel, Majid Khademi" },
-      "source_ids": ["src-001"],
-      "mention_count": 1
-    },
-    {
-      "temp_id": "temp-017",
-      "matched_id": null,
-      "type": "Event",
-      "name": "UN Security Council Vote on Hormuz",
-      "properties": { "date": "2026-04-07", "participants": "Russia, China, UN Security Council" },
-      "source_ids": ["src-012", "src-015"],
-      "mention_count": 2
-    },
-    {
-      "temp_id": "temp-018",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "Russia",
-      "properties": { "type": "state" },
-      "source_ids": ["src-012", "src-015"],
-      "mention_count": 2
-    },
-    {
-      "temp_id": "temp-019",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "China",
-      "properties": { "type": "state" },
-      "source_ids": ["src-012", "src-015", "src-024"],
-      "mention_count": 3
-    },
-    {
-      "temp_id": "temp-020",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "UN Security Council",
-      "properties": { "type": "international organization" },
-      "source_ids": ["src-012", "src-015"],
-      "mention_count": 2
-    },
-    {
-      "temp_id": "temp-021",
-      "matched_id": null,
-      "type": "Organization",
-      "name": "US Air Force",
-      "properties": { "type": "military branch" },
-      "source_ids": ["src-006", "src-016", "src-017"],
-      "mention_count": 3
-    },
-    {
-      "temp_id": "temp-022",
-      "matched_id": null,
-      "type": "Location",
-      "name": "Tel Aviv",
-      "properties": { "type": "city" },
-      "source_ids": ["src-011"],
-      "mention_count": 1
-    },
-    {
-      "temp_id": "temp-023",
-      "matched_id": null,
-      "type": "Location",
-      "name": "Haifa",
-      "properties": { "type": "city" },
-      "source_ids": ["src-011"],
-      "mention_count": 1
-    },
-    {
-      "temp_id": "temp-024",
-      "matched_id": null,
-      "type": "Concept",
-      "name": "Nuclear Program",
-      "properties": { "domain": "military/energy" },
-      "source_ids": ["src-010"],
-      "mention_count": 1
-    },
-    {
-      "temp_id": "temp-025",
-      "matched_id": null,
-      "type": "Concept",
-      "name": "Strait of Hormuz Blockade",
-      "properties": { "domain": "maritime/energy" },
-      "source_ids": ["src-019", "src-021", "src-024", "src-025"],
-      "mention_count": 4
-    },
-    {
-      "temp_id": "temp-026",
-      "matched_id": null,
-      "type": "Event",
-      "name": "Iran Retaliatory Strikes on Gulf/Israel",
-      "properties": { "date": "2026-04-07", "location": "Israel, Gulf States", "participants": "Iran, IRGC" },
-      "source_ids": ["src-011", "src-022", "src-025"],
-      "mention_count": 3
-    },
-    {
       "temp_id": "temp-027",
       "matched_id": null,
-      "type": "Event",
-      "name": "Civilian Casualties (3500+ deaths)",
-      "properties": { "date": "2026-04-07", "location": "Iran" },
-      "source_ids": ["src-022"],
-      "mention_count": 1
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan" },
+      "source_ids": ["src-026", "src-027", "src-032"],
+      "mention_count": 5
     },
     {
       "temp_id": "temp-028",
       "matched_id": null,
+      "type": "Person",
+      "name": "Asim Munir",
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan" },
+      "source_ids": ["src-026"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-029",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Pakistan",
+      "properties": { "type": "state", "role": "mediator" },
+      "source_ids": ["src-026", "src-027", "src-032", "src-033", "src-036"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-030",
+      "matched_id": null,
       "type": "Event",
-      "name": "Tehran Severs Diplomatic Ties with US",
-      "properties": { "date": "2026-04-07", "participants": "Iran, United States" },
-      "source_ids": ["src-015"],
+      "name": "2-Week Ceasefire Agreement",
+      "properties": { "date": "2026-04-07", "participants": "US, Iran, Pakistan (mediator)", "condition": "Iran reopens Strait of Hormuz" },
+      "source_ids": ["src-026", "src-027", "src-032"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-031",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Kashan",
+      "properties": { "type": "city", "country": "Iran" },
+      "source_ids": ["src-028"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-032",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Qom",
+      "properties": { "type": "city", "country": "Iran" },
+      "source_ids": ["src-028"],
       "mention_count": 1
+    },
+    {
+      "temp_id": "temp-033",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Mashhad",
+      "properties": { "type": "city", "country": "Iran" },
+      "source_ids": ["src-028"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-034",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel Railway Bridge Strikes",
+      "properties": { "date": "2026-04-07", "locations": "Tehran, Karaj, Tabriz, Kashan, Qom", "targets": "8 rail sections and bridges", "casualties": "at least 2 killed in Kashan" },
+      "source_ids": ["src-028", "src-029"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-035",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel" },
+      "source_ids": ["src-029"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-036",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "UAE (United Arab Emirates)",
+      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "source_ids": ["src-031"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-037",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Bahrain",
+      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "source_ids": ["src-031"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-038",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Kuwait",
+      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "source_ids": ["src-031"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-039",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Operation Sadeq 4 (Gulf Strikes)",
+      "properties": { "date": "2026-04-07", "targets": "UAE Habshan (Exxon/Chevron), Al Ruwais (UAE), Sitrah (Bahrain), Shuaiba (Kuwait)", "wave": "96th" },
+      "source_ids": ["src-031"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-040",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Ballistic Missile Strikes on Israel (Apr 7)",
+      "properties": { "date": "2026-04-07", "targets": "central and southern Israel", "context": "Jewish holiday" },
+      "source_ids": ["src-030"],
+      "mention_count": 2
     }
   ],
   "relations": [
-    { "subject": "temp-001", "predicate": "participatesIn", "object": "temp-010", "source_ids": ["src-003", "src-005", "src-009"], "confidence": 0.95 },
-    { "subject": "temp-001", "predicate": "participatesIn", "object": "temp-015", "source_ids": ["src-002", "src-006", "src-023"], "confidence": 0.95 },
-    { "subject": "temp-002", "predicate": "opposes", "object": "temp-003", "source_ids": ["src-001", "src-008", "src-020"], "confidence": 0.95 },
-    { "subject": "temp-002", "predicate": "opposes", "object": "temp-004", "source_ids": ["src-001", "src-008"], "confidence": 0.95 },
-    { "subject": "temp-003", "predicate": "participatesIn", "object": "temp-012", "source_ids": ["src-007", "src-014", "src-018"], "confidence": 0.95 },
-    { "subject": "temp-005", "predicate": "affiliatedWith", "object": "temp-002", "source_ids": ["src-001", "src-007"], "confidence": 0.95 },
-    { "subject": "temp-006", "predicate": "affiliatedWith", "object": "temp-005", "source_ids": ["src-001"], "confidence": 0.90 },
-    { "subject": "temp-006", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-001"], "confidence": 0.90 },
-    { "subject": "temp-012", "predicate": "locatedIn", "object": "temp-007", "source_ids": ["src-007", "src-014"], "confidence": 0.95 },
-    { "subject": "temp-004", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-001"], "confidence": 0.85 },
-    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-014", "source_ids": ["src-009", "src-010"], "confidence": 0.90 },
-    { "subject": "temp-018", "predicate": "cooperatesWith", "object": "temp-019", "source_ids": ["src-012", "src-015"], "confidence": 0.90 },
-    { "subject": "temp-018", "predicate": "participatesIn", "object": "temp-017", "source_ids": ["src-012"], "confidence": 0.95 },
-    { "subject": "temp-019", "predicate": "participatesIn", "object": "temp-017", "source_ids": ["src-012"], "confidence": 0.95 },
-    { "subject": "temp-021", "predicate": "participatesIn", "object": "temp-013", "source_ids": ["src-016", "src-017"], "confidence": 0.90 },
-    { "subject": "temp-002", "predicate": "relatedTo", "object": "temp-025", "source_ids": ["src-019", "src-021"], "confidence": 0.95 },
-    { "subject": "temp-015", "predicate": "relatedTo", "object": "temp-008", "source_ids": ["src-002", "src-003"], "confidence": 0.90 },
-    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-026", "source_ids": ["src-011", "src-025"], "confidence": 0.90 },
-    { "subject": "temp-003", "predicate": "cooperatesWith", "object": "temp-004", "source_ids": ["src-001", "src-008"], "confidence": 0.95 },
-    { "subject": "temp-014", "predicate": "follows", "object": "temp-011", "source_ids": ["src-009", "src-010"], "confidence": 0.85 },
-    { "subject": "temp-002", "predicate": "opposes", "object": "temp-001", "source_ids": ["src-003", "src-013", "src-019"], "confidence": 0.90 },
-    { "subject": "temp-028", "predicate": "causedBy", "object": "temp-009", "source_ids": ["src-015"], "confidence": 0.80 }
+    { "subject": "temp-027", "predicate": "affiliatedWith", "object": "temp-029", "source_ids": ["src-027"], "confidence": 0.95 },
+    { "subject": "temp-028", "predicate": "affiliatedWith", "object": "temp-029", "source_ids": ["src-026"], "confidence": 0.95 },
+    { "subject": "temp-029", "predicate": "participatesIn", "object": "ent-016", "source_ids": ["src-026", "src-027", "src-032"], "confidence": 0.95 },
+    { "subject": "temp-027", "predicate": "participatesIn", "object": "temp-030", "source_ids": ["src-026", "src-027"], "confidence": 0.95 },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-030", "source_ids": ["src-026"], "confidence": 0.95 },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-030", "source_ids": ["src-026"], "confidence": 0.90 },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-034", "source_ids": ["src-028", "src-029"], "confidence": 0.95 },
+    { "subject": "temp-035", "predicate": "affiliatedWith", "object": "ent-004", "source_ids": ["src-029"], "confidence": 0.95 },
+    { "subject": "temp-035", "predicate": "participatesIn", "object": "temp-034", "source_ids": ["src-029"], "confidence": 0.90 },
+    { "subject": "ent-005", "predicate": "participatesIn", "object": "temp-039", "source_ids": ["src-031"], "confidence": 0.95 },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-040", "source_ids": ["src-030"], "confidence": 0.90 },
+    { "subject": "temp-030", "predicate": "follows", "object": "ent-020", "source_ids": ["src-026"], "confidence": 0.90 },
+    { "subject": "temp-034", "predicate": "causedBy", "object": "ent-020", "source_ids": ["src-028"], "confidence": 0.85 },
+    { "subject": "temp-039", "predicate": "follows", "object": "ent-023", "source_ids": ["src-031"], "confidence": 0.85 }
   ],
   "stats": {
-    "total_entities": 28,
-    "new_entities": 28,
+    "total_entities": 14,
+    "new_entities": 14,
     "matched_entities": 0,
-    "total_relations": 22
+    "total_relations": 14
   }
 }

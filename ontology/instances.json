@@ -10,7 +10,7 @@
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 13
+      "mention_count": 18
     },
     {
       "id": "ent-002",
@@ -19,7 +19,7 @@
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 25
+      "mention_count": 35
     },
     {
       "id": "ent-003",
@@ -28,7 +28,7 @@
       "properties": { "type": "military", "location": "United States" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 8
+      "mention_count": 10
     },
     {
       "id": "ent-004",
@@ -37,7 +37,7 @@
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 5
+      "mention_count": 12
     },
     {
       "id": "ent-005",
@@ -46,7 +46,7 @@
       "properties": { "type": "military", "location": "Iran" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 5
+      "mention_count": 10
     },
     {
       "id": "ent-006",
@@ -64,7 +64,7 @@
       "properties": { "type": "island/oil hub", "coordinates": "29.2333°N, 50.3167°E" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 5
+      "mention_count": 7
     },
     {
       "id": "ent-008",
@@ -73,7 +73,7 @@
       "properties": { "type": "strait/waterway" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 10
+      "mention_count": 15
     },
     {
       "id": "ent-009",
@@ -82,7 +82,7 @@
       "properties": { "type": "state" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 2
+      "mention_count": 4
     },
     {
       "id": "ent-010",
@@ -91,7 +91,7 @@
       "properties": { "type": "state" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 3
+      "mention_count": 5
     },
     {
       "id": "ent-011",
@@ -100,7 +100,7 @@
       "properties": { "type": "international organization" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 2
+      "mention_count": 4
     },
     {
       "id": "ent-012",
@@ -118,7 +118,7 @@
       "properties": { "type": "city" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 1
+      "mention_count": 2
     },
     {
       "id": "ent-014",
@@ -127,7 +127,7 @@
       "properties": { "type": "city" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 1
+      "mention_count": 2
     },
     {
       "id": "ent-015",
@@ -136,16 +136,16 @@
       "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 25
+      "mention_count": 30
     },
     {
       "id": "ent-016",
       "type": "Event",
       "name": "Ceasefire Negotiations",
-      "properties": { "date": "2026-04-06~07", "participants": "US, Iran, regional mediators" },
+      "properties": { "date": "2026-04-06~07", "participants": "US, Iran, Pakistan (mediator)" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 8
+      "mention_count": 15
     },
     {
       "id": "ent-017",
@@ -154,7 +154,7 @@
       "properties": { "date": "2026-04-07", "location": "Kharg Island" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 4
+      "mention_count": 6
     },
     {
       "id": "ent-018",
@@ -172,16 +172,16 @@
       "properties": { "date": "2026-04-06" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 2
+      "mention_count": 4
     },
     {
       "id": "ent-020",
       "type": "Event",
       "name": "Trump Hormuz Deadline",
-      "properties": { "date": "2026-04-08 20:00 ET" },
+      "properties": { "date": "2026-04-08 20:00 ET", "status": "superseded by 2-week ceasefire" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 7
+      "mention_count": 10
     },
     {
       "id": "ent-021",
@@ -196,10 +196,10 @@
       "id": "ent-022",
       "type": "Event",
       "name": "UN Security Council Vote on Hormuz (Vetoed)",
-      "properties": { "date": "2026-04-07", "result": "vetoed by Russia and China" },
+      "properties": { "date": "2026-04-07", "result": "vetoed by Russia and China", "vote": "11-2-2 (Colombia, Pakistan abstained)" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 2
+      "mention_count": 4
     },
     {
       "id": "ent-023",
@@ -208,7 +208,7 @@
       "properties": { "date": "2026-04-07", "targets": "Tel Aviv, Haifa, Gulf oil facilities" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 3
+      "mention_count": 5
     },
     {
       "id": "ent-024",
@@ -235,8 +235,134 @@
       "properties": { "domain": "maritime/energy" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
-      "mention_count": 4
+      "mention_count": 6
+    },
+    {
+      "id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-028",
+      "type": "Person",
+      "name": "Asim Munir",
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan",
+      "properties": { "type": "state", "role": "mediator in Iran war" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-030",
+      "type": "Event",
+      "name": "2-Week Ceasefire Agreement",
+      "properties": { "date": "2026-04-07", "participants": "US, Iran, Pakistan (mediator)", "condition": "Iran reopens Strait of Hormuz" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-031",
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-032",
+      "type": "Event",
+      "name": "Israel Railway Bridge Strikes",
+      "properties": { "date": "2026-04-07", "locations": "Tehran, Karaj, Tabriz, Kashan, Qom", "targets": "8 rail sections and bridges", "casualties": "at least 2 killed in Kashan" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-033",
+      "type": "Event",
+      "name": "IRGC Operation Sadeq 4 (Gulf Energy Strikes)",
+      "properties": { "date": "2026-04-07", "targets": "Habshan UAE, Al Ruwais UAE, Sitrah Bahrain, Shuaiba Kuwait", "wave": "96th" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-034",
+      "type": "Event",
+      "name": "Iran Ballistic Missile Strikes on Israel (Apr 7)",
+      "properties": { "date": "2026-04-07", "targets": "central and southern Israel", "context": "Jewish holiday" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-035",
+      "type": "Organization",
+      "name": "UAE (United Arab Emirates)",
+      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-036",
+      "type": "Organization",
+      "name": "Bahrain",
+      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-037",
+      "type": "Organization",
+      "name": "Kuwait",
+      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-038",
+      "type": "Location",
+      "name": "Kashan",
+      "properties": { "type": "city", "country": "Iran" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-039",
+      "type": "Location",
+      "name": "Qom",
+      "properties": { "type": "city", "country": "Iran" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-040",
+      "type": "Location",
+      "name": "Mashhad",
+      "properties": { "type": "city", "country": "Iran" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
     }
   ],
-  "total_count": 26
+  "total_count": 40
 }

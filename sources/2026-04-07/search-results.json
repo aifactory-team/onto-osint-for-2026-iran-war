@@ -1,139 +1,168 @@
 {
   "date": "2026-04-07",
-  "collected_at": "2026-04-07T00:00:00Z",
+  "collected_at": "2026-04-07T23:00:00Z",
   "config_topic": "2026 Iran War",
-  "search_count": 8,
+  "search_count": 12,
   "total_results": 80,
-  "expanded_keywords": [],
+  "expanded_keywords": [
+    "Iran war", "Trump deadline Hormuz", "Kharg Island strikes",
+    "IRGC retaliation", "ceasefire negotiations", "UN Security Council veto",
+    "Pakistan mediation", "Israel railway bridge Iran",
+    "이란 전쟁", "호르무즈 해협", "트럼프 최후통첩", "이란 휴전"
+  ],
   "searches": [
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Iran war 2026 latest news April",
+      "keyword": "Iran war April 7 2026 latest updates Trump deadline Hormuz",
       "language": "en",
-      "timestamp": "2026-04-07T00:01:00Z",
+      "timestamp": "2026-04-07T23:00:00Z",
       "result_count": 10,
       "results": [
-        { "title": "Iran war updates: Ceasefire response 'not good enough', says Trump", "url": "https://www.aljazeera.com/news/liveblog/2026/4/6/iran-war-live-tehran-rejects-trumps-tuesday-deadline-on-strait-of-hormuz", "snippet": "Trump called a 45-day ceasefire proposal 'not good enough'. Iran rejected the proposal and called for a permanent end to the war.", "source_name": "Al Jazeera" },
-        { "title": "2026 Iran war - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Iran_war", "snippet": "Overview of the 2026 Iran war including US-Israeli attacks beginning Feb 28.", "source_name": "Wikipedia" },
-        { "title": "Day 38 of Middle East conflict — Trump press conference, Iran rejects 45-day ceasefire proposal", "url": "https://www.cnn.com/2026/04/06/world/live-news/iran-war-us-trump-oil", "snippet": "Iran rejects 45-day ceasefire proposal. Trump threatens to demolish Iran's power plants and bridges.", "source_name": "CNN" },
-        { "title": "Iran war live updates: Trump vows to 'blow everything up' if proposed cease-fire deal not struck", "url": "https://www.ms.now/liveblog/iran-war-news-today-trump-us-april-6-2026", "snippet": "Trump vows to blow everything up if proposed cease-fire deal not struck.", "source_name": "MS Now" },
-        { "title": "Iran war: What is happening on day 39 of US-Israeli attacks?", "url": "https://www.aljazeera.com/news/2026/4/7/iran-war-what-is-happening-on-day-39-of-us-israeli-attacks", "snippet": "Day 39 overview of the US-Israeli attacks on Iran. US forces began strikes on Kharg Island.", "source_name": "Al Jazeera" },
-        { "title": "Trump says Iran could be 'taken out in one night': What we know about the war, now in its 6th week", "url": "https://www.cnn.com/2026/04/05/middleeast/iran-us-israel-war-what-we-know-week-6-intl-hnk", "snippet": "Week 6 overview. Trump says Iran could be taken out in one night.", "source_name": "CNN" },
-        { "title": "Iran war: What is happening on day 38 of US-Israeli attacks?", "url": "https://www.aljazeera.com/news/2026/4/6/iran-war-what-is-happening-on-day-38-of-us-israeli-attacks", "snippet": "Day 38 overview. Iran rejected ceasefire and IRGC intelligence chief killed.", "source_name": "Al Jazeera" },
-        { "title": "Day 37 of Middle East conflict — US forces rescue crew member from F-15 jet shot down over Iran", "url": "https://www.cnn.com/2026/04/05/world/live-news/iran-war-us-trump-oil", "snippet": "US forces rescue crew member from F-15 jet shot down over Iran.", "source_name": "CNN" },
-        { "title": "Iran rejects a U.S. ceasefire plan as Trump again threatens to bomb its infrastructure", "url": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates", "snippet": "Iran rejected US ceasefire plan. Trump threatens to bomb bridges and power plants.", "source_name": "NPR" },
-        { "title": "Live updates: Iran war; Trump warns 'entire country' could be taken out, Tuesday deadline for Strait of Hormuz", "url": "https://www.cnn.com/2026/04/07/world/live-news/iran-war-trump-us-israel", "snippet": "Trump warns entire country could be taken out. 8pm ET Tuesday deadline for Strait of Hormuz.", "source_name": "CNN" }
+        { "title": "As deadline nears, Pakistan asks Trump for extension, Iran to open Hormuz", "url": "https://www.aljazeera.com/news/liveblog/2026/4/7/iran-war-live-trump-warns-of-devastating-attacks-as-deal-deadline-nears", "snippet": "Pakistan PM asks Trump to extend deadline 2 weeks, asks Iran to open Hormuz", "source_name": "Al Jazeera" },
+        { "title": "Live Updates: Trump announces 2-week ceasefire in Iran war, contingent on Iran reopening Strait of Hormuz", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-human-chains-israel-train-strikes/", "snippet": "Trump agrees to suspend bombing for 2 weeks based on Pakistan mediation", "source_name": "CBS News" },
+        { "title": "Trump pauses Iran strikes for two weeks to negotiate 10-point peace deal", "url": "https://www.foxnews.com/live-news/trump-iran-deadline-israel-hormuz-april-7", "snippet": "Trump pauses strikes contingent on Hormuz reopening", "source_name": "Fox News" },
+        { "title": "Iran war live updates: Trump agrees to two-week ceasefire after threatening massive attacks", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-deadline-hormuz-infrastructure-ceasefire-rcna267039", "snippet": "Trump agrees to ceasefire after threatening massive infrastructure attacks", "source_name": "NBC News" },
+        { "title": "Live updates: Trump agrees to two-week ceasefire with Iran", "url": "https://www.cnn.com/2026/04/07/world/live-news/iran-war-trump-us-israel", "snippet": "Trump agrees to two-week ceasefire with Iran", "source_name": "CNN" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Iran military conflict 2026 April update",
+      "keyword": "Iran war ceasefire negotiations April 2026",
       "language": "en",
-      "timestamp": "2026-04-07T00:02:00Z",
+      "timestamp": "2026-04-07T23:01:00Z",
       "result_count": 10,
       "results": [
-        { "title": "Trump warns of 'critical period' in Iran war, threatening severe strikes if there's no deal by Tuesday night", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-bridges-ceasefire-push-air-force-rescue/", "snippet": "Trump warns of critical period, threatening severe strikes if no deal by Tuesday night.", "source_name": "CBS News" },
-        { "title": "Iran war live updates: U.S. strikes Kharg Island, official says; Trump doubles down on massive attack threats", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-deadline-hormuz-infrastructure-ceasefire-rcna267039", "snippet": "U.S. strikes Kharg Island. Trump doubles down on massive attack threats.", "source_name": "NBC News" },
-        { "title": "Iran war enters its 6th week as military searches for downed jet crew member", "url": "https://www.npr.org/2026/04/04/nx-s1-5773436/iran-war-updates", "snippet": "War enters 6th week. Search for downed F-15E crew member continues.", "source_name": "NPR" },
-        { "title": "Daily Report: The Second Iran War – April 6, 2026 (18:00)", "url": "https://israel-alma.org/daily-report-the-second-iran-war-april-6-2026-1800/", "snippet": "Alma Center daily report on the Second Iran War, April 6 2026.", "source_name": "Alma Research and Education Center" }
+        { "title": "Pakistan proposes 2-week Iran ceasefire ahead of Trump deadline", "url": "https://www.axios.com/2026/04/07/iran-us-ceasefire-pakistan-two-weeks", "snippet": "Pakistan proposes 2-week ceasefire, both sides accept", "source_name": "Axios" },
+        { "title": "US, Iran to pause war, agree to 2-week ceasefire", "url": "https://www.axios.com/2026/04/07/iran-2-week-ceasfire-trump-pakistan", "snippet": "US and Iran agree to 2-week ceasefire via Pakistan mediation", "source_name": "Axios" },
+        { "title": "US, Iran mediators discuss potential 45-day ceasefire, sources say", "url": "https://www.axios.com/2026/04/06/iran-war-us-tehran-ceasefire-talks", "snippet": "Mediators discuss 45-day ceasefire", "source_name": "Axios" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "이란 전쟁 2026년 4월 최신 동향",
+      "keyword": "Kharg Island strikes US military Iran 2026",
+      "language": "en",
+      "timestamp": "2026-04-07T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "US strikes Kharg Island military targets, American official confirms to 'Post'", "url": "https://www.jpost.com/middle-east/iran-news/article-892327", "snippet": "US confirms strikes on Kharg Island military targets", "source_name": "Jerusalem Post" },
+        { "title": "U.S. military launches strikes on Iran's Kharg Island", "url": "https://www.npr.org/2026/04/07/nx-s1-5776495/u-s-military-launches-strikes-on-irans-kharg-island", "snippet": "US military launches strikes on Kharg Island", "source_name": "NPR" },
+        { "title": "US hits military targets on Iran's Kharg Island", "url": "https://www.defensenews.com/news/pentagon-congress/2026/04/07/us-hits-military-targets-on-irans-kharg-island/", "snippet": "US hits military targets on Kharg Island", "source_name": "Defense News" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 4월 최신 뉴스 호르무즈 해협",
       "language": "ko",
-      "timestamp": "2026-04-07T00:03:00Z",
+      "timestamp": "2026-04-07T23:03:00Z",
       "result_count": 10,
       "results": [
-        { "title": "2026년 이란 전쟁 - 위키백과", "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81", "snippet": "2026년 이란 전쟁 위키백과 개요.", "source_name": "위키백과" },
-        { "title": "미국-이란 전쟁 - 나무위키", "url": "https://namu.wiki/w/%EB%AF%B8%EA%B5%AD-%EC%9D%B4%EB%9E%80%20%EC%A0%84%EC%9F%81", "snippet": "미국-이란 전쟁 나무위키 문서.", "source_name": "나무위키" },
-        { "title": "미국·이란, 필사적인 조종사 수색 작전...휴전 협상 엇갈린 신호", "url": "https://www.ytn.co.kr/_ln/0104_202604051056213990", "snippet": "F-15E 조종사 구출 작전. 휴전 협상 엇갈린 신호.", "source_name": "YTN" },
-        { "title": "이란전쟁 보도…'누가 이겼나'가 '누가 죽었나'보다 10배 많아", "url": "https://newstapa.org/article/QTExv", "snippet": "이란전쟁 보도에서 승리 담론이 인명피해 보도보다 10배 많다는 분석.", "source_name": "뉴스타파" },
-        { "title": "이 시각 호르무즈‥휴전안 협상 전망은?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813074_37004.html", "snippet": "호르무즈 해협 상황과 휴전안 협상 전망 분석.", "source_name": "MBC" },
-        { "title": "진 깊숙한 곳에서 40시간: 추락한 F-15E 조종사 구출을 위한 비밀 작전", "url": "https://korea.news-pravda.com/world/2026/04/06/62144.html", "snippet": "F-15E 조종사 구출 비밀 작전 40시간 상세 보도.", "source_name": "Pravda 한국" },
-        { "title": "전쟁 5주째 완강한 이란…'미국이 밀리고 있다'", "url": "https://www.mindlenews.com/news/articleView.html?idxno=19346", "snippet": "전쟁 5주째, 이란이 완강한 저항을 보이며 미국이 밀리고 있다는 분석.", "source_name": "민들레" },
-        { "title": "미국-이란 전쟁/경과 - 나무위키", "url": "https://namu.wiki/w/%EB%AF%B8%EA%B5%AD-%EC%9D%B4%EB%9E%80%20%EC%A0%84%EC%9F%81/%EA%B2%BD%EA%B3%BC", "snippet": "미국-이란 전쟁 경과 상세.", "source_name": "나무위키" }
+        { "title": "'파병'은 어렵고 '통행료'는 불가‥호르무즈 어떻게 푸나?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6812267_37004.html", "snippet": "호르무즈 해협 해결 방안 분석", "source_name": "MBC" },
+        { "title": "이 시각 호르무즈‥휴전안 협상 전망은?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813074_37004.html", "snippet": "호르무즈 해협 휴전안 협상 전망 분석", "source_name": "MBC" },
+        { "title": "'최후통첩' 13시간 앞으로‥트럼프 공격 명령 내리나", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813371_37004.html", "snippet": "트럼프 최후통첩 13시간 앞으로, 공격 명령 가능성 분석", "source_name": "MBC" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "이란 군사 충돌 2026 최신 뉴스",
+      "keyword": "Iran IRGC retaliation Gulf oil facilities April 2026",
+      "language": "en",
+      "timestamp": "2026-04-07T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field", "url": "https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field", "snippet": "Iran intensifies attacks on Gulf energy sites in retaliation", "source_name": "PBS" },
+        { "title": "IRGC targets energy, petrochemical sites across Gulf in response to attack on Iran's infra; says 2nd phase of ops will be 'more devastating'", "url": "https://www.tribuneindia.com/news/world/irgc-targets-energy-petrochemical-sites-across-gulf-in-response-to-attack-on-irans-infra-says-2nd-phase-of-ops-will-be-more-devastating/", "snippet": "IRGC targets energy sites, warns 2nd phase will be more devastating", "source_name": "Tribune India" },
+        { "title": "Iran's Revolutionary Guards say they targeted petrochemical facilities in the Gulf", "url": "http://www.hydrocarbonprocessing.com/news/2026/04/irans-revolutionary-guards-say-they-targeted-petrochemical-facilities-in-the-gulf/", "snippet": "IRGC confirms targeting petrochemical facilities in Gulf", "source_name": "Hydrocarbon Processing" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Russia China UN Security Council Hormuz veto 2026",
+      "language": "en",
+      "timestamp": "2026-04-07T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Security Council: Russia and China veto resolution on Strait of Hormuz", "url": "https://news.un.org/en/story/2026/04/1167261", "snippet": "11 voted in favour, Russia and China vetoed, Colombia and Pakistan abstained", "source_name": "UN News" },
+        { "title": "China, Russia veto scaled-back Hormuz resolution at UN Security Council", "url": "https://www.al-monitor.com/originals/2026/04/china-russia-veto-scaled-back-hormuz-resolution-un-security-council", "snippet": "Russia and China veto even watered-down resolution", "source_name": "Al-Monitor" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel railway bridge strikes Iran trains warning April 7 2026",
+      "language": "en",
+      "timestamp": "2026-04-07T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Israel hits railway bridge, threatens trains before Trump deadline expires", "url": "https://www.aljazeera.com/news/2026/4/7/israel-warns-iranians-to-avoid-trains-as-trump-deadline-approaches", "snippet": "Israel strikes 8 rail sections, warns Iranians not to travel by train", "source_name": "Al Jazeera" },
+        { "title": "US, IDF strikes hit Iranian rail and Kharg Island; Israel faces ongoing missile attacks", "url": "https://www.timesofisrael.com/us-israeli-strikes-hit-iranian-rail-and-kharg-island-israel-faces-ongoing-missile-attacks/", "snippet": "US and IDF strike Iranian rail and Kharg Island", "source_name": "Times of Israel" },
+        { "title": "Netanyahu confirms strikes on Iran's bridges and railways to dismantle IRGC", "url": "https://aninews.in/news/world/middle-east/crushing-the-terrorist-regime-netanyahu-confirms-strikes-on-irans-bridges-and-railways-to-dismantle-irgc20260407203322/", "snippet": "Netanyahu: 'Crushing the terrorist regime' — confirms bridge and railway strikes", "source_name": "ANI" },
+        { "title": "Iranian rail bridge hit by airstrike after Israel warned citizens to not take trains", "url": "https://www.railtech.com/all/2026/04/07/iranian-rail-bridge-hit-by-airstrike-after-israel-warned-citizens-to-not-take-trains/", "snippet": "Rail bridge hit after Israel warning, 2 killed in Kashan", "source_name": "RailTech" },
+        { "title": "Iran fires ballistic missile salvos at central, southern Israel on Jewish holiday", "url": "https://www.timesofisrael.com/liveblog-april-7-2026/", "snippet": "Iran fires ballistic missiles at Israel on Jewish holiday", "source_name": "Times of Israel" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump two week ceasefire Iran Pakistan mediation April 7 2026",
+      "language": "en",
+      "timestamp": "2026-04-07T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "US, Iran to pause war, agree to 2-week ceasefire", "url": "https://www.axios.com/2026/04/07/iran-2-week-ceasfire-trump-pakistan", "snippet": "US and Iran agree to 2-week ceasefire via Pakistan mediation", "source_name": "Axios" },
+        { "title": "Pakistan appeals to Trump to extend deadline, Iran to reopen Hormuz Strait", "url": "https://www.aljazeera.com/news/2026/4/7/pakistan-appeals-to-trump-to-extend-deadline-iran-to-reopen-strait-of-hormuz", "snippet": "Pakistan appeals to both sides for 2-week extension", "source_name": "Al Jazeera" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC threatens Apple Google Microsoft Tesla Gulf tech 2026",
+      "language": "en",
+      "timestamp": "2026-04-07T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Iran threatens Nvidia, Apple and other tech giants with attacks", "url": "https://www.cnbc.com/2026/04/01/iran-irgc-nvidia-appple-attack-threat.html", "snippet": "IRGC threatens 18 US tech companies in Gulf", "source_name": "CNBC" },
+        { "title": "IRGC Threatens Apple, Google, Microsoft and Tesla Across Gulf From Tonight", "url": "https://defencesecurityasia.com/en/irgc-threatens-apple-google-microsoft-tesla-gulf-tech-infrastructure-april-2026/", "snippet": "IRGC threatens tech infrastructure across Gulf", "source_name": "Defence Security Asia" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 트럼프 최후통첩 휴전 거부 2026년 4월",
       "language": "ko",
-      "timestamp": "2026-04-07T00:04:00Z",
+      "timestamp": "2026-04-07T23:09:00Z",
       "result_count": 10,
       "results": [
-        { "title": "2026년 중동 위기 - 나무위키", "url": "https://namu.wiki/w/2026%EB%85%84%20%EC%A4%91%EB%8F%99%20%EC%9C%84%EA%B8%B0", "snippet": "2026년 중동 위기 전반 개요.", "source_name": "나무위키" },
-        { "title": "미국 특수부대가 이란에서 탈출한 방법과 항공기", "url": "https://korea.news-pravda.com/dprk/2026/04/07/62181.html", "snippet": "미국 특수부대 이란 탈출 작전 상세.", "source_name": "Pravda 한국" },
-        { "title": "[속보] 미군, 이란 하르그섬 군시설 공격", "url": "https://imnews.imbc.com/news/2026/world/article/6813396_36925.html", "snippet": "미군이 이란 최대 원유 수출 거점인 하르그섬의 군 시설을 공격.", "source_name": "MBC" },
-        { "title": "민간 시설 또 공격하면 더 큰 보복‥민간인에게 전가되는 전쟁 피해", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813078_37004.html", "snippet": "민간 시설 공격에 대한 보복 경고, 민간인 피해 심화.", "source_name": "MBC" }
+        { "title": "'최후통첩' 13시간 앞으로‥트럼프 공격 명령 내리나", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813371_37004.html", "snippet": "트럼프 최후통첩 13시간 앞으로, 공격 명령 가능성 분석", "source_name": "MBC" },
+        { "title": "트럼프 \"이란 지옥문 48시간 남아\"…이란 \"초조한 최후통첩 거부\"", "url": "https://news.nate.com/view/20260405n01199", "snippet": "이란, 트럼프 최후통첩 거부", "source_name": "네이트" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Iran Strait of Hormuz blockade April 7 2026",
+      "keyword": "Pakistan Shehbaz Sharif Iran mediation ceasefire April 2026",
       "language": "en",
-      "timestamp": "2026-04-07T00:05:00Z",
+      "timestamp": "2026-04-07T23:10:00Z",
       "result_count": 10,
       "results": [
-        { "title": "2026 Strait of Hormuz crisis - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "snippet": "Overview of the 2026 Strait of Hormuz crisis.", "source_name": "Wikipedia" },
-        { "title": "Iran war threatens to escalate as Trump demands reopening of Strait of Hormuz", "url": "https://www.foxnews.com/live-news/trump-iran-deadline-israel-hormuz-april-7", "snippet": "War threatens to escalate as Trump demands reopening of Strait of Hormuz.", "source_name": "Fox News" },
-        { "title": "Iran War Updates: Tehran Severs Remaining Diplomatic Ties With US, Russia, China Veto UN Resolution", "url": "https://www.republicworld.com/world-news/iran-war-live-tehran-rejects-trumps-tuesday-deadline-on-strait-of-hormuz-trump-vows-strikes-on-irans-infrastructure-live-news", "snippet": "Tehran severs remaining diplomatic ties with US. Russia and China veto UN resolution to reopen Hormuz.", "source_name": "Republic World" },
-        { "title": "Russia and China veto watered-down UN resolution aimed at reopening the Strait of Hormuz", "url": "https://www.pbs.org/newshour/world/russia-and-china-veto-watered-down-un-resolution-aimed-at-reopening-the-strait-of-hormuz", "snippet": "Russia and China veto UN Security Council resolution to reopen the Strait of Hormuz.", "source_name": "PBS" },
-        { "title": "Iran defiant on eve of Trump's ceasefire deadline", "url": "https://www.al-monitor.com/originals/2026/04/iran-defiant-eve-trumps-ceasefire-deadline", "snippet": "Iran defiant on eve of Trump's ceasefire deadline.", "source_name": "Al-Monitor" },
-        { "title": "Live Updates: Trump says 'whole civilization will die tonight' as strikes on Iran ramp up ahead of his deadline", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-human-chains-israel-train-strikes/", "snippet": "Trump says whole civilization will die tonight as strikes ramp up ahead of deadline.", "source_name": "CBS News" }
+        { "title": "Pakistan to continue with Iran-US mediation despite 'obstacles'", "url": "https://www.aljazeera.com/news/2026/4/2/pakistan-to-continue-with-iran-us-mediation-despite-obstacles", "snippet": "Pakistan continues mediation between US and Iran", "source_name": "Al Jazeera" },
+        { "title": "Pakistan's Search for Diplomatic Relevance Amid the Iran War", "url": "https://thediplomat.com/2026/04/pakistans-search-for-diplomatic-relevance-amid-the-iran-war/", "snippet": "Analysis of Pakistan's mediation role", "source_name": "The Diplomat" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Iran ceasefire negotiations Trump deadline April 2026",
+      "keyword": "Iran war civilian casualties infrastructure April 2026",
       "language": "en",
-      "timestamp": "2026-04-07T00:06:00Z",
+      "timestamp": "2026-04-07T23:11:00Z",
       "result_count": 10,
       "results": [
-        { "title": "Iran sends 'maximalist' peace plan response as Trump deadline looms", "url": "https://www.axios.com/2026/04/06/iran-trump-peace-plan-ceasefire", "snippet": "Iran sent a 10-point response to the proposals. US official called it 'maximalist'.", "source_name": "Axios" },
-        { "title": "Iran Launches New Attacks as Trump's Ceasefire Deadline Approaches", "url": "https://www.bloomberg.com/news/articles/2026-04-07/iran-keeps-up-attacks-before-us-deadline-dimming-peace-chances", "snippet": "Iran launches new attacks as ceasefire deadline approaches, dimming peace chances.", "source_name": "Bloomberg" },
-        { "title": "What's Iran's 10-point peace plan that Trump says is 'not good enough'?", "url": "https://www.aljazeera.com/news/2026/4/7/whats-irans-10-point-peace-plan-that-trump-says-is-not-good-enough", "snippet": "Details of Iran's 10-point peace plan including permanent ceasefire, reparations, and nuclear program terms.", "source_name": "Al Jazeera" },
-        { "title": "Trump's deadline looms as Iran rejects temporary ceasefire proposal", "url": "https://www.nbcnews.com/politics/national-security/trumps-deadline-looms-iran-rejects-temporary-ceasefire-proposal-rcna266905", "snippet": "Iran rejects temporary 45-day ceasefire proposal as Trump deadline looms.", "source_name": "NBC News" },
-        { "title": "U.S., Iran study ceasefire plan as Trump's 'hell' warning nears deadline", "url": "https://www.cnbc.com/2026/04/06/us-and-iran-receive-peace-proposal-as-trump-vows-hell-if-strait-stays-shut.html", "snippet": "Two-phase deal discussed: 45-day ceasefire then full agreement to end the war.", "source_name": "CNBC" },
-        { "title": "'Every Bridge in Iran Will Be Decimated': Trump Renews Threat as Iran Rejects Ceasefire Offer", "url": "https://time.com/article/2026/04/06/iran-rejects-ceasefire-as-trump-deadline-looms-and-strikes-escalate/", "snippet": "Trump renews threat to destroy every bridge in Iran.", "source_name": "Time" },
-        { "title": "Iran War: New Trump Deadline Looms as Ceasefire Push Keeps Markets on Edge", "url": "https://www.bloomberg.com/news/articles/2026-04-06/new-trump-deadline-looms-as-ceasefire-push-keeps-markets-on-edge", "snippet": "Markets on edge as ceasefire push continues with new Trump deadline.", "source_name": "Bloomberg" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "이란 호르무즈 해협 봉쇄 2026년 4월",
-      "language": "ko",
-      "timestamp": "2026-04-07T00:07:00Z",
-      "result_count": 10,
-      "results": [
-        { "title": "파병은 어렵고 통행료는 불가‥호르무즈 어떻게 푸나?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6812267_37004.html", "snippet": "호르무즈 해협 문제 해결 방안 분석. 파병 어렵고 통행료 불가능.", "source_name": "MBC" },
-        { "title": "이란사태 본 국내 전문가들 '호르무즈 해협 봉쇄 오래 못간다'", "url": "https://v.daum.net/v/20260306070037211", "snippet": "국내 전문가들, 호르무즈 해협 봉쇄 장기화 어렵다는 분석.", "source_name": "Daum" },
-        { "title": "드디어 입 연 중국 '호르무즈 막힌 건 미국 때문'", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6812270_37004.html", "snippet": "중국이 호르무즈 봉쇄 책임을 미국에 돌림.", "source_name": "MBC" },
-        { "title": "이란, 걸프국 빅테크 기업 공격...호르무즈 '톨게이트화' 우려", "url": "https://www.ytn.co.kr/_ln/0104_202604031542172077", "snippet": "이란이 걸프국 빅테크 기업 공격. 호르무즈 해협 톨게이트화 우려.", "source_name": "YTN" },
-        { "title": "이란, 호르무즈해협 봉쇄 장기화 가능성…미국 정보당국 판단", "url": "https://www.dailian.co.kr/news/view/1629639", "snippet": "미국 정보당국, 이란 호르무즈 봉쇄 해제 가능성 낮다고 판단.", "source_name": "데일리안" },
-        { "title": "美 정보당국 '이란 호르무즈 봉쇄 해제 가능성 낮다'", "url": "https://www.seoul.co.kr/news/international/USA-amrica/2026/04/04/20260404500024", "snippet": "미국 정보당국이 이란의 호르무즈 봉쇄 해제 가능성이 낮다고 분석.", "source_name": "서울신문" },
-        { "title": "이란, 일시적 휴전 거부…호르무즈 해협 봉쇄 유지 강행", "url": "https://www.g-enews.com/article/Global-Biz/2026/04/202604061812022772e250e8e188_1", "snippet": "이란이 일시적 휴전을 거부하고 호르무즈 해협 봉쇄를 유지.", "source_name": "글로벌이코노믹" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Iran Kharg Island strike oil April 2026",
-      "language": "en",
-      "timestamp": "2026-04-07T00:08:00Z",
-      "result_count": 10,
-      "results": [
-        { "title": "Kharg Island: Iran's Oil Lifeline and a Tempting U.S. Target", "url": "https://www.cfr.org/articles/kharg-island-irans-oil-lifeline-and-a-tempting-u-s-target", "snippet": "Analysis of Kharg Island as Iran's oil lifeline and US target.", "source_name": "Council on Foreign Relations" },
-        { "title": "U.S. bombing of Kharg Island, Iran's critical oil hub, sparks new threats to target Gulf oil infrastructure", "url": "https://www.nbcnews.com/world/iran/iran-threatens-strike-oil-facilities-us-hits-military-targets-kharg-is-rcna263453", "snippet": "Iran threatens to strike oil facilities after US hits military targets on Kharg Island.", "source_name": "NBC News" },
-        { "title": "US has struck Iranian military targets on Kharg Island. Here's what we know about it", "url": "https://www.cnn.com/2026/04/07/middleeast/kharg-island-us-assault-risk-trump-intl", "snippet": "US struck more than 50 military targets on Kharg Island. Oil infrastructure not targeted.", "source_name": "CNN" },
-        { "title": "2026 Kharg Island attack - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Kharg_Island_raid", "snippet": "Wikipedia overview of the 2026 Kharg Island attack.", "source_name": "Wikipedia" }
+        { "title": "The Human Dimension of the Iran War: The Intolerable Plight of Civilians", "url": "https://thesoufancenter.org/intelbrief-2026-april-7/", "snippet": "Soufan Center report on civilian dimension of Iran war", "source_name": "Soufan Center" },
+        { "title": "US-Israel attacks on Iran: Death toll and injuries live tracker", "url": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker", "snippet": "Live tracker of death toll and injuries", "source_name": "Al Jazeera" }
       ]
     }
   ]

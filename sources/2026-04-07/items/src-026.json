@@ -1,0 +1,28 @@
+{
+  "id": "src-026",
+  "title": "US, Iran to pause war, agree to 2-week ceasefire",
+  "url": "https://www.axios.com/2026/04/07/iran-2-week-ceasfire-trump-pakistan",
+  "snippet": "Trump agreed to suspend bombing for 2 weeks based on Pakistan PM Shehbaz Sharif and FM Asim Munir mediation. Contingent on Iran reopening Strait of Hormuz completely and immediately. Israel also agreed to suspend strikes. Iran 'positively reviewing' the proposal. Trump described Iran's 10-point peace plan as 'workable basis on which to negotiate'.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고서에 없는 신규 사건: 2주 휴전 합의는 금일 마감 직전 발표된 새로운 전개",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President" },
+    { "id": "temp-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM" },
+    { "id": "temp-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Field Marshal" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "temp-027", "predicate": "participatesIn", "object": "temp-030" },
+    { "subject": "temp-028", "predicate": "participatesIn", "object": "temp-030" },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-030" },
+    { "subject": "temp-029", "predicate": "cooperatesWith", "object": "ent-002" },
+    { "subject": "temp-029", "predicate": "cooperatesWith", "object": "ent-001" }
+  ]
+}

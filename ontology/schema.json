@@ -54,6 +54,13 @@
       "target": "all",
       "reason": "config/osint-config.json의 seed_classes 및 seed_relations로부터 초기화",
       "source_ids": []
+    },
+    {
+      "date": "2026-04-07",
+      "action": "add_instances",
+      "target": "14 new entities (ent-027~ent-040)",
+      "reason": "2차 수집에서 파키스탄 중재, 이스라엘 철도 공격, IRGC Sadeq 4 작전 등 신규 사건/행위자 추출",
+      "source_ids": ["src-026", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033"]
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "src-035",
+  "title": "'최후통첩' 13시간 앞으로‥트럼프 공격 명령 내리나",
+  "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813371_37004.html",
+  "snippet": "트럼프 최후통첩까지 13시간 남은 시점에서 공격 명령 가능성 분석. 이란의 호르무즈 해협 봉쇄 유지 의지와 미국의 인프라 공격 위협 사이의 긴장 고조.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "마감 13시간 전 시점의 분석 보도로 이전 MBC 보도와 다른 시점의 신규 보도",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": []
+}

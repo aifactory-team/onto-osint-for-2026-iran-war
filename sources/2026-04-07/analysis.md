@@ -1,68 +1,61 @@
-# 2026-04-07 분석
-
-## 첫 실행 — 이전 보고서 없음
-
-본 보고서는 파이프라인 첫 실행으로, 이전 보고서와의 교차 분석은 수행하지 않았다.
+# 2026-04-07 온톨로지 확장 분석
 
 ## 신규 소스 중요도 평가
 
-### 높음 (High)
-| ID | 제목 | 근거 |
-|-----|------|------|
-| src-001 | Iran war: Day 39 of US-Israeli attacks | 당일 전황 종합 — IRGC 정보수장 사살, 하르그섬 공습, 이란 석유 인프라 보복 위협 |
-| src-002 | Trump warns 'entire country' could be taken out | 트럼프 최후통첩 — 호르무즈 해협 화요일 마감시한, 전면 파괴 위협 |
-| src-007 | U.S. strikes Kharg Island | 하르그섬 50개 이상 군사 목표 타격 — 이란 원유 수출 핵심 거점 |
-| src-009 | Iran sends 'maximalist' peace plan response | 이란 10개항 평화안 — 휴전 협상의 핵심 문서 |
-| src-012 | Russia and China veto UN resolution on Hormuz | 안보리 거부권 — 국제사회 분열, 호르무즈 봉쇄 장기화 가능성 |
-| src-015 | Tehran Severs Diplomatic Ties With US | 이란-미국 외교 단절 — 극단적 에스컬레이션 신호 |
+| 소스 ID | 제목 | 태그 | 중요도 | 근거 |
+|---------|------|------|--------|------|
+| src-026 | US, Iran agree to 2-week ceasefire | new | **높음** | 전쟁의 전환점이 될 수 있는 핵심 사건 |
+| src-027 | Pakistan proposes 2-week ceasefire | new | **높음** | 중재 메커니즘의 구체적 내용 |
+| src-028 | Israel hits railway bridge, threatens trains | new | **높음** | 새로운 군사 에스컬레이션 유형 (교통 인프라) |
+| src-029 | Netanyahu confirms bridge/railway strikes | new | 중간 | src-028의 확인 보도 (이스라엘 총리 공식 확인) |
+| src-030 | Iran fires ballistic missiles at Israel on Jewish holiday | new | **높음** | 이란의 이스라엘 본토 공격 지속 |
+| src-031 | Iran intensifies attacks on Gulf energy sites | new | **높음** | IRGC 걸프 에너지 시설 공격의 상세 내용 |
+| src-032 | Pakistan appeals to both sides | new | 중간 | src-027과 동일 사건, 추가 인용 |
+| src-033 | UN Security Council veto (UN News) | new | 중간 | 기존 보도의 공식 UN 보도, 투표 상세 |
+| src-034 | Soufan Center civilian plight report | new | 중간 | 분석 자료, 민간 피해 종합 |
+| src-035 | 최후통첩 13시간 앞으로 (MBC) | new | 낮음 | 한국어 분석 보도 |
+| src-036 | 휴전안 협상 전망 (MBC) | new | 낮음 | 한국어 분석 보도 |
 
-### 중간 (Medium)
-| ID | 제목 | 근거 |
-|-----|------|------|
-| src-003 | Ceasefire response 'not good enough' | 45일 휴전안 거부 상세 |
-| src-010 | Iran's 10-point peace plan details | 평화안 상세 내용 |
-| src-011 | Iran Launches New Attacks | 이란 보복 공격 — 텔아비브, 하이파, 걸프 석유시설 |
-| src-016 | F-15 jet rescue | F-15E 조종사 구출 — 전쟁 인적 비용 |
-| src-018 | 미군, 이란 하르그섬 군시설 공격 | 한국어 속보 |
-| src-022 | 민간인 피해 — 사망자 3500명+ | 인도주의 위기 |
-| src-024 | 중국 "호르무즈 막힌 건 미국 때문" | 중국 공식 입장 |
+## 업데이트 항목 변경사항
 
-### 낮음 (Low)
-| ID | 제목 | 근거 |
-|-----|------|------|
-| src-004~005 | 휴전 거부/트럼프 기자회견 | src-003과 중복 내용 |
-| src-006, src-008, src-013, src-023 | 트럼프 위협 반복 보도 | 중복 보도 |
-| src-017, src-019~021, src-025 | 한국어 보도 | 영어 보도와 중복되나 한국 시각 포함 |
+| 소스 ID | 주요 변경 | 근거 |
+|---------|----------|------|
+| src-002 (CNN) | 2주 휴전 합의 내용 추가 | 실시간 업데이트 페이지에 새 내용 추가 |
+| src-006 (CBS) | 휴전 합의, 인간 방패(human chains), 이스라엘 열차 공격 포함 | 실시간 업데이트 페이지 |
+| src-007 (NBC) | 2주 휴전 합의 내용 추가 | 실시간 업데이트 페이지 |
+
+## 온톨로지 변경 요약
+
+### 새 엔티티 (14개)
+- **인물 3명:** Shehbaz Sharif (파키스탄 총리), Asim Munir (파키스탄 야전원수), Benjamin Netanyahu (이스라엘 총리)
+- **조직 4개:** Pakistan, UAE, Bahrain, Kuwait
+- **사건 4개:** 2-Week Ceasefire Agreement, Israel Railway Bridge Strikes, IRGC Operation Sadeq 4, Iran Ballistic Missiles on Israel (Apr 7)
+- **장소 3개:** Kashan, Qom, Mashhad
+
+### 스키마 확장
+- 기존 클래스/관계 유형으로 모든 새 엔티티와 관계를 표현 가능
+- 스키마 변경 불필요
 
 ## 주제별 흐름 분석
 
-### 1. 군사 작전 (에스컬레이션)
-- 미군 하르그섬 50개+ 군사 목표 공습 (4/7)
-- 이스라엘, IRGC 정보수장 Majid Khademi 사살 (4/7)
-- 이란, 텔아비브/하이파/걸프 석유시설 보복 공격 (4/7)
-- F-15E 조종사 구출 작전 (4/3~5)
-- **평가:** 양측 모두 에스컬레이션 중. 석유 인프라가 새로운 전선으로 부상.
+### 1. 군사 에스컬레이션 → 휴전 전환
+- 오전: 이스라엘 철도/교량 8개소 공격 (테헤란, 카라지, 타브리즈, 카샨, 쿰), 미군 하르그섬 추가 공습
+- 오후: 이란 이스라엘 탄도미사일 공격 (유대교 공휴일), IRGC 걸프 에너지 시설 공격 (Sadeq 4 작전 96차)
+- 저녁: 트럼프 "전체 문명이 오늘 밤 죽을 수 있다" 최후통첩 → 파키스탄 중재 → **2주 휴전 합의**
 
-### 2. 외교/협상
-- 45일 임시 휴전안 → 이란 거부
-- 이란 10개항 평화안 → 트럼프 "not good enough"
-- 트럼프 호르무즈 마감시한: 4/8 20:00 ET
-- 이란, 미국과 잔여 외교관계 단절
-- 러시아/중국, UN 안보리 호르무즈 결의안 거부권 행사
-- **평가:** 협상 교착. 양측 모두 자국 조건 고수. 외교 채널 급격히 축소.
+### 2. 외교 채널
+- 직접 채널: 이란-미국 외교 단절 (4/7 초)
+- 중재 채널: **파키스탄이 핵심 중재자로 부상** (Sharif PM + Munir FM)
+- 다자 채널: UN 안보리 러시아/중국 거부권으로 무력화 (11-2-2 투표)
 
-### 3. 에너지/경제
-- 호르무즈 해협 봉쇄 지속
-- 미국 휘발유 가격 $4.14/갤런 (전쟁 전 대비 39% 상승)
-- 이란 "미국과 동맹의 지역 석유/가스를 수년간 차단" 위협
-- **평가:** 에너지 위기 심화. 이란의 호르무즈 통제력이 핵심 협상 레버리지.
-
-## 온톨로지 변경 요약
-- 스키마 변경 없음 (기존 seed 클래스/관계로 충분)
-- 26개 신규 엔티티 등록
-- 25개 명시적 트리플 + 3개 추론 트리플 생성
+### 3. 에너지 전쟁
+- IRGC Operation Sadeq 4 96차: UAE Habshan (Exxon/Chevron), Al Ruwais (UAE), Sitrah (Bahrain), Shuaiba (Kuwait) 공격
+- 이란: "2차 작전은 더 파괴적" 경고
+- 호르무즈 봉쇄: 2주 휴전 기간 동안 개방이 조건
 
 ## 추론 결과 요약
-1. Majid Khademi → IRGC → Iran 소속 전이 (신뢰도 0.855)
-2. Trump ↔ Iran 잠재적 관계 (휴전 협상 공동 참여) (신뢰도 0.80)
-3. Russia → Iran 잠재적 관계 (안보리 거부권으로 간접 지원) (신뢰도 0.75)
+
+1. **Sharif ↔ Trump 잠재적 관계** (0.85): 양측 모두 휴전 합의에 참여
+2. **Sharif ↔ Iran 잠재적 관계** (0.85): 양측 모두 휴전 합의에 참여
+3. **철도 공격 → 이란 전쟁 인과 체인** (0.72): 마감 → 철도 공격 → 전쟁의 일부
+4. **Sadeq 4 → 하르그섬 인과 체인** (0.72): 하르그섬 공격에 대한 보복의 확대

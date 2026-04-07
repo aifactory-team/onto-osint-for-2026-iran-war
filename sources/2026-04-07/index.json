@@ -1,206 +1,294 @@
 {
   "date": "2026-04-07",
-  "total": 25,
-  "new": 25,
-  "reported": 0,
-  "update": 0,
+  "total": 36,
+  "new": 11,
+  "reported": 22,
+  "update": 3,
   "items": [
     {
       "id": "src-001",
       "title": "Iran war: What is happening on day 39 of US-Israeli attacks?",
       "url": "https://www.aljazeera.com/news/2026/4/7/iran-war-what-is-happening-on-day-39-of-us-israeli-attacks",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 8
     },
     {
       "id": "src-002",
-      "title": "Live updates: Iran war; Trump warns 'entire country' could be taken out, Tuesday deadline for Strait of Hormuz",
+      "title": "Live updates: Iran war; Trump agrees to two-week ceasefire with Iran",
       "url": "https://www.cnn.com/2026/04/07/world/live-news/iran-war-trump-us-israel",
-      "tag": "new",
-      "related_report": null,
-      "entity_count": 6
+      "tag": "update",
+      "related_report": "2026-04-07",
+      "entity_count": 8
     },
     {
       "id": "src-003",
       "title": "Iran war updates: Ceasefire response 'not good enough', says Trump",
       "url": "https://www.aljazeera.com/news/liveblog/2026/4/6/iran-war-live-tehran-rejects-trumps-tuesday-deadline-on-strait-of-hormuz",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 5
     },
     {
       "id": "src-004",
       "title": "Iran rejects a U.S. ceasefire plan as Trump again threatens to bomb its infrastructure",
       "url": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 5
     },
     {
       "id": "src-005",
       "title": "Day 38 of Middle East conflict — Trump press conference, Iran rejects 45-day ceasefire proposal",
       "url": "https://www.cnn.com/2026/04/06/world/live-news/iran-war-us-trump-oil",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 5
     },
     {
       "id": "src-006",
-      "title": "Trump warns of 'critical period' in Iran war, threatening severe strikes if there's no deal by Tuesday night",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-bridges-ceasefire-push-air-force-rescue/",
-      "tag": "new",
-      "related_report": null,
-      "entity_count": 4
+      "title": "Trump announces 2-week ceasefire in Iran war, contingent on Iran reopening Strait of Hormuz",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-human-chains-israel-train-strikes/",
+      "tag": "update",
+      "related_report": "2026-04-07",
+      "entity_count": 8
     },
     {
       "id": "src-007",
-      "title": "Iran war live updates: U.S. strikes Kharg Island, official says; Trump doubles down on massive attack threats",
+      "title": "Iran war live updates: Trump agrees to two-week ceasefire after threatening massive attacks",
       "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-deadline-hormuz-infrastructure-ceasefire-rcna267039",
-      "tag": "new",
-      "related_report": null,
-      "entity_count": 6
+      "tag": "update",
+      "related_report": "2026-04-07",
+      "entity_count": 7
     },
     {
       "id": "src-008",
-      "title": "Trump says Iran could be 'taken out in one night': What we know about the war, now in its 6th week",
+      "title": "Trump says Iran could be 'taken out in one night'",
       "url": "https://www.cnn.com/2026/04/05/middleeast/iran-us-israel-war-what-we-know-week-6-intl-hnk",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 5
     },
     {
       "id": "src-009",
       "title": "Iran sends 'maximalist' peace plan response as Trump deadline looms",
       "url": "https://www.axios.com/2026/04/06/iran-trump-peace-plan-ceasefire",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 4
     },
     {
       "id": "src-010",
       "title": "What's Iran's 10-point peace plan that Trump says is 'not good enough'?",
       "url": "https://www.aljazeera.com/news/2026/4/7/whats-irans-10-point-peace-plan-that-trump-says-is-not-good-enough",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 4
     },
     {
       "id": "src-011",
       "title": "Iran Launches New Attacks as Trump's Ceasefire Deadline Approaches",
       "url": "https://www.bloomberg.com/news/articles/2026-04-07/iran-keeps-up-attacks-before-us-deadline-dimming-peace-chances",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 5
     },
     {
       "id": "src-012",
       "title": "Russia and China veto watered-down UN resolution aimed at reopening the Strait of Hormuz",
       "url": "https://www.pbs.org/newshour/world/russia-and-china-veto-watered-down-un-resolution-aimed-at-reopening-the-strait-of-hormuz",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 5
     },
     {
       "id": "src-013",
       "title": "Iran defiant on eve of Trump's ceasefire deadline",
       "url": "https://www.al-monitor.com/originals/2026/04/iran-defiant-eve-trumps-ceasefire-deadline",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-014",
-      "title": "US has struck Iranian military targets on Kharg Island. Here's what we know about it",
+      "title": "US has struck Iranian military targets on Kharg Island",
       "url": "https://www.cnn.com/2026/04/07/middleeast/kharg-island-us-assault-risk-trump-intl",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 4
     },
     {
       "id": "src-015",
       "title": "Iran War Updates: Tehran Severs Remaining Diplomatic Ties With US",
       "url": "https://www.republicworld.com/world-news/iran-war-live-tehran-rejects-trumps-tuesday-deadline-on-strait-of-hormuz-trump-vows-strikes-on-irans-infrastructure-live-news",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 4
     },
     {
       "id": "src-016",
       "title": "Day 37 of Middle East conflict — US forces rescue crew member from F-15 jet shot down over Iran",
       "url": "https://www.cnn.com/2026/04/05/world/live-news/iran-war-us-trump-oil",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-017",
       "title": "미국·이란, 필사적인 조종사 수색 작전...휴전 협상 엇갈린 신호",
       "url": "https://www.ytn.co.kr/_ln/0104_202604051056213990",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 4
     },
     {
       "id": "src-018",
       "title": "[속보] 미군, 이란 하르그섬 군시설 공격",
       "url": "https://imnews.imbc.com/news/2026/world/article/6813396_36925.html",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-019",
       "title": "이란, 일시적 휴전 거부…호르무즈 해협 봉쇄 유지 강행",
       "url": "https://www.g-enews.com/article/Global-Biz/2026/04/202604061812022772e250e8e188_1",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-020",
       "title": "전쟁 5주째 완강한 이란…'미국이 밀리고 있다'",
       "url": "https://www.mindlenews.com/news/articleView.html?idxno=19346",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-021",
       "title": "美 정보당국 '이란 호르무즈 봉쇄 해제 가능성 낮다'",
       "url": "https://www.seoul.co.kr/news/international/USA-amrica/2026/04/04/20260404500024",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-022",
       "title": "민간 시설 또 공격하면 더 큰 보복‥민간인에게 전가되는 전쟁 피해",
       "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813078_37004.html",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-023",
       "title": "'Every Bridge in Iran Will Be Decimated': Trump Renews Threat as Iran Rejects Ceasefire Offer",
       "url": "https://time.com/article/2026/04/06/iran-rejects-ceasefire-as-trump-deadline-looms-and-strikes-escalate/",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-024",
       "title": "드디어 입 연 중국 '호르무즈 막힌 건 미국 때문'",
       "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6812270_37004.html",
-      "tag": "new",
-      "related_report": null,
+      "tag": "reported",
+      "related_report": "2026-04-07",
       "entity_count": 3
     },
     {
       "id": "src-025",
       "title": "이란, 걸프국 빅테크 기업 공격...호르무즈 '톨게이트화' 우려",
       "url": "https://www.ytn.co.kr/_ln/0104_202604031542172077",
+      "tag": "reported",
+      "related_report": "2026-04-07",
+      "entity_count": 3
+    },
+    {
+      "id": "src-026",
+      "title": "US, Iran to pause war, agree to 2-week ceasefire",
+      "url": "https://www.axios.com/2026/04/07/iran-2-week-ceasfire-trump-pakistan",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-027",
+      "title": "Pakistan proposes 2-week Iran ceasefire ahead of Trump deadline",
+      "url": "https://www.axios.com/2026/04/07/iran-us-ceasefire-pakistan-two-weeks",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-028",
+      "title": "Israel hits railway bridge, threatens trains before Trump deadline expires",
+      "url": "https://www.aljazeera.com/news/2026/4/7/israel-warns-iranians-to-avoid-trains-as-trump-deadline-approaches",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-029",
+      "title": "Netanyahu confirms strikes on Iran's bridges and railways to dismantle IRGC",
+      "url": "https://aninews.in/news/world/middle-east/crushing-the-terrorist-regime-netanyahu-confirms-strikes-on-irans-bridges-and-railways-to-dismantle-irgc20260407203322/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-030",
+      "title": "Iran fires ballistic missile salvos at central, southern Israel on Jewish holiday",
+      "url": "https://www.timesofisrael.com/liveblog-april-7-2026/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-031",
+      "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
+      "url": "https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-032",
+      "title": "Pakistan appeals to Trump to extend deadline, Iran to reopen Hormuz Strait",
+      "url": "https://www.aljazeera.com/news/2026/4/7/pakistan-appeals-to-trump-to-extend-deadline-iran-to-reopen-strait-of-hormuz",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-033",
+      "title": "Security Council: Russia and China veto resolution on Strait of Hormuz",
+      "url": "https://news.un.org/en/story/2026/04/1167261",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-034",
+      "title": "The Human Dimension of the Iran War: The Intolerable Plight of Civilians",
+      "url": "https://thesoufancenter.org/intelbrief-2026-april-7/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-035",
+      "title": "'최후통첩' 13시간 앞으로‥트럼프 공격 명령 내리나",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813371_37004.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-036",
+      "title": "이 시각 호르무즈‥휴전안 협상 전망은?",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813074_37004.html",
       "tag": "new",
       "related_report": null,
       "entity_count": 3

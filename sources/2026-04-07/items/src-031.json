@@ -1,0 +1,25 @@
+{
+  "id": "src-031",
+  "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
+  "url": "https://www.pbs.org/newshour/world/iran-intensifies-attacks-on-gulf-energy-sites-after-israel-struck-its-key-gas-field",
+  "snippet": "IRGC launched Operation Sadeq 4 (96th wave). Struck Exxon/Chevron gas facilities in Habshan UAE, petrochemical plant in Al Ruwais UAE, Sitrah complex in Bahrain, Shuaiba facility in Kuwait. Warned 2nd phase will be 'much more devastating'. Retaliation for damage to Karaj B1 Bridge and Mahshahr petrochemical industries.",
+  "source_name": "PBS",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC 걸프 에너지 시설 공격의 구체적 목표와 작전명(Sadeq 4)은 이전 보고서보다 상세한 신규 정보",
+  "entities": [
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-036", "type": "Organization", "name": "UAE" },
+    { "id": "temp-037", "type": "Organization", "name": "Bahrain" },
+    { "id": "temp-038", "type": "Organization", "name": "Kuwait" }
+  ],
+  "relations": [
+    { "subject": "ent-005", "predicate": "opposes", "object": "temp-036" },
+    { "subject": "ent-005", "predicate": "opposes", "object": "temp-037" },
+    { "subject": "ent-005", "predicate": "opposes", "object": "temp-038" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-032",
+  "title": "Pakistan appeals to Trump to extend deadline, Iran to reopen Hormuz Strait",
+  "url": "https://www.aljazeera.com/news/2026/4/7/pakistan-appeals-to-trump-to-extend-deadline-iran-to-reopen-strait-of-hormuz",
+  "snippet": "Pakistan PM Shehbaz Sharif said diplomatic efforts progressing 'steadily, strongly and powerfully with potential to lead to substantive results'. Asked Trump to extend deadline 2 weeks. Asked Iran to open Hormuz as goodwill gesture.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "파키스탄 중재 외교의 상세 내용 — src-027과 동일 사건이나 Al Jazeera의 추가 인용 포함",
+  "entities": [
+    { "id": "temp-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM" },
+    { "id": "temp-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "temp-029", "predicate": "participatesIn", "object": "ent-016" }
+  ]
+}

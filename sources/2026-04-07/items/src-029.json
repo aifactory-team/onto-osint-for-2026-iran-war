@@ -1,0 +1,22 @@
+{
+  "id": "src-029",
+  "title": "Netanyahu confirms strikes on Iran's bridges and railways to dismantle IRGC",
+  "url": "https://aninews.in/news/world/middle-east/crushing-the-terrorist-regime-netanyahu-confirms-strikes-on-irans-bridges-and-railways-to-dismantle-irgc20260407203322/",
+  "snippet": "Netanyahu confirms Israeli strikes on Iran's bridges and railways, stating goal is to 'crush the terrorist regime' and dismantle IRGC logistics network.",
+  "source_name": "ANI",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "네타냐후의 철도/교량 공격 확인은 src-028과 동일 사건이나 이스라엘 총리의 공식 확인이라는 새 정보 포함",
+  "entities": [
+    { "id": "temp-035", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israel PM" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" }
+  ],
+  "relations": [
+    { "subject": "temp-035", "predicate": "affiliatedWith", "object": "ent-004" },
+    { "subject": "ent-004", "predicate": "opposes", "object": "ent-005" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-028",
+  "title": "Israel hits railway bridge, threatens trains before Trump deadline expires",
+  "url": "https://www.aljazeera.com/news/2026/4/7/israel-warns-iranians-to-avoid-trains-as-trump-deadline-approaches",
+  "snippet": "Israel Air Force bombed 8 rail sections and bridges in Iran including Tehran, Karaj, Tabriz, Kashan, Qom. Warned Iranians not to travel by train until 21:00 Iran time. At least 2 killed in Yahya Abad railway bridge strike in Kashan. All train services to/from Mashhad cancelled.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고서에 없는 신규 사건: 이스라엘의 이란 철도/교량 공격은 새로운 에스컬레이션",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-031", "type": "Location", "name": "Kashan" },
+    { "id": "temp-032", "type": "Location", "name": "Qom" },
+    { "id": "temp-033", "type": "Location", "name": "Mashhad" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-034" },
+    { "subject": "temp-034", "predicate": "locatedIn", "object": "temp-031" }
+  ]
+}

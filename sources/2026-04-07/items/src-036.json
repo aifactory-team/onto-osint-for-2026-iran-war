@@ -1,0 +1,19 @@
+{
+  "id": "src-036",
+  "title": "이 시각 호르무즈‥휴전안 협상 전망은?",
+  "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813074_37004.html",
+  "snippet": "호르무즈 해협 휴전안 협상 전망 분석. 파키스탄 중재 노력과 이란의 입장, 트럼프의 마감시한 등을 종합적으로 분석.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "휴전 협상 전망에 대한 한국어 분석 보도로 이전 수집에 없던 신규 소스",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-029", "type": "Organization", "name": "Pakistan" }
+  ],
+  "relations": []
+}
