@@ -1,0 +1,21 @@
+{
+  "id": "src-053",
+  "title": "A fragile U.S.-Iran ceasefire shows cracks as attacks continue across the region",
+  "url": "https://www.npr.org/2026/04/08/nx-s1-5777291/iran-war-updates",
+  "snippet": "Ceasefire fragile from day one as attacks continue in Lebanon and Gulf.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Apr 8 overview of ceasefire fragility — new content",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-030", "type": "Event", "name": "2-Week Ceasefire" }
+  ],
+  "relations": []
+}

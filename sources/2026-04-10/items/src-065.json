@@ -1,0 +1,21 @@
+{
+  "id": "src-065",
+  "title": "[종합] 밴스 美부통령, 이란과 종전협상 위해 파키스탄행… '화해의 손길 내밀 것'",
+  "url": "https://www.newspim.com/news/view/20260410001265",
+  "snippet": "밴스 부통령이 윗코프 특사, 쿠슈너와 함께 이슬라마바드행. '이란이 진지하게 나오면 화해의 손길 내밀 것'",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean coverage of Vance departure for Islamabad — new Apr 10",
+  "entities": [
+    { "id": "temp-041", "type": "Person", "name": "JD Vance" },
+    { "id": "temp-043", "type": "Person", "name": "Steve Witkoff" },
+    { "id": "temp-042", "type": "Person", "name": "Jared Kushner" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": []
+}

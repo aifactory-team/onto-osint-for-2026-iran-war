@@ -1,0 +1,25 @@
+{
+  "id": "src-050",
+  "title": "Iranian Negotiating Delegation Arrives in Pakistan under 'Aerial Escort'",
+  "url": "https://iranwire.com/en/news/151037-iranian-negotiating-delegation-arrives-in-pakistan-under-aerial-escort/",
+  "snippet": "Ghalibaf-led delegation includes FM Araghchi, defense council secretary, central bank governor, and MPs.",
+  "source_name": "IranWire",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran delegation arrival under aerial escort is new factual event Apr 10",
+  "entities": [
+    { "id": "temp-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf" },
+    { "id": "temp-044", "type": "Person", "name": "Abbas Araghchi" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-051", "type": "Location", "name": "Islamabad" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": [
+    { "subject": "temp-044", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-045", "predicate": "participatesIn", "object": "temp-054" }
+  ]
+}

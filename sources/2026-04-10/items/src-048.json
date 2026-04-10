@@ -1,0 +1,30 @@
+{
+  "id": "src-048",
+  "title": "US-Iran talks in Pakistan: Who's attending, what's on the agenda?",
+  "url": "https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-pakistan-whos-attending-whats-on-the-agenda",
+  "snippet": "US: Vance, Witkoff, Kushner. Iran: Araghchi, Ghalibaf, defense council sec, central bank governor. Agenda: Hormuz, nuclear program, sanctions.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Detailed attendee/agenda breakdown for Islamabad talks is new Apr 9 content",
+  "entities": [
+    { "id": "temp-041", "type": "Person", "name": "JD Vance" },
+    { "id": "temp-042", "type": "Person", "name": "Jared Kushner" },
+    { "id": "temp-043", "type": "Person", "name": "Steve Witkoff" },
+    { "id": "temp-044", "type": "Person", "name": "Abbas Araghchi" },
+    { "id": "temp-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-051", "type": "Location", "name": "Islamabad" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": [
+    { "subject": "temp-041", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-042", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-043", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-044", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-045", "predicate": "participatesIn", "object": "temp-054" }
+  ]
+}

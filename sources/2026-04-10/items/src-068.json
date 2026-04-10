@@ -1,0 +1,20 @@
+{
+  "id": "src-068",
+  "title": "Iran Restricts Strait of Hormuz Access Despite Ceasefire With US",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-09/hormuz-traffic-still-blocked-as-iran-tries-to-formalize-control",
+  "snippet": "Iran tries to formalize control over Hormuz passage by restricting access and conditioning traffic.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Bloomberg analysis of Iran formalizing Hormuz control — new Apr 9",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-055", "type": "Event", "name": "Hormuz Toll Dispute" },
+    { "id": "temp-057", "type": "Concept", "name": "Hormuz Toll/Management" }
+  ],
+  "relations": []
+}

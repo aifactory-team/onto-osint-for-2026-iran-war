@@ -1,0 +1,24 @@
+{
+  "id": "src-043",
+  "title": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
+  "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-ceasefire-trump-hormuz-israel-lebanon-rcna267390",
+  "snippet": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire. Speaker Ghalibaf issued a stern warning that continued Israeli operations in Lebanon could collapse the 2-week ceasefire agreement.",
+  "source_name": "NBC",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran's warning of 'strong responses' over Lebanon is new Apr 9 development",
+  "entities": [
+    { "id": "ent-002", "name": "Iran", "type": "State" },
+    { "id": "temp-045", "name": "Ghalibaf", "type": "Person" },
+    { "id": "ent-004", "name": "Israel", "type": "State" },
+    { "id": "temp-050", "name": "Lebanon", "type": "State" },
+    { "id": "ent-030", "name": "2-Week Ceasefire", "type": "Event" }
+  ],
+  "relations": [
+    { "subject": "temp-045", "predicate": "affiliatedWith", "object": "ent-002" },
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-004" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-047",
+  "title": "Strait of Hormuz management will enter new phase: Iran's supreme leader Mojtaba Khamenei",
+  "url": "https://www.deccanherald.com/world/middle-east/strait-of-hormuz-management-will-enter-new-phase-irans-supreme-leader-mojtaba-khamenei-3962795",
+  "snippet": "Mojtaba Khamenei declares 'decisive victory' and announces 'new phase' in Hormuz management on 40th day after his father's death.",
+  "source_name": "Deccan Herald",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Mojtaba Khamenei's 'decisive victory' and 'new phase' declaration is new event",
+  "entities": [
+    { "id": "temp-046", "type": "Person", "name": "Mojtaba Khamenei" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-056", "type": "Event", "name": "Mojtaba Khamenei Decisive Victory Declaration" }
+  ],
+  "relations": [
+    { "subject": "temp-046", "predicate": "participatesIn", "object": "temp-056" },
+    { "subject": "temp-056", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

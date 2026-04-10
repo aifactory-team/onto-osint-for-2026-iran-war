@@ -1,0 +1,20 @@
+{
+  "id": "src-060",
+  "title": "미-이란 2주간 휴전 동의…호르무즈 2주간 개방",
+  "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008509419",
+  "snippet": "트럼프, 파키스탄 중재로 2주 휴전 합의. 이란은 호르무즈 해협 2주 개방 동의.",
+  "source_name": "SBS",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "update",
+  "related_report": "2026-04-07",
+  "related_item": null,
+  "tag_reason": "Korean coverage of ceasefire — updates 2026-04-07 report with Korean perspective",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": []
+}

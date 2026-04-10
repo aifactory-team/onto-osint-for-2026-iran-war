@@ -1,0 +1,26 @@
+{
+  "id": "src-037",
+  "title": "Live updates: Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan",
+  "url": "https://www.cnn.com/2026/04/10/world/live-news/iran-war-trump-us-ceasefire",
+  "snippet": "Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan. The Islamabad peace talks are set to begin with JD Vance leading the US delegation, while tensions remain high over the Strait of Hormuz.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Apr 10 live updates on Trump warning ahead of Islamabad talks — new content not in previous sources",
+  "entities": [
+    { "id": "ent-001", "name": "Trump", "type": "Person" },
+    { "id": "ent-002", "name": "Iran", "type": "State" },
+    { "id": "temp-041", "name": "JD Vance", "type": "Person" },
+    { "id": "ent-029", "name": "Pakistan", "type": "State" },
+    { "id": "temp-051", "name": "Islamabad", "type": "Location" },
+    { "id": "ent-008", "name": "Strait of Hormuz", "type": "Location" },
+    { "id": "temp-054", "name": "Islamabad Peace Talks", "type": "Event" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-041", "predicate": "participatesIn", "object": "temp-054" }
+  ]
+}

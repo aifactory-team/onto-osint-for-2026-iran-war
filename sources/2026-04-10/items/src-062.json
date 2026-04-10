@@ -1,0 +1,21 @@
+{
+  "id": "src-062",
+  "title": "휴전 잉크도 마르기 전에…이스라엘, 레바논 대공습에 254명 사망",
+  "url": "https://www.newspim.com/news/view/20260409001259",
+  "snippet": "휴전 선언 직후 이스라엘 대규모 레바논 공습으로 254명 사망, 수도 베이루트 91명.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean coverage of Lebanon attacks — new content",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-052", "type": "Location", "name": "Beirut" },
+    { "id": "temp-053", "type": "Event", "name": "Israel Lebanon Attacks" },
+    { "id": "ent-030", "type": "Event", "name": "2-Week Ceasefire" }
+  ],
+  "relations": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "src-041",
+  "title": "Israel launches sprawling attacks on Lebanon after Iran ceasefire was declared",
+  "url": "https://www.nbcnews.com/world/lebanon/lebanon-israel-attack-iran-ceasefire-hezbollah-rcna267260",
+  "snippet": "Israel launches sprawling attacks on Lebanon after Iran ceasefire was declared. At least 254 people were killed as Israeli forces struck targets across Lebanon, with Hezbollah vowing retaliation.",
+  "source_name": "NBC",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Apr 8 Lebanon attacks (254 killed) are a completely new event not in previous report",
+  "entities": [
+    { "id": "ent-004", "name": "Israel", "type": "State" },
+    { "id": "temp-050", "name": "Lebanon", "type": "State" },
+    { "id": "temp-047", "name": "Hezbollah", "type": "Organization" },
+    { "id": "ent-002", "name": "Iran", "type": "State" },
+    { "id": "ent-030", "name": "2-Week Ceasefire", "type": "Event" },
+    { "id": "temp-053", "name": "Israel Lebanon Attacks", "type": "Event" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-053" },
+    { "subject": "temp-053", "predicate": "locatedIn", "object": "temp-050" },
+    { "subject": "temp-053", "predicate": "causedBy", "object": "ent-030" }
+  ]
+}

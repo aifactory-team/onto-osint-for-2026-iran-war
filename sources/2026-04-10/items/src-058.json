@@ -1,0 +1,22 @@
+{
+  "id": "src-058",
+  "title": "Vance to lead US negotiators at first round of Islamabad talks with Iran on Saturday",
+  "url": "https://www.timesofisrael.com/vance-to-lead-us-negotiators-at-first-round-of-islamabad-talks-with-iran-on-saturday/",
+  "snippet": "Vance accompanied by Witkoff and Kushner for Saturday talks in Islamabad.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Vance-led delegation composition is new information",
+  "entities": [
+    { "id": "temp-041", "type": "Person", "name": "JD Vance" },
+    { "id": "temp-042", "type": "Person", "name": "Jared Kushner" },
+    { "id": "temp-043", "type": "Person", "name": "Steve Witkoff" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "temp-051", "type": "Location", "name": "Islamabad" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": []
+}

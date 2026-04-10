@@ -1,0 +1,21 @@
+{
+  "id": "src-054",
+  "title": "Lebanon fighting throws doubt over U.S.-Israel ceasefire with Iran",
+  "url": "https://www.npr.org/2026/04/08/nx-s1-5777593/lebanon-fighting-throws-doubt-over-u-s-israel-ceasefire-with-iran",
+  "snippet": "Lebanon fighting threatens to collapse the US-Iran ceasefire deal.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Lebanon-ceasefire linkage analysis is new",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-031", "type": "Person", "name": "Netanyahu" },
+    { "id": "ent-030", "type": "Event", "name": "2-Week Ceasefire" }
+  ],
+  "relations": []
+}

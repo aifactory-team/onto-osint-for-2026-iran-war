@@ -1,0 +1,19 @@
+{
+  "id": "src-056",
+  "title": "Britain to call for toll-free Strait of Hormuz, says Lebanon must be part of Iran ceasefire",
+  "url": "https://www.cnbc.com/2026/04/09/uk-cooper-iran-war-strait-of-hormuz-tolls-lebanon-israel-ceasefire.html",
+  "snippet": "UK demands toll-free Hormuz and insists Lebanon must be included in ceasefire.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "UK diplomatic position on tolls and Lebanon is new",
+  "entities": [
+    { "id": "temp-048", "type": "Organization", "name": "United Kingdom" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" }
+  ],
+  "relations": []
+}

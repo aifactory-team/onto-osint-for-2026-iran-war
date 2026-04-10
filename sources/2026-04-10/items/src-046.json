@@ -1,0 +1,22 @@
+{
+  "id": "src-046",
+  "title": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
+  "url": "https://www.aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire",
+  "snippet": "Only 1 sanctioned oil tanker transited Hormuz today as of 5:30pm Tehran time. ADNOC CEO says strait is 'not open'.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Apr 10 shipping data showing only 1 tanker transit — new factual update",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-055", "type": "Event", "name": "Hormuz Toll Dispute" },
+    { "id": "ent-035", "type": "Organization", "name": "UAE" }
+  ],
+  "relations": [
+    { "subject": "temp-055", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

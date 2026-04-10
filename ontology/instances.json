@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-10",
   "entities": [
     {
       "id": "ent-001",
@@ -9,8 +9,8 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 18
+      "last_seen": "2026-04-10",
+      "mention_count": 33
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 35
+      "last_seen": "2026-04-10",
+      "mention_count": 65
     },
     {
       "id": "ent-003",
@@ -36,8 +36,8 @@
       "name": "Israel",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 12
+      "last_seen": "2026-04-10",
+      "mention_count": 34
     },
     {
       "id": "ent-005",
@@ -72,8 +72,8 @@
       "name": "Strait of Hormuz",
       "properties": { "type": "strait/waterway" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 15
+      "last_seen": "2026-04-10",
+      "mention_count": 35
     },
     {
       "id": "ent-009",
@@ -135,17 +135,17 @@
       "name": "2026 Iran War",
       "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 30
+      "last_seen": "2026-04-10",
+      "mention_count": 40
     },
     {
       "id": "ent-016",
       "type": "Event",
       "name": "Ceasefire Negotiations",
-      "properties": { "date": "2026-04-06~07", "participants": "US, Iran, Pakistan (mediator)" },
+      "properties": { "date": "2026-04-06~10", "participants": "US, Iran, Pakistan (mediator)" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 15
+      "last_seen": "2026-04-10",
+      "mention_count": 25
     },
     {
       "id": "ent-017",
@@ -171,8 +171,8 @@
       "name": "Iran 10-Point Peace Plan",
       "properties": { "date": "2026-04-06" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 4
+      "last_seen": "2026-04-10",
+      "mention_count": 6
     },
     {
       "id": "ent-020",
@@ -196,7 +196,7 @@
       "id": "ent-022",
       "type": "Event",
       "name": "UN Security Council Vote on Hormuz (Vetoed)",
-      "properties": { "date": "2026-04-07", "result": "vetoed by Russia and China", "vote": "11-2-2 (Colombia, Pakistan abstained)" },
+      "properties": { "date": "2026-04-07", "result": "vetoed by Russia and China", "vote": "11-2-2" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 4
@@ -225,8 +225,8 @@
       "name": "Nuclear Program",
       "properties": { "domain": "military/energy" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 1
+      "last_seen": "2026-04-10",
+      "mention_count": 4
     },
     {
       "id": "ent-026",
@@ -234,8 +234,8 @@
       "name": "Strait of Hormuz Blockade",
       "properties": { "domain": "maritime/energy" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 6
+      "last_seen": "2026-04-10",
+      "mention_count": 18
     },
     {
       "id": "ent-027",
@@ -243,8 +243,8 @@
       "name": "Shehbaz Sharif",
       "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 5
+      "last_seen": "2026-04-10",
+      "mention_count": 11
     },
     {
       "id": "ent-028",
@@ -259,19 +259,19 @@
       "id": "ent-029",
       "type": "Organization",
       "name": "Pakistan",
-      "properties": { "type": "state", "role": "mediator in Iran war" },
+      "properties": { "type": "state", "role": "mediator in Iran war, host of Islamabad talks" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 8
+      "last_seen": "2026-04-10",
+      "mention_count": 26
     },
     {
       "id": "ent-030",
       "type": "Event",
       "name": "2-Week Ceasefire Agreement",
-      "properties": { "date": "2026-04-07", "participants": "US, Iran, Pakistan (mediator)", "condition": "Iran reopens Strait of Hormuz" },
+      "properties": { "date": "2026-04-07~08", "participants": "US, Iran, Pakistan (mediator)", "condition": "Iran reopens Strait of Hormuz", "status": "in effect but fragile" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 10
+      "last_seen": "2026-04-10",
+      "mention_count": 22
     },
     {
       "id": "ent-031",
@@ -279,14 +279,14 @@
       "name": "Benjamin Netanyahu",
       "properties": { "role": "Israel Prime Minister", "affiliation": "Israel" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 2
+      "last_seen": "2026-04-10",
+      "mention_count": 7
     },
     {
       "id": "ent-032",
       "type": "Event",
       "name": "Israel Railway Bridge Strikes",
-      "properties": { "date": "2026-04-07", "locations": "Tehran, Karaj, Tabriz, Kashan, Qom", "targets": "8 rail sections and bridges", "casualties": "at least 2 killed in Kashan" },
+      "properties": { "date": "2026-04-07", "locations": "Tehran, Karaj, Tabriz, Kashan, Qom" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 5
@@ -295,7 +295,7 @@
       "id": "ent-033",
       "type": "Event",
       "name": "IRGC Operation Sadeq 4 (Gulf Energy Strikes)",
-      "properties": { "date": "2026-04-07", "targets": "Habshan UAE, Al Ruwais UAE, Sitrah Bahrain, Shuaiba Kuwait", "wave": "96th" },
+      "properties": { "date": "2026-04-07", "targets": "Habshan UAE, Al Ruwais UAE, Sitrah Bahrain, Shuaiba Kuwait" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 3
@@ -304,7 +304,7 @@
       "id": "ent-034",
       "type": "Event",
       "name": "Iran Ballistic Missile Strikes on Israel (Apr 7)",
-      "properties": { "date": "2026-04-07", "targets": "central and southern Israel", "context": "Jewish holiday" },
+      "properties": { "date": "2026-04-07", "targets": "central and southern Israel" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -315,8 +315,8 @@
       "name": "UAE (United Arab Emirates)",
       "properties": { "type": "state", "location": "Middle East/Gulf" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 3
+      "last_seen": "2026-04-10",
+      "mention_count": 5
     },
     {
       "id": "ent-036",
@@ -362,7 +362,160 @@
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 1
+    },
+    {
+      "id": "ent-041",
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": { "role": "US Vice President", "affiliation": "United States" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-042",
+      "type": "Person",
+      "name": "Jared Kushner",
+      "properties": { "role": "Trump adviser/son-in-law", "affiliation": "United States" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-043",
+      "type": "Person",
+      "name": "Steve Witkoff",
+      "properties": { "role": "US Middle East Special Envoy", "affiliation": "United States" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": { "role": "Iran Parliament Speaker", "affiliation": "Iran" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-046",
+      "type": "Person",
+      "name": "Mojtaba Khamenei",
+      "properties": { "role": "Iran Supreme Leader (since 2026-03-08)", "affiliation": "Iran", "note": "Son of late Ali Khamenei" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-048",
+      "type": "Organization",
+      "name": "United Kingdom",
+      "properties": { "type": "state" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-049",
+      "type": "Organization",
+      "name": "European Union",
+      "properties": { "type": "international organization" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-050",
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": { "type": "country" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 20
+    },
+    {
+      "id": "ent-051",
+      "type": "Location",
+      "name": "Islamabad",
+      "properties": { "type": "city", "country": "Pakistan" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-052",
+      "type": "Location",
+      "name": "Beirut",
+      "properties": { "type": "city", "country": "Lebanon" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-053",
+      "type": "Event",
+      "name": "Israel Lebanon Attacks (Apr 8)",
+      "properties": { "date": "2026-04-08", "location": "Lebanon", "casualties": "254+ killed, 1100+ wounded", "context": "Hours after Iran ceasefire declared" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 20
+    },
+    {
+      "id": "ent-054",
+      "type": "Event",
+      "name": "Islamabad Peace Talks",
+      "properties": { "date": "2026-04-10~11", "location": "Islamabad, Serena Hotel", "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf), Pakistan (host/mediator)" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 25
+    },
+    {
+      "id": "ent-055",
+      "type": "Event",
+      "name": "Hormuz Toll Dispute",
+      "properties": { "date": "2026-04-08~10", "detail": "Iran charges $1-2M per ship, Trump demands toll-free passage" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-056",
+      "type": "Event",
+      "name": "Mojtaba Khamenei 'Decisive Victory' Declaration",
+      "properties": { "date": "2026-04-09", "context": "40th day after Ali Khamenei death, declares 'new phase' in Hormuz management" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-057",
+      "type": "Concept",
+      "name": "Hormuz Toll/Management",
+      "properties": { "domain": "maritime/sovereignty", "detail": "$1/barrel oil toll in cryptocurrency" },
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "mention_count": 10
     }
   ],
-  "total_count": 40
+  "total_count": 57
 }

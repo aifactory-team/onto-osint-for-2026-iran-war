@@ -1,0 +1,23 @@
+{
+  "id": "src-042",
+  "title": "Day 41 — Netanyahu says there's no ceasefire in Lebanon as Israel pursues talks",
+  "url": "https://www.cnn.com/2026/04/09/world/live-news/iran-war-trump-us-ceasefire",
+  "snippet": "Day 41 — Netanyahu says there's no ceasefire in Lebanon as Israel pursues talks. The Israeli PM explicitly excludes Lebanon from the US-Iran ceasefire framework, stating Israel will continue operations against Hezbollah.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Netanyahu's Lebanon ceasefire exclusion statement is new Apr 9 development",
+  "entities": [
+    { "id": "ent-031", "name": "Netanyahu", "type": "Person" },
+    { "id": "ent-004", "name": "Israel", "type": "State" },
+    { "id": "temp-050", "name": "Lebanon", "type": "State" },
+    { "id": "temp-047", "name": "Hezbollah", "type": "Organization" },
+    { "id": "temp-053", "name": "Israel Lebanon Attacks", "type": "Event" }
+  ],
+  "relations": [
+    { "subject": "ent-031", "predicate": "participatesIn", "object": "temp-053" }
+  ]
+}

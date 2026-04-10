@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-10",
   "classes": [
     {
       "id": "Entity",
@@ -61,6 +61,13 @@
       "target": "14 new entities (ent-027~ent-040)",
       "reason": "2차 수집에서 파키스탄 중재, 이스라엘 철도 공격, IRGC Sadeq 4 작전 등 신규 사건/행위자 추출",
       "source_ids": ["src-026", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033"]
+    },
+    {
+      "date": "2026-04-10",
+      "action": "add_instances",
+      "target": "17 new entities (ent-041~ent-057)",
+      "reason": "이슬라마바드 평화회담 참가자(Vance, Kushner, Witkoff, Araghchi, Ghalibaf), 모즈타바 하메네이 최고지도자, 헤즈볼라, 레바논, 이스라엘 레바논 공습, 호르무즈 통행료 분쟁 등 신규 사건/행위자 추출",
+      "source_ids": ["src-037", "src-038", "src-039", "src-041", "src-044", "src-047", "src-048", "src-050"]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "src-040",
+  "title": "US-Iran ceasefire deal: What are the terms, and what's next?",
+  "url": "https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next",
+  "snippet": "US-Iran ceasefire deal: What are the terms, and what's next? An in-depth analysis of the 2-week ceasefire agreement, including provisions on the Strait of Hormuz, Iran's nuclear program, and the role of Pakistan as mediator.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "update",
+  "related_report": "2026-04-07",
+  "related_item": "src-026",
+  "tag_reason": "Follow-up analysis of ceasefire terms — updates the Apr 7 ceasefire agreement report with detailed terms",
+  "entities": [
+    { "id": "ent-001", "name": "Trump", "type": "Person" },
+    { "id": "ent-002", "name": "Iran", "type": "State" },
+    { "id": "ent-029", "name": "Pakistan", "type": "State" },
+    { "id": "ent-030", "name": "2-Week Ceasefire", "type": "Event" },
+    { "id": "ent-008", "name": "Strait of Hormuz", "type": "Location" },
+    { "id": "temp-044", "name": "Araghchi", "type": "Person" },
+    { "id": "ent-025", "name": "Nuclear Program", "type": "Concept" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "ent-030" },
+    { "subject": "temp-044", "predicate": "affiliatedWith", "object": "ent-002" }
+  ]
+}

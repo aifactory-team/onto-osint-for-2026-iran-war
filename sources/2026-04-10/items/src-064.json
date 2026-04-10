@@ -1,0 +1,20 @@
+{
+  "id": "src-064",
+  "title": "美에 전쟁 부추긴 이스라엘, 휴전도 방해하나…레바논 대규모 공습으로 수백명 사망",
+  "url": "https://www.pressian.com/pages/articles/2026040917182087700",
+  "snippet": "이스라엘의 레바논 공습이 미-이란 휴전 위기 초래. 이스라엘이 전쟁 확대와 휴전 방해 비판.",
+  "source_name": "프레시안",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean analysis of Israel disrupting ceasefire — new perspective",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" }
+  ],
+  "relations": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-067",
+  "title": "이란 전쟁 종식 가시화될까…오늘 파키스탄서 첫 협상",
+  "url": "https://www.fnnews.com/news/202604110644357533",
+  "snippet": "미국과 이란 대표단이 파키스탄 이슬라마바드 세레나 호텔에서 첫 대면 종전협상 개시 예정.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean preview of Islamabad talks — new",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-051", "type": "Location", "name": "Islamabad" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": []
+}

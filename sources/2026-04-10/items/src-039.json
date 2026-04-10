@@ -1,0 +1,25 @@
+{
+  "id": "src-039",
+  "title": "JD Vance expects 'positive' US-Iran war talks as he departs for Pakistan",
+  "url": "https://www.aljazeera.com/news/2026/4/10/jd-vance-expects-positive-us-iran-war-talks-as-he-departs-for-pakistan",
+  "snippet": "JD Vance expects 'positive' US-Iran war talks as he departs for Pakistan. The Vice President expressed optimism about the upcoming Islamabad negotiations, saying the Trump administration is committed to a diplomatic resolution.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Vance departure for Islamabad with positive outlook — new development Apr 10",
+  "entities": [
+    { "id": "temp-041", "name": "JD Vance", "type": "Person" },
+    { "id": "ent-001", "name": "Trump", "type": "Person" },
+    { "id": "ent-002", "name": "Iran", "type": "State" },
+    { "id": "ent-029", "name": "Pakistan", "type": "State" },
+    { "id": "temp-051", "name": "Islamabad", "type": "Location" },
+    { "id": "temp-054", "name": "Islamabad Talks", "type": "Event" }
+  ],
+  "relations": [
+    { "subject": "temp-041", "predicate": "affiliatedWith", "object": "ent-001" },
+    { "subject": "temp-041", "predicate": "participatesIn", "object": "temp-054" }
+  ]
+}

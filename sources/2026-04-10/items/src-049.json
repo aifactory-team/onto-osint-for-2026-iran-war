@@ -1,0 +1,24 @@
+{
+  "id": "src-049",
+  "title": "Pakistan sets modest goal for US-Iran summit: A deal to keep talks going",
+  "url": "https://www.aljazeera.com/news/2026/4/10/pakistan-sets-modest-goal-for-us-iran-summit-a-deal-to-keep-talks-going",
+  "snippet": "Pakistan PM Sharif says talks are 'make-or-break' but aims to at least extend dialogue rather than reach a final deal.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Pakistan's 'modest goal' framing for talks is new Apr 10 analysis",
+  "entities": [
+    { "id": "ent-027", "type": "Person", "name": "Shehbaz Sharif" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "temp-051", "type": "Location", "name": "Islamabad" }
+  ],
+  "relations": [
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "ent-027", "predicate": "participatesIn", "object": "temp-054" }
+  ]
+}

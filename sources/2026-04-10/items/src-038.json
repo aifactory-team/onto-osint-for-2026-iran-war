@@ -1,0 +1,27 @@
+{
+  "id": "src-038",
+  "title": "Iran war live: Iranian delegation arrives in Pakistan for talks with US",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/4/10/iran-war-live-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire-talks",
+  "snippet": "Iranian delegation arrives in Pakistan for talks with US. Foreign Minister Abbas Araghchi and Speaker Ghalibaf lead the Iranian side as Islamabad hosts ceasefire negotiations, while Israeli attacks on Lebanon threaten to derail the process.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iranian delegation arrival in Islamabad is new event not covered in Apr 7 report",
+  "entities": [
+    { "id": "ent-002", "name": "Iran", "type": "State" },
+    { "id": "temp-044", "name": "Abbas Araghchi", "type": "Person" },
+    { "id": "temp-045", "name": "Ghalibaf", "type": "Person" },
+    { "id": "ent-029", "name": "Pakistan", "type": "State" },
+    { "id": "temp-051", "name": "Islamabad", "type": "Location" },
+    { "id": "temp-054", "name": "Islamabad Talks", "type": "Event" },
+    { "id": "temp-050", "name": "Lebanon", "type": "State" },
+    { "id": "temp-047", "name": "Hezbollah", "type": "Organization" }
+  ],
+  "relations": [
+    { "subject": "temp-044", "predicate": "participatesIn", "object": "temp-054" },
+    { "subject": "temp-045", "predicate": "participatesIn", "object": "temp-054" }
+  ]
+}

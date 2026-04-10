@@ -1,0 +1,24 @@
+{
+  "id": "src-045",
+  "title": "Strait of Hormuz remains all but closed, Trump demands Iran stop tolls",
+  "url": "https://www.axios.com/2026/04/09/iran-us-strait-of-hormuz-khamenei",
+  "snippet": "Iran charges $1-2M per ship to transit Hormuz. Khamenei promises Iran will control the waterway.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Apr 9 Hormuz still closed and Iran's supreme leader involvement — new development",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-046", "type": "Person", "name": "Mojtaba Khamenei" },
+    { "id": "temp-055", "type": "Event", "name": "Hormuz Toll Dispute" }
+  ],
+  "relations": [
+    { "subject": "temp-046", "predicate": "relatedTo", "object": "ent-008" },
+    { "subject": "temp-055", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

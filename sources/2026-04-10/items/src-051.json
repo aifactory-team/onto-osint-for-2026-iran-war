@@ -1,0 +1,23 @@
+{
+  "id": "src-051",
+  "title": "Pakistan's Mediation of US-Iran Ceasefire Shows Central Role in Global Politics",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-08/pakistan-s-mediation-of-us-iran-ceasefire-shows-central-role-in-global-politics",
+  "snippet": "Pakistan emerges as key power broker, shaping sequencing, timing, and framing of ceasefire proposals.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "update",
+  "related_report": "2026-04-07",
+  "related_item": "src-027",
+  "tag_reason": "Follow-up analysis of Pakistan's mediation role — deepens Apr 7 coverage of Pakistan's mediation",
+  "entities": [
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-027", "type": "Person", "name": "Shehbaz Sharif" },
+    { "id": "ent-028", "type": "Person", "name": "Asim Munir" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": [
+    { "subject": "ent-029", "predicate": "cooperatesWith", "object": "ent-001" },
+    { "subject": "ent-029", "predicate": "cooperatesWith", "object": "ent-002" }
+  ]
+}

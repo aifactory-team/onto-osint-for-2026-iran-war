@@ -1,0 +1,20 @@
+{
+  "id": "src-066",
+  "title": "美 밴스, 종전협상 전면 배치… '이란, 약속 깨면 심각한 대가 치를 것'",
+  "url": "https://www.seoul.co.kr/news/international/USA-amrica/2026/04/10/20260410004005",
+  "snippet": "밴스 부통령이 미국 협상단을 이끌고 이슬라마바드행. '이란이 약속을 깨면 심각한 대가를 치를 것' 경고.",
+  "source_name": "서울신문",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean reporting on Vance's warning tone — new Apr 10",
+  "entities": [
+    { "id": "temp-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" }
+  ],
+  "relations": []
+}

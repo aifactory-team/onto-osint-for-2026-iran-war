@@ -1,0 +1,19 @@
+{
+  "id": "src-057",
+  "title": "Leaders' statement on the two-week ceasefire",
+  "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/08/leaders-statement-on-the-two-week-ceasefire-concluded-between-the-united-states-and-iran/",
+  "snippet": "EU leaders welcome ceasefire and call for full implementation and permanent peace.",
+  "source_name": "EU Council",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "EU official reaction to ceasefire is new",
+  "entities": [
+    { "id": "temp-049", "type": "Organization", "name": "European Union" },
+    { "id": "ent-030", "type": "Event", "name": "2-Week Ceasefire" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": []
+}

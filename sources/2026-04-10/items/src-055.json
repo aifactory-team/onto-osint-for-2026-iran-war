@@ -1,0 +1,21 @@
+{
+  "id": "src-055",
+  "title": "World reacts to 'brutal' Israeli attacks on Lebanon amid US-Iran truce",
+  "url": "https://www.aljazeera.com/news/2026/4/8/world-reacts-to-brutal-israeli-attacks-on-lebanon-amid-us-iran-ceasefire",
+  "snippet": "International community condemns Israel's Lebanon attacks during ceasefire. 254 killed, 91 in Beirut alone.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "International reactions to Lebanon attacks are new",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-052", "type": "Location", "name": "Beirut" },
+    { "id": "temp-053", "type": "Event", "name": "Israel Lebanon Attacks" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": []
+}

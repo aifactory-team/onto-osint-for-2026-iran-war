@@ -1,0 +1,270 @@
+{
+  "date": "2026-04-10",
+  "entities": [
+    {
+      "temp_id": "temp-041",
+      "matched_id": null,
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": { "role": "US Vice President", "affiliation": "United States" },
+      "source_ids": ["src-037", "src-039", "src-048", "src-058", "src-065", "src-066"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-042",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Jared Kushner",
+      "properties": { "role": "Trump adviser/son-in-law", "affiliation": "United States" },
+      "source_ids": ["src-048", "src-058", "src-065"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-043",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Steve Witkoff",
+      "properties": { "role": "US Middle East Special Envoy", "affiliation": "United States" },
+      "source_ids": ["src-048", "src-058", "src-065"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-044",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
+      "source_ids": ["src-038", "src-040", "src-048", "src-050"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-045",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": { "role": "Iran Parliament Speaker", "affiliation": "Iran" },
+      "source_ids": ["src-038", "src-043", "src-048", "src-050"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-046",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mojtaba Khamenei",
+      "properties": { "role": "Iran Supreme Leader (since 2026-03-08)", "affiliation": "Iran", "note": "Son of late Ali Khamenei" },
+      "source_ids": ["src-045", "src-047", "src-061"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-047",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed" },
+      "source_ids": ["src-041", "src-042", "src-054"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-048",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "United Kingdom",
+      "properties": { "type": "state" },
+      "source_ids": ["src-056"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-049",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "European Union",
+      "properties": { "type": "international organization" },
+      "source_ids": ["src-057"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-050",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": { "type": "country" },
+      "source_ids": ["src-041", "src-042", "src-043", "src-053", "src-054", "src-055", "src-062", "src-063", "src-064"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": "temp-051",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Islamabad",
+      "properties": { "type": "city", "country": "Pakistan" },
+      "source_ids": ["src-037", "src-038", "src-039", "src-048", "src-050", "src-058", "src-065", "src-067"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-052",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Beirut",
+      "properties": { "type": "city", "country": "Lebanon" },
+      "source_ids": ["src-041", "src-055", "src-062"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-053",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel Lebanon Attacks (Apr 8)",
+      "properties": { "date": "2026-04-08", "location": "Lebanon", "casualties": "254+ killed, 1100+ wounded", "context": "Hours after Iran ceasefire declared" },
+      "source_ids": ["src-041", "src-042", "src-043", "src-053", "src-054", "src-055", "src-062", "src-063", "src-064"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": "temp-054",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Islamabad Peace Talks",
+      "properties": { "date": "2026-04-10~11", "location": "Islamabad, Serena Hotel", "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf), Pakistan (host/mediator)" },
+      "source_ids": ["src-037", "src-038", "src-039", "src-048", "src-049", "src-050", "src-058", "src-065", "src-066", "src-067"],
+      "mention_count": 25
+    },
+    {
+      "temp_id": "temp-055",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hormuz Toll Dispute",
+      "properties": { "date": "2026-04-08~10", "detail": "Iran charges $1-2M per ship, Trump demands toll-free passage" },
+      "source_ids": ["src-044", "src-045", "src-046", "src-059", "src-068", "src-061"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-056",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Mojtaba Khamenei 'Decisive Victory' Declaration",
+      "properties": { "date": "2026-04-09", "context": "40th day after Ali Khamenei death, declares 'new phase' in Hormuz management" },
+      "source_ids": ["src-045", "src-047", "src-061"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-057",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Hormuz Toll/Management",
+      "properties": { "domain": "maritime/sovereignty", "detail": "$1/barrel oil toll in cryptocurrency" },
+      "source_ids": ["src-044", "src-045", "src-047", "src-056", "src-068"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": { "role": "US President" },
+      "source_ids": ["src-037", "src-039", "src-040", "src-044", "src-045", "src-053"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {},
+      "source_ids": ["src-037", "src-038", "src-039", "src-040", "src-041", "src-043", "src-044", "src-045", "src-046", "src-047", "src-050", "src-053", "src-060", "src-061"],
+      "mention_count": 30
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {},
+      "source_ids": ["src-040", "src-041", "src-042", "src-043", "src-053", "src-054", "src-055", "src-062", "src-063", "src-064"],
+      "mention_count": 22
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {},
+      "source_ids": ["src-040", "src-044", "src-045", "src-046", "src-047", "src-056", "src-059", "src-060", "src-061", "src-068"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {},
+      "source_ids": ["src-049", "src-051", "src-052"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan",
+      "properties": {},
+      "source_ids": ["src-038", "src-039", "src-048", "src-049", "src-050", "src-051", "src-052", "src-058", "src-065", "src-067"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-030",
+      "type": "Event",
+      "name": "2-Week Ceasefire Agreement",
+      "properties": {},
+      "source_ids": ["src-040", "src-053", "src-057", "src-060"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-031",
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": {},
+      "source_ids": ["src-042", "src-054"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-026",
+      "type": "Concept",
+      "name": "Hormuz Blockade",
+      "properties": {},
+      "source_ids": ["src-044", "src-045", "src-046", "src-059", "src-061", "src-068"],
+      "mention_count": 12
+    }
+  ],
+  "relations": [
+    { "subject": "temp-041", "predicate": "participatesIn", "object": "temp-054", "source_ids": ["src-039", "src-048", "src-058"], "confidence": 0.95 },
+    { "subject": "temp-042", "predicate": "participatesIn", "object": "temp-054", "source_ids": ["src-048", "src-058"], "confidence": 0.90 },
+    { "subject": "temp-043", "predicate": "participatesIn", "object": "temp-054", "source_ids": ["src-048", "src-058"], "confidence": 0.90 },
+    { "subject": "temp-044", "predicate": "participatesIn", "object": "temp-054", "source_ids": ["src-048", "src-050"], "confidence": 0.95 },
+    { "subject": "temp-045", "predicate": "participatesIn", "object": "temp-054", "source_ids": ["src-048", "src-050"], "confidence": 0.95 },
+    { "subject": "temp-041", "predicate": "affiliatedWith", "object": "ent-001", "source_ids": ["src-039", "src-058"], "confidence": 0.90 },
+    { "subject": "temp-044", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-040", "src-050"], "confidence": 0.95 },
+    { "subject": "temp-045", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-043", "src-050"], "confidence": 0.95 },
+    { "subject": "temp-046", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-047"], "confidence": 0.95 },
+    { "subject": "temp-047", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-041", "src-042"], "confidence": 0.85 },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-053", "source_ids": ["src-041", "src-042", "src-055"], "confidence": 0.95 },
+    { "subject": "temp-047", "predicate": "participatesIn", "object": "temp-053", "source_ids": ["src-041", "src-054"], "confidence": 0.85 },
+    { "subject": "temp-053", "predicate": "locatedIn", "object": "temp-050", "source_ids": ["src-041", "src-062"], "confidence": 0.95 },
+    { "subject": "temp-054", "predicate": "locatedIn", "object": "temp-051", "source_ids": ["src-048", "src-050"], "confidence": 0.95 },
+    { "subject": "temp-054", "predicate": "follows", "object": "ent-030", "source_ids": ["src-038", "src-049"], "confidence": 0.90 },
+    { "subject": "temp-053", "predicate": "causedBy", "object": "ent-030", "source_ids": ["src-041", "src-053"], "confidence": 0.80 },
+    { "subject": "temp-055", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-044", "src-045"], "confidence": 0.95 },
+    { "subject": "temp-056", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-047"], "confidence": 0.90 },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "temp-054", "source_ids": ["src-048", "src-049"], "confidence": 0.95 },
+    { "subject": "ent-031", "predicate": "participatesIn", "object": "temp-053", "source_ids": ["src-042"], "confidence": 0.85 },
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-043"], "confidence": 0.90 },
+    { "subject": "temp-048", "predicate": "cooperatesWith", "object": "temp-049", "source_ids": ["src-056", "src-057"], "confidence": 0.80 },
+    { "subject": "temp-046", "predicate": "participatesIn", "object": "temp-056", "source_ids": ["src-047"], "confidence": 0.95 }
+  ],
+  "stats": {
+    "total_entities": 26,
+    "new_entities": 17,
+    "matched_entities": 9,
+    "total_relations": 23
+  }
+}

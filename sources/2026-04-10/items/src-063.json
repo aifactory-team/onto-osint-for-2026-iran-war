@@ -1,0 +1,20 @@
+{
+  "id": "src-063",
+  "title": "휴전 무색한 레바논 공습 '최소 112명 사망' vs '이란, 휴전 철회할 수도'",
+  "url": "https://www.newsis.com/view/NISX20260409_0003583671",
+  "snippet": "이스라엘 레바논 공습 112명 이상 사망. 이란이 휴전 철회 가능성 시사.",
+  "source_name": "뉴시스",
+  "language": "ko",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean reporting on Lebanon attacks with Iran response angle — new",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-053", "type": "Event", "name": "Israel Lebanon Attacks" }
+  ],
+  "relations": []
+}

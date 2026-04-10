@@ -1,0 +1,20 @@
+{
+  "id": "src-059",
+  "title": "Strait of Hormuz shipping traffic is effectively at a standstill despite Iran ceasefire",
+  "url": "https://www.nbcnews.com/world/iran/strait-hormuz-shipping-traffic-effectively-standstill-iran-ceasefire-rcna267391",
+  "snippet": "ADNOC CEO Sultan Al Jaber says strait is 'still not open' despite ceasefire.",
+  "source_name": "NBC",
+  "language": "en",
+  "discovered_date": "2026-04-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "ADNOC CEO statement on Hormuz closure is new Apr 9 data",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-035", "type": "Organization", "name": "UAE" },
+    { "id": "temp-055", "type": "Event", "name": "Hormuz Toll Dispute" }
+  ],
+  "relations": []
+}
