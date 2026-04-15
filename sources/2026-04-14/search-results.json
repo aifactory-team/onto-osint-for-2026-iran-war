@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-14",
+  "collected_at": "2026-04-14T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 11,
+  "total_results": 110,
+  "expanded_keywords": ["Iran war Hormuz blockade", "Trump Iran naval blockade", "Israel Lebanon Washington talks", "oil prices IMF forecast", "Hezbollah missiles", "IEA energy crisis", "CENTCOM operations", "China India blockade response", "이란 전쟁 호르무즈 봉쇄", "이스라엘 레바논 워싱턴 회담", "트럼프 이란 2차 협상 재개", "IMF 중동 성장률"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war Hormuz blockade April 14 2026",
+      "language": "en",
+      "timestamp": "2026-04-14T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Live updates: Trump hints US-Iran talks could resume over next two days", "url": "https://www.cnn.com/2026/04/14/world/live-news/iran-war-blockade-us-trump", "snippet": "Trump hints US-Iran talks could resume over next two days amid blockade Day 2", "source_name": "CNN" },
+        { "title": "Iran war live: Trump teases more Pakistan talks; Israel, Lebanon meet in US", "url": "https://www.aljazeera.com/news/liveblog/2026/4/14/iran-war-live-trump-claims-tehran-wants-a-deal-amid-us-blockade-of-hormuz", "snippet": "Live updates on Iran war including diplomatic developments", "source_name": "Al Jazeera" },
+        { "title": "Lebanon to Strait of Hormuz, here's what we know on day 46 of Iran war", "url": "https://www.aljazeera.com/news/2026/4/14/iran-war-what-is-happening-on-day-46-of-the-us-iran-conflict", "snippet": "Day 46 overview of Iran war from Lebanon front to Hormuz blockade", "source_name": "Al Jazeera" },
+        { "title": "Live Updates: Iran war continues with U.S. blockade of ports; Lebanon and Israel hold direct talks", "url": "https://www.cbsnews.com/live-updates/iran-war-peace-talks-us-blockade-irans-ports-day-2/", "snippet": "Day 2 of US blockade, Lebanon-Israel talks begin", "source_name": "CBS News" },
+        { "title": "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'", "url": "https://www.cnbc.com/2026/04/14/china-us-strait-of-hormuz-war-donald-trump-oil-energy-crisis-conflict-middle-east-iran.html", "snippet": "China escalates rhetoric calling Hormuz blockade dangerous and irresponsible", "source_name": "CNBC" },
+        { "title": "Sanctioned tankers transit Strait of Hormuz amid US blockade", "url": "https://www.aljazeera.com/news/2026/4/14/sanctioned-tankers-transit-strait-of-hormuz-despite-blockade", "snippet": "US-sanctioned tankers including Rich Starry and Elpis transit Hormuz despite blockade", "source_name": "Al Jazeera" },
+        { "title": "U.S. and Iran could hold new peace talks as soon as this week, sources say", "url": "https://www.nbcnews.com/world/iran/us-iran-new-peace-talks-trump-vance-hormuz-nuclear-enrichment-rcna331669", "snippet": "Sources say new US-Iran peace talks could resume this week", "source_name": "NBC News" },
+        { "title": "How much will US Hormuz blockade hurt Iran, and does Tehran have an escape?", "url": "https://www.aljazeera.com/news/2026/4/14/how-much-will-us-hormuz-blockade-hurt-iran-and-does-tehran-have-an-escape", "snippet": "Analysis of economic impact of Hormuz blockade on Iran", "source_name": "Al Jazeera" },
+        { "title": "Officials Considering Second Round of U.S.-Iran Talks", "url": "https://time.com/article/2026/04/14/us-iran-talks-war-ceasefire-trump-nuclear-enrichment-strait-hormuz/", "snippet": "Officials from both sides considering second round of talks", "source_name": "Time" },
+        { "title": "Iran war live: Strait of Hormuz traffic continues despite US blockade", "url": "https://www.newsweek.com/iran-war-updates-vance-economic-terrorism-blockade-starts-11824389", "snippet": "Hormuz traffic continues despite declared blockade, enforcement questions arise", "source_name": "Newsweek" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon talks Washington April 15 2026",
+      "language": "en",
+      "timestamp": "2026-04-14T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Israel, Lebanon launch historic direct talks in Washington", "url": "https://www.israelhayom.com/2026/04/14/israel-lebanon-launch-historic-direct-talks-in-washington", "snippet": "First direct talks since 1993 between Israel and Lebanon", "source_name": "Israel Hayom" },
+        { "title": "Israel-Lebanon direct talks in the US: All to know", "url": "https://www.aljazeera.com/news/2026/4/14/israel-lebanon-direct-talks-in-the-us-all-to-know", "snippet": "Comprehensive guide to Israel-Lebanon Washington talks", "source_name": "Al Jazeera" },
+        { "title": "Israel and Lebanon hold rare talks in Washington", "url": "https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks", "snippet": "Israel and Lebanon agree to start peace negotiations after rare talks in D.C.", "source_name": "NPR" },
+        { "title": "Lebanon and Israel hold first direct diplomatic talks in decades in Washington", "url": "https://www.manilatimes.net/2026/04/15/world/lebanon-and-israel-hold-first-direct-diplomatic-talks-in-decades-in-washington/2320355", "snippet": "Historic diplomatic talks held at State Department", "source_name": "Manila Times" },
+        { "title": "Lebanon-Israel Talks: Defining Zones of Possible Agreement", "url": "https://www.washingtoninstitute.org/policy-analysis/lebanon-israel-talks-defining-zones-possible-agreement", "snippet": "Analysis of potential agreement zones in Israel-Lebanon talks", "source_name": "Washington Institute" },
+        { "title": "Lebanon and Israel talks set to begin in Washington", "url": "https://www.defensenews.com/global/mideast-africa/2026/04/14/lebanon-and-israel-talks-set-to-begin-in-washington/", "snippet": "Defense perspective on Lebanon-Israel Washington talks", "source_name": "Defense News" },
+        { "title": "Israeli, Lebanese officials to meet for rare talks in Washington", "url": "https://www.washingtontimes.com/news/2026/apr/14/israeli-lebanese-officials-meet-rare-talks-washington/", "snippet": "Israeli Ambassador Leiter and Lebanese counterpart Mouawad meet", "source_name": "Washington Times" },
+        { "title": "Lebanon, Israel hold 1st direct diplomatic talks in decades in Washington", "url": "https://www.cbc.ca/news/world/hezbollah-lebanon-israel-talks-agreements-9.7162871", "snippet": "First direct talks between nations since 1993", "source_name": "CBC News" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Hormuz blockade April 14 2026 IMF forecast",
+      "language": "en",
+      "timestamp": "2026-04-14T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "IMF cuts global growth forecast during Hormuz blockade", "url": "https://www.aljazeera.com/economy/2026/4/14/imf-cuts-global-growth-forecast-during-hormuz-blockade", "snippet": "IMF cuts 2026 global growth to 3.1%, MENA region to 1.1%", "source_name": "Al Jazeera" },
+        { "title": "U.S. oil price tumbles below $92 as White House considers further talks with Iran", "url": "https://www.cnbc.com/2026/04/14/oil-wti-brent-as-markets-hormuz-blockade-vance-trump.html", "snippet": "WTI falls 8% to $91.28, Brent drops 4% to $94.79 on talks hopes", "source_name": "CNBC" },
+        { "title": "'The largest energy security threat in history' is about to push oil prices further up, IEA warns", "url": "https://www.euronews.com/business/2026/04/14/the-largest-energy-security-threat-in-history-is-about-push-oil-prices-further-up-iea-warn", "snippet": "IEA warns of largest energy security threat in history", "source_name": "Euronews" },
+        { "title": "IMF lowers Middle East growth forecast over Iran war shock", "url": "https://www.thenationalnews.com/business/economy/2026/04/14/imf-lowers-middle-east-growth-forecast-over-iran-war-shock/", "snippet": "IMF projects Iran economy to contract 6.1% in 2026", "source_name": "The National" },
+        { "title": "IMF downgrades global economic outlook as Mideast war drives oil shock", "url": "https://www.theglobeandmail.com/business/economy/article-imf-global-economic-outlook-mideast-war-oil-price-shock/", "snippet": "Global growth cut to 3.1%, inflation raised to 4.4%", "source_name": "Globe and Mail" },
+        { "title": "Global oil demand to shrink in 2026, IEA says as war sparks supply crisis", "url": "https://invezz.com/news/2026/04/14/global-oil-demand-to-shrink-in-2026-iea-says-as-war-sparks-supply-crisis/", "snippet": "IEA: global oil supply plummeted 10.1 mb/d, demand projected to decline", "source_name": "Invezz" },
+        { "title": "Global oil demand to plunge amid disruptions caused by war on Iran: IEA", "url": "https://www.aljazeera.com/news/2026/4/14/global-oil-demand-to-plunge-amid-middle-east-war-disruptions", "snippet": "IEA April oil market report shows historic supply disruption", "source_name": "Al Jazeera" },
+        { "title": "IEA cuts oil outlook on 'largest disruption in history'", "url": "https://www.seatrade-maritime.com/tankers/iea-cuts-oil-outlook-on-largest-disruption-in-history-", "snippet": "IEA characterizes current situation as largest supply disruption in history", "source_name": "Seatrade Maritime" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran ceasefire negotiations Pakistan April 2026",
+      "language": "en",
+      "timestamp": "2026-04-14T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Officials Considering Second Round of U.S.-Iran Talks", "url": "https://time.com/article/2026/04/14/us-iran-talks-war-ceasefire-trump-nuclear-enrichment-strait-hormuz/", "snippet": "Both sides considering second round of talks", "source_name": "Time" },
+        { "title": "Pakistan eyes narrow window to resuscitate US-Iran talks after breakdown", "url": "https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown", "snippet": "Pakistan working to arrange second round before ceasefire expires", "source_name": "Al Jazeera" },
+        { "title": "U.S. and Iran could hold new peace talks as soon as this week, sources say", "url": "https://www.nbcnews.com/world/iran/us-iran-new-peace-talks-trump-vance-hormuz-nuclear-enrichment-rcna331669", "snippet": "New peace talks could resume this week", "source_name": "NBC News" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah missiles Israel Lebanon April 14 2026",
+      "language": "en",
+      "timestamp": "2026-04-14T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Israel and Lebanon agree to start peace negotiations after rare talks in D.C.", "url": "https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks", "snippet": "Hezbollah stepped up fire on northern Israel as talks began", "source_name": "NPR" },
+        { "title": "Israel-Lebanon direct talks in the US: All to know", "url": "https://www.aljazeera.com/news/2026/4/14/israel-lebanon-direct-talks-in-the-us-all-to-know", "snippet": "Hezbollah fires on Israel during Washington talks, opposes negotiations", "source_name": "Al Jazeera" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IEA oil market report April 2026 energy crisis",
+      "language": "en",
+      "timestamp": "2026-04-14T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Oil Market Report - April 2026", "url": "https://www.iea.org/reports/oil-market-report-april-2026", "snippet": "IEA monthly oil market report for April 2026", "source_name": "IEA" },
+        { "title": "'The largest energy security threat in history' is about to push oil prices further up, IEA warns", "url": "https://www.euronews.com/business/2026/04/14/the-largest-energy-security-threat-in-history-is-about-push-oil-prices-further-up-iea-warn", "snippet": "IEA: global oil supply plummeted 10.1 mb/d, physical crude near $150/bbl", "source_name": "Euronews" },
+        { "title": "Global oil demand to plunge amid disruptions caused by war on Iran: IEA", "url": "https://www.aljazeera.com/news/2026/4/14/global-oil-demand-to-plunge-amid-middle-east-war-disruptions", "snippet": "Oil demand projected to decline 80 kb/d in 2026", "source_name": "Al Jazeera" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "CENTCOM Iran war military operations April 14 2026",
+      "language": "en",
+      "timestamp": "2026-04-14T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Iran War 2026 -- Day 46 Update -- 14 April 2026", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm", "snippet": "Day 46 military operations update", "source_name": "GlobalSecurity.org" },
+        { "title": "CENTCOM Gives Details on US Blockade of Iran After Trump's Announcement", "url": "https://www.newsweek.com/centcom-details-us-blockade-iran-after-trump-announcement-11818014", "snippet": "CENTCOM clarifies blockade applies only to ships entering/departing Iran ports", "source_name": "Newsweek" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "China India Iran oil blockade response April 2026",
+      "language": "en",
+      "timestamp": "2026-04-14T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'", "url": "https://www.cnbc.com/2026/04/14/china-us-strait-of-hormuz-war-donald-trump-oil-energy-crisis-conflict-middle-east-iran.html", "snippet": "China escalates rhetoric on blockade", "source_name": "CNBC" },
+        { "title": "U.S. Hormuz blockade hits India just as Russian oil purchase waiver expires", "url": "https://www.cnbc.com/2026/04/14/us-hormuz-blockade-hits-india-just-as-russian-oil-purchase-waiver-expires-deepening-energy-worries.html", "snippet": "India loses 3 mb/d from Hormuz, Russian oil waiver expired April 11", "source_name": "CNBC" },
+        { "title": "Analysis: China has so far weathered the historic oil crisis. But costs are starting to grow", "url": "https://www.cnn.com/2026/04/14/china/china-iran-war-costs-oil-analysis-intl-hnk", "snippet": "Analysis of growing costs for China from oil crisis", "source_name": "CNN" },
+        { "title": "US blockade of Iran ports in Hormuz may hit China hardest, but India could feel price pain too", "url": "https://theprint.in/economy/us-blockade-of-iran-ports-in-hormuz-may-hit-china-hardest-but-india-could-feel-price-pain-too/2904550/", "snippet": "China bought 80% of Iran's shipped oil, 1.4 mb/d", "source_name": "The Print" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 호르무즈 봉쇄 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-14T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "미국-이란 전쟁/경과/4월 - 나무위키", "url": "https://namu.wiki/w/%EB%AF%B8%EA%B5%AD-%EC%9D%B4%EB%9E%80%20%EC%A0%84%EC%9F%81/%EA%B2%BD%EA%B3%BC/4%EC%9B%94", "snippet": "미국-이란 전쟁 4월 경과 상세 기록", "source_name": "나무위키" },
+        { "title": "호르무즈 이중 봉쇄… 이란 돈줄 끊으려다 세계경제 숨통 끊나", "url": "https://www.mt.co.kr/world/2026/04/14/2026041320095976321", "snippet": "이중 봉쇄 분석", "source_name": "머니투데이" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 2차 협상 재개 2026년 4월 14일",
+      "language": "ko",
+      "timestamp": "2026-04-14T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "트럼프 \"이틀내 변화 가능\"…이란 협상 재개 시사", "url": "https://biz.heraldcorp.com/article/10717279", "snippet": "트럼프 이틀 내 이란 협상 재개 시사", "source_name": "헤럴드경제" },
+        { "title": "미·이란 2차 협상 '48시간 내' 재개 가시화…호르무즈 봉쇄 압박 속 외교 출구 시험대", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260415010004481", "snippet": "48시간 내 2차 협상 재개 가시화", "source_name": "아시아투데이" },
+        { "title": "트럼프 \"이틀 안에 이란과 협상\"", "url": "https://www.fnnews.com/news/202604150108521230", "snippet": "트럼프 이란 협상 이틀 안 시사", "source_name": "파이낸셜뉴스" },
+        { "title": "\"미-이란, 이번주 후반 협상 재개 예정…빠르면 16일 가능성\"", "url": "https://segye.com/newsView/20260414518799", "snippet": "이번주 후반 16일 가능성 보도", "source_name": "세계일보" },
+        { "title": "\"미국·이란 물밑 대화 중\"‥트럼프 \"이란 합의 원해\"", "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6815093_36974.html", "snippet": "미국 이란 물밑 대화 진행 중 보도", "source_name": "MBC" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이스라엘 레바논 워싱턴 회담 2026년 4월 헤즈볼라",
+      "language": "ko",
+      "timestamp": "2026-04-14T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "헤즈볼라 \"이스라엘·레바논 회담 결과 따르지 않을 것\"", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260414010004170", "snippet": "헤즈볼라 회담 결과 거부", "source_name": "아시아투데이" },
+        { "title": "워싱턴 회담 앞두고 레바논, 이스라엘에 무조건 휴전 요구할듯", "url": "https://www.fnnews.com/news/202604141009500115", "snippet": "레바논 무조건 휴전 요구 전망", "source_name": "파이낸셜뉴스" },
+        { "title": "뜨거운 감자 '레바논'… 눈 쏠린 워싱턴 협상", "url": "https://www.fnnews.com/news/202604141844168731", "snippet": "2차 종전협상 임박 속 레바논 이슈", "source_name": "파이낸셜뉴스" },
+        { "title": "美국무 중재로 이스라엘·레바논 대사 14일 회담…\"헤즈볼라 논의\"", "url": "https://www.fnnews.com/news/202604141512520231", "snippet": "루비오 국무장관 중재 이스라엘 레바논 대사 회담", "source_name": "파이낸셜뉴스" },
+        { "title": "레바논 중앙정부와 헤즈볼라, 이스라엘과의 협상 놓고 충돌… 종파간 갈등 재연 조짐도", "url": "https://www.newspim.com/news/view/20260414000021", "snippet": "레바논 내 종파간 갈등 보도", "source_name": "뉴스핌" },
+        { "title": "종전 방해하는 이스라엘… 회담날에도 레바논 공습", "url": "https://www.seoul.co.kr/news/international/middleeast-africa/2026/04/13/20260413014001", "snippet": "이스라엘 회담 중에도 레바논 공습 지속", "source_name": "서울신문" },
+        { "title": "이스라엘·레바논 첫 직접 협상…중동 해법 '안갯속'", "url": "https://www.fnnews.com/news/202604150133018037", "snippet": "33년 만의 첫 직접 협상", "source_name": "파이낸셜뉴스" },
+        { "title": "헤즈볼라 \"협상 거부\"… 이스라엘, 레바논 맹폭", "url": "https://www.kmib.co.kr/article/view.asp?arcid=1776153697&code=11141300&sid1=int", "snippet": "헤즈볼라 협상 거부 이스라엘 공습", "source_name": "국민일보" }
+      ]
+    }
+  ]
+}

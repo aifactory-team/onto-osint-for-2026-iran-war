@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-13",
+  "last_updated": "2026-04-14",
   "classes": [
     {
       "id": "Entity",
@@ -89,6 +89,13 @@
       "target": "8 new entities (ent-069~ent-076)",
       "reason": "미 호르무즈 봉쇄 시행(15척 군함, CENTCOM 10AM ET), 이란 '해적행위' 규정 및 걸프 전역 위협, 이슬라마바드 MoU 직전 주장(아라그치), 20년 농축 모라토리엄 미국 제안 공개, 헤즈볼라 워싱턴 회담 거부(사파/카셈), 이중 봉쇄 개념, FAO 식량 위기 경고",
       "source_ids": ["src-124", "src-125", "src-126", "src-128", "src-129", "src-130", "src-131", "src-133", "src-134", "src-137", "src-141", "src-144"]
+    },
+    {
+      "date": "2026-04-14",
+      "action": "add_instances",
+      "target": "14 new entities (ent-077~ent-090)",
+      "reason": "이스라엘-레바논 워싱턴 33년 만의 직접 회담(루비오 중재), 트럼프 2일 내 2차 미-이란 협상 시사, IMF 세계성장률 3.1% 하향, IEA '역대 최대 에너지 안보 위협' 경고, 제재 유조선 봉쇄 무시 통과, 유가 급반전(WTI -8%), 인도 에너지 위기(러시아 면제 만료), 레바논 내부 종파 갈등 등 신규 행위자/사건 추출",
+      "source_ids": ["src-152", "src-153", "src-154", "src-155", "src-158", "src-161", "src-163", "src-165", "src-169", "src-171", "src-172"]
     }
   ]
 }

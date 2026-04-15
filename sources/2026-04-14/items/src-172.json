@@ -1,0 +1,23 @@
+{
+  "id": "src-172",
+  "title": "레바논 중앙정부와 헤즈볼라, 이스라엘과의 협상 놓고 충돌… 종파간 갈등 재연 조짐도",
+  "url": "https://www.newspim.com/news/view/20260414000021",
+  "snippet": "이스라엘과의 협상을 두고 레바논 중앙정부와 헤즈볼라 간 충돌 심화. 종파 갈등 재연 조짐. 레바논 내부 분열이 협상의 실효성에 의문 제기.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 레바논 내부 종파 갈등 재연은 새로운 분석",
+  "entities": [
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" },
+    { "id": "temp-015", "type": "Concept", "name": "Lebanon Internal Divisions" }
+  ],
+  "relations": [
+    { "subject": "ent-047", "predicate": "opposes", "object": "temp-012" }
+  ]
+}

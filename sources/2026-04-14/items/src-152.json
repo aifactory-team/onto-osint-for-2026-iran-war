@@ -1,0 +1,26 @@
+{
+  "id": "src-152",
+  "title": "Trump hints US-Iran talks could resume over next two days",
+  "url": "https://www.cnn.com/2026/04/14/world/live-news/iran-war-blockade-us-trump",
+  "snippet": "Trump told NY Post 'something could be happening' over next two days in Pakistan. UN SG Guterres says 'highly probable' that peace talks will restart. Blockade day 2 continues. White House official: future talks under discussion but nothing scheduled.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프의 2일 내 협상 재개 시사는 4/13 이후 새로운 발언",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "temp-011", "type": "Event", "name": "Trump Hints at 2nd Round Talks" },
+    { "id": "temp-014", "type": "Person", "name": "António Guterres", "role": "UN Secretary-General" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-011" },
+    { "subject": "temp-011", "predicate": "follows", "object": "ent-054" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-154",
+  "title": "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'",
+  "url": "https://www.cnbc.com/2026/04/14/china-us-strait-of-hormuz-war-donald-trump-oil-energy-crisis-conflict-middle-east-iran.html",
+  "snippet": "China escalates rhetoric from 'urges restraint' to calling blockade 'dangerous and irresponsible act'. China warned blockade risks undermining 'already fragile ceasefire'. China imports 80% of Iran's shipped oil (1.4 mb/d). Holds ~1 billion barrels strategic reserves.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "update",
+  "related_report": "2026-04-13",
+  "related_item": "src-133",
+  "tag_reason": "업데이트 — 4/13 '자제 촉구'에서 '위험하고 무책임' 수사 격상, 새로운 수치 포함",
+  "entities": [
+    { "id": "ent-010", "type": "Organization", "name": "China" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" }
+  ],
+  "relations": [
+    { "subject": "ent-010", "predicate": "opposes", "object": "ent-063" }
+  ]
+}

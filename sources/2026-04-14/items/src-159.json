@@ -1,0 +1,24 @@
+{
+  "id": "src-159",
+  "title": "Israel and Lebanon agree to start peace negotiations after rare talks in D.C.",
+  "url": "https://www.npr.org/2026/04/14/israel-lebanon-peace-negotiations-dc-talks",
+  "snippet": "Israel and Lebanon agreed to hold further talks at mutually agreed time and venue. US hopes talks exceed scope of 2024 agreement. Hezbollah stepped up fire on Israel during talks.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이스라엘-레바논 추가 회담 합의 및 헤즈볼라 공격 지속은 새로운 정보",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "temp-001", "type": "Person", "name": "Marco Rubio" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-050" },
+    { "subject": "ent-047", "predicate": "opposes", "object": "temp-012" }
+  ]
+}

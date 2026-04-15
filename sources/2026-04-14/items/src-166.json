@@ -1,0 +1,22 @@
+{
+  "id": "src-166",
+  "title": "Analysis: China weathered oil crisis but costs growing",
+  "url": "https://www.cnn.com/2026/04/14/business/china-oil-crisis-costs-growing",
+  "snippet": "China's 1 billion barrel strategic reserve cushions blow. But costs mounting as oil imports from Iran disrupted. China bought 80% of Iran's shipped oil.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 중국의 전략비축유 활용 및 비용 증가 분석은 새로운 정보",
+  "entities": [
+    { "id": "ent-010", "type": "Organization", "name": "China" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" }
+  ],
+  "relations": [
+    { "subject": "ent-063", "predicate": "relatedTo", "object": "ent-010" },
+    { "subject": "ent-010", "predicate": "relatedTo", "object": "ent-002" }
+  ]
+}

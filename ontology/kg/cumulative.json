@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-13",
+  "last_updated": "2026-04-14",
   "nodes": [
     { "id": "ent-001", "type": "Person", "label": "Donald Trump" },
     { "id": "ent-002", "type": "Organization", "label": "Iran" },
@@ -78,7 +78,21 @@
     { "id": "ent-073", "type": "Person", "label": "Naim Qassem" },
     { "id": "ent-074", "type": "Event", "label": "Hezbollah Rejects Washington Talks" },
     { "id": "ent-075", "type": "Concept", "label": "Dual Blockade (이중 봉쇄)" },
-    { "id": "ent-076", "type": "Event", "label": "FAO Food Crisis Warning" }
+    { "id": "ent-076", "type": "Event", "label": "FAO Food Crisis Warning" },
+    { "id": "ent-077", "type": "Person", "label": "Marco Rubio" },
+    { "id": "ent-078", "type": "Person", "label": "Yechiel Leiter" },
+    { "id": "ent-079", "type": "Person", "label": "Nada Mouawad" },
+    { "id": "ent-080", "type": "Organization", "label": "India" },
+    { "id": "ent-081", "type": "Organization", "label": "IMF" },
+    { "id": "ent-082", "type": "Organization", "label": "IEA" },
+    { "id": "ent-083", "type": "Person", "label": "Antonio Guterres" },
+    { "id": "ent-084", "type": "Event", "label": "Oil Price Reversal (Apr 14)" },
+    { "id": "ent-085", "type": "Event", "label": "IMF Growth Forecast Downgrade" },
+    { "id": "ent-086", "type": "Event", "label": "IEA April Oil Market Report" },
+    { "id": "ent-087", "type": "Event", "label": "Sanctioned Tankers Defy Blockade" },
+    { "id": "ent-088", "type": "Event", "label": "Trump Hints at 2nd Round Talks" },
+    { "id": "ent-089", "type": "Concept", "label": "Russian Oil Waiver Expiry" },
+    { "id": "ent-090", "type": "Concept", "label": "Lebanon Internal Divisions" }
   ],
   "edges": [],
   "triples": [
@@ -221,11 +235,37 @@
     { "subject": "ent-074", "predicate": "relatedTo", "object": "ent-053", "date": "2026-04-13", "confidence": 0.78, "type": "inferred" },
     { "subject": "ent-072", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "date": "2026-04-13", "confidence": 0.81, "type": "inferred" },
     { "subject": "ent-073", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "date": "2026-04-13", "confidence": 0.81, "type": "inferred" },
-    { "subject": "ent-076", "predicate": "relatedTo", "object": "ent-075", "date": "2026-04-13", "confidence": 0.80, "type": "inferred" }
+    { "subject": "ent-076", "predicate": "relatedTo", "object": "ent-075", "date": "2026-04-13", "confidence": 0.80, "type": "inferred" },
+    { "subject": "ent-077", "predicate": "participatesIn", "object": "ent-060", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-078", "predicate": "participatesIn", "object": "ent-060", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-079", "predicate": "participatesIn", "object": "ent-060", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-078", "predicate": "affiliatedWith", "object": "ent-004", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-079", "predicate": "affiliatedWith", "object": "ent-050", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "ent-060", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-050", "predicate": "participatesIn", "object": "ent-060", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-047", "predicate": "opposes", "object": "ent-060", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-010", "predicate": "opposes", "object": "ent-063", "date": "2026-04-14", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-088", "predicate": "follows", "object": "ent-054", "date": "2026-04-14", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "ent-088", "date": "2026-04-14", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-088", "date": "2026-04-14", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-087", "predicate": "relatedTo", "object": "ent-063", "date": "2026-04-14", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-084", "predicate": "follows", "object": "ent-067", "date": "2026-04-14", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-085", "predicate": "causedBy", "object": "ent-015", "date": "2026-04-14", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-086", "predicate": "relatedTo", "object": "ent-075", "date": "2026-04-14", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-080", "predicate": "relatedTo", "object": "ent-063", "date": "2026-04-14", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-089", "predicate": "relatedTo", "object": "ent-080", "date": "2026-04-14", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-084", "predicate": "causedBy", "object": "ent-088", "date": "2026-04-14", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-083", "predicate": "relatedTo", "object": "ent-088", "date": "2026-04-14", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-090", "predicate": "relatedTo", "object": "ent-074", "date": "2026-04-14", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-078", "predicate": "potentialRelation", "object": "ent-079", "date": "2026-04-14", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-080", "predicate": "potentialRelation", "object": "ent-010", "date": "2026-04-14", "confidence": 0.75, "type": "inferred" },
+    { "subject": "ent-087", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-14", "confidence": 0.72, "type": "inferred" },
+    { "subject": "ent-084", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-14", "confidence": 0.72, "type": "inferred" },
+    { "subject": "ent-077", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "date": "2026-04-14", "confidence": 0.81, "type": "inferred" }
   ],
   "stats": {
-    "total_nodes": 76,
-    "total_edges": 141,
-    "total_triples": 141
+    "total_nodes": 90,
+    "total_edges": 167,
+    "total_triples": 167
   }
 }

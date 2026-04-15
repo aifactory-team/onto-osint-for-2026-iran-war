@@ -1,0 +1,29 @@
+{
+  "id": "src-158",
+  "title": "Israel, Lebanon launch historic direct talks in Washington",
+  "url": "https://www.israelhayom.com/2026/04/14/israel-lebanon-launch-historic-direct-talks-in-washington",
+  "snippet": "First direct talks since 1993. Israeli Ambassador Yechiel Leiter and Lebanese Ambassador Nada Mouawad met at State Department. Secretary Rubio mediating. 2-hour meeting began 11am ET. Israel: aim is Hezbollah disarmament and normalization. Agreed to hold further talks.",
+  "source_name": "Israel Hayom",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이스라엘-레바논 워싱턴 회담 실제 개최 (이전에는 예고만)",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-001", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State" },
+    { "id": "temp-002", "type": "Person", "name": "Yechiel Leiter", "role": "Israeli Ambassador to US" },
+    { "id": "temp-003", "type": "Person", "name": "Nada Mouawad", "role": "Lebanese Ambassador to US" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-060", "type": "Event", "name": "Israel-Lebanon Washington Talks" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "participatesIn", "object": "temp-012" },
+    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-012" },
+    { "subject": "temp-003", "predicate": "participatesIn", "object": "temp-012" },
+    { "subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-050" }
+  ]
+}

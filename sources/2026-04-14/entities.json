@@ -1,0 +1,163 @@
+{
+  "date": "2026-04-14",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": { "role": "US Secretary of State", "affiliation": "United States", "action": "mediated Israel-Lebanon Washington talks" },
+      "source_ids": ["src-158", "src-159", "src-160", "src-171"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Yechiel Leiter",
+      "properties": { "role": "Israeli Ambassador to US", "affiliation": "Israel" },
+      "source_ids": ["src-158", "src-171"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Nada Mouawad",
+      "properties": { "role": "Lebanese Ambassador to US", "affiliation": "Lebanon" },
+      "source_ids": ["src-158", "src-171"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "India",
+      "properties": { "type": "state", "oil_import": "5.5 mb/d (85%+ imported)", "hormuz_loss": "~3 mb/d" },
+      "source_ids": ["src-165"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IMF (International Monetary Fund)",
+      "properties": { "type": "international organization" },
+      "source_ids": ["src-161", "src-167"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IEA (International Energy Agency)",
+      "properties": { "type": "international organization" },
+      "source_ids": ["src-163", "src-164"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Reversal (Apr 14)",
+      "properties": { "date": "2026-04-14", "wti": "$91.28 (-8%)", "brent": "$94.79 (-4%)", "cause": "Trump hints at talks resumption", "note": "Physical crude still near $150/bbl" },
+      "source_ids": ["src-162"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IMF Growth Forecast Downgrade (Apr 14)",
+      "properties": { "date": "2026-04-14", "global_growth": "3.1% (-0.2pp)", "mena_growth": "1.1%", "iran_growth": "-6.1%", "global_inflation": "4.4%", "us_growth": "2.3%", "adverse_scenario": "growth 2.5%, inflation 5.4%" },
+      "source_ids": ["src-161", "src-167"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IEA April Oil Market Report",
+      "properties": { "date": "2026-04-14", "supply_drop": "10.1 mb/d to 97 mb/d (March)", "hormuz_flow": "3.8 mb/d (from 20+ mb/d pre-war)", "physical_crude": "near $150/bbl", "demand_forecast": "-80 kb/d in 2026", "assessment": "largest energy security threat in history" },
+      "source_ids": ["src-163", "src-164"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Sanctioned Tankers Defy Blockade (Apr 14)",
+      "properties": { "date": "2026-04-14", "vessels": "Rich Starry (Chinese, sanctioned 2023), Elpis", "total_transits": "at least 9 commercial vessels since Monday", "detail": "CENTCOM: no ships bound for Iran ports crossed blockade line" },
+      "source_ids": ["src-153", "src-168"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Hints at 2nd Round Talks (Apr 14)",
+      "properties": { "date": "2026-04-14", "detail": "Trump told NY Post 'something could be happening over next two days'. NBC: talks could resume this week, possibly April 16. UN SG Guterres: 'highly probable' talks restart. Iran counter-offered 3-5 year moratorium.", "location": "Pakistan (Islamabad)" },
+      "source_ids": ["src-152", "src-155", "src-156", "src-169", "src-170", "src-173", "src-174"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-060",
+      "type": "Event",
+      "name": "Israel-Lebanon Washington Talks Held (Apr 14)",
+      "properties": { "date": "2026-04-14", "location": "Washington, Department of State", "participants": "Yechiel Leiter (Israel), Nada Mouawad (Lebanon), Marco Rubio (US, mediator)", "duration": "2 hours", "start_time": "11:00 ET", "outcome": "agreed to hold further talks at mutually agreed time and venue", "context": "first direct talks since 1993", "opposition": "Hezbollah stepped up fire during talks" },
+      "source_ids": ["src-158", "src-159", "src-160", "src-171", "src-172", "src-175", "src-176"],
+      "mention_count": 22
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Russian Oil Waiver Expiry",
+      "properties": { "domain": "energy/sanctions", "date": "2026-04-11", "detail": "US waiver allowing countries to buy Russian crude expired, removing key supply source for India" },
+      "source_ids": ["src-165"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "António Guterres",
+      "properties": { "role": "UN Secretary-General", "affiliation": "United Nations", "statement": "'Highly probable' that peace talks will restart" },
+      "source_ids": ["src-152"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Lebanon Internal Divisions",
+      "properties": { "domain": "politics/governance", "detail": "Lebanese government and Hezbollah clash over Israel negotiations, sectarian tensions re-emerging" },
+      "source_ids": ["src-172"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "participatesIn", "object": "temp-012", "source_ids": ["src-158", "src-159", "src-160", "src-171"], "confidence": 1.0 },
+    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-012", "source_ids": ["src-158", "src-171"], "confidence": 1.0 },
+    { "subject": "temp-003", "predicate": "participatesIn", "object": "temp-012", "source_ids": ["src-158", "src-171"], "confidence": 1.0 },
+    { "subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-050", "source_ids": ["src-158", "src-159"], "confidence": 0.8 },
+    { "subject": "ent-047", "predicate": "opposes", "object": "temp-012", "source_ids": ["src-158", "src-172", "src-175", "src-176"], "confidence": 1.0 },
+    { "subject": "ent-010", "predicate": "opposes", "object": "ent-063", "source_ids": ["src-154", "src-166"], "confidence": 0.9 },
+    { "subject": "temp-011", "predicate": "follows", "object": "ent-054", "source_ids": ["src-152", "src-155", "src-156"], "confidence": 0.9 },
+    { "subject": "temp-010", "predicate": "relatedTo", "object": "ent-063", "source_ids": ["src-153", "src-168"], "confidence": 1.0 },
+    { "subject": "ent-015", "predicate": "causedBy", "object": "temp-008", "source_ids": ["src-161", "src-167"], "confidence": 0.9 },
+    { "subject": "ent-063", "predicate": "relatedTo", "object": "temp-004", "source_ids": ["src-165"], "confidence": 0.9 },
+    { "subject": "temp-013", "predicate": "relatedTo", "object": "temp-004", "source_ids": ["src-165"], "confidence": 0.85 },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-155", "src-169", "src-170"], "confidence": 0.9 },
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-071", "source_ids": ["src-155"], "confidence": 0.85 },
+    { "subject": "temp-012", "predicate": "follows", "object": "ent-060", "source_ids": ["src-158"], "confidence": 1.0 },
+    { "subject": "ent-075", "predicate": "causedBy", "object": "temp-009", "source_ids": ["src-163", "src-164"], "confidence": 0.8 }
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 13,
+    "matched_entities": 2,
+    "total_relations": 15
+  }
+}

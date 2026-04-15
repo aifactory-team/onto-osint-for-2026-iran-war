@@ -1,0 +1,23 @@
+{
+  "id": "src-163",
+  "title": "IEA warns of 'the largest energy security threat in history'; global oil supply plummets 10.1 mb/d",
+  "url": "https://www.euronews.com/business/2026/04/14/the-largest-energy-security-threat-in-history-is-about-push-oil-prices-further-up-iea-warn",
+  "snippet": "IEA April Oil Market Report: global oil supply plummeted 10.1 mb/d to 97 mb/d in March. Hormuz shipments down from 20+ mb/d to 3.8 mb/d. Physical crude near $150/bbl. Middle distillates in Singapore above $290/bbl. Global demand to decline 80 kb/d in 2026. Middle East refineries cut runs by 6 mb/d.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — IEA 4월 석유시장보고서 발표는 4/14 신규 이벤트",
+  "entities": [
+    { "id": "temp-006", "type": "Organization", "name": "IEA" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-009", "type": "Event", "name": "IEA April Oil Market Report" },
+    { "id": "ent-015", "type": "Event", "name": "2026 Iran War" },
+    { "id": "ent-075", "type": "Concept", "name": "Dual Blockade" }
+  ],
+  "relations": [
+    { "subject": "ent-075", "predicate": "causedBy", "object": "temp-009" }
+  ]
+}

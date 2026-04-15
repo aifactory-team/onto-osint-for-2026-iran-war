@@ -1,0 +1,23 @@
+{
+  "id": "src-175",
+  "title": "헤즈볼라 '이스라엘·레바논 회담 결과 따르지 않을 것'",
+  "url": "https://www.asiatoday.co.kr/view.php?key=20260414010001567",
+  "snippet": "헤즈볼라 워싱턴 회담 결과 거부 재확인. 사파: 합의에 구속되지 않는다.",
+  "source_name": "아시아투데이",
+  "language": "ko",
+  "discovered_date": "2026-04-14",
+  "tag": "update",
+  "related_report": "2026-04-13",
+  "related_item": "src-131",
+  "tag_reason": "업데이트 — 헤즈볼라 회담 결과 거부 재확인",
+  "entities": [
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-072", "type": "Person", "name": "Hashem Safieddine" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" }
+  ],
+  "relations": [
+    { "subject": "ent-047", "predicate": "opposes", "object": "temp-012" }
+  ]
+}

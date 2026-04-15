@@ -1,0 +1,25 @@
+{
+  "id": "src-153",
+  "title": "Sanctioned tankers transit Strait of Hormuz amid US blockade",
+  "url": "https://www.aljazeera.com/news/2026/4/14/sanctioned-tankers-transit-strait-of-hormuz-despite-blockade",
+  "snippet": "At least 9 commercial vessels transited Hormuz since Monday. Chinese tanker Rich Starry (sanctioned in 2023) first oil-carrying ship to transit on first full day. Tanker Elpis also transited. CENTCOM: blockade applies only to ships entering/departing Iran ports.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 봉쇄 시행 이후 제재 대상 유조선의 실제 통항 상황은 새로운 정보",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-059", "type": "Organization", "name": "CENTCOM" },
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" },
+    { "id": "temp-010", "type": "Event", "name": "Sanctioned Tankers Defy Blockade" },
+    { "id": "ent-010", "type": "Organization", "name": "China" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" }
+  ],
+  "relations": [
+    { "subject": "temp-010", "predicate": "relatedTo", "object": "ent-063" },
+    { "subject": "ent-059", "predicate": "participatesIn", "object": "ent-063" }
+  ]
+}

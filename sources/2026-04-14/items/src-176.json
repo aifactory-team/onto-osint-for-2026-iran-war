@@ -1,0 +1,23 @@
+{
+  "id": "src-176",
+  "title": "헤즈볼라 '협상 거부'… 이스라엘, 레바논 맹폭",
+  "url": "https://www.kmib.co.kr/article/view.asp?arcid=0020260414001",
+  "snippet": "헤즈볼라 협상 거부 속 이스라엘 레바논 회담 당일에도 공습 지속. 남부 레바논 국경 마을 포격.",
+  "source_name": "국민일보",
+  "language": "ko",
+  "discovered_date": "2026-04-14",
+  "tag": "update",
+  "related_report": "2026-04-13",
+  "related_item": "src-131",
+  "tag_reason": "업데이트 — 헤즈볼라 협상 거부 및 이스라엘 공습 지속",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" }
+  ],
+  "relations": [
+    { "subject": "ent-047", "predicate": "opposes", "object": "temp-012" },
+    { "subject": "ent-004", "predicate": "relatedTo", "object": "ent-050" }
+  ]
+}

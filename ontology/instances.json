@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-13",
+  "last_updated": "2026-04-14",
   "entities": [
     {
       "id": "ent-001",
@@ -9,8 +9,8 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 76
+      "last_seen": "2026-04-14",
+      "mention_count": 94
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-13",
-      "mention_count": 130
+      "last_seen": "2026-04-14",
+      "mention_count": 152
     },
     {
       "id": "ent-003",
@@ -27,8 +27,8 @@
       "name": "US Military",
       "properties": { "type": "military", "location": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-13",
-      "mention_count": 40
+      "last_seen": "2026-04-14",
+      "mention_count": 46
     },
     {
       "id": "ent-004",
@@ -36,8 +36,8 @@
       "name": "Israel",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-11",
-      "mention_count": 40
+      "last_seen": "2026-04-14",
+      "mention_count": 55
     },
     {
       "id": "ent-005",
@@ -72,8 +72,8 @@
       "name": "Strait of Hormuz",
       "properties": { "type": "strait/waterway" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-13",
-      "mention_count": 105
+      "last_seen": "2026-04-14",
+      "mention_count": 123
     },
     {
       "id": "ent-009",
@@ -81,8 +81,8 @@
       "name": "Russia",
       "properties": { "type": "state" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 4
+      "last_seen": "2026-04-14",
+      "mention_count": 6
     },
     {
       "id": "ent-010",
@@ -90,8 +90,8 @@
       "name": "China",
       "properties": { "type": "state" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-13",
-      "mention_count": 10
+      "last_seen": "2026-04-14",
+      "mention_count": 22
     },
     {
       "id": "ent-011",
@@ -135,8 +135,8 @@
       "name": "2026 Iran War",
       "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 40
+      "last_seen": "2026-04-14",
+      "mention_count": 46
     },
     {
       "id": "ent-016",
@@ -261,8 +261,8 @@
       "name": "Pakistan",
       "properties": { "type": "state", "role": "mediator in Iran war, host of Islamabad talks" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 48
+      "last_seen": "2026-04-14",
+      "mention_count": 56
     },
     {
       "id": "ent-030",
@@ -369,8 +369,8 @@
       "name": "JD Vance",
       "properties": { "role": "US Vice President", "affiliation": "United States" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-12",
-      "mention_count": 63
+      "last_seen": "2026-04-14",
+      "mention_count": 71
     },
     {
       "id": "ent-042",
@@ -396,8 +396,8 @@
       "name": "Abbas Araghchi",
       "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-13",
-      "mention_count": 31
+      "last_seen": "2026-04-14",
+      "mention_count": 35
     },
     {
       "id": "ent-045",
@@ -423,8 +423,8 @@
       "name": "Hezbollah",
       "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-13",
-      "mention_count": 20
+      "last_seen": "2026-04-14",
+      "mention_count": 34
     },
     {
       "id": "ent-048",
@@ -450,8 +450,8 @@
       "name": "Lebanon",
       "properties": { "type": "country" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-11",
-      "mention_count": 28
+      "last_seen": "2026-04-14",
+      "mention_count": 46
     },
     {
       "id": "ent-051",
@@ -486,8 +486,8 @@
       "name": "Islamabad Peace Talks",
       "properties": { "date": "2026-04-11~12", "duration": "21 hours", "location": "Islamabad, Serena Hotel", "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf ~70 people), Pakistan (host/mediator)", "status": "collapsed — no agreement reached", "format": "direct face-to-face (first since 1979)", "sticking_points": "nuclear (900 lbs enriched uranium), Hormuz control, frozen assets" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-12",
-      "mention_count": 85
+      "last_seen": "2026-04-14",
+      "mention_count": 91
     },
     {
       "id": "ent-055",
@@ -531,17 +531,17 @@
       "name": "CENTCOM (US Central Command)",
       "properties": { "type": "military command", "location": "United States" },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-13",
-      "mention_count": 16
+      "last_seen": "2026-04-14",
+      "mention_count": 20
     },
     {
       "id": "ent-060",
       "type": "Event",
-      "name": "Israel-Lebanon Washington Talks (planned)",
-      "properties": { "date": "2026-04-15 (planned)", "location": "Washington, Department of State", "participants": "Israel, Lebanon", "context": "Israel rejects ceasefire but agrees to talks on Hezbollah disarmament" },
+      "name": "Israel-Lebanon Washington Talks",
+      "properties": { "date": "2026-04-14", "location": "Washington, Department of State", "participants": "Israel (Ambassador Yechiel Leiter), Lebanon (Ambassador Nada Mouawad), US (Secretary Marco Rubio, mediator)", "duration": "2 hours", "start_time": "11:00 ET", "outcome": "agreed to hold further talks at mutually agreed time and venue", "context": "first direct talks since 1993, Hezbollah stepped up fire during talks" },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-11",
-      "mention_count": 3
+      "last_seen": "2026-04-14",
+      "mention_count": 25
     },
     {
       "id": "ent-061",
@@ -568,8 +568,8 @@
       "name": "Trump Hormuz Naval Blockade Declaration",
       "properties": { "date": "2026-04-12", "detail": "Effective immediately, complete blockade of all ships entering/leaving Hormuz; interdict vessels that paid Iran tolls; begin mine clearing; 50% tariff on Iran-assisting countries", "trigger": "Islamabad talks collapse", "implementation": "2026-04-13 10:00 ET, 15 warships deployed" },
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-13",
-      "mention_count": 45
+      "last_seen": "2026-04-14",
+      "mention_count": 60
     },
     {
       "id": "ent-064",
@@ -641,8 +641,8 @@
       "name": "20-Year Enrichment Moratorium Proposal",
       "properties": { "domain": "nuclear/nonproliferation", "detail": "US proposed Iran accept 20-year moratorium on all uranium enrichment and remove all HEU from country. Iran counter-offered 'monitored process of down-blending' existing stockpile." },
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-13",
-      "mention_count": 5
+      "last_seen": "2026-04-14",
+      "mention_count": 9
     },
     {
       "id": "ent-072",
@@ -650,8 +650,8 @@
       "name": "Wafiq Safa",
       "properties": { "role": "Senior Hezbollah Political Council member", "affiliation": "Hezbollah", "statement": "As for the outcomes of this negotiation between Lebanon and the Israeli enemy, we are not interested in or concerned with them at all." },
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-13",
-      "mention_count": 3
+      "last_seen": "2026-04-14",
+      "mention_count": 5
     },
     {
       "id": "ent-073",
@@ -659,8 +659,8 @@
       "name": "Naim Qassem",
       "properties": { "role": "Hezbollah Secretary-General", "affiliation": "Hezbollah", "statement": "Called on Lebanon to cancel April 15 Washington meeting with Israel. Described talks as pointless." },
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-13",
-      "mention_count": 3
+      "last_seen": "2026-04-14",
+      "mention_count": 6
     },
     {
       "id": "ent-074",
@@ -677,8 +677,8 @@
       "name": "Dual Blockade (이중 봉쇄)",
       "properties": { "domain": "maritime/military", "detail": "Hormuz faces dual blockade: Iran blocks free passage (tolls/mines) while US blocks Iran-bound traffic. Pre-war 135 ships/day → 4-10 ships/day. Near-total maritime paralysis." },
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-13",
-      "mention_count": 4
+      "last_seen": "2026-04-14",
+      "mention_count": 8
     },
     {
       "id": "ent-076",
@@ -688,7 +688,133 @@
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-13",
       "mention_count": 3
+    },
+    {
+      "id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": { "role": "US Secretary of State", "affiliation": "United States", "action": "mediated Israel-Lebanon Washington talks (Apr 14)" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-078",
+      "type": "Person",
+      "name": "Yechiel Leiter",
+      "properties": { "role": "Israeli Ambassador to US", "affiliation": "Israel" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-079",
+      "type": "Person",
+      "name": "Nada Mouawad",
+      "properties": { "role": "Lebanese Ambassador to US", "affiliation": "Lebanon" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-080",
+      "type": "Organization",
+      "name": "India",
+      "properties": { "type": "state", "oil_import": "5.5 mb/d (85%+ imported, world's 3rd largest)", "hormuz_impact": "lost ~3 mb/d from disruption" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-081",
+      "type": "Organization",
+      "name": "IMF (International Monetary Fund)",
+      "properties": { "type": "international organization" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-082",
+      "type": "Organization",
+      "name": "IEA (International Energy Agency)",
+      "properties": { "type": "international organization" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-083",
+      "type": "Person",
+      "name": "António Guterres",
+      "properties": { "role": "UN Secretary-General", "affiliation": "United Nations", "statement": "'Highly probable' that peace talks will restart" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-084",
+      "type": "Event",
+      "name": "Oil Price Reversal (Apr 14)",
+      "properties": { "date": "2026-04-14", "wti": "$91.28 (-8%)", "brent": "$94.79 (-4%)", "cause": "Trump hints at talks resumption", "note": "Physical crude still near $150/bbl (IEA), futures-physical disconnect widens" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-085",
+      "type": "Event",
+      "name": "IMF Growth Forecast Downgrade (Apr 14)",
+      "properties": { "date": "2026-04-14", "global_growth": "3.1% (-0.2pp from Jan)", "mena_growth": "1.1%", "iran_growth": "-6.1%", "global_inflation": "4.4%", "us_growth": "2.3%", "saudi_growth": "3.1% (from 4.5%)", "adverse_scenario": "growth 2.5%, inflation 5.4%" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-086",
+      "type": "Event",
+      "name": "IEA April Oil Market Report",
+      "properties": { "date": "2026-04-14", "supply_drop": "10.1 mb/d to 97 mb/d (March)", "hormuz_flow": "3.8 mb/d (from 20+ mb/d pre-war)", "physical_crude": "near $150/bbl", "demand_forecast": "-80 kb/d in 2026", "assessment": "largest energy security threat in history", "refinery_cuts": "ME/Asia refineries cut 6 mb/d to 77.2 mb/d" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-087",
+      "type": "Event",
+      "name": "Sanctioned Tankers Defy Blockade (Apr 14)",
+      "properties": { "date": "2026-04-14", "vessels": "Rich Starry (Chinese, sanctioned 2023), Elpis", "total_transits": "at least 9 commercial vessels since Monday", "centcom_claim": "no ships bound for Iran ports crossed blockade line" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-088",
+      "type": "Event",
+      "name": "Trump Hints at 2nd Round Talks (Apr 14)",
+      "properties": { "date": "2026-04-14", "detail": "Trump told NY Post 'something could be happening over next two days'. NBC: talks could resume this week, possibly April 16. UN SG Guterres: 'highly probable'. Iran counter-offered 3-5 year moratorium vs US 20-year demand.", "location": "Pakistan (Islamabad)" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 18
+    },
+    {
+      "id": "ent-089",
+      "type": "Concept",
+      "name": "Russian Oil Waiver Expiry",
+      "properties": { "domain": "energy/sanctions", "date": "2026-04-11", "detail": "US waiver allowing countries to buy Russian crude expired, removing key supply source especially for India" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-090",
+      "type": "Concept",
+      "name": "Lebanon Internal Divisions",
+      "properties": { "domain": "politics/governance", "detail": "Lebanese government and Hezbollah clash over Israel negotiations, sectarian tensions re-emerging" },
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "mention_count": 2
     }
   ],
-  "total_count": 76
+  "total_count": 90
 }

@@ -1,0 +1,22 @@
+{
+  "id": "src-162",
+  "title": "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
+  "url": "https://www.cnbc.com/2026/04/14/oil-wti-brent-as-markets-hormuz-blockade-vance-trump.html",
+  "snippet": "WTI fell ~8% to $91.28/bbl. Brent dropped 4%+ to $94.79/bbl. Decline driven by signals talks could resume. Markets react to Trump 'something happening in 2 days' comment. Contrast with physical market near $150/bbl.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 유가 급락(WTI -8%)은 4/13 대비 반전된 새로운 흐름",
+  "entities": [
+    { "id": "temp-007", "type": "Event", "name": "Oil Price Reversal (Apr 14)" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": [
+    { "subject": "temp-011", "predicate": "causedBy", "object": "temp-007" }
+  ]
+}

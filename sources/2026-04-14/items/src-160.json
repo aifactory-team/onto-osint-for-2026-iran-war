@@ -1,0 +1,24 @@
+{
+  "id": "src-160",
+  "title": "Israel-Lebanon direct talks in the US: All to know",
+  "url": "https://www.aljazeera.com/news/2026/4/14/israel-lebanon-direct-talks-in-the-us-all-to-know",
+  "snippet": "2-hour meeting at State Dept. Israel wants Hezbollah disarmament + Abraham Accords normalization. Lebanon wants ceasefire. Rubio: 'this is a process, not a single event.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이스라엘-레바논 회담 상세 내용 및 루비오 발언은 새로운 정보",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-001", "type": "Person", "name": "Marco Rubio" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "participatesIn", "object": "temp-012" },
+    { "subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-050" }
+  ]
+}

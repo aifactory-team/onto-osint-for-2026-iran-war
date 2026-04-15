@@ -1,0 +1,22 @@
+{
+  "id": "src-168",
+  "title": "US-Sanctioned Tanker Tests Trump Blockade",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-14/us-sanctioned-tanker-tests-trump-blockade",
+  "snippet": "Rich Starry, Chinese tanker sanctioned 2023, first oil carrier to transit on blockade day 1. Kpler data shows at least 9 vessels.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 제재 유조선의 봉쇄 테스트는 새로운 정보",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-010", "type": "Organization", "name": "China" },
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" },
+    { "id": "temp-010", "type": "Event", "name": "Sanctioned Tankers Defy Blockade" }
+  ],
+  "relations": [
+    { "subject": "temp-010", "predicate": "relatedTo", "object": "ent-063" }
+  ]
+}

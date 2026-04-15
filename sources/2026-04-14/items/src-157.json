@@ -1,0 +1,24 @@
+{
+  "id": "src-157",
+  "title": "How much will US Hormuz blockade hurt Iran",
+  "url": "https://www.aljazeera.com/economy/2026/4/14/how-much-will-us-hormuz-blockade-hurt-iran",
+  "snippet": "Analysis: Iran exports ~1.4 mb/d, mostly to China via dark fleet. Overland routes through Turkey/Pakistan possible but limited. Iran's non-oil GDP also hit.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 봉쇄가 이란 경제에 미치는 영향 분석은 새로운 정보",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-010", "type": "Organization", "name": "China" },
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" }
+  ],
+  "relations": [
+    { "subject": "ent-063", "predicate": "relatedTo", "object": "ent-002" },
+    { "subject": "ent-010", "predicate": "relatedTo", "object": "ent-002" }
+  ]
+}

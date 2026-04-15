@@ -1,0 +1,25 @@
+{
+  "id": "src-177",
+  "title": "Live Updates: Iran war with blockade day 2; Lebanon-Israel direct talks",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-blockade-day-2-lebanon-israel-talks",
+  "snippet": "Aggregated live coverage of blockade day 2 and Israel-Lebanon talks.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "reported",
+  "related_report": "2026-04-13",
+  "related_item": "src-124",
+  "tag_reason": "기보도 — 봉쇄 2일차 및 이스라엘-레바논 회담 종합 실시간 보도",
+  "entities": [
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-012", "type": "Event", "name": "Israel-Lebanon Washington Talks Held (Apr 14)" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": [
+    { "subject": "ent-063", "predicate": "relatedTo", "object": "ent-008" },
+    { "subject": "temp-012", "predicate": "relatedTo", "object": "ent-004" }
+  ]
+}

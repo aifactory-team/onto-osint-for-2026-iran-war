@@ -232,3 +232,46 @@
 ### 스키마 변경 없음
 - 8개 새 엔티티 모두 기존 클래스(Event, Concept, Person)로 분류 가능
 - 21개 새 관계 모두 기존 관계 유형(participatesIn, opposes, causedBy, follows, relatedTo, affiliatedWith, locatedIn, mentions, causalChain, indirectlyAffiliatedWith)으로 표현 가능
+
+---
+
+## 2026-04-14 추론 결과
+
+### 추론 #27: co_participation (이스라엘-레바논 대사 잠재적 관계)
+- **입력:** (ent-078/Yechiel Leiter, participatesIn, ent-060/Washington Talks), (ent-079/Nada Mouawad, participatesIn, ent-060/Washington Talks)
+- **추론:** (ent-078/Yechiel Leiter, potentialRelation, ent-079/Nada Mouawad)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 1993년 이후 최초의 이스라엘-레바논 직접 대면 외교 회담. 양국 대사가 루비오 국무장관 중재 하에 2시간 동안 면담하고 후속 회담에 합의.
+
+### 추론 #28: co_participation (인도-중국 잠재적 관계 — 봉쇄 공동 피해)
+- **입력:** (ent-080/India, relatedTo, ent-063/Blockade), (ent-010/China, opposes, ent-063/Blockade)
+- **추론:** (ent-080/India, potentialRelation, ent-010/China)
+- **신뢰도:** 0.75
+- **상태:** 확정 (잠정에 가까움)
+- **비고:** 인도와 중국 모두 호르무즈 봉쇄의 주요 피해국. 인도는 호르무즈에서 ~3 mb/d를 상실하고 러시아 원유 면제까지 만료(4/11)되어 이중 타격. 중국은 이란산 원유의 80%(1.4 mb/d)를 수입하는 최대 고객. 양국이 봉쇄 해제를 위해 공조할 가능성이 있으나, 미국의 50% 관세 위협이 제약 요인.
+
+### 추론 #29: event_chain (제재 유조선 통과 ← 봉쇄 ← 협상 결렬)
+- **입력:** (ent-087/Sanctioned Tankers Defy, relatedTo, ent-063/Blockade), (ent-063/Blockade, follows, ent-054/Islamabad Talks)
+- **추론:** (ent-087/Sanctioned Tankers Defy, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (3단계 체인: 협상 결렬 → 봉쇄 선언 → 유조선 봉쇄 무시)
+- **상태:** 확정
+- **비고:** 미국의 봉쇄 실효성에 의문을 제기하는 신호. 중국 국적 제재 유조선 Rich Starry가 봉쇄 첫 날 통과하고, Kpler 데이터상 최소 9척이 통과. CENTCOM은 "이란 항구로 향하는 선박은 차단선을 넘지 않았다"고 주장하나, 통과 자체가 봉쇄의 공백을 시사.
+
+### 추론 #30: event_chain (유가 급반전 ← 2차 협상 시사 ← 협상 결렬)
+- **입력:** (ent-084/Oil Price Reversal, causedBy, ent-088/Trump 2nd Round Hints), (ent-088/Trump 2nd Round Hints, follows, ent-054/Islamabad Talks)
+- **추론:** (ent-084/Oil Price Reversal, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (3단계 체인: 협상 결렬 → 2차 협상 시사 → 유가 하락)
+- **상태:** 확정
+- **비고:** 시장은 협상 결렬(4/12)에 유가 급등으로 반응하고, 2차 협상 시사(4/14)에 급락으로 반응. WTI가 하루 만에 -8%를 기록. 그러나 IEA에 따르면 물리적 현물 가격은 $150/bbl 근처로 선물시장과의 괴리가 확대 — 구조적 공급 부족은 해소되지 않음.
+
+### 추론 #31: transitivity (루비오 → 트럼프 간접 소속)
+- **입력:** (ent-077/Marco Rubio, Secretary of State), (US Government → ent-001/Trump, President)
+- **추론:** (ent-077/Marco Rubio, indirectlyAffiliatedWith, ent-001/Donald Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 루비오는 트럼프 행정부 국무장관으로 이스라엘-레바논 워싱턴 회담을 직접 중재. 트럼프의 중동 전략(이란 봉쇄 + 레바논 개별 협상)을 실행하는 핵심 인물.
+
+### 스키마 변경 없음
+- 14개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Location, Concept)로 분류 가능
+- 21개 새 관계 모두 기존 관계 유형(participatesIn, affiliatedWith, opposes, follows, causedBy, relatedTo, causalChain, potentialRelation, indirectlyAffiliatedWith)으로 표현 가능

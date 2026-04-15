@@ -1,0 +1,24 @@
+{
+  "id": "src-156",
+  "title": "Officials Considering Second Round of U.S.-Iran Talks",
+  "url": "https://time.com/7283941/officials-considering-second-round-us-iran-talks",
+  "snippet": "Both sides considering second round. Trump admin open to in-person talks. Iran prepared to meet demands. Back-channel contacts via Pakistan.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 2차 협상 검토 중이라는 새로운 보도",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-011", "type": "Event", "name": "Trump Hints at 2nd Round Talks" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-011" },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "temp-011" }
+  ]
+}

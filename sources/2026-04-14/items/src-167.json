@@ -1,0 +1,21 @@
+{
+  "id": "src-167",
+  "title": "IMF lowers Middle East growth forecast",
+  "url": "https://www.thenationalnews.com/business/economy/2026/04/14/imf-lowers-middle-east-growth-forecast",
+  "snippet": "MENA 2026 growth cut to 1.1%. Iran -6.1%. Saudi Arabia 3.1% (from 4.5%). Iraq, Qatar also hard-hit.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — IMF MENA 지역 성장률 하향 상세는 새로운 정보",
+  "entities": [
+    { "id": "temp-005", "type": "Organization", "name": "IMF" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-008", "type": "Event", "name": "IMF Growth Forecast Downgrade (Apr 14)" }
+  ],
+  "relations": [
+    { "subject": "temp-005", "predicate": "participatesIn", "object": "temp-008" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-164",
+  "title": "Global oil demand to plunge amid disruptions: IEA",
+  "url": "https://www.aljazeera.com/economy/2026/4/14/global-oil-demand-to-plunge-amid-disruptions-iea",
+  "snippet": "IEA projects demand decline 80 kb/d in 2026. March contraction 800 kb/d y/y. April: -2.3 mb/d. ME/Asia refineries cut runs 6 mb/d to 77.2 mb/d.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — IEA 수요 전망 하향은 새로운 정보",
+  "entities": [
+    { "id": "temp-006", "type": "Organization", "name": "IEA" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-009", "type": "Event", "name": "IEA April Oil Market Report" }
+  ],
+  "relations": [
+    { "subject": "temp-006", "predicate": "participatesIn", "object": "temp-009" }
+  ]
+}

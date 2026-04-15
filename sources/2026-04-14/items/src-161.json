@@ -1,0 +1,23 @@
+{
+  "id": "src-161",
+  "title": "IMF cuts global growth forecast during Hormuz blockade",
+  "url": "https://www.aljazeera.com/economy/2026/4/14/imf-cuts-global-growth-forecast-during-hormuz-blockade",
+  "snippet": "IMF cuts 2026 global growth to 3.1% (-0.2pp from Jan). MENA region slashed to 1.1%. Iran economy -6.1%. Global inflation raised to 4.4%. US growth cut to 2.3%. Adverse scenario: growth 2.5%, inflation 5.4%. Saudi Arabia cut to 3.1% from 4.5%.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — IMF 세계경제전망 보고서 발표는 4/14 신규 이벤트",
+  "entities": [
+    { "id": "temp-005", "type": "Organization", "name": "IMF" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-008", "type": "Event", "name": "IMF Growth Forecast Downgrade (Apr 14)" },
+    { "id": "ent-015", "type": "Event", "name": "2026 Iran War" }
+  ],
+  "relations": [
+    { "subject": "ent-015", "predicate": "causedBy", "object": "temp-008" }
+  ]
+}

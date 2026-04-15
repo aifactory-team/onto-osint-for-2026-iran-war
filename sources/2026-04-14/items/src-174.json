@@ -1,0 +1,21 @@
+{
+  "id": "src-174",
+  "title": "미국·이란 물밑 대화 중‥트럼프 '이란 합의 원해'",
+  "url": "https://imnews.imbc.com/news/2026/world/article/6629012_36122.html",
+  "snippet": "미국 이란 물밑 대화 진행 중. 트럼프: 이란도 합의를 원한다.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 미국-이란 물밑 대화 진행 한국어 보도",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-011", "type": "Event", "name": "Trump Hints at 2nd Round Talks" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-011" }
+  ]
+}

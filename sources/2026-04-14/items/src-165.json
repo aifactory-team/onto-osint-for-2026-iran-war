@@ -1,0 +1,24 @@
+{
+  "id": "src-165",
+  "title": "U.S. Hormuz blockade hits India just as Russian oil purchase waiver expires, deepening energy worries",
+  "url": "https://www.cnbc.com/2026/04/14/us-hormuz-blockade-hits-india-just-as-russian-oil-purchase-waiver-expires-deepening-energy-worries.html",
+  "snippet": "India imports 85%+ of crude (~5.5 mb/d), world's 3rd largest importer. Lost ~3 mb/d from Hormuz disruption. US waiver for Russian oil expired April 11. Double blow compounds energy crisis.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 인도의 에너지 위기 및 러시아 원유 면제 만료는 새로운 정보",
+  "entities": [
+    { "id": "temp-004", "type": "Organization", "name": "India" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-063", "type": "Event", "name": "Trump Hormuz Naval Blockade" },
+    { "id": "ent-009", "type": "Organization", "name": "Russia" },
+    { "id": "temp-013", "type": "Concept", "name": "Russian Oil Waiver Expiry" }
+  ],
+  "relations": [
+    { "subject": "ent-063", "predicate": "relatedTo", "object": "temp-004" },
+    { "subject": "temp-013", "predicate": "relatedTo", "object": "temp-004" }
+  ]
+}

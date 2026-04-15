@@ -1,0 +1,24 @@
+{
+  "id": "src-170",
+  "title": "미·이란 2차 협상 '48시간 내' 재개 가시화",
+  "url": "https://www.asiatoday.co.kr/view.php?key=20260414010001234",
+  "snippet": "호르무즈 봉쇄 압박 속 48시간 내 2차 협상 재개 가시화. 이란 3-5년 모라토리엄 역제안. 휴전 만료까지 7일.",
+  "source_name": "아시아투데이",
+  "language": "ko",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 48시간 내 2차 협상 재개 가시화 한국어 보도",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-011", "type": "Event", "name": "Trump Hints at 2nd Round Talks" },
+    { "id": "ent-071", "type": "Concept", "name": "20-Year Enrichment Moratorium Proposal" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-011" },
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-071" }
+  ]
+}

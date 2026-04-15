@@ -1,0 +1,22 @@
+{
+  "id": "src-173",
+  "title": "미-이란, 이번주 후반 협상 재개 예정…빠르면 16일 가능성",
+  "url": "https://www.segye.com/newsView/20260414510001",
+  "snippet": "미-이란 16일 2차 협상 가능성. 양측 비공식 접촉 지속.",
+  "source_name": "세계일보",
+  "language": "ko",
+  "discovered_date": "2026-04-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 16일 2차 협상 가능성 한국어 보도",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-011", "type": "Event", "name": "Trump Hints at 2nd Round Talks" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-011" }
+  ]
+}
