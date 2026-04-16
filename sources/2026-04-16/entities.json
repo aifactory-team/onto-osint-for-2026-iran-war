@@ -1,0 +1,173 @@
+{
+  "date": "2026-04-16",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-104",
+      "type": "Person",
+      "name": "Pete Hegseth",
+      "properties": { "role": "US Defense Secretary", "affiliation": "United States", "statement": "blockade will last 'as long as it takes', US 'locked and loaded' for attacks on Iran energy, 'maximally postured' to resume military operations" },
+      "source_ids": ["src-211", "src-212", "src-213"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-105",
+      "type": "Person",
+      "name": "Dan Caine",
+      "properties": { "role": "Chairman of the Joint Chiefs of Staff", "affiliation": "US Military", "statement": "blockade applies to ALL ships regardless of nationality; US can intercept Iran-linked ships globally; 13 ships turned back; contraband includes weapons, nuclear materials, oil, metals" },
+      "source_ids": ["src-214", "src-215", "src-213"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-106",
+      "type": "Person",
+      "name": "Karoline Leavitt",
+      "properties": { "role": "White House Press Secretary", "affiliation": "United States", "statement": "ceasefire extension 'not true at this moment'; Pakistan is 'the only mediator'; 2nd round talks 'very likely'" },
+      "source_ids": ["src-218", "src-219"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-107",
+      "type": "Person",
+      "name": "Joseph Aoun",
+      "properties": { "role": "President of Lebanon", "affiliation": "Lebanon", "action": "agreed to 10-day ceasefire with Israel, spoke with Trump" },
+      "source_ids": ["src-206", "src-207", "src-210"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-108",
+      "type": "Person",
+      "name": "Ibrahim al-Moussawi",
+      "properties": { "role": "Hezbollah lawmaker/MP", "affiliation": "Hezbollah", "statement": "'We will be respecting the ceasefire' on condition Israel stops all attacks and assassinations" },
+      "source_ids": ["src-224"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sultan bin Saad Al Muraikhi",
+      "properties": { "role": "Qatar Minister of State for Foreign Affairs", "affiliation": "Qatar" },
+      "source_ids": ["src-225"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": { "role": "US President" },
+      "source_ids": ["src-206", "src-207", "src-208", "src-210", "src-211", "src-214", "src-218", "src-228"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-031",
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": { "role": "Israel PM", "action": "agreed to 10-day ceasefire as 'gesture of goodwill', spoke with Trump" },
+      "source_ids": ["src-206", "src-207", "src-210", "src-231"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-028",
+      "type": "Person",
+      "name": "Asim Munir",
+      "properties": { "role": "Pakistan Field Marshal", "action": "visited Khatam al-Anbiya military HQ, met Abdollahi, narrowed gaps on nuclear/Hormuz/reparations" },
+      "source_ids": ["src-220", "src-221", "src-222", "src-223"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": { "role": "Pakistan PM", "action": "regional diplomatic tour to Saudi Arabia, Qatar, Turkey for Iran mediation" },
+      "source_ids": ["src-225", "src-226"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": { "role": "Iran FM" },
+      "source_ids": ["src-222", "src-223"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-066",
+      "type": "Person",
+      "name": "Esmail Baghaei",
+      "properties": { "role": "Iran FM Spokesman", "statement": "welcomed Lebanon ceasefire, credited Pakistan's diplomatic push" },
+      "source_ids": ["src-227", "src-232"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": { "role": "Iran Parliament Speaker", "statement": "approach ceasefire 'cautiously', credits Hezbollah's steadfastness" },
+      "source_ids": ["src-227"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-059",
+      "type": "Organization",
+      "name": "CENTCOM",
+      "properties": { "action": "13 ships turned back, no boarding yet" },
+      "source_ids": ["src-214", "src-215"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": { "action": "conditionally accepts ceasefire via lawmaker Moussawi" },
+      "source_ids": ["src-224", "src-206"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": "ent-091",
+      "type": "Person",
+      "name": "Ali Abdollahi",
+      "properties": { "action": "received Munir at Khatam al-Anbiya HQ" },
+      "source_ids": ["src-220"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-109", "source_ids": ["src-206", "src-207"], "confidence": 0.95 },
+    { "subject": "ent-031", "predicate": "participatesIn", "object": "ent-109", "source_ids": ["src-206", "src-207"], "confidence": 0.95 },
+    { "subject": "ent-107", "predicate": "participatesIn", "object": "ent-109", "source_ids": ["src-206", "src-210"], "confidence": 0.95 },
+    { "subject": "ent-104", "predicate": "participatesIn", "object": "ent-110", "source_ids": ["src-211", "src-212"], "confidence": 0.95 },
+    { "subject": "ent-105", "predicate": "participatesIn", "object": "ent-111", "source_ids": ["src-215", "src-213"], "confidence": 0.95 },
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "ent-112", "source_ids": ["src-220", "src-221"], "confidence": 0.95 },
+    { "subject": "ent-091", "predicate": "participatesIn", "object": "ent-112", "source_ids": ["src-220"], "confidence": 0.90 },
+    { "subject": "ent-027", "predicate": "participatesIn", "object": "ent-113", "source_ids": ["src-225", "src-226"], "confidence": 0.90 },
+    { "subject": "ent-108", "predicate": "affiliatedWith", "object": "ent-047", "source_ids": ["src-224"], "confidence": 0.95 },
+    { "subject": "ent-047", "predicate": "participatesIn", "object": "ent-109", "source_ids": ["src-224"], "confidence": 0.80 },
+    { "subject": "ent-104", "predicate": "affiliatedWith", "object": "ent-003", "source_ids": ["src-211"], "confidence": 0.95 },
+    { "subject": "ent-105", "predicate": "affiliatedWith", "object": "ent-003", "source_ids": ["src-215"], "confidence": 0.95 },
+    { "subject": "ent-107", "predicate": "affiliatedWith", "object": "ent-050", "source_ids": ["src-206"], "confidence": 0.95 },
+    { "subject": "ent-109", "predicate": "follows", "object": "ent-060", "source_ids": ["src-206", "src-208"], "confidence": 0.90 },
+    { "subject": "ent-111", "predicate": "follows", "object": "ent-095", "source_ids": ["src-215"], "confidence": 0.90 },
+    { "subject": "ent-112", "predicate": "follows", "object": "ent-097", "source_ids": ["src-220"], "confidence": 0.90 }
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 5,
+    "matched_entities": 11,
+    "total_relations": 16
+  }
+}

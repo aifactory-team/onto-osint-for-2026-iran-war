@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-16",
+  "new_triples": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-206", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-031", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-206", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-107", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-206", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-107", "predicate": "affiliatedWith", "object": "ent-050", "source_id": "src-206", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-109", "predicate": "follows", "object": "ent-060", "source_id": "src-206", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-207", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-050", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-207", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-047", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-224", "date": "2026-04-16", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-108", "predicate": "affiliatedWith", "object": "ent-047", "source_id": "src-224", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-108", "predicate": "participatesIn", "object": "ent-109", "source_id": "src-224", "date": "2026-04-16", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-104", "predicate": "affiliatedWith", "object": "ent-003", "source_id": "src-211", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-104", "predicate": "participatesIn", "object": "ent-110", "source_id": "src-211", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-110", "predicate": "relatedTo", "object": "ent-095", "source_id": "src-211", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-105", "predicate": "affiliatedWith", "object": "ent-003", "source_id": "src-215", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-105", "predicate": "participatesIn", "object": "ent-111", "source_id": "src-215", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-111", "predicate": "follows", "object": "ent-095", "source_id": "src-215", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-111", "source_id": "src-215", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "ent-112", "source_id": "src-220", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-091", "predicate": "participatesIn", "object": "ent-112", "source_id": "src-220", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-112", "predicate": "follows", "object": "ent-097", "source_id": "src-220", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-112", "predicate": "relatedTo", "object": "ent-116", "source_id": "src-221", "date": "2026-04-16", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-027", "predicate": "participatesIn", "object": "ent-113", "source_id": "src-225", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "ent-113", "source_id": "src-225", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-115", "predicate": "relatedTo", "object": "ent-029", "source_id": "src-218", "date": "2026-04-16", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-106", "predicate": "mentions", "object": "ent-115", "source_id": "src-218", "date": "2026-04-16", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-114", "predicate": "causedBy", "object": "ent-109", "source_id": "src-228", "date": "2026-04-16", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-114", "predicate": "follows", "object": "ent-099", "source_id": "src-229", "date": "2026-04-16", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-066", "predicate": "mentions", "object": "ent-109", "source_id": "src-227", "date": "2026-04-16", "confidence": 0.85, "type": "explicit" }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    { "subject": "ent-104", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "date": "2026-04-16", "confidence": 0.81, "type": "inferred", "rule": "transitivity", "reason": "Hegseth → US Military → Trump command chain" },
+    { "subject": "ent-105", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "date": "2026-04-16", "confidence": 0.81, "type": "inferred", "rule": "transitivity", "reason": "Caine → US Military → Trump command chain" },
+    { "subject": "ent-109", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-16", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "reason": "Islamabad collapse → blockade → max pressure → Lebanon separate settlement" },
+    { "subject": "ent-108", "predicate": "potentialRelation", "object": "ent-073", "date": "2026-04-16", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "reason": "Both Hezbollah officials, opposing stances on ceasefire (Moussawi accepts, Qassem rejected)" },
+    { "subject": "ent-108", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "date": "2026-04-16", "confidence": 0.81, "type": "inferred", "rule": "transitivity", "reason": "Moussawi → Hezbollah → Iran" },
+    { "subject": "ent-111", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-16", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "reason": "Islamabad → blockade declaration → implementation → full → global expansion" }
+  ],
+  "stats": {
+    "new_nodes": 13,
+    "new_edges": 28,
+    "inferred_edges": 6
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "date": "2026-04-16",
+  "total": 30,
+  "new": 24,
+  "reported": 1,
+  "update": 5,
+  "items": [
+    {
+      "id": "src-206",
+      "title": "Trump says Israel and Lebanon agree to temporary ceasefire",
+      "url": "https://www.aljazeera.com/news/2026/4/16/trump-says-israel-and-lebanon-agree-to-temporary-ceasefire",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-207",
+      "title": "Israel, Lebanon Agree to 10-Day Ceasefire, Trump Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-16/trump-says-israel-lebanon-agree-to-10-day-ceasefire",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-208",
+      "title": "10-day ceasefire in Lebanon begins as Israel agrees to U.S.-backed deal",
+      "url": "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-209",
+      "title": "Live: Trump says Israel and Lebanon have agreed to a 10-day ceasefire",
+      "url": "https://www.france24.com/en/live-news/20260416-live-trump-says-israel-and-lebanon-have-agreed-to-a-10-day-ceasefire",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-210",
+      "title": "Trump announces 10-day ceasefire between Israel and Lebanon",
+      "url": "https://www.axios.com/2026/04/16/lebanon-ceasefire-trump-aoun-israel-netanyahu",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-211",
+      "title": "Pentagon chief Hegseth warns Iran blockade to last 'as long as takes'",
+      "url": "https://www.aljazeera.com/news/2026/4/16/hegseth-says-us-blockade-to-continue-ready-for-new-attacks-on-iran-energy",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-212",
+      "title": "US to blockade Iran ports 'as long as it takes,' Hegseth says",
+      "url": "https://www.euronews.com/2026/04/16/us-blockade-of-iranian-ports-to-last-as-long-as-it-takes-defence-secretary-hegseth-warns",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-213",
+      "title": "Pete Hegseth warns Iran that U.S. forces are 'maximally postured' to resume military operations",
+      "url": "https://jewishinsider.com/2026/04/hegseth-caine-u-s-ready-resume-military-operations-iran/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-214",
+      "title": "U.S. Navy stopped 13 ships from passing Iranian port blockade, Pentagon says",
+      "url": "https://www.cnbc.com/2026/04/16/trump-iran-war-hormuz-strait-blockade.html",
+      "tag": "update",
+      "related_report": "2026-04-15",
+      "entity_count": 5
+    },
+    {
+      "id": "src-215",
+      "title": "U.S. military will target Iran-linked ships worldwide, broadening scope beyond the blockade",
+      "url": "https://www.adn.com/nation-world/2026/04/16/over-10000-us-troops-are-enforcing-the-iran-blockade-but-no-ships-boarded-so-far-military-says/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-216",
+      "title": "Iran-linked ships take new path to trickle into Persian Gulf",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-16/iran-linked-ships-take-new-path-to-trickle-into-the-persian-gulf",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-217",
+      "title": "No date set for US-Iran talks, as Pakistan pushes to keep diplomacy alive",
+      "url": "https://www.aljazeera.com/news/2026/4/16/no-date-set-for-us-iran-talks-as-pakistan-pushes-to-keep-diplomacy-alive",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-218",
+      "title": "White House denies seeking Iran ceasefire extension, says Pakistan talks 'very likely'",
+      "url": "https://www.koreatimes.co.kr/world/20260416/white-house-denies-seeking-iran-ceasefire-extension-says-pakistan-talks-very-likely",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-219",
+      "title": "US, Iran reject ceasefire extension as Pakistan steps up mediation efforts",
+      "url": "https://news.cgtn.com/news/2026-04-16/US-Iran-reject-ceasefire-extension-as-Pakistan-steps-up-mediation-1MnH0wMa34c/p.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-220",
+      "title": "Asim Munir Visits Iran Military HQ as Ceasefire Talks Continue",
+      "url": "https://www.pakistantoday.com.pk/2026/04/16/field-marshal-asim-munir-visits-iranian-military-headquarters-amid-ongoing-mediation-efforts",
+      "tag": "update",
+      "related_report": "2026-04-15",
+      "entity_count": 7
+    },
+    {
+      "id": "src-221",
+      "title": "US, Iran narrow gaps as Pakistan mediation boosts ceasefire hopes",
+      "url": "https://www.israelhayom.com/2026/04/16/us-iran-narrow-gaps-as-pakistan-mediation-boosts-ceasefire-hopes",
+      "tag": "update",
+      "related_report": "2026-04-15",
+      "entity_count": 6
+    },
+    {
+      "id": "src-222",
+      "title": "Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates",
+      "url": "https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-223",
+      "title": "Field Marshal Munir engages Iran's top civil and military leadership in Tehran",
+      "url": "https://www.nation.com.pk/17-Apr-2026/field-marshal-munir-engages-iran-s-top-civil-military-leadership-tehran",
+      "tag": "update",
+      "related_report": "2026-04-15",
+      "entity_count": 7
+    },
+    {
+      "id": "src-224",
+      "title": "Hezbollah MP Ibrahim Al-Moussawi Says 'We Will Be Respecting the Ceasefire'",
+      "url": "https://www.dropsitenews.com/p/hezbollah-mp-ibrahim-al-moussawi-israel-lebanon-ceasefire-talks-iran",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-225",
+      "title": "Pakistan PM in Qatar Amid Push for US-Iran Talks",
+      "url": "https://www.deccanchronicle.com/world/pakistan-pm-in-qatar-amid-push-for-us-iran-talks-1950838",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-226",
+      "title": "Saudi crown prince, Pakistan PM discuss US-Iran mediation, regional stability",
+      "url": "https://www.arabnews.com/node/2640000/saudi-arabia",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-227",
+      "title": "Lebanon ceasefire goes into effect, Iranian official praises agreement",
+      "url": "https://www.jpost.com/middle-east/iran-news/2026-04-16/live-updates-893165",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-228",
+      "title": "Stocks rally, oil dips below $100 a barrel as investors signal hope for swift end to Iran war",
+      "url": "https://www.cbsnews.com/news/oil-prices-stock-market-trump-blockade-strait-of-hormuz-iran/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-229",
+      "title": "Stock market today: S&P 500, Nasdaq rally toward record highs, oil tumbles as Iran deal optimism grows",
+      "url": "https://finance.yahoo.com/markets/stocks/article/stock-market-today-dow-sp-500-nasdaq-rise-amid-iran-deal-hopes-earnings-rush-225637251.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-230",
+      "title": "Why a U.S. blockade on Iran seems to be working",
+      "url": "https://www.pbs.org/newshour/world/why-a-u-s-blockade-on-iran-seems-to-be-working",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-231",
+      "title": "Iran war latest: Israel to occupy 'security strip' in Lebanon during ceasefire",
+      "url": "https://www.thenationalnews.com/news/mena/2026/04/16/live-us-israel-iran-war-lebanon/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-232",
+      "title": "트럼프 \"이스라엘-레바논 열흘 휴전 합의\" 이란도 \"환영\"",
+      "url": "https://www.sedaily.com/article/20033613",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-233",
+      "title": "'종전 걸림돌' 레바논 포성 멈추나… 트럼프 '숨통 트일 공간 주는 것'",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1776331125&code=11141300&sid1=int",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-234",
+      "title": "2차 종전협상 바라보는 미·이란…호르무즈선 날선 대립",
+      "url": "https://www.fnnews.com/news/202604161002183623",
+      "tag": "update",
+      "related_report": "2026-04-15",
+      "entity_count": 5
+    },
+    {
+      "id": "src-235",
+      "title": "Iran war live: Trump unveils Lebanon truce as US blockades Iran for deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/16/iran-war-live-pakistan-in-push-for-new-round-of-us-iran-peace-negotiations",
+      "tag": "reported",
+      "related_report": "2026-04-15",
+      "entity_count": 8
+    }
+  ]
+}

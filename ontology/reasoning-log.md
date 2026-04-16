@@ -319,3 +319,53 @@
 - 13개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Concept)로 분류 가능
 - 20개 새 관계 + 5개 추론 모두 기존 관계 유형으로 표현 가능
 - 홍해 위협은 기존 Concept 클래스 + relatedTo 관계로 충분히 모델링됨
+
+---
+
+## 2026-04-16 추론 결과
+
+### 추론 #37: transitivity (소속 전이)
+- **입력:** (ent-104/Pete Hegseth, affiliatedWith, ent-003/US Military), (ent-003/US Military, affiliatedWith 간접, ent-001/Trump)
+- **추론:** (ent-104/Pete Hegseth, indirectlyAffiliatedWith, ent-001/Donald Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 국방장관 → US Military → 대통령 지휘체계. "as long as it takes" 발언은 트럼프의 최대 압박 전략의 군사적 표현.
+
+### 추론 #38: transitivity (소속 전이)
+- **입력:** (ent-105/Dan Caine, affiliatedWith, ent-003/US Military), (ent-003, 간접 → ent-001/Trump)
+- **추론:** (ent-105/Dan Caine, indirectlyAffiliatedWith, ent-001/Donald Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 합참의장 → US Military → 대통령. 봉쇄의 글로벌 확장 결정은 대통령 직속 명령 체계.
+
+### 추론 #39: event_chain (사건 체인)
+- **입력:** (ent-109/Israel-Lebanon Ceasefire, follows, ent-060/Washington Talks), (ent-060, follows, ent-053/Israel Lebanon Attacks)
+- **추론:** (ent-109/Israel-Lebanon Ceasefire, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (4단계 체인, 0.5배 감쇠 적용)
+- **상태:** 확정
+- **비고:** Islamabad 결렬 → 봉쇄 → 최대 압박 → 레바논 분리 해결. 봉쇄가 이스라엘에게 레바논 전선을 '양보'할 여유를 제공했다는 해석. 이스라엘이 '선의의 제스처'로 표현한 것은 미국의 봉쇄 레버리지가 이스라엘의 전략적 계산을 변경했음을 시사.
+
+### 추론 #40: co_participation (공동 참여)
+- **입력:** (ent-108/Ibrahim al-Moussawi, affiliatedWith, ent-047/Hezbollah), (ent-073/Naim Qassem, affiliatedWith, ent-047/Hezbollah)
+- **추론:** (ent-108/al-Moussawi, potentialRelation, ent-073/Naim Qassem)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 같은 조직 내 상반된 입장: Qassem(4/13)은 워싱턴 회담 거부, Moussawi(4/16)는 조건부 수용. 헤즈볼라 내부에서 강경파(Qassem)와 실용파(Moussawi) 간 균열 가능성. 또는 전술적 역할 분담(강경 발언 → 조건부 수용으로 협상 레버리지 확보).
+
+### 추론 #41: transitivity (소속 전이)
+- **입력:** (ent-108/al-Moussawi, affiliatedWith, ent-047/Hezbollah), (ent-047/Hezbollah, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-108/al-Moussawi, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.81
+- **상태:** 확정
+
+### 추론 #42: event_chain (사건 체인)
+- **입력:** (ent-111/Global Blockade Expansion, follows, ent-095/Blockade Fully Implemented), (ent-095, follows, ent-069/Blockade Implementation), (ent-069, follows, ent-063/Blockade Declaration)
+- **추론:** (ent-111/Global Blockade Expansion, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (5단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언(4/12) → 봉쇄 시행(4/13) → 완전 시행(4/15) → 글로벌 확장(4/16). 5일 만에 지역적 봉쇄에서 전 세계적 해상 제재 체제로 진화. 이란의 해상 우회로를 차단하려는 선제적 조치.
+
+### 스키마 변경 없음
+- 13개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Concept)로 분류 가능
+- 28개 새 관계 + 6개 추론 모두 기존 관계 유형으로 표현 가능
+- 레바논 휴전, 글로벌 봉쇄, 핵 돌파구 보도 모두 기존 온톨로지 구조로 모델링 가능

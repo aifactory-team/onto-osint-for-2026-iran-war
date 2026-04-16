@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-15",
+  "last_updated": "2026-04-16",
   "entities": [
     {
       "id": "ent-001",
@@ -9,8 +9,8 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-15",
-      "mention_count": 108
+      "last_seen": "2026-04-16",
+      "mention_count": 126
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-15",
-      "mention_count": 170
+      "last_seen": "2026-04-16",
+      "mention_count": 190
     },
     {
       "id": "ent-003",
@@ -36,8 +36,8 @@
       "name": "Israel",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 55
+      "last_seen": "2026-04-16",
+      "mention_count": 70
     },
     {
       "id": "ent-005",
@@ -133,10 +133,10 @@
       "id": "ent-015",
       "type": "Event",
       "name": "2026 Iran War",
-      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran", "day47_status": "ceasefire day 8, Trump says 'close to over'" },
+      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran", "day48_status": "ceasefire day 9, Israel-Lebanon 10-day ceasefire begins, blockade day 4, 2nd round talks 'very likely'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-15",
-      "mention_count": 60
+      "last_seen": "2026-04-16",
+      "mention_count": 72
     },
     {
       "id": "ent-016",
@@ -241,28 +241,28 @@
       "id": "ent-027",
       "type": "Person",
       "name": "Shehbaz Sharif",
-      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan" },
+      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr16": "regional diplomatic tour: Saudi Arabia (met MBS) → Qatar → Turkey for Iran mediation" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 11
+      "last_seen": "2026-04-16",
+      "mention_count": 17
     },
     {
       "id": "ent-028",
       "type": "Person",
       "name": "Asim Munir",
-      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "note": "Trump's 'favorite field marshal', knows IRGC leadership from intel service days" },
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "note": "Trump's 'favorite field marshal', knows IRGC leadership from intel service days. Apr 16: visited Khatam al-Anbiya military HQ, met Abdollahi, engaged top civil+military leadership, narrowed gaps on nuclear/Hormuz/reparations" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-15",
-      "mention_count": 14
+      "last_seen": "2026-04-16",
+      "mention_count": 28
     },
     {
       "id": "ent-029",
       "type": "Organization",
       "name": "Pakistan",
-      "properties": { "type": "state", "role": "mediator in Iran war, host of Islamabad talks, army chief visiting Tehran for 2nd round" },
+      "properties": { "type": "state", "role": "sole mediator in Iran war (WH confirmed), host of Islamabad talks, army chief at Tehran military HQ, PM on Saudi-Qatar-Turkey tour" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-15",
-      "mention_count": 68
+      "last_seen": "2026-04-16",
+      "mention_count": 82
     },
     {
       "id": "ent-030",
@@ -277,10 +277,10 @@
       "id": "ent-031",
       "type": "Person",
       "name": "Benjamin Netanyahu",
-      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel" },
+      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel", "action_apr16": "agreed 10-day ceasefire as 'gesture of goodwill', keeps 'security strip' in south Lebanon" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 7
+      "last_seen": "2026-04-16",
+      "mention_count": 15
     },
     {
       "id": "ent-032",
@@ -421,10 +421,10 @@
       "id": "ent-047",
       "type": "Organization",
       "name": "Hezbollah",
-      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed" },
+      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed", "ceasefire_stance": "conditional acceptance Apr 16 via Moussawi — if Israel stops all attacks" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-14",
-      "mention_count": 34
+      "last_seen": "2026-04-16",
+      "mention_count": 44
     },
     {
       "id": "ent-048",
@@ -450,8 +450,8 @@
       "name": "Lebanon",
       "properties": { "type": "country" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-14",
-      "mention_count": 46
+      "last_seen": "2026-04-16",
+      "mention_count": 62
     },
     {
       "id": "ent-051",
@@ -531,8 +531,8 @@
       "name": "CENTCOM (US Central Command)",
       "properties": { "type": "military command", "location": "United States" },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-15",
-      "mention_count": 30
+      "last_seen": "2026-04-16",
+      "mention_count": 38
     },
     {
       "id": "ent-060",
@@ -931,7 +931,124 @@
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 3
+    },
+    {
+      "id": "ent-104",
+      "type": "Person",
+      "name": "Pete Hegseth",
+      "properties": { "role": "US Defense Secretary", "affiliation": "United States", "statement": "blockade 'as long as it takes', US 'maximally postured' to resume military operations, 'if Iran chooses poorly, bombs on infrastructure'" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-105",
+      "type": "Person",
+      "name": "Dan Caine",
+      "properties": { "role": "Chairman of the Joint Chiefs of Staff", "affiliation": "US Military", "statement": "blockade applies to ALL ships regardless of nationality, US will use force if ships don't comply, 13 ships turned back, contraband includes weapons/nuclear materials/oil/metals" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-106",
+      "type": "Person",
+      "name": "Karoline Leavitt",
+      "properties": { "role": "White House Press Secretary", "affiliation": "United States", "statement": "ceasefire extension 'not true at this moment', Pakistan is 'the only mediator', 2nd round talks 'very likely'" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-107",
+      "type": "Person",
+      "name": "Joseph Aoun",
+      "properties": { "role": "President of Lebanon", "affiliation": "Lebanon", "action": "agreed to 10-day ceasefire with Israel, spoke with Trump, invited to White House" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-108",
+      "type": "Person",
+      "name": "Ibrahim al-Moussawi",
+      "properties": { "role": "Hezbollah lawmaker/MP", "affiliation": "Hezbollah", "statement": "'We will be respecting the ceasefire' on condition Israel stops all attacks and assassinations" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-109",
+      "type": "Event",
+      "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)",
+      "properties": { "date": "2026-04-16 17:00 ET", "participants": "Israel (Netanyahu), Lebanon (Aoun), US (Trump, mediator)", "detail": "10-day ceasefire as Israeli 'gesture of goodwill'. May extend if progress demonstrated. Trump invites both leaders to White House. First ceasefire since 1983. Israel keeps 'security strip' in south Lebanon.", "hezbollah_stance": "conditional acceptance via Moussawi — if Israel stops all attacks" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 25
+    },
+    {
+      "id": "ent-110",
+      "type": "Event",
+      "name": "Hegseth Blockade Warning (Apr 16)",
+      "properties": { "date": "2026-04-16", "detail": "Defense Secretary Hegseth: blockade 'as long as it takes'. US 'locked and loaded' for attacks on Iran energy facilities. 'If Iran chooses poorly, blockade AND bombs on infrastructure.' US 'maximally postured' to resume military operations." },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-111",
+      "type": "Event",
+      "name": "Global Blockade Expansion (Apr 16)",
+      "properties": { "date": "2026-04-16", "detail": "Gen. Dan Caine: US military can intercept any Iran-linked ship worldwide, broadening beyond Hormuz. Contraband: weapons, nuclear materials, oil, metals, electronics. 13 ships turned back (up from 6). No boarding yet. Pacific operations targeting pre-blockade departures." },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-112",
+      "type": "Event",
+      "name": "Munir Khatam al-Anbiya HQ Visit (Apr 16)",
+      "properties": { "date": "2026-04-16", "detail": "Field Marshal Munir visits Khatam al-Anbiya Central HQ. Received by Abdollahi. Iranian official says visit narrowed differences on nuclear/Hormuz/reparations. Pakistani sources report 'major breakthrough' on nuclear programme. Munir engaged both civil and military leadership.", "significance": "Key mediator engaging Iran's military establishment directly" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-113",
+      "type": "Event",
+      "name": "Sharif Regional Diplomatic Tour (Apr 14-17)",
+      "properties": { "date": "2026-04-14~17", "itinerary": "Saudi Arabia → Qatar → Turkey", "detail": "PM Sharif met Saudi Crown Prince MBS, discussed mediation and regional stability. Arrived Doha Apr 16. Met Qatar Minister. 4-day tour to align regional support for Hormuz reopening and Iran talks.", "participants": "Sharif, MBS, Qatar officials" },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-114",
+      "type": "Event",
+      "name": "Markets Rally / Oil Below $100 (Apr 16)",
+      "properties": { "date": "2026-04-16", "wti": "~$91/bbl", "brent": "~$95/bbl", "sp500": "rally continues toward records", "nasdaq": "+2%", "detail": "Oil dips below $100. Stocks rally on Lebanon ceasefire and Iran deal optimism. Physical crude still near $150." },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-115",
+      "type": "Concept",
+      "name": "Pakistan Sole Mediator",
+      "properties": { "domain": "diplomacy", "detail": "White House formally identifies Pakistan as 'the only mediator' in US-Iran negotiations. Karoline Leavitt: 'many countries offered help but president wants to streamline through Pakistanis'. Dual track: Munir in Tehran (military), Sharif in Gulf (political)." },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-116",
+      "type": "Concept",
+      "name": "Nuclear Breakthrough Reports",
+      "properties": { "domain": "nuclear/nonproliferation", "detail": "Pakistani sources report 'major breakthrough' on Iran nuclear programme after Munir's Tehran visit. Iranian official says gaps narrowed on nuclear issue among 3 unresolved areas (nuclear, Hormuz, reparations). US 20-year vs Iran 3-5 year moratorium gap may be narrowing." },
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "mention_count": 6
     }
   ],
-  "total_count": 103
+  "total_count": 116
 }
