@@ -1,0 +1,23 @@
+{
+  "id": "src-268",
+  "title": "Live updates: Two Indian ships come under fire in Strait of Hormuz after Iran reasserts control",
+  "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-says-strait-hormuz-reverted-strict-control-blames-us-rcna340767",
+  "snippet": "Iran reimposes 'strict control' over Strait of Hormuz. Two Indian-flagged ships targeted by gunfire. VLCC Sanmar Herald fired upon by two Iranian gunboats despite prior clearance. India summoned Iran's ambassador. US blockade now intercepted 23 vessels total. At least 3 attacks on commercial ships Saturday.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Detailed reporting on IRGC attacks on Indian ships and India's diplomatic response — new April 18 events",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-080", "type": "Organization", "name": "India"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-133"},
+    {"subject": "ent-080", "predicate": "opposes", "object": "temp-133"}
+  ]
+}

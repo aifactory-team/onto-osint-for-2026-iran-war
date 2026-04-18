@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-04-18",
   "entities": [
     {
       "id": "ent-001",
@@ -1149,6 +1149,97 @@
       "last_seen": "2026-04-17",
       "mention_count": 5
     }
+    ,
+    {
+      "id": "ent-128",
+      "type": "Event",
+      "name": "Iran Hormuz Re-closure (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "IRGC declares Hormuz 'returned to previous state' under strict military control, reversing Araghchi's opening within 24 hours. Cited continued US blockade as ceasefire violation. IRGC warned 'no vessel should make any movement from anchorage' and approaching Hormuz 'will be considered cooperation with the enemy'." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 20
+    },
+    {
+      "id": "ent-129",
+      "type": "Event",
+      "name": "IRGC Fires on Ships in Hormuz (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "Iranian gunboats fired on at least 2-3 commercial vessels including Indian-flagged VLCC Sanmar Herald despite prior clearance to transit. UKMTO confirmed attacks by IRGC fast boats. At least one ship hit with some damage, no injuries. India summoned Iran ambassador.", "vessels": "VLCC Sanmar Herald (Indian-flagged), at least 1 other Indian ship", "casualties": "no injuries, some ship damage" },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-130",
+      "type": "Event",
+      "name": "$20B Cash-for-Uranium Deal Proposal",
+      "properties": { "date": "2026-04-17~18", "detail": "Axios/CNN scoop: US considering unfreezing $20B in Iranian assets in exchange for surrender of enriched uranium stockpile. 3-page MoU under discussion. Under compromise, some HEU shipped to third country, some down-blended in Iran under international monitoring. Iran has asked for sanctions relief north of $20B.", "amount": "$20 billion" },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-131",
+      "type": "Event",
+      "name": "Rubio European Sanctions Push (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "Secretary of State Rubio urged European countries to quickly reimpose sanctions on Iran, warning Iran violating agreement and nearing nuclear weapon capability." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-132",
+      "type": "Event",
+      "name": "India Summons Iran Ambassador (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "India's foreign ministry summoned Iran's ambassador over 'serious incident' of firing on two India-flagged merchant ships in Hormuz, especially after Iran earlier let several India-bound ships through." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-133",
+      "type": "Event",
+      "name": "Israel Demands PROHIBITED Explanation (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "Israel 'shocked' by Trump's PROHIBITED warning, formally demands explanation from White House. Netanyahu government questions whether Lebanon is even included in the ceasefire." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-134",
+      "type": "Event",
+      "name": "Lebanon Ceasefire Day 2 (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "Largely holding. Israeli bulldozers continue demolition and land-clearing in south. Shelling around Beit Lif, al-Qantara, Toul. Displaced Lebanese cautiously attempting to return. Israel maintains 'extensive security zone' to Syrian border.", "status": "holding with violations" },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-135",
+      "type": "Concept",
+      "name": "IRGC-Diplomatic Rift (Araghchi 'idiot')",
+      "properties": { "domain": "internal politics", "detail": "IRGC-affiliated sources called Foreign Minister Araghchi an 'idiot' for opening Hormuz, then reversed his decision within 24 hours. Most dramatic public display of hardliner-pragmatist split in Iran's power structure during the war." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-136",
+      "type": "Concept",
+      "name": "Cash-for-Uranium Framework ($20B)",
+      "properties": { "domain": "diplomacy/nuclear/finance", "detail": "US offers $20B frozen assets release for Iran's enriched uranium. 3-page MoU. Options: HEU to third country or down-blend to 3% under monitoring. Supersedes/complements 20-year moratorium demand. Iran wants more than $20B." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-137",
+      "type": "Event",
+      "name": "Oil Price Rebound (Apr 18)",
+      "properties": { "date": "2026-04-18", "detail": "Oil prices rose after Iran re-closed Hormuz, partially reversing Thursday's 11% crash. Market whipsawed by 24-hour open-close cycle." },
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "mention_count": 4
+    }
   ],
-  "total_count": 127
+  "total_count": 137
 }

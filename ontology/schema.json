@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-04-18",
   "classes": [
     {
       "id": "Entity",
@@ -117,6 +117,13 @@
       "target": "11 new entities (ent-117~ent-127)",
       "reason": "이란 호르무즈 '완전 개방' 선언(아라그치, 조건부), 트럼프 '봉쇄 100% 유지' 대응, IRGC 재폐쇄 위협, 2차 회담 4/21 월요일 확정(CNN), 레바논 휴전 위반(이스라엘 남부 포격·1명 사망), 트럼프 이스라엘 폭격 'PROHIBITED' 경고, 유가 11% 폭락(WTI $83.85), 레바논 휴전 축하, 샤리프 안탈리아 외교포럼·에르도안 양자·4국 외무장관 회담, 이란 제3자 핵 모니터링 원칙적 수용, 호르무즈 조건부 개방 개념",
       "source_ids": ["src-236", "src-237", "src-240", "src-243", "src-246", "src-247", "src-248", "src-245", "src-251", "src-252"]
+    },
+    {
+      "date": "2026-04-18",
+      "action": "add_instances",
+      "target": "10 new entities (ent-128~ent-137)",
+      "reason": "IRGC 호르무즈 재폐쇄(24시간 만에 개방 역전), IRGC 인도 국적 유조선 발포(Sanmar Herald), IRGC 아라그치 '바보' 공개 모욕(이란 내부 분열 극대화), $20B 현금-우라늄 딜 프레임워크 공개(Axios/CNN), 루비오 유럽 제재 촉구, 인도 이란 대사 소환, 이스라엘 PROHIBITED 항의(미-이스라엘 긴장), 레바논 휴전 2일차(위반 지속), 유가 반등",
+      "source_ids": ["src-266", "src-269", "src-273", "src-274", "src-276", "src-277", "src-278", "src-279", "src-282", "src-288"]
     }
   ]
 }

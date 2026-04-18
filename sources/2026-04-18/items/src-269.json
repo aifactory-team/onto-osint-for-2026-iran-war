@@ -1,0 +1,21 @@
+{
+  "id": "src-269",
+  "title": "Iran closes Strait of Hormuz once again, fires on tankers",
+  "url": "https://www.axios.com/2026/04/18/iran-closes-strait-of-hormuz-once-again-fires-on-tankers",
+  "snippet": "Iran reversed its reopening of the Strait of Hormuz and fired on ships attempting to pass. Two Indian-flagged ships were targeted by gunfire including the VLCC Sanmar Herald which came under fire from two Iranian gunboats despite receiving prior clearance. India's foreign ministry summoned Iran's ambassador over the 'serious incident'.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First reports of IRGC firing on commercial vessels in Hormuz — major escalation on April 18",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-080", "type": "Organization", "name": "India"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-133"}
+  ]
+}

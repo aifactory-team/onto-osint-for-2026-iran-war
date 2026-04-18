@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-18",
+  "collected_at": "2026-04-18T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 14,
+  "total_results": 80,
+  "expanded_keywords": ["Iran Hormuz closure April 18", "IRGC fires ships", "Iran ceasefire talks", "Lebanon ceasefire Day 2", "$20 billion uranium deal", "Rubio sanctions Iran", "이란 호르무즈 재폐쇄", "이란 선박 발포", "레바논 휴전"],
+  "searches": [
+    {"method": "websearch", "engine": "built-in", "keyword": "Iran war ceasefire talks April 18 2026", "language": "en", "timestamp": "2026-04-18T23:00:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Strait of Hormuz blockade Iran April 18 2026", "language": "en", "timestamp": "2026-04-18T23:01:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Lebanon ceasefire Israel violations April 18 2026", "language": "en", "timestamp": "2026-04-18T23:02:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Trump Iran nuclear deal talks Pakistan April 2026", "language": "en", "timestamp": "2026-04-18T23:03:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "이란 전쟁 휴전 협상 2026년 4월 18일", "language": "ko", "timestamp": "2026-04-18T23:04:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "호르무즈 해협 봉쇄 이란 개방 2026년 4월", "language": "ko", "timestamp": "2026-04-18T23:05:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Iran Hormuz opening ships transit oil prices April 18 2026", "language": "en", "timestamp": "2026-04-18T23:06:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Asim Munir Iran nuclear monitoring Pakistan mediation April 2026", "language": "en", "timestamp": "2026-04-18T23:07:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Iran closes Hormuz fires ships IRGC April 18 2026", "language": "en", "timestamp": "2026-04-18T23:08:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "oil prices April 18 2026 stock market Iran Hormuz closure", "language": "en", "timestamp": "2026-04-18T23:09:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "US Iran proposals deal $20 billion uranium Rubio sanctions April 18 2026", "language": "en", "timestamp": "2026-04-18T23:10:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "이란 호르무즈 재폐쇄 선박 발포 4월 18일 2026", "language": "ko", "timestamp": "2026-04-18T23:11:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Lebanon ceasefire day 2 April 18 2026 Israel Hezbollah", "language": "en", "timestamp": "2026-04-18T23:12:00Z", "result_count": 10},
+    {"method": "websearch", "engine": "built-in", "keyword": "Iran war second round talks Pakistan Monday April 21 2026", "language": "en", "timestamp": "2026-04-18T23:13:00Z", "result_count": 10}
+  ]
+}

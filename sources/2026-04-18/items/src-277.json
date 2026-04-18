@@ -1,0 +1,21 @@
+{
+  "id": "src-277",
+  "title": "Displaced Lebanese return as Israeli shelling violates ceasefire in south",
+  "url": "https://www.aljazeera.com/news/2026/4/18/displaced-lebanese-return-as-israeli-shelling-violates-ceasefire-in-south",
+  "snippet": "Lebanon ceasefire Day 2: largely holding despite continued Israeli violations. Bulldozers continue demolition in south. Shelling around Beit Lif, al-Qantara and Toul. Displaced Lebanese cautiously attempting to return but face Israeli warnings. Israel maintains 'extensive security zone' to Syrian border. Netanyahu says opportunity for 'historic deal' with Beirut.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "update",
+  "related_report": "2026-04-17",
+  "related_item": "src-246",
+  "tag_reason": "Day 2 update of Lebanon ceasefire with new violation details (Beit Lif, al-Qantara, Toul) and displaced return attempts",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-140"}
+  ]
+}

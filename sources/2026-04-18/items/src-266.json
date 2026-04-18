@@ -1,0 +1,23 @@
+{
+  "id": "src-266",
+  "title": "Iran closes Strait of Hormuz again over US blockade of its ports",
+  "url": "https://www.aljazeera.com/news/2026/4/18/iran-closes-strait-of-hormuz-again-over-us-blockade-of-its-ports",
+  "snippet": "Iran's military said control of the Strait of Hormuz has 'returned to its previous state' and is now under 'strict management and control'. The closure came less than 24 hours after FM Araghchi declared the strait 'completely open'. IRGC warned 'no vessel should make any movement from its anchorage' and approaching Hormuz 'will be considered cooperation with the enemy'.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran's re-closure of Hormuz is a completely new development on April 18, reversing the April 17 opening within 24 hours",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-132"}
+  ]
+}

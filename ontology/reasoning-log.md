@@ -419,3 +419,53 @@
 ### 스키마 변경 없음
 - 11개 새 엔티티 모두 기존 클래스(Event, Concept, Person)로 분류 가능
 - 22개 새 관계 + 6개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-04-18 추론 결과
+
+### 추론 #49: event_chain (호르무즈 재폐쇄 ← 인과 체인 ← 이슬라마바드)
+- **입력:** (ent-054/Islamabad Talks, 결렬) → (ent-063/Blockade Declaration) → (ent-095/Blockade Fully Implemented) → (ent-128/Hormuz Re-closure)
+- **추론:** (ent-128/Iran Hormuz Re-closure, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (4단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언 → 완전 시행 → IRGC 재폐쇄. 아라그치의 24시간 전 개방 선언을 IRGC가 직접 무력화한 것은, 이란 내 군부(IRGC/SNSC)가 외교부를 압도하는 권력 구조를 노출. 재폐쇄의 직접적 명분은 미국 봉쇄 지속이지만, 근본 인과 체인은 이슬라마바드 결렬까지 거슬러 올라간다.
+
+### 추론 #50: event_chain (IRGC 선박 발포 ← 호르무즈 개방)
+- **입력:** (ent-117/Hormuz Opening, date=2026-04-17) → (ent-128/Hormuz Re-closure, date=2026-04-18) → (ent-129/IRGC Fires on Ships)
+- **추론:** (ent-129/IRGC Fires on Ships, causalChain, ent-117/Hormuz Opening)
+- **신뢰도:** 0.72 (3단계 체인)
+- **상태:** 확정
+- **비고:** 개방 선언 → 24시간 내 재폐쇄 → 선박 발포. IRGC가 아라그치의 개방을 무력화한 후 인도 국적 유조선 Sanmar Herald에 실탄 발포. 이란 전쟁 이후 최초의 직접적 해상 군사 행동. 개방이 IRGC의 통제권을 침해한다는 인식이 발포의 동기.
+
+### 추론 #51: event_chain (유가 반등 ← 호르무즈 개방 역전)
+- **입력:** (ent-117/Hormuz Opening) → (ent-122/Oil Crash -11%) → (ent-128/Hormuz Re-closure) → (ent-137/Oil Price Rebound)
+- **추론:** (ent-137/Oil Price Rebound, causalChain, ent-117/Hormuz Opening)
+- **신뢰도:** 0.72 (4단계 체인)
+- **상태:** 확정
+- **비고:** 개방 → 유가 폭락 → 재폐쇄 → 유가 반등. 24시간 내 완전한 시장 역전. WTI가 재폐쇄 소식에 $83.85에서 $89+ 수준으로 반등. 시장의 종전 낙관이 얼마나 취약한 기반 위에 있는지를 보여주는 사례.
+
+### 추론 #52: co_participation ($20B 딜 ↔ 20년 모라토리엄)
+- **입력:** (ent-130/$20B Deal, relatedTo, ent-064/Enriched Uranium), (ent-071/20-Year Moratorium, relatedTo, ent-064/Enriched Uranium)
+- **추론:** (ent-130/$20B Deal, relatedTo, ent-071/20-Year Moratorium)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** $20B 현금-우라늄 딜과 20년 농축 모라토리엄은 같은 핵심 쟁점(농축 우라늄 900파운드)에 대한 두 가지 타협 경로. $20B 딜은 동결자산 해제 + 우라늄 제3국 이전이라는 경제적 인센티브, 모라토리엄은 시간 기반 타협. 두 경로가 합쳐질 가능성 — '$20B + 제한적 모라토리엄'이라는 패키지 딜.
+
+### 추론 #53: co_participation (IRGC ↔ 이란 — 내부 분열의 구조적 의미)
+- **입력:** (ent-005/IRGC, affiliatedWith, ent-002/Iran), (ent-005/IRGC, opposes, ent-044/Araghchi), (ent-044/Araghchi, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-005/IRGC, potentialRelation, ent-002/Iran)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** IRGC는 이란에 소속(affiliatedWith)되어 있으나 이란 외교부와 공개적으로 대립. '바보(idiot)' 발언은 군-외교부 분열이 개인적 모욕 수준까지 에스컬레이션했음을 보여준다. IRGC가 아라그치의 호르무즈 개방을 24시간 만에 뒤집은 것은 이란의 공식 외교 정책이 군부에 의해 사실상 거부권을 행사당할 수 있다는 구조적 문제를 노출. 2차 회담에서 이란 대표단의 합의 능력에 근본적 의문.
+
+### 추론 #54: co_participation (이스라엘 PROHIBITED 항의 ↔ 레바논 휴전)
+- **입력:** (ent-133/Israel Demands Explanation, causedBy, ent-121/Trump PROHIBITED), (ent-121/PROHIBITED, potentialRelation, ent-109/Lebanon Ceasefire)
+- **추론:** (ent-133/Israel Demands Explanation, potentialRelation, ent-109/Lebanon Ceasefire)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 이스라엘이 PROHIBITED에 '충격'을 받고 백악관에 설명을 요구한 것은, 미-이스라엘 동맹 관계에서 전례 없는 공개적 마찰. 네타냐후는 레바논이 휴전에 포함된 것조차 부인(denial)하면서도 미국의 지원 없이 전쟁 지속이 불가능하다는 딜레마. 이 긴장은 2차 미-이란 회담에서 이스라엘 요소가 변수가 될 수 있음을 시사.
+
+### 스키마 변경 없음
+- 10개 새 엔티티 모두 기존 클래스(Event, Concept)로 분류 가능
+- 24개 새 관계 + 6개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, locatedIn, opposes, relatedTo, causalChain, potentialRelation)으로 표현 가능

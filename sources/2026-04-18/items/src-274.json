@@ -1,0 +1,20 @@
+{
+  "id": "src-274",
+  "title": "Trump administration considers unfreezing $20 billion in Iranian assets — after lambasting Obama for similar move",
+  "url": "https://www.cnn.com/2026/04/17/politics/iran-trump-money-uranium-deal",
+  "snippet": "Trump administration considering unfreezing $20 billion in Iranian assets in exchange for Tehran giving up its enriched uranium stockpile. Under compromise proposal, some HEU shipped to third country, some down-blended in Iran under international monitoring. Parallels to Obama-era JCPOA but Trump administration frames as fundamentally different. Iran has asked for sanctions relief north of $20B.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "CNN confirmation of Axios $20B scoop with additional details on Iran's counter-demand for higher figure",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-134", "predicate": "relatedTo", "object": "ent-064"}
+  ]
+}

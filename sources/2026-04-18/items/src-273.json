@@ -1,0 +1,21 @@
+{
+  "id": "src-273",
+  "title": "Scoop: U.S. considers $20 billion cash-for-uranium deal with Iran",
+  "url": "https://www.axios.com/2026/04/17/iran-us-deal-20-billion-frozen-funds-uranium",
+  "snippet": "The Trump administration is considering unfreezing $20 billion in Iranian assets as part of a deal for Iran to give up its enriched uranium stockpile. A 3-page memorandum of understanding is under discussion. Under the compromise, some highly enriched uranium would be shipped to a third country and some would be down-blended in Iran under international monitoring.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Exclusive scoop revealing specific $20B figure and 3-page MoU framework — new information not previously reported",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-134", "predicate": "relatedTo", "object": "ent-064"},
+    {"subject": "temp-134", "predicate": "relatedTo", "object": "ent-062"}
+  ]
+}

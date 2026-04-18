@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-18",
+  "entities": [
+    {"temp_id": "temp-128", "matched_id": "ent-005", "type": "Organization", "name": "IRGC", "properties": {"action_apr18": "Re-closed Hormuz, fired on Indian-flagged ships, called Araghchi 'idiot'"}, "source_ids": ["src-266","src-268","src-269","src-270","src-278"], "mention_count": 22},
+    {"temp_id": "temp-129", "matched_id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "properties": {"status_apr18": "Re-closed by IRGC within 24h of opening; returned to 'previous state'; ships fired upon; US blockade continues"}, "source_ids": ["src-266","src-267","src-268","src-269","src-270","src-271"], "mention_count": 25},
+    {"temp_id": "temp-130", "matched_id": "ent-001", "type": "Person", "name": "Donald Trump", "properties": {"action_apr18": "Blockade remains 'in full force'; accused Iran of blackmail; expects deal in '1-2 days'"}, "source_ids": ["src-267","src-272","src-289"], "mention_count": 15},
+    {"temp_id": "temp-131", "matched_id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "properties": {"action_apr18": "Called 'idiot' by IRGC for opening Hormuz; opening reversed within 24h"}, "source_ids": ["src-278","src-266"], "mention_count": 8},
+    {"temp_id": "temp-132", "matched_id": null, "type": "Event", "name": "Iran Hormuz Re-closure (Apr 18)", "properties": {"date": "2026-04-18", "detail": "IRGC declares Hormuz 'returned to previous state' under strict military control, reversing Araghchi's opening within 24 hours. Triggered by continued US blockade."}, "source_ids": ["src-266","src-267","src-268","src-271","src-280","src-281","src-284","src-285"], "mention_count": 20},
+    {"temp_id": "temp-133", "matched_id": null, "type": "Event", "name": "IRGC Fires on Ships in Hormuz (Apr 18)", "properties": {"date": "2026-04-18", "detail": "Iranian gunboats fired on at least 2-3 vessels including Indian-flagged VLCC Sanmar Herald despite prior clearance. UKMTO reported attacks. India summoned Iran ambassador.", "vessels": "VLCC Sanmar Herald (Indian-flagged), at least one other Indian ship", "casualties": "no injuries reported, some damage"}, "source_ids": ["src-268","src-269","src-270","src-278","src-282","src-283","src-285","src-286"], "mention_count": 15},
+    {"temp_id": "temp-134", "matched_id": null, "type": "Event", "name": "$20B Cash-for-Uranium Deal Proposal", "properties": {"date": "2026-04-17~18", "detail": "Axios/CNN scoop: US considering unfreezing $20B in Iranian assets in exchange for surrender of enriched uranium stockpile. 3-page MoU under discussion. Some HEU shipped to third country, some down-blended under monitoring.", "amount": "$20 billion"}, "source_ids": ["src-273","src-274"], "mention_count": 8},
+    {"temp_id": "temp-135", "matched_id": null, "type": "Event", "name": "Rubio European Sanctions Push (Apr 18)", "properties": {"date": "2026-04-18", "detail": "Secretary of State Rubio urged European countries to quickly reimpose sanctions on Iran, warning Iran violating agreement and nearing nuclear weapon capability"}, "source_ids": ["src-275"], "mention_count": 3},
+    {"temp_id": "temp-136", "matched_id": null, "type": "Event", "name": "India Summons Iran Ambassador (Apr 18)", "properties": {"date": "2026-04-18", "detail": "India's foreign ministry summoned Iran's ambassador over 'serious incident' of firing on two India-flagged merchant ships in Hormuz"}, "source_ids": ["src-268"], "mention_count": 3},
+    {"temp_id": "temp-137", "matched_id": null, "type": "Concept", "name": "IRGC-Diplomatic Rift (Araghchi 'idiot')", "properties": {"domain": "internal politics", "detail": "IRGC called Araghchi an 'idiot' for opening Hormuz, then reversed his declaration within 24 hours. Most dramatic public display of hardliner-pragmatist split."}, "source_ids": ["src-278"], "mention_count": 5},
+    {"temp_id": "temp-138", "matched_id": null, "type": "Concept", "name": "Cash-for-Uranium Framework ($20B)", "properties": {"domain": "diplomacy/nuclear/finance", "detail": "US offers $20B frozen assets release for Iran's enriched uranium. 3-page MoU. Options: HEU to third country or down-blend to 3% under monitoring. Supersedes 20-year moratorium demand."}, "source_ids": ["src-273","src-274"], "mention_count": 8},
+    {"temp_id": "temp-139", "matched_id": null, "type": "Event", "name": "Israel Demands PROHIBITED Explanation (Apr 18)", "properties": {"date": "2026-04-18", "detail": "Israel 'shocked' by Trump's PROHIBITED warning, demands explanation from White House. Netanyahu government questions whether Lebanon is even included in ceasefire."}, "source_ids": ["src-276"], "mention_count": 4},
+    {"temp_id": "temp-140", "matched_id": null, "type": "Event", "name": "Lebanon Ceasefire Day 2 (Apr 18)", "properties": {"date": "2026-04-18", "detail": "Largely holding. Israeli bulldozers continue demolition in south. Shelling around Beit Lif, al-Qantara, Toul. Displaced Lebanese attempt to return. Israel maintains south occupied."}, "source_ids": ["src-277"], "mention_count": 6},
+    {"temp_id": "temp-141", "matched_id": "ent-080", "type": "Organization", "name": "India", "properties": {"action_apr18": "Two Indian-flagged ships fired upon in Hormuz. Foreign ministry summoned Iran ambassador."}, "source_ids": ["src-268","src-269"], "mention_count": 5}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-132", "source_ids": ["src-266","src-269"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-133", "source_ids": ["src-268","src-269"], "confidence": 0.95},
+    {"subject": "temp-132", "predicate": "follows", "object": "ent-117", "source_ids": ["src-266","src-267"], "confidence": 0.95},
+    {"subject": "temp-132", "predicate": "causedBy", "object": "ent-095", "source_ids": ["src-266","src-271"], "confidence": 0.90},
+    {"subject": "temp-133", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-268","src-269"], "confidence": 0.95},
+    {"subject": "temp-134", "predicate": "relatedTo", "object": "ent-064", "source_ids": ["src-273","src-274"], "confidence": 0.90},
+    {"subject": "temp-134", "predicate": "relatedTo", "object": "ent-062", "source_ids": ["src-273","src-274"], "confidence": 0.85},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-135", "source_ids": ["src-275"], "confidence": 0.90},
+    {"subject": "ent-080", "predicate": "opposes", "object": "temp-133", "source_ids": ["src-268"], "confidence": 0.85},
+    {"subject": "temp-137", "predicate": "relatedTo", "object": "temp-132", "source_ids": ["src-278"], "confidence": 0.90},
+    {"subject": "temp-138", "predicate": "relatedTo", "object": "ent-125", "source_ids": ["src-273","src-274"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-121", "source_ids": ["src-276"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 14,
+    "new_entities": 10,
+    "matched_entities": 4,
+    "total_relations": 12
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-276",
+  "title": "Israel is shocked and demands an explanation from the White House about Trump's ban on hitting Lebanon",
+  "url": "https://eadaily.com/en/news/2026/04/18/israel-is-shocked-and-demands-an-explanation-from-the-white-house-about-trumps-ban-on-hitting-lebanon",
+  "snippet": "Israel expressed shock at Trump's 'PROHIBITED' statement and demanded explanation from the White House. Netanyahu government questions whether Lebanon is even included in the ceasefire. Israeli defense establishment asserts IDF will maintain positions and operations in southern Lebanon.",
+  "source_name": "EADaily",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Israel's formal protest of Trump's PROHIBITED warning is a new April 18 development escalating US-Israel tensions",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-121"}
+  ]
+}

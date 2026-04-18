@@ -1,0 +1,20 @@
+{
+  "id": "src-278",
+  "title": "IRGC Closes Strait Again, Calls Iran's Foreign Minister an 'Idiot,' Fires on Oil Tankers",
+  "url": "https://hotair.com/david-strom/2026/04/18/irgc-closes-strait-again-calls-irans-foreign-minister-an-idiot-n3814049",
+  "snippet": "IRGC-affiliated sources called Foreign Minister Araghchi an 'idiot' for declaring Hormuz open, then reversed his decision within 24 hours. IRGC navy fired on tankers attempting to transit. Most dramatic public display of the hardliner-pragmatist split within Iran's power structure.",
+  "source_name": "HotAir",
+  "language": "en",
+  "discovered_date": "2026-04-18",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC publicly calling foreign minister 'idiot' is unprecedented — reveals depth of internal power struggle over Hormuz policy",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-044"}
+  ]
+}
