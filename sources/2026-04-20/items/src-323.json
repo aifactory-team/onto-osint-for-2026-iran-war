@@ -1,0 +1,23 @@
+{
+  "id": "src-323",
+  "title": "Vance, Witkoff, Kushner heading to Pakistan tonight for second round talks",
+  "url": "https://www.ms.now/liveblog/iran-war-live-updates-news-today-april-20-2026",
+  "snippet": "VP JD Vance will lead the US delegation traveling to Pakistan tonight (Monday) for second round of Iran negotiations. Same team as first round: Vance, Witkoff, Kushner. Formal negotiations scheduled to begin Tuesday April 22. Delegations arriving over the weekend/Monday night.",
+  "source_name": "MS.Now",
+  "language": "en",
+  "discovered_date": "2026-04-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 밴스의 이슬라마바드 출발 확정은 4/19까지 혼란이었으나 4/20에 해소됨. 화요일 협상 개시 일정 확정.",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-051", "type": "Location", "name": "Islamabad"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-119"}
+  ]
+}

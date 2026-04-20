@@ -1,0 +1,24 @@
+{
+  "id": "src-332",
+  "title": "IRGC commander, Iran's Araghchi clash over negotiating team — Zolghadr inserted",
+  "url": "https://www.jpost.com/middle-east/iran-news/article-892602",
+  "snippet": "Vahidi inserted Zolghadr into the Iranian negotiating team in Islamabad despite protests from Ghalibaf and Araghchi over Zolghadr's lack of diplomatic experience. Zolghadr sent complaint to IRGC leaders that Araghchi surpassed his mandate by expressing flexibility on Axis of Resistance support. Confirms IRGC surveillance of diplomats.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-04-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — Zolghadr 삽입 및 아라그치 감시 메커니즘은 4/20 최초 보도. 이란 내부 권력 투쟁의 구조적 세부사항.",
+  "entities": [
+    {"id": "ent-138", "type": "Person", "name": "Ahmad Vahidi"},
+    {"id": "temp-008", "type": "Person", "name": "Zolghadr"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"}
+  ],
+  "relations": [
+    {"subject": "ent-138", "predicate": "opposes", "object": "ent-044"},
+    {"subject": "temp-008", "predicate": "affiliatedWith", "object": "ent-005"}
+  ]
+}

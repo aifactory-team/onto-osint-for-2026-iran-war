@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-20",
   "classes": [
     {
       "id": "Entity",
@@ -131,6 +131,13 @@
       "target": "11 new entities (ent-138~ent-148)",
       "reason": "미 해군 이란 화물선 Touska 나포(전쟁 이후 첫 나포), 이란 2차 회담 거부(IRNA), 트럼프 '전면 위반' 비난 및 인프라 파괴 위협, Ahmad Vahidi IRGC 사령관 '배후 권력' 확인, 이스라엘 레바논 '옐로 라인' 10km 군사구역, Operation Economic Fury 글로벌 확대, 호르무즈 완전 운항 중단, 유가 +7%, Sanmar Herald 교신 녹음 공개, 갈리바프 '불가능' 발언",
       "source_ids": ["src-292", "src-293", "src-294", "src-296", "src-298", "src-300", "src-302", "src-305", "src-308", "src-310", "src-312"]
+    },
+    {
+      "date": "2026-04-20",
+      "action": "add_instances",
+      "target": "4 new entities (ent-149~ent-152)",
+      "reason": "페제시키안 이란 대통령(Sharif 45분 통화), Zolghadr IRGC 감시관(협상팀 삽입 보도), Bessent 미 재무장관(긴급회의), Ratcliffe CIA 국장(긴급회의) — 트럼프 '폭탄' 경고·휴전연장 '거의 불가' 선언·밴스 이슬라마바드 출발 확정·쿠웨이트 불가항력 선언·이란 2차 회담 '계획 없음' 등 신규 사건 추출",
+      "source_ids": ["src-320", "src-321", "src-322", "src-323", "src-325", "src-327", "src-329", "src-332", "src-333", "src-336"]
     }
   ]
 }

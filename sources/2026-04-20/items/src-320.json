@@ -1,0 +1,21 @@
+{
+  "id": "src-320",
+  "title": "Trump says ceasefire ends Wednesday evening, extension 'highly unlikely'",
+  "url": "https://www.cnn.com/2026/04/20/world/live-news/iran-war-us-trump-israel",
+  "snippet": "Trump told Bloomberg the ceasefire ends Wednesday evening Washington time and it's 'highly unlikely' he'd extend it. Said 'I'm not going to be rushed into making a bad deal.' When asked if fighting resumes immediately: 'If there's no deal, I would certainly expect.' Hormuz stays blocked until agreement.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프의 휴전 연장 거부 입장은 4/19까지 보도되지 않은 새로운 발언. 수요일 저녁 만료 확정 + 연장 불가 입장 첫 공식화.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

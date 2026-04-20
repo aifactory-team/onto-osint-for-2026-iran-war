@@ -1,0 +1,24 @@
+{
+  "id": "src-322",
+  "title": "Trump convened emergency meeting: Vance, Rubio, Hegseth, Bessent, Witkoff, Ratcliffe, Caine",
+  "url": "https://www.cnbc.com/amp/2026/04/20/trump-defense-iran-war-pakistan-vance-witkoff-kushner.html",
+  "snippet": "Trump convened an emergency meeting at the operational headquarters on Iran. Attended by VP Vance, SecState Rubio, DefSec Hegseth, Treasury Sec Bessent, envoy Witkoff, CIA Director Ratcliffe, JCOS Chair Caine. Trump vacillated between warmongering and unclear negotiation details in phone calls over 2 days.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프 긴급 회의 소집은 새로운 사건. 미국 핵심 국가안보 지도부 총출동.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "temp-009", "type": "Person", "name": "Scott Bessent"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "temp-010", "type": "Person", "name": "John Ratcliffe"},
+    {"id": "ent-105", "type": "Person", "name": "Dan Caine"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "src-321",
+  "title": "Trump tells PBS: 'lots of bombs start going off' if Iran ceasefire expires without deal",
+  "url": "https://www.pbs.org/newshour/politics/trump-tells-pbs-news-that-lots-of-bombs-start-going-off-if-iran-ceasefire-expires",
+  "snippet": "Trump told PBS News in a phone call Monday that 'lots of bombs will start going off' once the ceasefire expires if no deal is reached. Signals automatic resumption of military operations. Combined with 'highly unlikely' extension statement, represents clearest war resumption warning since ceasefire began.",
+  "source_name": "PBS News",
+  "language": "en",
+  "discovered_date": "2026-04-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 4/19 인프라 파괴 위협의 에스컬레이션. '폭탄이 터지기 시작한다'는 직접적 군사 작전 재개 경고.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

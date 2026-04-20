@@ -519,3 +519,39 @@
 ### 스키마 변경 없음
 - 11개 새 엔티티 모두 기존 클래스(Person, Event, Concept)로 분류 가능
 - 31개 새 관계(명시적) + 6개 추론 모두 기존 관계 유형(affiliatedWith, opposes, participatesIn, follows, locatedIn, causedBy, relatedTo, causalChain, indirectlyAffiliatedWith, potentialRelation)으로 표현 가능
+
+---
+
+## 2026-04-20 추론 결과
+
+### 추론 #1: transitivity (Zolghadr 간접 소속)
+- **입력:** (ent-150/Zolghadr, affiliatedWith, ent-005/IRGC), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-150/Zolghadr, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.855 (= 0.90 × 0.95)
+- **상태:** 확정
+- **비고:** Zolghadr는 Vahidi가 이슬라마바드 협상팀에 삽입한 IRGC 감시관. 외교 경험 없이 Araghchi/Ghalibaf의 반대를 무시하고 배치됨. Araghchi가 '저항의 축' 지원에 유연성을 보였다는 불만을 IRGC 상부에 보고.
+
+### 추론 #2: transitivity (Bessent/Ratcliffe 간접 소속)
+- **입력:** (ent-151/Bessent, affiliatedWith, ent-003/US Military-Gov), (ent-003, cooperatesWith, ent-001/Trump)
+- **추론:** (ent-151/Bessent, indirectlyAffiliatedWith, ent-001/Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 재무장관 Bessent과 CIA 국장 Ratcliffe의 긴급 회의 참석은 이란 전쟁 대응이 순수 군사를 넘어 경제(제재/봉쇄)와 정보(핵물질 추적) 차원으로 확대됨을 시사.
+
+### 추론 #3: co_participation (Pezeshkian ↔ Vahidi 내부 분열)
+- **입력:** (ent-149/Pezeshkian, affiliatedWith, ent-002/Iran), (ent-138/Vahidi, affiliatedWith via ent-005 → ent-002/Iran)
+- **추론:** (ent-149/Pezeshkian, potentialRelation, ent-138/Vahidi)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 같은 국가 소속이나 구조적 대립 관계. Vahidi는 Pezeshkian의 정보장관 임명을 차단하고, Mojtaba Khamenei에 대한 유일한 접근 경로를 독점. '군사 정권' 다수 분석은 이란의 외교적 타협 능력이 IRGC에 의해 구조적으로 차단됨을 의미. 2차 회담 성사 여부는 IRGC의 최종 승인에 달려 있음.
+
+### 추론 #4: event_chain (쿠웨이트 불가항력 인과 체인)
+- **입력:** (ent-156/Kuwait FM, causedBy, ent-128/Hormuz Re-closure), (ent-128, follows, ent-117/Hormuz Opening), (ent-117, causedBy, ent-109/Israel-Lebanon Ceasefire)
+- **추론:** (ent-156/Kuwait FM, causalChain, ent-054/Islamabad Peace Talks)
+- **신뢰도:** 0.72 (3단계 이상이므로 감쇠 적용)
+- **상태:** 확정
+- **비고:** 이슬라마바드 회담 결렬 → 미 봉쇄 → 이란 재폐쇄 → 호르무즈 완전 마비 → 쿠웨이트 불가항력. 걸프국 에너지 수출 중단이 공식화됨은 전쟁의 경제적 충격이 새 단계에 진입했음을 의미. 200+ 탱커 체류, 글로벌 공급 10-11 mb/d 감소.
+
+### 스키마 변경 없음
+- 4개 새 엔티티 모두 기존 클래스(Person, Event)로 분류 가능
+- 27개 새 관계(명시적) + 5개 추론 모두 기존 관계 유형으로 표현 가능

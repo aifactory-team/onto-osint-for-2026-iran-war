@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-20",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.95, "type": "explicit", "label": "Trump convenes emergency meeting"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-151", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-152", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-105", "predicate": "participatesIn", "object": "ent-155", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-119", "source_id": "src-323", "date": "2026-04-20", "confidence": 0.95, "type": "explicit", "label": "Vance heading to Islamabad for 2nd round"},
+    {"subject": "ent-043", "predicate": "participatesIn", "object": "ent-119", "source_id": "src-323", "date": "2026-04-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "ent-119", "source_id": "src-323", "date": "2026-04-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-119", "source_id": "src-325", "date": "2026-04-20", "confidence": 0.90, "type": "explicit", "label": "Iran says no talks for now"},
+    {"subject": "ent-066", "predicate": "mentions", "object": "ent-119", "source_id": "src-325", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-037", "predicate": "relatedTo", "object": "ent-156", "source_id": "src-327", "date": "2026-04-20", "confidence": 0.95, "type": "explicit", "label": "Kuwait force majeure"},
+    {"subject": "ent-156", "predicate": "causedBy", "object": "ent-128", "source_id": "src-327", "date": "2026-04-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-156", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-327", "date": "2026-04-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-138", "predicate": "opposes", "object": "ent-044", "source_id": "src-332", "date": "2026-04-20", "confidence": 0.95, "type": "explicit", "label": "Vahidi vs Araghchi — Zolghadr insertion"},
+    {"subject": "ent-150", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-332", "date": "2026-04-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-138", "predicate": "cooperatesWith", "object": "ent-150", "source_id": "src-332", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-149", "source_id": "src-333", "date": "2026-04-20", "confidence": 0.90, "type": "explicit", "label": "Sharif-Pezeshkian 45-min call"},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-333", "date": "2026-04-20", "confidence": 0.90, "type": "explicit", "label": "Sharif relay call with Trump"},
+    {"subject": "ent-149", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-333", "date": "2026-04-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-151", "predicate": "affiliatedWith", "object": "ent-003", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-152", "predicate": "affiliatedWith", "object": "ent-003", "source_id": "src-322", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-031", "predicate": "opposes", "object": "ent-002", "source_id": "src-336", "date": "2026-04-20", "confidence": 0.85, "type": "explicit", "label": "Netanyahu: unfinished job in Iran"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-320", "date": "2026-04-20", "confidence": 0.95, "type": "explicit", "label": "Trump: lots of bombs, highly unlikely extension"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-157", "source_id": "src-338", "date": "2026-04-20", "confidence": 0.90, "type": "explicit", "label": "Lebanon ceasefire violations Day 4"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-157", "source_id": "src-339", "date": "2026-04-20", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-150", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "date": "2026-04-20", "confidence": 0.855, "type": "inferred", "rule": "transitivity", "chain": "ent-150→ent-005→ent-002"},
+    {"subject": "ent-151", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "date": "2026-04-20", "confidence": 0.81, "type": "inferred", "rule": "transitivity"},
+    {"subject": "ent-152", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "date": "2026-04-20", "confidence": 0.81, "type": "inferred", "rule": "transitivity"},
+    {"subject": "ent-149", "predicate": "potentialRelation", "object": "ent-138", "date": "2026-04-20", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "note": "Both affiliated with Iran but in opposing internal factions"},
+    {"subject": "ent-156", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-20", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "chain": "ent-156→ent-128→ent-117→ent-109→...→ent-054"}
+  ],
+  "stats": {
+    "new_nodes": 4,
+    "new_edges": 27,
+    "inferred_edges": 5
+  }
+}

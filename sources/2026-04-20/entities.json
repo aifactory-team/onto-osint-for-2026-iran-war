@@ -1,0 +1,165 @@
+{
+  "date": "2026-04-20",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr20": "ceasefire ends Wednesday, extension 'highly unlikely'; 'lots of bombs start going off'; convened emergency meeting; sending Vance/Witkoff/Kushner to Islamabad"},
+      "source_ids": ["src-320", "src-321", "src-322", "src-323", "src-337", "src-342"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-041",
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": {"role": "US Vice President", "action_apr20": "heading to Pakistan tonight for 2nd round talks despite initial confusion over attendance; leads 300-member US delegation"},
+      "source_ids": ["src-322", "src-323", "src-324", "src-326", "src-336"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_apr20": "says 'no talks for now'; FM spokesman Baghaei cites US blockade violations"},
+      "source_ids": ["src-325", "src-329", "src-330", "src-331", "src-337"],
+      "mention_count": 22
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_apr20": "hardliners seize full control of military and diplomatic posture; moderates sidelined; Zolghadr inserted into negotiating team; described as 'military junta'"},
+      "source_ids": ["src-329", "src-330", "src-331", "src-332"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-037",
+      "type": "Organization",
+      "name": "Kuwait",
+      "properties": {"action_apr20": "declares force majeure on crude oil and refined product shipments; output at 1990s levels; can't meet obligations even when Hormuz reopens"},
+      "source_ids": ["src-327", "src-341"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {"action_apr20": "45-min call with Pezeshkian, then relay call with Trump; Pakistan ready for multi-day talks; Islamabad venue secured and roads blocked"},
+      "source_ids": ["src-333", "src-334", "src-343"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": {"role": "Iran President", "affiliation": "Iran", "action_apr20": "45-min call with Sharif; criticized US 'hostile acts' as casting doubt on US negotiation sincerity; marginalized by IRGC/Vahidi"},
+      "source_ids": ["src-333", "src-329", "src-330"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Zolghadr",
+      "properties": {"role": "IRGC representative in negotiating team", "affiliation": "IRGC", "action": "inserted into Iranian delegation by Vahidi; complained Araghchi surpassed mandate by showing flexibility on Axis of Resistance"},
+      "source_ids": ["src-332"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Scott Bessent",
+      "properties": {"role": "US Treasury Secretary", "affiliation": "United States", "action_apr20": "attended Trump emergency meeting on Iran"},
+      "source_ids": ["src-322"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Person",
+      "name": "John Ratcliffe",
+      "properties": {"role": "CIA Director", "affiliation": "United States", "action_apr20": "attended Trump emergency meeting on Iran"},
+      "source_ids": ["src-322"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-031",
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": {"action_apr20": "says Israel has 'unfinished job' in Iran as Vance lands in Islamabad"},
+      "source_ids": ["src-336"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-138",
+      "type": "Person",
+      "name": "Ahmad Vahidi",
+      "properties": {"action_apr20": "confirmed as controlling Iran's military junta; inserted Zolghadr into delegation to monitor diplomats"},
+      "source_ids": ["src-329", "src-330", "src-331", "src-332"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"action_apr20": "sidelined by IRGC; lacks leverage or formal authority; complained about Zolghadr insertion but overruled"},
+      "source_ids": ["src-329", "src-332"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-066",
+      "type": "Person",
+      "name": "Esmail Baghaei",
+      "properties": {"action_apr20": "said Iran has 'no plans for next round', cited US blockade and Touska seizure as ceasefire violations"},
+      "source_ids": ["src-325", "src-335"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-073",
+      "type": "Person",
+      "name": "Naim Qassem",
+      "properties": {"action_apr20": "ceasefire must be mutual; 'hands on trigger'; demands Israeli full withdrawal from Lebanon"},
+      "source_ids": ["src-339"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_apr20": "16 ships Monday (up from 0 Sunday); 200+ tankers stuck; dual blockade persists; Kuwait force majeure"},
+      "source_ids": ["src-327", "src-328", "src-341"],
+      "mention_count": 20
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-evt-emergency", "source_ids": ["src-322"], "confidence": 0.95},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-evt-2nd-round", "source_ids": ["src-323", "src-324"], "confidence": 0.95},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "temp-ent-pezeshkian", "source_ids": ["src-333"], "confidence": 0.90},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-044", "source_ids": ["src-329", "src-332"], "confidence": 0.95},
+    {"subject": "ent-138", "predicate": "opposes", "object": "ent-044", "source_ids": ["src-332"], "confidence": 0.90},
+    {"subject": "ent-037", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-327"], "confidence": 0.90},
+    {"subject": "ent-031", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-336"], "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-320", "src-321"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 4,
+    "matched_entities": 12,
+    "total_relations": 8
+  }
+}

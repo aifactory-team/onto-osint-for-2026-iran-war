@@ -1,25 +1,25 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-20",
   "entities": [
     {
       "id": "ent-001",
       "type": "Person",
       "name": "Donald Trump",
-      "properties": { "role": "US President", "affiliation": "United States", "action_apr19": "'total violation' of ceasefire accusation; threatens to destroy 'every single Power Plant and Bridge in Iran'; orders USS Spruance to seize Touska; sends Witkoff/Kushner to Islamabad despite Iran refusal" },
+      "properties": { "role": "US President", "affiliation": "United States", "action_apr20": "ceasefire ends Wednesday, extension 'highly unlikely'; 'lots of bombs start going off'; convened emergency meeting with full NSC; Vance/Witkoff/Kushner to Islamabad; vacillates between warmongering and deal optimism" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-19",
-      "mention_count": 162
+      "last_seen": "2026-04-20",
+      "mention_count": 180
     },
     {
       "id": "ent-002",
       "type": "Organization",
       "name": "Iran",
-      "properties": { "type": "state", "location": "Middle East" },
+      "properties": { "type": "state", "location": "Middle East", "action_apr20": "says 'no talks for now'; FM Baghaei cites US blockade/Touska seizure as ceasefire violations; IRGC junta confirmed" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-19",
-      "mention_count": 205
+      "last_seen": "2026-04-20",
+      "mention_count": 227
     },
     {
       "id": "ent-003",
@@ -43,10 +43,10 @@
       "id": "ent-005",
       "type": "Organization",
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
-      "properties": { "type": "military", "location": "Iran", "commander_apr19": "Ahmad Vahidi identified as commander-in-chief, 'power behind the throne', blocking Pezeshkian, controlling country" },
+      "properties": { "type": "military", "location": "Iran", "status_apr20": "described as 'military junta'; Vahidi inserted Zolghadr into negotiating team to monitor diplomats; full control of military and diplomatic posture; moderates sidelined" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-19",
-      "mention_count": 45
+      "last_seen": "2026-04-20",
+      "mention_count": 59
     },
     {
       "id": "ent-006",
@@ -70,10 +70,10 @@
       "id": "ent-008",
       "type": "Location",
       "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway", "status_apr19": "zero tanker transits Sunday — total shipping halt for first time in history; US seizes Touska; Iran calls it 'armed piracy'" },
+      "properties": { "type": "strait/waterway", "status_apr20": "16 ships Monday (up from 0 Sunday); 200+ tankers stuck in Persian Gulf; dual blockade persists; Kuwait force majeure" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-19",
-      "mention_count": 185
+      "last_seen": "2026-04-20",
+      "mention_count": 205
     },
     {
       "id": "ent-009",
@@ -241,10 +241,10 @@
       "id": "ent-027",
       "type": "Person",
       "name": "Shehbaz Sharif",
-      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr17": "arrived Antalya Diplomacy Forum (Turkey), bilateral with Erdogan, 4-nation FM meeting (Turkey/Pakistan/Saudi/Egypt) on war and Hormuz" },
+      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr20": "45-min call with Pezeshkian, then relay call with Trump; Islamabad venue secured for 2nd round; shuttle diplomacy between all parties" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-17",
-      "mention_count": 23
+      "last_seen": "2026-04-20",
+      "mention_count": 31
     },
     {
       "id": "ent-028",
@@ -367,10 +367,10 @@
       "id": "ent-041",
       "type": "Person",
       "name": "JD Vance",
-      "properties": { "role": "US Vice President", "affiliation": "United States" },
+      "properties": { "role": "US Vice President", "affiliation": "United States", "action_apr20": "heading to Pakistan tonight for 2nd round talks despite initial confusion; leads 300-member US delegation" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-14",
-      "mention_count": 71
+      "last_seen": "2026-04-20",
+      "mention_count": 83
     },
     {
       "id": "ent-042",
@@ -1243,10 +1243,10 @@
       "id": "ent-138",
       "type": "Person",
       "name": "Ahmad Vahidi",
-      "properties": { "role": "IRGC Commander-in-Chief (since 2026-03-01)", "affiliation": "IRGC / Iran", "detail": "'power behind the throne' — blocking Pezeshkian, controlling country, blocking diplomatic compromises. Former Defense Minister, IRGC veteran." },
+      "properties": { "role": "IRGC Commander-in-Chief (since 2026-03-01)", "affiliation": "IRGC / Iran", "action_apr20": "confirmed as controlling military junta; inserted Zolghadr into Islamabad delegation to monitor diplomats; blocking Pezeshkian; 'power behind the throne' confirmed by multiple outlets" },
       "first_seen": "2026-04-19",
-      "last_seen": "2026-04-19",
-      "mention_count": 8
+      "last_seen": "2026-04-20",
+      "mention_count": 16
     },
     {
       "id": "ent-139",
@@ -1338,6 +1338,43 @@
       "last_seen": "2026-04-19",
       "mention_count": 4
     }
+    ,
+    {
+      "id": "ent-149",
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": { "role": "Iran President", "affiliation": "Iran", "action_apr20": "45-min call with Sharif; criticized US 'hostile acts' as undermining negotiation sincerity; marginalized by IRGC/Vahidi; 'largely inaccessible' Mojtaba Khamenei depends on IRGC commanders" },
+      "first_seen": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-150",
+      "type": "Person",
+      "name": "Zolghadr",
+      "properties": { "role": "IRGC representative inserted into Iranian negotiating delegation", "affiliation": "IRGC", "action": "inserted by Vahidi despite Ghalibaf/Araghchi protests; filed complaint that Araghchi exceeded mandate by showing flexibility on Axis of Resistance" },
+      "first_seen": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-151",
+      "type": "Person",
+      "name": "Scott Bessent",
+      "properties": { "role": "US Treasury Secretary", "affiliation": "United States", "action_apr20": "attended Trump emergency meeting on Iran" },
+      "first_seen": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-152",
+      "type": "Person",
+      "name": "John Ratcliffe",
+      "properties": { "role": "CIA Director", "affiliation": "United States", "action_apr20": "attended Trump emergency meeting on Iran" },
+      "first_seen": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "mention_count": 2
+    }
   ],
-  "total_count": 148
+  "total_count": 152
 }

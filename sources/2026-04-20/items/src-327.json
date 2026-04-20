@@ -1,0 +1,20 @@
+{
+  "id": "src-327",
+  "title": "Kuwait Declares Force Majeure on Oil Shipments on Hormuz Halt",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-20/kuwait-declares-force-majeure-on-oil-shipments-on-hormuz-halt",
+  "snippet": "Kuwait Petroleum Corp declared force majeure on crude oil and refined product shipments. Kuwait's oil infrastructure has suffered multiple hits; output at levels not seen since early 1990s after Iraqi invasion. Can't meet full obligations even when Hormuz reopens. Oil production remains down 10-11 million barrels per day globally.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 쿠웨이트 불가항력 선언은 4/20 최초 보도. 전쟁 이후 첫 걸프국 불가항력 선언으로 에너지 위기 심화의 상징적 사건.",
+  "entities": [
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-037", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}
