@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-04-25",
   "classes": [
     {
       "id": "Entity",
@@ -166,6 +166,13 @@
       "target": "9 new entities (ent-179~ent-187)",
       "reason": "Saeed Jalili 갈리바프 후임설, Ali Fayyad 헤즈볼라 '무의미' 발언, WPR 5월 1일 데드라인, Hegseth-Caine 펜타곤 브리핑('shoot to destroy' + 'gang of pirates'), Araghchi 이슬라마바드 도착, 2차 회담 준비(Witkoff/Kushner 토요일 출발), 유가 $106, 레바논 Day 8 위반(8명 사살), 상원 WPR 5차 부결",
       "source_ids": ["src-446", "src-449", "src-452", "src-455", "src-457", "src-459", "src-460", "src-463", "src-464"]
+    },
+    {
+      "date": "2026-04-25",
+      "action": "add_instances",
+      "target": "7 new entities (ent-188~ent-194)",
+      "reason": "트럼프 위트코프·쿠슈너 파키스탄행 전격 취소('We have all the cards'), 아라그치 이슬라마바드 출국→오만/러시아 순방, 트럼프 '10분 내 더 나은 제안서' 발언, 네타냐후 헤즈볼라 '강력 공격' 명령(Day 9 4명 사살), 페제시키안 '강제 협상 불가' 선언, 오만·무스카트 신규 장소 등장",
+      "source_ids": ["src-476", "src-485", "src-487", "src-488", "src-490", "src-492", "src-493", "src-503"]
     }
   ]
 }

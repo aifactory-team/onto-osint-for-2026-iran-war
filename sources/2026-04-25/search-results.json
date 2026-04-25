@@ -1,0 +1,185 @@
+{
+  "date": "2026-04-25",
+  "collected_at": "2026-04-25T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 82,
+  "expanded_keywords": [
+    "Iran war Islamabad talks Witkoff Kushner",
+    "Iran Hormuz blockade IRGC",
+    "Lebanon ceasefire Hezbollah Israel",
+    "oil prices Brent crude Iran war",
+    "이란 전쟁 이슬라마바드 회담",
+    "War Powers Resolution Iran May 1 deadline",
+    "Ghalibaf resignation Jalili Iran",
+    "Araghchi Islamabad Oman",
+    "Trump cancels Pakistan trip Iran",
+    "Netanyahu orders IDF Hezbollah Lebanon",
+    "이란 전쟁 트럼프 파키스탄 회담 취소",
+    "Pezeshkian forced negotiations blockade"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war Islamabad talks Witkoff Kushner April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war live: Trump cancels Witkoff and Kushner trip to Pakistan for talks", "url": "https://www.aljazeera.com/news/liveblog/2026/4/25/iran-war-live-tehrans-fm-in-islamabad-us-says-envoys-to-travel-for-talks", "snippet": "Trump cancels Witkoff and Kushner trip to Pakistan for talks with Iran", "source_name": "Al Jazeera"},
+        {"title": "Live Updates: Trump says Kushner, Witkoff no longer going to Pakistan for Iran talks", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-hezbollah-lebanon-israel-ceasefire/", "snippet": "Trump calls off Witkoff, Kushner trip to Pakistan for talks with Iran", "source_name": "CBS News"},
+        {"title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks", "url": "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/", "snippet": "Trump cancels Witkoff, Kushner trip to Pakistan for Iran peace talks", "source_name": "Washington Post"},
+        {"title": "Live Updates: Trump says US team won't visit Pakistan as uncertainty surrounds Iran peace talks", "url": "https://www.cnn.com/2026/04/25/world/live-news/iran-war-israel-pakistan-talks", "snippet": "Trump says US negotiating team won't travel to Pakistan amid talks uncertainty", "source_name": "CNN"},
+        {"title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel", "url": "https://www.npr.org/2026/04/25/nx-s1-5799372/iran-middle-east-updates", "snippet": "Araghchi departs Islamabad, Trump cancels US delegation trip", "source_name": "NPR"},
+        {"title": "Trump calls off sending Witkoff and Kushner to Pakistan as Iran talks fail before they even began", "url": "https://fortune.com/2026/04/25/trump-witkoff-kushner-pakistan-ceasefire-talks-iran-war-hormuz/", "snippet": "Too much time wasted on traveling — Trump cancels trip", "source_name": "Fortune"},
+        {"title": "Iran War: Trump Cancels Kushner, Witkoff Trip to Pakistan for Peace Talks", "url": "https://www.bloomberg.com/news/articles/2026-04-25/trump-cancels-envoys-pakistan-trip-for-iran-talks-fox-reports", "snippet": "Trump cancels envoys Pakistan trip for Iran talks", "source_name": "Bloomberg"},
+        {"title": "Trump cancels envoys' trip to Pakistan for Iran talks", "url": "https://www.axios.com/2026/04/25/trump-iran-pakistan-talks", "snippet": "Trump cancels Witkoff and Kushner trip to Pakistan", "source_name": "Axios"},
+        {"title": "Trump Cancels Iran Peace Talks at Last Minute: 'We Have All the Cards'", "url": "https://time.com/article/2026/04/25/trump-iran-peace-talks-canceled/", "snippet": "Trump cancels talks, says 'we have all the cards'", "source_name": "Time"},
+        {"title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations", "url": "https://www.cnbc.com/2026/04/25/iran-says-no-meeting-with-us-negotiators-planned-in-pakistan.html", "snippet": "If they want to talk, all they have to do is call", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Hormuz blockade IRGC April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:01:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "2026 Strait of Hormuz crisis", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "snippet": "Dual blockade continues in Strait of Hormuz", "source_name": "Wikipedia"},
+        {"title": "2026 United States naval blockade of Iran", "url": "https://en.wikipedia.org/wiki/2026_United_States_naval_blockade_of_Iran", "snippet": "US naval blockade of Iran ongoing since April 13", "source_name": "Wikipedia"},
+        {"title": "Iran-Iraq Tanker War redux? Why the Strait of Hormuz crisis is different", "url": "https://www.aljazeera.com/news/2026/4/24/iran-iraq-tanker-war-redux-why-the-strait-of-hormuz-crisis-is-different", "snippet": "Analysis of current Hormuz crisis vs historical precedent", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire Hezbollah Israel April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:02:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Netanyahu orders IDF to attack Hezbollah in southern Lebanon after repeated violations of ceasefire", "url": "https://www.jpost.com/israel-news/article-894104", "snippet": "Netanyahu orders IDF to strike Hezbollah targets in Lebanon 'with force'", "source_name": "Jerusalem Post"},
+        {"title": "Netanyahu Orders 'Forceful' Israeli Strikes in Lebanon Targeting Hezbollah", "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-25/ty-article/.premium/netanyahu-orders-idf-to-strike-hezbollah-targets-with-force-despite-cease-fire/0000019d-c5db-dbb2-a19d-d7df7ac60000", "snippet": "Netanyahu orders forceful strikes against Hezbollah despite ceasefire", "source_name": "Haaretz"},
+        {"title": "Israel says it will attack Hezbollah 'forcefully' as four killed in strikes on southern Lebanon", "url": "https://whbl.com/2026/04/25/four-killed-in-israeli-strikes-on-southern-lebanon-state-media-say/", "snippet": "4 killed in Israeli strikes on southern Lebanon", "source_name": "AP/WHBL"},
+        {"title": "Israel told US to pressure Lebanon into acting against Hezbollah or risk ceasefire collapse", "url": "https://www.jpost.com/israel-news/defense-news/article-894117", "snippet": "Israel demands US pressure Lebanon on Hezbollah or ceasefire collapses", "source_name": "Jerusalem Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent crude Iran war April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:03:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Oil prices pull back from gains amid simmering Strait of Hormuz tensions", "url": "https://www.thenationalnews.com/business/markets/2026/04/24/oil-prices-iran-war/", "snippet": "Brent settled at $105.30, WTI at $94.40. Weekly gains: Brent +16%, WTI +14%", "source_name": "The National"},
+        {"title": "Crude Oil Rates Today: April 25, 2026: Brent Crude Remains $105 Per Barrel", "url": "https://www.oneindia.com/india/crude-oil-rates-today-april-25-2026-brent-crude-remains-105-per-barrel-check-latest-prices-of-g-8068929.html", "snippet": "Brent crude remains at $105 per barrel", "source_name": "Oneindia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 이슬라마바드 회담 2026년 4월 25일",
+      "language": "ko",
+      "timestamp": "2026-04-25T23:04:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "트럼프 \"이란 협상 원하면 전화하라\"…파키스탄 회담 전격 취소", "url": "https://www.blockmedia.co.kr/archives/1083527", "snippet": "트럼프 대통령 파키스탄 회담 전격 취소", "source_name": "블록미디어"},
+        {"title": "트럼프, 이란 측 떠나자 \"윗코프·쿠슈너 파견 취소\"", "url": "https://www.fnnews.com/news/202604260158517830", "snippet": "이란측 이슬라마바드 출국 후 미 대표단 파견 취소", "source_name": "파이낸셜뉴스"},
+        {"title": "美·이란, 주말 추가협상 무산…트럼프 \"대화 원하면 전화해\"", "url": "https://www.spnews.co.kr/news/articleView.html?idxno=106685", "snippet": "주말 2차 협상 무산", "source_name": "SPN 서울평양뉴스"},
+        {"title": "트럼프 \"이란 만나러 파키스탄 갈 필요 없어…미국이 모든 패 쥐고 있다\"", "url": "https://www.newspim.com/news/view/20260426000002", "snippet": "미국이 모든 카드를 쥐고 있다", "source_name": "뉴스핌"},
+        {"title": "美·이란 2차협상 향방 불투명…호르무즈·핵 입장차 못 좁혔나", "url": "https://www.fnnews.com/news/202604260738072215", "snippet": "호르무즈 봉쇄와 핵 문제 입장차 지속", "source_name": "파이낸셜뉴스"},
+        {"title": "호르무즈 봉쇄 56일…미·이란 '이슬라마바드 2차 담판' 돌입", "url": "https://www.g-enews.com/article/Global-Biz/2026/04/2026042505230999892bd56fbc3c_1", "snippet": "호르무즈 봉쇄 56일차 이슬라마바드 2차 회담", "source_name": "글로벌이코노믹"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "War Powers Resolution Iran May 1 deadline 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:05:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Analysis: The law sets a 60-day limit on unauthorized wars. Will Trump respect it?", "url": "https://www.cnn.com/2026/04/25/politics/war-powers-act-trump-iran-war-congress-analysis", "snippet": "CNN analysis on whether Trump will respect 60-day War Powers limit", "source_name": "CNN"},
+        {"title": "Trump's May 1 deadline: Can he continue war on Iran after that?", "url": "https://www.aljazeera.com/news/2026/4/24/trumps-may-1-deadline-can-he-continue-war-on-iran-after-that", "snippet": "Legal analysis of May 1 War Powers deadline", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Ghalibaf resignation Jalili Iran negotiation team 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:06:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Iran parliamentary speaker Ghalibaf has resigned from negotiations - Iran media", "url": "https://investinglive.com/news/iran-parliamentary-speaker-ghalibaf-has-resigned-from-negotiations-iran-media-20260424/", "snippet": "Ghalibaf resigned from negotiations after IRGC reprimand", "source_name": "InvestingLive"},
+        {"title": "Iran Parliament Speaker Ghalibaf Resigns From Negotiating Team After IRGC Intervention", "url": "https://www.freepressjournal.in/world/iran-parliament-speaker-ghalibaf-resigns-from-negotiating-team-after-irgc-intervention-reports", "snippet": "Ghalibaf resigns after IRGC intervention, Jalili may replace", "source_name": "Free Press Journal"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump cancels Pakistan trip Iran better paper April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:07:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "ART OF THE DEAL: President Trump Says Iran Sent Him a BETTER Offer After Canceling Pakistan Trip", "url": "https://wltreport.com/2026/04/25/president-trump-says-iran-sent-him-better-deal/", "snippet": "Trump says Iran sent better paper within 10 minutes of cancellation", "source_name": "WLT Report"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Araghchi departs Islamabad Oman Muscat Iran demands April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:08:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Trump cancels US negotiators' trip to Pakistan for Iran talks as Araghchi departs Islamabad", "url": "https://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us", "snippet": "Araghchi meets Pakistan officials, departs for Oman/Russia", "source_name": "Euronews"},
+        {"title": "Trump cancels US envoys' trip after Iran's Araghchi leaves Pakistan", "url": "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country", "snippet": "Trump cancels envoys trip after Araghchi leaves Pakistan", "source_name": "Al Jazeera"},
+        {"title": "Araghchi leaves Islamabad, set to travel to Oman and Russia", "url": "https://www.iranintl.com/en/202604251877", "snippet": "Araghchi departs for Oman then Russia", "source_name": "Iran International"},
+        {"title": "'No direct talks with US': Iran's Abbas Araghchi leaves Islamabad amid uncertainties", "url": "https://www.theweek.in/news/middle-east/2026/04/25/no-direct-talks-with-us-irans-abbas-araghchi-leaves-islamabad-amid-uncertainties-over-second-round-of-negotiations.html", "snippet": "Araghchi maintains no direct talks with US planned", "source_name": "The Week"},
+        {"title": "Iran not to enter talks under pressure, threats, blockade: Pres. Pezeshkian", "url": "https://www.presstv.ir/Detail/2026/04/25/767547/Iran-United-States-blockade-threats-pressure-Pezeshkian-Pakistan", "snippet": "Pezeshkian: Iran won't negotiate under pressure or blockade", "source_name": "Press TV"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Netanyahu orders IDF attack Hezbollah southern Lebanon April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:09:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Netanyahu orders IDF to attack Hezbollah in southern Lebanon after repeated violations of ceasefire", "url": "https://www.jpost.com/israel-news/article-894104", "snippet": "Netanyahu orders 'forceful' strikes on Hezbollah after ceasefire violations", "source_name": "Jerusalem Post"},
+        {"title": "Netanyahu Orders 'Forceful' Israeli Strikes in Lebanon Targeting Hezbollah", "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-25/ty-article/.premium/netanyahu-orders-idf-to-strike-hezbollah-targets-with-force-despite-cease-fire/0000019d-c5db-dbb2-a19d-d7df7ac60000", "snippet": "Netanyahu orders forceful strikes despite ceasefire", "source_name": "Haaretz"},
+        {"title": "Israel told US to pressure Lebanon into acting against Hezbollah or risk ceasefire collapse", "url": "https://www.jpost.com/israel-news/defense-news/article-894117", "snippet": "Israel warns US: pressure Lebanon or ceasefire collapses", "source_name": "Jerusalem Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Pezeshkian forced negotiations blockade remove April 25 2026",
+      "language": "en",
+      "timestamp": "2026-04-25T23:10:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Iran not to enter talks under pressure, threats, blockade: Pres. Pezeshkian", "url": "https://www.presstv.ir/Detail/2026/04/25/767547/Iran-United-States-blockade-threats-pressure-Pezeshkian-Pakistan", "snippet": "Pezeshkian says Iran won't enter forced negotiations under pressure", "source_name": "Press TV"},
+        {"title": "Trump puts onus on Iran's authorities as they project hardened stance", "url": "https://www.aljazeera.com/news/2026/4/25/irans-authorities-project-hardened-stance-with-more-talks-on-horizon", "snippet": "Iran projects hardened stance amid talks uncertainty", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Brent crude oil price close April 25 2026 Friday",
+      "language": "en",
+      "timestamp": "2026-04-25T23:11:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Oil prices pull back from gains amid simmering Strait of Hormuz tensions", "url": "https://www.thenationalnews.com/business/markets/2026/04/24/oil-prices-iran-war/", "snippet": "Brent settled $105.33 (+0.3%), WTI $94.40 (-1.5%). Weekly: Brent +16%, WTI +14%", "source_name": "The National"},
+        {"title": "Crude Oil Rates Today: April 25, 2026: Brent Crude Remains $105 Per Barrel", "url": "https://www.oneindia.com/india/crude-oil-rates-today-april-25-2026-brent-crude-remains-105-per-barrel-check-latest-prices-of-g-8068929.html", "snippet": "Brent crude at $105 on April 25", "source_name": "Oneindia"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-476",
+  "title": "Trump cancels Witkoff and Kushner trip to Pakistan for Iran talks — 'We have all the cards'",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/4/25/iran-war-live-tehrans-fm-in-islamabad-us-says-envoys-to-travel-for-talks",
+  "snippet": "Trump abruptly cancelled plans for US envoys Witkoff and Kushner to travel to Pakistan for peace talks with Iran. Trump told reporters the meeting wasn't going to happen until Tuesday and that travelling was a waste of time. He blamed 'infighting' among Iran's leadership. Trump said: 'We have all the cards but they have nothing. If they want to talk, all they have to do is call.' After cancellation, Iran sent a 'much better' paper within 10 minutes.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 N일 소스에 동일 항목 없음. 4/24 위트코프·쿠슈너 파키스탄행 확인(src-446)의 180도 역전으로 완전 신규 사건.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff", "role": "US Middle East Special Envoy"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner", "role": "Trump adviser"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US VP"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Cancels Pakistan Trip (Apr 25)", "properties": {"date": "2026-04-25"}}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "ent-043", "predicate": "affiliatedWith", "object": "ent-001"},
+    {"subject": "ent-042", "predicate": "affiliatedWith", "object": "ent-001"},
+    {"subject": "ent-029", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

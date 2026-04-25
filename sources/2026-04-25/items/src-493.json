@@ -1,0 +1,23 @@
+{
+  "id": "src-493",
+  "title": "Iran's authorities project hardened stance with more talks on horizon",
+  "url": "https://www.aljazeera.com/news/2026/4/25/irans-authorities-project-hardened-stance-with-more-talks-on-horizon",
+  "snippet": "Al Jazeera analysis: Iran's authorities project a hardened stance as talks remain uncertain. Trump blamed 'infighting' in Tehran for complicating negotiations. Divisions between Pezeshkian allies and Khamenei's office figures continue to derail diplomatic efforts. Iran's dual-track approach — diplomatic openness vs IRGC military escalation — remains unresolved.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란 내부 강경화 종합 분석은 신규. 페제시키안-하메네이 노선 대립 구도 심화 분석.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian", "role": "Iran President"},
+    {"id": "ent-047", "type": "Person", "name": "Mojtaba Khamenei", "role": "Supreme Leader"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "military"}
+  ],
+  "relations": [
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005"},
+    {"subject": "ent-005", "predicate": "affiliatedWith", "object": "ent-047"}
+  ]
+}

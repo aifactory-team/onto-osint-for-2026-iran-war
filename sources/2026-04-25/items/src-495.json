@@ -1,0 +1,20 @@
+{
+  "id": "src-495",
+  "title": "Oil: Brent settles at $105.33 (+0.3%), WTI $94.40 (-1.5%); weekly gains Brent +16%, WTI +14%",
+  "url": "https://www.thenationalnews.com/business/markets/2026/04/24/oil-prices-iran-war/",
+  "snippet": "Brent settled 0.25% higher at $105.30/bbl. WTI retreated 1.51% to $94.40/bbl. From last Friday close: Brent +16%, WTI +14%. Since conflict start: Brent +40%+ year-to-date. Prices pulled back from early gains on Pakistan talks hope then fell further on Trump cancellation.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "update",
+  "related_report": "2026-04-24/src-464",
+  "related_item": "src-464",
+  "tag_reason": "4/24 $106~$107.38(src-464) 대비 종가 $105.33으로 소폭 하락. 주간 +16% 확인.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade zone"},
+    {"id": "temp-008", "type": "Concept", "name": "Oil Prices", "role": "economic indicator"}
+  ],
+  "relations": [
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

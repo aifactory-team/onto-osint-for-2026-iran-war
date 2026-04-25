@@ -1,0 +1,27 @@
+{
+  "id": "src-485",
+  "title": "Iran's Araghchi departs Islamabad for Oman after delivering Tehran's demands; set to visit Russia",
+  "url": "https://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us",
+  "snippet": "Iran's FM Abbas Araghchi departed Islamabad Saturday afternoon after meeting Pakistan's Army Chief Asim Munir and Interior Minister Mohsin Naqvi. He delivered Tehran's list of demands for ending the war. Araghchi traveled to Muscat, Oman for meetings with Omani officials, then planned to visit Russia. IRNA said the visit was 'bilateral' with no US talks planned.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/24 아라그치 이슬라마바드 도착(src-449)의 후속이지만, 출국+오만/러시아 순방+테헤란 요구서 전달은 완전 신규 정보.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM"},
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Army Chief"},
+    {"id": "temp-002", "type": "Person", "name": "Mohsin Naqvi", "role": "Pakistan Interior Minister"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "temp-003", "type": "Location", "name": "Muscat", "properties": {"type": "city", "country": "Oman"}},
+    {"id": "ent-009", "type": "Organization", "name": "Russia", "role": "state"},
+    {"id": "temp-004", "type": "Organization", "name": "Oman", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-028"},
+    {"subject": "ent-044", "predicate": "locatedIn", "object": "temp-003"}
+  ]
+}

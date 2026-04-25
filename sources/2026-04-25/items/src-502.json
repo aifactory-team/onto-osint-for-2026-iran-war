@@ -1,0 +1,20 @@
+{
+  "id": "src-502",
+  "title": "Hezbollah launches rockets and drones at Israeli targets; IDF intercepts projectile",
+  "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-hezbollah-lebanon-israel-ceasefire/",
+  "snippet": "Hezbollah fired two projectiles into Israeli territory triggering sirens in Manara, Margaliot, and Misgav Am. One intercepted, one fell in open area. Hezbollah also launched explosive drones towards IDF troops south of Forward Defense Line. No IDF injuries reported.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "update",
+  "related_report": "2026-04-24/src-462",
+  "related_item": "src-462",
+  "tag_reason": "4/24 헤즈볼라 슈투라 로켓(src-462) 후속. 4/25 마나라·마르갈리오트에 추가 발사.",
+  "entities": [
+    {"id": "temp-005", "type": "Organization", "name": "Hezbollah", "role": "militant group"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "temp-005", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

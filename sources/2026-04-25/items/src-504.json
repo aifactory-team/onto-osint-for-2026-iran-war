@@ -1,0 +1,21 @@
+{
+  "id": "src-504",
+  "title": "Lebanon ceasefire Day 9: 4 killed in Israeli strikes despite 3-week extension",
+  "url": "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country",
+  "snippet": "Israeli troops and Hezbollah fighters continued to target each other on Day 9 of ceasefire. 4 killed in Israeli strikes on southern Lebanon. Both sides reporting violations. Ceasefire began April 16, extended for 3 weeks on April 23.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "update",
+  "related_report": "2026-04-24/src-470",
+  "related_item": "src-470",
+  "tag_reason": "4/24 Day 8 8명 사살(src-470) 후속. Day 9 추가 4명 사망. 일일 위반 패턴 지속.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "temp-005", "type": "Organization", "name": "Hezbollah", "role": "militant group"},
+    {"id": "temp-007", "type": "Organization", "name": "Lebanon", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-005"}
+  ]
+}

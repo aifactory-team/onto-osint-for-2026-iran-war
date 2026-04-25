@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-04-25",
   "entities": [
     {
       "id": "ent-001",
@@ -1647,6 +1647,70 @@
       "last_seen": "2026-04-24",
       "mention_count": 5
     }
+    ,
+    {
+      "id": "ent-188",
+      "type": "Event",
+      "name": "Trump Cancels Pakistan Trip (Apr 25)",
+      "properties": { "date": "2026-04-25", "detail": "Trump abruptly cancelled Witkoff/Kushner trip to Pakistan for 2nd round Iran talks. Blamed Iran 'infighting' and said meeting delayed to Tuesday. 'We have all the cards.' 'Too much time wasted on traveling.' After cancellation Iran sent 'much better' paper within 10 minutes. Araghchi had already departed Islamabad for Oman.", "participants": "Trump, Witkoff, Kushner (cancelled)" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-189",
+      "type": "Location",
+      "name": "Muscat",
+      "properties": { "type": "city", "country": "Oman" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-190",
+      "type": "Organization",
+      "name": "Oman",
+      "properties": { "type": "state", "location": "Middle East/Gulf", "role": "diplomatic intermediary for Iran-US back-channel" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-191",
+      "type": "Event",
+      "name": "Netanyahu Orders Forceful Strikes on Hezbollah (Apr 25)",
+      "properties": { "date": "2026-04-25", "detail": "Netanyahu ordered IDF to strike Hezbollah targets in Lebanon 'with force' after Hezbollah fired 2 projectiles (1 intercepted, 1 open area) + explosive drones at IDF troops south of Forward Defense Line. Triggered sirens in Manara, Margaliot, Misgav Am. 2nd Hezbollah ceasefire violation. Israel told US to pressure Lebanon or risk ceasefire collapse.", "casualties_day9": "4 killed in Israeli strikes on southern Lebanon" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-192",
+      "type": "Event",
+      "name": "Araghchi Departs Islamabad for Oman/Russia (Apr 25)",
+      "properties": { "date": "2026-04-25", "detail": "Iran FM Araghchi departed Islamabad Saturday afternoon after meeting Munir and Interior Minister Mohsin Naqvi. Delivered Tehran's list of demands for ending war to Pakistani officials. Traveled to Muscat, then planned Moscow visit. 'No direct talks with US' maintained.", "destinations": "Muscat (Oman) → Moscow (Russia)" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-193",
+      "type": "Event",
+      "name": "Pezeshkian Rejects 'Forced Negotiations' (Apr 25)",
+      "properties": { "date": "2026-04-25", "detail": "Iran President Pezeshkian said Tehran will not enter 'forced negotiations' while facing pressure and threats. Demanded Washington first remove 'operational obstacles, including the blockade' before talks. Reversal from Apr 22 'open to deal' signal. Reflects IRGC influence over presidential messaging.", "stance": "hardened from Apr 22" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-194",
+      "type": "Event",
+      "name": "Iran Sends 'Better Paper' After Cancellation (Apr 25)",
+      "properties": { "date": "2026-04-25", "detail": "Trump: 'They gave us a paper that should have been better and interestingly the minute I cancelled it, within 10 minutes, we got a new paper that was much better…they offered a lot but not enough.' Reiterated Iran cannot get nuclear weapon. Suggested future talks by telephone.", "significance": "Cancellation as negotiation tactic; Iran responsive" },
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "mention_count": 3
+    }
   ],
-  "total_count": 187
+  "total_count": 194
 }

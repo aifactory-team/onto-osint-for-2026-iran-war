@@ -1,0 +1,21 @@
+{
+  "id": "src-487",
+  "title": "Trump says Iran sent 'much better' paper within 10 minutes of cancellation",
+  "url": "https://wltreport.com/2026/04/25/president-trump-says-iran-sent-him-better-deal/",
+  "snippet": "Trump said: 'They gave us a paper that should have been better and interestingly the minute I cancelled it, within 10 minutes, we got a new paper that was much better…they offered a lot but not enough.' Trump also reiterated Iran cannot get a nuclear weapon. He suggested future talks could happen by telephone rather than 15-hour flights.",
+  "source_name": "WLT Report",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 '10분 내 개선된 제안서' 발언은 완전 신규 정보. 취소를 협상 전술로 사용했음을 시사.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program", "role": "negotiation issue"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-505",
+  "title": "호르무즈 봉쇄 56일…미·이란 '이슬라마바드 2차 담판' 돌입",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/04/2026042505230999892bd56fbc3c_1",
+  "snippet": "호르무즈 해협 봉쇄 56일차. 미·이란 이슬라마바드 2차 회담 불투명. 아라그치 외무장관이 무니르·샤리프와 연쇄 회담 후 출국. 회담 전 발표되었으나 이후 트럼프가 대표단 파견을 취소.",
+  "source_name": "글로벌이코노믹",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "update",
+  "related_report": "2026-04-24/src-474",
+  "related_item": "src-474",
+  "tag_reason": "4/24 이란 전쟁 56일차 종합(src-474)의 후속. 호르무즈 봉쇄 일수 업데이트.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade zone"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM"},
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Army Chief"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-028"},
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-027"}
+  ]
+}

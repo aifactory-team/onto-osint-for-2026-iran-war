@@ -1,0 +1,116 @@
+{
+  "date": "2026-04-25",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Cancels Pakistan Trip (Apr 25)",
+      "properties": {"date": "2026-04-25", "participants": "Trump, Witkoff, Kushner", "reason": "Iran infighting, too much travel time, meeting delayed to Tuesday", "outcome": "Iran sent 'much better' paper within 10 minutes"},
+      "source_ids": ["src-476", "src-477", "src-478", "src-479", "src-480", "src-481", "src-482", "src-483", "src-484", "src-487", "src-496", "src-497"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohsin Naqvi",
+      "properties": {"role": "Pakistan Interior Minister", "affiliation": "Pakistan"},
+      "source_ids": ["src-485"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Muscat",
+      "properties": {"type": "city", "country": "Oman"},
+      "source_ids": ["src-485", "src-486"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Oman",
+      "properties": {"type": "state", "location": "Middle East/Gulf", "role": "diplomatic intermediary"},
+      "source_ids": ["src-485", "src-486"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-077",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"type": "militant group", "location": "Lebanon"},
+      "source_ids": ["src-488", "src-490", "src-491", "src-502", "src-504"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Southern Lebanon",
+      "properties": {"type": "region", "status": "conflict zone under ceasefire violations"},
+      "source_ids": ["src-488", "src-490", "src-504"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-078",
+      "type": "Organization",
+      "name": "Lebanon",
+      "properties": {"type": "state", "location": "Middle East"},
+      "source_ids": ["src-491", "src-504"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Oil Prices",
+      "properties": {"domain": "energy/economics", "brent_close": "$105.33", "wti_close": "$94.40", "weekly_change_brent": "+16%", "weekly_change_wti": "+14%"},
+      "source_ids": ["src-495"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Netanyahu Orders Forceful Strikes on Hezbollah (Apr 25)",
+      "properties": {"date": "2026-04-25", "participants": "Netanyahu, IDF, Hezbollah", "trigger": "Hezbollah rocket/drone attacks on northern Israel"},
+      "source_ids": ["src-488", "src-489"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Araghchi Departs Islamabad for Oman/Russia (Apr 25)",
+      "properties": {"date": "2026-04-25", "participants": "Araghchi, Munir, Naqvi", "destinations": "Muscat then Moscow", "payload": "Tehran's list of demands delivered to Pakistan"},
+      "source_ids": ["src-485", "src-486"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-476", "src-487", "src-492"], "confidence": 0.95},
+    {"subject": "ent-043", "predicate": "affiliatedWith", "object": "ent-001", "source_ids": ["src-476"], "confidence": 0.99},
+    {"subject": "ent-042", "predicate": "affiliatedWith", "object": "ent-001", "source_ids": ["src-476"], "confidence": 0.99},
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-028", "source_ids": ["src-485", "src-505"], "confidence": 0.95},
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-027", "source_ids": ["src-505"], "confidence": 0.90},
+    {"subject": "ent-031", "predicate": "opposes", "object": "temp-005", "source_ids": ["src-488"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-005", "source_ids": ["src-488", "src-490", "src-491"], "confidence": 0.95},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-493", "src-503"], "confidence": 0.85},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-492"], "confidence": 0.80},
+    {"subject": "ent-005", "predicate": "affiliatedWith", "object": "ent-047", "source_ids": ["src-493", "src-503"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "temp-007", "source_ids": ["src-491"], "confidence": 0.90},
+    {"subject": "ent-029", "predicate": "relatedTo", "object": "temp-001", "source_ids": ["src-476"], "confidence": 0.95},
+    {"subject": "ent-044", "predicate": "locatedIn", "object": "temp-003", "source_ids": ["src-485"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 7,
+    "matched_entities": 3,
+    "total_relations": 13
+  }
+}

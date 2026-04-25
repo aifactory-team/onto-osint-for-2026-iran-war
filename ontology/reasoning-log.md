@@ -723,3 +723,47 @@
 - 9개 새 엔티티 모두 기존 클래스(Person, Event, Concept)로 분류 가능
 - 26개 새 관계(명시적) + 1개 업데이트 + 5개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, locatedIn, opposes, relatedTo, affiliatedWith, causalChain, potentialRelation)으로 표현 가능
 - Saeed Jalili(Person), Ali Fayyad(Person), WPR Deadline(Concept) 모두 기존 클래스로 충분히 모델링됨
+
+---
+
+## 2026-04-25 추론 결과
+
+### 추론 #1: event_chain (회담 인과 체인)
+- **입력:** (ent-188/Trump Cancels Pakistan Trip, follows, ent-184/2nd Talks Prep), (ent-184, follows, ent-119/2nd Round Talks Monday)
+- **추론:** (ent-188/Trump Cancels Pakistan Trip, causalChain, ent-054/Islamabad Peace Talks)
+- **신뢰도:** 0.76
+- **상태:** 확정
+- **비고:** 트럼프 취소 → 2차 회담 준비 → 이슬라마바드 평화회담 전체 인과 체인. 회담 프로세스가 "거부→뒤채널→재개→취소" 사이클로 반복되고 있음.
+
+### 추론 #2: co_participation (아라그치 출국-트럼프 취소 인과)
+- **입력:** (ent-044/Araghchi, participatesIn, ent-192/Araghchi Departs), (ent-188/Trump Cancel, causedBy, ent-192/Araghchi Departs)
+- **추론:** (ent-192/Araghchi Departs, relatedTo, ent-188/Trump Cancels Pakistan Trip)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 아라그치 출국이 트럼프 취소의 직접 트리거. 시간적 선후 관계 명확: 아라그치 토요일 오전 출국 → 트럼프 오후 취소 발표.
+
+### 추론 #3: event_chain (네타냐후 공격-휴전 위반 체인)
+- **입력:** (ent-191/Netanyahu Strikes, follows, ent-186/Day 8 Violations), (ent-186, follows, ent-172/3-Week Extension)
+- **추론:** (ent-191/Netanyahu Strikes, causalChain, ent-172/3-Week Ceasefire Extension)
+- **신뢰도:** 0.76
+- **상태:** 확정
+- **비고:** 네타냐후 "강력 공격" 명령 → Day 8/9 위반 → 3주 연장 합의. 합의-위반-에스컬레이션 즉시 사이클 패턴 확인.
+
+### 추론 #4: co_participation (페제시키안-아라그치 외교 트랙)
+- **입력:** (ent-149/Pezeshkian, participatesIn, ent-193/Forced Negotiations Refusal), (ent-044/Araghchi, participatesIn, ent-192/Departs Islamabad)
+- **추론:** (ent-149/Pezeshkian, potentialRelation, ent-044/Araghchi)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 둘 다 이란 외교 트랙 대표. 그러나 페제시키안 강경화(4/25)와 아라그치 외교 순방(오만/러시아)은 다른 방향을 시사 — 이란 내부에서 대통령과 외무장관 사이에서도 미묘한 입장차 존재 가능.
+
+### 추론 #5: co_participation (오만-파키스탄 중재 채널 다변화)
+- **입력:** (ent-044/Araghchi, locatedIn, ent-189/Muscat), (ent-044, cooperatesWith, ent-028/Munir via Pakistan)
+- **추론:** (ent-190/Oman, potentialRelation, ent-029/Pakistan)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 아라그치가 이슬라마바드 → 무스카트(오만) → 모스크바 순방. 오만은 전통적 미-이란 뒤채널 국가(2015 JCPOA 초기 비밀 협상). 파키스탄과 오만이 병렬 중재 채널로 기능할 가능성.
+
+### 스키마 변경 없음
+- 7개 새 엔티티 모두 기존 클래스(Event, Location, Organization)로 분류 가능
+- 26개 새 관계(명시적) + 3개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+- 오만(Organization/state)과 무스카트(Location/city)는 기존 클래스로 충분히 모델링됨

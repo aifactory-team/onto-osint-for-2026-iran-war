@@ -1,0 +1,21 @@
+{
+  "id": "src-490",
+  "title": "4 killed in Israeli strikes on southern Lebanon; Hezbollah fires rockets at Israel",
+  "url": "https://whbl.com/2026/04/25/four-killed-in-israeli-strikes-on-southern-lebanon-state-media-say/",
+  "snippet": "Four people killed in Israeli strikes on southern Lebanon on Saturday. Israeli military said Hezbollah had fired rockets at Israel. Israel said it would attack Hezbollah 'forcefully', further testing the fragile ceasefire. Lebanon ceasefire Day 9 since April 16.",
+  "source_name": "AP/WHBL",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/25 신규 사상자. 4/24 8명 사살(src-470)과 별도의 Day 9 위반 사건.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "temp-005", "type": "Organization", "name": "Hezbollah", "role": "militant group"},
+    {"id": "temp-006", "type": "Location", "name": "Southern Lebanon", "properties": {"type": "region"}}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-005"}
+  ]
+}

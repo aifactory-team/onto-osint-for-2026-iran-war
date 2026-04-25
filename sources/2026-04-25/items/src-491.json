@@ -1,0 +1,22 @@
+{
+  "id": "src-491",
+  "title": "Israel told US to pressure Lebanon into acting against Hezbollah or risk ceasefire collapse",
+  "url": "https://www.jpost.com/israel-news/defense-news/article-894117",
+  "snippet": "Israel told the US to pressure Lebanon into taking action against Hezbollah or risk the ceasefire collapsing. Report from KAN suggests Israel views Lebanon's inaction against Hezbollah as unsustainable and is demanding US intervention to maintain the ceasefire framework.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이스라엘의 미국 압박 요구는 완전 신규. 휴전 붕괴 위험을 미국에 전가하는 새로운 동학.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "temp-005", "type": "Organization", "name": "Hezbollah", "role": "militant group"},
+    {"id": "temp-007", "type": "Organization", "name": "Lebanon", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-005"},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "temp-007"}
+  ]
+}

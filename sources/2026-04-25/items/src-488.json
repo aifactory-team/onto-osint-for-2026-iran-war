@@ -1,0 +1,23 @@
+{
+  "id": "src-488",
+  "title": "Netanyahu orders IDF to attack Hezbollah in southern Lebanon 'with force' after repeated ceasefire violations",
+  "url": "https://www.jpost.com/israel-news/article-894104",
+  "snippet": "PM Netanyahu ordered the IDF to strike Hezbollah targets in Lebanon 'with force' after Hezbollah launched rockets and drones at northern Israel. Two projectiles were fired into Israeli territory, triggering sirens in Manara, Margaliot, and Misgav Am. One intercepted, one fell in open area. Hezbollah also launched explosive drones towards IDF south of Forward Defense Line. This was the second time Hezbollah violated the ceasefire since April 16.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "네타냐후의 '강력 공격' 명령은 4/24 위반(src-460) 대비 질적 에스컬레이션. 정치적 명령으로 격상.",
+  "entities": [
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israel PM"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "temp-005", "type": "Organization", "name": "Hezbollah", "role": "militant group"},
+    {"id": "temp-006", "type": "Location", "name": "Southern Lebanon", "properties": {"type": "region"}}
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "opposes", "object": "temp-005"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-005"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-492",
+  "title": "Iran's Pezeshkian: will not enter 'forced negotiations' under pressure and blockade",
+  "url": "https://www.presstv.ir/Detail/2026/04/25/767547/Iran-United-States-blockade-threats-pressure-Pezeshkian-Pakistan",
+  "snippet": "Iran President Masoud Pezeshkian said Tehran will not enter 'forced negotiations' while facing pressure and threats. He demanded Washington first remove 'operational obstacles, including the blockade' of ships traveling to and from Iranian ports before any talks can proceed.",
+  "source_name": "Press TV",
+  "language": "en",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "페제시키안의 '강제 협상 불가' 선언은 4/22 '딜 개방' 신호(src-392)에서 강경화로 역전. 신규 입장 표명.",
+  "entities": [
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian", "role": "Iran President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade zone"}
+  ],
+  "relations": [
+    {"subject": "ent-149", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-001"}
+  ]
+}

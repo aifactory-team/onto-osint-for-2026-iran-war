@@ -1,0 +1,48 @@
+{
+  "date": "2026-04-25",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-188", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-476"},
+    {"subject": "ent-043", "predicate": "participatesIn", "object": "ent-188", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-476"},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "ent-188", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-476"},
+    {"subject": "ent-188", "predicate": "follows", "object": "ent-184", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-476"},
+    {"subject": "ent-188", "predicate": "causedBy", "object": "ent-192", "date": "2026-04-25", "confidence": 0.85, "type": "explicit", "source_id": "src-476"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-192", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-028", "predicate": "participatesIn", "object": "ent-192", "date": "2026-04-25", "confidence": 0.90, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-092", "predicate": "participatesIn", "object": "ent-192", "date": "2026-04-25", "confidence": 0.85, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-192", "predicate": "locatedIn", "object": "ent-051", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-044", "predicate": "locatedIn", "object": "ent-189", "date": "2026-04-25", "confidence": 0.90, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "ent-190", "date": "2026-04-25", "confidence": 0.80, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "ent-009", "date": "2026-04-25", "confidence": 0.75, "type": "explicit", "source_id": "src-485"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-194", "date": "2026-04-25", "confidence": 0.90, "type": "explicit", "source_id": "src-487"},
+    {"subject": "ent-194", "predicate": "follows", "object": "ent-188", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-487"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-191", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-488"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-191", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-488"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-488"},
+    {"subject": "ent-191", "predicate": "follows", "object": "ent-186", "date": "2026-04-25", "confidence": 0.90, "type": "explicit", "source_id": "src-488"},
+    {"subject": "ent-191", "predicate": "locatedIn", "object": "ent-050", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-490"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "source_id": "src-491"},
+    {"subject": "ent-149", "predicate": "participatesIn", "object": "ent-193", "date": "2026-04-25", "confidence": 0.90, "type": "explicit", "source_id": "src-492"},
+    {"subject": "ent-193", "predicate": "opposes", "object": "ent-001", "date": "2026-04-25", "confidence": 0.85, "type": "explicit", "source_id": "src-492"},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005", "date": "2026-04-25", "confidence": 0.80, "type": "explicit", "source_id": "src-493"},
+    {"subject": "ent-046", "predicate": "opposes", "object": "ent-149", "date": "2026-04-25", "confidence": 0.80, "type": "explicit", "source_id": "src-503"},
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "ent-173", "date": "2026-04-25", "confidence": 0.90, "type": "explicit", "source_id": "src-503"},
+    {"subject": "ent-179", "predicate": "relatedTo", "object": "ent-173", "date": "2026-04-25", "confidence": 0.85, "type": "explicit", "source_id": "src-503"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-028", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "note": "reinforced: Araghchi-Munir meeting in Islamabad"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "note": "reinforced: 'we have all the cards'"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-172", "date": "2026-04-25", "confidence": 0.95, "type": "explicit", "note": "Fayyad 'meaningless' statement confirms Hezbollah rejects ceasefire extension"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-188", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-25", "confidence": 0.76, "type": "inferred", "rule": "event_chain", "note": "Trip cancellation → 2nd talks prep → Islamabad Peace Talks chain"},
+    {"subject": "ent-192", "predicate": "relatedTo", "object": "ent-188", "date": "2026-04-25", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "note": "Araghchi departure and Trump cancellation are causally linked"},
+    {"subject": "ent-191", "predicate": "causalChain", "object": "ent-172", "date": "2026-04-25", "confidence": 0.76, "type": "inferred", "rule": "event_chain", "note": "Netanyahu forceful strikes → ceasefire extension violations → 3-week extension chain"},
+    {"subject": "ent-149", "predicate": "potentialRelation", "object": "ent-044", "date": "2026-04-25", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "note": "Both Pezeshkian and Araghchi represent Iran's diplomatic track vs IRGC military track"},
+    {"subject": "ent-190", "predicate": "potentialRelation", "object": "ent-029", "date": "2026-04-25", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "note": "Oman and Pakistan both serve as intermediary channels for Iran-US talks"}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 26,
+    "inferred_edges": 5
+  }
+}
