@@ -1,0 +1,23 @@
+{
+  "id": "src-471",
+  "title": "갈리바프 사임 공식 확인…자릴리 후임설 부상 — 이란 협상팀 격변",
+  "url": "https://www.chosun.com/international/2026/04/24/2026042480038",
+  "snippet": "조선일보 분석: 이란인터내셔널 등 복수 매체가 갈리바프 협상팀장 사임을 확인 보도. 후임으로 강경파 사이드 잘릴리 부상. 이란 의회는 공식 부인. IRGC-실용파 갈등 심화 신호. 잘릴리 임명 시 이슬라마바드 2차 회담 형식 자체가 변경될 수 있다는 분석.",
+  "source_name": "Chosun Ilbo",
+  "language": "ko",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-23/src-430",
+  "related_item": "src-457",
+  "tag_reason": "Korean coverage of Ghalibaf resignation confirmation with analytical depth on Jalili replacement implications. Updates yesterday's unconfirmed report.",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "temp-179", "type": "Person", "name": "Saeed Jalili"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"}
+  ],
+  "relations": [
+    {"subject": "temp-179", "predicate": "mayReplace", "object": "ent-045"}
+  ]
+}

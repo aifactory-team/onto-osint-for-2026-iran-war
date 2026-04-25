@@ -1,0 +1,23 @@
+{
+  "id": "src-466",
+  "title": "How long can Iran survive the US blockade? — Al Jazeera analysis",
+  "url": "https://www.aljazeera.com/features/2026/4/24/how-long-can-iran-survive-blockade",
+  "snippet": "Al Jazeera analysis examines Iran's economic resilience under US blockade. Iran's oil exports (normally ~1.3 million bpd) effectively zero since blockade began. Strategic reserves estimated 60-90 days. Sanctions evasion networks degraded. Food imports via land borders (Turkey, Pakistan) continue but strained. IRGC controls black market distribution. Inflation spiking. Analysts estimate 3-6 month window before severe economic crisis.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Substantive analysis of Iran's blockade survival capacity — 3-6 month timeline estimate and reserve data are new analytical contributions.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "blockades", "object": "ent-002"}
+  ]
+}

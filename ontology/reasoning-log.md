@@ -681,3 +681,45 @@
 ### 스키마 변경 없음
 - 8개 새 엔티티 모두 기존 클래스(Event 4개, Person 3개, Location 1개)로 분류 가능
 - 22개 새 관계(명시적) + 4개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, locatedIn, opposes, cooperatesWith, causalChain, potentialRelation)으로 표현 가능
+
+## 2026-04-24 추론 결과
+
+### 추론 #67: co_participation (Jalili-Araghchi 협상단 경쟁)
+- **입력:** (ent-179/Saeed Jalili, relatedTo, ent-045/Ghalibaf), (ent-044/Araghchi, participatesIn, ent-183/Islamabad Visit), (ent-179/Jalili, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-179/Saeed Jalili, opposes, ent-044/Abbas Araghchi)
+- **신뢰도:** 0.72
+- **상태:** 잠정
+- **비고:** Jalili는 핵 협상 시절부터 대표적 강경파(타협 거부 노선). Ghalibaf 대체 시 이란 협상팀의 강경화는 필연적. Araghchi(실용파)와의 노선 대립은 IRGC-외교부 분열의 또 다른 차원. 그러나 Araghchi가 이슬라마바드에 도착하는 것은 Jalili 임명이 아직 공식화되지 않았거나, 병렬적 외교 채널이 유지되고 있음을 시사.
+
+### 추론 #68: event_chain (Araghchi 이슬라마바드 → 이란 거부 역전)
+- **입력:** (ent-140/Iran Rejects 2nd Round, date=2026-04-19), (ent-183/Araghchi Islamabad Visit, date=2026-04-24)
+- **추론:** (ent-183/Araghchi Islamabad Visit, follows, ent-140/Iran Rejects 2nd Round)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 이란의 공식 거부(4/19) → 5일 후 외무장관 이슬라마바드 도착. IRNA는 "미국 만남이 아님"이라 부인하나, Witkoff/Kushner와 같은 도시에 같은 주말 체류는 사실상 간접 회담 구조. 거부→뒤채널→재개 패턴은 1차 회담(이슬라마바드)에서도 동일하게 관찰됨. 이란의 '거부'는 국내 강경파를 위한 공식 포지션이며, 실질적 외교는 별도 경로로 진행되는 이중 구조.
+
+### 추론 #69: event_chain (2차 회담 준비 → 이전 확정 부활)
+- **입력:** (ent-119/2nd Round Confirmed, date=2026-04-17), (ent-140/Iran Rejects, date=2026-04-19), (ent-184/2nd Islamabad Talks Prep, date=2026-04-25)
+- **추론:** (ent-184/2nd Islamabad Talks Prep, follows, ent-119/2nd Round Confirmed)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 2차 회담 확정(4/17) → 이란 거부(4/19)로 붕괴 → 5일 후 재가동(4/24-25). 외교 사이클의 '확정→붕괴→재건' 패턴. 미국 측(Witkoff/Kushner)은 이란의 거부를 전술적 포지셔닝으로 판단하고 회담 준비를 계속한 것으로 보임. 파키스탄(Sharif+Munir)의 뒤채널 중재가 재건의 핵심 메커니즘.
+
+### 추론 #70: event_chain (Hegseth 브리핑 → 유가 $106 인과 체인)
+- **입력:** (ent-171/기뢰 격침 명령, date=2026-04-23), (ent-182/Hegseth-Caine Pentagon Briefing, follows, ent-171), (ent-185/Oil $106, causedBy, ent-171)
+- **추론:** (ent-182/Hegseth-Caine Pentagon Briefing, causalChain, ent-185/Oil $106)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 기뢰 격침 명령(4/23) → Hegseth 펜타곤 브리핑(4/24) "as long as it takes" → Brent $106+(장중 $107.38). 봉쇄 장기화 공식 선언이 유가 구조적 상승의 추가 요인. "freeriding" 비판은 동맹국 참여 없이 미국이 단독으로 봉쇄를 유지해야 하는 비용을 인정한 것이며, 이는 역설적으로 봉쇄의 지속 가능성에 대한 의문을 제기. 유가 종가($104.50)가 장중 최고($107.38)에서 하락한 것은 파키스탄 회담 희망이 부분적 완충 역할.
+
+### 추론 #71: event_chain (레바논 3주 연장 → Day 8 위반)
+- **입력:** (ent-172/3-Week Extension, date=2026-04-23), (ent-186/Day 8 Violations, follows, ent-172), (ent-180/Fayyad, opposes, ent-172)
+- **추론:** (ent-186/Lebanon Ceasefire Day 8 Violations, causalChain, ent-172/3-Week Extension)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 3주 연장 합의(4/23) → 24시간 내 Day 8 위반: 빈트 주바일 6명 + 투린 2명 사살(4/24). 합의-위반 즉시 사이클은 10일 휴전(4/16)에서도 동일 패턴(합의 24시간 내 첫 위반). Ali Fayyad의 "meaningless" 발언은 헤즈볼라가 연장을 전혀 구속력 있는 것으로 보지 않음을 공식화. 이스라엘 역시 빈트 주바일 공습으로 연장 존중 의사가 없음을 행동으로 확인. 양측 모두 연장을 무시하는 구조에서 5월 14일 만료 전에 본격적 충돌 재개 가능성.
+
+### 스키마 변경 없음
+- 9개 새 엔티티 모두 기존 클래스(Person, Event, Concept)로 분류 가능
+- 26개 새 관계(명시적) + 1개 업데이트 + 5개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, locatedIn, opposes, relatedTo, affiliatedWith, causalChain, potentialRelation)으로 표현 가능
+- Saeed Jalili(Person), Ali Fayyad(Person), WPR Deadline(Concept) 모두 기존 클래스로 충분히 모델링됨

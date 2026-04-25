@@ -1,0 +1,213 @@
+{
+  "date": "2026-04-24",
+  "collected_at": "2026-04-24T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 16,
+  "total_results": 96,
+  "expanded_keywords": ["Iran war Hormuz blockade", "Trump ceasefire", "Israel Lebanon ceasefire", "IRGC ships", "Ghalibaf resign", "oil price Brent", "Pakistan mediation", "Hezbollah violations", "Witkoff Kushner Pakistan", "Araghchi Islamabad", "Hegseth shoot destroy", "War Powers May 1", "이란 전쟁 호르무즈", "트럼프 이란 휴전", "갈리바프 사임", "유가 브렌트"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war April 24 2026 Hormuz blockade latest",
+      "language": "en",
+      "timestamp": "2026-04-24T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Live updates: Trump orders U.S. to attack Iran boats mining Strait of Hormuz", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-iran-hormuz-blockade-ceasefire-talks-lebanon-israel-rcna341571", "snippet": "Trump ordered Navy to shoot and kill Iranian boats laying mines. 34 ships turned around at blockade.", "source_name": "NBC News"},
+        {"title": "How long can Iran survive the US's Hormuz blockade?", "url": "https://www.aljazeera.com/news/2026/4/24/how-long-can-iran-survive-the-uss-hormuz-blockade", "snippet": "Analysis of Iran's economic resilience under US naval blockade.", "source_name": "Al Jazeera"},
+        {"title": "Iran war live updates: Israel, Lebanon extend ceasefire amid Strait of Hormuz uncertainty", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-iran-hormuz-blockade-ceasefire-talks-lebanon-israel-rcna341831", "snippet": "Day 56 updates. Ceasefire extended. Witkoff, Kushner heading to Pakistan Saturday.", "source_name": "NBC News"},
+        {"title": "Iran war live updates: Witkoff, Kushner to head to Islamabad tomorrow, White House says", "url": "https://www.ms.now/liveblog/iran-war-live-updates-news-today-april-24-2026", "snippet": "White House confirms Saturday departure for Pakistan talks.", "source_name": "MS Now"},
+        {"title": "Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-ceasefire-strait-hormuz-ship-attacked-us-military-buildup/", "snippet": "US military buildup continues. ~60,000 troops in region.", "source_name": "CBS News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran war ceasefire April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war: What's happening on day 56 after Trump extended ceasefire?", "url": "https://www.aljazeera.com/news/2026/4/24/iran-war-whats-happening-on-day-56-after-trump-extended-ceasefire", "snippet": "Day 56 recap. Araghchi arrives in Pakistan. Witkoff-Kushner Saturday departure confirmed.", "source_name": "Al Jazeera"},
+        {"title": "Trump Extended the Iran War Ceasefire. Now What?", "url": "https://www.cfr.org/articles/trump-extended-the-iran-war-ceasefire-now-what", "snippet": "CFR analysis of ceasefire dynamics and diplomatic prospects.", "source_name": "Council on Foreign Relations"},
+        {"title": "Trump's May 1 deadline: Can he continue war on Iran after that?", "url": "https://www.aljazeera.com/news/2026/4/24/trumps-may-1-deadline-can-he-continue-war-on-iran-after-that", "snippet": "War Powers Resolution 60-day deadline analysis. May 1 congressional approval needed.", "source_name": "Al Jazeera"},
+        {"title": "Live updates: US envoys will head to Pakistan on Saturday for fresh Iran talks", "url": "https://www.cnn.com/2026/04/24/world/live-news/iran-war-trump-israel-lebanon", "snippet": "Witkoff, Kushner to Pakistan. Araghchi arrives Islamabad. Iran denies direct meeting planned.", "source_name": "CNN"},
+        {"title": "Hegseth warns Iran that US forces will 'shoot to destroy' any ships laying mines in Strait of Hormuz", "url": "https://www.foxnews.com/live-news/iran-war-trump-us-ceasefire-deal-strait-hormuz-israel-lebanon-april-24", "snippet": "Pentagon briefing. Hegseth: Iran navy reduced to 'gang of pirates with a flag.'", "source_name": "Fox News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Hezbollah defiant as Trump says Israel-Lebanon ceasefire extended for 3 weeks", "url": "https://www.washingtonpost.com/world/2026/04/24/iran-us-israel-lebanon-ceasefire/", "snippet": "Hezbollah lawmaker Ali Fayyad calls extension 'meaningless.' Israel killed 6 Hezbollah fighters in Bint Jbeil.", "source_name": "Washington Post"},
+        {"title": "Israel-Lebanon ceasefire is extended by 3 weeks as tensions rise in Strait of Hormuz", "url": "https://www.opb.org/article/2026/04/24/israel-lebanon-ceasefire-extended-amid-tensions-in-hormuz-strait/", "snippet": "Three-week extension announced. Violations continue on both sides.", "source_name": "OPB/AP"},
+        {"title": "Israel continues attacks on Lebanon despite extension of ceasefire", "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire", "snippet": "IDF 'eliminated' 6 Hezbollah fighters. 2 killed in Touline airstrike. Hezbollah fires rockets at Shtula.", "source_name": "Al Jazeera"},
+        {"title": "Israel-Lebanon Ceasefire Extended for Three Weeks", "url": "https://www.cfr.org/articles/israel-lebanon-ceasefire-extended-for-three-weeks", "snippet": "CFR analysis of extended ceasefire implications.", "source_name": "Council on Foreign Relations"},
+        {"title": "5 things to know for April 24: Iran war, Israel-Lebanon ceasefire, Epstein files, Meta layoffs, Georgia wildfires", "url": "https://www.cnn.com/2026/04/24/us/5-things-to-know-for-april-24-iran-war-israel-lebanon-ceasefire-epstein-files-meta-layoffs-georgia-wildfires", "snippet": "CNN daily digest. Ceasefire extended but fighting continues.", "source_name": "CNN"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Ghalibaf Iran negotiator resign IRGC April 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran negotiating team head Ghalibaf quits", "url": "https://www.iranintl.com/en/202604245758", "snippet": "Iran International confirms Ghalibaf quit. Saeed Jalili may replace him. Araghchi also seeking role.", "source_name": "Iran International"},
+        {"title": "Iran's 'Moderate' Negotiator Ghalibaf Reportedly Resigns Amid Power Struggle", "url": "https://en.sedaily.com/international/2026/04/24/irans-moderate-negotiator-ghalibaf-reportedly-resigns-amid", "snippet": "Ghalibaf reportedly forced out by IRGC after attempting to include nuclear issue in talks.", "source_name": "Seoul Economic Daily"},
+        {"title": "Rpt: Iran's lead negotiator forced to resign", "url": "https://www.oann.com/newsroom/rpt-irans-lead-negotiator-forced-to-resign/", "snippet": "Ghalibaf forced to resign by IRGC. Power struggle continues in Tehran.", "source_name": "OAN"},
+        {"title": "Iran parliamentary speaker Ghalibaf has resigned from negotiations - Iran media", "url": "https://investinglive.com/news/iran-parliamentary-speaker-ghalibaf-has-resigned-from-negotiations-iran-media-20260424/", "snippet": "Iran media now also reporting resignation. Parliament officially denies.", "source_name": "Investing Live"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil price Brent crude Iran war April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz", "url": "https://www.aljazeera.com/economy/2026/4/24/oil-rises-above-106-per-barrel-as-us-iran-deadlocked-in-strait-of-hormuz", "snippet": "Brent $106+ intraday. On track for ~18% weekly gain.", "source_name": "Al Jazeera"},
+        {"title": "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", "url": "https://www.cnbc.com/2026/04/24/oil-price-wti-brent-after-israel-lebanon-ceasefire-extension.html", "snippet": "Brent rises on Hormuz tensions then pulls back on Pakistan talks hope. Mixed session.", "source_name": "CNBC"},
+        {"title": "Crude Oil Rates Today: April 24, 2026: Brent Crude Crosses $105 Per Barrel", "url": "https://www.oneindia.com/india/crude-oil-rates-today-april-24-2026-brent-crude-crosses-105-per-barrel-check-latest-prices-of-w-8067951.html", "snippet": "Brent crossed $105. WTI also elevated.", "source_name": "OneIndia"},
+        {"title": "Oil prices pull back from gains amid simmering Strait of Hormuz tensions", "url": "https://www.thenationalnews.com/business/markets/2026/04/24/oil-prices-iran-war/", "snippet": "Oil pulls back late session on Pakistan talks optimism. Brent $104.50 close.", "source_name": "The National"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Witkoff Kushner Pakistan Islamabad Iran talks Saturday April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks", "url": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates", "snippet": "Witkoff, Kushner to Pakistan Saturday. Leavitt: 'intermediated by Pakistanis.'", "source_name": "NPR"},
+        {"title": "Kushner, Witkoff to Pakistan for Iran talks without Vance: White House", "url": "https://www.cnbc.com/2026/04/24/iran-war-pakistan-trump-hegseth.html", "snippet": "Vance not attending, 'on standby.' Kushner-Witkoff lead delegation.", "source_name": "CNBC"},
+        {"title": "Witkoff and Kushner to meet Iranian foreign minister in Pakistan: White House", "url": "https://www.axios.com/2026/04/24/witkoff-kushner-iran-talks-pakistan", "snippet": "White House confirms direct talks with Araghchi planned. Iran denies.", "source_name": "Axios"},
+        {"title": "Witkoff, Kushner to Head to Islamabad for Iran Talks Saturday; Vance 'On Standby'", "url": "https://www.breitbart.com/politics/2026/04/24/steve-witkoff-jared-kushner-heading-to-islamabad-for-iran-talks-saturday-vance-on-standby/", "snippet": "Vance 'on standby' for possible later arrival.", "source_name": "Breitbart"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Araghchi Pakistan visit Islamabad April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran Foreign Minister to Visit Islamabad Friday, Pakistan Says", "url": "https://www.bloomberg.com/news/articles/2026-04-24/pakistan-says-iran-foreign-minister-to-visit-islamabad-friday", "snippet": "Pakistan confirms Araghchi visit Friday. Bloomberg report.", "source_name": "Bloomberg"},
+        {"title": "Iranian FM Araghchi to visit Pakistan in step towards US talks resumption", "url": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume", "snippet": "Araghchi visiting Pakistan as step toward talks. Expected to go to Muscat, then Moscow.", "source_name": "Al Jazeera"},
+        {"title": "Iran's FM Araghchi arrives in Pakistan ahead of planned US ceasefire talks", "url": "https://www.france24.com/en/middle-east/20260424-iran-fm-araghchi-arrives-in-pakistan-ahead-of-planned-us-ceasefire-talks", "snippet": "Araghchi arrived Islamabad Friday night. Small delegation.", "source_name": "France 24"},
+        {"title": "Iran FM Araghchi visits Pakistan for talks on peace efforts", "url": "https://www.dailysabah.com/world/mid-east/iran-fm-araghchi-visits-pakistan-for-talks-on-peace-efforts", "snippet": "IRNA says visit is 'bilateral' — to speak with Pakistani officials, not US directly.", "source_name": "Daily Sabah"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hegseth shoot destroy mines Hormuz April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Hegseth warns Iran that US forces will 'shoot to destroy' any ships laying mines in Strait of Hormuz", "url": "https://www.foxnews.com/live-news/iran-war-trump-us-ceasefire-deal-strait-hormuz-israel-lebanon-april-24", "snippet": "Pentagon briefing: 'shoot to destroy' mines. Iran navy 'gang of pirates with a flag.'", "source_name": "Fox News"},
+        {"title": "Hegseth: Iran's Navy Just a 'Gang of Pirates' in Strait of Hormuz", "url": "https://www.dailysignal.com/2026/04/24/hegseth-irans-navy-just-a-gang-of-pirates-in-strait-of-hormuz/", "snippet": "Hegseth describes IRGC Navy as pirates and terrorists.", "source_name": "Daily Signal"},
+        {"title": "Hegseth says U.S. blockade of Iranian vessels to continue for 'as long as it takes'", "url": "https://www.cbsnews.com/news/hegseth-caine-news-conference-iran-war-ceasefire-lebanon-israel-hormuz-4-23/", "snippet": "Joint Hegseth-Caine press conference. Blockade indefinite.", "source_name": "CBS News"},
+        {"title": "Hegseth Criticizes Europe, Asia for Relying on US in Hormuz Blockade", "url": "https://www.bloomberg.com/news/articles/2026-04-24/hegseth-blasts-europe-asia-for-freeriding-on-us-hormuz-action", "snippet": "Hegseth blasts Europe, Asia for 'freeriding' on US Hormuz action.", "source_name": "Bloomberg"},
+        {"title": "FULL EVENT: Secretary Hegseth & Gen. Caine Address Urgent Hormuz Blockade", "url": "https://www.youtube.com/watch?v=rTzyPLaqAR4", "snippet": "Full Pentagon briefing video. Hegseth and Gen. Caine joint address.", "source_name": "YouTube"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "War Powers Resolution May 1 deadline Iran Trump April 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump's May 1 deadline: Can he continue war on Iran after that?", "url": "https://www.aljazeera.com/news/2026/4/24/trumps-may-1-deadline-can-he-continue-war-on-iran-after-that", "snippet": "60-day War Powers clock hitting May 1. Trump must seek approval or certify withdrawal needs more time.", "source_name": "Al Jazeera"},
+        {"title": "Trump's Iran War Approaches 60-Day Congressional War Powers Deadline", "url": "https://foreignpolicy.com/2026/04/23/trump-iran-war-congress-war-powers-60-days/", "snippet": "Foreign Policy analysis. Legal gymnastics expected around ceasefire pausing the clock.", "source_name": "Foreign Policy"},
+        {"title": "Senate Republicans Defeat Iran War Powers Resolution for Fifth Time", "url": "https://www.democracynow.org/2026/4/23/headlines/senate_republicans_defeat_iran_war_powers_resolution_for_fifth_time", "snippet": "52-47 vote. Fifth failure to curb Trump's authority. Party-line vote.", "source_name": "Democracy Now"},
+        {"title": "Congress Faces Big Test on Iran War as 60-Day Deadline Looms", "url": "https://time.com/article/2026/04/14/republicans-face-crucial-test-on-iran-war-as-60-day-deadline-looms/", "snippet": "May 1 deadline. Deep divisions between Democrats and Republicans.", "source_name": "Time"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Pakistan mediation Iran US talks April 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "US, Iran delegations expected in Islamabad", "url": "https://www.pakistantoday.com.pk/2026/04/24/us-and-iranian-delegations-expected-in-islamabad-for-possible-second-round-of-talks", "snippet": "Pakistan Today: Both delegations expected. Possible 2nd round of talks.", "source_name": "Pakistan Today"},
+        {"title": "Iran FM Araghchi arrives in Pakistan, US envoys to follow Saturday", "url": "https://www.aljazeera.com/news/liveblog/2026/4/24/iran-war-live-lebanon-truce-extended-trump-says-time-not-on-tehrans-side", "snippet": "Al Jazeera liveblog. Araghchi arrives, Witkoff-Kushner Saturday.", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah Lebanon ceasefire violations April 2026",
+      "language": "en",
+      "timestamp": "2026-04-24T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Hezbollah defiant as Trump says Israel-Lebanon ceasefire extended for 3 weeks", "url": "https://www.washingtonpost.com/world/2026/04/24/iran-us-israel-lebanon-ceasefire/", "snippet": "Hezbollah lawmaker Ali Fayyad: extension 'meaningless.' Israel strikes continue.", "source_name": "Washington Post"},
+        {"title": "Israel continues attacks on Lebanon despite extension of ceasefire", "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire", "snippet": "6 Hezbollah fighters killed in Bint Jbeil. 2 killed in Touline airstrike. Hezbollah fires at Shtula.", "source_name": "Al Jazeera"},
+        {"title": "Live Updates: Witkoff, Kushner to head to new Iran peace talks in Pakistan, White House says", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-hezbollah-lebanon-israel-ceasefire/", "snippet": "CBS live updates including Lebanon ceasefire status.", "source_name": "CBS News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 호르무즈 2026년 4월 24일",
+      "language": "ko",
+      "timestamp": "2026-04-24T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란, 이미 강경파가 장악...협상파 갈리바프 '사임' 가능성", "url": "https://www.fnnews.com/news/202604240824344322", "snippet": "파이낸셜뉴스: 갈리바프 사임 가능성 분석. IRGC 장악 심화.", "source_name": "파이낸셜뉴스"},
+        {"title": "이란 \"2차 회담 사실 아냐‥전쟁 가능성 높아\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6816453_37012.html", "snippet": "MBC: 이란 2차 회담 부인. 전쟁 가능성 시사.", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 휴전 봉쇄 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-24T23:12:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "트럼프 이란 전쟁 서두르지 않겠다 시사, 유가 1% 이상 상승 브렌트유 106달러 돌파", "url": "https://kr.investing.com/news/commodities-news/article-1911566", "snippet": "Investing.com 한국어: 브렌트유 106달러. 트럼프 서두르지 않겠다.", "source_name": "Investing.com"},
+        {"title": "마음대로 안 풀리나‥이번엔 '무기한 휴전 연장'", "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6817135_36967.html", "snippet": "MBC: 무기한 휴전 연장 분석.", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 갈리바프 사임 협상팀 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-24T23:13:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이스라엘 매체 '이란 갈리바프 의회 의장, 대미 협상 대표직 사임'", "url": "https://www.newspim.com/news/view/20260424000028", "snippet": "뉴스핌: 이스라엘 CH12 보도. 갈리바프 사임.", "source_name": "뉴스핌"},
+        {"title": "이란 의회 '갈리바프 사임 보도 사실 무근…2차 협상 일정 미정'", "url": "https://www.newspim.com/news/view/20260425000008", "snippet": "뉴스핌: 이란 의회 공식 부인.", "source_name": "뉴스핌"},
+        {"title": "'온건파' 갈리바프 이란 협상 대표 사임설...내부 권력 갈등에 종전 '안갯속'", "url": "https://www.sedaily.com/article/20036639", "snippet": "서울경제: 사임설과 내부 권력 갈등 분석.", "source_name": "서울경제"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유가 브렌트 106달러 이란 전쟁 2026년 4월 24일",
+      "language": "ko",
+      "timestamp": "2026-04-24T23:14:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "트럼프 이란 전쟁 서두르지 않겠다 시사, 유가 1% 이상 상승 브렌트유 106달러 돌파", "url": "https://kr.investing.com/news/commodities-news/article-1911566", "snippet": "Investing.com: 브렌트유 106달러 돌파. 4일 연속 상승.", "source_name": "Investing.com"}
+      ]
+    }
+  ]
+}

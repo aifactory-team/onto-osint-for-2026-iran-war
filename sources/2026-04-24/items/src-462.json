@@ -1,0 +1,24 @@
+{
+  "id": "src-462",
+  "title": "Hezbollah fires rockets at Shtula settlement in northern Israel",
+  "url": "https://english.alarabiya.net/News/middle-east/2026/04/24/hezbollah-fires-rockets-shtula-northern-israel",
+  "snippet": "Hezbollah fires rockets at the Shtula settlement in northern Israel, in apparent retaliation for Israeli strikes in southern Lebanon. IDF says Iron Dome intercepted most projectiles. No Israeli casualties reported. Hezbollah says attack is response to 'Israeli aggression in Bint Jbeil.' First significant Hezbollah rocket fire since ceasefire extension.",
+  "source_name": "Al Arabiya English",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-460",
+  "tag_reason": "First Hezbollah rocket fire since ceasefire extension — escalation from both sides. Retaliation cycle on Day 8 threatens ceasefire collapse.",
+  "entities": [
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-186", "type": "Event", "name": "Lebanon Ceasefire Day 8 Violations"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "attacks", "object": "ent-004"},
+    {"subject": "ent-047", "predicate": "retaliatesFor", "object": "src-460"}
+  ]
+}

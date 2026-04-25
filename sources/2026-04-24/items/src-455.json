@@ -1,0 +1,23 @@
+{
+  "id": "src-455",
+  "title": "Senate Republicans defeat War Powers Resolution for 5th time, 52-47",
+  "url": "https://www.politico.com/news/2026/04/24/senate-war-powers-iran-vote-fifth-defeat-00312847",
+  "snippet": "Senate Republicans defeat War Powers Resolution for the 5th time with a 52-47 vote on April 23. Democrats have been unable to force a withdrawal timeline on the Iran campaign. May 1 marks the 60-day deadline under the War Powers Act. Legal debate continues over whether the ceasefire pauses the constitutional clock. Sen. Kaine leads opposition effort.",
+  "source_name": "Politico",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5th Senate defeat of WPR is new vote. May 1 deadline approaching adds urgency. Legal clock debate is new analytical dimension.",
+  "entities": [
+    {"id": "temp-187", "type": "Event", "name": "Senate WPR Vote 5th Defeat", "detail": "52-47 on Apr 23"},
+    {"id": "temp-181", "type": "Concept", "name": "War Powers Resolution May 1 Deadline"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance"}
+  ],
+  "relations": [
+    {"subject": "temp-187", "predicate": "relatedTo", "object": "temp-181"}
+  ]
+}

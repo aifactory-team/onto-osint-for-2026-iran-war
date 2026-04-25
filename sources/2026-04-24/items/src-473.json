@@ -1,0 +1,23 @@
+{
+  "id": "src-473",
+  "title": "이란, 미국과 직접 회담 부인…아라그치 이슬라마바드 도착",
+  "url": "https://www.yonhapnews.co.kr/bulletin/2026/04/24/0200000000AKR20260424098700071.HTML",
+  "snippet": "연합뉴스: 이란 외무부 대변인, 아라그치의 이슬라마바드 방문은 '양자 방문'이며 미국과 직접 회담 계획 없다고 부인. 아라그치 금요일 밤 이슬라마바드 도착. 위트코프·쿠슈너 토요일 출발 예정과 시간적 겹침. 이란 측은 무스카트, 모스크바 방문 가능성도 시사.",
+  "source_name": "Yonhap News",
+  "language": "ko",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-24/src-449",
+  "related_item": "src-450",
+  "tag_reason": "Korean coverage of Iran's denial and Araghchi arrival — consolidates English-language reports for Korean audience. Update to Araghchi Islamabad story.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "travelsTo", "object": "ent-029"}
+  ]
+}

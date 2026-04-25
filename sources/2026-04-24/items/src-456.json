@@ -1,0 +1,22 @@
+{
+  "id": "src-456",
+  "title": "War Powers May 1 deadline looms: legal debate over whether ceasefire pauses the 60-day clock",
+  "url": "https://www.lawfaremedia.org/article/war-powers-may-1-deadline-iran-ceasefire-clock-debate",
+  "snippet": "Legal analysis of the approaching May 1 War Powers Act 60-day deadline. Key question: does the ceasefire period toll the clock? Administration argues cessation of hostilities pauses the 60-day requirement. Critics say blockade constitutes ongoing hostilities. If clock not paused, Trump would need Congressional authorization by May 1 or face legal challenge.",
+  "source_name": "Lawfare",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Legal analysis of clock-pausing question is new analytical content. May 1 deadline creates concrete timeline for potential constitutional crisis.",
+  "entities": [
+    {"id": "temp-181", "type": "Concept", "name": "War Powers Resolution May 1 Deadline"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "subjectTo", "object": "temp-181"}
+  ]
+}

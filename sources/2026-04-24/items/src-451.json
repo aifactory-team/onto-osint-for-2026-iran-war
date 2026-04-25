@@ -1,0 +1,24 @@
+{
+  "id": "src-451",
+  "title": "Araghchi may go to Muscat then Moscow after Islamabad — Iranian official",
+  "url": "https://www.middleeasteye.net/news/araghchi-muscat-moscow-islamabad-iran-talks-2026",
+  "snippet": "An Iranian diplomatic official says FM Araghchi may travel from Islamabad to Muscat (Oman) and then Moscow after consultations with Pakistan. The multi-stop tour reflects Iran's effort to coordinate positions with allies and mediators before any potential engagement with US. Oman has historically facilitated back-channel Iran-US communication.",
+  "source_name": "Middle East Eye",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New itinerary details for Araghchi — Muscat and Moscow legs not previously reported. Signals Iran diplomatic choreography and coalition-building.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-183", "type": "Event", "name": "Araghchi Islamabad Visit Apr 24"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "travelsTo", "object": "ent-029"},
+    {"subject": "ent-044", "predicate": "coordinatesWith", "object": "ent-002"}
+  ]
+}

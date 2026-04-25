@@ -1,0 +1,283 @@
+{
+  "date": "2026-04-24",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr24": "sends Witkoff/Kushner to Pakistan Saturday for 2nd round Iran talks; Vance 'on standby'; faces War Powers May 1 deadline; Senate Republicans defeat WPR 5th time 52-47; legal debate over ceasefire pausing 60-day clock"},
+      "source_ids": ["src-446", "src-455", "src-456", "src-467"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_apr24": "denies direct US meeting planned; says Araghchi visit 'bilateral'; Iran International confirms Ghalibaf quit; parliament officially denies; Jalili replacement floated; blockade survival analysis 3-6 months"},
+      "source_ids": ["src-449", "src-450", "src-457", "src-458", "src-466"],
+      "mention_count": 22
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"role": "Iranian Foreign Minister", "action_apr24": "arrives in Islamabad Friday night with small delegation; visit described as 'bilateral' by IRNA; may go to Muscat then Moscow; possible US meeting Monday; also seeking expanded role in negotiations amid Ghalibaf exit"},
+      "source_ids": ["src-449", "src-450", "src-451", "src-457", "src-475"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-043",
+      "type": "Person",
+      "name": "Steve Witkoff",
+      "properties": {"role": "US Special Envoy", "action_apr24": "heading to Pakistan Saturday for 2nd round Iran talks; White House confirms departure"},
+      "source_ids": ["src-446", "src-475"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-042",
+      "type": "Person",
+      "name": "Jared Kushner",
+      "properties": {"role": "Senior Adviser", "action_apr24": "heading to Pakistan Saturday with Witkoff for 2nd round Iran talks"},
+      "source_ids": ["src-446"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-041",
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": {"role": "US Vice President", "action_apr24": "'on standby' but not attending initial Pakistan sessions"},
+      "source_ids": ["src-446"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-104",
+      "type": "Person",
+      "name": "Pete Hegseth",
+      "properties": {"role": "US Defense Secretary", "action_apr24": "Pentagon press conference: 'shoot to destroy' any ship laying mines; calls Iran navy 'gang of pirates with a flag'; blockade 'as long as it takes'; joint briefing with Gen. Caine; criticizes Europe/Asia for 'freeriding' on Hormuz action (Bloomberg)"},
+      "source_ids": ["src-452", "src-453", "src-454"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-105",
+      "type": "Person",
+      "name": "Gen. Caine",
+      "properties": {"role": "CENTCOM Commander", "action_apr24": "joint Pentagon briefing with Hegseth; 'persistent maritime dominance over the strait'; operational update on Hormuz blockade"},
+      "source_ids": ["src-453"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": {"action_apr24": "Iran International confirms resignation from negotiating team; Iran parliament officially denies; Saeed Jalili named as possible replacement; Araghchi also seeking role; Korean media confirms reports"},
+      "source_ids": ["src-457", "src-458", "src-459", "src-471"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_apr24": "Hegseth calls navy 'gang of pirates with a flag'; pushed Ghalibaf out per Iran International; may support Jalili appointment; controls black market distribution under blockade"},
+      "source_ids": ["src-452", "src-457", "src-459", "src-466"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_apr24": "kills 6 Hezbollah fighters in Bint Jbeil despite ceasefire extension; 2 killed in Touline airstrike; IDF says fighters 'armed and in violation'; deadliest ceasefire day"},
+      "source_ids": ["src-460", "src-461", "src-470"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"action_apr24": "fires rockets at Shtula settlement; lawmaker Ali Fayyad calls extension 'meaningless'; 6 fighters killed in Bint Jbeil; first rocket fire since ceasefire extension"},
+      "source_ids": ["src-460", "src-462", "src-463", "src-470"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-050",
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": {"status_apr24": "ceasefire Day 8 — deadliest day since ceasefire began; 6 killed Bint Jbeil, 2 killed Touline; Hezbollah rockets at Shtula; Hezbollah calls extension 'meaningless'; both sides violating"},
+      "source_ids": ["src-460", "src-461", "src-462", "src-470"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_apr24": "Hegseth: 'shoot to destroy' mine-layers; 'persistent maritime dominance'; blockade 'as long as it takes'; Brent $106+ (touched $107.38); 18% weekly gain; pullback to $104.50 on talks hope"},
+      "source_ids": ["src-452", "src-453", "src-464", "src-465"],
+      "mention_count": 16
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-029",
+      "type": "Location",
+      "name": "Pakistan",
+      "properties": {"status_apr24": "Araghchi arrives Islamabad Friday night; Witkoff/Kushner depart Saturday; 2nd round talks preparation; Sharif expected to host at PM House"},
+      "source_ids": ["src-446", "src-449", "src-475"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {"action_apr24": "expected to host Witkoff/Kushner at PM House; Araghchi arrives for consultations"},
+      "source_ids": ["src-446"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": "ent-106",
+      "type": "Person",
+      "name": "Karoline Leavitt",
+      "properties": {"role": "White House Press Secretary", "action_apr24": "confirms Witkoff/Kushner Saturday departure; says format will mirror Islamabad round 1"},
+      "source_ids": ["src-446"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": "ent-149",
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": {"action_apr24": "faces internal pressure from Ghalibaf exit; IRGC-pragmatist split deepens under his presidency"},
+      "source_ids": ["src-457", "src-459"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": {"action_apr24": "no new action — ceasefire extension secured yesterday continues"},
+      "source_ids": [],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-179",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Saeed Jalili",
+      "properties": {"role": "former SNSC Secretary", "affiliation": "Iran", "stance": "hardliner", "background": "former nuclear negotiator under Ahmadinejad; lost 2024 presidential runoff to Pezeshkian; 'resistance economy' advocate", "action_apr24": "named as possible replacement for Ghalibaf on negotiating team; IRGC-aligned; appointment would signal harder Iranian line"},
+      "source_ids": ["src-457", "src-459", "src-471"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-180",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ali Fayyad",
+      "properties": {"role": "Hezbollah lawmaker", "affiliation": "Hezbollah", "action_apr24": "calls ceasefire extension 'meaningless'; says Israel 'violates ceasefire daily'; signals Hezbollah may not honor extended terms"},
+      "source_ids": ["src-463", "src-470", "src-474"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-181",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "War Powers Resolution May 1 Deadline",
+      "properties": {"date": "2026-05-01", "detail": "60-day congressional authorization deadline under War Powers Act. Senate Republicans defeated WPR for 5th time (52-47) on Apr 23. Legal debate: does ceasefire pause the clock? If not paused, Trump needs Congressional authorization by May 1 or faces legal challenge.", "status": "approaching — 7 days away"},
+      "source_ids": ["src-455", "src-456", "src-467"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-182",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hegseth-Caine Pentagon Briefing Apr 24",
+      "properties": {"date": "2026-04-24", "detail": "Joint Pentagon press conference. Hegseth: 'shoot to destroy' mine-layers, Iran navy = 'gang of pirates with a flag', blockade 'as long as it takes'. Caine: 'persistent maritime dominance over the strait.' Hegseth also criticizes EU/Asia for 'freeriding' (Bloomberg)."},
+      "source_ids": ["src-452", "src-453", "src-454"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-183",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Araghchi Islamabad Visit Apr 24",
+      "properties": {"date": "2026-04-24", "detail": "Araghchi arrives Islamabad Friday night with small delegation. IRNA: 'bilateral' visit. May travel to Muscat then Moscow. Possible US meeting Monday if conditions met. Iran denies direct US talks planned."},
+      "source_ids": ["src-449", "src-450", "src-451", "src-475"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-184",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2nd Islamabad Talks Preparation",
+      "properties": {"date": "2026-04-24", "detail": "White House confirms Witkoff/Kushner Saturday departure for Pakistan. 2nd round Iran talks 'intermediated by Pakistanis.' Vance on standby. Leavitt says format mirrors round 1. Araghchi already in Islamabad. Possible US-Iran meeting Monday."},
+      "source_ids": ["src-446", "src-449", "src-475"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-185",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil $106 Brent Apr 24",
+      "properties": {"date": "2026-04-24", "brent_high": "$107.38 (mid-morning Europe)", "brent_late": "$104.50 (pullback on Pakistan talks hope)", "weekly_gain": "~18% (largest since 2022 Russia invasion)", "wti_high": "$98", "wti_late": "$95.20", "cause": "Hormuz blockade 'as long as it takes' + Ghalibaf uncertainty + IRGC threats; pullback on Witkoff/Kushner departure news"},
+      "source_ids": ["src-464", "src-465", "src-472"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-186",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Ceasefire Day 8 Violations",
+      "properties": {"date": "2026-04-24", "detail": "Deadliest day since ceasefire began Apr 17. 6 Hezbollah fighters killed in Bint Jbeil airstrike, 2 killed in Touline airstrike, Hezbollah fires rockets at Shtula. Total 8 killed. UN calls for investigation. Hezbollah lawmaker calls extension 'meaningless.' Both sides accuse other of violations."},
+      "source_ids": ["src-460", "src-461", "src-462", "src-463", "src-470"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-187",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Senate WPR Vote 5th Defeat",
+      "properties": {"date": "2026-04-23", "vote": "52-47", "detail": "Senate Republicans defeat War Powers Resolution for the 5th time. Democrats unable to force withdrawal timeline. May 1 marks 60-day deadline. Legal debate over whether ceasefire pauses the constitutional clock. Sen. Kaine leads opposition effort."},
+      "source_ids": ["src-455"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {"subject": "ent-043", "predicate": "negotiatesWith", "object": "ent-002", "source_ids": ["src-446"], "confidence": 0.95},
+    {"subject": "ent-042", "predicate": "negotiatesWith", "object": "ent-002", "source_ids": ["src-446"], "confidence": 0.95},
+    {"subject": "ent-044", "predicate": "travelsTo", "object": "ent-029", "source_ids": ["src-449"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "denies", "object": "temp-184", "source_ids": ["src-450"], "confidence": 0.9},
+    {"subject": "ent-104", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-452"], "confidence": 0.95},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "temp-182", "source_ids": ["src-452", "src-453"], "confidence": 0.95},
+    {"subject": "ent-105", "predicate": "participatesIn", "object": "temp-182", "source_ids": ["src-453"], "confidence": 0.95},
+    {"subject": "temp-179", "predicate": "mayReplace", "object": "ent-045", "source_ids": ["src-457", "src-459"], "confidence": 0.8},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-045", "source_ids": ["src-457"], "confidence": 0.85},
+    {"subject": "ent-005", "predicate": "supports", "object": "temp-179", "source_ids": ["src-459"], "confidence": 0.75},
+    {"subject": "ent-004", "predicate": "attacks", "object": "ent-047", "source_ids": ["src-460", "src-461"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "attacks", "object": "ent-004", "source_ids": ["src-462"], "confidence": 0.95},
+    {"subject": "temp-180", "predicate": "represents", "object": "ent-047", "source_ids": ["src-463"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-463"], "confidence": 0.95},
+    {"subject": "temp-184", "predicate": "affects", "object": "temp-185", "source_ids": ["src-465"], "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "subjectTo", "object": "temp-181", "source_ids": ["src-455", "src-456"], "confidence": 0.9},
+    {"subject": "ent-027", "predicate": "mediates", "object": "temp-184", "source_ids": ["src-446"], "confidence": 0.9},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-183", "source_ids": ["src-449"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 28,
+    "new_entities": 9,
+    "matched_entities": 19,
+    "total_relations": 18
+  }
+}

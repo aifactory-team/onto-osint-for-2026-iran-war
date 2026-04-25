@@ -1,0 +1,23 @@
+{
+  "id": "src-461",
+  "title": "2 killed in Israeli airstrike on Touline, southern Lebanon",
+  "url": "https://www.dailystar.com.lb/News/Lebanon-News/2026/Apr-24/612487-2-killed-israeli-airstrike-touline.ashx",
+  "snippet": "Two people killed in an Israeli airstrike on the village of Touline in southern Lebanon. Lebanese security sources say victims were civilians. IDF has not commented on specific strike. This is the second airstrike incident on Day 8 of the ceasefire, in addition to the 6 killed in Bint Jbeil.",
+  "source_name": "The Daily Star Lebanon",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-460",
+  "tag_reason": "Second airstrike on same day — Touline is separate incident from Bint Jbeil. Combined 8 killed on Day 8 of ceasefire. Civilian casualties alleged.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-186", "type": "Event", "name": "Lebanon Ceasefire Day 8 Violations"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "attacks", "object": "ent-050"}
+  ]
+}

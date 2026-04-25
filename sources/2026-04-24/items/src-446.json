@@ -1,0 +1,27 @@
+{
+  "id": "src-446",
+  "title": "Witkoff and Kushner heading to Pakistan Saturday for fresh Iran talks, White House confirms",
+  "url": "https://www.reuters.com/world/middle-east/witkoff-kushner-heading-pakistan-saturday-iran-talks-white-house-2026-04-24/",
+  "snippet": "White House confirms special envoy Steve Witkoff and senior adviser Jared Kushner will depart for Pakistan Saturday for a 2nd round of Iran talks. Talks to be 'intermediated by Pakistanis.' VP Vance 'on standby' but will not attend initial sessions. Leavitt says format will mirror Islamabad round 1. Pakistan PM Sharif expected to host at PM House.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First official White House confirmation of 2nd round Islamabad talks. Witkoff/Kushner Saturday departure is new. Vance on standby is new detail.",
+  "entities": [
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff", "role": "US Special Envoy"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner", "role": "Senior Adviser"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-106", "type": "Person", "name": "Karoline Leavitt", "role": "White House Press Secretary"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-043", "predicate": "negotiatesWith", "object": "ent-002"},
+    {"subject": "ent-042", "predicate": "negotiatesWith", "object": "ent-002"},
+    {"subject": "ent-027", "predicate": "mediates", "object": "temp-184"}
+  ]
+}

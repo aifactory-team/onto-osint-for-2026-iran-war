@@ -1,0 +1,24 @@
+{
+  "id": "src-467",
+  "title": "Trump extended the ceasefire — now what? CFR analysis",
+  "url": "https://www.cfr.org/article/trump-extended-ceasefire-now-what-iran-war-2026",
+  "snippet": "Council on Foreign Relations analysis on the implications of the 3-week ceasefire extension. Key questions: Will Israel honor it given Bint Jbeil strikes? Can Pakistan mediation survive Ghalibaf exit? Does War Powers May 1 deadline force Trump's hand? CFR argues extension buys time but doesn't address root issues. Notes Hezbollah rejection as key risk to Lebanese front stability.",
+  "source_name": "Council on Foreign Relations",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "CFR analysis integrating multiple threads — ceasefire extension, Ghalibaf exit, War Powers deadline, Hezbollah rejection. High-quality analytical source.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "temp-181", "type": "Concept", "name": "War Powers Resolution May 1 Deadline"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "extends", "object": "ceasefire"},
+    {"subject": "temp-181", "predicate": "constrains", "object": "ent-001"}
+  ]
+}

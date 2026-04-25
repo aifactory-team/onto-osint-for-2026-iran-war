@@ -1,0 +1,22 @@
+{
+  "id": "src-464",
+  "title": "Brent crude rises above $106, touches $107.38 mid-morning Europe; 18% weekly gain",
+  "url": "https://www.cnbc.com/2026/04/24/oil-prices-brent-crude-iran-war-hormuz.html",
+  "snippet": "Brent crude rises above $106 per barrel, touching $107.38 in mid-morning European trading. Represents approximately 18% weekly gain — largest since 2022 Russia invasion. WTI follows similar pattern. Rising prices driven by continued Hormuz blockade, IRGC fast-boat threats, Ghalibaf resignation uncertainty, and Hegseth's 'as long as it takes' language.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-23/src-432",
+  "related_item": "src-465",
+  "tag_reason": "Oil continues rising from yesterday's $105 — crosses $106 with intraday high $107.38. 18% weekly gain is new milestone. Update to ongoing oil price coverage.",
+  "entities": [
+    {"id": "temp-185", "type": "Event", "name": "Oil $106 Brent Apr 24"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": [
+    {"subject": "temp-185", "predicate": "causedBy", "object": "ent-008"}
+  ]
+}

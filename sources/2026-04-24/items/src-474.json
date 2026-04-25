@@ -1,0 +1,25 @@
+{
+  "id": "src-474",
+  "title": "이란 전쟁 56일차: 위트코프·쿠슈너 파키스탄行, 헤즈볼라 \"휴전 무의미\"",
+  "url": "https://www.mt.co.kr/world/2026/04/24/2026042418501269390",
+  "snippet": "머니투데이 종합: 이란 전쟁 56일차 주요 동향. 위트코프·쿠슈너 토요일 파키스탄 출발, 아라그치 이슬라마바드 도착, 헤즈볼라 의원 알리 파야드 '휴전 연장 무의미' 발언, 레바논 휴전 8일차 8명 사망, 유가 106달러 돌파. 갈리바프 사임 확인 보도와 의회 부인 교차.",
+  "source_name": "Money Today",
+  "language": "ko",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-24/src-446",
+  "related_item": "src-446",
+  "tag_reason": "Korean comprehensive Day 56 summary combining all major threads. Update providing consolidated Korean-language coverage.",
+  "entities": [
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-180", "type": "Person", "name": "Ali Fayyad"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"}
+  ],
+  "relations": [
+    {"subject": "ent-043", "predicate": "travelsTo", "object": "ent-029"},
+    {"subject": "temp-180", "predicate": "represents", "object": "ent-047"}
+  ]
+}

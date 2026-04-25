@@ -1,0 +1,25 @@
+{
+  "id": "src-452",
+  "title": "Hegseth: Navy will 'shoot to destroy' any ship laying mines; calls Iran navy 'gang of pirates with a flag'",
+  "url": "https://www.foxnews.com/politics/hegseth-pentagon-press-conference-shoot-destroy-iran-navy-pirates",
+  "snippet": "Defense Secretary Pete Hegseth at Pentagon press conference upgrades language from Trump's 'shoot and kill' to 'shoot to destroy' for any vessel laying mines in Hormuz. Calls Iran's navy a 'gang of pirates with a flag.' Joint briefing with Gen. Caine. Says blockade will continue 'as long as it takes.' Demonstrates expanded ROE for US Navy forces.",
+  "source_name": "Fox News",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Pentagon press conference with escalated language — 'shoot to destroy' is stronger than Trump's 'shoot and kill'. 'Pirates with a flag' is inflammatory new rhetoric from DefSec.",
+  "entities": [
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "US Defense Secretary"},
+    {"id": "ent-105", "type": "Person", "name": "Gen. Caine", "role": "CENTCOM Commander"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": [
+    {"subject": "ent-104", "predicate": "opposes", "object": "ent-005"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "temp-182"}
+  ]
+}

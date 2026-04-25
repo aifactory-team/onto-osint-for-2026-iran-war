@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-23",
+  "last_updated": "2026-04-24",
   "classes": [
     {
       "id": "Entity",
@@ -159,6 +159,13 @@
       "target": "8 new entities (ent-171~ent-178)",
       "reason": "트럼프 기뢰 격침 명령(shoot-to-kill ROE), 이-레 휴전 3주 연장(백악관 2차 회담), 갈리바프 협상팀 사임 보도(미확인), 유가 Brent $105(전쟁 이후 최고), IRGC 33척 쾌속정 Kargan 배치, Michel Issa/Michael Needham 미국 대표단, Reza Amiri Moghadam 이란 주파키스탄 대사",
       "source_ids": ["src-416", "src-421", "src-423", "src-430", "src-432", "src-433", "src-435", "src-437"]
+    },
+    {
+      "date": "2026-04-24",
+      "action": "add_instances",
+      "target": "9 new entities (ent-179~ent-187)",
+      "reason": "Saeed Jalili 갈리바프 후임설, Ali Fayyad 헤즈볼라 '무의미' 발언, WPR 5월 1일 데드라인, Hegseth-Caine 펜타곤 브리핑('shoot to destroy' + 'gang of pirates'), Araghchi 이슬라마바드 도착, 2차 회담 준비(Witkoff/Kushner 토요일 출발), 유가 $106, 레바논 Day 8 위반(8명 사살), 상원 WPR 5차 부결",
+      "source_ids": ["src-446", "src-449", "src-452", "src-455", "src-457", "src-459", "src-460", "src-463", "src-464"]
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "src-453",
+  "title": "Pentagon briefing: Hegseth and Gen. Caine say Hormuz blockade 'as long as it takes'",
+  "url": "https://apnews.com/article/hegseth-caine-pentagon-iran-blockade-hormuz-2026-04-24",
+  "snippet": "Defense Secretary Hegseth and CENTCOM Commander Gen. Caine hold joint Pentagon briefing. Caine provides operational update: 'We have established persistent maritime dominance over the strait.' Hegseth says blockade will last 'as long as it takes' for Iran to negotiate. Confirms Navy has tripled mine-countermeasure assets. No timeline for de-escalation.",
+  "source_name": "Associated Press",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Joint Hegseth-Caine briefing is new event. Caine's 'persistent maritime dominance' statement and indefinite blockade timeline are new operational details.",
+  "entities": [
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "ent-105", "type": "Person", "name": "Gen. Caine"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "temp-182", "type": "Event", "name": "Hegseth-Caine Pentagon Briefing Apr 24"}
+  ],
+  "relations": [
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "temp-182"},
+    {"subject": "ent-105", "predicate": "participatesIn", "object": "temp-182"}
+  ]
+}

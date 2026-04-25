@@ -1,0 +1,24 @@
+{
+  "id": "src-459",
+  "title": "Saeed Jalili emerging as possible replacement for Ghalibaf on negotiation team — analysts",
+  "url": "https://www.middleeasteye.net/news/saeed-jalili-iran-negotiation-team-ghalibaf-replacement-2026",
+  "snippet": "Middle East Eye analysis on Saeed Jalili as Ghalibaf's potential replacement. Jalili is a hardliner who served as SNSC secretary under Ahmadinejad, known for 'resistance economy' stance. Lost 2024 presidential runoff to Pezeshkian. His appointment would signal IRGC victory over pragmatists. Analysts warn Jalili would reject format of Islamabad talks.",
+  "source_name": "Middle East Eye",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-457",
+  "tag_reason": "Deep profile on Jalili as potential replacement adds analytical depth. His hardliner credentials and implications for talks are new context.",
+  "entities": [
+    {"id": "temp-179", "type": "Person", "name": "Saeed Jalili"},
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-179", "predicate": "mayReplace", "object": "ent-045"},
+    {"subject": "ent-005", "predicate": "supports", "object": "temp-179"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-475",
+  "title": "Possible US-Iran meeting Monday if Araghchi stays — Iranian diplomatic source",
+  "url": "https://www.middleeasteye.net/news/possible-us-iran-meeting-monday-araghchi-2026",
+  "snippet": "Middle East Eye reports that a possible US-Iran meeting could occur on Monday if Araghchi remains in the region. Iranian diplomatic source says conditions include 'respect for sovereignty' and 'no preconditions from Washington.' Araghchi's multi-stop itinerary (Islamabad-Muscat-Moscow) could be adjusted. Witkoff team expected in Islamabad by Sunday.",
+  "source_name": "Middle East Eye",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-449",
+  "tag_reason": "New detail about possible Monday US-Iran meeting — concrete timeline and conditions not previously reported. Key forward-looking diplomatic signal.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"},
+    {"id": "temp-184", "type": "Event", "name": "2nd Islamabad Talks Preparation"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "negotiatesWith", "object": "ent-043"},
+    {"subject": "temp-184", "predicate": "locatedIn", "object": "ent-029"}
+  ]
+}

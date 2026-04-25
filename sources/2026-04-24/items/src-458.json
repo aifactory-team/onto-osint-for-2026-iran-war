@@ -1,0 +1,22 @@
+{
+  "id": "src-458",
+  "title": "Iran parliament officially denies Ghalibaf resignation; says 'team intact'",
+  "url": "https://www.presstv.ir/Detail/2026/04/24/748291/iran-parliament-denies-ghalibaf-resignation",
+  "snippet": "Iran's parliament (Majlis) issues official statement denying Ghalibaf has resigned from the negotiating team. Spokesperson says 'the team is intact and unified.' Calls Iran International and Channel 12 reports 'psychological warfare.' However, multiple Iranian sources continue to confirm behind-the-scenes changes. Discrepancy between official denial and credible reporting.",
+  "source_name": "Press TV",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-23/src-430",
+  "related_item": "src-457",
+  "tag_reason": "Official parliamentary denial is new — contradicts growing confirmation from Iran International. Creates confirmed/denied split. Update to yesterday's Ghalibaf resignation story.",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "denies", "object": "Ghalibaf resignation"}
+  ]
+}

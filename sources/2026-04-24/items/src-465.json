@@ -1,0 +1,22 @@
+{
+  "id": "src-465",
+  "title": "Oil pulls back to $104.50 late on Pakistan talks hope — WTI similar pattern",
+  "url": "https://www.reuters.com/business/energy/oil-pulls-back-pakistan-talks-hope-2026-04-24/",
+  "snippet": "Oil prices pull back from $107.38 highs to $104.50 in late trading on renewed hope for Pakistan talks. Witkoff/Kushner departure Saturday and Araghchi's Islamabad arrival seen as positive signals. WTI drops from $98 high to $95.20. Analysts say $2-3 'diplomacy discount' could persist if talks materialize. Still up ~16% for the week.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-23/src-432",
+  "related_item": "src-464",
+  "tag_reason": "Late-day oil pullback on talks hope is new price action. Shows market sensitivity to diplomatic signals. $2-3 'diplomacy discount' concept is new.",
+  "entities": [
+    {"id": "temp-185", "type": "Event", "name": "Oil $106 Brent Apr 24"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "temp-184", "predicate": "affects", "object": "temp-185"}
+  ]
+}

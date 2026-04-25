@@ -1,0 +1,25 @@
+{
+  "id": "src-449",
+  "title": "Iran's Araghchi arrives in Islamabad Friday night ahead of possible US talks",
+  "url": "https://www.aljazeera.com/news/2026/4/24/irans-araghchi-arrives-in-islamabad-ahead-of-possible-us-talks",
+  "snippet": "Iranian Foreign Minister Abbas Araghchi arrives in Islamabad Friday night with a small delegation. IRNA describes visit as 'bilateral' with Pakistan, not linked to US negotiations. Sources say Araghchi may travel to Muscat then Moscow. Iranian official says possible US-Iran meeting on Monday if conditions met. Araghchi previously led Islamabad round 1 delegation.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New development: Araghchi physically arrives in Islamabad ahead of Witkoff/Kushner. His presence signals Iran engagement despite denials. Monday meeting possibility is new.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iranian Foreign Minister"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "travelsTo", "object": "ent-029"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-183"}
+  ]
+}

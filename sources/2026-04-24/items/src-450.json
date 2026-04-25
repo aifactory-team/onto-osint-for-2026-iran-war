@@ -1,0 +1,23 @@
+{
+  "id": "src-450",
+  "title": "Iran denies direct meeting with US planned; says Araghchi visit is 'bilateral'",
+  "url": "https://english.alarabiya.net/News/middle-east/2026/04/24/iran-denies-direct-meeting-with-us-araghchi-visit-bilateral",
+  "snippet": "Iran's Foreign Ministry spokesperson denies any direct meeting with US is planned in Islamabad. Says Araghchi's visit is purely bilateral with Pakistan. 'We have said repeatedly that meaningful negotiations require end of aggression and blockade first.' IRNA echoes line. Contradicts Western reports of 2nd round talks preparation.",
+  "source_name": "Al Arabiya English",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran's official denial of planned US meeting is new — creates tension with White House confirmation of Witkoff/Kushner departure. Signals Iran positioning.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-029", "type": "Location", "name": "Pakistan"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-463",
+  "title": "Hezbollah lawmaker Ali Fayyad calls ceasefire extension 'meaningless'",
+  "url": "https://www.reuters.com/world/middle-east/hezbollah-lawmaker-calls-ceasefire-extension-meaningless-2026-04-24/",
+  "snippet": "Hezbollah lawmaker Ali Fayyad calls the 3-week ceasefire extension 'meaningless' in a public statement. Says Israel 'violates ceasefire daily' and extension 'only gives Israel more time to complete its goals in southern Lebanon.' Fayyad is a senior Hezbollah political figure. Statement signals Hezbollah may not honor extended ceasefire terms.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New official Hezbollah political statement rejecting ceasefire extension. Ali Fayyad is new named actor. 'Meaningless' language signals possible ceasefire collapse.",
+  "entities": [
+    {"id": "temp-180", "type": "Person", "name": "Ali Fayyad", "role": "Hezbollah lawmaker"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": [
+    {"subject": "temp-180", "predicate": "represents", "object": "ent-047"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

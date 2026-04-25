@@ -1,0 +1,25 @@
+{
+  "id": "src-470",
+  "title": "Lebanon ceasefire violations: 8 killed on Day 8 despite extension",
+  "url": "https://www.aljazeera.com/news/2026/4/24/lebanon-ceasefire-violations-day-8-killed-despite-extension",
+  "snippet": "Comprehensive Al Jazeera summary of Day 8 ceasefire violations: 6 killed in Bint Jbeil, 2 killed in Touline airstrike, Hezbollah fires rockets at Shtula settlement. Total 8 killed one day after extension announced. UN calls for 'immediate investigation.' Both sides accuse other of violations. Deadliest day since ceasefire began Apr 17.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-23/src-423",
+  "related_item": "src-460",
+  "tag_reason": "Comprehensive update combining all Day 8 violations into single report. Deadliest day since ceasefire began. Update to ceasefire extension coverage.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-186", "type": "Event", "name": "Lebanon Ceasefire Day 8 Violations"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-180", "type": "Person", "name": "Ali Fayyad"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "violates", "object": "temp-186"},
+    {"subject": "ent-047", "predicate": "violates", "object": "temp-186"}
+  ]
+}

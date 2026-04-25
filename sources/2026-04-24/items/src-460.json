@@ -1,0 +1,25 @@
+{
+  "id": "src-460",
+  "title": "Israel kills 6 Hezbollah fighters in Bint Jbeil despite ceasefire extension",
+  "url": "https://www.timesofisrael.com/israel-kills-6-hezbollah-fighters-bint-jbeil-ceasefire-extension/",
+  "snippet": "Israeli airstrike kills 6 Hezbollah fighters in the Bint Jbeil area of southern Lebanon, just one day after the 3-week ceasefire extension was announced. IDF says fighters were 'armed and operating in violation of ceasefire terms.' Hezbollah denies they were armed. Deadliest single incident since ceasefire began. UN UNIFIL monitoring force calls for investigation.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Deadliest ceasefire violation since extension — 6 killed in one strike. Directly undermines 3-week extension announced yesterday. New escalatory incident.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-186", "type": "Event", "name": "Lebanon Ceasefire Day 8 Violations"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "attacks", "object": "ent-047"},
+    {"subject": "ent-004", "predicate": "violates", "object": "temp-186"}
+  ]
+}

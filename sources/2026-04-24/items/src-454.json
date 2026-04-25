@@ -1,0 +1,23 @@
+{
+  "id": "src-454",
+  "title": "Hegseth criticizes Europe and Asia for 'freeriding' on US Hormuz action",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-24/hegseth-blasts-european-asian-allies-freeriding-hormuz-blockade",
+  "snippet": "Defense Secretary Hegseth in Bloomberg interview says European and Asian allies are 'freeriding' on US naval action in Hormuz. 'We're spending billions protecting global oil flow and our allies send strongly worded letters.' Calls for allied naval contributions or burden-sharing payments. EU and Japan have not responded. Signals growing US frustration with allied passivity.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New dimension — Hegseth criticizing allies for freeriding on Hormuz action. Could signal US policy shift toward burden-sharing demands. Diplomatic fallout potential.",
+  "entities": [
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-182", "type": "Event", "name": "Hegseth-Caine Pentagon Briefing Apr 24"}
+  ],
+  "relations": [
+    {"subject": "ent-104", "predicate": "criticizes", "object": "EU/Asia allies"}
+  ]
+}

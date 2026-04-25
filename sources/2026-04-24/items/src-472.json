@@ -1,0 +1,22 @@
+{
+  "id": "src-472",
+  "title": "유가 106달러 돌파…이란 봉쇄전 장기화에 글로벌 에너지 시장 요동",
+  "url": "https://www.hankyung.com/economy/article/202604241234i",
+  "snippet": "한국경제 보도: 브렌트유 106달러 돌파, 유럽 장 중 107.38달러 터치. 주간 18% 상승으로 2022년 러시아 침공 이후 최대 상승폭. 호르무즈 봉쇄 장기화 우려와 갈리바프 사임 불확실성이 가격 상승 요인. 한국 에너지 수입 비용 증가 우려. 파키스탄 회담 기대감에 104.50달러로 되돌림.",
+  "source_name": "Hankyung (Korea Economic Daily)",
+  "language": "ko",
+  "discovered_date": "2026-04-24",
+  "tag": "update",
+  "related_report": "2026-04-23/src-432",
+  "related_item": "src-464",
+  "tag_reason": "Korean coverage of oil $106 with Korea-specific impact angle (energy import costs). Updates ongoing oil price coverage with local perspective.",
+  "entities": [
+    {"id": "temp-185", "type": "Event", "name": "Oil $106 Brent Apr 24"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"}
+  ],
+  "relations": [
+    {"subject": "temp-185", "predicate": "causedBy", "object": "ent-008"}
+  ]
+}

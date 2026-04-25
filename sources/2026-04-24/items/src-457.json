@@ -1,0 +1,25 @@
+{
+  "id": "src-457",
+  "title": "Iran International: Iran negotiating team head Ghalibaf quits — Jalili may replace",
+  "url": "https://www.iranintl.com/en/202604240934",
+  "snippet": "Iran International reports 'Iran negotiating team head Ghalibaf quits.' More substantive confirmation than Channel 12's report yesterday. Saeed Jalili, hardline former nuclear negotiator and SNSC secretary, named as possible replacement. Araghchi also seeking expanded role. Jalili appointment would signal harder Iranian negotiating line. Sources say IRGC pushed Ghalibaf out.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-04-24",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran International confirmation upgrades Ghalibaf story from Channel 12 rumor. Jalili as replacement is new and significant — hardliner shift. Araghchi role-seeking is new detail.",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "temp-179", "type": "Person", "name": "Saeed Jalili", "role": "former SNSC Secretary, hardliner"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian"}
+  ],
+  "relations": [
+    {"subject": "temp-179", "predicate": "mayReplace", "object": "ent-045"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-045"}
+  ]
+}
