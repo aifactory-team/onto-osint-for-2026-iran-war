@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-27",
   "classes": [
     {
       "id": "Entity",
@@ -180,6 +180,13 @@
       "target": "9 new entities (ent-195~ent-203)",
       "reason": "WHCD 총격(Cole Allen), 술탄 하이삼 빈 타리크(오만), 푸틴(러시아), 아라그치-술탄 회담, 이스라엘 남부 레바논 7개 마을 강제 퇴거, Sgt. Idan Fooks 헤즈볼라 드론 전사, IDF 보복 공습(14명 사살), 트럼프-스타머 통화(50국 해양 이니셔티브), 유가 Brent $107.89",
       "source_ids": ["src-506", "src-510", "src-513", "src-514", "src-516", "src-518", "src-519", "src-521", "src-522"]
+    },
+    {
+      "date": "2026-04-27",
+      "action": "add_instances",
+      "target": "9 new entities (ent-204~ent-212)",
+      "reason": "루비오 이란 호르무즈 제안 거부('수용 불가'), 메르츠 독일 총리('미국 굴욕'), 코스튜코프(GRU)/우샤코프/라브로프(푸틴-아라그치 회담 배석), 이란 호르무즈 재개방 제안(핵 협상 후순위), 아라그치-푸틴 상트페테르부르크 회담(하메네이 메시지 전달), IDF 베카 밸리 3주 만 첫 공습(~20곳), 핵 후순위 전략 개념",
+      "source_ids": ["src-538", "src-540", "src-541", "src-542", "src-543", "src-544", "src-545", "src-547"]
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": "src-540",
+  "title": "Rubio rejects Iran's Hormuz deal as 'unacceptable' — Iranians don't decide who uses international waterways",
+  "url": "https://www.timesofisrael.com/rubio-rejects-new-iranian-proposal-to-reopen-strait-of-hormuz-which-tehran-says-it-still-controls/",
+  "snippet": "Rubio said Iran wants to retain control of Hormuz: \"the straits are open, as long as you coordinate with Iran, get our permission, or we'll blow you up, and you pay us.\" Called it unacceptable and said Iranians can't decide who uses international waterways.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "role": "US Secretary of State"
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "role": "US President"
+    },
+    {
+      "id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC (Islamic Revolutionary Guard Corps)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-077",
+      "predicate": "opposes",
+      "object": "temp-001"
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "opposes",
+      "object": "ent-002"
+    }
+  ]
+}

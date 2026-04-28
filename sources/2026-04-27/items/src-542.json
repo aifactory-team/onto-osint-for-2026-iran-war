@@ -1,0 +1,78 @@
+{
+  "id": "src-542",
+  "title": "Putin received message from Iran's Supreme Leader; met with Araghchi, Lavrov, Ushakov, Kostyukov",
+  "url": "http://en.kremlin.ru/events/president/news/79633",
+  "snippet": "Official Kremlin readout. Putin confirmed receiving message from Iran's Supreme Leader. Met with Araghchi along with Lavrov (FM), Ushakov (foreign policy adviser), and Kostyukov (GRU chief). Pledged support for Iran.",
+  "source_name": "Kremlin.ru",
+  "language": "en",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "ent-198",
+      "type": "Person",
+      "name": "Vladimir Putin",
+      "role": "Russian President"
+    },
+    {
+      "id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "role": "Iran Foreign Minister"
+    },
+    {
+      "id": "temp-004",
+      "type": "Person",
+      "name": "Sergei Lavrov",
+      "role": "Russian Foreign Minister"
+    },
+    {
+      "id": "temp-005",
+      "type": "Person",
+      "name": "Yuri Ushakov",
+      "role": "Russian Foreign Policy Adviser"
+    },
+    {
+      "id": "temp-006",
+      "type": "Person",
+      "name": "Igor Kostyukov",
+      "role": "GRU Chief"
+    },
+    {
+      "id": "temp-008",
+      "type": "Person",
+      "name": "Ali Khamenei",
+      "role": "Iran Supreme Leader"
+    },
+    {
+      "id": "ent-009",
+      "type": "Organization",
+      "name": "Russia"
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-198",
+      "predicate": "relatedTo",
+      "object": "temp-008"
+    },
+    {
+      "subject": "temp-006",
+      "predicate": "participatesIn",
+      "object": "temp-007"
+    },
+    {
+      "subject": "ent-009",
+      "predicate": "cooperatesWith",
+      "object": "ent-002"
+    }
+  ]
+}

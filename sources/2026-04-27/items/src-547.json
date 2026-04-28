@@ -1,0 +1,49 @@
+{
+  "id": "src-547",
+  "title": "이란 '미국 봉쇄 풀면 호르무즈 개방'...미국 '수용 불가'",
+  "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=75539",
+  "snippet": "이란이 미국의 봉쇄를 해제하면 호르무즈 해협을 상선 통행에 재개방하겠다는 제안. 핵 협상은 다음 단계로 미룸. 미국 국무장관 루비오가 \"수용 불가\"로 거부. \"이란이 국제 수로의 이용 여부와 비용을 결정할 수 없다.\"",
+  "source_name": "더페어",
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "role": "US Secretary of State"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "role": "Iran Foreign Minister"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-002",
+      "predicate": "relatedTo",
+      "object": "temp-001"
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "opposes",
+      "object": "temp-001"
+    }
+  ]
+}

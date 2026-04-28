@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-27",
   "entities": [
     {
       "id": "ent-001",
@@ -1792,6 +1792,88 @@
       "last_seen": "2026-04-26",
       "mention_count": 3
     }
+    ,
+    {
+      "id": "ent-204",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": { "role": "US Secretary of State", "affiliation": "United States", "action_apr27": "rejected Iran Hormuz proposal as 'unacceptable': 'Iranians don't get to decide who uses international waterways and how much you pay'. Called Iran's offer a system of 'coordinate with Iran, get our permission, or we'll blow you up'" },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-205",
+      "type": "Person",
+      "name": "Friedrich Merz",
+      "properties": { "role": "German Chancellor", "affiliation": "Germany", "action_apr27": "spoke in Marsberg: US 'humiliated' by Iran, 'no truly convincing strategy'. Iran 'clearly stronger than one thought'. IRGC 'obviously negotiating very skilfully'. Compared to past US military debacles. European frustration over Hormuz economic impact" },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-206",
+      "type": "Person",
+      "name": "Igor Kostyukov",
+      "properties": { "role": "GRU military intelligence chief", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg — signals military intelligence-level engagement in Iran mediation" },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-207",
+      "type": "Person",
+      "name": "Yury Ushakov",
+      "properties": { "role": "Kremlin foreign policy adviser", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg" },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-208",
+      "type": "Person",
+      "name": "Sergei Lavrov",
+      "properties": { "role": "Russian Foreign Minister", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg" },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-209",
+      "type": "Event",
+      "name": "Iran Hormuz Reopening Proposal (Apr 27)",
+      "properties": { "date": "2026-04-27", "detail": "Iran proposes via Pakistani mediators: reopen Hormuz + end war first, nuclear talks deferred to later phase. Decouples nuclear from immediate crisis. Trump reviews with NSC. Rubio rejects as 'unacceptable' — Iran retaining control of international waterway. US position: nuclear must be on table.", "status": "rejected by Rubio" },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-210",
+      "type": "Event",
+      "name": "Araghchi-Putin St. Petersburg Meeting (Apr 27)",
+      "properties": { "date": "2026-04-27", "location": "St. Petersburg, Russia", "participants": "Araghchi, Putin, Lavrov (FM), Ushakov (Kremlin adviser), Kostyukov (GRU chief)", "detail": "Putin pledges support: 'we will do everything that serves your interests.' Confirms receiving message from Iran's Supreme Leader Khamenei. Araghchi briefs on Pakistan-mediated peace process. Putin sees Iran fighting 'bravely for independence and sovereignty.' GRU presence signals military intelligence engagement." },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-211",
+      "type": "Event",
+      "name": "IDF Beqaa Valley Strikes Day 11 (Apr 27)",
+      "properties": { "date": "2026-04-27", "location": "Beqaa Valley + southern Lebanon", "detail": "IDF strikes ~20 Hezbollah sites: first Beqaa Valley strike in 3 weeks. Weapon depots, rocket launchers, storage facilities targeted. Follows 14 killed Apr 26 retaliation. Ceasefire Day 11 — most geographically expanded Israeli strikes since ceasefire began." },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-212",
+      "type": "Concept",
+      "name": "Nuclear Deferral Strategy",
+      "properties": { "domain": "diplomacy/nuclear", "detail": "Iran's new negotiation approach: decouple nuclear issue from immediate Hormuz/blockade/war crisis. Solve maritime/blockade first, nuclear in later phase. Strategic shift from previous all-in-one package. US rejects: Rubio insists nuclear must remain on table. Represents Iran's attempt to remove the biggest obstacle to a deal." },
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "mention_count": 5
+    }
   ],
-  "total_count": 203
+  "total_count": 212
 }

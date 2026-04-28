@@ -1,0 +1,59 @@
+{
+  "id": "src-539",
+  "title": "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
+  "url": "https://www.cnbc.com/2026/04/27/trump-iran-war-strait-of-hormuz-rubio.html",
+  "snippet": "White House confirmed Trump and his national security team discussed Iran's offer to reopen Strait of Hormuz. Rubio appeared to pour cold water on the proposal.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "role": "US President"
+    },
+    {
+      "id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "role": "US Secretary of State"
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "temp-002",
+      "type": "Organization",
+      "name": "White House"
+    },
+    {
+      "id": "temp-003",
+      "type": "Organization",
+      "name": "NSC (National Security Council)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "temp-001"
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "opposes",
+      "object": "temp-001"
+    }
+  ]
+}

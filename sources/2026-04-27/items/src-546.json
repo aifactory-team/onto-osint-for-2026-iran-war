@@ -1,0 +1,49 @@
+{
+  "id": "src-546",
+  "title": "S&P 500 new record 7,173.91; Nasdaq also new high; markets mixed amid Iran talks",
+  "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-27-2026-updates",
+  "snippet": "S&P 500 rose 0.12% to record 7,173.91. Nasdaq also reached new high. Markets mixed as Iran peace talks stall but Iran Hormuz proposal provides some hope. IT, comm services, consumer discretionary top performing sectors.",
+  "source_name": "TheStreet",
+  "language": "en",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "temp-018",
+      "type": "Concept",
+      "name": "S&P 500",
+      "domain": "financial markets"
+    },
+    {
+      "id": "temp-019",
+      "type": "Concept",
+      "name": "Nasdaq",
+      "domain": "financial markets"
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-018",
+      "predicate": "relatedTo",
+      "object": "ent-002"
+    },
+    {
+      "subject": "temp-019",
+      "predicate": "relatedTo",
+      "object": "ent-008"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-27",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr27": "reviewed Iran Hormuz proposal with NSC team; Rubio rejected proposal on his behalf"},
+      "source_ids": ["src-538", "src-539", "src-540", "src-545", "src-552"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"type": "state", "action_apr27": "proposed Hormuz reopening in exchange for blockade end + war end, nuclear talks deferred; Rubio called 'unacceptable'"},
+      "source_ids": ["src-538", "src-540", "src-541", "src-543", "src-547"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_apr27": "Iran proposes reopening in exchange for US blockade lift; Rubio rejects: 'Iranians don't decide who uses international waterways'; Brent $108.11"},
+      "source_ids": ["src-538", "src-539", "src-540", "src-549"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-198",
+      "type": "Person",
+      "name": "Vladimir Putin",
+      "properties": {"role": "Russian President", "action_apr27": "met Araghchi in St. Petersburg; pledged support for Iran; confirmed receiving message from Iran's Supreme Leader; attended by Lavrov, Ushakov, Kostyukov (GRU)"},
+      "source_ids": ["src-541", "src-542", "src-554"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": {"role": "US Secretary of State", "action_apr27": "rejected Iran Hormuz proposal: 'unacceptable for Iran to retain control'; 'Iranians don't get to decide who uses international waterways and how much you pay'"},
+      "source_ids": ["src-540", "src-539"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Friedrich Merz",
+      "properties": {"role": "German Chancellor", "action_apr27": "said US 'humiliated' by Iran; 'no truly convincing strategy'; Iran 'clearly stronger than one thought'; spoke in Marsberg to students"},
+      "source_ids": ["src-543"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Igor Kostyukov",
+      "properties": {"role": "GRU military intelligence chief", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg"},
+      "source_ids": ["src-542"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Yury Ushakov",
+      "properties": {"role": "Kremlin foreign policy adviser", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg"},
+      "source_ids": ["src-542"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sergei Lavrov",
+      "properties": {"role": "Russian Foreign Minister", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg"},
+      "source_ids": ["src-542"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Hormuz Reopening Proposal",
+      "properties": {"date": "2026-04-27", "description": "Iran proposes reopening Hormuz + ending war, nuclear talks deferred to later phase; passed via Pakistani mediators; Rubio rejects as 'unacceptable'"},
+      "source_ids": ["src-538", "src-539", "src-540"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Araghchi-Putin St. Petersburg Meeting",
+      "properties": {"date": "2026-04-27", "location": "St. Petersburg", "participants": "Araghchi, Putin, Lavrov, Ushakov, Kostyukov", "description": "Putin pledges support, receives Supreme Leader message, discusses war and Pakistan mediation"},
+      "source_ids": ["src-541", "src-542"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IDF Beqaa Valley Strikes Day 11",
+      "properties": {"date": "2026-04-27", "location": "Beqaa Valley + southern Lebanon", "description": "First IDF strike in Beqaa Valley in 3 weeks; ~20 Hezbollah sites hit; weapon depots, rocket launchers, storage facilities targeted"},
+      "source_ids": ["src-544", "src-551"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-195",
+      "type": "Person",
+      "name": "Cole Tomas Allen",
+      "properties": {"role": "WHCD shooting suspect", "action_apr27": "charged with attempted assassination of president + 2 other federal counts; faces life in prison; called self 'Friendly Federal Assassin'; detention hearing Apr 30"},
+      "source_ids": ["src-545"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_apr27": "IDF strikes Beqaa Valley for first time in 3 weeks; ~20 Hezbollah sites targeted; continued Lebanon ceasefire violations"},
+      "source_ids": ["src-544", "src-551"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-009",
+      "type": "Organization",
+      "name": "Russia",
+      "properties": {"action_apr27": "Putin meets Araghchi, pledges support for Iran; GRU chief Kostyukov present; Russia positions as potential mediator"},
+      "source_ids": ["src-541", "src-542"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Nuclear Deferral Strategy",
+      "properties": {"domain": "diplomacy", "description": "Iran's new approach: solve Hormuz/blockade/war first, nuclear negotiations in later phase; decoupling nuclear from immediate crisis"},
+      "source_ids": ["src-538"],
+      "mention_count": 5
+    }
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "temp-010", "source_ids": ["src-538"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "opposes", "object": "temp-010", "source_ids": ["src-540"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-010", "source_ids": ["src-539"], "confidence": 0.90},
+    {"subject": "temp-011", "predicate": "locatedIn", "object": "ent-009", "source_ids": ["src-541"], "confidence": 0.95},
+    {"subject": "ent-198", "predicate": "cooperatesWith", "object": "ent-002", "source_ids": ["src-542"], "confidence": 0.90},
+    {"subject": "temp-006", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-543"], "confidence": 0.80},
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-012", "source_ids": ["src-544"], "confidence": 0.90},
+    {"subject": "ent-195", "predicate": "relatedTo", "object": "ent-001", "source_ids": ["src-545"], "confidence": 0.95},
+    {"subject": "temp-010", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-538"], "confidence": 0.95},
+    {"subject": "ent-198", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-542"], "confidence": 0.95},
+    {"subject": "temp-009", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-542"], "confidence": 0.95},
+    {"subject": "temp-007", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-542"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 9,
+    "matched_entities": 7,
+    "total_relations": 12
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "src-538",
+  "title": "Iran offers US deal to reopen Hormuz strait, postpone nuclear talks",
+  "url": "https://www.axios.com/2026/04/27/iran-us-hormuz-strait-nuclear-talks-proposal-pakistan",
+  "snippet": "Iran gave the US a new proposal to reopen the Strait of Hormuz and end the war, with nuclear negotiations postponed for a later stage. Passed via Pakistani mediators. Focuses on solving Hormuz crisis and US blockade first.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "role": "US President"
+    },
+    {
+      "id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "role": "Iran Foreign Minister"
+    },
+    {
+      "id": "ent-043",
+      "type": "Person",
+      "name": "Steve Witkoff",
+      "role": "US Envoy"
+    },
+    {
+      "id": "ent-042",
+      "type": "Person",
+      "name": "Jared Kushner",
+      "role": "Senior Adviser"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-002",
+      "predicate": "relatedTo",
+      "object": "temp-001"
+    },
+    {
+      "subject": "ent-029",
+      "predicate": "participatesIn",
+      "object": "temp-001"
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "relatedTo",
+      "object": "ent-008"
+    }
+  ]
+}

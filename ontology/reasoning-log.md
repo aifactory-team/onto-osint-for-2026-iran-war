@@ -809,3 +809,45 @@
 
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티/관계는 기존 seed 스키마로 충분히 표현 가능
+
+---
+
+## 2026-04-27 추론 결과
+
+### 추론 #1: co_participation (러시아-파키스탄 병렬 중재)
+- **입력:** (ent-198/Putin, cooperatesWith, ent-002/Iran), (ent-029/Pakistan, relatedTo, ent-209/Hormuz Proposal via mediation)
+- **추론:** (ent-198/Putin, potentialRelation, ent-029/Pakistan)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 러시아와 파키스탄 모두 이란과 활발하게 접촉 중. 아라그치가 이슬라마바드→무스카트→상트페테르부르크를 순회하며 양국을 병렬 중재 채널로 활용. 두 채널이 조율될 가능성.
+
+### 추론 #2: co_participation (메르츠-스타머 유럽 수렴)
+- **입력:** (ent-205/Merz, opposes, ent-001/Trump [US 전략 비판]), (ent-202/Starmer, cooperatesWith, ent-001/Trump [해양 이니셔티브])
+- **추론:** (ent-205/Merz, potentialRelation, ent-202/Starmer)
+- **신뢰도:** 0.70
+- **상태:** 확정
+- **비고:** 유럽 내 두 가지 대응: (1) 메르츠의 공개적 미국 비판, (2) 스타머의 실용적 해양 이니셔티브. 목표는 동일(호르무즈 해법)하나 접근법이 다름. 유럽 공통 포지션으로 수렴 가능.
+
+### 추론 #3: event_chain (호르무즈 제안 → 핵 후순위 전략)
+- **입력:** (ent-209/Iran Hormuz Proposal, mentions, ent-212/Nuclear Deferral), Iran 명시적으로 핵을 2단계로 분리
+- **추론:** (ent-209/Hormuz Proposal, causalChain, ent-212/Nuclear Deferral Strategy)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 이란의 호르무즈 재개방 제안은 핵 후순위 전략의 구현체. 4/12 이슬라마바드 결렬 이후 핵이 최대 장애물임을 인식하고 우회 전략 채택. 그러나 루비오의 즉각 거부는 미국이 핵을 분리할 의사가 없음을 확인.
+
+### 추론 #4: transitivity (코스튜코프 → 이란 간접 소속)
+- **입력:** (ent-206/Kostyukov, affiliatedWith, Russia/GRU), (ent-009/Russia, cooperatesWith, ent-002/Iran)
+- **추론:** (ent-206/Kostyukov, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** GRU 군사정보국장이 푸틴-아라그치 외교 회담에 배석한 것은 이례적. 러시아의 이란 지원이 외교를 넘어 군사 정보 공유 수준임을 시사. 이란전쟁 관련 미국/이스라엘 군사 정보가 러시아를 통해 이란에 전달될 가능성.
+
+### 추론 #5: event_chain (베카 공습 → 3주 연장 인과 체인)
+- **입력:** (ent-211/Beqaa Strikes, follows, ent-201/Day 10 Escalation), (ent-201, causedBy, ent-199/7-Town Evacuation), (ent-172/3-Week Extension → ent-199 → ent-201 → ent-211)
+- **추론:** (ent-211/Beqaa Strikes, causalChain, ent-172/3-Week Extension)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 3주 연장(4/23) → 7마을 퇴거(4/26) → Fooks 전사/14명 보복(Day 10) → 베카 밸리 3주 만 공습(Day 11). 휴전 확대가 군사 작전 지리적 확대로 이어지는 인과 체인. 이스라엘이 휴전을 점령 확대와 작전 범위 확장의 도구로 활용.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티/관계는 기존 seed 스키마로 충분히 표현 가능

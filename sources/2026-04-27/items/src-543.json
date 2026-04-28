@@ -1,0 +1,53 @@
+{
+  "id": "src-543",
+  "title": "German Chancellor Merz says US 'humiliated' by Iran — 'no truly convincing strategy'",
+  "url": "https://www.aljazeera.com/news/2026/4/27/iran-very-skilful-as-us-humiliated-says-german-chancellor",
+  "snippet": "Merz spoke in Marsberg: Iran \"clearly stronger than one thought\", IRGC is humiliating US. \"No truly convincing strategy\" from Washington. European frustration over Hormuz closure's economic impact. Compared to past US military debacles.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음",
+  "entities": [
+    {
+      "id": "temp-009",
+      "type": "Person",
+      "name": "Friedrich Merz",
+      "role": "German Chancellor"
+    },
+    {
+      "id": "temp-010",
+      "type": "Organization",
+      "name": "Germany"
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC (Islamic Revolutionary Guard Corps)"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-009",
+      "predicate": "mentions",
+      "object": "temp-011"
+    },
+    {
+      "subject": "temp-010",
+      "predicate": "opposes",
+      "object": "temp-012"
+    }
+  ]
+}
