@@ -1,0 +1,22 @@
+{
+  "id": "src-574",
+  "title": "Sanctioned Russian Billionaire's $500M Superyacht Crosses Hormuz Despite US Naval Blockade",
+  "url": "https://fortune.com/2026/04/28/500-million-superyacht-linked-with-russia-richest-man-alexei-mordashov-strait-of-hormuz/",
+  "snippet": "The 142-meter superyacht Nord, linked to sanctioned Russian billionaire Alexey Mordashov ($37B net worth, Severstal chairman), left Dubai Friday and arrived in Muscat, Oman Sunday after transiting the blockaded Strait of Hormuz. One of only a few private vessels to pass through since conflict began. Raises questions about blockade enforcement consistency and Russia's special treatment.",
+  "source_name": "Fortune",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "러시아 억만장자 요트의 호르무즈 통과는 신규 사건. 이전 소스에 없음.",
+  "entities": [
+    {"id": "temp-007", "type": "Person", "name": "Alexey Mordashov", "role": "yacht owner"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "location"},
+    {"id": "temp-008", "type": "Concept", "name": "Nord Superyacht Transit", "role": "main event"}
+  ],
+  "relations": [
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "temp-008"},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

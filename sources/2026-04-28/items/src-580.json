@@ -1,0 +1,20 @@
+{
+  "id": "src-580",
+  "title": "UAE's Gargash slams Gulf allies' response as 'weakest in history'",
+  "url": "https://www.thenationalnews.com/news/uae/2026/04/27/dr-anwar-gargash-says-irans-ferocious-attacks-on-gulf-were-premeditated/",
+  "snippet": "UAE senior adviser Anwar Gargash: 'The GCC's position is the weakest in history, considering the nature of the attack and the threat it poses to everyone.' While GCC states supported each other logistically, political/military response was inadequate. 'I expected such a weak stance from the Arab League; I don't expect it from the GCC.' Said containment efforts toward Tehran including mediation, shared energy projects and trade have 'failed miserably.'",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "가르가쉬의 GCC 비판은 4/27 발언이나 이전 보고서에 포함되지 않은 신규 정보. GCC 서밋과 직접 관련.",
+  "entities": [
+    {"id": "temp-003", "type": "Person", "name": "Anwar Gargash", "role": "critic"},
+    {"id": "temp-001", "type": "Organization", "name": "UAE", "role": "Gargash's affiliation"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "affiliatedWith", "object": "temp-001"}
+  ]
+}

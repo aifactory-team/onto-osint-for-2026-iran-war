@@ -1,0 +1,21 @@
+{
+  "id": "src-581",
+  "title": "Iran War: US Can't Reopen Strait of Hormuz on Its Own — Bloomberg analysis",
+  "url": "https://www.bloomberg.com/opinion/articles/2026-04-28/iran-war-us-can-t-reopen-strait-of-hormuz-on-its-own",
+  "snippet": "Bloomberg analysis argues the US cannot unilaterally reopen the Strait of Hormuz without cooperation from Iran or allied nations. IRGC mines, fast boats, and coastal missile batteries create a layered defense. Minesweeping alone would take months. NATO allies have refused joint operations. Unilateral clearance would risk massive military escalation with Iran. 800 ships remain trapped in Persian Gulf.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "블룸버그의 '미국 단독 호르무즈 개방 불가' 분석은 신규 전문가 평가.",
+  "entities": [
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "subject"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "location"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "defensive force"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-005"}
+  ]
+}

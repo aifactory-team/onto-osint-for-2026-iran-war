@@ -755,11 +755,34 @@
     { "subject": "ent-205", "predicate": "potentialRelation", "object": "ent-202", "date": "2026-04-27", "confidence": 0.70, "type": "inferred" },
     { "subject": "ent-209", "predicate": "causalChain", "object": "ent-212", "date": "2026-04-27", "confidence": 0.80, "type": "inferred" },
     { "subject": "ent-206", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "date": "2026-04-27", "confidence": 0.72, "type": "inferred" },
-    { "subject": "ent-211", "predicate": "causalChain", "object": "ent-172", "date": "2026-04-27", "confidence": 0.75, "type": "inferred" }
+    { "subject": "ent-211", "predicate": "causalChain", "object": "ent-172", "date": "2026-04-27", "confidence": 0.75, "type": "inferred" },
+    { "subject": "ent-035", "predicate": "opposes", "object": "ent-213", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-215", "predicate": "participatesIn", "object": "ent-216", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-035", "predicate": "participatesIn", "object": "ent-216", "date": "2026-04-28", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-214", "predicate": "affiliatedWith", "object": "ent-035", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-083", "predicate": "participatesIn", "object": "ent-221", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-221", "predicate": "relatedTo", "object": "ent-008", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-217", "predicate": "participatesIn", "object": "ent-222", "date": "2026-04-28", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-222", "predicate": "locatedIn", "object": "ent-008", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-218", "predicate": "affiliatedWith", "object": "ent-002", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-220", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-220", "predicate": "opposes", "object": "ent-002", "date": "2026-04-28", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-035", "predicate": "participatesIn", "object": "ent-219", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-004", "predicate": "opposes", "object": "ent-016", "date": "2026-04-28", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-219", "predicate": "relatedTo", "object": "ent-008", "date": "2026-04-28", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-217", "predicate": "relatedTo", "object": "ent-009", "date": "2026-04-28", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-214", "predicate": "opposes", "object": "ent-216", "date": "2026-04-28", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-218", "predicate": "opposes", "object": "ent-220", "date": "2026-04-28", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-219", "predicate": "opposes", "object": "ent-213", "date": "2026-04-28", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-219", "predicate": "causedBy", "object": "ent-002", "date": "2026-04-28", "confidence": 0.78, "type": "inferred" },
+    { "subject": "ent-217", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "date": "2026-04-28", "confidence": 0.72, "type": "inferred" },
+    { "subject": "ent-214", "predicate": "potentialRelation", "object": "ent-219", "date": "2026-04-28", "confidence": 0.75, "type": "inferred" },
+    { "subject": "ent-221", "predicate": "potentialRelation", "object": "ent-209", "date": "2026-04-28", "confidence": 0.73, "type": "inferred" },
+    { "subject": "ent-220", "predicate": "opposes", "object": "ent-209", "date": "2026-04-28", "confidence": 0.80, "type": "inferred" }
   ],
   "stats": {
-    "total_nodes": 213,
-    "total_edges": 542,
-    "total_triples": 542
+    "total_nodes": 223,
+    "total_edges": 567,
+    "total_triples": 567
   }
 }

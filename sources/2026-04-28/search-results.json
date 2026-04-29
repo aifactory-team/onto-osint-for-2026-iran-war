@@ -1,0 +1,202 @@
+{
+  "date": "2026-04-28",
+  "collected_at": "2026-04-28T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 58,
+  "expanded_keywords": ["Araghchi", "Hormuz blockade", "IRGC", "Trump Iran", "Lebanon ceasefire", "WPR deadline", "UAE OPEC", "GCC summit", "Rubio", "Putin"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:00:01Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war live: Iranian army 'still in war situation'; Gulf leaders meet", "url": "https://www.aljazeera.com/news/liveblog/2026/4/28/iran-war-live-trump-reviews-peace-plan-un-calls-for-hormuz-to-reopen", "snippet": "Iranian army spokesperson says Iran is still in a 'war situation' as Strait of Hormuz remains sticking point", "source_name": "Al Jazeera"},
+        {"title": "Live updates: UAE to quit OPEC in blow to world's leading oil exporters, as Iran war roils energy sector", "url": "https://www.cnn.com/2026/04/28/world/live-news/iran-war-trump-israel", "snippet": "UAE announces departure from OPEC effective May 1; Iran war reshapes Gulf alliances", "source_name": "CNN"},
+        {"title": "Deadlock over Iran's nuclear program and the Strait of Hormuz cripples peace efforts", "url": "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates", "snippet": "Two months after US-Israeli attack, peace talks on hold with Hormuz and nuclear program as main contention points", "source_name": "NPR"},
+        {"title": "Iran war: What's happening on day 60 as diplomacy gathers pace?", "url": "https://www.aljazeera.com/news/2026/4/28/iran-war-whats-happening-on-day-60-as-diplomacy-gathers-pace", "snippet": "Day 60 of the Iran war; diplomatic efforts intensify but deadlock persists", "source_name": "Al Jazeera"},
+        {"title": "What's in Iran's latest proposal – and how has the US responded?", "url": "https://www.aljazeera.com/news/2026/4/28/whats-in-irans-latest-proposal-and-how-has-the-us-responded", "snippet": "Iran offers Hormuz reopening with nuclear talks postponed; US appears cold", "source_name": "Al Jazeera"},
+        {"title": "The Latest: US appears cold to Iranian proposal to end the war without a nuclear deal", "url": "https://www.washingtonpost.com/business/2026/04/28/iran-israel-us-lebanon-latest-april-28-2026/f42d2eca-42c8-11f1-b19d-32431046b5b4_story.html", "snippet": "US unlikely to accept Iran proposal that would open Hormuz but delay nuclear talks", "source_name": "Washington Post"},
+        {"title": "War in Iran: United Arab Emirates will leave OPEC in coming days", "url": "https://www.deseret.com/u-s-world/2026/04/28/war-in-iran-latest-news-information-analysis/", "snippet": "UAE to leave OPEC amid Iran war; Gulf tensions reshape alliances", "source_name": "Deseret News"},
+        {"title": "Iran war live updates: Israel, Lebanon extend ceasefire amid Strait of Hormuz uncertainty", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-iran-hormuz-blockade-ceasefire-talks-lebanon-israel-rcna341831", "snippet": "Live coverage of Iran war developments, Lebanon ceasefire status", "source_name": "NBC News"},
+        {"title": "Live Updates: Iran war and Strait of Hormuz stuck in limbo as Trump mulls latest Iranian offer", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-iranian-offer-ceasefire-oil-gas-prices/", "snippet": "Hormuz situation in limbo; Trump reviewing Iran's proposal", "source_name": "CBS News"},
+        {"title": "Iran war live updates: Trump says Iran 'informed' the US that it's in a 'state of collapse'", "url": "https://abc7.com/live-updates/iran-war-today-trump-straight-of-hormuz-us-ceasefire-talks/18979096/", "snippet": "Trump claims Iran told US it is collapsing and wants Hormuz open", "source_name": "ABC7"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Strait of Hormuz blockade April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:00:15Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Russian yacht sails through Strait of Hormuz, despite U.S. blockade", "url": "https://justthenews.com/government/security/russian-yacht-sails-through-strait-hormuz-despite-us-blockade", "snippet": "Russian superyacht Nord linked to Alexey Mordashov sails through blockaded strait", "source_name": "Just The News"},
+        {"title": "A $500 million superyacht linked with Russia's richest man was just able to pass through the blockaded Strait of Hormuz", "url": "https://fortune.com/2026/04/28/500-million-superyacht-linked-with-russia-richest-man-alexei-mordashov-strait-of-hormuz/", "snippet": "Mordashov's $500M Nord yacht transits Hormuz from Dubai to Muscat despite dual blockade", "source_name": "Fortune"},
+        {"title": "Russian superyacht sails through blockaded Strait of Hormuz", "url": "https://thehill.com/policy/international/5852731-russian-superyacht-strait-hormuz/", "snippet": "142-meter Nord yacht passes through blockaded waterway", "source_name": "The Hill"},
+        {"title": "Iran War: US Can't Reopen Strait of Hormuz on Its Own", "url": "https://www.bloomberg.com/opinion/articles/2026-04-28/iran-war-us-can-t-reopen-strait-of-hormuz-on-its-own", "snippet": "Bloomberg analysis: US needs cooperation to reopen Hormuz, cannot do it unilaterally", "source_name": "Bloomberg"},
+        {"title": "UN chief calls for immediate reopening of Strait of Hormuz", "url": "https://www.muscatdaily.com/2026/04/28/un-chief-calls-for-immediate-reopening-of-strait-of-hormuz/", "snippet": "Guterres warns of global food emergency if Hormuz remains blocked", "source_name": "Muscat Daily"},
+        {"title": "UN Calls for Immediate Reopening of Strait of Hormuz to Prevent Global Food Crisis", "url": "https://www.cubaheadlines.com/articles/327505", "snippet": "Dozens of countries call for urgent and unimpeded reopening of Hormuz", "source_name": "Cuba Headlines"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "UAE OPEC withdrawal quit April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:00:30Z",
+      "result_count": 10,
+      "results": [
+        {"title": "The UAE is leaving OPEC as the Iran war reshapes Gulf alliances", "url": "https://qz.com/uae-leaving-opec-may-2026-iran-war-042826", "snippet": "UAE exits OPEC; strategic shift amid Iran war turmoil", "source_name": "Quartz"},
+        {"title": "UAE quits OPEC in blow to cartel that could reshape global oil markets", "url": "https://www.cnn.com/2026/04/28/business/uae-quits-opec-in-major-blow-to-oil-cartel-and-saudi-arabia", "snippet": "UAE leaves OPEC effective May 1; major blow to Saudi-led cartel", "source_name": "CNN"},
+        {"title": "UAE exits OPEC and OPEC+, citing strategic shift amid global energy disruption", "url": "https://www.foxbusiness.com/markets/uae-says-leave-opec-effective-may-1", "snippet": "UAE Energy Ministry confirms May 1 exit from OPEC and OPEC+", "source_name": "Fox Business"},
+        {"title": "UAE to leave OPEC on May 1", "url": "https://www.al-monitor.com/originals/2026/04/uae-leave-opec-may-1", "snippet": "UAE confirms leaving OPEC; plans to increase oil production", "source_name": "Al-Monitor"},
+        {"title": "The United Arab Emirates is quitting OPEC oil cartel after nearly 60 years", "url": "https://www.npr.org/2026/04/28/nx-s1-5802735/uae-leaves-opec-oil", "snippet": "Historic departure after nearly 60 years of membership", "source_name": "NPR"},
+        {"title": "United Arab Emirates quits OPEC as Iran war raises Gulf tensions", "url": "https://www.nbcnews.com/business/energy/uae-quits-opec-oil-iran-talks-rcna342465", "snippet": "UAE quits OPEC amid Iran war tensions", "source_name": "NBC News"},
+        {"title": "What are OPEC and OPEC+, and why has the UAE quit?", "url": "https://www.aljazeera.com/news/2026/4/28/what-are-opec-and-opec-and-why-has-the-uae-quit", "snippet": "Explainer on UAE's historic OPEC departure and its implications", "source_name": "Al Jazeera"},
+        {"title": "UAE Leaves OPEC: The May 1 Move That Could Rewire Oil Prices and Saudi Influence", "url": "https://ts2.tech/en/uae-leaves-opec-the-may-1-move-that-could-rewire-oil-prices-and-saudi-influence/", "snippet": "Analysis of how UAE departure could reshape global oil market dynamics", "source_name": "TS2"},
+        {"title": "UAE decides to leave OPEC, citing focus on its national interest", "url": "https://www.euronews.com/2026/04/28/uae-decides-to-leave-opec-citing-focus-on-its-national-interest", "snippet": "UAE cites national interest in decision to leave OPEC", "source_name": "Euronews"},
+        {"title": "United Arab Emirates says it will leave OPEC effective May 1", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/04/28/united-arab-emirates-says-it-will-leave-opec-effective-may-1", "snippet": "Official announcement of UAE OPEC departure date", "source_name": "NY1/AP"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran state of collapse April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:00:45Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Trump says Iran informed the White House the country is in a 'State of Collapse'", "url": "https://www.13abc.com/2026/04/28/trump-says-iran-informed-white-house-country-is-state-collapse/", "snippet": "Trump posts on Truth Social claiming Iran told US it is collapsing", "source_name": "13ABC"},
+        {"title": "President Trump: Iran Is in a 'State of Collapse'", "url": "https://townhall.com/tipsheet/dmitri-bolt/2026/04/28/president-trump-iran-is-in-a-state-of-collapse-n2675183", "snippet": "Trump claims Iran wants Hormuz open ASAP due to collapse", "source_name": "Townhall"},
+        {"title": "Donald Trump says Iran in 'state of collapse,' wants Strait of Hormuz open", "url": "https://thehill.com/homenews/administration/5852711-trump-iran-collapsing-strait-of-hormuz/", "snippet": "Trump: 'Iran has just informed us that they are in a State of Collapse'", "source_name": "The Hill"},
+        {"title": "Trump Says Iran Has Told Him It's In a 'State of Collapse' Amid Peace Talks Stalemate", "url": "https://time.com/article/2026/04/28/trump-iran-war-update-peace-proposal-strait-of-hormuz-conflict/", "snippet": "Unclear what Trump is basing claims on; no confirmation from Tehran", "source_name": "Time"},
+        {"title": "Trump claims Iran told U.S. it wants Strait of Hormuz open ASAP", "url": "https://www.axios.com/2026/04/28/trump-iran-hormuz-collapse-claim", "snippet": "Trump's claim contradicts Iran's public statements; no official confirmation", "source_name": "Axios"},
+        {"title": "Iran informed US it is in a 'state of collapse,' Trump says", "url": "https://english.alarabiya.net/News/middle-east/2026/04/28/iran-informed-us-it-is-in-a-state-of-collapse-", "snippet": "Trump says Iran wants immediate Hormuz opening; Iran denies", "source_name": "Al Arabiya"},
+        {"title": "Trump says Iran is heading toward 'collapse,' hopes Tehran sorts out leadership", "url": "https://www.washingtontimes.com/news/2026/apr/28/trump-says-iran-heading-toward-collapse-hopes-tehran-sorts-leadership/", "snippet": "Trump references Iran's 'leadership situation'; $400M/day losses cited", "source_name": "Washington Times"},
+        {"title": "'Iran in state of collapse': Trump claims Tehran wants Hormuz open as soon as possible", "url": "https://www.india.com/news/world/iran-in-state-of-collapse-trump-claims-tehran-wants-hormuz-open-as-soon-as-possible-heres-what-we-know-8396026/", "snippet": "Iran running out of oil storage; losing over $400M/day under blockade", "source_name": "India.com"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Gulf leaders GCC Jeddah summit April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:01:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Gulf leaders meet in Saudi Arabia for first time since start of war on Iran", "url": "https://www.aljazeera.com/news/2026/4/28/gulf-leaders-meet-in-saudi-arabia-for-first-time-since-start-of-war-on-iran", "snippet": "MBS chairs first in-person GCC meeting since war began; Qatar's emir, Kuwait's crown prince, Bahrain's king attend", "source_name": "Al Jazeera"},
+        {"title": "Gulf Co-operation Council holds summit in Jeddah", "url": "https://www.thenationalnews.com/news/gulf/2026/04/28/gulf-co-operation-council-holds-summit-in-saudi-arabias-jeddah/", "snippet": "GCC summit discusses response to Iranian attacks on Gulf states", "source_name": "The National"},
+        {"title": "Gulf leaders to meet in Saudi Arabia to discuss response to Iranian strikes", "url": "https://www.al-monitor.com/originals/2026/04/gulf-leaders-meet-saudi-arabia-discuss-response-iranian-strikes", "snippet": "Summit addresses thousands of Iranian missile/drone attacks on GCC states since Feb 28", "source_name": "Al-Monitor"},
+        {"title": "Gulf leaders meet in Saudi Arabia to discuss Iran war", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gulf-leaders-meet-saudi-arabia-discuss-iran-war", "snippet": "GCC coordination meeting on Iran war fallout", "source_name": "Middle East Eye"},
+        {"title": "UAE slams Gulf allies as 'weak' on Iran", "url": "https://www.freemalaysiatoday.com/category/world/2026/04/27/uae-slams-gulf-allies-as-weak-on-iran", "snippet": "Gargash: GCC position 'weakest in history'; containment efforts 'failed miserably'", "source_name": "Free Malaysia Today"},
+        {"title": "Dr Anwar Gargash says Iran's 'ferocious' attacks on Gulf were premeditated", "url": "https://www.thenationalnews.com/news/uae/2026/04/27/dr-anwar-gargash-says-irans-ferocious-attacks-on-gulf-were-premeditated/", "snippet": "UAE senior official criticizes GCC's political and military response to Iran attacks", "source_name": "The National"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire Israel evacuation April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:01:15Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Israel orders fresh evacuations in south Lebanon", "url": "https://english.aaj.tv/news/330457589/israel-orders-fresh-evacuations-in-south-lebanon", "snippet": "Israel warns dozens of towns to evacuate; claims Hezbollah ceasefire violations", "source_name": "Aaj TV"},
+        {"title": "Israel issues forced evacuation orders for southern Lebanon in escalation", "url": "https://www.aljazeera.com/news/2026/4/26/israel-issues-forced-evacuation-orders-for-southern-lebanon-in-escalation", "snippet": "Fresh evacuation orders represent escalation despite ceasefire", "source_name": "Al Jazeera"},
+        {"title": "Israeli military orders more than a dozen towns in southern Lebanon to evacuate", "url": "https://english.alarabiya.net/News/middle-east/2026/04/28/israeli-military-orders-more-than-a-dozen-towns-in-southern-lebanon-to-evacuate", "snippet": "IDF tells residents to move north toward Sidon district", "source_name": "Al Arabiya"},
+        {"title": "Israel continues attacks on Lebanon despite extension of ceasefire", "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire", "snippet": "Ceasefire violations continue; 2,491 killed since March 2", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil price Brent WTI April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:01:30Z",
+      "result_count": 4,
+      "results": [
+        {"title": "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz", "url": "https://www.cnbc.com/2026/04/28/oil-prices-us-iran-hormuz-negotiations-wti-brent-crude.html", "snippet": "Brent $111.26 (+3%); WTI $99.93 (+3%); Trump dissatisfied with Iran proposal", "source_name": "CNBC"},
+        {"title": "Current price of oil as of April 28, 2026", "url": "https://fortune.com/article/price-of-oil-04-28-2026/", "snippet": "Brent $109.96-$111.26; WTI near $100 on geopolitical tension", "source_name": "Fortune"},
+        {"title": "WTI Crude Oil Price Today April 28 2026 - Nears 100 as Supply Risks Intensify", "url": "https://angle360ng.com/wti-crude-oil-price-today-april-28-2026/", "snippet": "WTI surges nearly 4% to above $100 intraday", "source_name": "Angle360"},
+        {"title": "Crude oil and petroleum product prices increased sharply in first quarter 2026", "url": "https://www.eia.gov/todayinenergy/detail.php?id=67424", "snippet": "EIA confirms unprecedented energy price surge since Iran war began", "source_name": "EIA"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "War Powers Resolution Iran May 1 deadline 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:01:45Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Iran War Heads Toward Legal Showdown as May 1 Deadline Nears", "url": "https://www.military.com/daily-news/headlines/2026/04/28/Iran-War-Heads-Toward-Legal-Showdown-as-May-1-Deadline-Nears", "snippet": "Legal experts debate whether Trump can continue war past 60-day mark without congressional authorization", "source_name": "Military.com"},
+        {"title": "Trump's May 1 deadline: Can he continue war on Iran after that?", "url": "https://www.aljazeera.com/news/2026/4/24/trumps-may-1-deadline-can-he-continue-war-on-iran-after-that", "snippet": "Analysis of WPR 60-day rule and Trump's options for continuation", "source_name": "Al Jazeera"},
+        {"title": "May 1 Marks a Crucial 'War Powers' Deadline for Trump's War in Iran", "url": "https://truthout.org/articles/may-1-marks-a-crucial-war-powers-deadline-for-trumps-war-in-iran/", "snippet": "Congressional authorization required by May 1; Senate blocked 5 times", "source_name": "Truthout"},
+        {"title": "More lawmakers calling to end Iran war ahead of 60-day mark on May 1", "url": "https://spectrumnews1.com/oh/columbus/news/2026/04/21/iran-war-60-day-congress", "snippet": "Bipartisan pressure growing as deadline approaches", "source_name": "Spectrum News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Russian yacht Nord Mordashov Hormuz 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:02:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Sanctioned Russian Billionaire's $500M Superyacht Crosses Hormuz Despite US Naval Blockade", "url": "https://www.marineinsight.com/sanctioned-russian-billionaires-500m-superyacht-crosses-hormuz-despite-us-naval-blockade/", "snippet": "142m Nord left Dubai Friday, arrived Muscat Sunday after transiting blockaded Hormuz", "source_name": "Marine Insight"},
+        {"title": "Alexey Mordashov: Who is the Russian oligarch whose yacht passed through the Strait of Hormuz?", "url": "https://www.itv.com/news/2026-04-28/who-is-the-russian-oligarch-whose-yacht-passed-through-the-strait-of-hormuz", "snippet": "Mordashov net worth $37B; Nord is $500M; questions about blockade enforcement", "source_name": "ITV News"},
+        {"title": "Russian Oligarch Yacht Makes Rare Journey Through Hormuz Conflict Zone", "url": "https://www.birdsadvice.com/russian-superyacht-strait-of-hormuz-blockade", "snippet": "One of few private vessels to pass through since conflict began", "source_name": "Birds Advice"},
+        {"title": "Russian superyacht sails through blockaded Strait of Hormuz", "url": "https://thehill.com/policy/international/5852731-russian-superyacht-strait-hormuz/", "snippet": "Raises questions about US Navy's ability to enforce blockade consistently", "source_name": "The Hill"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "S&P 500 stock market April 28 2026",
+      "language": "en",
+      "timestamp": "2026-04-28T23:02:15Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Stock Market Today (Apr. 28, 2026): OpenAI revenue report sends Russell 2000, Nasdaq falling", "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-28-2026-updates", "snippet": "S&P 500 -0.49% to 7,138.80; Nasdaq -0.90%; oil prices weigh on market", "source_name": "TheStreet"},
+        {"title": "Stock Market Today, April 28: Tech Stocks Slide on OpenAI-Fueled Jitters", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-april-28-211643016.html", "snippet": "Tech stocks slide; Dow -0.05% to 49,141.93; oil surge adds pressure", "source_name": "Yahoo Finance"},
+        {"title": "Stock market news for April 28, 2026", "url": "https://www.cnbc.com/2026/04/27/stock-market-today-live-updates.html", "snippet": "Markets reverse after previous day's record; OpenAI concerns + oil rise", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 4월 28일 호르무즈",
+      "language": "ko",
+      "timestamp": "2026-04-28T23:02:30Z",
+      "result_count": 5,
+      "results": [
+        {"title": "[속보] 아시아행 유조선 2척, 호르무즈 통과...독일 총리 '미국, 이란에 굴욕...전쟁 책임 미국 탓'", "url": "https://www.youtube.com/watch?v=JrCcVcFN4U8", "snippet": "호르무즈 해협 통과 유조선 2척 확인; 독일 총리 미국 비판", "source_name": "KBS"},
+        {"title": "이란 전쟁 60일...평화로 가는 길 여전히 '안갯속'", "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202604281104415863", "snippet": "60일째 교착; 핵·호르무즈 쟁점 양보 없음", "source_name": "YTN"},
+        {"title": "미·이란 전쟁의 구조적 분석과 3단계 위기관리 시나리오", "url": "https://www.tongilnews.com/news/articleView.html?idxno=216241", "snippet": "전쟁 구조적 분석; 4/28 분기점 시나리오", "source_name": "통일뉴스"},
+        {"title": "2026년 미국-이란 분쟁 관련 제재 & 에너지 안보 스페셜 뉴스레터", "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=219661", "snippet": "OFAC 제재 분석; 산업별 대응 방안", "source_name": "법률신문"},
+        {"title": "이 시각 호르무즈‥휴전안 협상 전망은?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813074_37004.html", "snippet": "호르무즈 해협 현황 및 협상 전망 분석", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "UAE OPEC 탈퇴 이란 전쟁 2026",
+      "language": "ko",
+      "timestamp": "2026-04-28T23:02:45Z",
+      "result_count": 8,
+      "results": [
+        {"title": "UAE, 50년 만에 OPEC 탈퇴…'국가 이익 위해 증산 속도 낸다'", "url": "https://www.newspim.com/news/view/20260428001371", "snippet": "UAE 5월 1일부터 OPEC 및 OPEC+ 탈퇴; 하루 340만→500만 배럴 증산 계획", "source_name": "뉴스핌"},
+        {"title": "UAE, OPEC 탈퇴...중동 지각 변동 시작됐다", "url": "https://www.fnnews.com/news/202604290242526533", "snippet": "UAE OPEC ��퇴로 사우디 주도 카르텔 영향력 타격", "source_name": "파이낸셜뉴스"},
+        {"title": "UAE, 다음달 1일 OPEC·OPEC+ 전격 탈퇴", "url": "https://www.asiae.co.kr/article/2026042822051142910", "snippet": "UAE 에너지부 공식 발표; 전격 탈퇴", "source_name": "아시아경제"},
+        {"title": "사우디와 사사건건 부딪힌 UAE, 결국 OPEC 탈퇴 결정", "url": "https://www.mt.co.kr/world/2026/04/28/2026042822353727959", "snippet": "UAE-사우디 갈등 배경; OPEC 탈퇴 결정 분석", "source_name": "머니투데이"},
+        {"title": "UAE 새달 1일 OPEC 탈퇴… '점진적으로 생산 늘릴 것'", "url": "https://www.seoul.co.kr/news/international/middleeast-africa/2026/04/29/20260429012005", "snippet": "UAE 에너지장관 성명; 점진적 증산 계획", "source_name": "서울신문"},
+        {"title": "UAE, OPEC 떠난다…석유동맹 균열", "url": "https://news.nate.com/view/20260428n38330", "snippet": "카타르(2019) 이후 또 탈퇴; OPEC 영향력 약화", "source_name": "네이트뉴스"},
+        {"title": "UAE, 5월 1일부터 OPEC 및 OPEC+ 탈퇴", "url": "https://kr.investing.com/news/economy-news/article-1916078", "snippet": "UAE OPEC 탈퇴 공식 확인", "source_name": "Investing.com"},
+        {"title": "아랍에미리트, 60년 만에 석유수출국기구(OPEC) 탈퇴", "url": "https://v.daum.net/v/20260428222333709", "snippet": "60년 OPEC 회원국 역사 마감; 이란 전쟁 배경", "source_name": "Daum/서울경제"}
+      ]
+    }
+  ]
+}

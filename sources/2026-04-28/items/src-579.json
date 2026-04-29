@@ -1,0 +1,17 @@
+{
+  "id": "src-579",
+  "title": "Iran War Heads Toward Legal Showdown as May 1 Deadline Nears",
+  "url": "https://www.military.com/daily-news/headlines/2026/04/28/Iran-War-Heads-Toward-Legal-Showdown-as-May-1-Deadline-Nears",
+  "snippet": "War Powers Resolution 60-day deadline is May 1 — now 3 days away. Legal experts debate whether Trump can continue war without congressional authorization. Trump can extend 30 days for safe withdrawal but not for continued prosecution. Senate blocked WPR resolutions 5 times. Administration expected to invoke AUMF (2001) or Article II to bypass. Congressional authorization remains uncertain due to deep divisions.",
+  "source_name": "Military.com",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "update",
+  "related_report": "2026-04-27/src-550",
+  "related_item": "src-550",
+  "tag_reason": "WPR 데드라인 추적의 후속. 3일 앞으로 다가오면서 법적 대결 구도 신규 분석.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "subject of legal challenge"}
+  ],
+  "relations": []
+}

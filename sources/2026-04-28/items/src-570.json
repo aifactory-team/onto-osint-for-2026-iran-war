@@ -1,0 +1,23 @@
+{
+  "id": "src-570",
+  "title": "UAE quits OPEC in blow to cartel that could reshape global oil markets",
+  "url": "https://www.cnn.com/2026/04/28/business/uae-quits-opec-in-major-blow-to-oil-cartel-and-saudi-arabia",
+  "snippet": "The United Arab Emirates will leave OPEC and OPEC+ effective May 1, ending nearly 60 years of membership. The move allows the UAE to break free from Saudi-imposed output limits and increase production from 3.4M to 5M bbl/day by 2027. The departure comes amid unprecedented tensions over the Iran war and UAE's Gargash blasting the GCC's 'weakest in history' response. Since war began, 2,256 drones and 563 missiles hit UAE territory.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "UAE OPEC 탈퇴는 완전 신규 사건. 이전 7일 소스에 동일/유사 항목 없음.",
+  "entities": [
+    {"id": "temp-001", "type": "Organization", "name": "United Arab Emirates (UAE)", "role": "departing member"},
+    {"id": "temp-002", "type": "Organization", "name": "OPEC", "role": "organization being left"},
+    {"id": "temp-004", "type": "Person", "name": "Mohammed bin Salman", "role": "Saudi leader/OPEC de facto head"},
+    {"id": "temp-014", "type": "Event", "name": "UAE OPEC Exit", "role": "main event"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "opposes", "object": "temp-002"},
+    {"subject": "temp-001", "predicate": "participatesIn", "object": "temp-014"}
+  ]
+}

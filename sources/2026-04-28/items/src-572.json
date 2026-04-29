@@ -1,0 +1,22 @@
+{
+  "id": "src-572",
+  "title": "Gulf leaders meet in Saudi Arabia for first time since start of war on Iran",
+  "url": "https://www.aljazeera.com/news/2026/4/28/gulf-leaders-meet-in-saudi-arabia-for-first-time-since-start-of-war-on-iran",
+  "snippet": "Saudi Crown Prince Mohammed bin Salman chaired a consultative GCC meeting in Jeddah — first in-person since war began Feb 28. Qatar's emir, Kuwait's crown prince, Bahrain's king and UAE's foreign minister attended. Discussed response to thousands of Iranian missile/drone attacks on GCC states. Attacks have subsided since April 8 ceasefire but Gulf capitals remain wary. UAE's Gargash (separately) slammed GCC political/military response as 'weakest in history'.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "GCC 정상회의는 신규 사건. 이전 7일 소스에 동일 항목 없음.",
+  "entities": [
+    {"id": "temp-004", "type": "Person", "name": "Mohammed bin Salman", "role": "chair"},
+    {"id": "temp-005", "type": "Event", "name": "GCC Jeddah Summit", "role": "main event"},
+    {"id": "temp-003", "type": "Person", "name": "Anwar Gargash", "role": "critic"}
+  ],
+  "relations": [
+    {"subject": "temp-004", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "temp-005"}
+  ]
+}

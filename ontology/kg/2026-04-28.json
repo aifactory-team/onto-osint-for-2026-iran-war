@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-28",
+  "new_triples": [
+    {"subject": "ent-035", "predicate": "opposes", "object": "ent-213", "source_id": "src-570", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "UAE exits OPEC"},
+    {"subject": "ent-215", "predicate": "participatesIn", "object": "ent-216", "source_id": "src-572", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "MBS chairs GCC summit"},
+    {"subject": "ent-035", "predicate": "participatesIn", "object": "ent-216", "source_id": "src-572", "date": "2026-04-28", "confidence": 0.90, "type": "explicit", "label": "UAE FM attends GCC summit"},
+    {"subject": "ent-214", "predicate": "affiliatedWith", "object": "ent-035", "source_id": "src-580", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Gargash is UAE adviser"},
+    {"subject": "ent-083", "predicate": "participatesIn", "object": "ent-221", "source_id": "src-573", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Guterres calls for Hormuz reopening"},
+    {"subject": "ent-221", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-573", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "UN call targets Hormuz"},
+    {"subject": "ent-217", "predicate": "participatesIn", "object": "ent-222", "source_id": "src-574", "date": "2026-04-28", "confidence": 0.90, "type": "explicit", "label": "Mordashov's yacht transits Hormuz"},
+    {"subject": "ent-222", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-574", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Transit through Hormuz"},
+    {"subject": "ent-218", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-575", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Akraminia is Iran Army spokesman"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-220", "source_id": "src-571", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Trump claims Iran collapse"},
+    {"subject": "ent-220", "predicate": "opposes", "object": "ent-002", "source_id": "src-571", "date": "2026-04-28", "confidence": 0.85, "type": "explicit", "label": "Collapse claim targets Iran"},
+    {"subject": "ent-035", "predicate": "participatesIn", "object": "ent-219", "source_id": "src-570", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "UAE exits OPEC"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-016", "source_id": "src-576", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Israel evacuates Lebanon towns"},
+    {"subject": "ent-219", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-577", "date": "2026-04-28", "confidence": 0.80, "type": "explicit", "label": "OPEC exit linked to Hormuz/oil surge"},
+    {"subject": "ent-217", "predicate": "relatedTo", "object": "ent-009", "source_id": "src-574", "date": "2026-04-28", "confidence": 0.85, "type": "explicit", "label": "Mordashov linked to Russia"},
+    {"subject": "ent-214", "predicate": "opposes", "object": "ent-216", "source_id": "src-580", "date": "2026-04-28", "confidence": 0.80, "type": "explicit", "label": "Gargash criticizes GCC response"},
+    {"subject": "ent-218", "predicate": "opposes", "object": "ent-220", "source_id": "src-575", "date": "2026-04-28", "confidence": 0.85, "type": "explicit", "label": "Akraminia contradicts Trump collapse claim"},
+    {"subject": "ent-219", "predicate": "opposes", "object": "ent-213", "source_id": "src-570", "date": "2026-04-28", "confidence": 0.90, "type": "explicit", "label": "UAE exit weakens OPEC"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-571", "date": "2026-04-28", "confidence": 0.90, "type": "explicit", "label": "Trump pressure on Iran continues"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-016", "source_id": "src-576", "date": "2026-04-28", "confidence": 0.95, "type": "explicit", "label": "Israel-Hezbollah Day 12"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-219", "predicate": "causedBy", "object": "ent-002", "source_id": null, "date": "2026-04-28", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "label": "UAE OPEC exit caused by Iran war/attacks"},
+    {"subject": "ent-217", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "source_id": null, "date": "2026-04-28", "confidence": 0.72, "type": "inferred", "rule": "transitivity", "label": "Mordashov-Russia-Iran connection enables Hormuz transit"},
+    {"subject": "ent-214", "predicate": "potentialRelation", "object": "ent-219", "source_id": null, "date": "2026-04-28", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "label": "Gargash criticism + OPEC exit: likely coordinated UAE strategy"},
+    {"subject": "ent-221", "predicate": "potentialRelation", "object": "ent-209", "source_id": null, "date": "2026-04-28", "confidence": 0.73, "type": "inferred", "rule": "co_participation", "label": "UN call and Iran Hormuz proposal converge on same objective"},
+    {"subject": "ent-220", "predicate": "opposes", "object": "ent-209", "source_id": null, "date": "2026-04-28", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "label": "Trump collapse claim undermines Iran's negotiating position from proposal"}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 18,
+    "inferred_edges": 5
+  }
+}

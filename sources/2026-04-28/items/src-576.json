@@ -1,0 +1,20 @@
+{
+  "id": "src-576",
+  "title": "Israel orders fresh evacuations in south Lebanon — Day 12 ceasefire violations",
+  "url": "https://english.alarabiya.net/News/middle-east/2026/04/28/israeli-military-orders-more-than-a-dozen-towns-in-southern-lebanon-to-evacuate",
+  "snippet": "Israel's military warned residents of more than a dozen villages and towns in southern Lebanon to immediately evacuate and head northwards, saying it would respond to Hezbollah's 'violation of the ceasefire'. IDF: 'does not intend to harm you, and out of concern for your safety, you are required to evacuate immediately and move toward the Sidon District.' Day 12 of ceasefire; total killed since March 2: 2,491; wounded: 7,719.",
+  "source_name": "Al Arabiya",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "update",
+  "related_report": "2026-04-27/src-551",
+  "related_item": "src-551",
+  "tag_reason": "레바논 휴전 위반의 후속 보도. Day 12 신규 강제 퇴거 명령은 새 정보.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "actor"},
+    {"id": "ent-016", "type": "Organization", "name": "Hezbollah", "role": "cited reason"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-016"}
+  ]
+}

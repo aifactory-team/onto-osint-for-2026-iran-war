@@ -851,3 +851,45 @@
 
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티/관계는 기존 seed 스키마로 충분히 표현 가능
+
+---
+
+## 2026-04-28 추론 결과
+
+### 추론 #1: event_chain (UAE OPEC 탈퇴 ← 이란 전쟁)
+- **입력:** (ent-219/UAE OPEC Exit, relatedTo, ent-008/Hormuz), (ent-002/Iran, opposes, ent-035/UAE — 2,256 drones + 563 missiles)
+- **추론:** (ent-219/UAE OPEC Exit, causedBy, ent-002/Iran war attacks)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** UAE는 이란 전쟁에서 가장 많은 공격을 받은 GCC 국가(드론 2,256기, 미사일 563기). GCC '역대 최약' 대응에 불만 → 독자 노선 선택 → OPEC 탈퇴로 에너지 정책 자율화. 전쟁이 걸프 동맹 구조를 재편하는 인과 체인.
+
+### 추론 #2: transitivity (모르다쇼프 → 러시아 → 이란 연결)
+- **입력:** (ent-217/Mordashov, relatedTo, ent-009/Russia), (ent-009/Russia, cooperatesWith, ent-002/Iran — 4/27 푸틴-아라그치 회담)
+- **추론:** (ent-217/Mordashov, indirectlyAffiliatedWith, ent-002/Iran — Nord 호르무즈 통과 가능 이유)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 러시아 제재 대상 억만장자의 $500M 요트가 이란+미국 이중 봉쇄를 무사히 통과한 것은 러시아-이란 군사 협력(GRU 참석 4/27)의 연장선에서 양측 모두 러시아 선박에 특혜를 부여했음을 시사. 봉쇄 '선택적 집행'의 증거.
+
+### 추론 #3: co_participation (가르가쉬 비판 + OPEC 탈퇴 = 조율된 UAE 전략)
+- **입력:** (ent-214/Gargash, affiliatedWith, ent-035/UAE), (ent-035/UAE, participatesIn, ent-219/OPEC Exit), (ent-214/Gargash, opposes, ent-216/GCC Summit — 'weakest in history')
+- **추론:** (ent-214/Gargash criticism, potentialRelation, ent-219/OPEC Exit — 조율된 전략)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 가르가쉬의 GCC 비판(4/27)이 GCC 정상회의(4/28) 직전에 나온 것은 타이밍상 OPEC 탈퇴와 조율된 UAE의 독자 노선 선언으로 해석 가능. '실망 → 독립' 서사 구성.
+
+### 추론 #4: co_participation (UN 호르무즈 촉구 ↔ 이란 호르무즈 제안 수렴)
+- **입력:** (ent-221/UN Call, relatedTo, ent-008/Hormuz), (ent-209/Iran Proposal, relatedTo, ent-008/Hormuz)
+- **추론:** (ent-221/UN Call, potentialRelation, ent-209/Iran Proposal — 동일 목표 수렴)
+- **신뢰도:** 0.73
+- **상태:** 확정
+- **비고:** UN의 호르무즈 즉시 개방 요구와 이란의 호르무즈 재개방 제안이 동일한 목표(해협 개방)를 지향. 이란에게 다자적 정당성을 부여하는 구도. 미국은 핵 연계를 고수하므로 UN 압박도 미국 입장 변화에는 직접 영향 제한적이나, 도덕적 고지를 이란에 양보하는 효과.
+
+### 추론 #5: event_chain (트럼프 '붕괴' 주장 vs 이란 제안 무력화)
+- **입력:** (ent-220/Trump Collapse Claim, follows, ent-209/Iran Proposal — 루비오 거부 다음날), (ent-001/Trump, participatesIn, ent-220)
+- **추론:** (ent-220/Collapse Claim, opposes, ent-209/Iran Proposal — 협상 지위 무력화 시도)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 이란 제안(4/27)을 루비오가 거부(4/27)한 다음날 트럼프가 '이란 붕괴' 주장(4/28)을 내놓은 것은, 이란의 제안을 '강자의 제안'이 아닌 '절박한 요청'으로 프레이밍하려는 전략. 이란군 대변인이 즉각 반박('전쟁 상황 지속')한 것도 같은 맥락.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티/관계는 기존 seed 스키마(Entity, Person, Organization, Event, Location, Concept + 9개 관계 유형)로 충분히 표현 가능

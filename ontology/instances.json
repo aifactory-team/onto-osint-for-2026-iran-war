@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-27",
+  "last_updated": "2026-04-28",
   "entities": [
     {
       "id": "ent-001",
@@ -1874,6 +1874,97 @@
       "last_seen": "2026-04-27",
       "mention_count": 5
     }
+    ,
+    {
+      "id": "ent-213",
+      "type": "Organization",
+      "name": "OPEC",
+      "properties": { "type": "international organization", "location": "Vienna", "action_apr28": "Loses UAE as member effective May 1; second exit after Qatar (2019); Saudi-led cartel influence weakened; Iran war caused 7.88M bbl/day supply loss" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-214",
+      "type": "Person",
+      "name": "Anwar Gargash",
+      "properties": { "role": "UAE Senior Foreign Policy Adviser", "affiliation": "United Arab Emirates", "action_apr28": "Slammed GCC response as 'weakest in history'; said containment of Iran 'failed miserably'; expected weak stance from Arab League but not GCC" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-215",
+      "type": "Person",
+      "name": "Mohammed bin Salman (MBS)",
+      "properties": { "role": "Saudi Crown Prince", "affiliation": "Saudi Arabia", "action_apr28": "Chaired GCC consultative summit in Jeddah — first in-person since war began" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-216",
+      "type": "Event",
+      "name": "GCC Jeddah Summit (Apr 28)",
+      "properties": { "date": "2026-04-28", "location": "Jeddah, Saudi Arabia", "participants": "MBS (chair), Qatar Emir, Kuwait Crown Prince, Bahrain King, UAE FM", "significance": "First in-person GCC meeting since war; discusses response to Iranian attacks; amid UAE OPEC exit and Gargash criticism" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-217",
+      "type": "Person",
+      "name": "Alexey Mordashov",
+      "properties": { "role": "Russian billionaire / Severstal chairman", "affiliation": "Russia", "net_worth": "$37B", "action_apr28": "$500M superyacht Nord (142m) transited blockaded Hormuz from Dubai to Muscat over weekend; one of few vessels to pass since conflict began; sanctioned by US/EU" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-218",
+      "type": "Person",
+      "name": "Mohammad Akraminia",
+      "properties": { "role": "Iran Army Spokesperson", "affiliation": "Islamic Republic of Iran Army", "action_apr28": "Stated Iran's armed forces do not view war as fully over; military conditions still in place; IRGC and army 'fully prepared' for further attacks if provoked" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-219",
+      "type": "Event",
+      "name": "UAE OPEC Exit (Apr 28)",
+      "properties": { "date": "2026-04-28 (announced), 2026-05-01 (effective)", "significance": "Nearly 60 years of membership ending; plans to increase production 3.4M→5M bbl/day by 2027; second GCC exit after Qatar (2019); weakens Saudi-led cartel; driven by Gargash 'weakest response' frustration and Iran war realignment" },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-220",
+      "type": "Event",
+      "name": "Trump 'State of Collapse' Claim (Apr 28)",
+      "properties": { "date": "2026-04-28", "detail": "Trump Truth Social: 'Iran has just informed us that they are in a State of Collapse. They want us to Open the Hormuz Strait ASAP as they try to figure out their leadership situation.' Unconfirmed by Tehran. Iran losing >$400M/day. Iran army spokesman directly contradicted: 'still in war situation'." },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-221",
+      "type": "Event",
+      "name": "UN Hormuz Reopening Call (Apr 28)",
+      "properties": { "date": "2026-04-28", "detail": "Guterres addressed UNSC calling for immediate/unimpeded Hormuz reopening. Warned of global food emergency. Dozens of countries joined call. 20% of global LNG/oil transit disrupted. Millions in Africa/South Asia at hunger risk." },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-222",
+      "type": "Event",
+      "name": "Nord Superyacht Hormuz Transit (Apr 26-27)",
+      "properties": { "date": "2026-04-26~27", "detail": "Mordashov's $500M superyacht Nord (142m) departed Dubai Friday, arrived Muscat Sunday transiting blockaded Hormuz. One of few private vessels to pass. Raises questions about blockade enforcement consistency and Russia's privileged access." },
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "mention_count": 5
+    }
   ],
-  "total_count": 212
+  "total_count": 222
 }

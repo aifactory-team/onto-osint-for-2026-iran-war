@@ -1,0 +1,22 @@
+{
+  "id": "src-573",
+  "title": "UN chief calls for immediate reopening of Strait of Hormuz — warns of global food emergency",
+  "url": "https://www.muscatdaily.com/2026/04/28/un-chief-calls-for-immediate-reopening-of-strait-of-hormuz/",
+  "snippet": "UN Secretary-General António Guterres addressed the Security Council calling for urgent and unimpeded reopening of the Strait of Hormuz. Warned the continued closure is inflicting severe humanitarian toll — if passage remains blocked, millions in Africa and South Asia risk being pushed into hunger and poverty. Dozens of countries joined the call. 20% of global LNG and oil transit has been disrupted since February.",
+  "source_name": "Muscat Daily",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "구테흐스의 호르무즈 즉시 개방 촉구는 신규 사건. 이전 소스에 없음.",
+  "entities": [
+    {"id": "temp-006", "type": "Person", "name": "António Guterres", "role": "speaker"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "subject"},
+    {"id": "temp-016", "type": "Event", "name": "UN Hormuz Reopening Call", "role": "main event"}
+  ],
+  "relations": [
+    {"subject": "temp-006", "predicate": "participatesIn", "object": "temp-016"},
+    {"subject": "temp-016", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-28",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "United Arab Emirates (UAE)",
+      "properties": {"type": "state", "location": "Gulf", "action": "OPEC/OPEC+ withdrawal effective May 1; plans to increase production from 3.4M to 5M bbl/day by 2027"},
+      "source_ids": ["src-570", "src-580", "src-585", "src-586", "src-587", "src-596", "src-597", "src-600"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "OPEC",
+      "properties": {"type": "international organization", "action": "loses UAE as member effective May 1; influence weakened after Qatar (2019) and now UAE exit"},
+      "source_ids": ["src-570", "src-585", "src-586", "src-587", "src-596", "src-597", "src-600"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Anwar Gargash",
+      "properties": {"role": "UAE Senior Foreign Policy Adviser", "affiliation": "United Arab Emirates", "action": "slammed GCC response as 'weakest in history'; said containment of Iran 'failed miserably'"},
+      "source_ids": ["src-580", "src-572"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammed bin Salman (MBS)",
+      "properties": {"role": "Saudi Crown Prince", "affiliation": "Saudi Arabia", "action": "chaired GCC consultative meeting in Jeddah"},
+      "source_ids": ["src-572", "src-590", "src-591"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "GCC Jeddah Summit 2026-04-28",
+      "properties": {"date": "2026-04-28", "location": "Jeddah, Saudi Arabia", "participants": "MBS, Qatar Emir, Kuwait Crown Prince, Bahrain King, UAE FM", "significance": "First in-person meeting since war began"},
+      "source_ids": ["src-572", "src-590", "src-591"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Person",
+      "name": "António Guterres",
+      "properties": {"role": "UN Secretary-General", "affiliation": "United Nations", "action": "called for immediate reopening of Hormuz; warned of global food emergency"},
+      "source_ids": ["src-573", "src-594"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Alexey Mordashov",
+      "properties": {"role": "Russian billionaire", "affiliation": "Severstal", "net_worth": "$37B", "action": "$500M superyacht Nord transited Hormuz from Dubai to Muscat"},
+      "source_ids": ["src-574", "src-592", "src-593"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Nord Superyacht Transit",
+      "properties": {"domain": "maritime/blockade enforcement", "significance": "Demonstrates selective enforcement of Hormuz blockade; questions US Navy consistency"},
+      "source_ids": ["src-574", "src-592", "src-593"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Akraminia",
+      "properties": {"role": "Iran Army Spokesperson", "affiliation": "Islamic Republic of Iran Army", "action": "stated Iran is 'still in war situation'; military conditions still in place"},
+      "source_ids": ["src-575"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr28": "Truth Social: 'Iran has just informed us that they are in a State of Collapse'; claims Iran wants Hormuz open ASAP; references 'leadership situation'; dissatisfied with Iran proposal"},
+      "source_ids": ["src-571", "src-577", "src-582", "src-583", "src-588", "src-589"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_apr28": "Army says 'still in war situation'; losing >$400M/day under blockade; running out of oil storage; Trump claims collapse (unconfirmed by Tehran)"},
+      "source_ids": ["src-571", "src-575", "src-577", "src-582", "src-583", "src-584"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_apr28": "dual blockade continues; Nord superyacht transit raises enforcement questions; UN calls for immediate reopening; Bloomberg: US can't reopen alone; Brent $111.26"},
+      "source_ids": ["src-571", "src-573", "src-574", "src-577", "src-581", "src-582"],
+      "mention_count": 22
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_apr28": "orders fresh evacuations of dozen+ towns in south Lebanon; Day 12 of ceasefire violations"},
+      "source_ids": ["src-576", "src-598"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "UAE OPEC Exit",
+      "properties": {"date": "2026-04-28 (announced), 2026-05-01 (effective)", "significance": "Almost 60 years of membership ending; plans 3.4M→5M bbl/day; weakens Saudi-led cartel; 2nd exit after Qatar 2019"},
+      "source_ids": ["src-570", "src-585", "src-586", "src-587"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Iran Collapse Claim",
+      "properties": {"date": "2026-04-28", "significance": "Unconfirmed by Tehran; possible pressure tactic; references $400M/day losses and 'leadership situation'"},
+      "source_ids": ["src-571", "src-588", "src-589"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Event",
+      "name": "UN Hormuz Reopening Call",
+      "properties": {"date": "2026-04-28", "significance": "Guterres warns of food emergency; dozens of countries support; signals multilateral pressure on both US and Iran"},
+      "source_ids": ["src-573", "src-594"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "opposes", "object": "temp-002", "source_ids": ["src-570"], "confidence": 0.95},
+    {"subject": "temp-003", "predicate": "affiliatedWith", "object": "temp-001", "source_ids": ["src-580"], "confidence": 0.95},
+    {"subject": "temp-004", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-572"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-573"], "confidence": 0.95},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "temp-008", "source_ids": ["src-574"], "confidence": 0.90},
+    {"subject": "temp-010", "predicate": "participatesIn", "object": "temp-015", "source_ids": ["src-571"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-572"], "confidence": 0.90},
+    {"subject": "temp-009", "predicate": "affiliatedWith", "object": "temp-011", "source_ids": ["src-575"], "confidence": 0.95},
+    {"subject": "temp-013", "predicate": "opposes", "object": "ent-016", "source_ids": ["src-576"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "participatesIn", "object": "temp-014", "source_ids": ["src-570"], "confidence": 0.95},
+    {"subject": "temp-010", "predicate": "opposes", "object": "temp-011", "source_ids": ["src-571", "src-582"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 10,
+    "matched_entities": 6,
+    "total_relations": 11
+  }
+}

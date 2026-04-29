@@ -1,0 +1,22 @@
+{
+  "id": "src-575",
+  "title": "Iran's armed forces do not view war as over — 'still in war situation'",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/4/28/iran-war-live-trump-reviews-peace-plan-un-calls-for-hormuz-to-reopen",
+  "snippet": "Islamic Republic Army Spokesman Mohammad Akraminia stated Iran's armed forces do not view the war with the United States as fully over — military conditions are still in place. IRGC and traditional army remain fully prepared to launch many more missiles and drones at regional countries and US forces if US/Israel try to take Iran 'back to the Stone Age' through more strikes. Statement contradicts Trump's 'State of Collapse' claim.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란군 대변인의 '��쟁 상황 지속' 성명은 신규. 트럼프 붕괴 주장에 대한 직접 반박.",
+  "entities": [
+    {"id": "temp-009", "type": "Person", "name": "Mohammad Akraminia", "role": "spokesperson"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "subject"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "referenced force"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "temp-009", "predicate": "opposes", "object": "temp-015"}
+  ]
+}

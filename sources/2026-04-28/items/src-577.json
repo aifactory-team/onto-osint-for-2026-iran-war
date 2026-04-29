@@ -1,0 +1,20 @@
+{
+  "id": "src-577",
+  "title": "Oil: Brent $111.26 (+3%), WTI $99.93 (+3%); Trump dissatisfied with Iran proposal",
+  "url": "https://www.cnbc.com/2026/04/28/oil-prices-us-iran-hormuz-negotiations-wti-brent-crude.html",
+  "snippet": "Brent crude futures advanced nearly 3% to settle at $111.26. WTI jumped more than 3% to close at $99.93 (near $100 intraday). Surge driven by report that Trump is dissatisfied with Iran's proposal to open Hormuz, stalled peace efforts, and UAE OPEC exit adding market uncertainty. Brent +55% since war began Feb 28.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "update",
+  "related_report": "2026-04-27/src-549",
+  "related_item": "src-549",
+  "tag_reason": "유가 지속 추적. Brent $108→$111 (+3%), WTI 거의 $100 도달은 새 수치.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "cause"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "market driver"}
+  ],
+  "relations": [
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "temp-014"}
+  ]
+}

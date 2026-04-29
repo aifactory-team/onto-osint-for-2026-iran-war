@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-27",
+  "last_updated": "2026-04-28",
   "classes": [
     {
       "id": "Entity",
@@ -187,6 +187,13 @@
       "target": "9 new entities (ent-204~ent-212)",
       "reason": "루비오 이란 호르무즈 제안 거부('수용 불가'), 메르츠 독일 총리('미국 굴욕'), 코스튜코프(GRU)/우샤코프/라브로프(푸틴-아라그치 회담 배석), 이란 호르무즈 재개방 제안(핵 협상 후순위), 아라그치-푸틴 상트페테르부르크 회담(하메네이 메시지 전달), IDF 베카 밸리 3주 만 첫 공습(~20곳), 핵 후순위 전략 개념",
       "source_ids": ["src-538", "src-540", "src-541", "src-542", "src-543", "src-544", "src-545", "src-547"]
+    },
+    {
+      "date": "2026-04-28",
+      "action": "add_instances",
+      "target": "10 new entities (ent-213~ent-222)",
+      "reason": "OPEC(UAE 탈퇴 대상 조직), 안와르 가르가쉬(UAE 고문·GCC '역대 최약' 비판), 무함마드 빈 살만(GCC 의장), GCC 제다 정상회의(전쟁 후 첫 대면), 알렉세이 모르다쇼프(러시아 억만장자·Nord 요트 호르무즈 통과), 모하마드 아크라미니아(이란군 대변인·'전쟁 상황 지속'), UAE OPEC 탈퇴 사건, 트럼프 '이란 붕괴' 주장, UN 호르무즈 즉시 개방 촉구, Nord 요트 호르무즈 통과 사건",
+      "source_ids": ["src-570", "src-571", "src-572", "src-573", "src-574", "src-575", "src-577", "src-580", "src-581"]
     }
   ]
 }

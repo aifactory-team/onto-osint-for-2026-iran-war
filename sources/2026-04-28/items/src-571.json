@@ -1,0 +1,23 @@
+{
+  "id": "src-571",
+  "title": "Donald Trump says Iran in 'state of collapse,' wants Strait of Hormuz open",
+  "url": "https://thehill.com/homenews/administration/5852711-trump-iran-collapsing-strait-of-hormuz/",
+  "snippet": "President Trump posted on Truth Social: 'Iran has just informed us that they are in a State of Collapse. They want us to Open the Hormuz Strait, as soon as possible, as they try to figure out their leadership situation.' No official confirmation from Tehran. Iran losing over $400M/day under blockade and running out of oil storage capacity.",
+  "source_name": "The Hill",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 '이란 붕괴' 주장은 오늘 새로운 발언. 이전 소스에 동일 내용 없음.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "claimant"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "subject of claim"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "referenced location"},
+    {"id": "temp-015", "type": "Event", "name": "Trump Iran Collapse Claim", "role": "main event"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-015"},
+    {"subject": "temp-015", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

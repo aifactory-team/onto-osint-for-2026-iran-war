@@ -1,0 +1,17 @@
+{
+  "id": "src-578",
+  "title": "S&P 500 falls 0.49% to 7,138.80; Nasdaq -0.90%; OpenAI weakness + oil surge",
+  "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-28-2026-updates",
+  "snippet": "S&P 500 fell 0.49% to 7,138.80, snapping a record streak. Nasdaq Composite dropped 0.90% to 24,663.80. Dow slipped 0.05% to 49,141.93. Tech stocks slid on WSJ report that OpenAI revenue and new user growth below targets; CFO Friar concerned about computing contract affordability. Oil surge ($111 Brent) added pressure. Coca-Cola +4% on earnings partially offset losses.",
+  "source_name": "TheStreet",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "시장 반전(전일 사상 최고→하락)은 신규 사건.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "oil supply cause"}
+  ],
+  "relations": []
+}
