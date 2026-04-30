@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "entities": [
     {
       "id": "ent-001",
@@ -1966,5 +1966,70 @@
       "mention_count": 5
     }
   ],
-  "total_count": 222
+  "total_count": 229
+},
+{
+  "id": "ent-223",
+  "type": "Person",
+  "name": "Eyal Zamir",
+  "properties": { "role": "IDF Chief of Staff", "rank": "Lt. Gen.", "affiliation": "Israel Defense Forces", "action_apr29": "visited southern Lebanon, declared 'on the combat front, there is no ceasefire', ordered troops to act with 'freedom of action' including beyond Yellow Line and north of Litani River" },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 5
+},
+{
+  "id": "ent-224",
+  "type": "Event",
+  "name": "Hegseth Congressional Hearing (Apr 29)",
+  "properties": { "date": "2026-04-29", "location": "Rayburn House Office Building, Washington DC", "participants": "Pete Hegseth, Dan Caine, House Armed Services Committee", "detail": "First hearing since war began. War cost $25 billion disclosed. Rep. Garamendi: 'lying from day one'. Hegseth called Democrats 'biggest adversary'. Declined to provide victory timeline. Pentagon munitions drawdown criticized.", "cost": "$25 billion" },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 18
+},
+{
+  "id": "ent-225",
+  "type": "Event",
+  "name": "FOMC April 2026 Rate Decision",
+  "properties": { "date": "2026-04-29", "rate": "3.5%-3.75% (held)", "vote": "8-4", "detail": "First 4-member FOMC dissent since October 1992. 3 dissenters wanted easing bias removed, 1 (Miran) wanted 25bp cut. Statement: 'Inflation elevated, in part reflecting global energy prices'. Powell announced staying on Board indefinitely.", "significance": "Iran war cited as 'high level of uncertainty' for economic outlook" },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 10
+},
+{
+  "id": "ent-226",
+  "type": "Event",
+  "name": "Iran 'Practical Action' Threat (Apr 29)",
+  "properties": { "date": "2026-04-29", "source": "unnamed senior security source via Press TV", "detail": "Iran threatens 'practical and unprecedented action' against US naval blockade. Response to Trump's vow to maintain blockade until nuclear deal. No specifics given.", "significance": "Highest-level Iran military threat since IRGC ship seizures Apr 22" },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 5
+},
+{
+  "id": "ent-227",
+  "type": "Event",
+  "name": "Lebanon Double-Tap Strike on Rescue Workers (Apr 29)",
+  "properties": { "date": "2026-04-29", "location": "southern Lebanon", "detail": "Israeli strikes killed 8 including 3 Lebanese Civil Defence rescue workers in double-tap strike. PM slammed as 'war crimes'. Day 13 of ceasefire. Total war deaths: 2,534, wounded: 7,863.", "ceasefire_day": 13 },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 8
+},
+{
+  "id": "ent-228",
+  "type": "Person",
+  "name": "Jerome Powell",
+  "properties": { "role": "Federal Reserve Chair", "affiliation": "Federal Reserve", "action_apr29": "announced staying on Board of Governors indefinitely after FOMC decision; Trump's legal attacks 'left me no choice'" },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 6
+},
+{
+  "id": "ent-229",
+  "type": "Person",
+  "name": "John Garamendi",
+  "properties": { "role": "US Representative (D-CA)", "affiliation": "Democratic Party / House Armed Services Committee", "action_apr29": "confronted Hegseth: 'Secretary Hegseth, you have been lying to the American public about this war from day one, and so has the President'" },
+  "first_seen": "2026-04-29",
+  "last_seen": "2026-04-29",
+  "mention_count": 3
+}
+]
 }

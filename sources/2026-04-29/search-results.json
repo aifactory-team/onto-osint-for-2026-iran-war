@@ -1,0 +1,159 @@
+{
+  "date": "2026-04-29",
+  "collected_at": "2026-04-29T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 72,
+  "expanded_keywords": ["Trump blockade Iran", "Hormuz shipping", "Hegseth hearing", "FOMC rate decision", "Lebanon ceasefire IDF", "UAE OPEC exit", "WPR deadline", "이란 전쟁 봉쇄", "호르무즈 유가"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war April 29 2026 latest news Hormuz blockade",
+      "language": "en",
+      "timestamp": "2026-04-29T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Visualizing shipping through the Strait of Hormuz since war began", "url": "https://www.cnn.com/2026/04/29/world/iran-war-gulf-hormuz-shipping-maps-intl-vis", "snippet": "Traffic through Hormuz at 5% of pre-war average", "source_name": "CNN"},
+        {"title": "Trump vows to maintain Iran blockade, Tehran threatens 'practical' action", "url": "https://www.aljazeera.com/news/2026/4/29/trump-vows-to-maintain-iran-blockade-tehran-threaten-practical-action", "snippet": "Trump rejects Iran Hormuz proposal, Iran threatens practical action", "source_name": "Al Jazeera"},
+        {"title": "Iran Asks US to Lift Hormuz Blockade as War Talks Continue", "url": "https://www.bloomberg.com/news/articles/2026-04-28/trump-says-iran-wants-hormuz-open-amid-efforts-to-end-war", "snippet": "Trump says Iran wants Hormuz open", "source_name": "Bloomberg"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war negotiations WPR May 1 deadline 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Scoop: Democrats May Sue Trump Over 'Illegal' Iran War", "url": "https://time.com/article/2026/04/28/exclusive-democrats-explore-suing-trump-if-congress-doesn-t-authorize-iran-war/", "snippet": "Democrats explore suing Trump over WPR violation", "source_name": "Time"},
+        {"title": "In Hostile Hearing, Democrats Accuse Hegseth of Misleading Public on Iran War Progress", "url": "https://time.com/article/2026/04/29/in-hostile-hearing-democrats-accuse-hegseth-of-misleading-trump-and-country-on-iran-war-progress/", "snippet": "First hearing since war began, war cost $25B", "source_name": "Time"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 4월 29일 호르무즈 봉쇄",
+      "language": "ko",
+      "timestamp": "2026-04-29T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란전 비용 첫 공개…트럼프 발목 잡는 '37조원 전쟁'", "url": "https://www.fnnews.com/news/202604300059093139", "snippet": "이란전 비용 $25B 첫 공개", "source_name": "파이낸셜뉴스"},
+        {"title": "트럼프 \"이란 붕괴 상태\"‥미 유가 '천정부지'", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6818719_37012.html", "snippet": "유가 급등, 트럼프 이란 봉쇄 지속", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "UAE OPEC exit aftermath oil prices April 29 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil prices rise despite UAE exit from OPEC as Iran war ceasefire hangs in balance", "url": "https://www.euronews.com/business/2026/04/29/oil-prices-rise-despite-uae-exit-from-opec-as-iran-war-ceasefire-hangs-in-balance", "snippet": "Oil prices initially fell 2-3% on UAE exit then offset by risk premium", "source_name": "Euronews"},
+        {"title": "Shocking UAE exit rocks OPEC, but group will still hold significant sway", "url": "https://www.cnbc.com/2026/04/29/shocking-uae-exit-rocks-opec-but-group-will-still-hold-significant-sway-over-the-oil-market.html", "snippet": "OPEC will survive UAE exit", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire Israel Hezbollah April 29 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IDF chief says there's 'no ceasefire' in south Lebanon", "url": "https://www.timesofisrael.com/idf-chief-says-theres-no-ceasefire-in-south-lebanon-amid-continued-fighting-with-hezbollah/", "snippet": "Lt Gen Zamir: no ceasefire in south Lebanon", "source_name": "Times of Israel"},
+        {"title": "Israeli strikes kill eight in southern Lebanon, including three rescue workers", "url": "https://www.euronews.com/2026/04/29/israeli-strikes-kill-eight-in-southern-lebanon-including-three-rescue-workers", "snippet": "8 killed including 3 rescue workers in double-tap strike", "source_name": "Euronews"},
+        {"title": "Lebanon's PM slams Israel's 'war crimes' as attack kills 3 rescue workers", "url": "https://www.aljazeera.com/news/2026/4/29/lebanons-pm-slams-israels-war-crimes-as-attack-kills-3-rescue-workers", "snippet": "Lebanon PM calls attacks war crimes", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran war practical action April 29 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Live updates: Iran war news, UAE quits OPEC, Trump says Iran 'better get smart soon'", "url": "https://www.cnn.com/2026/04/29/world/live-news/iran-war-peace-proposal-trump", "snippet": "Trump: better get smart soon", "source_name": "CNN"},
+        {"title": "Iran war live: Trump threatens Iran to 'get smart soon'", "url": "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics", "snippet": "Iran threatens practical and unprecedented action", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war Democrats sue Trump War Powers 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "In Hostile Hearing, Democrats Accuse Hegseth of Misleading Public on Iran War Progress", "url": "https://time.com/article/2026/04/29/in-hostile-hearing-democrats-accuse-hegseth-of-misleading-trump-and-country-on-iran-war-progress/", "snippet": "Democrats accuse Hegseth of misleading", "source_name": "Time"},
+        {"title": "Hegseth calls congressional Democrats 'biggest adversary' in Iran war", "url": "https://www.pbs.org/newshour/politics/watch-hegseth-calls-congressional-democrats-some-republicans-biggest-adversary-in-iran-war", "snippet": "Hegseth calls Democrats biggest adversary", "source_name": "PBS"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "stock market S&P 500 oil prices April 29 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Stock market today: Dow, S&P 500 slip as oil surges, Big Tech earnings on deck", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednesday-april-29-dow-nasdaq-sp-futures-powell-mag7-231405065.html", "snippet": "S&P 500 -0.04%, Big Tech earnings + oil surge", "source_name": "Yahoo Finance"},
+        {"title": "S&P 500 Holds Steady as Big Tech Earnings, Fed Decision and Oil Prices Collide", "url": "https://247wallst.com/investing/2026/04/29/sp-500-holds-steady-as-big-tech-earnings-fed-decision-and-oil-prices-collide/", "snippet": "S&P 500 holds steady amid crosscurrents", "source_name": "24/7 Wall St."}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hegseth hearing Democrats misleading Iran war April 29 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "'A strategic blunder': Democrats confront Hegseth as war's price tag hits $25 billion", "url": "https://fortune.com/2026/04/29/congress-democrats-confront-pete-hegseth-iran-war-25-billion/", "snippet": "War cost $25B, Democrats confront Hegseth", "source_name": "Fortune"},
+        {"title": "Lawmakers question Hegseth's Pentagon firings, leadership of Iran war", "url": "https://www.washingtonpost.com/national-security/2026/04/29/hegseth-house-hearing-iran-live-updates/", "snippet": "Lawmakers question Pentagon firings", "source_name": "Washington Post"},
+        {"title": "Hegseth defends Iran war's mission, costs in first testimony since conflict began", "url": "https://www.cnbc.com/2026/04/29/iran-war-hegseth-caine-house-congress.html", "snippet": "Hegseth and Caine first congressional testimony", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Brent oil $119 Iran blockade practical action April 29 2026",
+      "language": "en",
+      "timestamp": "2026-04-29T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Brent oil tops $118 after Trump says he will blockade Iran until nuclear deal", "url": "https://www.cnbc.com/2026/04/29/oil-prices-brent-wti-trump-iran.html", "snippet": "Brent tops $118, Trump vows continued blockade", "source_name": "CNBC"},
+        {"title": "Oil Charges Toward $120 With No End in Sight to US-Iran War", "url": "https://www.bloomberg.com/news/articles/2026-04-29/brent-oil-hits-highest-since-june-2022-on-us-iran-stalemate", "snippet": "Brent highest since June 2022", "source_name": "Bloomberg"},
+        {"title": "Brent edges closer to $120 amid US-Iran standoff", "url": "https://www.thenationalnews.com/business/energy/2026/04/29/brent-edges-closer-to-120-amid-us-iran-standoff/", "snippet": "Brent $119.20 as of 8pm UAE time", "source_name": "The National"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Fed interest rate decision April 29 2026 FOMC",
+      "language": "en",
+      "timestamp": "2026-04-29T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Fed interest rate decision April 2026: Fed holds rates steady amid dissent", "url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html", "snippet": "Fed holds 3.5-3.75%, 8-4 split first since 1992", "source_name": "CNBC"},
+        {"title": "Fed meeting recap: Powell to stay on board", "url": "https://www.cnbc.com/2026/04/29/fed-meeting-today-live-updates-warsh-powell.html", "snippet": "Powell says legal attacks left me no choice, staying", "source_name": "CNBC"},
+        {"title": "Fed holds rates steady as Powell's chairmanship winds down", "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026", "snippet": "Powell's chairmanship winds down", "source_name": "Fox Business"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 유가 119달러 트럼프 봉쇄 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-29T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란전 비용 첫 공개…트럼프 발목 잡는 '37조원 전쟁'", "url": "https://www.fnnews.com/news/202604300059093139", "snippet": "이란전 비용 $25B(37조원) 첫 공개", "source_name": "파이낸셜뉴스"},
+        {"title": "이란 전쟁 종료돼도 인플레이션 압력 지속된다", "url": "https://www.deloitte.com/kr/ko/our-thinking/global-economic-review/ger-2026-04-4th.html", "snippet": "딜로이트 글로벌경제리뷰: 전쟁 후에도 인플레 지속", "source_name": "Deloitte Korea"}
+      ]
+    }
+  ]
+}

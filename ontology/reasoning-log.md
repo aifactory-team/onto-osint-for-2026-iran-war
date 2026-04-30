@@ -893,3 +893,46 @@
 
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티/관계는 기존 seed 스키마(Entity, Person, Organization, Event, Location, Concept + 9개 관계 유형)로 충분히 표현 가능
+
+---
+
+## 2026-04-29 추론 결과
+
+### 추론 #72: event_chain (헤그세스 청문회 ← WPR Day 60)
+- **입력:** (ent-181/WPR May 1 Deadline, day=60 reached Apr 29), (ent-224/Hegseth Hearing, date=2026-04-29)
+- **추론:** (ent-224/Hegseth Congressional Hearing, causedBy, ent-181/WPR May 1 Deadline)
+- **신뢰도:** 0.82
+- **상태:** 확정
+- **비고:** WPR 60일 도달(4/29)이 의회의 첫 전쟁 청문회를 촉발. 민주당은 $25B 비용 공개를 활용하여 행정부의 '불법 전쟁' 프레이밍을 강화. 소송 위협(Blumenthal)과 시기적 연동. 청문회-WPR-소송이 삼중 압박 구조를 형성.
+
+### 추론 #73: event_chain (이란 '실질 행동' ← 트럼프 봉쇄 명시화)
+- **입력:** (ent-001/Trump, vows blockade until nuclear deal), (ent-226/Iran Practical Action Threat, follows, Trump vow)
+- **추론:** (ent-226/Iran Practical Action Threat, causedBy, Trump Blockade-Until-Nuclear-Deal policy)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 트럼프의 '핵 딜까지 봉쇄' 명시 → 이란 '실질적 전례 없는 행동' 위협. 같은 뉴스 사이클 내의 직접 인과. 이란의 위협은 4/22 IRGC 선박 나포, 4/18 Sanmar Herald 발포에 이은 에스컬레이션 경로의 다음 단계일 수 있음. '전례 없는'이라는 수식어는 기존 해상 행동(나포/발포)을 넘어서는 것을 시사.
+
+### 추론 #74: event_chain (FOMC 분열 ← 이란 전쟁 → 에너지 → 인플레)
+- **입력:** (ent-015/2026 Iran War) → (ent-008/Hormuz blockade) → (Oil $119) → (ent-225/FOMC cites "elevated inflation from global energy prices")
+- **추론:** (ent-225/FOMC April Decision, causedBy, ent-015/2026 Iran War — via energy prices)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** FOMC 성명이 '글로벌 에너지 가격 상승'을 인플레이션 원인으로 명시적 인용. 8-4 분열(34년 만 최대)은 전쟁→에너지→인플레→통화정책 연쇄의 최종 단계. 전쟁이 미국 국내 경제 정책에 구조적으로 영향을 미치는 공식 경로.
+
+### 추론 #75: event_chain (IDF '휴전 없다' ← 3주 연장 역설)
+- **입력:** (ent-172/3-Week Extension, date=2026-04-23), (ent-223/Zamir 'no ceasefire', date=2026-04-29, follows ent-172)
+- **추론:** (ent-223/Zamir Statement, opposes, ent-172/3-Week Ceasefire Extension)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** IDF 참모총장이 공식 휴전 기간에 '휴전은 없다'고 선언한 것은 군사-외교 괴리의 극단적 사례. 옐로 라인 너머와 리타니 강 북쪽까지 '자유 행동'을 지시한 것은 이스라엘이 휴전을 작전 범위 확대의 도구로 활용함을 군 최고사령관 수준에서 확인. Day 13에 구조대원 이중타격(3명 사망)은 이 전략의 실행.
+
+### 추론 #76: event_chain (이중타격 ← Day 10 ← Day 8 ← 3주 연장)
+- **입력:** (ent-172/3-Week Extension) → (ent-186/Day 8 Violations) → (ent-201/Day 10 Fooks+14) → (ent-227/Day 13 Double-Tap)
+- **추론:** (ent-227/Day 13 Double-Tap Strike, causalChain, ent-172/3-Week Ceasefire Extension)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 3주 연장(4/23) → Day 8 위반(4/24, 8명) → Day 10(4/26, Fooks 전사+14명) → Day 13(4/29, 구조대원 이중타격+8명). 사상자 증가 트렌드(8→14+→8). 이중타격(double-tap)은 구조대원을 의도적 표적으로 삼는 전술로, 레바논 PM의 '전쟁 범죄' 비난의 근거. 사상자 총계 2,534명 사망, 7,863명 부상.
+
+### 스키마 변경 없음
+- 7개 새 엔티티 모두 기존 클래스(Person 3개, Event 4개)로 분류 가능
+- 13개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, opposes, affiliatedWith, relatedTo, mentions, causalChain, potentialRelation)으로 표현 가능

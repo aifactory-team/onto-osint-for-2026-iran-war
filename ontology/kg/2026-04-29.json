@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-29",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "mentions", "object": "Blockade Until Nuclear Deal", "source_id": "src-601", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-226", "source_id": "src-601", "date": "2026-04-29", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "ent-224", "source_id": "src-603", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-229", "predicate": "opposes", "object": "ent-104", "source_id": "src-603", "date": "2026-04-29", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-224", "predicate": "relatedTo", "object": "ent-015", "source_id": "src-603", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-228", "predicate": "affiliatedWith", "object": "Federal Reserve", "source_id": "src-604", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-225", "predicate": "relatedTo", "object": "ent-015", "source_id": "src-604", "date": "2026-04-29", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-223", "predicate": "affiliatedWith", "object": "ent-004", "source_id": "src-607", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-223", "predicate": "opposes", "object": "Hezbollah", "source_id": "src-607", "date": "2026-04-29", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "causedBy", "object": "ent-227", "source_id": "src-606", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-601", "date": "2026-04-29", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "Hormuz Shipping Collapse", "source_id": "src-605", "date": "2026-04-29", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-105", "predicate": "participatesIn", "object": "ent-224", "source_id": "src-618", "date": "2026-04-29", "confidence": 0.90, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-601", "date": "2026-04-29", "confidence": 0.95, "type": "explicit", "update_note": "Trump: blockade until nuclear deal, 'choking like a stuffed pig', 'better get smart soon'"},
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "ent-026", "source_id": "src-605", "date": "2026-04-29", "confidence": 0.95, "type": "explicit", "update_note": "Traffic at 5% pre-war level, 154 ships in March vs 3,000/month, 800 trapped"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-224", "predicate": "causedBy", "object": "ent-181", "source_id": "inferred", "date": "2026-04-29", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "reason": "WPR Day 60 reached → Democrats demand accountability → Hegseth hearing. WPR deadline is the proximate cause of first congressional oversight."},
+    {"subject": "ent-226", "predicate": "follows", "object": "ent-001_blockade_vow", "source_id": "inferred", "date": "2026-04-29", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "reason": "Trump 'blockade until nuclear deal' → Iran 'practical action' threat. Direct causal sequence within same news cycle."},
+    {"subject": "ent-225", "predicate": "causedBy", "object": "ent-015", "source_id": "inferred", "date": "2026-04-29", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "reason": "Iran war → energy price surge → FOMC cites elevated inflation from global energy → 8-4 split on easing bias. War indirectly caused Fed's most divided decision in 34 years."},
+    {"subject": "ent-223", "predicate": "opposes", "object": "ent-172", "source_id": "inferred", "date": "2026-04-29", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "reason": "IDF chief's 'no ceasefire' contradicts Lebanon 3-week ceasefire extension. Military reality opposes diplomatic framework."},
+    {"subject": "ent-227", "predicate": "follows", "object": "ent-201", "source_id": "inferred", "date": "2026-04-29", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reason": "Day 10 (14 killed) → Day 13 (8 killed, 3 rescue workers) = escalation chain. Double-tap tactics increasingly targeting emergency responders."}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 13,
+    "inferred_edges": 5
+  }
+}

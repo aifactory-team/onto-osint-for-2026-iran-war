@@ -1,0 +1,170 @@
+{
+  "date": "2026-04-29",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran 'Practical Action' Threat",
+      "properties": {"date": "2026-04-29", "source": "unnamed senior security source via Press TV", "description": "Iran threatens 'practical and unprecedented action' against US naval blockade"},
+      "source_ids": ["src-601", "src-614"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Blockade Until Nuclear Deal",
+      "properties": {"domain": "US policy", "description": "Trump's explicit policy: maintain naval blockade until Iran agrees to nuclear deal"},
+      "source_ids": ["src-601", "src-602"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-113",
+      "type": "Person",
+      "name": "Pete Hegseth",
+      "properties": {"role": "US Secretary of Defense", "affiliation": "US Government"},
+      "source_ids": ["src-603", "src-616", "src-617", "src-618", "src-619", "src-620"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "John Garamendi",
+      "properties": {"role": "US Representative (D-CA)", "affiliation": "Democratic Party", "quote": "Secretary Hegseth, you have been lying to the American public about this war from day one"},
+      "source_ids": ["src-603"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hegseth Congressional Hearing (Apr 29)",
+      "properties": {"date": "2026-04-29", "location": "Rayburn House Office Building, Washington DC", "participants": "Hegseth, Caine, House Armed Services Committee", "cost_disclosed": "$25B", "first_hearing_since_war": true},
+      "source_ids": ["src-603", "src-616", "src-617", "src-618", "src-619", "src-620", "src-621", "src-630"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "$25B War Cost",
+      "properties": {"domain": "military expenditure", "amount": "$25 billion", "source": "Pentagon numbers presented to House Armed Services Committee"},
+      "source_ids": ["src-603", "src-617", "src-630"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "FOMC April 2026 Decision",
+      "properties": {"date": "2026-04-29", "rate": "3.5%-3.75%", "vote": "8-4", "dissent_note": "first 4-member dissent since October 1992", "inflation_cite": "elevated, in part reflecting global energy prices"},
+      "source_ids": ["src-604", "src-622", "src-623", "src-624"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Jerome Powell",
+      "properties": {"role": "Fed Chair", "affiliation": "Federal Reserve", "action": "announced will stay on Board of Governors indefinitely; legal attacks 'left me no choice'"},
+      "source_ids": ["src-604", "src-624"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Federal Reserve",
+      "properties": {"type": "central bank", "location": "United States"},
+      "source_ids": ["src-604", "src-622", "src-623", "src-624"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Double-Tap Strike (Apr 29)",
+      "properties": {"date": "2026-04-29", "location": "southern Lebanon", "killed": 8, "rescue_workers_killed": 3, "day": 13},
+      "source_ids": ["src-606", "src-608", "src-626", "src-627"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Lebanese Civil Defence",
+      "properties": {"type": "rescue/emergency services", "location": "Lebanon"},
+      "source_ids": ["src-606", "src-626"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Eyal Zamir",
+      "properties": {"role": "IDF Chief of Staff", "rank": "Lt. Gen.", "affiliation": "Israel Defense Forces", "quote": "On the combat front, there is no ceasefire"},
+      "source_ids": ["src-607", "src-628"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-098",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"type": "militant organization", "location": "Lebanon"},
+      "source_ids": ["src-607"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Lebanon PM",
+      "properties": {"role": "Prime Minister of Lebanon", "action": "slammed Israel's 'war crimes'"},
+      "source_ids": ["src-608"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Richard Blumenthal",
+      "properties": {"role": "US Senator (D-CT)", "affiliation": "Democratic Party", "quote": "Legal action has to be explored"},
+      "source_ids": ["src-611"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Event",
+      "name": "WPR Day 60 Lawsuit Threat",
+      "properties": {"date": "2026-04-29", "description": "Democrats threaten to sue Trump if war continues past May 1 WPR deadline", "day60_reached": "2026-04-29", "formal_deadline": "2026-05-01"},
+      "source_ids": ["src-611"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-601"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "mentions", "object": "temp-002", "source_ids": ["src-601", "src-602"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "temp-001", "source_ids": ["src-601"], "confidence": 0.85},
+    {"subject": "temp-003", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-603"], "confidence": 0.95},
+    {"subject": "temp-004", "predicate": "opposes", "object": "temp-003", "source_ids": ["src-603"], "confidence": 0.90},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-015", "source_ids": ["src-603"], "confidence": 0.95},
+    {"subject": "temp-012", "predicate": "affiliatedWith", "object": "ent-004", "source_ids": ["src-607"], "confidence": 0.95},
+    {"subject": "temp-012", "predicate": "opposes", "object": "temp-013", "source_ids": ["src-607"], "confidence": 0.90},
+    {"subject": "ent-004", "predicate": "causedBy", "object": "temp-010", "source_ids": ["src-606"], "confidence": 0.95},
+    {"subject": "temp-014", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-608"], "confidence": 0.85},
+    {"subject": "temp-008", "predicate": "affiliatedWith", "object": "temp-009", "source_ids": ["src-604"], "confidence": 0.95},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "ent-015", "source_ids": ["src-604"], "confidence": 0.80},
+    {"subject": "temp-016", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-611"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 14,
+    "matched_entities": 2,
+    "total_relations": 13
+  }
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "classes": [
     {
       "id": "Entity",
@@ -194,6 +194,13 @@
       "target": "10 new entities (ent-213~ent-222)",
       "reason": "OPEC(UAE 탈퇴 대상 조직), 안와르 가르가쉬(UAE 고문·GCC '역대 최약' 비판), 무함마드 빈 살만(GCC 의장), GCC 제다 정상회의(전쟁 후 첫 대면), 알렉세이 모르다쇼프(러시아 억만장자·Nord 요트 호르무즈 통과), 모하마드 아크라미니아(이란군 대변인·'전쟁 상황 지속'), UAE OPEC 탈퇴 사건, 트럼프 '이란 붕괴' 주장, UN 호르무즈 즉시 개방 촉구, Nord 요트 호르무즈 통과 사건",
       "source_ids": ["src-570", "src-571", "src-572", "src-573", "src-574", "src-575", "src-577", "src-580", "src-581"]
+    },
+    {
+      "date": "2026-04-29",
+      "action": "add_instances",
+      "target": "7 new entities (ent-223~ent-229)",
+      "reason": "에얄 자미르 IDF 참모총장('휴전 없다' 선언), 헤그세스 의회 청문회(전쟁 이후 첫 청문·$25B 비용 공개), FOMC 8-4 역사적 분열(금리 동결·전쟁 불확실성 언급), 이란 '실질 행동' 위협(Press TV 익명 소스), 레바논 구조대원 이중타격 공습(Day 13·3명 사망), 제롬 파월(Fed 의장·무기한 잔류), 존 가라멘디(하원의원·헤그세스 '거짓말' 비난)",
+      "source_ids": ["src-601", "src-602", "src-603", "src-604", "src-606", "src-607", "src-608", "src-611"]
     }
   ]
 }
