@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-01",
+  "entities": [
+    {
+      "temp_id": "temp-240",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hostilities Terminated Letter (May 1)",
+      "properties": {"date": "2026-05-01", "participants": ["Donald Trump", "Mike Johnson", "Chuck Grassley"], "description": "Trump formal letter to Congress declaring hostilities terminated to skirt WPR 60-day deadline"},
+      "source_ids": ["src-672", "src-687", "src-688", "src-689", "src-690", "src-691", "src-692", "src-693", "src-694", "src-695", "src-696"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-241",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Revised Proposal (May 1)",
+      "properties": {"date": "2026-05-01", "participants": ["Iran", "Pakistan", "United States"], "description": "Iran submits revised proposal via Pakistan: Hormuz reopening first, nuclear postponed. Trump 'not satisfied', Rubio rejects."},
+      "source_ids": ["src-673", "src-681", "src-697", "src-698", "src-699", "src-700", "src-701"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-242",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Tehran Air Defense Activation (May 1)",
+      "properties": {"date": "2026-05-01", "location": "Tehran", "description": "Air defenses activated for ~20 min to counter drones/small aircraft on WPR deadline night"},
+      "source_ids": ["src-676", "src-712"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-243",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US Troop Withdrawal Germany (5,000)",
+      "properties": {"date": "2026-05-01", "participants": ["United States", "Germany"], "description": "Pentagon confirms 5,000 troop withdrawal from Germany over 6-12 months, extends threat to Italy/Spain"},
+      "source_ids": ["src-675", "src-678", "src-702", "src-703", "src-704"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-244",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Richard Blumenthal",
+      "properties": {"role": "Senator (D-CT)", "affiliation": "United States Senate"},
+      "source_ids": ["src-672"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-245",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Chuck Grassley",
+      "properties": {"role": "Senate President Pro Tempore", "affiliation": "United States Senate"},
+      "source_ids": ["src-672"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-246",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Day 15 (May 1)",
+      "properties": {"date": "2026-05-01", "location": "Southern Lebanon", "description": "12+ killed including child, IDF hit 40 Hezbollah sites, cumulative 2,618 killed / 8,094 wounded since Mar 2"},
+      "source_ids": ["src-679", "src-705", "src-706"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-247",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Dark Eagle Hypersonic Missile",
+      "properties": {"domain": "military", "description": "New US hypersonic missile system Pentagon considering for deployment against Iran"},
+      "source_ids": ["src-686"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-248",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Hostilities Terminated Doctrine",
+      "properties": {"domain": "legal/constitutional", "description": "Novel legal theory: declaring hostilities terminated to reset/stop WPR clock while blockade continues"},
+      "source_ids": ["src-672", "src-684", "src-685"],
+      "mention_count": 8
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-240", "source_ids": ["src-672"], "confidence": 0.95},
+    {"subject": "temp-240", "predicate": "relatedTo", "object": "ent-184", "source_ids": ["src-672", "src-684", "src-685"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-241", "source_ids": ["src-673"], "confidence": 0.95},
+    {"subject": "ent-087", "predicate": "opposes", "object": "temp-241", "source_ids": ["src-681"], "confidence": 0.90},
+    {"subject": "ent-001", "predicate": "opposes", "object": "temp-241", "source_ids": ["src-672", "src-673"], "confidence": 0.90},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-205", "source_ids": ["src-675"], "confidence": 0.85},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-243", "source_ids": ["src-675", "src-678"], "confidence": 0.90},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-246", "source_ids": ["src-679"], "confidence": 0.95},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-003", "source_ids": ["src-677"], "confidence": 0.85},
+    {"subject": "temp-244", "predicate": "opposes", "object": "temp-240", "source_ids": ["src-672"], "confidence": 0.85},
+    {"subject": "ent-046", "predicate": "opposes", "object": "temp-241", "source_ids": ["src-673"], "confidence": 0.80}
+  ],
+  "stats": {
+    "total_entities": 9,
+    "new_entities": 9,
+    "matched_entities": 0,
+    "total_relations": 11
+  }
+}

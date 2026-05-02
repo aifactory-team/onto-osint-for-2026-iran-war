@@ -1,0 +1,19 @@
+{
+  "id": "src-686",
+  "title": "Iran war: What's happening on day 63 as Trump signals possible attacks",
+  "url": "https://www.aljazeera.com/news/2026/5/1/iran-war-whats-happening-on-day-63-as-trump-signals-possible-attacks",
+  "snippet": "Day 63 overview. Trump: 'might need' to restart war. Air defenses activated in Tehran. Pezeshkian: siege 'intolerable.' 1,701 civilians killed (254 children). Hormuz traffic at 5% of pre-war average. Trump may pull troops from Italy/Spain.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "update",
+  "related_report": "2026-04-30/src-635",
+  "related_item": "src-635",
+  "tag_reason": "CENTCOM 브리핑(4/30) 후속 — 트럼프 '공격 재개 필요' 시그널 및 Day 63 종합",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian"}
+  ],
+  "relations": []
+}

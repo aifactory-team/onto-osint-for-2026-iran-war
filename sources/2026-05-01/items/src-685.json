@@ -1,0 +1,18 @@
+{
+  "id": "src-685",
+  "title": "A deadline for the Iran war is here. What does the War Powers Act say?",
+  "url": "https://www.washingtonpost.com/politics/2026/05/01/iran-us-war-powers-trump/",
+  "snippet": "WaPo comprehensive analysis of WPR deadline. Trump notified Congress March 2 → 60 days = May 1. Historical context of WPR. Congress left town without action. Legal scholars divided. Blockade as act of war debate.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "update",
+  "related_report": "2026-04-30/src-632",
+  "related_item": "src-632",
+  "tag_reason": "WPR 데드라인 당일 종합 분석 — 4/30 청문회·표결의 후속",
+  "entities": [
+    {"id": "ent-184", "type": "Concept", "name": "War Powers Resolution"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

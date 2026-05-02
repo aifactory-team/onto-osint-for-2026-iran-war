@@ -1,0 +1,18 @@
+{
+  "id": "src-678",
+  "title": "Trump threatens to withdraw US troops from Italy and Spain as Europe rift widens",
+  "url": "https://time.com/article/2026/05/01/trump-threatens-to-withdraw-us-troops-italy-spain-europe-iran-war/",
+  "snippet": "Trump extends troop withdrawal threat beyond Germany to Italy and Spain. European allies criticized Iran war conduct. Day after Germany 5,000 troop withdrawal confirmed. Widening transatlantic rift. NATO implications.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이탈리아·스페인 주둔군 철수 위협은 독일 철수 확대판으로 5/1 신규",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"}
+  ],
+  "relations": []
+}

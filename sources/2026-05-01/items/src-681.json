@@ -1,0 +1,21 @@
+{
+  "id": "src-681",
+  "title": "Rubio dismisses Iran peace proposal; rules out deal without nuclear provisions",
+  "url": "https://abcnews.com/International/live-updates/iran-live-updates-rubio-dismisses-iran-peace-proposal/?id=132444768",
+  "snippet": "Secretary of State Rubio ruled out any deal excluding Iran's nuclear program. Must 'definitively prevent Iran from sprinting towards a nuclear weapon.' Directly contradicts Iran's proposal to postpone nuclear talks. Makes current Hormuz-first approach unacceptable to US.",
+  "source_name": "ABC News",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "루비오의 이란 제안 공식 거부 및 핵 포함 요구는 5/1 신규 외교적 포지션",
+  "entities": [
+    {"id": "ent-087", "type": "Person", "name": "Marco Rubio", "role": "Secretary of State"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-241", "type": "Event", "name": "Iran Revised Proposal (May 1)"}
+  ],
+  "relations": [
+    {"subject": "ent-087", "predicate": "opposes", "object": "temp-241"}
+  ]
+}

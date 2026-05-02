@@ -1,0 +1,23 @@
+{
+  "id": "src-679",
+  "title": "At least 12 killed in latest Israeli attacks on Lebanon",
+  "url": "https://www.aljazeera.com/news/2026/5/1/at-least-12-killed-in-latest-israeli-attacks-on-lebanon",
+  "snippet": "At least 12 killed including a child in southern Lebanon. IDF hit 40 Hezbollah sites in past day. Day 15 of ceasefire. Cumulative: 2,618 killed, 8,094 wounded since March 2. Woman killed, children injured in separate attack. Ongoing ceasefire violations.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/1 Day 15 사상자(12+명)는 신규 — 검은 수요일(4/30, 28명) 후속이나 별도 일자",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-018", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-019", "type": "Organization", "name": "Lebanon"},
+    {"id": "temp-246b", "type": "Event", "name": "Lebanon Day 15 (May 1)"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-018"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-246b"}
+  ]
+}

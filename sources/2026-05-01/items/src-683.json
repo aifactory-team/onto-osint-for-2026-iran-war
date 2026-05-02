@@ -1,0 +1,19 @@
+{
+  "id": "src-683",
+  "title": "The strange case of Lebanon's 'ceasefire'",
+  "url": "https://www.realclearworld.com/articles/2026/05/01/the_strange_case_of_lebanons_ceasefire_1180185.html",
+  "snippet": "Analysis of Lebanon ceasefire that functions as continued war. 2,618 killed, 8,094 wounded since March 2. IDF maintains 10km 'security zone.' 40+ killed during ceasefire period. Ceasefire extension to May 17 increasingly meaningless as daily attacks continue.",
+  "source_name": "RealClearWorld",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "레바논 '휴전'의 구조적 문제 분석은 5/1 신규 분석 기사",
+  "entities": [
+    {"id": "ent-019", "type": "Organization", "name": "Lebanon"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-018", "type": "Organization", "name": "Hezbollah"}
+  ],
+  "relations": []
+}

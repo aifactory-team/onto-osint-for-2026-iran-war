@@ -1,0 +1,22 @@
+{
+  "id": "src-676",
+  "title": "Iran activates air defenses as Trump faces congressional deadline",
+  "url": "https://www.arabnews.com/node/2641949/middle-east",
+  "snippet": "Tehran air defenses activated Thursday night for ~20 minutes to counter small aircraft and reconnaissance drones. Situation returned to 'normal.' Timing coincides with WPR deadline and CENTCOM military options briefing. Heightened alert despite ceasefire.",
+  "source_name": "Arab News",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "테헤란 방공망 가동은 5/1 전후 신규 군사적 긴장 사건",
+  "entities": [
+    {"id": "temp-242", "type": "Event", "name": "Tehran Air Defense Activation (May 1)"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-184", "type": "Concept", "name": "War Powers Resolution"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-242"}
+  ]
+}

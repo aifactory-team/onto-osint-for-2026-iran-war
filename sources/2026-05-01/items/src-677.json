@@ -1,0 +1,24 @@
+{
+  "id": "src-677",
+  "title": "Tehran slams 'intolerable' US naval blockade as Trump signals prolonged siege",
+  "url": "https://pingtvindia.com/tehran-slams-intolerable-us-naval-blockade-as-trump-signals-prolonged-siege/",
+  "snippet": "Pezeshkian: blockade is 'extension of military operations' despite ceasefire. 'Continuation of this oppressive approach is intolerable.' Trump told oil executives to prepare for prolonged blockade. Iran calls US actions 'maritime piracy.'",
+  "source_name": "PingTV India",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "페제시키안의 '참을 수 없다' 발언과 봉쇄=군사작전 연장 규정은 5/1 신규 성명",
+  "entities": [
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian", "role": "Iran President"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"}
+  ],
+  "relations": [
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

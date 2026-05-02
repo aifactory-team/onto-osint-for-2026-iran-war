@@ -1,0 +1,27 @@
+{
+  "id": "src-672",
+  "title": "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
+  "url": "https://www.cnbc.com/2026/05/01/trump-rejects-iran-peace-deal.html",
+  "snippet": "President Trump sent formal letter to House Speaker Johnson and Senate President Pro Tempore Grassley: 'The hostilities that began on February 28, 2026, have terminated.' Claims no exchange of fire since April 7 ceasefire. Blockade continues despite 'terminated' declaration. Sen. Blumenthal: 'The blockade alone is a continuing act of war.' Congress left town after Senate rejected WPR for 6th time (50-47).",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 보도: 트럼프의 '적대행위 종료' 공식 서한은 5/1 WPR 데드라인 당일 새 조치",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-240", "type": "Event", "name": "Hostilities Terminated Letter (May 1)", "date": "2026-05-01"},
+    {"id": "ent-232", "type": "Person", "name": "Mike Johnson", "role": "House Speaker"},
+    {"id": "temp-246", "type": "Person", "name": "Chuck Grassley", "role": "Senate President Pro Tempore"},
+    {"id": "temp-244", "type": "Person", "name": "Richard Blumenthal", "role": "Senator (D-CT)"},
+    {"id": "ent-184", "type": "Concept", "name": "War Powers Resolution"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-240"},
+    {"subject": "temp-240", "predicate": "relatedTo", "object": "ent-184"},
+    {"subject": "temp-244", "predicate": "opposes", "object": "temp-240"}
+  ]
+}

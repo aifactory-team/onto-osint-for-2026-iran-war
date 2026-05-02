@@ -1,0 +1,20 @@
+{
+  "id": "src-674",
+  "title": "Trump considers it 'treasonous' to say US isn't winning the war with Iran",
+  "url": "https://www.cnn.com/2026/05/01/world/live-news/iran-war-news",
+  "snippet": "Trump at The Villages, FL: called it 'treasonous' to say US isn't winning the war with Iran, despite same-day letter to Congress claiming hostilities 'terminated.' Contradiction: war is simultaneously 'terminated' and being 'won.' Signals continued escalatory rhetoric.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 '반역' 발언은 '종료 선언'과 동일한 날 발생한 모순적 신규 발언",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

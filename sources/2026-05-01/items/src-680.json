@@ -1,0 +1,19 @@
+{
+  "id": "src-680",
+  "title": "Oil prices fall after Iran sends updated peace proposal to mediators in Pakistan",
+  "url": "https://www.cnbc.com/2026/05/01/oil-prices-today-brent-wti-us-iran-war-trump-war-powers-deadline.html",
+  "snippet": "Brent lost ~2% settling at $108.17; WTI fell 3% to $101.94. Intraday: Brent at $116.10 morning, pulled back. Previous session: $126.41 peak → $114.01 settle. Iran proposal contributed to decline. Khamenei: won't relinquish nuclear/missile capabilities. Hormuz shipping 5% of pre-war average.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/1 유가 동향은 전일 $126 피크와 이란 제안서에 대한 신규 시장 반응",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

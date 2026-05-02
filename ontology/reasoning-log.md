@@ -979,3 +979,46 @@
 ### 스키마 변경 없음
 - 10개 새 엔티티 모두 기존 클래스(Person 4개, Event 5개, Concept 1개)로 분류 가능
 - 14개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-05-01 추론 결과
+
+### 추론 #1: event_chain (WPR 부결 → 종료 선언)
+- **입력:** (ent-235/Senate WPR Vote 6, relatedTo, ent-184/WPR), (ent-240/Hostilities Terminated Letter, relatedTo, ent-184/WPR)
+- **추론:** (ent-240/Hostilities Terminated Letter, causedBy, ent-235/Senate WPR Vote 6)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** WPR 6차 부결(50-47, 4/30)이 법적 방어선의 취약성을 드러내자, 다음 날 트럼프가 '적대행위 종료' 서한이라는 전혀 새로운 법적 전략으로 전환. 부결 → 서한의 인과 체인.
+
+### 추론 #2: event_chain (CENTCOM 브리핑 → 테헤란 방공)
+- **입력:** (ent-236/CENTCOM Briefing, relatedTo, ent-002/Iran), (ent-242/Tehran Air Defense, relatedTo, ent-002/Iran)
+- **추론:** (ent-242/Tehran Air Defense Activation, causedBy, ent-236/CENTCOM Military Briefing)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** CENTCOM 3가지 군사옵션 브리핑(4/30) 다음 날 테헤란 방공망이 20분간 가동. 이란이 미국의 군사행동 준비에 방어적으로 대응한 것으로 해석. 다만 드론 대응이라는 공식 설명도 존재.
+
+### 추론 #3: event_chain (메르츠 비판 → 주둔군 철수)
+- **입력:** (ent-205/Merz, opposes, ent-001/Trump), (ent-243/Troop Withdrawal, participatesIn, ent-003/US Military)
+- **추론:** (ent-243/US Troop Withdrawal Germany, causedBy, ent-001/Donald Trump)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 메르츠 총리의 '미국 굴욕' 비판(4/27) → 트럼프 독일 주둔군 5,000명 철수 확정(5/1). 이란 전쟁이 미-유럽 동맹에 미치는 파급 효과. 이탈리아·스페인으로 위협 확대.
+
+### 추론 #4: co_participation (블루먼솔-트럼프 대립)
+- **입력:** (ent-244/Blumenthal, opposes, ent-240/Terminated Letter), (ent-001/Trump, participatesIn, ent-240)
+- **추론:** (ent-240/Hostilities Terminated Letter, opposes, ent-244/Richard Blumenthal)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 트럼프 '종료' vs 블루먼솔 '봉쇄=전쟁행위' — 동일 법적 사안에 대한 정면 대립. '종료 선언'이 법적 도전에 직면할 가능성.
+
+### 추론 #5: co_participation (루비오-하메네이 교착)
+- **입력:** (ent-087/Rubio, opposes, ent-241/Iran Proposal), (ent-046/Khamenei, opposes, ent-241/Iran Proposal)
+- **추론:** (ent-087/Rubio, potentialRelation, ent-046/Khamenei)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 역설적 공동 거부: 루비오는 핵 미포함을 이유로 거부, 하메네이는 핵 포기 불가를 선언. 양측 모두 핵 문제를 양보 불가 입장으로 설정 → 구조적 교착 심화.
+
+### 스키마 변경 없음
+- 9개 새 엔티티 모두 기존 클래스(Person 2개, Event 5개, Concept 2개)로 분류 가능
+- 15개 새 관계(명시적) + 1개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능

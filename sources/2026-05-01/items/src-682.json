@@ -1,0 +1,18 @@
+{
+  "id": "src-682",
+  "title": "S&P 500, Nasdaq power to new highs — Apple +3% on earnings beat",
+  "url": "https://www.thestreet.com/latest-news/stock-market-today-may-1-2026-updates",
+  "snippet": "S&P 500 +0.29% to 7,230.12 (new ATH). Nasdaq +0.89% to 25,114 (new record, first 25K). Dow -0.31% to 49,499. Apple +3% on fiscal Q2 beat. Five9 +30%. Spirit Aviation preparing to cease operations. Oil price decline contributed to afternoon rally.",
+  "source_name": "TheStreet",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/1 시장 마감 결과(S&P 7,230, Nasdaq 25K 최초 돌파)는 신규",
+  "entities": [
+    {"id": "ent-100", "type": "Concept", "name": "S&P 500"},
+    {"id": "temp-249", "type": "Concept", "name": "Nasdaq Composite"}
+  ],
+  "relations": []
+}

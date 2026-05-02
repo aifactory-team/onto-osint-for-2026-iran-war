@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-01",
   "entities": [
     {
       "id": "ent-001",
@@ -2120,6 +2120,87 @@
   "first_seen": "2026-04-30",
   "last_seen": "2026-04-30",
   "mention_count": 3
+},
+{
+  "id": "ent-240",
+  "type": "Event",
+  "name": "Hostilities Terminated Letter (May 1)",
+  "properties": { "date": "2026-05-01", "author": "Donald Trump", "recipients": "Mike Johnson (Speaker), Chuck Grassley (Senate PPT)", "key_quote": "The hostilities that began on February 28, 2026, have terminated", "significance": "Novel legal maneuver to skirt WPR 60-day deadline while blockade continues" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 15
+},
+{
+  "id": "ent-241",
+  "type": "Event",
+  "name": "Iran Revised Proposal (May 1)",
+  "properties": { "date": "2026-05-01", "mediator": "Pakistan", "content": "Hormuz reopening first, nuclear talks postponed", "us_response": "Trump 'not satisfied', Rubio rejects — must include nuclear", "iran_position": "Khamenei: won't relinquish nuclear/missile capabilities" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 10
+},
+{
+  "id": "ent-242",
+  "type": "Event",
+  "name": "Tehran Air Defense Activation (May 1)",
+  "properties": { "date": "2026-05-01", "location": "Tehran", "duration": "~20 minutes", "target": "small aircraft and reconnaissance drones", "context": "Coincides with WPR deadline and CENTCOM briefing" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 3
+},
+{
+  "id": "ent-243",
+  "type": "Event",
+  "name": "US Troop Withdrawal Germany (5,000)",
+  "properties": { "date": "2026-05-01", "scale": "5,000 troops over 6-12 months", "cause": "Trump-Merz feud over Iran war criticism", "expansion": "Threats extended to Italy and Spain" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 7
+},
+{
+  "id": "ent-244",
+  "type": "Person",
+  "name": "Richard Blumenthal",
+  "properties": { "role": "Senator (D-CT)", "affiliation": "United States Senate", "position": "blockade is 'continuing act of war'" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 2
+},
+{
+  "id": "ent-245",
+  "type": "Person",
+  "name": "Chuck Grassley",
+  "properties": { "role": "Senate President Pro Tempore", "affiliation": "United States Senate", "context": "Recipient of Trump's 'hostilities terminated' letter" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 1
+},
+{
+  "id": "ent-246",
+  "type": "Event",
+  "name": "Lebanon Day 15 (May 1)",
+  "properties": { "date": "2026-05-01", "casualties": "12+ killed including child", "idf_strikes": "40 Hezbollah sites in past day", "cumulative": "2,618 killed, 8,094 wounded since Mar 2" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 4
+},
+{
+  "id": "ent-247",
+  "type": "Concept",
+  "name": "Dark Eagle Hypersonic Missile",
+  "properties": { "domain": "military/weapons", "description": "New US hypersonic missile system Pentagon considering for deployment against Iran" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 1
+},
+{
+  "id": "ent-248",
+  "type": "Concept",
+  "name": "Hostilities Terminated Doctrine",
+  "properties": { "domain": "legal/constitutional", "description": "Novel legal theory: declaring hostilities terminated to reset WPR clock while blockade continues — no statutory precedent" },
+  "first_seen": "2026-05-01",
+  "last_seen": "2026-05-01",
+  "mention_count": 8
 }
 ]
 }

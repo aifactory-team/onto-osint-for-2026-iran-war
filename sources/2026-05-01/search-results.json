@@ -1,0 +1,171 @@
+{
+  "date": "2026-05-01",
+  "collected_at": "2026-05-01T08:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 78,
+  "expanded_keywords": ["Trump hostilities terminated", "War Powers Resolution deadline", "Iran proposal Pakistan", "Hormuz blockade oil", "Lebanon ceasefire Day 15", "Tehran air defenses", "Pezeshkian blockade", "Rubio nuclear deal", "Germany troop withdrawal", "CENTCOM military options", "S&P 500 Nasdaq record"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war May 1 2026 War Powers Resolution deadline",
+      "language": "en",
+      "timestamp": "2026-05-01T08:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "A deadline for the Iran war is here. What does the War Powers Act say?", "url": "https://www.washingtonpost.com/politics/2026/05/01/iran-us-war-powers-trump/", "snippet": "Friday marks a significant moment in the U.S.-Israeli war with Iran, with President Donald Trump facing a key deadline.", "source_name": "Washington Post"},
+        {"title": "As Iran war hits key 60-day deadline, Congress and Trump face choices on next steps", "url": "https://www.cbsnews.com/news/iran-war-powers-resolution-60-day-deadline-congress-trump/", "snippet": "The 60-day War Powers deadline arrives as Congress leaves town.", "source_name": "CBS News"},
+        {"title": "War Powers Act: Lawmakers can't agree when Trump is supposed to get Congress' approval on Iran war", "url": "https://www.cnn.com/2026/05/01/politics/iran-war-60-day-deadline-congress", "snippet": "Central controversy: does the ceasefire pause the 60-day deadline.", "source_name": "CNN"},
+        {"title": "Has the US-Iran ceasefire reset the clock on War Powers Act deadline?", "url": "https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline", "snippet": "Legal experts debate whether ceasefire resets or pauses the WPR clock.", "source_name": "Al Jazeera"},
+        {"title": "Live updates: Trump says he doesn't need congressional authorization for Iran conflict", "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/iran-war-60-day-authorization-threshold-trump-hegseth-congress-rcna343015", "snippet": "Trump asserts no congressional authorization needed citing ceasefire.", "source_name": "NBC News"},
+        {"title": "US Administration Declares Iran Hostilities Terminated Under War Powers Resolution as 60-Day Deadline Arrives", "url": "https://www.thedefensenews.com/news-details/US-Administration-Declares-Iran-Hostilities-Terminated-Under-War-Powers-Resolution-as-60-Day-Deadline-Arrives/", "snippet": "Administration formally declares hostilities terminated.", "source_name": "The Defense News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump declares hostilities terminated Iran ceasefire War Powers loophole May 1 2026",
+      "language": "en",
+      "timestamp": "2026-05-01T08:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits", "url": "https://www.cnbc.com/2026/05/01/trump-rejects-iran-peace-deal.html", "snippet": "Trump wrote 'The hostilities that began on February 28, 2026, have terminated.'", "source_name": "CNBC"},
+        {"title": "White House tells Congress Iran war has been 'terminated,' skirting 60-day clock", "url": "https://www.ms.now/news/trump-iran-war-terminated-war-powers-congress", "snippet": "White House letter effectively sidesteps May 1 legal deadline.", "source_name": "MS Now"},
+        {"title": "Trump declares hostilities with Iran 'terminated'", "url": "https://www.axios.com/2026/05/01/trump-declares-hostilities-with-iran-terminated", "snippet": "Trump claims no exchange of fire since April 7.", "source_name": "Axios"},
+        {"title": "Hostilities with Iran 'terminated,' Trump says in War Powers letter", "url": "https://rollcall.com/2026/05/01/hostilities-with-iran-terminated-trump-says-in-war-powers-letter/", "snippet": "Formal War Powers notification to Congress.", "source_name": "Roll Call"},
+        {"title": "Trump says deadline for Congress to approve Iran war doesn't apply, claiming hostilities have 'terminated'", "url": "https://www.pbs.org/newshour/politics/trump-says-deadline-for-congress-to-approve-iran-war-doesnt-apply-claiming-hostilities-have-terminated", "snippet": "Trump says WPR deadline doesn't apply.", "source_name": "PBS News"},
+        {"title": "Trump tells U.S. Congress that ceasefire 'terminated' Iran conflict", "url": "https://www.cbc.ca/news/world/trump-iran-war-ceasefire-war-powers-deadline-congress-9.7184875", "snippet": "War powers deadline arrives as Trump claims conflict ended.", "source_name": "CBC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran new proposal Pakistan submit May 1 2026",
+      "language": "en",
+      "timestamp": "2026-05-01T08:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran submits new proposal to Pakistan to resume US talks on ending war", "url": "https://www.aa.com.tr/en/us-israel-iran-war/iran-submits-new-proposal-to-pakistan-to-resume-us-talks-on-ending-war/3924361", "snippet": "Iran submits updated proposal via Pakistan mediator.", "source_name": "Anadolu Agency"},
+        {"title": "Iran submits latest proposal for US negotiations, state media say", "url": "https://www.ksat.com/news/world/2026/05/01/iran-submits-latest-proposal-for-us-negotiations-state-media-say/", "snippet": "State media confirm Iran sends latest proposal for negotiations.", "source_name": "KSAT/AP"},
+        {"title": "Iran Sends New Negotiation Proposal to US via Pakistan, Calls US Actions 'Maritime Piracy'", "url": "https://english.capitalnewspoint.com/2026/05/01/iran-sends-new-negotiation-proposal-to-us-via-pakistan-calls-us-actions-maritime-piracy/", "snippet": "Iran calls US actions maritime piracy while sending proposal.", "source_name": "Capital News Point"},
+        {"title": "Iran Delivers New Proposal to US as Hormuz Remains Shut", "url": "https://www.claimsjournal.com/news/national/2026/05/01/337311.htm", "snippet": "New proposal delivered while Hormuz remains shut.", "source_name": "Claims Journal"},
+        {"title": "Iran sends proposal for negotiations with US to mediator Pakistan", "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/iran-sends-proposal-for-negotiations-with-us-to-mediator-pakistan", "snippet": "Pakistan-mediated proposal for negotiations.", "source_name": "Nikkei Asia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump treasonous winning Iran war troops Europe Germany May 1 2026",
+      "language": "en",
+      "timestamp": "2026-05-01T08:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Latest updates: Trump considers it 'treasonous' to say US isn't winning the war with Iran", "url": "https://www.cnn.com/2026/05/01/world/live-news/iran-war-news", "snippet": "Trump calls it treasonous to say US isn't winning; signals possible attacks.", "source_name": "CNN"},
+        {"title": "US said to be withdrawing 5,000 troops from Germany over Iran war spat", "url": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat", "snippet": "Pentagon confirms 5,000 troop withdrawal from Germany.", "source_name": "Al Jazeera"},
+        {"title": "U.S. to withdraw 5,000 troops from Germany as Trump feuds with Merz over the Iran war", "url": "https://fortune.com/2026/05/01/us-troop-withdrawal-5000-germany-trump-merz-iran-war/", "snippet": "5,000 troops to withdraw over 6-12 months amid Merz feud.", "source_name": "Fortune"},
+        {"title": "Trump Threatens to Withdraw U.S. Troops From Italy and Spain as Europe Rift Widens", "url": "https://time.com/article/2026/05/01/trump-threatens-to-withdraw-us-troops-italy-spain-europe-iran-war/", "snippet": "Trump extends troop withdrawal threat to Italy and Spain.", "source_name": "Time"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Tehran air defenses activated Pezeshkian intolerable blockade May 1 2026",
+      "language": "en",
+      "timestamp": "2026-05-01T08:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran activates air defenses as Trump faces congressional deadline", "url": "https://www.arabnews.com/node/2641949/middle-east", "snippet": "Air defences activated for 20 minutes to counter drones.", "source_name": "Arab News"},
+        {"title": "Tehran Slams 'Intolerable' US Naval Blockade as Trump Signals Prolonged Siege", "url": "https://pingtvindia.com/tehran-slams-intolerable-us-naval-blockade-as-trump-signals-prolonged-siege/", "snippet": "Pezeshkian: blockade is extension of military operations, intolerable.", "source_name": "PingTV India"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Rubio Iran proposal rejected not satisfied May 1 2026",
+      "language": "en",
+      "timestamp": "2026-05-01T08:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran live updates: Trump tells Congress hostilities 'have terminated'", "url": "https://abcnews.com/International/live-updates/iran-live-updates-rubio-dismisses-iran-peace-proposal/?id=132444768", "snippet": "Rubio dismisses Iran peace proposal; rules out deal without nuclear provisions.", "source_name": "ABC News"},
+        {"title": "Trump says he's 'not satisfied' with Iran's new peace plan", "url": "https://www.news4jax.com/news/world/2026/05/01/iran-submits-latest-proposal-for-us-negotiations-state-media-say/", "snippet": "Trump publicly rejects Iran's latest proposal.", "source_name": "News4Jax/AP"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices today May 1 2026 Brent crude Iran",
+      "language": "en",
+      "timestamp": "2026-05-01T08:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil prices fall after Iran sends updated peace proposal to mediators in Pakistan", "url": "https://www.cnbc.com/2026/05/01/oil-prices-today-brent-wti-us-iran-war-trump-war-powers-deadline.html", "snippet": "Brent lost nearly 2% settling at $108.17; WTI fell 3% to $101.94.", "source_name": "CNBC"},
+        {"title": "Current price of oil as of May 1, 2026", "url": "https://fortune.com/article/price-of-oil-05-01-2026/", "snippet": "Oil prices overview for May 1 2026.", "source_name": "Fortune"},
+        {"title": "WTI Crude Oil Price Today — May 1, 2026: Trading Near $106 – Hormuz Supply Shock", "url": "https://www.fxleaders.com/news/2026/05/01/wti-crude-oil-price-today-may-1-2026-trading-near-106-hormuz-supply-shock/", "snippet": "WTI near $106 on Hormuz supply shock.", "source_name": "FX Leaders"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon attacks killed May 1 2026 ceasefire",
+      "language": "en",
+      "timestamp": "2026-05-01T08:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "At least 12 killed in latest Israeli attacks on Lebanon", "url": "https://www.aljazeera.com/news/2026/5/1/at-least-12-killed-in-latest-israeli-attacks-on-lebanon", "snippet": "12+ killed, IDF hit 40 Hezbollah sites in past day.", "source_name": "Al Jazeera"},
+        {"title": "Woman killed, children injured as Israel attacks Lebanon", "url": "https://www.aljazeera.com/news/2026/5/1/woman-killed-children-injured-as-israel-attacks-lebanon", "snippet": "Woman killed and children injured in latest attacks.", "source_name": "Al Jazeera"},
+        {"title": "Israel Continues Deadly Strikes on Southern Lebanon in Latest Ceasefire Violations", "url": "https://www.democracynow.org/2026/5/1/headlines/israel_continues_deadly_strikes_on_southern_lebanon_in_latest_ceasefire_violations", "snippet": "Deadly strikes continue in ceasefire violations.", "source_name": "Democracy Now"},
+        {"title": "The Strange Case of Lebanon's 'Ceasefire'", "url": "https://www.realclearworld.com/articles/2026/05/01/the_strange_case_of_lebanons_ceasefire_1180185.html", "snippet": "Analysis of Lebanon's failing ceasefire.", "source_name": "RealClearWorld"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "stock market S&P 500 May 1 2026 today",
+      "language": "en",
+      "timestamp": "2026-05-01T08:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Stock Market Today (May 1, 2026): Nasdaq, S&P 500 add to banner rally with another record close", "url": "https://www.thestreet.com/latest-news/stock-market-today-may-1-2026-updates", "snippet": "S&P 500 0.29% to 7,230; Nasdaq +0.89% to 25,114 record.", "source_name": "TheStreet"},
+        {"title": "Stock Market Today, May 1: S&P 500 and Nasdaq Power to New Highs", "url": "https://www.fool.com/coverage/stock-market-today/2026/05/01/stock-market-today-may-1-s-and-p-500-and-nasdaq-power-to-new-highs/", "snippet": "Apple +3% on earnings beat drives Nasdaq to new highs.", "source_name": "Motley Fool"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 5월 2026 호르무즈 봉쇄",
+      "language": "ko",
+      "timestamp": "2026-05-01T08:10:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "트럼프 \"휴전으로 적대 행위 종료\"…전쟁권한법 시한 회피", "url": "https://www.newspim.com/news/view/20260502000009", "snippet": "트럼프 대통령 적대행위 종료 서한 발송.", "source_name": "뉴스핌"},
+        {"title": "백악관 \"이란 적대행위 종료\" 주장…전쟁권한법 무력화?", "url": "https://www.mt.co.kr/world/2026/05/01/2026050122110596883", "snippet": "백악관 전쟁권한법 무력화 시도.", "source_name": "머니투데이"},
+        {"title": "미·이란 평행선에 유가 들썩…\"충돌 재개 시 추가 급등\" 전망", "url": "https://www.newspim.com/news/view/20260501000188", "snippet": "유가 변동성과 충돌 재개 가능성 분석.", "source_name": "뉴스핌"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 적대행위 종료 선언 전쟁권한법 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-01T08:11:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "트럼프 \"이란과 적대행위 종료\"…전쟁권한 시한 앞두고 논란 확산", "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=75956", "snippet": "전쟁권한법 시한 관련 논란.", "source_name": "더페어"},
+        {"title": "이란 전쟁 D+62: 트럼프, 전쟁권한법 시한 정면 무시…이란은 \"고통스러운 반격\" 경고", "url": "https://www.g-enews.com/article/Global-Biz/2026/05/2026050108184156832bd56fbc3c_1", "snippet": "D+62 전쟁권한법 시한 무시와 이란 반격 경고.", "source_name": "글로벌이코노믹"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Hormuz May 1 2026 blockade ships",
+      "language": "en",
+      "timestamp": "2026-05-01T08:12:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Iran war: What's happening on day 63 as Trump signals possible attacks", "url": "https://www.aljazeera.com/news/2026/5/1/iran-war-whats-happening-on-day-63-as-trump-signals-possible-attacks", "snippet": "Day 63 overview, Trump signals possible attacks.", "source_name": "Al Jazeera"},
+        {"title": "Iran war live: Trump 'not satisfied' with Tehran's new proposal", "url": "https://www.aljazeera.com/news/liveblog/2026/5/1/iran-war-live-tehran-says-us-ports-siege-intolerable-trump-mulls-action", "snippet": "Live updates: Tehran calls siege intolerable.", "source_name": "Al Jazeera"}
+      ]
+    }
+  ]
+}

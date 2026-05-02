@@ -1,0 +1,19 @@
+{
+  "id": "src-684",
+  "title": "Has the US-Iran ceasefire reset the clock on War Powers Act deadline?",
+  "url": "https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline",
+  "snippet": "Legal analysis of whether ceasefire resets or pauses WPR clock. Most legal scholars say WPR contains no pause provision. Hegseth's 'clock stops' claim vs Democratic opposition. Congressional inaction leaves legal vacuum.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "update",
+  "related_report": "2026-04-30/src-632",
+  "related_item": "src-632",
+  "tag_reason": "4/30 헤그세스 청문회 '시계 정지' 주장의 후속 법적 분석 — 5/1 데드라인 당일 관점",
+  "entities": [
+    {"id": "ent-184", "type": "Concept", "name": "War Powers Resolution"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-234", "type": "Event", "name": "Hegseth Senate Hearing"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-675",
+  "title": "US withdrawing 5,000 troops from Germany over Iran war spat",
+  "url": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat",
+  "snippet": "Pentagon confirms 5,000 US troop withdrawal from Germany over 6-12 months. Merz called US 'humiliated' by Iran, said no 'convincing strategy.' Trump: strong rejection. Withdrawal extends to threats against Italy, Spain. Widening US-Europe rift over Iran war conduct.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "펜타곤의 독일 주둔군 5,000명 철수 공식 확인은 5/1 신규 — 4/30 위협에서 공식화",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-205", "type": "Person", "name": "Friedrich Merz", "role": "German Chancellor"},
+    {"id": "temp-243", "type": "Event", "name": "US Troop Withdrawal Germany (5,000)"},
+    {"id": "temp-248", "type": "Organization", "name": "Germany"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-205"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-243"}
+  ]
+}

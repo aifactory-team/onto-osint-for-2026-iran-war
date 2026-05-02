@@ -1,0 +1,27 @@
+{
+  "id": "src-673",
+  "title": "Iran submits new proposal to Pakistan to resume US talks on ending war",
+  "url": "https://www.aa.com.tr/en/us-israel-iran-war/iran-submits-new-proposal-to-pakistan-to-resume-us-talks-on-ending-war/3924361",
+  "snippet": "Iran submitted revised proposal to Pakistan for relay to US. Focus: Hormuz reopening first, nuclear talks postponed. Mojtaba Khamenei pledged not to relinquish nuclear/missile capabilities. Trump: 'not satisfied.' Rubio: must include nuclear provisions. Iran calls US blockade 'maritime piracy.'",
+  "source_name": "Anadolu Agency",
+  "language": "en",
+  "discovered_date": "2026-05-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 수정 제안서 공식 제출은 5/1 신규 사건 — 4/30 '이번 주 말 예상' 보도의 실현",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-022", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-241", "type": "Event", "name": "Iran Revised Proposal (May 1)"},
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Supreme Leader"},
+    {"id": "ent-087", "type": "Person", "name": "Marco Rubio", "role": "Secretary of State"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-241"},
+    {"subject": "ent-022", "predicate": "participatesIn", "object": "temp-241"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "temp-241"},
+    {"subject": "ent-087", "predicate": "opposes", "object": "temp-241"}
+  ]
+}

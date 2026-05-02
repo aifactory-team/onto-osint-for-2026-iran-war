@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-01",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-240", "source_id": "src-672", "date": "2026-05-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-240", "predicate": "relatedTo", "object": "ent-184", "source_id": "src-672", "date": "2026-05-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-241", "source_id": "src-673", "date": "2026-05-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-022", "predicate": "participatesIn", "object": "ent-241", "source_id": "src-673", "date": "2026-05-01", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-241", "source_id": "src-672", "date": "2026-05-01", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-087", "predicate": "opposes", "object": "ent-241", "source_id": "src-681", "date": "2026-05-01", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-046", "predicate": "opposes", "object": "ent-241", "source_id": "src-673", "date": "2026-05-01", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-242", "source_id": "src-676", "date": "2026-05-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-205", "source_id": "src-675", "date": "2026-05-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-243", "source_id": "src-675", "date": "2026-05-01", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-244", "predicate": "opposes", "object": "ent-240", "source_id": "src-672", "date": "2026-05-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-246", "source_id": "src-679", "date": "2026-05-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-018", "predicate": "participatesIn", "object": "ent-246", "source_id": "src-679", "date": "2026-05-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-003", "source_id": "src-677", "date": "2026-05-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-240", "predicate": "relatedTo", "object": "ent-248", "source_id": "src-672", "date": "2026-05-01", "confidence": 0.90, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-674", "date": "2026-05-01", "confidence": 0.95, "type": "explicit", "note": "Trump 'treasonous' + 'not satisfied' reinforces opposition"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-240", "predicate": "causedBy", "object": "ent-235", "source_id": null, "date": "2026-05-01", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "reasoning": "WPR 6차 부결(4/30) 실패 후 다음 날 '종료 선언'으로 대안 법적 전략 전환"},
+    {"subject": "ent-241", "predicate": "follows", "object": "ent-241", "source_id": null, "date": "2026-05-01", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "4/27 호르무즈 제안 거부 → 5/1 수정안 제출: 동일 협상 트랙 후속"},
+    {"subject": "ent-242", "predicate": "causedBy", "object": "ent-236", "source_id": null, "date": "2026-05-01", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "reasoning": "CENTCOM 3가지 군사옵션 브리핑(4/30) 다음 날 테헤란 방공 가동 — 방어적 대응"},
+    {"subject": "ent-243", "predicate": "causedBy", "object": "ent-001", "source_id": null, "date": "2026-05-01", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "메르츠 '굴욕' 비판 → 트럼프 독일 주둔군 철수 보복: 이란 전쟁의 동맹 균열 파급"},
+    {"subject": "ent-240", "predicate": "opposes", "object": "ent-244", "source_id": null, "date": "2026-05-01", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "블루먼솔 '봉쇄=전쟁행위' vs 트럼프 '종료' — 동일 사안 대립"}
+  ],
+  "stats": {
+    "new_nodes": 9,
+    "new_edges": 15,
+    "inferred_edges": 5
+  }
+}
