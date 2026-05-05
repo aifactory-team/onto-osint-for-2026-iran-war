@@ -1,0 +1,28 @@
+{
+  "id": "src-793",
+  "title": "UAE reports missile and drone strikes incoming from Iran — Fujairah oil zone fire",
+  "url": "https://www.aljazeera.com/news/2026/5/4/uae-reports-missile-and-drone-strikes-incoming-from-iran",
+  "snippet": "The UAE reported intercepting 15 missiles and 4 drones fired by Iran, with a fire breaking out at the Fujairah Oil Industry Zone after a drone attack. 3 Indian citizens were moderately injured. This is the first major Iranian attack on the UAE since the April 8 ceasefire. Fujairah is critical to UAE oil exports as it sits at the end of the Abu Dhabi Crude Oil Pipeline (ADCOP), bypassing the Hormuz Strait. UAE Ministry of Education ordered schools and nurseries to shift to remote learning Tuesday through Friday. Brent crude surged above $115 per barrel following the attack reports.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First Iranian attack on UAE since April 8 ceasefire. Fujairah oil infrastructure targeted — strategic significance as ADCOP bypass route.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "attacker"},
+    {"id": "temp-004", "type": "Location", "name": "Fujairah", "role": "attack target"},
+    {"id": "temp-005", "type": "Event", "name": "Fujairah Drone Attack May 4", "role": "military strike"},
+    {"id": "temp-006", "type": "Organization", "name": "UAE", "role": "target state"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "attacker"},
+    {"id": "temp-007", "type": "Concept", "name": "ADCOP Pipeline", "role": "oil infrastructure"},
+    {"id": "temp-008", "type": "Event", "name": "UAE Schools Remote Learning", "role": "civilian impact"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "locatedIn", "object": "temp-004"},
+    {"subject": "temp-006", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-005", "predicate": "causedBy", "object": "ent-260"}
+  ]
+}

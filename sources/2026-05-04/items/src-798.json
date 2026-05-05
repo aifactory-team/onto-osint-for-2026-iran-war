@@ -1,0 +1,27 @@
+{
+  "id": "src-798",
+  "title": "Iran warns US to stay out of Hormuz after Trump says US will 'guide' ships",
+  "url": "https://www.aljazeera.com/news/2026/5/4/iran-warns-us-to-stay-out-of-hormuz-after-trump-says-us-will-guide-ships",
+  "snippet": "Ali Abdollahi (Commander of Iran's Khatam al-Anbia Central HQ) warned any foreign military force, particularly the US, will come under attack if it attempts to approach or enter the Strait of Hormuz. Ebrahim Azizi (parliament security/foreign policy committee chair) warned that any US interference in the Hormuz maritime regime would be considered a ceasefire violation. Esmail Baghaei (Foreign Ministry spokesperson) confirmed Iran is reviewing the US counter-proposal to the 14-point plan. Iran characterized Project Freedom as 'piracy' and a 'pretext for escalation.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Multiple Iranian officials issue coordinated warnings — military (Abdollahi), legislative (Azizi), diplomatic (Baghaei) — showing unified opposition to Project Freedom.",
+  "entities": [
+    {"id": "ent-095", "type": "Person", "name": "Ali Abdollahi", "role": "Khatam al-Anbia Central HQ Commander"},
+    {"id": "temp-013", "type": "Person", "name": "Ebrahim Azizi", "role": "Iran parliament security committee chair"},
+    {"id": "temp-014", "type": "Person", "name": "Esmail Baghaei", "role": "Iran Foreign Ministry spokesperson"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom", "role": "target of warnings"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "disputed waterway"}
+  ],
+  "relations": [
+    {"subject": "ent-095", "predicate": "opposes", "object": "ent-260"},
+    {"subject": "temp-013", "predicate": "opposes", "object": "ent-260"},
+    {"subject": "temp-014", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "ent-095", "predicate": "affiliatedWith", "object": "ent-005"}
+  ]
+}

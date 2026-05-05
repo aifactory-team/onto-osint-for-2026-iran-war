@@ -1,0 +1,21 @@
+{
+  "id": "src-799",
+  "title": "Trump's Hormuz 'protection' seeks 'pretext for escalation': Iran",
+  "url": "https://asiatimes.com/2026/05/trumps-hormuz-protection-seeks-pretext-for-escalation-iran/",
+  "snippet": "A senior Iranian official told Drop Site that Trump's plan 'is primarily intended to provoke Iran into taking an initial step toward confrontation, thereby creating a pretext for escalation.' Added that 'any commercial vessel attempting to transit through designated restricted routes without prior coordination will be promptly intercepted by Iranian forces.' Analysis frames Project Freedom as deliberate provocation strategy rather than humanitarian mission.",
+  "source_name": "Asia Times",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Senior Iranian official reveals strategic calculus — Project Freedom viewed as deliberate provocation, not humanitarian. Unique analytical framing.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom", "role": "contested operation"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-260"}
+  ]
+}

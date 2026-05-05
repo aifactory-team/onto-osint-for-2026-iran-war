@@ -1,0 +1,25 @@
+{
+  "id": "src-797",
+  "title": "First ships transit Strait of Hormuz under new U.S. protection plan",
+  "url": "https://www.twz.com/news-features/first-ships-transit-strait-of-hormuz-under-new-u-s-protection-plan",
+  "snippet": "2 US-flagged merchant vessels successfully transited through the Strait of Hormuz on Day 1 of Project Freedom, the first commercial ships to pass through since Iran's de facto closure. CENTCOM described it as a 'one way' defensive corridor. However, Hapag-Lloyd said transit remains not possible for commercial operators. Approximately 20,000 seafarers and several hundred vessels remain trapped in the Persian Gulf since the April 7-8 ceasefire.",
+  "source_name": "The War Zone",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First successful commercial transit of Hormuz since closure. Milestone for Project Freedom but commercial viability remains limited.",
+  "entities": [
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom", "role": "escort operation"},
+    {"id": "ent-070", "type": "Organization", "name": "CENTCOM", "role": "military command"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "waterway"},
+    {"id": "temp-001", "type": "Organization", "name": "Hapag-Lloyd", "role": "shipping company"},
+    {"id": "temp-012", "type": "Event", "name": "First Hormuz Transit May 4", "role": "transit event"}
+  ],
+  "relations": [
+    {"subject": "temp-012", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-070", "predicate": "participatesIn", "object": "temp-012"},
+    {"subject": "temp-012", "predicate": "follows", "object": "ent-260"}
+  ]
+}

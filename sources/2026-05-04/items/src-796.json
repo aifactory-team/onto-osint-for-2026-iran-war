@@ -1,0 +1,24 @@
+{
+  "id": "src-796",
+  "title": "Oil prices jump after Iran attacks UAE as U.S. tries to open Strait of Hormuz",
+  "url": "https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html",
+  "snippet": "Brent crude futures rose nearly 6% to close at $114.44/bbl, WTI advanced 4%+ to $106.42/bbl. Prices briefly surged above $115 to fresh 4-year highs following Fujairah attack reports. Brent pared to ~$110 after US denied Iranian claims of striking a frigate. Both contracts up around 60% since the war started on Feb 28. UAE reported fire at Fujairah oil hub, one of first major infrastructure hits in weeks.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Brent hits fresh 4-year high above $114 on dual Hormuz showdown + UAE attack. Significant escalation from prior $108 level.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "supply chokepoint"},
+    {"id": "temp-004", "type": "Location", "name": "Fujairah", "role": "oil hub"},
+    {"id": "temp-006", "type": "Organization", "name": "UAE", "role": "oil producer"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "attacker"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-005"}
+  ]
+}

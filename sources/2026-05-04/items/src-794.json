@@ -1,0 +1,26 @@
+{
+  "id": "src-794",
+  "title": "IRGC announces new maritime control zone in Strait of Hormuz",
+  "url": "https://www.tasnimnews.ir/en/news/2026/05/04/3582497/irgc-announces-new-maritime-control-zone-in-strait-of-hormuz",
+  "snippet": "The IRGC declared a new 'smart control' maritime zone in the Strait of Hormuz. Southern boundary: Mount Mobarak (Iran) to south of Fujairah (UAE). Western boundary: end of Qeshm Island (Iran) to Umm Al Quwain (UAE). The IRGC spokesperson warned vessels violating transit protocols would be 'forcefully stopped.' Ship-tracking data showed only 9 vessels moved through the passage in the previous 24 hours. Ali Abdollahi (Khatam al-Anbia Central HQ Commander) warned any foreign military force approaching Hormuz will come under attack. Called Project Freedom and the US naval blockade acts of 'piracy' and a violation of the April 8 ceasefire.",
+  "source_name": "Tasnim News Agency",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC formally declares maritime control zone with specific coordinates — escalation from de facto to de jure control of Hormuz.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "declaring authority"},
+    {"id": "temp-009", "type": "Event", "name": "IRGC Hormuz Maritime Control Zone", "role": "military zone declaration"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "controlled waterway"},
+    {"id": "ent-095", "type": "Person", "name": "Ali Abdollahi", "role": "Khatam al-Anbia Central HQ Commander"},
+    {"id": "temp-010", "type": "Location", "name": "Qeshm Island", "role": "zone boundary"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-009"},
+    {"subject": "temp-009", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-095", "predicate": "affiliatedWith", "object": "ent-005"},
+    {"subject": "temp-009", "predicate": "opposes", "object": "ent-260"}
+  ]
+}

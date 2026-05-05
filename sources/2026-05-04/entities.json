@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-04",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Hapag-Lloyd",
+      "properties": {"type": "shipping company", "location": "Germany", "action": "says Hormuz transit still not possible despite Project Freedom"},
+      "source_ids": ["src-792", "src-804"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US-Iran Hormuz Exchange of Fire May 4",
+      "properties": {"date": "2026-05-04", "location": "Strait of Hormuz", "participants": "US Navy, IRGC", "details": "US destroyed 6 Iranian small boats; Iran launched cruise missiles, drones, small boats; Iran claims 2 missiles hit US frigate (denied by CENTCOM)"},
+      "source_ids": ["src-792", "src-800", "src-801", "src-803"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Fujairah",
+      "properties": {"type": "emirate/oil hub", "coordinates": "25.1288°N, 56.3265°E", "significance": "End of ADCOP pipeline, bypasses Hormuz"},
+      "source_ids": ["src-793", "src-796"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Fujairah Drone Attack May 4",
+      "properties": {"date": "2026-05-04", "location": "Fujairah Oil Industry Zone", "attacker": "Iran", "details": "15 missiles + 4 drones intercepted by UAE; fire at oil zone; 3 Indian citizens injured; first attack on UAE since April 8 ceasefire"},
+      "source_ids": ["src-793", "src-802"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "UAE",
+      "properties": {"type": "state", "location": "Middle East", "action": "intercepted 15 missiles + 4 drones; schools shifted to remote learning Tue-Fri"},
+      "source_ids": ["src-793", "src-796", "src-802"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "UAE Schools Remote Learning",
+      "properties": {"date": "2026-05-04", "details": "UAE Ministry of Education ordered schools/nurseries to operate remotely Tue-Fri due to renewed Iranian strikes"},
+      "source_ids": ["src-793"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Hormuz Maritime Control Zone",
+      "properties": {"date": "2026-05-04", "details": "IRGC declared 'smart control' zone; southern boundary: Mt Mobarak to Fujairah; western boundary: Qeshm Island to Umm Al Quwain; only 9 vessels transited in 24 hours; ships warned 'forcefully stopped' if violating protocols"},
+      "source_ids": ["src-794", "src-812", "src-813"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Nabih Berri",
+      "properties": {"role": "Lebanon Parliament Speaker", "affiliation": "Amal Movement/Hezbollah ally", "action": "rejected negotiations with Israel until war stops; told An-Nahar 'stopping war before any political track'"},
+      "source_ids": ["src-795", "src-820", "src-821", "src-822"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ebrahim Azizi",
+      "properties": {"role": "Iran parliament security/foreign policy committee chair", "action": "warned US interference in Hormuz = ceasefire violation"},
+      "source_ids": ["src-798"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Esmail Baghaei",
+      "properties": {"role": "Iran Foreign Ministry spokesperson", "action": "confirmed Iran reviewing US counter-proposal to 14-point plan"},
+      "source_ids": ["src-798"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-260", "source_ids": ["src-792", "src-794", "src-798"], "confidence": 0.95},
+    {"subject": "ent-070", "predicate": "participatesIn", "object": "ent-260", "source_ids": ["src-792", "src-797"], "confidence": 0.95},
+    {"subject": "ent-237", "predicate": "participatesIn", "object": "ent-260", "source_ids": ["src-792"], "confidence": 0.90},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-793"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "causedBy", "object": "ent-260", "source_ids": ["src-793"], "confidence": 0.80},
+    {"subject": "temp-011", "predicate": "affiliatedWith", "object": "ent-048", "source_ids": ["src-795"], "confidence": 0.90},
+    {"subject": "temp-011", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-795"], "confidence": 0.85},
+    {"subject": "ent-095", "predicate": "opposes", "object": "ent-260", "source_ids": ["src-798"], "confidence": 0.90},
+    {"subject": "temp-013", "predicate": "opposes", "object": "ent-260", "source_ids": ["src-798"], "confidence": 0.85},
+    {"subject": "temp-009", "predicate": "opposes", "object": "ent-260", "source_ids": ["src-794"], "confidence": 0.90},
+    {"subject": "temp-002", "predicate": "follows", "object": "ent-260", "source_ids": ["src-792"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-109", "source_ids": ["src-795"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 10,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-04",
+  "collected_at": "2026-05-04T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 80,
+  "expanded_keywords": ["Project Freedom", "Hormuz escort", "IRGC maritime control zone", "Fujairah attack", "Nabih Berri", "Brad Cooper CENTCOM", "oil prices Brent WTI", "Lebanon ceasefire Day 18"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war May 4 2026 Project Freedom Hormuz escort",
+      "language": "en",
+      "timestamp": "2026-05-04T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Live updates: US and Iranian militaries trade shots as Strait of Hormuz tensions escalate", "url": "https://www.cnn.com/2026/05/04/world/live-news/iran-war-hormuz-trump", "snippet": "US and Iranian forces exchange fire in Hormuz on Day 66. CENTCOM says US destroyed 6 Iranian small boats.", "source_name": "CNN"},
+        {"title": "Trump announces 'Project Freedom' to guide ships through Strait of Hormuz", "url": "https://www.foxnews.com/live-news/trump-iran-war-hormuz-strait-may-4", "snippet": "Trump launched Project Freedom with destroyers, 100+ aircraft, 15,000 troops.", "source_name": "Fox News"},
+        {"title": "Trump says Iran has 'taken some shots' but caused little damage in Strait of Hormuz", "url": "https://www.euronews.com/2026/05/04/iranian-military-claims-it-prevented-us-navy-ships-from-entering-strait-of-hormuz", "snippet": "Trump warns Iranian forces would be 'blown off the face of the Earth'.", "source_name": "Euronews"},
+        {"title": "Hormuz 'humanitarian' run: Trump's 'Project Freedom' sparks Iran war fears as IRGC general issues new threat", "url": "https://gulfnews.com/world/mena/hormuz-humanitarian-run-trumps-project-freedom-sparks-iran-war-fears-as-irgc-general-issues-new-threat-1.500528160", "snippet": "IRGC general warns any foreign military approaching Hormuz will be attacked.", "source_name": "Gulf News"},
+        {"title": "What to Know About Trump's Plan to 'Guide' Ships Out of the Strait of Hormuz", "url": "https://time.com/article/2026/05/04/strait-hormuz-ships-guide-escort-ceasefire-us-iran-trump/", "snippet": "Explainer on Project Freedom mechanics and ceasefire implications.", "source_name": "Time"},
+        {"title": "Battle for Hormuz begins as US military fights off Iranian attacks to break regime's hold on strait", "url": "https://fortune.com/2026/05/04/strait-of-hormuz-showdown-us-navy-warships-persian-gulf-commercial-ships-project-freedom/", "snippet": "US Navy fights off Iranian cruise missiles, drones and small boats during first transit.", "source_name": "Fortune"},
+        {"title": "First Ships Transit Strait Of Hormuz Under New U.S. Protection Plan", "url": "https://www.twz.com/news-features/first-ships-transit-strait-of-hormuz-under-new-u-s-protection-plan", "snippet": "2 US-flagged merchant vessels successfully transited Hormuz.", "source_name": "The War Zone"},
+        {"title": "Trump's 'Project Freedom': Can US navy 'guide' stuck ships out of Hormuz?", "url": "https://www.aljazeera.com/news/2026/5/4/trumps-project-freedom-can-us-navy-guide-stuck-ships-out-of-hormuz", "snippet": "Analysis of whether Project Freedom can break IRGC control of Hormuz.", "source_name": "Al Jazeera"},
+        {"title": "Iran War 2026 -- Day 66 Update -- 04 May 2026", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm", "snippet": "Day 66 overview covering Hormuz showdown, UAE attacks, Lebanon.", "source_name": "GlobalSecurity"},
+        {"title": "Why US warships won't be escorting merchant ships through Strait of Hormuz", "url": "https://www.cnn.com/2026/05/04/middleeast/project-freedom-hormuz-guide-ships-intl-hnk-ml", "snippet": "CNN explains 'guide not escort' distinction — no formal military escorts.", "source_name": "CNN"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran war May 2026 latest news today",
+      "language": "en",
+      "timestamp": "2026-05-04T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war live: UAE says intercepted missiles, drone sparks fire at oil site", "url": "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire", "snippet": "UAE intercepted 15 missiles, 4 drones from Iran. Fire at Fujairah oil zone.", "source_name": "Al Jazeera"},
+        {"title": "UAE says Iran launched missile attack despite ceasefire", "url": "https://www.cnbc.com/2026/05/04/iran-war-uae-trump-ceasefire-missiles.html", "snippet": "UAE accuses Iran of launching missile and drone attacks on Fujairah.", "source_name": "CNBC"},
+        {"title": "The U.S. fights to reopen the Strait of Hormuz as UAE says it's attacked by Iran", "url": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates", "snippet": "Dual crisis: US-Iran Hormuz showdown + Iran attacks UAE.", "source_name": "NPR"},
+        {"title": "U.S. military denies Iran's claim it struck American warship in Strait of Hormuz", "url": "https://www.cnbc.com/2026/05/04/iran-war-trump-strait-of-hormuz.html", "snippet": "CENTCOM: 'No U.S. Navy ships have been struck.' Iran claims 2 missiles hit US frigate.", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Strait of Hormuz blockade May 4 2026 US Navy",
+      "language": "en",
+      "timestamp": "2026-05-04T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IRGC unveils new Strait of Hormuz map, shipping remains at standstill", "url": "https://www.jpost.com/middle-east/iran-news/article-895083", "snippet": "IRGC publishes control map of Hormuz. Only 9 vessels transited in 24 hours.", "source_name": "Jerusalem Post"},
+        {"title": "Trump's plan to use US military to aid Strait of Hormuz transit gets quizzical response", "url": "https://www.stripes.com/branches/navy/2026-05-04/strait-of-hormuz-iran-navy-centcom-21570749.html", "snippet": "Stars and Stripes analysis of Project Freedom operational challenges.", "source_name": "Stars and Stripes"},
+        {"title": "Project Freedom unlikely to pay off in Strait of Hormuz right away, analysts say", "url": "https://breakingdefense.com/2026/05/project-freedom-strait-of-hormuz-risk-us-forces-commercial-ships/", "snippet": "Hapag-Lloyd says transit through strait still not possible. Analysts skeptical.", "source_name": "Breaking Defense"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 5월 호르무즈 해협 최신",
+      "language": "ko",
+      "timestamp": "2026-05-04T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "\"휴전 위반\" 이란, 트럼프 '프로젝트 프리덤'에 맞불 경고", "url": "https://seoul.co.kr/news/international/2026/05/04/20260504500013", "snippet": "이란 '프로젝트 프리덤' 휴전 위반 규정, 군사 대응 경고.", "source_name": "서울신문"},
+        {"title": "트럼프 \"호르무즈 억류 선박 빼내는 '프로젝트 프리덤' 4일부터 시작\"", "url": "https://www.mt.co.kr/world/2026/05/04/2026050406003555501", "snippet": "프로젝트 프리덤 작전 개시 보도.", "source_name": "머니투데이"},
+        {"title": "트럼프 \"호르무즈 갇힌 선박 빼내는 '프로젝트 프리덤' 4일 개시\"", "url": "https://www.fnnews.com/news/202605040909425836", "snippet": "구축함, 항공기 100대+, 1만5천명 투입.", "source_name": "파이낸셜뉴스"},
+        {"title": "트럼프 '호르무즈 해방 프로젝트' 발동…이란 통제 확대에 미·이란 충돌 위기 고조", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260505010000450", "snippet": "미-이란 호르무즈 충돌 위기 고조 종합 분석.", "source_name": "아시아투데이"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire Israel Hezbollah May 4 2026",
+      "language": "en",
+      "timestamp": "2026-05-04T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Lebanon's Most Senior Shi'ite Politician Says No to Negotiations With Israel Until War Stops", "url": "https://www.usnews.com/news/world/articles/2026-05-04/lebanons-most-senior-shiite-politician-says-no-to-negotiations-with-israel-until-war-stops", "snippet": "Nabih Berri tells An-Nahar priority must be stopping war before any political track.", "source_name": "US News"},
+        {"title": "Berri: No talks with Israel until attacks on Lebanon stop", "url": "https://www.presstv.ir/Detail/2026/05/04/768040/Berri-No-talks-with-Israel-until-attacks-on-Lebanon-stop", "snippet": "Berri rejects negotiations without guarantees Israel halts attacks.", "source_name": "Press TV"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran 14-point proposal US response May 2026",
+      "language": "en",
+      "timestamp": "2026-05-04T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran says it is reviewing US response to 14-point plan delivered via Pakistani intermediary", "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260503-presstv04.htm", "snippet": "Esmail Baghaei confirms Iran reviewing US counter-proposal.", "source_name": "GlobalSecurity/PressTV"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent WTI May 4 2026 Iran war",
+      "language": "en",
+      "timestamp": "2026-05-04T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil prices jump after Iran attacks UAE as U.S. tries to open Strait of Hormuz", "url": "https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html", "snippet": "Brent up ~6% to $114.44, WTI up 4% to $106.42. Fujairah fire drives surge.", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Hormuz Project Freedom reaction May 2026",
+      "language": "en",
+      "timestamp": "2026-05-04T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IRGC Announces New Maritime Control Zone in Strait of Hormuz", "url": "https://www.tasnimnews.ir/en/news/2026/05/04/3582497/irgc-announces-new-maritime-control-zone-in-strait-of-hormuz", "snippet": "IRGC declares 'smart control' zone between Mt Mobarak-Fujairah and Qeshm-Umm Al Quwain.", "source_name": "Tasnim"},
+        {"title": "Iran warns US to stay out of Hormuz after Trump says US will 'guide' ships", "url": "https://www.aljazeera.com/news/2026/5/4/iran-warns-us-to-stay-out-of-hormuz-after-trump-says-us-will-guide-ships", "snippet": "Ali Abdollahi warns any foreign military approaching Hormuz will be attacked.", "source_name": "Al Jazeera"},
+        {"title": "Trump's Hormuz 'protection' seeks 'pretext for escalation': Iran", "url": "https://asiatimes.com/2026/05/trumps-hormuz-protection-seeks-pretext-for-escalation-iran/", "snippet": "Senior Iranian official: Project Freedom 'intended to provoke Iran'.", "source_name": "Asia Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "UAE Iran missile attack Fujairah oil port May 4 2026",
+      "language": "en",
+      "timestamp": "2026-05-04T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "UAE reports missile and drone strikes incoming from Iran", "url": "https://www.aljazeera.com/news/2026/5/4/uae-reports-missile-and-drone-strikes-incoming-from-iran", "snippet": "UAE intercepted 15 missiles, 4 drones from Iran. Fire at Fujairah Oil Industry Zone.", "source_name": "Al Jazeera"},
+        {"title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says It Intercepted Iran Missiles", "url": "https://www.usnews.com/news/world/articles/2026-05-04/fujairah-oil-zone-hit-by-fire-after-drone-attack-as-uae-says-it-intercepted-iran-missiles", "snippet": "3 Indian citizens moderately injured. Fujairah bypasses Hormuz via ADCOP pipeline.", "source_name": "US News"},
+        {"title": "Iran Launches Drones and Missiles at UAE As Fire Breaks Out at Major UAE Oil Refinery", "url": "https://townhall.com/tipsheet/dmitri-bolt/2026/05/04/the-uae-has-accused-iran-of-terrorist-attacks-as-two-drones-launched-at-uae-tanker-n2675498", "snippet": "Fire at major UAE oil refinery after drone attack from Iran.", "source_name": "Townhall"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Hormuz maritime control zone IRGC May 4 2026 Tasnim",
+      "language": "en",
+      "timestamp": "2026-05-04T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IRGC publishes Strait of Hormuz 'control map', warns ships will be 'forcefully stopped'", "url": "https://www.turkiyetoday.com/region/irgc-publishes-hormuz-control-map-and-warns-ships-will-be-forcefully-stopped-3219362", "snippet": "IRGC publishes map; only 9 vessels transited in 24 hours.", "source_name": "Turkiye Today"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 호르무즈 프로젝트 프리덤 5월 4일 2026",
+      "language": "ko",
+      "timestamp": "2026-05-04T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "트럼프, 호르무즈에 '프로젝트 프리덤' 가동… 억류 선박 강제 호송 나선다", "url": "https://www.blockmedia.co.kr/archives/1087058", "snippet": "프로젝트 프리덤 가동 종합 보도.", "source_name": "블록미디어"},
+        {"title": "트럼프 \"4일부터 호르무즈 선박 빼낼 것\"… 이란 \"미군 접근 땐 공격\"", "url": "https://www.thepublic.kr/news/articleView.html?idxno=303346", "snippet": "미-이란 호르무즈 대치 한글 종합.", "source_name": "더퍼블릭"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Nabih Berri Lebanon negotiations Israel May 4 2026",
+      "language": "en",
+      "timestamp": "2026-05-04T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Lebanon's most senior Shiite politician says no to negotiations with Israel until war stops", "url": "https://www.arabnews.com/node/2642282/middle-east", "snippet": "Berri tells An-Nahar: priority is stopping war before political track.", "source_name": "Arab News"},
+        {"title": "Lebanon's Hezbollah-allied parliament speaker: No talks with Israel until war ends", "url": "https://www.timesofisrael.com/lebanons-hezbollah-allied-parliament-speaker-no-talks-with-israel-until-war-ends/", "snippet": "Israel ordered residents out of 4 more villages in southern Lebanon.", "source_name": "Times of Israel"}
+      ]
+    }
+  ]
+}

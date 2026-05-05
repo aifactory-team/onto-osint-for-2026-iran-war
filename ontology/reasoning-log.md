@@ -1108,3 +1108,47 @@
 ### 스키마 변경 없음
 - 8개 새 엔티티 모두 기존 클래스(Person 3개, Event 5개)로 분류 가능
 - 13개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-05-04 추론 결과
+
+### 추론 #1: event_chain (Project Freedom → 호르무즈 교전 — 군사 충돌 전환)
+- **입력:** (ent-260/Project Freedom, locatedIn, ent-008/Hormuz), (ent-268/US-Iran Exchange of Fire, locatedIn, ent-008/Hormuz)
+- **추론:** (ent-268/US-Iran Exchange of Fire, follows, ent-260/Project Freedom)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** Project Freedom Day 1에 IRGC가 미사일·드론·쾌속정으로 공격, 미군이 6척 격침. 5/3의 '법적 대립'이 5/4에 '군사 충돌'로 전환. 4/8 휴전 이후 최초 직접 교전.
+
+### 추론 #2: event_chain (Project Freedom → 푸자이라 공격 — 이란 보복 확전)
+- **입력:** (ent-260/Project Freedom, date=May 4), (ent-269/Fujairah Attack, date=May 4)
+- **추론:** (ent-269/Fujairah Attack, causedBy, ent-260/Project Freedom)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 푸자이라는 ADCOP 파이프라인의 종점으로 호르무즈 우회 경로. 이란이 호르무즈 직접 대치와 동시에 우회 경로도 공격하여 '이중 봉쇄' 의지를 과시. 4/8 이후 최초 UAE 공격.
+
+### 추론 #3: co_participation (IRGC 통제구역 ↔ 이란 항행법 — 입법과 군사의 동기화)
+- **입력:** (ent-262/Iran Navigation Law, date=May 3), (ent-270/IRGC Maritime Control Zone, date=May 4)
+- **추론:** (ent-270/IRGC Maritime Control Zone, relatedTo, ent-262/Iran Navigation Law)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 5/3 의회 입법 추진 → 5/4 IRGC 공식 통제구역 선포. 니크자드(의회)와 IRGC가 동시에 호르무즈 법제화·군사화를 추진. 의회-IRGC 동기화는 이란 내부 '강경 통합'을 시사.
+
+### 추론 #4: co_participation (UAE ↔ US Military — 암시적 동맹 강화)
+- **입력:** (ent-275/UAE, opposes, ent-002/Iran), (ent-003/US Military, participatesIn, ent-268/Exchange of Fire)
+- **추론:** (ent-275/UAE, potentialRelation, ent-003/US Military)
+- **신뢰도:** 0.75
+- **상태:** 잠정 (직접 군사 협력 미확인)
+- **비고:** 같은 날 UAE가 이란 미사일 15발 요격 + 미군이 호르무즈에서 IRGC 교전. 직접 공동 작전은 아니나 동시 이란 공격 대응에서 암시적 전략 동맹.
+
+### 추론 #5: co_participation (베리 → 이-레 휴전 약화 — 정치적 장벽)
+- **입력:** (ent-271/Nabih Berri, opposes, ent-004/Israel), (ent-109/Israel-Lebanon Ceasefire, date=Apr 16)
+- **추론:** (ent-271/Nabih Berri, opposes, ent-109/Israel-Lebanon Ceasefire)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 레바논 최고위 시아파 지도자가 이스라엘 협상을 '전쟁 중단 전 불가'로 거부. 4/14 워싱턴 회담, 4/23 휴전 연장에도 불구하고 정치적 프레임워크가 약화. 5/17 만료까지 13일.
+
+### 스키마 변경 없음
+- 10개 새 엔티티: Event 3개, Person 3개, Location 1개, Organization 2개, Concept 0개
+- 16개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+- 새 클래스/관계 유형 추가 불필요

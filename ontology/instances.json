@@ -2901,7 +2901,124 @@
       "first_seen": "2026-05-03",
       "last_seen": "2026-05-03",
       "mention_count": 4
+    },
+    {
+      "id": "ent-268",
+      "type": "Event",
+      "name": "US-Iran Hormuz Exchange of Fire (May 4)",
+      "properties": {
+        "date": "2026-05-04",
+        "location": "Strait of Hormuz",
+        "detail": "First direct military exchange since April 8 ceasefire. US destroyed 6 Iranian small boats. Iran launched cruise missiles, drones, small boats at US ships and commercial vessels. Iran claims 2 missiles hit US frigate (CENTCOM denies). 2 US-flagged ships successfully transited. Trump: 'blown off the face of the Earth' warning."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-269",
+      "type": "Event",
+      "name": "Fujairah Drone Attack (May 4)",
+      "properties": {
+        "date": "2026-05-04",
+        "location": "Fujairah Oil Industry Zone, UAE",
+        "detail": "UAE intercepted 15 missiles + 4 drones from Iran. Fire at Fujairah oil zone. 3 Indian citizens moderately injured. First Iranian attack on UAE since April 8 ceasefire. Fujairah critical as ADCOP pipeline terminus bypassing Hormuz."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-270",
+      "type": "Event",
+      "name": "IRGC Hormuz Maritime Control Zone (May 4)",
+      "properties": {
+        "date": "2026-05-04",
+        "location": "Strait of Hormuz",
+        "detail": "IRGC declared 'smart control' zone. Southern boundary: Mt Mobarak (Iran) to south of Fujairah (UAE). Western boundary: Qeshm Island to Umm Al Quwain. Only 9 vessels transited in 24 hours. Vessels violating protocols will be 'forcefully stopped.' Called Project Freedom 'piracy' and ceasefire violation."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-271",
+      "type": "Person",
+      "name": "Nabih Berri",
+      "properties": {
+        "role": "Lebanon Parliament Speaker",
+        "affiliation": "Amal Movement / Hezbollah ally",
+        "action": "Rejected negotiations with Israel until war stops. Told An-Nahar: 'stopping the war before any political track.' Most senior Shiite politician in Lebanon."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-272",
+      "type": "Person",
+      "name": "Ebrahim Azizi",
+      "properties": {
+        "role": "Iran parliament security/foreign policy committee chair",
+        "affiliation": "Iran",
+        "action": "Warned US interference in Hormuz maritime regime = ceasefire violation."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-273",
+      "type": "Person",
+      "name": "Esmail Baghaei",
+      "properties": {
+        "role": "Iran Foreign Ministry spokesperson",
+        "affiliation": "Iran",
+        "action": "Confirmed Iran reviewing US counter-proposal to 14-point plan."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-274",
+      "type": "Location",
+      "name": "Fujairah",
+      "properties": {
+        "type": "emirate/oil hub",
+        "coordinates": "25.1288°N, 56.3265°E",
+        "significance": "End of ADCOP pipeline, bypasses Hormuz Strait. Critical to UAE oil exports during Iran war."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-275",
+      "type": "Organization",
+      "name": "UAE (United Arab Emirates)",
+      "properties": {
+        "type": "state",
+        "location": "Middle East",
+        "action_may4": "Intercepted 15 missiles + 4 drones from Iran. Fire at Fujairah oil zone. Schools shifted to remote learning Tue-Fri."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-276",
+      "type": "Organization",
+      "name": "Hapag-Lloyd",
+      "properties": {
+        "type": "shipping company",
+        "location": "Germany",
+        "action": "Said transit through Hormuz still not possible despite Project Freedom."
+      },
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "mention_count": 2
     }
   ],
-  "total_count": 229
+  "total_count": 239
 }

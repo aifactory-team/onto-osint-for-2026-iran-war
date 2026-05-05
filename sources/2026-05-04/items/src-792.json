@@ -1,0 +1,32 @@
+{
+  "id": "src-792",
+  "title": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate — Day 66",
+  "url": "https://www.cnn.com/2026/05/04/world/live-news/iran-war-hormuz-trump",
+  "snippet": "Day 66 of the Iran war saw the first direct military exchange between US and Iranian forces since the April 8 ceasefire as Project Freedom launched. CENTCOM chief Adm. Bradley Cooper confirmed US forces destroyed 6 Iranian small boats in the Strait of Hormuz. Iran launched multiple cruise missiles, drones and small boats at US Navy ships and commercial vessels. Iran's state media claimed 2 missiles struck a US frigate, which CENTCOM categorically denied: 'No U.S. Navy ships have been struck.' 2 US-flagged merchant vessels successfully transited through the strait. Trump warned Iranian forces would be 'blown off the face of the Earth' if they target US ships. Hapag-Lloyd said transit through the strait was still not possible.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First direct US-Iran military exchange since April 8 ceasefire. Project Freedom Day 1 operations with live fire.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-237", "type": "Person", "name": "Brad Cooper", "role": "CENTCOM Commander"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "Iranian military"},
+    {"id": "ent-070", "type": "Organization", "name": "CENTCOM", "role": "US military command"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "military"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom", "role": "Hormuz escort operation"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "waterway"},
+    {"id": "temp-001", "type": "Organization", "name": "Hapag-Lloyd", "role": "shipping company"},
+    {"id": "temp-002", "type": "Event", "name": "US-Iran Hormuz Exchange of Fire", "role": "military engagement"},
+    {"id": "temp-003", "type": "Concept", "name": "Guide Not Escort", "role": "operational distinction"}
+  ],
+  "relations": [
+    {"subject": "ent-237", "predicate": "participatesIn", "object": "ent-260"},
+    {"subject": "ent-070", "predicate": "participatesIn", "object": "ent-260"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-260"},
+    {"subject": "temp-002", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-002"}
+  ]
+}

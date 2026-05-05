@@ -1,0 +1,26 @@
+{
+  "id": "src-795",
+  "title": "Lebanon's most senior Shi'ite politician says no to negotiations with Israel until war stops",
+  "url": "https://www.usnews.com/news/world/articles/2026-05-04/lebanons-most-senior-shiite-politician-says-no-to-negotiations-with-israel-until-war-stops",
+  "snippet": "Lebanon's parliament speaker Nabih Berri, the most senior Shiite politician and close Hezbollah ally, told An-Nahar newspaper the priority must be 'stopping the war before any political track.' He rejected negotiations without guarantees Israel would halt attacks. Israeli forces ordered residents out of 4 more villages in southern Lebanon. Hezbollah carried out 11 operations against Israeli forces on Sunday. Ceasefire Day 18 — hostilities continue despite the ceasefire agreement extended on April 23.",
+  "source_name": "US News/Reuters",
+  "language": "en",
+  "discovered_date": "2026-05-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Nabih Berri's first direct public rejection of Israel negotiations — significant as most senior Shiite leader in Lebanon.",
+  "entities": [
+    {"id": "temp-011", "type": "Person", "name": "Nabih Berri", "role": "Lebanon Parliament Speaker"},
+    {"id": "ent-057", "type": "Organization", "name": "Lebanon", "role": "state"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "ent-048", "type": "Organization", "name": "Hezbollah", "role": "armed group"},
+    {"id": "ent-109", "type": "Event", "name": "Israel-Lebanon Ceasefire", "role": "ceasefire"}
+  ],
+  "relations": [
+    {"subject": "temp-011", "predicate": "affiliatedWith", "object": "ent-048"},
+    {"subject": "temp-011", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-109"},
+    {"subject": "ent-048", "predicate": "participatesIn", "object": "ent-109"}
+  ]
+}

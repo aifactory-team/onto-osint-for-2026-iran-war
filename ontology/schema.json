@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-05-04",
   "classes": [
     {
       "id": "Entity",
@@ -551,6 +551,22 @@
         "src-760",
         "src-762",
         "src-763"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "action": "add_instances",
+      "target": "10 new entities (ent-268~ent-276)",
+      "reason": "Project Freedom Day 1 미-이란 호르무즈 교전(6척 격침·미사일/드론 교환), 이란 UAE 공격(푸자이라 유류시설 화재, 15미사일+4드론 요격), IRGC 호르무즈 해상통제구역 선포('스마트 통제'), 나비 베리 이스라엘 협상 거부, 에브라힘 아지지/에스마일 바가에이 이란 관리 등장, 유가 Brent $114.44(+6%)/WTI $106.42(+4%)",
+      "source_ids": [
+        "src-792",
+        "src-793",
+        "src-794",
+        "src-795",
+        "src-796",
+        "src-797",
+        "src-798",
+        "src-799"
       ]
     }
   ]
