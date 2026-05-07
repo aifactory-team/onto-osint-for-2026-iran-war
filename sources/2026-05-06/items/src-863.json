@@ -1,0 +1,25 @@
+{
+  "id": "src-863",
+  "title": "Exclusive: U.S. and Iran closing in on one-page memo to end war — 14-point MoU declares end to conflict, 30-day negotiation window",
+  "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo",
+  "snippet": "Two U.S. officials and two other sources briefed on the issue told Axios that the White House believes it is nearing a one-page, 14-point memorandum of understanding to end the war and establish a framework for more detailed nuclear talks. The MoU would declare an end to the conflict and trigger a 30-day period resolving nuclear demands, unfreezing of Iranian assets, and negotiating security in the Strait of Hormuz. Iran would commit to never seek a nuclear weapon, accept enhanced inspections including snap inspections, not operate underground nuclear facilities. US would commit to gradual sanctions lifting and release of frozen funds. Hormuz restrictions and US blockade gradually lifted during 30-day period. One U.S. official: 'We are not far, but there is no deal yet.' White House expects Iran response in 24-48 hours.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 14-point MoU 구체적 내용 공개 없음. 기존 MoU 논의(4/12 이후)는 있었으나 구체적 조항 공개는 최초.",
+  "entities": [
+    {"id": "temp-001", "type": "Concept", "name": "US-Iran 14-Point MoU"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-046", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-047", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

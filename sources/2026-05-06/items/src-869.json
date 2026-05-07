@@ -1,0 +1,22 @@
+{
+  "id": "src-869",
+  "title": "Iran reviewing US proposal — Baqaei: will convey response via Pakistan; 'no deal yet' says US official",
+  "url": "https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates",
+  "snippet": "Iran's foreign ministry spokesperson Esmaeil Baqaei confirmed Iran is assessing the Trump administration's latest proposal to end the war. 'The American plan and proposal is still being reviewed by Iran, and after summing up its points of view, Iran will convey its views to the Pakistani side.' Iran's negotiators discuss end of war, not nuclear issue (later stage). IRGC also announced ships can now pass through Hormuz. Trump threatens renewed bombing if deal rejected.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "바가에이 공식 확인은 신규. 이란 정부 차원의 제안 검토 확인은 5/6 최초.",
+  "entities": [
+    {"id": "temp-009", "type": "Person", "name": "Esmaeil Baqaei"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-030", "type": "Organization", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

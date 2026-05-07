@@ -1,0 +1,23 @@
+{
+  "id": "src-865",
+  "title": "IRGC announces conditional Hormuz transit resumption — 'safe, stable' passage via Iran-designated corridor only",
+  "url": "https://www.presstv.ir/Detail/2026/05/06/768144/Iran-IRGC-Navy-statement-resumed-passage-Hormuz-Strait",
+  "snippet": "IRGC Navy announces transit through Hormuz will become 'safe and stable' as 'aggressor threats neutralized.' Reports 'good level of compliance' from shipping companies. Ships must use Iran-designated corridor only — 'The corridor provided by Iran is the only safe way to pass through the Strait of Hormuz. Diverting ships to other routes is unsafe, and the IRGC Navy will take decisive action against anyone who takes such a step.' Came after Trump halted Project Freedom.",
+  "source_name": "Press TV",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/5 Strait Authority 발표의 실행 단계. IRGC가 실제 통행 허용 선언은 최초. 조건부이나 사실상 부분 개방.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-003", "type": "Event", "name": "IRGC Conditional Hormuz Transit Resumption"},
+    {"id": "ent-279", "type": "Concept", "name": "Iran Strait Authority"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "announces", "object": "temp-003"},
+    {"subject": "temp-003", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

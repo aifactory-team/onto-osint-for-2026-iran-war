@@ -1,0 +1,21 @@
+{
+  "id": "src-870",
+  "title": "Lebanon ceasefire 'in name only' — attacks this week most intense since truce, Day 20",
+  "url": "https://www.npr.org/2026/05/06/nx-s1-5814098/a-fraying-ceasefire-in-southern-lebanon-with-villages-destroyed",
+  "snippet": "Nearly three weeks into U.S.-brokered ceasefire, escalating attacks and widening incursions expose major cracks. UN reports show attacks this week have been the most intense since the truce started on April 16. Ceasefire set to expire May 17 (11 days). Hezbollah not formal signatory despite being principal party. Israel continued strikes in south Lebanon but had not targeted Beirut — until today's Dahieh strike killing Ballout.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이번 주 '가장 강렬한 공격' 평가는 신규. Day 20 상황 종합 분석.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-019", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-020", "type": "Location", "name": "Lebanon"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-019"}
+  ]
+}

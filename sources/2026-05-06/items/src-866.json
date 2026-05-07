@@ -1,0 +1,24 @@
+{
+  "id": "src-866",
+  "title": "Israel strikes Beirut — kills Radwan Force commander Malek Ballout; first Dahieh strike since April 16 ceasefire",
+  "url": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+  "snippet": "Israeli warplanes struck Ghobeiri in Beirut's southern suburbs (Dahieh). First attack on the area since April 16 ceasefire. AFP source close to Hezbollah confirms Malek Ballout, operations commander of the Radwan Force (Hezbollah's elite unit), killed along with his deputy. Netanyahu and Defence Minister Israel Katz ordered the strike. An Israeli official told the Israeli Public Broadcasting Corporation the attack was coordinated with the United States. Ballout led Radwan Force since January 2024 after Wissam al-Tawil was killed. Major breach of ceasefire agreement.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "완전 신규 사건. 4/16 이후 최초 베이루트 공습. 라드완 부대 사령관 사살은 전쟁 국면 전환 가능성.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-004", "type": "Person", "name": "Malek Ballout"},
+    {"id": "temp-005", "type": "Event", "name": "Israel Beirut Strike May 6 (Dahieh)"},
+    {"id": "temp-010", "type": "Person", "name": "Israel Katz"},
+    {"id": "ent-010", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "attacks", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "kills", "object": "temp-004"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-867",
+  "title": "Oil plunges 7-8% on US-Iran deal hopes — Brent $101.27, WTI $95.08; biggest single-day drop since war began",
+  "url": "https://www.cnbc.com/2026/05/06/oil-prices-trump-pauses-strait-of-hormuz-escort-effort.html",
+  "snippet": "Brent crude futures tumbled nearly 8% to close at $101.27/bbl. WTI fell about 7% to close at $95.08/bbl. Biggest single-day drop since the war began on Feb 28. Driven by Axios report of MoU proximity, IRGC transit announcement, and Trump 'great progress' claims. The National reports Brent hit intraday low of $98.30. Markets pricing in potential Hormuz reopening. Despite drop, still ~43% above pre-war levels.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "전쟁 개시 이후 최대 일일 하락폭. 전일($109.87) 대비 급변.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-006", "predicate": "causedBy", "object": "temp-001"}
+  ]
+}

@@ -1195,3 +1195,46 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
 - Strait Authority는 Concept 클래스로 분류 (새 클래스 불필요)
+
+---
+
+## 2026-05-06 추론 결과
+
+### 추론 #1: event_chain (PF 일시중단 → MoU 근접)
+- **입력:** (ent-277/PF 일시중단, follows, ent-260/Project Freedom), (ent-287/14-Point MoU, relatedTo, ent-277)
+- **추론:** (ent-287/14-Point MoU, causedBy, ent-277/PF 일시중단)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** PF 일시중단(5/5)이 외교적 공간을 열어 MoU 최종 단계 진입을 가능하게 함. 군사적 비용 회피와 외교적 레버리지 유지의 절충이 MoU 근접의 전제조건.
+
+### 추론 #2: event_chain (Strait Authority → IRGC 통행 재개)
+- **입력:** (ent-279/Strait Authority, locatedIn, ent-008/Hormuz), (ent-289/IRGC 통행 재개, locatedIn, ent-008/Hormuz)
+- **추론:** (ent-289/IRGC 통행 재개, follows, ent-279/Strait Authority)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 5/3 의회 항행법 → 5/4 IRGC 통제구역 → 5/5 Strait Authority → 5/6 실제 통행 허용. 4단계 제도화·집행 시퀀스 완성. 이란은 호르무즈 주권 통제를 기정사실화하면서 '부분 개방'으로 국제 압력을 완화하려 함.
+
+### 추론 #3: co_participation (베이루트 공습 ↔ 포괄적 휴전 충돌)
+- **입력:** (ent-004/Israel, attacks, ent-291/베이루트 공습), (ent-280/Wang Yi, calls_for, ent-293/포괄적 휴전)
+- **추론:** (ent-291/베이루트 공습, opposes, ent-293/포괄적 휴전)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 이스라엘의 4/16 이후 최초 베이루트 공습은 중국이 촉구하는 '포괄적 휴전' 분위기와 정면 충돌. MoU 근접 시점에 레바논 전선 확대는 전체 평화 프로세스의 불안 요소.
+
+### 추론 #4: co_participation (Trump-Xi 정상회담 ↔ MoU 시한 연동)
+- **입력:** (ent-001/Trump, participatesIn, ent-294/Trump-Xi Summit), (ent-001/Trump, participatesIn, ent-287/MoU)
+- **추론:** (ent-294/Trump-Xi Summit, relatedTo, ent-287/14-Point MoU)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 5/14-15 정상회담은 트럼프가 '이란 딜 완료' 상태로 시진핑을 만나려는 동기를 제공. MoU의 사실상 데드라인은 Trump-Xi 정상회담('no deadline' 발언에도 불구).
+
+### 추론 #5: event_chain (위협 + 협상 = 'Madman Theory')
+- **입력:** (ent-001/Trump, threatens, ent-288/폭격 위협), (ent-001/Trump, participatesIn, ent-287/MoU)
+- **추론:** (ent-288/폭격 위협, opposes, ent-287/MoU) — 역설적으로 위협이 협상 레버리지로 기능
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 'much higher level' 위협과 'great progress' 주장이 동시. 전형적 닉슨 독트린(Madman Theory): 비합리적 위협으로 상대의 양보를 유도. 이란에 24-48시간 내 응답 압박.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
+- MoU는 Concept 클래스, 나머지 사건은 Event 클래스로 분류

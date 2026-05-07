@@ -1,0 +1,22 @@
+{
+  "id": "src-871",
+  "title": "Trump-Xi summit May 14-15 in Beijing — unfinished Iran war gives Xi upper hand; Araghchi visit timed before summit",
+  "url": "https://www.eurasiareview.com/04052026-what-to-expect-from-the-trump-xi-jinping-14-15-may-summit-analysis/",
+  "snippet": "Trump-Xi summit scheduled May 14-15 in Beijing. Originally planned for March but delayed by Iran war. Iran/Hormuz, Taiwan, trade all on agenda. CNN analysis: unfinished war strengthens Xi's negotiating position. US wants China to press Iran on ceasefire. Beijing presses Washington on Taiwan. Araghchi's Beijing visit (5/5-6) strategically positions China as power broker one week before summit.",
+  "source_name": "Eurasia Review",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Trump-Xi 정상회담과 이란 전쟁 연결 분석은 신규. 5/14-15 일정 확인.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-008", "type": "Event", "name": "Trump-Xi Beijing Summit May 14-15"},
+    {"id": "ent-286", "type": "Organization", "name": "China"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-008"},
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "temp-007"}
+  ]
+}

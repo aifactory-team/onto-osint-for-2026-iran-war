@@ -1,0 +1,37 @@
+{
+  "date": "2026-05-06",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-287", "source_id": "src-863", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "threatens", "object": "ent-288", "source_id": "src-864", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "announces", "object": "ent-289", "source_id": "src-865", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-289", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-865", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "attacks", "object": "ent-291", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-291", "predicate": "kills", "object": "ent-290", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-290", "predicate": "affiliatedWith", "object": "ent-019", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-280", "predicate": "calls_for", "object": "ent-293", "source_id": "src-868", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "ent-293", "source_id": "src-868", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-286", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-868", "date": "2026-05-06", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-295", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-869", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-287", "source_id": "src-869", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-294", "source_id": "src-871", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-296", "predicate": "affiliatedWith", "object": "ent-004", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-010", "predicate": "orders", "object": "ent-291", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-292", "predicate": "causedBy", "object": "ent-287", "source_id": "src-867", "date": "2026-05-06", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-042", "predicate": "cooperatesWith", "object": "ent-280", "source_id": "src-868", "date": "2026-05-06", "confidence": 0.90, "type": "explicit", "note": "5/5 회담 이후 5/6에도 지속 확인"},
+    {"subject": "ent-286", "predicate": "cooperatesWith", "object": "ent-009", "source_id": "src-871", "date": "2026-05-06", "confidence": 0.80, "type": "explicit", "note": "양국 UNSC 거부권 + 이란 지원 구조 재확인"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-287", "predicate": "causedBy", "object": "ent-277", "rule": "event_chain", "confidence": 0.80, "type": "inferred", "reason": "PF 일시중단(5/5) → MoU 근접 보도(5/6): PF 중단이 MoU 최종 단계 진입을 가능하게 함"},
+    {"subject": "ent-289", "predicate": "follows", "object": "ent-279", "rule": "event_chain", "confidence": 0.85, "type": "inferred", "reason": "Strait Authority(5/5) → IRGC 통행 재개(5/6): 제도화 후 실행 단계"},
+    {"subject": "ent-291", "predicate": "opposes", "object": "ent-293", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reason": "이스라엘 베이루트 공습은 왕이의 '포괄적 휴전' 촉구와 정면 충돌. 평화 프로세스 훼손 잠재력."},
+    {"subject": "ent-294", "predicate": "relatedTo", "object": "ent-287", "rule": "co_participation", "confidence": 0.80, "type": "inferred", "reason": "Trump-Xi 정상회담(5/14)은 MoU 타결 시한과 사실상 연동. 정상회담 전 딜 완료가 트럼프의 동기."},
+    {"subject": "ent-288", "predicate": "opposes", "object": "ent-287", "rule": "event_chain", "confidence": 0.75, "type": "inferred", "reason": "폭격 위협과 평화 합의 근접이 동시. 'Madman theory' — 위협이 협상 레버리지로 기능."}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 16,
+    "inferred_edges": 5
+  }
+}

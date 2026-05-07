@@ -3146,9 +3146,134 @@
         "role": "Iran diplomatic partner, 25-year cooperation agreement, UNSC veto power"
       },
       "first_seen": "2026-05-05",
-      "last_seen": "2026-05-05",
+      "last_seen": "2026-05-06",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-287",
+      "type": "Concept",
+      "name": "US-Iran 14-Point MoU",
+      "properties": {
+        "domain": "diplomacy/peace",
+        "detail": "One-page memorandum of understanding declaring end to conflict. 30-day negotiation window for nuclear moratorium (never seek weapon, no underground facilities, snap inspections), gradual sanctions lift, frozen funds release, Hormuz restrictions + US blockade gradually lifted. Negotiated via Witkoff/Kushner through Pakistan. White House expects Iran response 24-48h. 'No deal yet' — US official."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-288",
+      "type": "Event",
+      "name": "Trump 'Higher Level' Bombing Threat May 6",
+      "properties": {
+        "date": "2026-05-06",
+        "detail": "Truth Social: 'If they don't agree, the bombing starts, and it will be, sadly, at a much higher level and intensity than it was before.' Operation Epic Fury restart threat. Also states 'never a deadline' for Iran."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-289",
+      "type": "Event",
+      "name": "IRGC Conditional Hormuz Transit Resumption",
+      "properties": {
+        "date": "2026-05-06",
+        "detail": "IRGC Navy announces 'safe, stable' transit resumption. Ships must use Iran-designated corridor only. 'Good level of compliance.' 'Decisive action' against deviators. Framed as 'aggressor threats neutralized.' Strait Authority transit pass in effect."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-290",
+      "type": "Person",
+      "name": "Malek Ballout",
+      "properties": {
+        "role": "Operations Commander, Radwan Force (Hezbollah elite unit)",
+        "affiliation": "Hezbollah",
+        "detail": "Led Radwan Force since January 2024 (after Wissam al-Tawil killed). Killed in Israeli strike on Dahieh, Beirut on May 6 along with deputy."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-291",
+      "type": "Event",
+      "name": "Israel Beirut Strike May 6 (Dahieh)",
+      "properties": {
+        "date": "2026-05-06",
+        "location": "Ghobeiri, southern suburbs of Beirut (Dahieh)",
+        "detail": "First strike on Beirut since April 16 ceasefire. Netanyahu + Israel Katz ordered. Coordinated with US. Killed Malek Ballout (Radwan Force commander) and deputy. Major ceasefire breach."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-292",
+      "type": "Event",
+      "name": "Oil Plunge May 6 (War-era record drop)",
+      "properties": {
+        "date": "2026-05-06",
+        "detail": "Brent $101.27 (-8%), WTI $95.08 (-7%). Biggest single-day drop since war began. Intraday low $98.30. Driven by MoU proximity reports, IRGC transit announcement, Trump 'great progress'. Still ~43% above pre-war levels."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-293",
+      "type": "Event",
+      "name": "Wang Yi 'Comprehensive Ceasefire' Call",
+      "properties": {
+        "date": "2026-05-06",
+        "detail": "Wang Yi: 'immediate end to hostilities', 'prompt resumption of shipping through Hormuz.' Appreciates Iran's no-nuclear-weapon commitment. Affirms peaceful nuclear energy right. One week before Trump-Xi summit May 14-15."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 9
+    },
+    {
+      "id": "ent-294",
+      "type": "Event",
+      "name": "Trump-Xi Beijing Summit (May 14-15)",
+      "properties": {
+        "date": "2026-05-14",
+        "location": "Beijing",
+        "detail": "US-China summit. Originally March, delayed by Iran war. Iran/Hormuz, Taiwan, trade on agenda. Unfinished war gives Xi upper hand. China pressed Iran ahead of summit."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-295",
+      "type": "Person",
+      "name": "Esmaeil Baqaei",
+      "properties": {
+        "role": "Iran Foreign Ministry Spokesperson",
+        "affiliation": "Iran Ministry of Foreign Affairs",
+        "detail": "Confirmed Iran reviewing US proposal: 'after summing up its points of view, Iran will convey its views to the Pakistani side.'"
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-296",
+      "type": "Person",
+      "name": "Israel Katz",
+      "properties": {
+        "role": "Israeli Defence Minister",
+        "affiliation": "Israel",
+        "detail": "Co-ordered Beirut Dahieh strike with Netanyahu targeting Malek Ballout."
+      },
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
       "mention_count": 3
     }
   ],
-  "total_count": 239
+  "total_count": 249
 }

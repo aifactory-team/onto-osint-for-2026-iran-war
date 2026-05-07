@@ -1,0 +1,24 @@
+{
+  "id": "src-868",
+  "title": "China presses Iran against resuming war, urges Hormuz reopening — Wang Yi calls for 'comprehensive ceasefire' ahead of Trump-Xi summit",
+  "url": "https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html",
+  "snippet": "Wang Yi called for 'an immediate end to the hostilities' and 'prompt resumption of shipping traffic through the Strait of Hormuz.' China appreciates Iran's commitment not to pursue nuclear weapons. Affirms Iran's 'legitimate right to peaceful use of nuclear energy.' Araghchi signals Hormuz reopening could be addressed 'promptly.' Visit strategically timed: one week before Trump visits Beijing for summit with Xi Jinping on May 14-15. China positions itself as mediator while securing own interests (25-year cooperation agreement, energy imports).",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/5 아라그치-왕이 회담의 후속이나 왕이 '포괄적 휴전' 촉구와 Trump-Xi 정상회담 연결은 신규 정보.",
+  "entities": [
+    {"id": "ent-280", "type": "Person", "name": "Wang Yi"},
+    {"id": "ent-042", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-286", "type": "Organization", "name": "China"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-008", "type": "Event", "name": "Trump-Xi Beijing Summit May 14-15"}
+  ],
+  "relations": [
+    {"subject": "ent-280", "predicate": "calls_for", "object": "temp-007"},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "temp-007"}
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-06",
+  "collected_at": "2026-05-06T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 10,
+  "total_results": 58,
+  "expanded_keywords": ["US Iran MoU 14-point memo end war", "Trump threatens higher level bombing Iran", "IRGC Hormuz transit resumption corridor", "oil prices plunge deal hopes", "Israel Beirut strike Malek Ballout Radwan", "Araghchi Wang Yi China comprehensive ceasefire", "Iran Baqaei reviews US proposal Pakistan", "Trump Xi summit May 14 Beijing", "이란 미국 제안 검토 협상", "이스라엘 베이루트 공습 라드완"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war May 6 2026 Project Freedom Hormuz deal negotiations",
+      "language": "en",
+      "timestamp": "2026-05-06T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Live Updates: Trump threatens Iran strikes, says too soon for new direct talks after reporting 'great progress'", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-progress-peace-deal-strait-of-hormuz/", "snippet": "Trump threatens Iran with 'much higher level' bombing if deal not agreed", "source_name": "CBS News"},
+        {"title": "Live updates: Iran reviewing US proposal as source says both sides moving toward memo to end war", "url": "https://www.cnn.com/2026/05/06/world/live-news/iran-war-trump-strait-of-hormuz", "snippet": "Iran reviewing US proposal; 14-point MoU to end war discussed", "source_name": "CNN"},
+        {"title": "Iran reviews proposal to end war as Trump warns of more bombs", "url": "https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates", "snippet": "Iran's IRGC says ships can now pass through Hormuz. Baqaei confirms review.", "source_name": "NPR"},
+        {"title": "Trump Pauses 'Project Freedom' in Hope of Deal With Iran", "url": "https://time.com/article/2026/05/06/trump-pauses-project-freedom-in-hope-of-deal-with-iran/", "snippet": "Project Freedom paused, blockade remains. US awaits Iran response 24-48h.", "source_name": "Time"},
+        {"title": "Iran live updates: Trump says no deadline for Iran to make a deal", "url": "https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582", "snippet": "Trump: 'never a deadline' for Iran deal", "source_name": "ABC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran deal MoU memorandum understanding 14 points May 6 2026",
+      "language": "en",
+      "timestamp": "2026-05-06T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Exclusive: U.S. and Iran closing in on one-page memo to end war, officials say", "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo", "snippet": "14-point MoU: declare end to war, 30-day negotiation period for nuclear/sanctions/Hormuz", "source_name": "Axios"},
+        {"title": "Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal", "url": "https://www.cnbc.com/2026/05/06/us-iran-peace-deal-nuclear-moratorium.html", "snippet": "MoU includes: never seek nuclear weapon, enhanced inspections, gradual sanctions lift, frozen funds release, Hormuz reopening", "source_name": "CNBC"},
+        {"title": "Trump optimistic as U.S. awaits Iran's response to peace framework", "url": "https://www.axios.com/2026/05/06/trump-iran-war-deal-framework-response", "snippet": "White House expects Iran response in 24-48 hours", "source_name": "Axios"},
+        {"title": "US, Iran said closing in on framework for permanent deal, as Trump renews bomb threats", "url": "https://www.timesofisrael.com/us-iran-said-closing-in-on-framework-for-permanent-deal-as-trump-renews-bomb-threats/", "snippet": "Framework deal near but 'no deal yet' — US official", "source_name": "Times of Israel"},
+        {"title": "US and Iran Closing in on Memo to End War, Sources Say", "url": "https://www.usnews.com/news/world/articles/2026-05-06/iran-says-it-wants-a-comprehensive-agreement-with-us", "snippet": "Iran wants 'comprehensive agreement' with US", "source_name": "US News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Beirut strike Radwan Force commander Malek Ballout May 6 2026",
+      "language": "en",
+      "timestamp": "2026-05-06T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Israel bombs Beirut's southern suburb as it targets Hezbollah commander", "url": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander", "snippet": "First strike on Beirut since April 16 ceasefire. Malek Ballout killed.", "source_name": "Al Jazeera"},
+        {"title": "IDF targets top Hezbollah commander in first strike in Beirut in almost a month", "url": "https://www.timesofisrael.com/two-soldiers-hurt-in-hezbollah-drone-attack-in-south-lebanon-idf-hits-terror-sites/", "snippet": "Netanyahu ordered strike. Radwan Force operations commander killed with deputy.", "source_name": "Times of Israel"},
+        {"title": "Israel strikes Beirut in breach of Lebanon ceasefire", "url": "https://www.al-monitor.com/originals/2026/05/israel-strikes-beirut-breach-lebanon-ceasefire", "snippet": "Strike coordinated with United States. Major ceasefire violation.", "source_name": "Al-Monitor"},
+        {"title": "Israel strikes Beirut, says it killed head of Hezbollah elite force", "url": "https://www.upi.com/Top_News/World-News/2026/05/06/lebanon-israel-air-strike-hezbollah/2781778093759/", "snippet": "Ballout led Radwan Force since January 2024", "source_name": "UPI"},
+        {"title": "Israel strikes Beirut for first time since 16 April truce", "url": "https://www.rte.ie/news/middle-east/2026/0506/1572050-lebanon/", "snippet": "First attack on Dahieh since ceasefire took effect", "source_name": "RTE"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent WTI May 6 2026 Iran Hormuz",
+      "language": "en",
+      "timestamp": "2026-05-06T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil prices fall more than 7% as U.S. and Iran appear close to deal to end war", "url": "https://www.cnbc.com/2026/05/06/oil-prices-trump-pauses-strait-of-hormuz-escort-effort.html", "snippet": "Brent $101.27 (-8%), WTI $95.08 (-7%). Biggest single-day drop since war began.", "source_name": "CNBC"},
+        {"title": "Oil prices plunge on reports US and Iran nearing peace deal", "url": "https://www.thenationalnews.com/business/markets/2026/05/06/oil-prices-plunge-on-reports-us-and-iran-nearing-peace-deal/", "snippet": "Brent as low as $98.30. Markets price in potential Hormuz reopening.", "source_name": "The National"},
+        {"title": "Oil prices surge as violence flares in Strait of Hormuz", "url": "https://www.aljazeera.com/economy/2026/5/5/oil-prices-surge-as-violence-flares-in-strait-of-hormuz", "snippet": "Previous day context: post-Project Freedom volatility", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Araghchi China Wang Yi UNSC May 6 2026",
+      "language": "en",
+      "timestamp": "2026-05-06T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "China presses Iran against resuming war, urges Hormuz reopening ahead of Trump-Xi summit", "url": "https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html", "snippet": "Wang Yi calls for 'comprehensive ceasefire'. Ahead of Trump-Xi May 14-15 summit.", "source_name": "CNBC"},
+        {"title": "China calls for end to Iran war and Hormuz to reopen during Araghchi visit", "url": "https://www.aljazeera.com/news/2026/5/6/irans-araghchi-holds-talks-with-chinas-wang-yi-in-beijing", "snippet": "Wang Yi urges immediate end to hostilities. Araghchi signals Hormuz reopening possible.", "source_name": "Al Jazeera"},
+        {"title": "Araghchi in Beijing: How China could shape the direction of the US-Iran war", "url": "https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war", "snippet": "China's role pivotal. 25-year cooperation agreement.", "source_name": "Al Jazeera"},
+        {"title": "Iran FM Signals Hormuz Reopening; China's Wang Hails Nuclear Pledge", "url": "https://en.sedaily.com/finance/2026/05/06/iran-fm-signals-hormuz-reopening-chinas-wang-hails-nuclear", "snippet": "China appreciates Iran's commitment not to pursue nuclear weapons.", "source_name": "Seoul Economic Daily"},
+        {"title": "China pushes for 'comprehensive ceasefire' to end Iran war in meeting with Iranian FM Araghchi", "url": "https://www.washingtontimes.com/news/2026/may/6/china-pushes-comprehensive-ceasefire-end-iran-war-meeting-iranian-fm/", "snippet": "Wang Yi: 'immediate end to hostilities', 'prompt resumption of shipping'", "source_name": "Washington Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC ships pass Strait Hormuz allow transit May 6 2026",
+      "language": "en",
+      "timestamp": "2026-05-06T23:05:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "IRGC says it will allow 'safe, stable' transit via Hormuz 'with aggressor threats neutralized'", "url": "https://www.presstv.ir/Detail/2026/05/06/768144/Iran-IRGC-Navy-statement-resumed-passage-Hormuz-Strait", "snippet": "IRGC announces gradual resumption. 'Good level of compliance' from shipping companies.", "source_name": "Press TV"},
+        {"title": "Iran says Strait of Hormuz passage to be ensured after US pauses operation", "url": "https://www.aljazeera.com/news/2026/5/6/french-container-ship-struck-in-latest-escalation-at-strait-of-hormuz", "snippet": "Iran-designated corridor is 'only safe way'. Decisive action against deviators.", "source_name": "Al Jazeera"},
+        {"title": "Iran doubles down on control over Hormuz with new transit pass system for ships", "url": "https://www.theweek.in/news/middle-east/2026/05/06/strait-of-hormuz-iran-maritime-ship-pass.html", "snippet": "Strait Authority transit pass system in effect. Corridor compliance.", "source_name": "The Week"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump threatens higher level bombing Iran May 6 2026",
+      "language": "en",
+      "timestamp": "2026-05-06T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war live: Trump threatens 'much higher level' attacks if no deal", "url": "https://www.aljazeera.com/news/liveblog/2026/5/6/iran-war-live-trump-says-hormuz-operation-paused-amid-us-tehran-talks", "snippet": "Truth Social: 'bombing starts at much higher level and intensity'", "source_name": "Al Jazeera"},
+        {"title": "Trump threatens intense bombing if Iran peace deal not reached", "url": "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/", "snippet": "If Iran doesn't agree, Epic Fury bombing campaign restarts", "source_name": "Washington Post"},
+        {"title": "Iran weighs new U.S. ceasefire-negotiation proposal amid Trump threats to restart bombing campaign", "url": "https://www.washingtontimes.com/news/2026/may/6/iran-weighs-new-us-ceasefire-negotiation-proposal-amid-trump-threats/", "snippet": "Iran weighs proposal while Trump threatens. Dual approach: diplomacy + coercion.", "source_name": "Washington Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Xi summit Beijing May 14 2026 Iran",
+      "language": "en",
+      "timestamp": "2026-05-06T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "China presses Iran against resuming war, urges Hormuz reopening ahead of Trump-Xi summit", "url": "https://www.cnbc.com/2026/05/06/china-iran-araghchi-wang-yi-trump-beijing-hormuz-talks.html", "snippet": "Trump-Xi summit May 14-15 in Beijing. Araghchi visit timed before summit.", "source_name": "CNBC"},
+        {"title": "An unfinished Iran war could give Xi the upper hand in Trump talks, sources say", "url": "https://www.cnn.com/2026/05/04/china/china-us-talks-iran-intl-hnk", "snippet": "Unfinished war strengthens Xi's negotiating position", "source_name": "CNN"},
+        {"title": "What To Expect From The Trump-Xi Jinping 14-15 May Summit?", "url": "https://www.eurasiareview.com/04052026-what-to-expect-from-the-trump-xi-jinping-14-15-may-summit-analysis/", "snippet": "Iran, Taiwan, trade all on agenda. Originally scheduled March, delayed by war.", "source_name": "Eurasia Review"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 협상 호르무즈 2026년 5월 6일",
+      "language": "ko",
+      "timestamp": "2026-05-06T23:08:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "이란 '호르무즈 개방 조속히 해결할 것'", "url": "https://www.hankyung.com/article/2026050698891", "snippet": "이란 외무장관 아라그치, 호르무즈 해협 개방 문제 조속 해결 가능 강조", "source_name": "한국경제"},
+        {"title": "미국·이란 입장차 속 긴장 고조…호르무즈 해협 대치 격화", "url": "https://korean.cri.cn/2026/05/06/ARTI1778033087559846", "snippet": "미국과 이란 간 갈등이 군사행동의 성격과 휴전 여부를 둘러싸고 격화", "source_name": "CRI"},
+        {"title": "이 시각 호르무즈‥휴전안 협상 전망은?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6813074_37004.html", "snippet": "호르무즈 협상 전망 분석", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire Hezbollah May 6 2026 escalation",
+      "language": "en",
+      "timestamp": "2026-05-06T23:09:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "In spite of ceasefire, Israel and Hezbollah clash in Lebanon", "url": "https://www.npr.org/2026/05/06/nx-s1-5814098/a-fraying-ceasefire-in-southern-lebanon-with-villages-destroyed", "snippet": "Attacks this week most intense since truce. Ceasefire 'in name only'. Day 20.", "source_name": "NPR"},
+        {"title": "ANALYSIS | Why the Lebanon-Israel ceasefire is 'in name only'", "url": "https://www.cbc.ca/news/world/lebanon-israel-hezbollah-ceasefire-analysis-9.7188159", "snippet": "Widening incursions exposing major cracks in agreement", "source_name": "CBC"},
+        {"title": "Middle East war live: Israel strikes Beirut's southern suburbs, targeted 'top Hezbollah commander'", "url": "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation", "snippet": "Israel strikes Dahieh. First since ceasefire. Netanyahu ordered.", "source_name": "France 24"}
+      ]
+    }
+  ]
+}

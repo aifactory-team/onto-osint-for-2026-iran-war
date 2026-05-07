@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-06",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "US-Iran 14-Point MoU",
+      "properties": {"domain": "diplomacy/peace", "detail": "One-page memorandum of understanding declaring end to conflict. 30-day negotiation window for nuclear moratorium, sanctions lift, frozen funds, Hormuz reopening. Negotiated via Witkoff/Kushner and Iranian officials through Pakistan."},
+      "source_ids": ["src-863", "src-864", "src-869", "src-872", "src-873"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump 'Higher Level' Bombing Threat May 6",
+      "properties": {"date": "2026-05-06", "detail": "Truth Social: 'If they don't agree, the bombing starts, and it will be, sadly, at a much higher level and intensity than it was before.' Refers to Operation Epic Fury restart. Also states 'no deadline' for Iran."},
+      "source_ids": ["src-864", "src-876"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Conditional Hormuz Transit Resumption",
+      "properties": {"date": "2026-05-06", "detail": "IRGC Navy announces gradual resumption of 'safe, stable' transit. Ships must use Iran-designated corridor only. 'Good level of compliance' from shipping companies. 'Decisive action' against deviators. Framed as 'aggressor threats neutralized'."},
+      "source_ids": ["src-865", "src-884", "src-885"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Malek Ballout",
+      "properties": {"role": "Operations Commander, Radwan Force (Hezbollah)", "affiliation": "Hezbollah", "detail": "Led Radwan Force since January 2024 after Wissam al-Tawil killed. Killed in Israeli strike on Dahieh, Beirut on May 6. Deputy also killed."},
+      "source_ids": ["src-866", "src-879", "src-880", "src-881"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel Beirut Strike May 6 (Dahieh)",
+      "properties": {"date": "2026-05-06", "location": "Ghobeiri, southern suburbs of Beirut (Dahieh)", "detail": "First strike on Beirut since April 16 ceasefire. Netanyahu and Katz ordered strike. Coordinated with United States. Targeted and killed Malek Ballout and deputy. Major ceasefire breach."},
+      "source_ids": ["src-866", "src-879", "src-880", "src-881", "src-882", "src-883"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Plunge May 6 (-7/8%)",
+      "properties": {"date": "2026-05-06", "detail": "Brent $101.27 (-8%), WTI $95.08 (-7%). Biggest single-day drop since war began (Feb 28). The National reports intraday low $98.30. Driven by MoU deal hopes and IRGC transit announcement."},
+      "source_ids": ["src-867", "src-878"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Wang Yi 'Comprehensive Ceasefire' Call",
+      "properties": {"date": "2026-05-06", "detail": "Wang Yi calls for 'immediate end to hostilities' and 'prompt resumption of shipping through Hormuz'. Appreciates Iran's no-nuclear-weapon commitment. Affirms peaceful nuclear energy right. Strategically before Trump-Xi summit May 14-15."},
+      "source_ids": ["src-868", "src-877", "src-889"],
+      "mention_count": 9
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump-Xi Beijing Summit May 14-15",
+      "properties": {"date": "2026-05-14", "location": "Beijing", "detail": "US-China summit. Originally scheduled March, delayed by Iran war. Iran/Hormuz, Taiwan, trade all on agenda. Unfinished war gives Xi upper hand. China presses Iran ahead of summit."},
+      "source_ids": ["src-871", "src-868", "src-893"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Esmaeil Baqaei",
+      "properties": {"role": "Iran Foreign Ministry Spokesperson", "affiliation": "Iran Ministry of Foreign Affairs", "detail": "Confirmed Iran reviewing US proposal. 'After summing up its points of view, Iran will convey its views to the Pakistani side.'"},
+      "source_ids": ["src-869", "src-872"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Israel Katz",
+      "properties": {"role": "Israeli Defence Minister", "affiliation": "Israel", "detail": "Co-ordered Beirut strike with Netanyahu targeting Malek Ballout."},
+      "source_ids": ["src-866"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-042",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"role": "Iran Foreign Minister", "affiliation": "Iran"},
+      "source_ids": ["src-868", "src-877", "src-889"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-280",
+      "type": "Person",
+      "name": "Wang Yi",
+      "properties": {"role": "Chinese Foreign Minister", "affiliation": "China"},
+      "source_ids": ["src-868", "src-877"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President"},
+      "source_ids": ["src-863", "src-864", "src-869", "src-871", "src-873"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"type": "military"},
+      "source_ids": ["src-865", "src-884", "src-885"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {},
+      "source_ids": ["src-866", "src-870", "src-879"],
+      "mention_count": 12
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "threatens", "object": "temp-002", "source_ids": ["src-864"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001", "source_ids": ["src-863"], "confidence": 0.90},
+    {"subject": "ent-005", "predicate": "announces", "object": "temp-003", "source_ids": ["src-865"], "confidence": 0.95},
+    {"subject": "temp-003", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-865"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "attacks", "object": "temp-005", "source_ids": ["src-866"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "kills", "object": "temp-004", "source_ids": ["src-866"], "confidence": 0.95},
+    {"subject": "ent-280", "predicate": "calls_for", "object": "temp-007", "source_ids": ["src-868"], "confidence": 0.90},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-868"], "confidence": 0.90},
+    {"subject": "temp-001", "predicate": "follows", "object": "ent-277", "source_ids": ["src-863"], "confidence": 0.85},
+    {"subject": "temp-005", "predicate": "violates", "object": "ent-104", "source_ids": ["src-866", "src-880"], "confidence": 0.90},
+    {"subject": "temp-006", "predicate": "causedBy", "object": "temp-001", "source_ids": ["src-867"], "confidence": 0.85},
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "temp-007", "source_ids": ["src-871"], "confidence": 0.80}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 10,
+    "matched_entities": 5,
+    "total_relations": 12
+  }
+}

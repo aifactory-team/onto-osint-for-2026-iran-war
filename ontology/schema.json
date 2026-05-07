@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-06",
   "classes": [
     {
       "id": "Entity",
@@ -584,6 +584,23 @@
         "src-833",
         "src-834",
         "src-835"
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "action": "add_instances",
+      "target": "10 new entities (ent-287~ent-296)",
+      "reason": "US-Iran 14-Point MoU 구체 조항 공개(Axios 독점), 트럼프 'much higher level' 폭격 위협, IRGC 조건부 호르무즈 통행 재개, 이스라엘 베이루트 공습(라드완 사령관 말렉 발루트 사살, 4/16 이후 최초 다히에 공습), 유가 전쟁 이후 최대 일일 낙폭(-8%), 왕이 '포괄적 휴전' 촉구 + Trump-Xi 정상회담(5/14-15) 연결, 바가에이 이란 외교부 대변인 제안 검토 확인, 이스라엘 카츠 국방장관",
+      "source_ids": [
+        "src-863",
+        "src-864",
+        "src-865",
+        "src-866",
+        "src-867",
+        "src-868",
+        "src-869",
+        "src-870",
+        "src-871"
       ]
     }
   ]

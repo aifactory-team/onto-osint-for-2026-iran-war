@@ -7190,8 +7190,8 @@
     }
   ],
   "stats": {
-    "total_nodes": 263,
-    "total_edges": 647,
-    "total_triples": 647
+    "total_nodes": 273,
+    "total_edges": 668,
+    "total_triples": 668
   }
 }
