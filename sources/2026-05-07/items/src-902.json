@@ -1,0 +1,25 @@
+{
+  "id": "src-902",
+  "title": "트럼프 '이란 핵 포기 동의'…방중 전 MOU 들고 종전 선언할 수 있을까 — 12~15년 모라토리엄 논의",
+  "url": "https://www.khan.co.kr/article/202605071331001/",
+  "snippet": "경향신문 분석: 트럼프 대통령이 이란이 핵 포기에 동의했다고 주장하며 다음주 방중(5/14-15) 전 MoU 체결을 통한 종전 선언 가능성을 시사했다. 우라늄 농축 모라토리엄 기간은 12~15년으로 좁혀진 것으로 알려졌으며, 미국 20년 요구와 이란 5년 제안의 절충안이다. 그러나 이란 측은 '아직 합의된 것이 없다'는 입장이며, 군사적 충돌이 계속되는 상황에서 MoU 체결 전망은 불투명하다.",
+  "source_name": "경향신문",
+  "language": "ko",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Korean-language in-depth analysis of Trump's Beijing visit timeline and MoU prospects. Contains new detail on 12-15 year moratorium range.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-287", "type": "Concept", "name": "14-Point MoU"},
+    {"id": "ent-284", "type": "Event", "name": "Trump-Xi Beijing Summit"},
+    {"id": "temp-009", "type": "Concept", "name": "12-Year Nuclear Moratorium"},
+    {"id": "ent-010", "type": "Organization", "name": "China"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-284"},
+    {"subject": "ent-287", "predicate": "relatedTo", "object": "ent-284"}
+  ]
+}

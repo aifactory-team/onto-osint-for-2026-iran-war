@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-07",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Truxtun (DDG-103)",
+      "properties": {"type": "US Navy Arleigh Burke-class destroyer", "role": "Attacked by IRGC while transiting Hormuz May 7"},
+      "source_ids": ["src-895", "src-909", "src-910", "src-913"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Rafael Peralta (DDG-115)",
+      "properties": {"type": "US Navy Arleigh Burke-class destroyer", "role": "Attacked by IRGC while transiting Hormuz May 7"},
+      "source_ids": ["src-895", "src-909", "src-913"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Mason (DDG-87)",
+      "properties": {"type": "US Navy Arleigh Burke-class destroyer", "role": "Attacked by IRGC while transiting Hormuz May 7"},
+      "source_ids": ["src-895", "src-909", "src-913"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Qeshm Island",
+      "properties": {"type": "island", "detail": "Iran claims US airstrikes hit civilian areas here on May 7"},
+      "source_ids": ["src-895", "src-896"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Bandar Khamir",
+      "properties": {"type": "coastal city", "detail": "Iran claims US airstrikes hit civilian areas here on May 7"},
+      "source_ids": ["src-895", "src-896"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Sirik",
+      "properties": {"type": "coastal town", "detail": "Iran claims US airstrikes hit civilian areas here on May 7"},
+      "source_ids": ["src-895", "src-896"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "May 7 US Self-Defense Strikes on Iran",
+      "properties": {"date": "2026-05-07", "targets": "missile/drone launch sites, C2 locations, ISR nodes", "participants": "CENTCOM, IRGC", "framing_us": "self-defense, does not seek escalation", "framing_iran": "ceasefire violation, civilian areas hit"},
+      "source_ids": ["src-895", "src-896", "src-905", "src-906", "src-909", "src-910", "src-911", "src-912", "src-913", "src-919", "src-921"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Attack on US Warships May 7",
+      "properties": {"date": "2026-05-07", "method": "multiple missiles, drones, small boat attacks", "targets": "USS Truxtun, USS Rafael Peralta, USS Mason", "result": "no US assets struck, all threats intercepted"},
+      "source_ids": ["src-895", "src-896", "src-905"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "12-Year Nuclear Moratorium",
+      "properties": {"domain": "nuclear diplomacy", "detail": "Compromise between Iran's 5-year and US's 20-year proposals for uranium enrichment freeze"},
+      "source_ids": ["src-897", "src-902"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Tahir Andrabi",
+      "properties": {"role": "Pakistani Foreign Ministry spokesperson", "affiliation": "Pakistan"},
+      "source_ids": ["src-898", "src-899"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "May 17 Lebanon-Israel Washington Talks",
+      "properties": {"date": "2026-05-17", "location": "Washington", "agenda": "Israeli withdrawal, borders, prisoners, displaced, reconstruction"},
+      "source_ids": ["src-900"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "MoU Missing Provisions",
+      "properties": {"domain": "diplomacy", "detail": "Nuclear verification (IAEA specifics), ballistic missiles, proxy forces (Hezbollah/Hamas/Houthis), HEU 900lb disposal excluded from 1-page MoU"},
+      "source_ids": ["src-903", "src-917"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003", "source_ids": ["src-895", "src-896"], "confidence": 0.95},
+    {"subject": "temp-007", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-895"], "confidence": 0.95},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-895"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-895", "src-896"], "confidence": 0.95},
+    {"subject": "temp-007", "predicate": "causedBy", "object": "temp-008", "source_ids": ["src-895"], "confidence": 0.90},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-287", "source_ids": ["src-897", "src-902"], "confidence": 0.90},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-287", "source_ids": ["src-898", "src-907"], "confidence": 0.85},
+    {"subject": "ent-287", "predicate": "relatedTo", "object": "ent-284", "source_ids": ["src-897", "src-902"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-048", "source_ids": ["src-900"], "confidence": 0.90},
+    {"subject": "ent-003", "predicate": "cooperatesWith", "object": "ent-004", "source_ids": ["src-900"], "confidence": 0.80},
+    {"subject": "ent-287", "predicate": "relatedTo", "object": "temp-012", "source_ids": ["src-903"], "confidence": 0.85},
+    {"subject": "temp-009", "predicate": "relatedTo", "object": "ent-287", "source_ids": ["src-897", "src-902"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 12,
+    "new_entities": 12,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

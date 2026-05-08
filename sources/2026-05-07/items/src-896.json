@@ -1,0 +1,26 @@
+{
+  "id": "src-896",
+  "title": "Iran accuses US of violating ceasefire — says strikes hit civilian areas on Qeshm Island, Bandar Khamir, Sirik",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/5/7/iran-war-live-trump-says-deal-with-tehran-possible-israel-bombs-beirut",
+  "snippet": "Iran's armed forces spokesperson accused the US of violating the ceasefire by targeting two ships at the Strait of Hormuz and attacking civilian areas along the coasts of Qeshm Island, Bandar Khamir and Sirik. Iran frames the strikes as an escalation while the US classifies them as 'self-defense'. Both sides claim the ceasefire remains technically in effect.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran's official response and accusation of ceasefire violation is new content not covered in previous sources.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-004", "type": "Location", "name": "Qeshm Island"},
+    {"id": "temp-005", "type": "Location", "name": "Bandar Khamir"},
+    {"id": "temp-006", "type": "Location", "name": "Sirik"},
+    {"id": "temp-008", "type": "Event", "name": "IRGC Attack on US Warships May 7"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "temp-008", "predicate": "causedBy", "object": "ent-005"}
+  ]
+}

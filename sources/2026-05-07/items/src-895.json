@@ -1,0 +1,32 @@
+{
+  "id": "src-895",
+  "title": "US military strikes Iranian sites after 'unprovoked attacks' on Navy destroyers in Strait of Hormuz — CENTCOM: 'does not seek escalation'",
+  "url": "https://www.cnn.com/2026/05/07/world/live-news/trump-iran-war-news",
+  "snippet": "US Central Command confirmed carrying out 'self-defense' strikes on Iranian military facilities responsible for launching multiple missiles, drones and small boat attacks against USS Truxtun (DDG-103), USS Rafael Peralta (DDG-115), and USS Mason (DDG-87) as they transited the Strait of Hormuz. Targets included missile and drone launch sites, command and control locations, and ISR nodes. CENTCOM said no US assets were struck. Iran's armed forces spokesperson said US airstrikes hit civilian areas on Qeshm Island, Bandar Khamir, and Sirik.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of US self-defense strikes on Iranian military facilities on May 7. No prior coverage of this specific military exchange.",
+  "entities": [
+    {"id": "ent-003", "type": "Organization", "name": "US Military / CENTCOM"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-001", "type": "Organization", "name": "USS Truxtun (DDG-103)"},
+    {"id": "temp-002", "type": "Organization", "name": "USS Rafael Peralta (DDG-115)"},
+    {"id": "temp-003", "type": "Organization", "name": "USS Mason (DDG-87)"},
+    {"id": "temp-004", "type": "Location", "name": "Qeshm Island"},
+    {"id": "temp-005", "type": "Location", "name": "Bandar Khamir"},
+    {"id": "temp-006", "type": "Location", "name": "Sirik"},
+    {"id": "temp-007", "type": "Event", "name": "May 7 US Self-Defense Strikes on Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "temp-007", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-007"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-007"},
+    {"subject": "temp-007", "predicate": "causedBy", "object": "temp-008"}
+  ]
+}

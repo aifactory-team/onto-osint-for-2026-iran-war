@@ -1,0 +1,23 @@
+{
+  "id": "src-898",
+  "title": "Iran to deliver response Thursday to U.S. war-ending proposal via Pakistan mediators",
+  "url": "https://www.washingtontimes.com/news/2026/may/7/tahir-andrabi-pakistani-foreign-minister-us-iran-peace-deal-expected/",
+  "snippet": "Iran is expected to deliver its formal response on Thursday (May 8) to the US one-page, 14-point MoU proposal for ending the war, with Pakistan serving as the key mediating channel. Iran's foreign ministry confirmed the proposal was still under review. A senior Iranian MP characterized the reported terms as 'a wish list rather than a serious negotiating document'.",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New information: specific Thursday delivery date for Iran's formal response, and Iranian MP's critical reaction.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-287", "type": "Concept", "name": "14-Point MoU"},
+    {"id": "ent-027", "type": "Person", "name": "Pakistan (Sharif)"},
+    {"id": "temp-010", "type": "Person", "name": "Tahir Andrabi"}
+  ],
+  "relations": [
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-002"},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-001"}
+  ]
+}

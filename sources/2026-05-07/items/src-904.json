@@ -1,0 +1,21 @@
+{
+  "id": "src-904",
+  "title": "Oil prices edge lower — Brent $100.06, WTI $94.81 as markets weigh deal prospects vs military clashes",
+  "url": "https://www.cnbc.com/2026/05/07/oil-prices-today-trump-iran-strait-of-hormuz-us-crude-brent-.html",
+  "snippet": "Oil prices continued their decline on Thursday, with Brent crude settling at $100.06/bbl and WTI at $94.81/bbl. This follows yesterday's 8% plunge on MoU deal hopes. Prices edged lower despite the US-Iran military exchange in Hormuz, as markets bet on eventual deal completion. Brent is down ~$14 from the $114 peak on May 4 but remains ~43% above pre-war levels.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New daily oil price data for May 7: Brent $100.06, WTI $94.81. Continued decline despite military clashes.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-091", "type": "Concept", "name": "Oil Market"}
+  ],
+  "relations": [
+    {"subject": "ent-091", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

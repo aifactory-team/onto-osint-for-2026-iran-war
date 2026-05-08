@@ -1,0 +1,25 @@
+{
+  "id": "src-897",
+  "title": "U.S. and Iran Offer Mixed Messages on Deal to End War — MoU close but military clashes undermine trust",
+  "url": "https://time.com/article/2026/05/07/us-iran-war-deal-mou-axios-report-negotiations-strait-nuclear/",
+  "snippet": "Time Magazine analysis: despite proximity to a 14-point MoU deal, the simultaneous military exchanges in the Strait of Hormuz are sending contradictory signals. Trump expresses optimism about a deal being possible before his Beijing visit (May 14-15), while Iran plays down reports of imminent agreement. The MoU proposes a 12-year nuclear moratorium as a compromise between Iran's 5-year and US's 20-year proposals.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New analytical piece synthesizing the contradiction between military action and diplomatic progress. Not previously reported.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-287", "type": "Concept", "name": "14-Point MoU"},
+    {"id": "ent-284", "type": "Event", "name": "Trump-Xi Beijing Summit"},
+    {"id": "temp-009", "type": "Concept", "name": "12-Year Nuclear Moratorium"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-287"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-287"}
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-07",
   "classes": [
     {
       "id": "Entity",
@@ -601,6 +601,22 @@
         "src-869",
         "src-870",
         "src-871"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "action": "add_instances",
+      "target": "12 new entities (ent-297~ent-308)",
+      "reason": "CENTCOM 자위권 공습(IRGC 미사일/드론/쾌속정 공격 → 구축함 3척 USS Truxtun/Rafael Peralta/Mason 방어 후 보복), 이란 민간 피해 주장(Qeshm Island/Bandar Khamir/Sirik), MoU 혼재 신호(12년 핵 모라토리엄 절충안, MoU 핵심 쟁점 누락 분석), 이란 목요일 파키스탄 경유 공식 응답(Tahir Andrabi), 미국 이스라엘 레바논 디에스컬레이션 압박(5/17 워싱턴 회담)",
+      "source_ids": [
+        "src-895",
+        "src-896",
+        "src-897",
+        "src-898",
+        "src-900",
+        "src-902",
+        "src-903",
+        "src-904"
       ]
     }
   ]

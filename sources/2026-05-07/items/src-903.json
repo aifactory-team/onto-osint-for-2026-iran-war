@@ -1,0 +1,22 @@
+{
+  "id": "src-903",
+  "title": "이란 핵 검증·탄도미사일·대리 세력…난제 미뤄둔 '1쪽 MOU' — 핵심 쟁점 누락 분석",
+  "url": "https://www.khan.co.kr/article/202605072142025/",
+  "snippet": "경향신문 심층 분석: 1쪽짜리 14개항 MoU에 핵 프로그램 검증(IAEA 사찰 구체 조건), 탄도미사일 제한, 대리 세력(헤즈볼라·하마스·후시) 문제가 빠져있다. 고농축 우라늄(HEU) 900파운드 처리 문제, 친이란 민병대 무장해제, 이란의 중동 영향력 축소 등 미국이 본래 요구했던 핵심 의제가 30일 후속 협상으로 미뤄졌다. 전문가들은 '의제 선별 전략'으로 일단 전쟁 종결에 집중하는 것이라 평가하면서도, 후속 협상이 가시밭길이 될 것으로 전망한다.",
+  "source_name": "경향신문",
+  "language": "ko",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New analytical piece identifying specific gaps in MoU: nuclear verification, ballistic missiles, proxy forces, HEU 900lb disposal. Not previously analyzed.",
+  "entities": [
+    {"id": "ent-287", "type": "Concept", "name": "14-Point MoU"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-048", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-012", "type": "Concept", "name": "MoU Missing Provisions (verification, missiles, proxies)"}
+  ],
+  "relations": [
+    {"subject": "ent-287", "predicate": "relatedTo", "object": "temp-012"}
+  ]
+}

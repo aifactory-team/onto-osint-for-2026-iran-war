@@ -1,0 +1,37 @@
+{
+  "date": "2026-05-07",
+  "new_triples": [
+    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-305", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-305", "predicate": "causedBy", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-297", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-298", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-299", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-300", "source_id": "src-896", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-301", "source_id": "src-896", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-302", "source_id": "src-896", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-287", "source_id": "src-897", "date": "2026-05-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-287", "source_id": "src-898", "date": "2026-05-07", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-287", "predicate": "relatedTo", "object": "ent-284", "source_id": "src-902", "date": "2026-05-07", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-306", "predicate": "relatedTo", "object": "ent-287", "source_id": "src-897", "date": "2026-05-07", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-048", "source_id": "src-900", "date": "2026-05-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "cooperatesWith", "object": "ent-004", "source_id": "src-900", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit", "note": "Strengthened: direct military engagement"},
+    {"subject": "ent-091", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-904", "date": "2026-05-07", "confidence": 0.90, "type": "explicit", "note": "Updated: Brent $100.06, WTI $94.81"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-297", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "rule": "transitivity", "confidence": 0.81, "type": "inferred", "reasoning": "USS Truxtun(ent-297) → affiliatedWith → US Military(ent-003) → affiliatedWith → Trump(ent-001) as Commander-in-Chief"},
+    {"subject": "ent-304", "predicate": "potentialRelation", "object": "ent-287", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reasoning": "IRGC attack on warships(ent-304) undermines MoU(ent-287) negotiation — military action contradicts diplomatic track"},
+    {"subject": "ent-305", "predicate": "follows", "object": "ent-304", "rule": "event_chain", "confidence": 0.90, "type": "inferred", "reasoning": "US strikes(ent-305) directly caused by IRGC attack(ent-304) — clear temporal and causal sequence"},
+    {"subject": "ent-306", "predicate": "potentialRelation", "object": "ent-308", "rule": "co_participation", "confidence": 0.72, "type": "inferred", "reasoning": "12-year moratorium(ent-306) and MoU missing provisions(ent-308) both relate to MoU — compromise on duration but gaps on substance"},
+    {"subject": "ent-305", "predicate": "potentialRelation", "object": "ent-287", "rule": "co_participation", "confidence": 0.70, "type": "inferred", "reasoning": "US self-defense strikes occur simultaneously with MoU negotiations — paradox of armed diplomacy"}
+  ],
+  "stats": {
+    "new_nodes": 12,
+    "new_edges": 16,
+    "inferred_edges": 5
+  }
+}

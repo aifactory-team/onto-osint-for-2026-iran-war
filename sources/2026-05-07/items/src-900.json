@@ -1,0 +1,24 @@
+{
+  "id": "src-900",
+  "title": "US pushing Israeli de-escalation ahead of new Lebanon talks — May 17 negotiations",
+  "url": "https://www.aljazeera.com/news/2026/5/7/us-pushing-israeli-de-escalation-ahead-of-new-talks-lebanese-official",
+  "snippet": "The US is pressing Israel to de-escalate military operations in southern Lebanon ahead of scheduled May 17 delegation-level negotiations in Washington. The talks will address security and political tracks including full Israeli withdrawal from southern Lebanon, borders, prisoners, displaced persons, and reconstruction. This pressure comes a day after Israel struck Beirut killing Hezbollah Radwan Force commander Malek Ballout.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: US pressure on Israel for de-escalation and details of May 17 negotiation agenda not previously reported.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-003", "type": "Organization", "name": "US"},
+    {"id": "ent-293", "type": "Person", "name": "Malek Ballout"},
+    {"id": "temp-011", "type": "Event", "name": "May 17 Lebanon-Israel Washington Talks"},
+    {"id": "ent-051", "type": "Organization", "name": "Lebanon"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "cooperatesWith", "object": "ent-004"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-048"}
+  ]
+}

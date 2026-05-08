@@ -1238,3 +1238,46 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
 - MoU는 Concept 클래스, 나머지 사건은 Event 클래스로 분류
+
+---
+
+## 2026-05-07 추론 결과
+
+### 추론 #1: event_chain (IRGC 공격 → US 보복 공습)
+- **입력:** (ent-005/IRGC, participatesIn, ent-304/IRGC 함정 공격), (ent-003/US Military, participatesIn, ent-305/US 자위권 공습)
+- **추론:** (ent-305/US 자위권 공습, follows, ent-304/IRGC 함정 공격) — 명확한 시간적·인과적 시퀀스
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** IRGC가 USS Truxtun/Rafael Peralta/Mason에 미사일·드론·쾌속정으로 공격 → CENTCOM이 미사일/드론 발사 시설, C2, ISR 노드를 즉시 보복 타격. 양측 모두 '휴전은 유지된다'고 주장하나, 실질적으로 전투 상태.
+
+### 추론 #2: co_participation (군사 충돌 ↔ MoU 협상 역설)
+- **입력:** (ent-305/US 공습, 2026-05-07), (ent-287/14-Point MoU, 2026-05-07 이란 응답 예정)
+- **추론:** (ent-305/US 공습, potentialRelation, ent-287/MoU) — '무장 외교'(armed diplomacy) 패턴
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 폭격하면서 협상하는 역설. 트럼프는 '휴전은 끝나지 않았다'고 주장하며 군사 행동과 외교를 동시 추진. 이란은 '휴전 위반'으로 규정하면서도 목요일 MoU 응답을 예고. 양측 모두 완전한 결렬을 원하지 않음.
+
+### 추론 #3: co_participation (IRGC 함정 공격과 MoU 훼손)
+- **입력:** (ent-005/IRGC, participatesIn, ent-304), (ent-002/Iran, participatesIn, ent-287/MoU)
+- **추론:** (ent-304/IRGC 함정 공격, potentialRelation, ent-287/MoU) — IRGC의 군사 행동이 외교 트랙을 잠재적으로 훼손
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 이란 내부 분열 패턴 재확인. 외교부(아라그치/바가에이)는 MoU 검토 중이나, IRGC는 군사적 도발 지속. 4/18 아라그치 '바보' 모욕 사건 이후 이란 이원체계(문민 vs 군부)의 정책 불일치가 지속.
+
+### 추론 #4: event_chain (12년 모라토리엄 ↔ MoU 누락 쟁점)
+- **입력:** (ent-306/12년 모라토리엄, relatedTo, ent-287/MoU), (ent-308/MoU 누락 쟁점, relatedTo, ent-287/MoU)
+- **추론:** (ent-306, potentialRelation, ent-308) — 기간은 절충하나 본질적 쟁점은 미해결
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 핵 모라토리엄 기간(12~15년)은 좁혀졌으나, 핵 검증(IAEA 사찰 구체 조건), 탄도미사일 제한, 대리세력(헤즈볼라/하마스/후시) 무장해제, HEU 900파운드 처리 등 핵심 쟁점이 30일 후속 협상으로 미뤄짐.
+
+### 추론 #5: transitivity (구축함 → 미군 → 트럼프 지휘 체인)
+- **입력:** (ent-297/USS Truxtun, affiliatedWith, ent-003/US Military), (ent-003, affiliatedWith, ent-001/Trump)
+- **추론:** (ent-297/USS Truxtun, indirectlyAffiliatedWith, ent-001/Trump) — Commander-in-Chief 지휘 체인
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 트럼프가 ABC News에 '휴전은 끝나지 않았다'고 발언한 것은 자위권 공습이 대통령 승인 하에 이루어졌음을 시사.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
+- 군함은 Organization 클래스, 타격 지역은 Location 클래스로 분류

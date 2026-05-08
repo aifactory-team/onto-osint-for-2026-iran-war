@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-07",
   "entities": [
     {
       "id": "ent-001",
@@ -3273,7 +3273,157 @@
       "first_seen": "2026-05-06",
       "last_seen": "2026-05-06",
       "mention_count": 3
+    },
+    {
+      "id": "ent-297",
+      "type": "Organization",
+      "name": "USS Truxtun (DDG-103)",
+      "properties": {
+        "type": "US Navy Arleigh Burke-class destroyer",
+        "role": "Attacked by IRGC while transiting Hormuz May 7; CENTCOM confirmed all threats intercepted, no US assets struck"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-298",
+      "type": "Organization",
+      "name": "USS Rafael Peralta (DDG-115)",
+      "properties": {
+        "type": "US Navy Arleigh Burke-class destroyer",
+        "role": "Attacked by IRGC while transiting Hormuz May 7"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-299",
+      "type": "Organization",
+      "name": "USS Mason (DDG-87)",
+      "properties": {
+        "type": "US Navy Arleigh Burke-class destroyer",
+        "role": "Attacked by IRGC while transiting Hormuz May 7"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-300",
+      "type": "Location",
+      "name": "Qeshm Island",
+      "properties": {
+        "type": "island",
+        "detail": "Iran claims US airstrikes hit civilian areas here on May 7"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-301",
+      "type": "Location",
+      "name": "Bandar Khamir",
+      "properties": {
+        "type": "coastal city",
+        "detail": "Iran claims US airstrikes hit civilian areas here on May 7"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-302",
+      "type": "Location",
+      "name": "Sirik",
+      "properties": {
+        "type": "coastal town",
+        "detail": "Iran claims US airstrikes hit civilian areas here on May 7"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-303",
+      "type": "Person",
+      "name": "Tahir Andrabi",
+      "properties": {
+        "role": "Pakistani Foreign Ministry spokesperson",
+        "affiliation": "Pakistan",
+        "detail": "Said US-Iran peace deal expected 'soon'; Pakistan converting ceasefire into permanent resolution"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-304",
+      "type": "Event",
+      "name": "IRGC Attack on US Warships (May 7)",
+      "properties": {
+        "date": "2026-05-07",
+        "method": "multiple missiles, drones, small boat attacks",
+        "targets": "USS Truxtun, USS Rafael Peralta, USS Mason",
+        "result": "no US assets struck, all threats intercepted by CENTCOM"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-305",
+      "type": "Event",
+      "name": "US Self-Defense Strikes on Iran (May 7)",
+      "properties": {
+        "date": "2026-05-07",
+        "targets": "missile/drone launch sites, C2 locations, ISR nodes",
+        "framing_us": "self-defense, does not seek escalation, ceasefire still in place",
+        "framing_iran": "ceasefire violation, civilian areas on Qeshm Island/Bandar Khamir/Sirik hit"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-306",
+      "type": "Concept",
+      "name": "12-Year Nuclear Moratorium",
+      "properties": {
+        "domain": "nuclear diplomacy",
+        "detail": "Compromise between Iran's 5-year and US's 20-year proposals for uranium enrichment freeze; discussed as part of MoU framework"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-307",
+      "type": "Event",
+      "name": "May 17 Lebanon-Israel Washington Talks",
+      "properties": {
+        "date": "2026-05-17",
+        "location": "Washington DC",
+        "agenda": "Full Israeli withdrawal, borders, prisoners, displaced persons, reconstruction"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-308",
+      "type": "Concept",
+      "name": "MoU Missing Provisions",
+      "properties": {
+        "domain": "diplomacy",
+        "detail": "Nuclear verification (IAEA specifics), ballistic missiles, proxy forces (Hezbollah/Hamas/Houthis), HEU 900lb disposal — excluded from 1-page MoU, deferred to 30-day follow-up negotiations"
+      },
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mention_count": 4
     }
   ],
-  "total_count": 249
+  "total_count": 261
 }
