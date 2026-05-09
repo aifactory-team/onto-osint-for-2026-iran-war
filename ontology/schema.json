@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "classes": [
     {
       "id": "Entity",
@@ -617,6 +617,25 @@
         "src-902",
         "src-903",
         "src-904"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "action": "add_instances",
+      "target": "12 new entities (ent-309~ent-320)",
+      "reason": "미 해군 이란 유조선 2척(Sea Star III·Sevda) 무력화(F/A-18 정밀 타격), 트럼프 'love tap' 수사, 루비오 로마 방문(멜로니/타야니/교황 레오 14세 회담), 아라그치 '무모한 군사 모험' 비난, 카르그 섬 유출(45㎢·전쟁 이후 최대), NATO 미국 리더십 의문, 이란 석유 저장 위기(6-7주), 미 소비자심리 사상 최저(48.2)",
+      "source_ids": [
+        "src-925",
+        "src-926",
+        "src-927",
+        "src-928",
+        "src-929",
+        "src-930",
+        "src-931",
+        "src-932",
+        "src-933",
+        "src-934",
+        "src-935"
       ]
     }
   ]

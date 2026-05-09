@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "entities": [
     {
       "id": "ent-001",
@@ -3423,6 +3423,166 @@
       "first_seen": "2026-05-07",
       "last_seen": "2026-05-07",
       "mention_count": 4
+    },
+    {
+      "id": "ent-309",
+      "type": "Organization",
+      "name": "M/T Sea Star III",
+      "properties": {
+        "type": "Iranian-flagged tanker",
+        "status": "disabled by US Navy F/A-18 precision munitions to smokestack, Gulf of Oman, May 8"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-310",
+      "type": "Organization",
+      "name": "M/T Sevda",
+      "properties": {
+        "type": "Iranian-flagged tanker",
+        "status": "disabled by US Navy F/A-18 precision munitions to smokestack, Gulf of Oman, May 8"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-311",
+      "type": "Organization",
+      "name": "USS George H.W. Bush (CVN-77)",
+      "properties": {
+        "type": "aircraft carrier",
+        "affiliation": "US Navy",
+        "role": "launched F/A-18 Super Hornet that disabled Sea Star III and Sevda"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-312",
+      "type": "Event",
+      "name": "US Tanker Strike 5/8",
+      "properties": {
+        "date": "2026-05-08",
+        "location": "Gulf of Oman",
+        "description": "CENTCOM disabled M/T Sea Star III and Sevda via F/A-18 precision strikes to smokestacks",
+        "context": "blockade enforcement against vessels attempting to reach Iranian port"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 20
+    },
+    {
+      "id": "ent-313",
+      "type": "Concept",
+      "name": "Love Tap Doctrine",
+      "properties": {
+        "domain": "military-diplomatic rhetoric",
+        "definition": "Trump's characterization of US strikes on Iran as minor ('just a love tap') while maintaining ceasefire is holding; escalation management through rhetorical minimization"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 18
+    },
+    {
+      "id": "ent-314",
+      "type": "Person",
+      "name": "Giorgia Meloni",
+      "properties": {
+        "role": "Italian Prime Minister",
+        "affiliation": "Italy",
+        "action_may8": "met Rubio to discuss Iran war, US-Italy relations"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-315",
+      "type": "Person",
+      "name": "Antonio Tajani",
+      "properties": {
+        "role": "Italian Foreign Minister",
+        "affiliation": "Italy",
+        "action_may8": "met Rubio to discuss Iran war, EU-US relations"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-316",
+      "type": "Person",
+      "name": "Pope Leo XIV",
+      "properties": {
+        "role": "Pope",
+        "affiliation": "Vatican",
+        "stance": "leading global critic of Iran war; met Rubio for 45+ minutes; Trump had repeatedly attacked pontiff"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-317",
+      "type": "Event",
+      "name": "Kharg Island Oil Spill",
+      "properties": {
+        "date": "2026-05-06 to 2026-05-08",
+        "location": "Kharg Island, Persian Gulf",
+        "size_sq_km": 45,
+        "estimated_barrels": 80000,
+        "significance": "largest oil spill since Iran war began (Day 70)",
+        "cause": "unknown",
+        "detection": "Copernicus Sentinel-1/2/3 satellite imagery"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-318",
+      "type": "Organization",
+      "name": "NATO",
+      "properties": {
+        "type": "military alliance",
+        "status_may8": "US leadership questioned; Germany preparing 460K-troop defense plan; 5,000 US troops withdrawn from Germany"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-319",
+      "type": "Concept",
+      "name": "Iran Oil Storage Crisis",
+      "properties": {
+        "domain": "economic warfare",
+        "timeline": "6-7 weeks until capacity reached (mid-June 2026)",
+        "analyst": "Energy Aspects",
+        "impact": "economic collapse risk if blockade continues"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-320",
+      "type": "Concept",
+      "name": "US Consumer Confidence Collapse",
+      "properties": {
+        "domain": "economic impact",
+        "indicator": "Michigan Consumer Sentiment Index 48.2 (May preliminary)",
+        "change": "-3.2% vs April",
+        "significance": "record low",
+        "cause": "Iran war fuel costs"
+      },
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mention_count": 5
     }
   ],
   "total_count": 261

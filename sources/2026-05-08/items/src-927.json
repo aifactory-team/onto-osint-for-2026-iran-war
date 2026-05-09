@@ -1,0 +1,23 @@
+{
+  "id": "src-927",
+  "title": "Rubio in Rome: U.S. expects Iran response on peace deal 'today' — presses Europe on Iran, meets Pope Leo XIV",
+  "url": "https://www.cnbc.com/2026/05/08/marco-rubio-says-us-expects-iran-response-on-peace-deal-today.html",
+  "snippet": "Secretary of State Marco Rubio said in Rome while visiting Pope Leo XIV that the U.S. expects Iran's response today. 'We'll see what the response entails. The hope is it's something that can put us into a serious process in negotiation.' Rubio also met Italian PM Meloni and FM Tajani, pressing Europe on Iran action and warning Tehran's Hormuz control is 'unacceptable.'",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일에 루비오 로마 방문 없음. 유럽 대상 이란 압박 외교 신규 사건.",
+  "entities": [
+    {"id": "ent-039", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "temp-006", "type": "Person", "name": "Giorgia Meloni", "role": "Italian PM"},
+    {"id": "temp-007", "type": "Person", "name": "Antonio Tajani", "role": "Italian FM"},
+    {"id": "temp-008", "type": "Person", "name": "Pope Leo XIV", "role": "Pope"}
+  ],
+  "relations": [
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "temp-006"},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "temp-008"}
+  ]
+}

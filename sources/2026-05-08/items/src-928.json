@@ -1,0 +1,20 @@
+{
+  "id": "src-928",
+  "title": "Araghchi condemns US 'reckless military adventure' — 'Iranians never bow to pressure'",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/5/8/iran-war-live-trump-says-ceasefire-still-in-effect-as-iran-us-clash",
+  "snippet": "Iranian Foreign Minister Abbas Araghchi said 'Iranians never bow to pressure' and 'every time a diplomatic solution is on the table, the U.S. opts for a reckless military adventure.' Statement came after US disabled 2 Iranian tankers and following exchanges of fire in Hormuz.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "아라그치의 'reckless military adventure' 비난은 5/8 신규 성명.",
+  "entities": [
+    {"id": "ent-042", "type": "Person", "name": "Abbas Araghchi", "role": "Iranian FM"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-042", "predicate": "opposes", "object": "ent-003"}
+  ]
+}

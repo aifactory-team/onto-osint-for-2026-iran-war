@@ -1281,3 +1281,47 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
 - 군함은 Organization 클래스, 타격 지역은 Location 클래스로 분류
+
+---
+
+## 2026-05-08 추론 결과
+
+### 추론 #1: co_participation ('Love Tap' ↔ MoU)
+- **입력:** (ent-001/Trump, relatedTo, ent-313/Love Tap Doctrine), (ent-001/Trump, relatedTo, ent-287/14-Point MoU)
+- **추론:** (ent-313/Love Tap Doctrine, relatedTo, ent-287/14-Point MoU)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 트럼프가 군사 행동을 'love tap'으로 최소화하면서 동시에 MoU 협상을 지속하는 것은 수사적 에스컬레이션 관리 전략. 군사적 위협과 외교적 공간 보존을 양립시키려는 의도.
+
+### 추론 #2: event_chain (석유 저장 위기 → MoU 압박)
+- **입력:** (ent-319/Iran Oil Storage Crisis, causedBy, ent-008/Strait of Hormuz), (ent-008/Strait of Hormuz, relatedTo, ent-287/14-Point MoU)
+- **추론:** (ent-319/Iran Oil Storage Crisis, relatedTo, ent-287/14-Point MoU)
+- **신뢰도:** 0.82
+- **상태:** 확정
+- **비고:** 이란의 석유 저장 위기(6-7주 내 용량 한계)는 봉쇄의 경제적 효과가 시간제한적 레버리지로 기능함을 보여줌. 이란이 MoU를 수용할 경제적 압박의 타임라인.
+
+### 추론 #3: event_chain (5/7 IRGC 공격 → 5/8 유조선 무력화)
+- **입력:** (ent-304/IRGC 함정 공격 5/7, locatedIn, ent-008), (ent-312/US Tanker Strike 5/8, locatedIn, ent-008)
+- **추론:** (ent-312/US Tanker Strike 5/8, relatedTo, ent-304/IRGC 함정 공격 5/7)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 5/7 IRGC의 미 구축함 공격 → 5/7 CENTCOM 자위권 공습 → 5/8 이란 유조선 무력화로 이어지는 에스컬레이션 사이클. '휴전' 프레임 내에서 실질적 전투 강도가 증가.
+
+### 추론 #4: event_chain (카르그 섬 유출 원인 — 잠정)
+- **입력:** (ent-317/Kharg Island Oil Spill, locatedIn, ent-007/Kharg Island), (ent-312/US Tanker Strike 5/8, locatedIn, ent-008)
+- **추론:** (ent-317/Kharg Island Oil Spill, causedBy, ent-312/US Tanker Strike 5/8)
+- **신뢰도:** 0.55
+- **상태:** 잠정 (confidence_threshold 0.7 미달)
+- **비고:** 카르그 섬 유출(45㎢)은 전쟁 이후 최대 규모이나 원인 미확인. 군사 작전과의 시간적 상관관계는 있으나 인과관계 증거 부족.
+
+### 추론 #5: co_participation (NATO ↔ 교황 — 미국 정당성 위기)
+- **입력:** (ent-318/NATO, opposes, ent-001/Trump), (ent-316/Pope Leo XIV, opposes, ent-001/Trump)
+- **추론:** (ent-318/NATO, relatedTo, ent-316/Pope Leo XIV)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** NATO(군사 동맹)와 교황(도덕적 권위)이 동시에 미국의 이란 전쟁 수행에 이의를 제기 — 정당성의 양면적 도전. 군사적·도덕적 정당성이 동시에 흔들리는 구조.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
+- 유조선은 Organization 클래스, 항모는 Organization 클래스, 유출 사건은 Event 클래스로 분류
+- 'Love Tap Doctrine', 'Iran Oil Storage Crisis', 'US Consumer Confidence Collapse'는 Concept 클래스로 분류

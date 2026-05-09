@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "nodes": [
     {
       "id": "ent-001",
@@ -1300,28 +1300,176 @@
       "type": "Organization",
       "label": "China"
     },
-    {"id": "ent-287", "type": "Concept", "label": "14-Point MoU"},
-    {"id": "ent-288", "type": "Event", "label": "'Higher Level' Bombing Threat"},
-    {"id": "ent-289", "type": "Event", "label": "IRGC Conditional Hormuz Transit Resumption"},
-    {"id": "ent-290", "type": "Person", "label": "Malek Ballout"},
-    {"id": "ent-291", "type": "Event", "label": "Beirut Dahieh Strike (May 6)"},
-    {"id": "ent-292", "type": "Event", "label": "Oil Crash -8% (May 6)"},
-    {"id": "ent-293", "type": "Event", "label": "Wang Yi Comprehensive Ceasefire Call"},
-    {"id": "ent-294", "type": "Event", "label": "Trump-Xi Beijing Summit (May 14-15)"},
-    {"id": "ent-295", "type": "Person", "label": "Esmaeil Baqaei"},
-    {"id": "ent-296", "type": "Person", "label": "Israel Katz"},
-    {"id": "ent-297", "type": "Organization", "label": "USS Truxtun (DDG-103)"},
-    {"id": "ent-298", "type": "Organization", "label": "USS Rafael Peralta (DDG-115)"},
-    {"id": "ent-299", "type": "Organization", "label": "USS Mason (DDG-87)"},
-    {"id": "ent-300", "type": "Location", "label": "Qeshm Island"},
-    {"id": "ent-301", "type": "Location", "label": "Bandar Khamir"},
-    {"id": "ent-302", "type": "Location", "label": "Sirik"},
-    {"id": "ent-303", "type": "Person", "label": "Tahir Andrabi"},
-    {"id": "ent-304", "type": "Event", "label": "IRGC Attack on US Warships (May 7)"},
-    {"id": "ent-305", "type": "Event", "label": "US Self-Defense Strikes on Iran (May 7)"},
-    {"id": "ent-306", "type": "Concept", "label": "12-Year Nuclear Moratorium"},
-    {"id": "ent-307", "type": "Event", "label": "May 17 Lebanon-Israel Washington Talks"},
-    {"id": "ent-308", "type": "Concept", "label": "MoU Missing Provisions"}
+    {
+      "id": "ent-287",
+      "type": "Concept",
+      "label": "14-Point MoU"
+    },
+    {
+      "id": "ent-288",
+      "type": "Event",
+      "label": "'Higher Level' Bombing Threat"
+    },
+    {
+      "id": "ent-289",
+      "type": "Event",
+      "label": "IRGC Conditional Hormuz Transit Resumption"
+    },
+    {
+      "id": "ent-290",
+      "type": "Person",
+      "label": "Malek Ballout"
+    },
+    {
+      "id": "ent-291",
+      "type": "Event",
+      "label": "Beirut Dahieh Strike (May 6)"
+    },
+    {
+      "id": "ent-292",
+      "type": "Event",
+      "label": "Oil Crash -8% (May 6)"
+    },
+    {
+      "id": "ent-293",
+      "type": "Event",
+      "label": "Wang Yi Comprehensive Ceasefire Call"
+    },
+    {
+      "id": "ent-294",
+      "type": "Event",
+      "label": "Trump-Xi Beijing Summit (May 14-15)"
+    },
+    {
+      "id": "ent-295",
+      "type": "Person",
+      "label": "Esmaeil Baqaei"
+    },
+    {
+      "id": "ent-296",
+      "type": "Person",
+      "label": "Israel Katz"
+    },
+    {
+      "id": "ent-297",
+      "type": "Organization",
+      "label": "USS Truxtun (DDG-103)"
+    },
+    {
+      "id": "ent-298",
+      "type": "Organization",
+      "label": "USS Rafael Peralta (DDG-115)"
+    },
+    {
+      "id": "ent-299",
+      "type": "Organization",
+      "label": "USS Mason (DDG-87)"
+    },
+    {
+      "id": "ent-300",
+      "type": "Location",
+      "label": "Qeshm Island"
+    },
+    {
+      "id": "ent-301",
+      "type": "Location",
+      "label": "Bandar Khamir"
+    },
+    {
+      "id": "ent-302",
+      "type": "Location",
+      "label": "Sirik"
+    },
+    {
+      "id": "ent-303",
+      "type": "Person",
+      "label": "Tahir Andrabi"
+    },
+    {
+      "id": "ent-304",
+      "type": "Event",
+      "label": "IRGC Attack on US Warships (May 7)"
+    },
+    {
+      "id": "ent-305",
+      "type": "Event",
+      "label": "US Self-Defense Strikes on Iran (May 7)"
+    },
+    {
+      "id": "ent-306",
+      "type": "Concept",
+      "label": "12-Year Nuclear Moratorium"
+    },
+    {
+      "id": "ent-307",
+      "type": "Event",
+      "label": "May 17 Lebanon-Israel Washington Talks"
+    },
+    {
+      "id": "ent-308",
+      "type": "Concept",
+      "label": "MoU Missing Provisions"
+    },
+    {
+      "id": "ent-309",
+      "type": "Organization",
+      "label": "M/T Sea Star III"
+    },
+    {
+      "id": "ent-310",
+      "type": "Organization",
+      "label": "M/T Sevda"
+    },
+    {
+      "id": "ent-311",
+      "type": "Organization",
+      "label": "USS George H.W. Bush (CVN-77)"
+    },
+    {
+      "id": "ent-312",
+      "type": "Event",
+      "label": "US Tanker Strike 5/8"
+    },
+    {
+      "id": "ent-313",
+      "type": "Concept",
+      "label": "Love Tap Doctrine"
+    },
+    {
+      "id": "ent-314",
+      "type": "Person",
+      "label": "Giorgia Meloni"
+    },
+    {
+      "id": "ent-315",
+      "type": "Person",
+      "label": "Antonio Tajani"
+    },
+    {
+      "id": "ent-316",
+      "type": "Person",
+      "label": "Pope Leo XIV"
+    },
+    {
+      "id": "ent-317",
+      "type": "Event",
+      "label": "Kharg Island Oil Spill"
+    },
+    {
+      "id": "ent-318",
+      "type": "Organization",
+      "label": "NATO"
+    },
+    {
+      "id": "ent-319",
+      "type": "Concept",
+      "label": "Iran Oil Storage Crisis"
+    },
+    {
+      "id": "ent-320",
+      "type": "Concept",
+      "label": "US Consumer Confidence Collapse"
+    }
   ],
   "edges": [
     {
@@ -7210,34 +7358,415 @@
       "rule": "co_participation",
       "reasoning": "UAE(ent-275)와 US Military(ent-003) 모두 이란 공격 대상이며 국제 규탄에서 동일 진영 — 암시적 방위 동맹 강화"
     },
-    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-287", "source_id": "src-863", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
-    {"subject": "ent-001", "predicate": "threatens", "object": "ent-288", "source_id": "src-864", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-005", "predicate": "announces", "object": "ent-289", "source_id": "src-865", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-004", "predicate": "attacks", "object": "ent-291", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-290", "predicate": "affiliatedWith", "object": "ent-048", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-286", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-868", "date": "2026-05-06", "confidence": 0.85, "type": "explicit"},
-    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-287", "source_id": "src-869", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
-    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-294", "source_id": "src-871", "date": "2026-05-06", "confidence": 0.90, "type": "explicit"},
-    {"subject": "ent-296", "predicate": "affiliatedWith", "object": "ent-004", "source_id": "src-866", "date": "2026-05-06", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-292", "predicate": "causedBy", "object": "ent-287", "source_id": "src-867", "date": "2026-05-06", "confidence": 0.85, "type": "explicit"},
-    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-305", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-305", "predicate": "causedBy", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.90, "type": "explicit"},
-    {"subject": "ent-297", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-298", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-299", "predicate": "participatesIn", "object": "ent-304", "source_id": "src-895", "date": "2026-05-07", "confidence": 0.95, "type": "explicit"},
-    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-300", "source_id": "src-896", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"},
-    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-301", "source_id": "src-896", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"},
-    {"subject": "ent-305", "predicate": "locatedIn", "object": "ent-302", "source_id": "src-896", "date": "2026-05-07", "confidence": 0.80, "type": "explicit"},
-    {"subject": "ent-287", "predicate": "relatedTo", "object": "ent-284", "source_id": "src-902", "date": "2026-05-07", "confidence": 0.85, "type": "explicit"},
-    {"subject": "ent-306", "predicate": "relatedTo", "object": "ent-287", "source_id": "src-897", "date": "2026-05-07", "confidence": 0.85, "type": "explicit"},
-    {"subject": "ent-004", "predicate": "opposes", "object": "ent-048", "source_id": "src-900", "date": "2026-05-07", "confidence": 0.90, "type": "explicit"},
-    {"subject": "ent-305", "predicate": "follows", "object": "ent-304", "rule": "event_chain", "confidence": 0.90, "type": "inferred", "reasoning": "US 보복 공습(ent-305)은 IRGC 함정 공격(ent-304) 직후 발생한 인과 체인"},
-    {"subject": "ent-304", "predicate": "potentialRelation", "object": "ent-287", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reasoning": "IRGC 함정 공격이 MoU 협상을 잠재적으로 훼손하는 관계"}
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-287",
+      "source_id": "src-863",
+      "date": "2026-05-06",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "threatens",
+      "object": "ent-288",
+      "source_id": "src-864",
+      "date": "2026-05-06",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "announces",
+      "object": "ent-289",
+      "source_id": "src-865",
+      "date": "2026-05-06",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "attacks",
+      "object": "ent-291",
+      "source_id": "src-866",
+      "date": "2026-05-06",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-290",
+      "predicate": "affiliatedWith",
+      "object": "ent-048",
+      "source_id": "src-866",
+      "date": "2026-05-06",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-286",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "source_id": "src-868",
+      "date": "2026-05-06",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "relatedTo",
+      "object": "ent-287",
+      "source_id": "src-869",
+      "date": "2026-05-06",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-294",
+      "source_id": "src-871",
+      "date": "2026-05-06",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-296",
+      "predicate": "affiliatedWith",
+      "object": "ent-004",
+      "source_id": "src-866",
+      "date": "2026-05-06",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-292",
+      "predicate": "causedBy",
+      "object": "ent-287",
+      "source_id": "src-867",
+      "date": "2026-05-06",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "participatesIn",
+      "object": "ent-304",
+      "source_id": "src-895",
+      "date": "2026-05-07",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-003",
+      "predicate": "participatesIn",
+      "object": "ent-305",
+      "source_id": "src-895",
+      "date": "2026-05-07",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-305",
+      "predicate": "causedBy",
+      "object": "ent-304",
+      "source_id": "src-895",
+      "date": "2026-05-07",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-297",
+      "predicate": "participatesIn",
+      "object": "ent-304",
+      "source_id": "src-895",
+      "date": "2026-05-07",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-298",
+      "predicate": "participatesIn",
+      "object": "ent-304",
+      "source_id": "src-895",
+      "date": "2026-05-07",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-299",
+      "predicate": "participatesIn",
+      "object": "ent-304",
+      "source_id": "src-895",
+      "date": "2026-05-07",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-305",
+      "predicate": "locatedIn",
+      "object": "ent-300",
+      "source_id": "src-896",
+      "date": "2026-05-07",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-305",
+      "predicate": "locatedIn",
+      "object": "ent-301",
+      "source_id": "src-896",
+      "date": "2026-05-07",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-305",
+      "predicate": "locatedIn",
+      "object": "ent-302",
+      "source_id": "src-896",
+      "date": "2026-05-07",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-287",
+      "predicate": "relatedTo",
+      "object": "ent-284",
+      "source_id": "src-902",
+      "date": "2026-05-07",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-306",
+      "predicate": "relatedTo",
+      "object": "ent-287",
+      "source_id": "src-897",
+      "date": "2026-05-07",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-048",
+      "source_id": "src-900",
+      "date": "2026-05-07",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-305",
+      "predicate": "follows",
+      "object": "ent-304",
+      "rule": "event_chain",
+      "confidence": 0.9,
+      "type": "inferred",
+      "reasoning": "US 보복 공습(ent-305)은 IRGC 함정 공격(ent-304) 직후 발생한 인과 체인"
+    },
+    {
+      "subject": "ent-304",
+      "predicate": "potentialRelation",
+      "object": "ent-287",
+      "rule": "co_participation",
+      "confidence": 0.75,
+      "type": "inferred",
+      "reasoning": "IRGC 함정 공격이 MoU 협상을 잠재적으로 훼손하는 관계"
+    },
+    {
+      "subject": "ent-003",
+      "predicate": "participatesIn",
+      "object": "ent-312",
+      "source_id": "src-925",
+      "date": "2026-05-08",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-311",
+      "predicate": "participatesIn",
+      "object": "ent-312",
+      "source_id": "src-925",
+      "date": "2026-05-08",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-309",
+      "predicate": "participatesIn",
+      "object": "ent-312",
+      "source_id": "src-925",
+      "date": "2026-05-08",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-310",
+      "predicate": "participatesIn",
+      "object": "ent-312",
+      "source_id": "src-925",
+      "date": "2026-05-08",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-312",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-925",
+      "date": "2026-05-08",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "relatedTo",
+      "object": "ent-313",
+      "source_id": "src-926",
+      "date": "2026-05-08",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-039",
+      "predicate": "cooperatesWith",
+      "object": "ent-314",
+      "source_id": "src-927",
+      "date": "2026-05-08",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-039",
+      "predicate": "cooperatesWith",
+      "object": "ent-315",
+      "source_id": "src-935",
+      "date": "2026-05-08",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-039",
+      "predicate": "cooperatesWith",
+      "object": "ent-316",
+      "source_id": "src-927",
+      "date": "2026-05-08",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-042",
+      "predicate": "opposes",
+      "object": "ent-003",
+      "source_id": "src-928",
+      "date": "2026-05-08",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-317",
+      "predicate": "locatedIn",
+      "object": "ent-007",
+      "source_id": "src-929",
+      "date": "2026-05-08",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-318",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_id": "src-931",
+      "date": "2026-05-08",
+      "confidence": 0.75,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-319",
+      "predicate": "causedBy",
+      "object": "ent-008",
+      "source_id": "src-933",
+      "date": "2026-05-08",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-320",
+      "predicate": "causedBy",
+      "object": "ent-008",
+      "source_id": "src-934",
+      "date": "2026-05-08",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-312",
+      "predicate": "follows",
+      "object": "ent-305",
+      "source_id": "src-925",
+      "date": "2026-05-08",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-316",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_id": "src-935",
+      "date": "2026-05-08",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-313",
+      "predicate": "relatedTo",
+      "object": "ent-287",
+      "source_id": null,
+      "date": "2026-05-08",
+      "confidence": 0.78,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-319",
+      "predicate": "relatedTo",
+      "object": "ent-287",
+      "source_id": null,
+      "date": "2026-05-08",
+      "confidence": 0.82,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-312",
+      "predicate": "relatedTo",
+      "object": "ent-304",
+      "source_id": null,
+      "date": "2026-05-08",
+      "confidence": 0.8,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-317",
+      "predicate": "causedBy",
+      "object": "ent-312",
+      "source_id": null,
+      "date": "2026-05-08",
+      "confidence": 0.55,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-318",
+      "predicate": "relatedTo",
+      "object": "ent-316",
+      "source_id": null,
+      "date": "2026-05-08",
+      "confidence": 0.72,
+      "type": "inferred"
+    }
   ],
   "stats": {
-    "total_nodes": 295,
-    "total_edges": 694,
-    "total_triples": 694
+    "total_nodes": 292,
+    "total_edges": 726,
+    "total_triples": 726
   }
 }

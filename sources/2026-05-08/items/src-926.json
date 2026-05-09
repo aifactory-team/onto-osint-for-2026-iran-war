@@ -1,0 +1,20 @@
+{
+  "id": "src-926",
+  "title": "Trump calls US strikes on Iran 'just a love tap,' insists ceasefire still in effect",
+  "url": "https://time.com/article/2026/05/08/us-iran-war-strait-hormuz-attacks-cease-fire-trump-deal/",
+  "snippet": "President Trump described U.S. retaliatory strikes against Iranian targets as 'just a love tap' and confirmed the ceasefire is in effect. When asked whether the escalation meant the ceasefire had collapsed, Trump responded: 'No, no, the ceasefire is going. It's in effect.' He also warned Iran would face response 'a lot harder, and a lot more violently' if it doesn't sign a deal soon.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 'love tap' 개념 없음. 트럼프의 신규 수사적 프레이밍.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-005", "type": "Concept", "name": "Love Tap Doctrine"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-005"}
+  ]
+}

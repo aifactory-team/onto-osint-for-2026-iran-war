@@ -1,0 +1,23 @@
+{
+  "id": "src-935",
+  "title": "Rubio presses Europe on Iran action, seeks to mend ties with Italy and Vatican over war disagreements",
+  "url": "https://thehill.com/policy/international/marco-rubio-italy-foreign-minister-iran-war/",
+  "snippet": "Rubio pressed Europe on Iran action during two-day visit to Italy aimed at mending strained ties. Met PM Meloni, FM Tajani, and visited Pope Leo XIV at Vatican. Pope emerged as leading global critic of Iran war. Trump had repeatedly attacked pontiff for disapproval. Rubio warned Tehran's Hormuz control 'unacceptable' and a 'threat to global security.'",
+  "source_name": "The Hill",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "루비오-교황/이탈리아 관계 복원 외교는 5/8 신규.",
+  "entities": [
+    {"id": "ent-039", "type": "Person", "name": "Marco Rubio"},
+    {"id": "temp-006", "type": "Person", "name": "Giorgia Meloni"},
+    {"id": "temp-007", "type": "Person", "name": "Antonio Tajani"},
+    {"id": "temp-008", "type": "Person", "name": "Pope Leo XIV"}
+  ],
+  "relations": [
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "temp-006"},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "temp-007"}
+  ]
+}

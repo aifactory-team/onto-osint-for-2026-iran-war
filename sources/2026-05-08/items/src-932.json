@@ -1,0 +1,18 @@
+{
+  "id": "src-932",
+  "title": "China expresses 'extreme concern' over Hormuz ship damage — calls for restraint and de-escalation",
+  "url": "https://www.kjob.news/news/487428",
+  "snippet": "중국 외교부는 호르무즈 해협에서 미국과 이란 간 군사 교전으로 영향을 받는 선박의 수가 늘어나고 있는 상황에 대해 '극도의 우려'를 공식 표명했다. 외교부 대변인은 모든 관련 당사자가 자제하고 긴장 완화를 위해 공동으로 노력해야 한다고 강조했다.",
+  "source_name": "전국인력신문",
+  "language": "ko",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "중국 외교부 공식 '극도의 우려' 표명은 5/8 신규 성명. 이전 왕이 촉구(src-868)와 별개.",
+  "entities": [
+    {"id": "ent-282", "type": "Person", "name": "Wang Yi (implied, Chinese FM)"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-929",
+  "title": "Satellite images reveal massive oil spill near Kharg Island — ~45 sq km slick, largest since war began",
+  "url": "http://www.jpost.com/middle-east/iran-news/article-895580",
+  "snippet": "Satellite imagery from Copernicus Sentinel-1/2/3 shows a grey-and-white oil slick covering ~45 sq km west of Kharg Island. Leon Moreland (Conflict and Environment Observatory) estimated ~80,000 barrels spilled since first detected Tuesday. Kharg Island handles 90% of Iran's oil exports. Cause unknown; no evidence of additional active spills as of May 8.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일에 카르그 섬 유출 보도 없음. 전쟁 이후 최대 규모 환경 재난.",
+  "entities": [
+    {"id": "temp-009", "type": "Event", "name": "Kharg Island Oil Spill"},
+    {"id": "ent-007", "type": "Location", "name": "Kharg Island"},
+    {"id": "temp-010", "type": "Person", "name": "Leon Moreland", "role": "researcher"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "locatedIn", "object": "ent-007"}
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "date": "2026-05-08",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "M/T Sea Star III",
+      "properties": {"type": "Iranian-flagged tanker", "status": "disabled by US Navy F/A-18 precision munitions to smokestack"},
+      "source_ids": ["src-925", "src-936", "src-937"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "M/T Sevda",
+      "properties": {"type": "Iranian-flagged tanker", "status": "disabled by US Navy F/A-18 precision munitions to smokestack"},
+      "source_ids": ["src-925", "src-936", "src-937"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS George H.W. Bush (CVN-77)",
+      "properties": {"type": "aircraft carrier", "affiliation": "US Navy", "role": "launched F/A-18 that disabled tankers"},
+      "source_ids": ["src-925", "src-947"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US disables tankers Sea Star III & Sevda",
+      "properties": {"date": "2026-05-08", "location": "Gulf of Oman", "method": "F/A-18 Super Hornet precision munitions to smokestacks"},
+      "source_ids": ["src-925", "src-936", "src-937", "src-939", "src-947", "src-948", "src-949", "src-950"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Love Tap Doctrine",
+      "properties": {"domain": "military-diplomatic rhetoric", "definition": "Trump's characterization of US strikes on Iran as minor while maintaining ceasefire is holding"},
+      "source_ids": ["src-926", "src-941", "src-942", "src-943", "src-944", "src-945", "src-946"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Giorgia Meloni",
+      "properties": {"role": "Italian Prime Minister", "affiliation": "Italy"},
+      "source_ids": ["src-927", "src-935", "src-956"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Antonio Tajani",
+      "properties": {"role": "Italian Foreign Minister", "affiliation": "Italy"},
+      "source_ids": ["src-935", "src-956"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Pope Leo XIV",
+      "properties": {"role": "Pope", "affiliation": "Vatican", "stance": "leading global critic of Iran war"},
+      "source_ids": ["src-927", "src-955"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Kharg Island Oil Spill",
+      "properties": {"date": "2026-05-06 to 2026-05-08", "location": "Kharg Island, Persian Gulf", "size": "~45 sq km", "estimated_barrels": "~80,000", "significance": "largest since war began"},
+      "source_ids": ["src-929", "src-957", "src-958", "src-959", "src-960"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Leon Moreland",
+      "properties": {"role": "researcher", "affiliation": "Conflict and Environment Observatory"},
+      "source_ids": ["src-929"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "NATO",
+      "properties": {"type": "military alliance", "status": "US leadership questioned over Iran war"},
+      "source_ids": ["src-931"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran Oil Storage Crisis",
+      "properties": {"domain": "economic warfare", "timeline": "6-7 weeks until capacity reached (mid-June)", "impact": "economic collapse risk"},
+      "source_ids": ["src-933"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "US Consumer Confidence Collapse",
+      "properties": {"domain": "economic impact", "indicator": "Michigan Consumer Sentiment Index 48.2", "cause": "Iran war fuel costs"},
+      "source_ids": ["src-934", "src-962"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"action_may8": "called strikes 'love tap', insists ceasefire holding, warns Iran 'a lot harder and more violently' if no deal; says 'receiving a letter tonight'"},
+      "source_ids": ["src-926", "src-936", "src-937"],
+      "mention_count": 25
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-039",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": {"action_may8": "in Rome meeting Meloni/Tajani/Pope Leo XIV; says expects Iran response 'today'; presses Europe on Iran action; warns Tehran's Hormuz control 'unacceptable'"},
+      "source_ids": ["src-927", "src-935"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": "ent-042",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"action_may8": "condemns US 'reckless military adventure'; says 'Iranians never bow to pressure'; 'every time a diplomatic solution is on the table the US opts for a reckless military adventure'"},
+      "source_ids": ["src-928", "src-952"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": "ent-003",
+      "type": "Organization",
+      "name": "CENTCOM",
+      "properties": {"action_may8": "disabled M/T Sea Star III and Sevda; forced ~70 commercial vessels to turn around since blockade began"},
+      "source_ids": ["src-925", "src-936"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_may8": "continued Hormuz maritime operations"},
+      "source_ids": ["src-928", "src-953"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_may8": "dual blockade continues; US disabled 2 tankers; ~70 vessels forced to turn around since blockade began"},
+      "source_ids": ["src-925", "src-926", "src-930"],
+      "mention_count": 30
+    },
+    {
+      "temp_id": "temp-020",
+      "matched_id": "ent-287",
+      "type": "Concept",
+      "name": "14-Point MoU",
+      "properties": {"status_may8": "Iran response expected today per Rubio; Trump says 'receiving a letter tonight'; Iran demands: HEU handover, 12yr moratorium, frozen assets, reparations, sanctions lifted, new Hormuz mechanism"},
+      "source_ids": ["src-927", "src-938"],
+      "mention_count": 12
+    }
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-925"], "confidence": 0.95},
+    {"subject": "temp-003", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-925"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-925"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-925"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-005", "source_ids": ["src-926"], "confidence": 0.90},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "temp-006", "source_ids": ["src-927", "src-935"], "confidence": 0.85},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "temp-008", "source_ids": ["src-927"], "confidence": 0.80},
+    {"subject": "ent-042", "predicate": "opposes", "object": "ent-003", "source_ids": ["src-928"], "confidence": 0.90},
+    {"subject": "temp-009", "predicate": "locatedIn", "object": "ent-007", "source_ids": ["src-929"], "confidence": 0.95},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-925"], "confidence": 0.90},
+    {"subject": "temp-011", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-931"], "confidence": 0.75},
+    {"subject": "temp-012", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-933"], "confidence": 0.85},
+    {"subject": "temp-013", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-934"], "confidence": 0.80}
+  ],
+  "stats": {
+    "total_entities": 20,
+    "new_entities": 13,
+    "matched_entities": 7,
+    "total_relations": 13
+  }
+}

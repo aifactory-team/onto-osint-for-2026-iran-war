@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-08",
+  "new_triples": [
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-312", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-311", "predicate": "participatesIn", "object": "ent-312", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-309", "predicate": "participatesIn", "object": "ent-312", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-310", "predicate": "participatesIn", "object": "ent-312", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-312", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-313", "source_id": "src-926", "date": "2026-05-08", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "ent-314", "source_id": "src-927", "date": "2026-05-08", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "ent-315", "source_id": "src-935", "date": "2026-05-08", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-039", "predicate": "cooperatesWith", "object": "ent-316", "source_id": "src-927", "date": "2026-05-08", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-042", "predicate": "opposes", "object": "ent-003", "source_id": "src-928", "date": "2026-05-08", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-317", "predicate": "locatedIn", "object": "ent-007", "source_id": "src-929", "date": "2026-05-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-318", "predicate": "opposes", "object": "ent-001", "source_id": "src-931", "date": "2026-05-08", "confidence": 0.75, "type": "explicit"},
+    {"subject": "ent-319", "predicate": "causedBy", "object": "ent-008", "source_id": "src-933", "date": "2026-05-08", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-320", "predicate": "causedBy", "object": "ent-008", "source_id": "src-934", "date": "2026-05-08", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-312", "predicate": "follows", "object": "ent-305", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-316", "predicate": "opposes", "object": "ent-001", "source_id": "src-935", "date": "2026-05-08", "confidence": 0.80, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-287", "source_id": "src-927", "date": "2026-05-08", "confidence": 0.90, "type": "explicit", "note": "Trump says 'receiving a letter tonight' — MoU response imminent"},
+    {"subject": "ent-042", "predicate": "relatedTo", "object": "ent-287", "source_id": "src-928", "date": "2026-05-08", "confidence": 0.85, "type": "explicit", "note": "Araghchi condemns military action while MoU under review"},
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-925", "date": "2026-05-08", "confidence": 0.95, "type": "explicit", "note": "Hormuz blockade enforcement continues — ~70 vessels forced to turn around"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-048", "source_id": "src-940", "date": "2026-05-08", "confidence": 0.90, "type": "explicit", "note": "Lebanon: 12+ killed in Israeli strikes, forced displacement of 12 villages"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-313", "predicate": "relatedTo", "object": "ent-287", "source_id": null, "date": "2026-05-08", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "reasoning": "Trump uses 'love tap' rhetoric while simultaneously pushing MoU — rhetorical strategy to minimize military action and preserve diplomatic space"},
+    {"subject": "ent-319", "predicate": "relatedTo", "object": "ent-287", "source_id": null, "date": "2026-05-08", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "reasoning": "Iran's oil storage crisis (6-7 weeks to collapse) creates economic pressure that may force Iran to accept MoU terms — blockade as negotiation leverage"},
+    {"subject": "ent-312", "predicate": "relatedTo", "object": "ent-304", "source_id": null, "date": "2026-05-08", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "Tanker strike on 5/8 follows IRGC fleet attack on 5/7 — escalatory cycle within 'ceasefire' framework"},
+    {"subject": "ent-317", "predicate": "causedBy", "object": "ent-312", "source_id": null, "date": "2026-05-08", "confidence": 0.55, "type": "inferred", "rule": "event_chain", "reasoning": "Oil spill near Kharg Island may be related to military operations — timing coincides with escalation, but cause officially unknown. Below confidence threshold — tentative."},
+    {"subject": "ent-318", "predicate": "relatedTo", "object": "ent-316", "source_id": null, "date": "2026-05-08", "confidence": 0.72, "type": "inferred", "rule": "co_participation", "reasoning": "NATO and Pope Leo XIV both challenge US Iran war conduct — parallel legitimacy crises for US war policy from military alliance and moral authority"}
+  ],
+  "stats": {
+    "new_nodes": 12,
+    "new_edges": 16,
+    "inferred_edges": 5
+  }
+}

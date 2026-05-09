@@ -1,0 +1,17 @@
+{
+  "id": "src-930",
+  "title": "Oil prices rebound ~1% — Brent $101.29, WTI $95.42 after 3-day slide; weekly loss >6%",
+  "url": "https://www.cnbc.com/2026/05/08/oil-prices-today-wti-brent-us-iran-fire-war-hormuz-ceasefire.html",
+  "snippet": "Oil prices edged higher after US fired on Iranian tankers and UAE reported new missile attacks. Brent crude futures settled at $101.29/bbl (+1.2%), WTI at $95.42/bbl (+0.7%). However, both posted weekly losses of >6% as markets priced in hopes of a peace deal.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/8 신규 유가 데이터. 전일 대비 반등이나 주간 6% 이상 하락.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": []
+}

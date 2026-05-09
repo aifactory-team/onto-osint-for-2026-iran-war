@@ -1,0 +1,20 @@
+{
+  "id": "src-931",
+  "title": "NATO allies question US leadership — Iran war fallout may end US-led alliance; Germany prepares 460K-troop defense plan",
+  "url": "https://www.npr.org/2026/05/08/nx-s1-5810515/us-war-trump-nato-iran-europe-canada-germany",
+  "snippet": "NPR analysis: Trump's decision to leave NATO in the dark before striking Iran, followed by demands for alliance support in Hormuz, has pushed European leaders to consider a future where the US no longer leads NATO. Germany's Pistorius unveiled a 460,000-troop defense plan. Pentagon announced withdrawal of 5,000 US service members from Germany (~14% of 36,000 stationed).",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "NATO 리더십 구조 변화 분석은 이전 독일 철수(src-675) 후속이나 '미국 리더십 종료' 프레임은 신규.",
+  "entities": [
+    {"id": "temp-011", "type": "Organization", "name": "NATO"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": [
+    {"subject": "temp-011", "predicate": "opposes", "object": "ent-001"}
+  ]
+}
