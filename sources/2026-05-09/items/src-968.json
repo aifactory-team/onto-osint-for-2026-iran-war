@@ -1,0 +1,24 @@
+{
+  "id": "src-968",
+  "title": "Iran still 'reviewing' US MoU proposal — 'We don't pay attention to deadlines'; Ghalibaf mocks 'Operation Trust Me Bro failed'",
+  "url": "https://www.cnbc.com/2026/05/09/us-and-iran-are-no-closer-to-ending-war-tehrans-response-awaited.html",
+  "snippet": "Iran FM spokesperson Baqaei says Tehran still reviewing US proposal: \"the investigation into the exchanged texts is ongoing.\" Says \"we do our own work, we don't pay attention to deadlines or timing.\" Ghalibaf mocks Axios MoU report: \"Operation Trust Me Bro failed.\" Lawmaker Rezaei calls US text \"more of an American wish list than a reality.\"",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New statements from Baqaei/Ghalibaf/Rezaei specifically rejecting MoU progress narrative",
+  "entities": [
+    { "id": "ent-275", "type": "Person", "name": "Esmaeil Baqaei" },
+    { "id": "ent-051", "type": "Person", "name": "Mohammad Baqer Ghalibaf" },
+    { "temp_id": "temp-014", "type": "Person", "name": "Ebrahim Rezaei", "properties": { "role": "Iranian Parliament spokesman", "affiliation": "Iran Parliament" } },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-287", "type": "Concept", "name": "14-Point MoU" }
+  ],
+  "relations": [
+    { "subject": "temp-014", "predicate": "affiliatedWith", "object": "ent-002" },
+    { "subject": "ent-051", "predicate": "opposes", "object": "ent-287" }
+  ]
+}

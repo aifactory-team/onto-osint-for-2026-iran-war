@@ -1,0 +1,23 @@
+{
+  "id": "src-969",
+  "title": "Iran Navy seizes Ocean Koi tanker in Gulf of Oman — Barbados-flagged, US-sanctioned vessel",
+  "url": "https://www.aljazeera.com/news/2026/5/8/iran-says-it-has-seized-oil-tanker-over-attempts-to-disrupt-its-oil-exports",
+  "snippet": "Iranian Navy commandos seized the Barbados-flagged tanker Ocean Koi (IMO 9255933, also known as Jin Li) in the Gulf of Oman, claiming it was attempting to disrupt Iran's oil exports. The vessel was under US sanctions since Feb 2026. Escorted to Iran's southern coast and handed to judicial authorities. Video shows armed men boarding in darkness, raising Iranian flag.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New tanker seizure event not previously reported; separate from Sea Star III/Sevda disable",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "temp_id": "temp-015", "type": "Event", "name": "Ocean Koi Seizure" },
+    { "temp_id": "temp-016", "type": "Concept", "name": "M/T Ocean Koi" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-015" },
+    { "subject": "temp-015", "predicate": "locatedIn", "object": "ent-008" }
+  ]
+}

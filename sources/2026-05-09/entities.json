@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-09",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IRGC Naval Command",
+      "properties": {"type": "military sub-unit", "affiliation": "IRGC", "action": "threatened 'heavy assault on American centers' if more tankers attacked"},
+      "source_ids": ["src-963"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IRGC Aerospace Force",
+      "properties": {"type": "military sub-unit", "affiliation": "IRGC", "action": "declared 'missiles and drones locked onto enemy, awaiting order to fire'"},
+      "source_ids": ["src-963"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "IRGC Dual Retaliation Threat",
+      "properties": {"domain": "military doctrine", "description": "IRGC Naval and Aerospace commands issue simultaneous retaliation threats against US — unprecedented dual-branch posturing"},
+      "source_ids": ["src-963"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Mokhber",
+      "properties": {"role": "Adviser to Supreme Leader, former First VP under Raisi", "affiliation": "Iran", "action": "compared Hormuz control to 'atomic bomb', vowed to change strait's legal regime"},
+      "source_ids": ["src-964"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Hormuz as Atomic Bomb Doctrine",
+      "properties": {"domain": "strategic doctrine", "description": "Iran's elevation of Hormuz control to nuclear-level strategic asset; Mokhber says 'capability that can affect entire global economy with single decision'"},
+      "source_ids": ["src-964"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Nahariya military base",
+      "properties": {"type": "military base", "location": "northern Israel"},
+      "source_ids": ["src-965"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Meron military base",
+      "properties": {"type": "military base", "location": "northern Israel"},
+      "source_ids": ["src-965"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hezbollah Cross-Border Strikes May 9",
+      "properties": {"date": "2026-05-09", "location": "Israel", "participants": ["Hezbollah"], "description": "26 attacks claimed including 2 inside Israel — first cross-border claims since April ceasefire"},
+      "source_ids": ["src-965"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Location",
+      "name": "al-Saksakieh",
+      "properties": {"type": "town", "location": "southern Sidon district, Lebanon"},
+      "source_ids": ["src-966"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Nabatieh",
+      "properties": {"type": "city", "location": "southern Lebanon"},
+      "source_ids": ["src-966"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Day 23 Airstrikes",
+      "properties": {"date": "2026-05-09", "location": "Lebanon", "participants": ["Israel"], "description": "Israeli drone strikes near Beirut + southern airstrikes kill 19+, including children; Day 23 of ceasefire"},
+      "source_ids": ["src-966", "src-976"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Event",
+      "name": "UAE 3rd Attack May 9",
+      "properties": {"date": "2026-05-09", "location": "UAE", "participants": ["Iran"], "description": "UAE air defenses engage 2 ballistic missiles and 3 drones from Iran; 3 wounded; IRGC denies; third attack since ceasefire"},
+      "source_ids": ["src-967"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "IRGC Deniability Pattern",
+      "properties": {"domain": "military strategy", "description": "IRGC systematically denies attacks on UAE while attacks continue — plausible deniability pattern"},
+      "source_ids": ["src-967"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ebrahim Rezaei",
+      "properties": {"role": "Iranian Parliament Foreign Policy Committee spokesman", "affiliation": "Iran Parliament", "action": "called US text 'more of an American wish list than a reality'"},
+      "source_ids": ["src-968"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Ocean Koi Seizure",
+      "properties": {"date": "2026-05-08", "location": "Gulf of Oman", "participants": ["Iranian Navy"], "description": "Iran Navy commandos seize Barbados-flagged tanker Ocean Koi (IMO 9255933), US-sanctioned, for disrupting Iran oil exports"},
+      "source_ids": ["src-969"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "M/T Ocean Koi",
+      "properties": {"domain": "vessel", "description": "Barbados-flagged tanker, IMO 9255933, also known as Jin Li; US-sanctioned since Feb 2026; seized by Iranian Navy in Gulf of Oman"},
+      "source_ids": ["src-969"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "FAO",
+      "properties": {"type": "international organization", "name": "Food and Agriculture Organization of the United Nations"},
+      "source_ids": ["src-970"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": null,
+      "type": "Event",
+      "name": "FAO Food Price 3-Year High",
+      "properties": {"date": "2026-05-09", "description": "FAO food price index reaches 130.7 in April 2026, highest since Feb 2023; 3rd straight monthly increase; vegetable oils elevated by Iran war energy costs; fertilizer +20%"},
+      "source_ids": ["src-970"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump-Xi Beijing Summit May 14-15",
+      "properties": {"date": "2026-05-14", "location": "Beijing", "participants": ["Trump", "Xi Jinping"], "description": "Iran war to dominate summit agenda; less scope for tariffs/rare earths; Bessent confirms Iran will be topic"},
+      "source_ids": ["src-971"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-020",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Korea Fuel Price Crisis",
+      "properties": {"domain": "economics", "description": "Korean gasoline average 2011.2 won/L, diesel 1943.5 won/L; 6 weeks consecutive rise; petroleum +21.9% YoY; consumer prices at 21-month high"},
+      "source_ids": ["src-972"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-021",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "South Korea",
+      "properties": {"type": "state", "location": "East Asia"},
+      "source_ids": ["src-972"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003", "source_ids": ["src-963"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "affiliatedWith", "object": "ent-005", "source_ids": ["src-963"], "confidence": 1.0},
+    {"subject": "temp-002", "predicate": "affiliatedWith", "object": "ent-005", "source_ids": ["src-963"], "confidence": 1.0},
+    {"subject": "temp-004", "predicate": "affiliatedWith", "object": "ent-047", "source_ids": ["src-964"], "confidence": 0.95},
+    {"subject": "temp-004", "predicate": "mentions", "object": "temp-005", "source_ids": ["src-964"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-964"], "confidence": 0.95},
+    {"subject": "ent-043", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-965"], "confidence": 0.95},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "ent-004", "source_ids": ["src-965"], "confidence": 0.95},
+    {"subject": "ent-043", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-965"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-966"], "confidence": 0.95},
+    {"subject": "temp-011", "predicate": "locatedIn", "object": "ent-044", "source_ids": ["src-966"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-214", "source_ids": ["src-967"], "confidence": 0.85},
+    {"subject": "temp-012", "predicate": "locatedIn", "object": "ent-214", "source_ids": ["src-967"], "confidence": 0.9},
+    {"subject": "temp-014", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-968"], "confidence": 0.95},
+    {"subject": "ent-051", "predicate": "opposes", "object": "ent-287", "source_ids": ["src-968"], "confidence": 0.9},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-015", "source_ids": ["src-969"], "confidence": 0.95},
+    {"subject": "temp-015", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-969"], "confidence": 0.9},
+    {"subject": "temp-018", "predicate": "causedBy", "object": "ent-002", "source_ids": ["src-970"], "confidence": 0.8},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-019", "source_ids": ["src-971"], "confidence": 0.95},
+    {"subject": "ent-281", "predicate": "participatesIn", "object": "temp-019", "source_ids": ["src-971"], "confidence": 0.95},
+    {"subject": "temp-019", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-971"], "confidence": 0.85},
+    {"subject": "temp-020", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-972"], "confidence": 0.8}
+  ],
+  "stats": {
+    "total_entities": 21,
+    "new_entities": 15,
+    "matched_entities": 6,
+    "total_relations": 22
+  }
+}

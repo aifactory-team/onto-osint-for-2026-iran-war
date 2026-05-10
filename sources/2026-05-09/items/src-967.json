@@ -1,0 +1,24 @@
+{
+  "id": "src-967",
+  "title": "UAE air defenses engage 2 ballistic missiles and 3 drones from Iran — 3 wounded, IRGC denies",
+  "url": "https://www.npr.org/2026/05/08/g-s1-121061/uae-reports-drone-and-missile-attack",
+  "snippet": "UAE Defense Ministry reports air defenses engaged 2 ballistic missiles and 3 drones from Iran on Friday. Three people sustained moderate injuries. This is the third attack on the UAE since the ceasefire began. IRGC denies carrying out any operations against the UAE.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New UAE attack event on May 9 (third since ceasefire); specific casualty and munitions data",
+  "entities": [
+    { "id": "ent-214", "type": "Organization", "name": "UAE" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "temp_id": "temp-012", "type": "Event", "name": "UAE 3rd Attack May 9" },
+    { "temp_id": "temp-013", "type": "Concept", "name": "IRGC Deniability Pattern" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-214" },
+    { "subject": "temp-012", "predicate": "locatedIn", "object": "ent-214" }
+  ]
+}

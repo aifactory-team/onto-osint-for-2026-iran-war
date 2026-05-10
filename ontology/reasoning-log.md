@@ -1325,3 +1325,44 @@
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
 - 유조선은 Organization 클래스, 항모는 Organization 클래스, 유출 사건은 Event 클래스로 분류
 - 'Love Tap Doctrine', 'Iran Oil Storage Crisis', 'US Consumer Confidence Collapse'는 Concept 클래스로 분류
+
+---
+
+## 2026-05-09 추론 결과
+
+### 추론 #1: transitivity (IRGC 해군사령부 → 이란 간접 소속)
+- **입력:** (ent-322/IRGC Naval Command, affiliatedWith, ent-005/IRGC), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-322/IRGC Naval Command, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.855 (= 0.90 × 0.95)
+- **상태:** 확정
+
+### 추론 #2: transitivity (IRGC 항공우주군 → 이란 간접 소속)
+- **입력:** (ent-323/IRGC Aerospace Force, affiliatedWith, ent-005/IRGC), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-323/IRGC Aerospace Force, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.855 (= 0.90 × 0.95)
+- **상태:** 확정
+
+### 추론 #3: transitivity (모흐베르 → 이란 간접 소속)
+- **입력:** (ent-321/Mohammad Mokhber, affiliatedWith, ent-047/Mojtaba Khamenei), (ent-047/Mojtaba Khamenei, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-321/Mohammad Mokhber, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.81 (= 0.90 × 0.90)
+- **상태:** 확정
+
+### 추론 #4: event_chain (헤즈볼라 이스라엘 영내 공격 → 4/21 첫 로켓 발사 후속)
+- **입력:** (ent-324/Hezbollah Cross-Border Strikes May 9, follows, ent-161/Hezbollah First Rocket Fire Apr 21)
+- **추론:** (ent-324, causalChain, ent-161)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 4/21 첫 로켓 발사 → 5/9 이스라엘 영내 공격으로 에스컬레이션 단계 상승. 휴전 후 헤즈볼라의 공격 범위가 점진적으로 확대되는 패턴 확인.
+
+### 추론 #5: co_participation (Mokhber-Ghalibaf 반협상 동맹)
+- **입력:** (ent-321/Mokhber, mentions, ent-328/Hormuz Atomic Bomb Doctrine — 전쟁 성과 포기 불가), (ent-051/Ghalibaf, opposes, ent-287/14-Point MoU — 'Operation Trust Me Bro failed')
+- **추론:** (ent-321/Mohammad Mokhber, potentialRelation, ent-051/Mohammad Baqer Ghalibaf)
+- **신뢰도:** 0.75
+- **상태:** 잠정
+- **비고:** 양자 모두 협상 반대 입장을 공개적으로 표명. 직접 연대 증거는 없으나, IRGC-의회 강경파 축이 외교부(아라그치)를 견제하는 패턴이 반복됨.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- IRGC 하위 조직(Naval Command, Aerospace Force)은 Organization 클래스로 충분
+- 'Hormuz as Atomic Bomb Doctrine'은 Concept 클래스로 표현

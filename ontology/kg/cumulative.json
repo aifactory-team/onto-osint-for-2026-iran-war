@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "nodes": [
     {
       "id": "ent-001",
@@ -1469,6 +1469,66 @@
       "id": "ent-320",
       "type": "Concept",
       "label": "US Consumer Confidence Collapse"
+    },
+    {
+      "id": "ent-321",
+      "type": "Person",
+      "label": "Mohammad Mokhber"
+    },
+    {
+      "id": "ent-322",
+      "type": "Organization",
+      "label": "IRGC Naval Command"
+    },
+    {
+      "id": "ent-323",
+      "type": "Organization",
+      "label": "IRGC Aerospace Force"
+    },
+    {
+      "id": "ent-324",
+      "type": "Event",
+      "label": "Hezbollah Cross-Border Strikes May 9"
+    },
+    {
+      "id": "ent-325",
+      "type": "Event",
+      "label": "Lebanon Day 23 Airstrikes"
+    },
+    {
+      "id": "ent-326",
+      "type": "Event",
+      "label": "UAE 3rd Attack May 9"
+    },
+    {
+      "id": "ent-327",
+      "type": "Event",
+      "label": "Ocean Koi Seizure"
+    },
+    {
+      "id": "ent-328",
+      "type": "Concept",
+      "label": "Hormuz as Atomic Bomb Doctrine"
+    },
+    {
+      "id": "ent-329",
+      "type": "Person",
+      "label": "Ebrahim Rezaei"
+    },
+    {
+      "id": "ent-330",
+      "type": "Event",
+      "label": "FAO Food Price 3-Year High"
+    },
+    {
+      "id": "ent-331",
+      "type": "Event",
+      "label": "Trump-Xi Beijing Summit May 14-15"
+    },
+    {
+      "id": "ent-332",
+      "type": "Concept",
+      "label": "M/T Ocean Koi"
     }
   ],
   "edges": [
@@ -7762,11 +7822,200 @@
       "date": "2026-05-08",
       "confidence": 0.72,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-322",
+      "predicate": "affiliatedWith",
+      "object": "ent-005",
+      "source_id": "src-963",
+      "date": "2026-05-09",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-323",
+      "predicate": "affiliatedWith",
+      "object": "ent-005",
+      "source_id": "src-963",
+      "date": "2026-05-09",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-322",
+      "predicate": "opposes",
+      "object": "ent-003",
+      "source_id": "src-963",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-321",
+      "predicate": "affiliatedWith",
+      "object": "ent-046",
+      "source_id": "src-964",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-321",
+      "predicate": "mentions",
+      "object": "ent-328",
+      "source_id": "src-964",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-328",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "source_id": "src-964",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-047",
+      "predicate": "participatesIn",
+      "object": "ent-324",
+      "source_id": "src-965",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-324",
+      "predicate": "locatedIn",
+      "object": "ent-004",
+      "source_id": "src-965",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "participatesIn",
+      "object": "ent-325",
+      "source_id": "src-966",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-325",
+      "predicate": "locatedIn",
+      "object": "ent-050",
+      "source_id": "src-966",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-326",
+      "source_id": "src-967",
+      "date": "2026-05-09",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-326",
+      "predicate": "locatedIn",
+      "object": "ent-035",
+      "source_id": "src-967",
+      "date": "2026-05-09",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-045",
+      "predicate": "opposes",
+      "object": "ent-287",
+      "source_id": "src-968",
+      "date": "2026-05-09",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-327",
+      "source_id": "src-969",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-330",
+      "predicate": "causedBy",
+      "object": "ent-002",
+      "source_id": "src-970",
+      "date": "2026-05-09",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-331",
+      "source_id": "src-971",
+      "date": "2026-05-09",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-322",
+      "predicate": "indirectlyAffiliatedWith",
+      "object": "ent-002",
+      "source_id": "src-963",
+      "date": "2026-05-09",
+      "confidence": 0.855,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-323",
+      "predicate": "indirectlyAffiliatedWith",
+      "object": "ent-002",
+      "source_id": "src-963",
+      "date": "2026-05-09",
+      "confidence": 0.855,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-321",
+      "predicate": "indirectlyAffiliatedWith",
+      "object": "ent-002",
+      "source_id": "src-964",
+      "date": "2026-05-09",
+      "confidence": 0.81,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-324",
+      "predicate": "follows",
+      "object": "ent-161",
+      "source_id": "src-965",
+      "date": "2026-05-09",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-321",
+      "predicate": "potentialRelation",
+      "object": "ent-045",
+      "source_id": "src-964",
+      "date": "2026-05-09",
+      "confidence": 0.75,
+      "type": "inferred"
     }
   ],
   "stats": {
-    "total_nodes": 292,
-    "total_edges": 726,
-    "total_triples": 726
+    "total_nodes": 304,
+    "total_edges": 747,
+    "total_triples": 747
   }
 }

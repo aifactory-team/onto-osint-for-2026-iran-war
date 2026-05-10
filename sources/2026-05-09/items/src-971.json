@@ -1,0 +1,25 @@
+{
+  "id": "src-971",
+  "title": "Iran focus at Trump-Xi summit may delay tariffs, rare earths — May 14-15 Beijing",
+  "url": "https://www.cnbc.com/2026/05/08/iran-focus-at-trump-xi-summit-may-delay-progress-on-tariffs-rare-earths.html",
+  "snippet": "Iran war likely to dominate Trump-Xi summit May 14-15 in Beijing. Treasury Sec Bessent confirms Iran will be a topic. Trump seeks PRC support for Iran agreement. Unresolved Iran conflict gives Xi upper hand. Beijing is Iran's biggest oil buyer. Less scope for tariffs/rare earth resolution.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New analysis on Iran's impact on Trump-Xi summit agenda; Bessent statement not previously reported",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-281", "type": "Person", "name": "Xi Jinping" },
+    { "id": "ent-150", "type": "Person", "name": "Scott Bessent" },
+    { "temp_id": "temp-019", "type": "Event", "name": "Trump-Xi Beijing Summit May 14-15" },
+    { "id": "ent-279", "type": "Organization", "name": "China" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-019" },
+    { "subject": "ent-281", "predicate": "participatesIn", "object": "temp-019" },
+    { "subject": "temp-019", "predicate": "relatedTo", "object": "ent-002" }
+  ]
+}

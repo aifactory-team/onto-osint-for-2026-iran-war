@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "entities": [
     {
       "id": "ent-001",
@@ -13,8 +13,8 @@
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
-      "mention_count": 247
+      "last_seen": "2026-05-09",
+      "mention_count": 252
     },
     {
       "id": "ent-002",
@@ -26,8 +26,8 @@
         "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
-      "mention_count": 294
+      "last_seen": "2026-05-09",
+      "mention_count": 304
     },
     {
       "id": "ent-003",
@@ -38,8 +38,8 @@
         "location": "United States"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-19",
-      "mention_count": 52
+      "last_seen": "2026-05-09",
+      "mention_count": 55
     },
     {
       "id": "ent-004",
@@ -51,8 +51,8 @@
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
-      "mention_count": 114
+      "last_seen": "2026-05-09",
+      "mention_count": 120
     },
     {
       "id": "ent-005",
@@ -64,8 +64,8 @@
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
-      "mention_count": 90
+      "last_seen": "2026-05-09",
+      "mention_count": 95
     },
     {
       "id": "ent-006",
@@ -101,7 +101,7 @@
         "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-09",
       "mention_count": 265
     },
     {
@@ -547,7 +547,7 @@
         "action_apr21": "adviser says: 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms'"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-05-09",
       "mention_count": 49
     },
     {
@@ -560,7 +560,7 @@
         "note": "Son of late Ali Khamenei"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
+      "last_seen": "2026-05-09",
       "mention_count": 6
     },
     {
@@ -574,7 +574,7 @@
         "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-05-09",
       "mention_count": 66
     },
     {
@@ -608,7 +608,7 @@
         "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-09",
       "mention_count": 102
     },
     {
@@ -3003,7 +3003,7 @@
         "action_may4": "Intercepted 15 missiles + 4 drones from Iran. Fire at Fujairah oil zone. Schools shifted to remote learning Tue-Fri."
       },
       "first_seen": "2026-05-04",
-      "last_seen": "2026-05-04",
+      "last_seen": "2026-05-09",
       "mention_count": 8
     },
     {
@@ -3146,7 +3146,7 @@
         "role": "Iran diplomatic partner, 25-year cooperation agreement, UNSC veto power"
       },
       "first_seen": "2026-05-05",
-      "last_seen": "2026-05-06",
+      "last_seen": "2026-05-09",
       "mention_count": 10
     },
     {
@@ -3158,7 +3158,7 @@
         "detail": "One-page memorandum of understanding declaring end to conflict. 30-day negotiation window for nuclear moratorium (never seek weapon, no underground facilities, snap inspections), gradual sanctions lift, frozen funds release, Hormuz restrictions + US blockade gradually lifted. Negotiated via Witkoff/Kushner through Pakistan. White House expects Iran response 24-48h. 'No deal yet' — US official."
       },
       "first_seen": "2026-05-06",
-      "last_seen": "2026-05-06",
+      "last_seen": "2026-05-09",
       "mention_count": 12
     },
     {
@@ -3245,7 +3245,7 @@
         "detail": "US-China summit. Originally March, delayed by Iran war. Iran/Hormuz, Taiwan, trade on agenda. Unfinished war gives Xi upper hand. China pressed Iran ahead of summit."
       },
       "first_seen": "2026-05-06",
-      "last_seen": "2026-05-06",
+      "last_seen": "2026-05-09",
       "mention_count": 7
     },
     {
@@ -3258,7 +3258,7 @@
         "detail": "Confirmed Iran reviewing US proposal: 'after summing up its points of view, Iran will convey its views to the Pakistani side.'"
       },
       "first_seen": "2026-05-06",
-      "last_seen": "2026-05-06",
+      "last_seen": "2026-05-09",
       "mention_count": 5
     },
     {
@@ -3583,7 +3583,165 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "mention_count": 5
+    },
+    {
+      "id": "ent-321",
+      "type": "Person",
+      "name": "Mohammad Mokhber",
+      "properties": {
+        "role": "Adviser to Supreme Leader Mojtaba Khamenei, former First VP under Raisi",
+        "affiliation": "Iran",
+        "action_may9": "compared Hormuz control to 'atomic bomb' capability; pledged not to 'forfeit the gains of this war'; vowed to change Hormuz legal regime through international law or unilaterally"
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-322",
+      "type": "Organization",
+      "name": "IRGC Naval Command",
+      "properties": {
+        "type": "military sub-unit",
+        "affiliation": "IRGC",
+        "action_may9": "threatened 'heavy assault against one of the American centers in the region' if Iran's oil tankers face further aggression"
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-323",
+      "type": "Organization",
+      "name": "IRGC Aerospace Force",
+      "properties": {
+        "type": "military sub-unit",
+        "affiliation": "IRGC",
+        "action_may9": "declared 'missiles and drones are locked onto the enemy' and 'we are awaiting the order to fire'"
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-324",
+      "type": "Event",
+      "name": "Hezbollah Cross-Border Strikes May 9",
+      "properties": {
+        "date": "2026-05-09",
+        "location": "Israel (Nahariya, Meron military bases)",
+        "participants": "Hezbollah",
+        "description": "26 attacks claimed including 2 inside Israel — first cross-border claims since April 16-17 ceasefire. Targeted Nahariya and Meron military bases. Israeli military intercepted one rocket, rest fell in open areas."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-325",
+      "type": "Event",
+      "name": "Lebanon Day 23 Airstrikes",
+      "properties": {
+        "date": "2026-05-09",
+        "location": "Lebanon (Beirut suburbs, al-Saksakieh, Nabatieh, Nahrain, Saadiyat, Haboush, Mefdoun)",
+        "participants": "Israel",
+        "description": "3 Israeli drone strikes south of Beirut kill 4; southern Lebanon airstrikes kill 13+ including children. Al-Saksakieh: 7 killed including child, 15 wounded. Total 19+ killed on Day 23 of ceasefire."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-326",
+      "type": "Event",
+      "name": "UAE 3rd Attack May 9",
+      "properties": {
+        "date": "2026-05-09",
+        "location": "UAE",
+        "participants": "Iran (alleged)",
+        "description": "UAE Defense Ministry: air defenses engaged 2 ballistic missiles and 3 drones from Iran. 3 people sustained moderate injuries. Third attack on UAE since ceasefire began. IRGC denies any operations against UAE."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-327",
+      "type": "Event",
+      "name": "Ocean Koi Seizure",
+      "properties": {
+        "date": "2026-05-08",
+        "location": "Gulf of Oman",
+        "participants": "Iranian Navy",
+        "description": "Iranian Navy commandos seized Barbados-flagged tanker Ocean Koi (IMO 9255933, also Jin Li) in Gulf of Oman. US-sanctioned since Feb 2026. Claimed vessel was disrupting Iran's oil exports. Escorted to southern coast."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-328",
+      "type": "Concept",
+      "name": "Hormuz as Atomic Bomb Doctrine",
+      "properties": {
+        "domain": "strategic doctrine",
+        "description": "Iran's elevation of Hormuz control to nuclear-level strategic asset. Mokhber: 'capability that can affect the entire global economy with a single decision.' Signals Iran may permanently alter Hormuz governance and legal regime, moving it from temporary war tactic to permanent strategic posture."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-329",
+      "type": "Person",
+      "name": "Ebrahim Rezaei",
+      "properties": {
+        "role": "Iranian Parliament Foreign Policy and National Security Committee spokesman",
+        "affiliation": "Iran Parliament",
+        "action_may9": "called US MoU text 'more of an American wish list than a reality'"
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-330",
+      "type": "Event",
+      "name": "FAO Food Price 3-Year High",
+      "properties": {
+        "date": "2026-05-09",
+        "description": "FAO global food price index reaches 130.7 in April 2026, highest since February 2023. Third straight monthly increase. Vegetable oil prices especially elevated by Iran war energy costs. Iran accounts for 3.5% of global urea. Fertilizer prices +20%. FAO warns global prices could average 15-20% higher in H1 2026."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-331",
+      "type": "Event",
+      "name": "Trump-Xi Beijing Summit May 14-15",
+      "properties": {
+        "date": "2026-05-14",
+        "location": "Beijing",
+        "participants": "Trump, Xi Jinping",
+        "description": "Iran war likely to dominate summit agenda, leaving less scope for tariffs/rare earths. Bessent confirms Iran will be topic. Trump seeks China's support for Iran agreement. Beijing is Iran's biggest oil buyer. Rescheduled from late March after Iran war began."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-332",
+      "type": "Concept",
+      "name": "M/T Ocean Koi",
+      "properties": {
+        "domain": "vessel",
+        "description": "Barbados-flagged tanker, IMO 9255933, also known as Jin Li. US-sanctioned since Feb 2026. Seized by Iranian Navy commandos in Gulf of Oman for allegedly disrupting Iran's oil exports."
+      },
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "mention_count": 4
     }
   ],
-  "total_count": 261
+  "total_count": 273
 }

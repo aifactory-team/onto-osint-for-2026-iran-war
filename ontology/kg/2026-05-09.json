@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-09",
+  "new_triples": [
+    {"subject": "ent-322", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-963", "date": "2026-05-09", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-323", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-963", "date": "2026-05-09", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-322", "predicate": "opposes", "object": "ent-003", "source_id": "src-963", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-321", "predicate": "affiliatedWith", "object": "ent-047", "source_id": "src-964", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-321", "predicate": "mentions", "object": "ent-328", "source_id": "src-964", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-328", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-964", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-043", "predicate": "participatesIn", "object": "ent-324", "source_id": "src-965", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-324", "predicate": "locatedIn", "object": "ent-004", "source_id": "src-965", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-325", "source_id": "src-966", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-325", "predicate": "locatedIn", "object": "ent-044", "source_id": "src-966", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-326", "source_id": "src-967", "date": "2026-05-09", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-326", "predicate": "locatedIn", "object": "ent-214", "source_id": "src-967", "date": "2026-05-09", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-051", "predicate": "opposes", "object": "ent-287", "source_id": "src-968", "date": "2026-05-09", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-327", "source_id": "src-969", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-330", "predicate": "causedBy", "object": "ent-002", "source_id": "src-970", "date": "2026-05-09", "confidence": 0.8, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-331", "source_id": "src-971", "date": "2026-05-09", "confidence": 0.95, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-322", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "source_id": null, "date": "2026-05-09", "confidence": 0.855, "type": "inferred", "rule": "transitivity", "reasoning": "IRGC Naval Command → IRGC → Iran: 소속 전이. IRGC 해군 사령부는 IRGC 산하 조직이며, IRGC는 이란 국가 조직이므로 간접 소속 관계 성립 (0.95 × 0.90 = 0.855)"},
+    {"subject": "ent-323", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "source_id": null, "date": "2026-05-09", "confidence": 0.855, "type": "inferred", "rule": "transitivity", "reasoning": "IRGC Aerospace Force → IRGC → Iran: 소속 전이. IRGC 항공우주군은 IRGC 산하 조직이며, IRGC는 이란 국가 조직이므로 간접 소속 관계 성립 (0.95 × 0.90 = 0.855)"},
+    {"subject": "ent-321", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "source_id": null, "date": "2026-05-09", "confidence": 0.81, "type": "inferred", "rule": "transitivity", "reasoning": "Mokhber → Mojtaba Khamenei → Iran: 소속 전이. Mokhber는 최고지도자 고문으로 Mojtaba Khamenei 라인에 소속되며, Mojtaba는 이란 체제 핵심 인물 (0.95 × 0.85 = 0.81)"},
+    {"subject": "ent-324", "predicate": "follows", "object": "ent-161", "source_id": null, "date": "2026-05-09", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "reasoning": "헤즈볼라 5/9 이스라엘 영내 공격은 4/21 최초 로켓 발사(ent-161) 이후의 에스컬레이션 사이클 연장. 4월 휴전 이후 최초의 이스라엘 영토 내 공격 주장으로, 질적 에스컬레이션"},
+    {"subject": "ent-326", "predicate": "follows", "object": "ent-278", "source_id": null, "date": "2026-05-09", "confidence": 0.8, "type": "inferred", "rule": "event_chain", "reasoning": "UAE 3차 공격은 이전 UAE 공격 사건들(ent-278 등)의 반복 패턴. IRGC 부인 + 공격 지속의 동일한 양상이 반복되며, 이란의 대리 보복 전략 또는 의도적 부인 패턴을 시사"}
+  ],
+  "stats": {
+    "new_nodes": 12,
+    "new_edges": 16,
+    "inferred_edges": 5
+  }
+}

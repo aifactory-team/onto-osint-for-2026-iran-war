@@ -1,0 +1,25 @@
+{
+  "id": "src-964",
+  "title": "'On level of atomic bomb': Iran's Mokhber says Hormuz control equals nuclear capability",
+  "url": "https://www.aljazeera.com/news/2026/5/9/on-level-of-atomic-bomb-iran-highlights-hormuz-importance-amid-us-talks",
+  "snippet": "Mohammad Mokhber, adviser to supreme leader Mojtaba Khamenei and former first VP under Raisi, says \"The Strait of Hormuz is a capability equivalent to an atomic bomb.\" Pledges not to \"forfeit the gains of this war.\" Vows to change the legal regime of the strait through international law if possible, unilaterally if not. Signals Iran may permanently alter Hormuz governance.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First appearance of Mokhber's atomic bomb comparison for Hormuz; new strategic doctrine signal",
+  "entities": [
+    { "temp_id": "temp-004", "type": "Person", "name": "Mohammad Mokhber", "properties": { "role": "Adviser to Supreme Leader, former VP", "affiliation": "Iran" } },
+    { "id": "ent-047", "type": "Person", "name": "Mojtaba Khamenei" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "temp_id": "temp-005", "type": "Concept", "name": "Hormuz as Atomic Bomb Doctrine" }
+  ],
+  "relations": [
+    { "subject": "temp-004", "predicate": "affiliatedWith", "object": "ent-047" },
+    { "subject": "temp-004", "predicate": "mentions", "object": "temp-005" },
+    { "subject": "temp-005", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

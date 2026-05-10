@@ -1,0 +1,21 @@
+{
+  "id": "src-970",
+  "title": "FAO food price index hits 3-year high (130.7) — Iran war drives vegetable oil surge",
+  "url": "https://www.business-standard.com/economy/news/global-food-prices-hit-3-year-high-as-iran-war-disrupts-supply-chains-126050800681_1.html",
+  "snippet": "FAO global food price index reaches 130.7 in April 2026, highest since February 2023. Third straight monthly increase. Vegetable oil prices especially elevated due to Iran war's energy cost impact. Iran accounts for 3.5% of global urea production and ~10% of seaborne urea trade. Fertilizer prices estimated 20% higher. FAO warns global prices could average 15-20% higher in H1 2026.",
+  "source_name": "Business Standard",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New FAO data (April 2026 index) not previously covered; specific 130.7 figure is new",
+  "entities": [
+    { "temp_id": "temp-017", "type": "Organization", "name": "FAO" },
+    { "temp_id": "temp-018", "type": "Event", "name": "FAO Food Price 3-Year High" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": [
+    { "subject": "temp-018", "predicate": "causedBy", "object": "ent-002" }
+  ]
+}

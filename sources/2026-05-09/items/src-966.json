@@ -1,0 +1,24 @@
+{
+  "id": "src-966",
+  "title": "Israeli drone strikes near Beirut kill 4, southern airstrikes kill 13+ — Day 23 of ceasefire",
+  "url": "https://www.washingtontimes.com/news/2026/may/9/israeli-drone-strikes-near-beirut-kill-4-southern-airstrikes-kill/",
+  "snippet": "Three Israeli drone strikes on vehicles south of Beirut kill 4. Southern Lebanon airstrikes kill 13+, including a man and his 12-year-old daughter in Nabatieh, 7 in al-Saksakieh including a child. Total 19+ killed on Day 23 of ceasefire. Drone strikes near Beirut mark further escalation.",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-05-09",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New day's casualty toll; drone strikes near Beirut escalation not previously reported",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-044", "type": "Location", "name": "Lebanon" },
+    { "temp_id": "temp-009", "type": "Location", "name": "al-Saksakieh" },
+    { "temp_id": "temp-010", "type": "Location", "name": "Nabatieh" },
+    { "temp_id": "temp-011", "type": "Event", "name": "Lebanon Day 23 Airstrikes" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-011" },
+    { "subject": "temp-011", "predicate": "locatedIn", "object": "ent-044" }
+  ]
+}
