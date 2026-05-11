@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-10",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran formal response to US MoU via Pakistan",
+      "properties": {"date": "2026-05-10", "location": "Islamabad (Pakistan mediation channel)", "participants": ["Iran", "Pakistan", "US"]},
+      "source_ids": ["src-993", "src-994", "src-1004", "src-1006", "src-1007", "src-1011"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump rejects Iran response ('TOTALLY UNACCEPTABLE')",
+      "properties": {"date": "2026-05-10", "platform": "Truth Social"},
+      "source_ids": ["src-994", "src-1008", "src-1009", "src-1010", "src-1019"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Al Kharaitiyat",
+      "properties": {"type": "LNG carrier", "flag": "Qatar", "operator": "Nakilat"},
+      "source_ids": ["src-995", "src-1000", "src-1012", "src-1013", "src-1014"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "First Qatar LNG Hormuz transit since war",
+      "properties": {"date": "2026-05-10", "vessel": "Al Kharaitiyat", "origin": "Ras Laffan", "destination": "Port Qasim, Pakistan"},
+      "source_ids": ["src-995", "src-1000", "src-1012", "src-1013", "src-1014", "src-1021"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Qatar",
+      "properties": {"type": "state", "role": "LNG exporter, mediator"},
+      "source_ids": ["src-995", "src-1000", "src-1012", "src-1013", "src-1014"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Ras Laffan",
+      "properties": {"type": "LNG export terminal", "country": "Qatar"},
+      "source_ids": ["src-995"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Port Qasim",
+      "properties": {"type": "port", "country": "Pakistan"},
+      "source_ids": ["src-995", "src-1000"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran nuclear counter-offer (uranium dilution + third country transfer)",
+      "properties": {"date": "2026-05-10", "details": "partial transfer to third country, halt enrichment shorter than 20 years, return clause if US withdraws"},
+      "source_ids": ["src-996", "src-1015"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Uranium return clause",
+      "properties": {"domain": "nuclear diplomacy", "description": "Iran demands return of transferred uranium if US withdraws from agreement"},
+      "source_ids": ["src-996"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "30-day nuclear negotiation framework",
+      "properties": {"domain": "diplomacy", "description": "Iran proposes 30-day window for nuclear-specific negotiations separate from ceasefire"},
+      "source_ids": ["src-996", "src-993"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Day 24 strikes (39+ killed)",
+      "properties": {"date": "2026-05-10", "death_toll": "39+", "sites_hit": "85+", "description": "Bloodiest day since ceasefire"},
+      "source_ids": ["src-997", "src-1016", "src-1017"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Biyyada",
+      "properties": {"type": "town", "country": "Lebanon", "region": "southern"},
+      "source_ids": ["src-998"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Rachaf",
+      "properties": {"type": "town", "country": "Lebanon", "region": "southern"},
+      "source_ids": ["src-998"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Misgav Am",
+      "properties": {"type": "border town", "country": "Israel", "region": "northern"},
+      "source_ids": ["src-998"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump-Xi Beijing Summit",
+      "properties": {"date": "2026-05-14", "location": "Beijing", "agenda": "Iran war, Chinese oil purchases, arms supplies, Hormuz"},
+      "source_ids": ["src-999", "src-1022"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "follows", "object": "ent-066", "source_ids": ["src-993"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "opposes", "object": "temp-001", "source_ids": ["src-994"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "follows", "object": "temp-001", "source_ids": ["src-994"], "confidence": 0.98},
+    {"subject": "temp-005", "predicate": "cooperatesWith", "object": "ent-093", "source_ids": ["src-995"], "confidence": 0.9},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "ent-005", "source_ids": ["src-995"], "confidence": 0.98},
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "ent-066", "source_ids": ["src-996"], "confidence": 0.9},
+    {"subject": "ent-017", "predicate": "opposes", "object": "ent-078", "source_ids": ["src-997", "src-998"], "confidence": 0.98},
+    {"subject": "temp-011", "predicate": "locatedIn", "object": "ent-079", "source_ids": ["src-997"], "confidence": 0.98},
+    {"subject": "ent-078", "predicate": "opposes", "object": "ent-017", "source_ids": ["src-998"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-015", "source_ids": ["src-999"], "confidence": 0.95},
+    {"subject": "ent-283", "predicate": "participatesIn", "object": "temp-015", "source_ids": ["src-999"], "confidence": 0.95},
+    {"subject": "ent-282", "predicate": "cooperatesWith", "object": "ent-012", "source_ids": ["src-999"], "confidence": 0.75}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 15,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

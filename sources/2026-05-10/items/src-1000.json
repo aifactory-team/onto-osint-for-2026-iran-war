@@ -1,0 +1,22 @@
+{
+  "id": "src-1000",
+  "title": "카타르 LNG선, 호르무즈 해협 통과 추진…이란전 이후 첫 사례 주목",
+  "url": "https://www.newspim.com/news/view/20260510000058",
+  "snippet": "카타르 LNG선 Al Kharaitiyat이 호르무즈 해협을 통과했다. 이란-미국/이스라엘 전쟁(2월 28일) 이후 첫 카타르 LNG선 통과 사례. 파키스탄 포트카심 목적지. 이란이 파키스탄과의 정부간 합의 하에 통과를 승인한 것으로 알려짐. 4월 6일 두 척의 카타르 LNG선이 이란 허가를 받지 못해 통과를 포기한 바 있음.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "src-995의 한국어 보도. 독립 소스로서 한국 시장 영향 분석 포함.",
+  "entities": [
+    {"id": "temp-003", "type": "Organization", "name": "Al Kharaitiyat"},
+    {"id": "ent-005", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-005", "type": "Organization", "name": "Qatar"},
+    {"id": "ent-093", "type": "Organization", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "locatedIn", "object": "ent-005"}
+  ]
+}

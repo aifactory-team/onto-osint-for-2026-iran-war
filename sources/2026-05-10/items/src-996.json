@@ -1,0 +1,22 @@
+{
+  "id": "src-996",
+  "title": "Iran makes new nuclear offer: partial uranium transfer to third country, rejects dismantling facilities — WSJ/Bloomberg",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-10/iran-submitted-response-to-us-peace-plan-proposal-irna-reports",
+  "snippet": "Iran offered to transfer some of its stockpile of highly enriched uranium to a third country, but rejected dismantling its nuclear facilities (WSJ/Bloomberg). Specifically: (1) dilute enriched uranium stockpile, (2) transfer portion to third country (not US), (3) halt enrichment for shorter period than 20 years demanded by US, (4) demand return clause if US withdraws. Iran proposed 30-day nuclear negotiation framework. This marks a shift from previous position of refusing any uranium transfer.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란 핵 역제안 구체 내용(우라늄 제3국 이전·희석·반환조항)은 5/10 최초 공개. 이전 5/6 src-863의 MoU 14개항과는 별도의 이란측 역제안.",
+  "entities": [
+    {"id": "temp-008", "type": "Event", "name": "Iran nuclear counter-offer (uranium dilution + third country)", "date": "2026-05-10"},
+    {"id": "temp-009", "type": "Concept", "name": "Uranium return clause", "domain": "nuclear"},
+    {"id": "temp-010", "type": "Concept", "name": "30-day nuclear negotiation framework", "domain": "diplomacy"}
+  ],
+  "relations": [
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "ent-066"},
+    {"subject": "temp-008", "predicate": "mentions", "object": "temp-009"}
+  ]
+}

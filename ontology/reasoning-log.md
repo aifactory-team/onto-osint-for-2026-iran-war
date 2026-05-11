@@ -1366,3 +1366,46 @@
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
 - IRGC 하위 조직(Naval Command, Aerospace Force)은 Organization 클래스로 충분
 - 'Hormuz as Atomic Bomb Doctrine'은 Concept 클래스로 표현
+
+---
+
+## 2026-05-10 추론 결과
+
+### 추론 #1: event_chain (이란 응답→MoU 인과 체인)
+- **입력:** (ent-289/14-Point MoU, relatedTo, ent-002/Iran), (ent-333/Iran formal response, follows, ent-289)
+- **추론:** (ent-333/Iran formal response, causedBy, ent-289/14-Point MoU)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 미국의 14개항 MoU 제안이 이란 역제안을 유발. 5/6 Axios 공개 → 5/10 공식 응답으로 약 4일 소요.
+
+### 추론 #2: event_chain (레바논 에스컬레이션 체인)
+- **입력:** (ent-326/Day 23 strikes 19+ killed, locatedIn, ent-079/Lebanon), (ent-339/Day 24 strikes 39+ killed, locatedIn, ent-079)
+- **추론:** (ent-339/Day 24 strikes, follows, ent-326/Day 23 strikes)
+- **신뢰도:** 0.9
+- **상태:** 확정
+- **비고:** Day 23(19명)→Day 24(39명)으로 사상자 2배 증가. 5/14-15 워싱턴 3차 회담 전 이스라엘 '최대 압박' 전략의 패턴 확인.
+
+### 추론 #3: co_participation (카타르-이란 간접 연결)
+- **입력:** (ent-336/Qatar, cooperatesWith, ent-093/Pakistan), (ent-002/Iran, cooperatesWith, ent-336/Qatar — LNG 통과 승인)
+- **추론:** (ent-336/Qatar, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 파키스탄 중개를 통한 이란-카타르 협력 구조. 이란이 카타르 LNG 통과를 '선택적으로' 승인한 것은 정치적 도구로서의 해협 통제를 입증.
+
+### 추론 #4: co_participation (트럼프-시진핑 레버리지 역학)
+- **입력:** (ent-001/Trump, participatesIn, ent-338/Beijing Summit), (ent-283/Xi Jinping, participatesIn, ent-338)
+- **추론:** (ent-001/Trump, potentialRelation, ent-283/Xi Jinping)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 미해결 이란 전쟁이 시진핑에게 협상 레버리지를 제공. 중국이 이란 최대 원유 구매국 → 이란에 대한 압박 카드.
+
+### 추론 #5: transitivity (중국-IRGC 간접 자금 연결)
+- **입력:** (ent-282/China, cooperatesWith, ent-002/Iran — oil purchases), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-282/China, potentialRelation, ent-005/IRGC)
+- **신뢰도:** 0.70
+- **상태:** 잠정
+- **비고:** 중국의 이란 원유 구매가 이란 정부 예산을 통해 IRGC 자금원에 간접 기여할 수 있으나, 직접적 증거는 부족. 3단계 전이이므로 신뢰도 감쇠 적용.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- Al Kharaitiyat은 Organization(vessel) 클래스로, Qatar는 Organization(state)으로, 핵 역제안은 Event로 충분히 표현됨

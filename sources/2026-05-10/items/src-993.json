@@ -1,0 +1,28 @@
+{
+  "id": "src-993",
+  "title": "Iran delivers formal multi-page response to US peace proposal via Pakistan — demands sanctions lift, Hormuz reopening, separate nuclear talks",
+  "url": "https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan",
+  "snippet": "Iran sent a multi-page counterproposal to end the war via mediator Pakistan. The response focuses on ending war throughout the region especially Lebanon, resolving differences with Washington, including negotiations on Strait of Hormuz, nuclear programme, and lifting of sanctions. First stage focuses on ending hostilities and ensuring 'maritime security' in Gulf and Strait. Iran demands OFAC sanctions lift within 30 days, end to naval blockade, and gradual Hormuz reopening. Nuclear enrichment programme declared 'non-negotiable red line.' An official Iranian source called it 'realistic and positive.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 공식 응답서 파키스탄 경유 전달은 5/10 신규 사건으로 이전 N일 소스에 동일 항목 없음. 5/7 src-898은 '목요일 응답 예정'이었으나 실제 전달 및 내용 공개는 금일 최초.",
+  "entities": [
+    {"id": "ent-093", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "temp-001", "type": "Event", "name": "Iran formal response to US MoU via Pakistan", "date": "2026-05-10"},
+    {"id": "ent-050", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM"},
+    {"id": "ent-066", "type": "Concept", "name": "14-Point MoU", "domain": "diplomacy"},
+    {"id": "ent-005", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-012", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-014", "type": "Organization", "name": "US Government"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-066"},
+    {"subject": "ent-093", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "temp-001", "predicate": "follows", "object": "ent-066"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "src-995",
+  "title": "Qatar Al Kharaitiyat LNG tanker transits Hormuz — first LNG shipment since war began, Iran-approved under Pakistan deal",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-10/qatar-sends-first-lng-shipment-through-hormuz-since-war-started",
+  "snippet": "Qatar's Al Kharaitiyat LNG carrier successfully transited the Strait of Hormuz, marking the country's first LNG export since the war began February 28. The vessel loaded at Ras Laffan and is bound for Pakistan's Port Qasim. Iran approved the transit under a government-to-government deal with Islamabad — reflecting Pakistan's dual role as mediator and energy-dependent partner. Two earlier Qatari LNG tankers had aborted an April 6 crossing after failing to obtain Iranian clearance. IEA warns the closure's duration will shape 2026 gas demand, with March LNG output down 8% year on year.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "카타르 LNG선 호르무즈 최초 통과는 5/10 신규 사건. 4/6 실패 시도와는 본질적으로 다른 결과(성공).",
+  "entities": [
+    {"id": "temp-003", "type": "Organization", "name": "Al Kharaitiyat", "role": "Qatar LNG carrier"},
+    {"id": "temp-004", "type": "Event", "name": "First Qatar LNG Hormuz transit since war", "date": "2026-05-10"},
+    {"id": "ent-005", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-093", "type": "Organization", "name": "Pakistan"},
+    {"id": "temp-005", "type": "Organization", "name": "Qatar"},
+    {"id": "temp-006", "type": "Location", "name": "Ras Laffan"},
+    {"id": "temp-007", "type": "Location", "name": "Port Qasim"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "locatedIn", "object": "ent-005"},
+    {"subject": "temp-005", "predicate": "cooperatesWith", "object": "ent-093"},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "ent-005"}
+  ]
+}

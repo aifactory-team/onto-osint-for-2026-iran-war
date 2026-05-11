@@ -1,0 +1,26 @@
+{
+  "id": "src-997",
+  "title": "Lebanon Day 24: Israeli strikes kill 39+ — bloodiest day since ceasefire, 85+ sites hit in 24 hours",
+  "url": "https://www.thenationalnews.com/news/mena/2026/05/10/israeli-air-strikes-kill-39-in-lebanon-despite-ceasefire/",
+  "snippet": "Israeli air strikes killed at least 39 people across Lebanon on Saturday (Day 24 of ceasefire), the bloodiest day since Trump announced ceasefire on April 16. IDF said it struck 85+ Hezbollah infrastructure sites in 24 hours. Locations hit: Saksakiyeh (Sidon district, 7 dead including child), Nabatieh, multiple southern towns. Some sources report 40 civilians killed and dozens injured. Representatives of both countries due to hold third round of Washington talks May 14-15.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Day 24 사상 최다 사상자(39명+)는 5/10 신규. Day 23(5/9, 19명)과 구별되는 별도 사건.",
+  "entities": [
+    {"id": "temp-011", "type": "Event", "name": "Lebanon Day 24 strikes (39+ killed)", "date": "2026-05-10"},
+    {"id": "ent-017", "type": "Organization", "name": "Israel"},
+    {"id": "ent-078", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-333", "type": "Location", "name": "Saksakiyeh"},
+    {"id": "ent-334", "type": "Location", "name": "Nabatieh"}
+  ],
+  "relations": [
+    {"subject": "ent-017", "predicate": "opposes", "object": "ent-078"},
+    {"subject": "temp-011", "predicate": "locatedIn", "object": "ent-079"},
+    {"subject": "temp-011", "predicate": "follows", "object": "ent-326"}
+  ]
+}

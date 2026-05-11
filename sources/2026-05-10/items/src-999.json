@@ -1,0 +1,24 @@
+{
+  "id": "src-999",
+  "title": "Trump to discuss Iran with Xi Jinping during May 14-15 Beijing visit — officials confirm Iran dominates summit agenda",
+  "url": "https://www.aljazeera.com/news/2026/5/10/trump-to-discuss-iran-with-xi-jinping-during-china-visit-officials",
+  "snippet": "Officials confirmed Trump will raise Iran issue with Xi Jinping at May 14-15 Beijing summit. Focus on Chinese purchases of Iranian oil (China is Iran's largest buyer) and possible Chinese arms supplies to Iran. US wants Beijing to pressure Iran on Hormuz reopening and ending threats to Gulf infrastructure. Unfinished Iran war gives Xi leverage in talks. Summit originally planned for March but delayed by war.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/10 '관리들이 확인'한 신규 정보 — 이란이 정상회담 의제를 지배할 것이라는 구체적 확인. 5/9 src-971(CNBC 분석)의 후속이지만 공식 확인 + 구체 의제(원유 구매, 무기 공급, 호르무즈 압박)가 새로움.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping"},
+    {"id": "temp-015", "type": "Event", "name": "Trump-Xi Beijing Summit", "date": "2026-05-14"},
+    {"id": "ent-282", "type": "Organization", "name": "China"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-015"},
+    {"subject": "ent-283", "predicate": "participatesIn", "object": "temp-015"},
+    {"subject": "ent-282", "predicate": "cooperatesWith", "object": "ent-012"}
+  ]
+}

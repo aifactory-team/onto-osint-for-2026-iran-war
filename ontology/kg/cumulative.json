@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-10",
   "nodes": [
     {
       "id": "ent-001",
@@ -1529,6 +1529,66 @@
       "id": "ent-332",
       "type": "Concept",
       "label": "M/T Ocean Koi"
+    },
+    {
+      "id": "ent-333",
+      "type": "Event",
+      "label": "Iran formal response to US MoU via Pakistan"
+    },
+    {
+      "id": "ent-334",
+      "type": "Event",
+      "label": "Trump rejects Iran response"
+    },
+    {
+      "id": "ent-335",
+      "type": "Organization",
+      "label": "Al Kharaitiyat"
+    },
+    {
+      "id": "ent-336",
+      "type": "Organization",
+      "label": "Qatar"
+    },
+    {
+      "id": "ent-337",
+      "type": "Event",
+      "label": "Iran nuclear counter-offer"
+    },
+    {
+      "id": "ent-338",
+      "type": "Event",
+      "label": "Trump-Xi Beijing Summit"
+    },
+    {
+      "id": "ent-339",
+      "type": "Event",
+      "label": "Lebanon Day 24 strikes (39+ killed)"
+    },
+    {
+      "id": "ent-340",
+      "type": "Location",
+      "label": "Ras Laffan"
+    },
+    {
+      "id": "ent-341",
+      "type": "Location",
+      "label": "Port Qasim"
+    },
+    {
+      "id": "ent-342",
+      "type": "Location",
+      "label": "Biyyada"
+    },
+    {
+      "id": "ent-343",
+      "type": "Location",
+      "label": "Misgav Am"
+    },
+    {
+      "id": "ent-344",
+      "type": "Concept",
+      "label": "Uranium return clause"
     }
   ],
   "edges": [
@@ -8011,6 +8071,141 @@
       "date": "2026-05-09",
       "confidence": 0.75,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-333",
+      "source_id": "src-993",
+      "date": "2026-05-10",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "opposes",
+      "object": "ent-333",
+      "source_id": "src-994",
+      "date": "2026-05-10",
+      "confidence": 0.98,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-335",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-995",
+      "date": "2026-05-10",
+      "confidence": 0.98,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "cooperatesWith",
+      "object": "ent-093",
+      "source_id": "src-995",
+      "date": "2026-05-10",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "cooperatesWith",
+      "object": "ent-336",
+      "source_id": "src-995",
+      "date": "2026-05-10",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "relatedTo",
+      "object": "ent-337",
+      "source_id": "src-996",
+      "date": "2026-05-10",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-078",
+      "source_id": "src-997",
+      "date": "2026-05-10",
+      "confidence": 0.98,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-078",
+      "predicate": "opposes",
+      "object": "ent-004",
+      "source_id": "src-998",
+      "date": "2026-05-10",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-338",
+      "source_id": "src-999",
+      "date": "2026-05-10",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-283",
+      "predicate": "participatesIn",
+      "object": "ent-338",
+      "source_id": "src-999",
+      "date": "2026-05-10",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-338",
+      "predicate": "relatedTo",
+      "object": "ent-002",
+      "source_id": "src-999",
+      "date": "2026-05-10",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-093",
+      "predicate": "participatesIn",
+      "object": "ent-333",
+      "source_id": "src-993",
+      "date": "2026-05-10",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-333",
+      "predicate": "follows",
+      "object": "ent-289",
+      "source_id": "src-993",
+      "date": "2026-05-10",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-339",
+      "predicate": "locatedIn",
+      "object": "ent-079",
+      "source_id": "src-997",
+      "date": "2026-05-10",
+      "confidence": 0.98,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-282",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "source_id": "src-999",
+      "date": "2026-05-10",
+      "confidence": 0.75,
+      "type": "explicit"
     }
   ],
   "stats": {

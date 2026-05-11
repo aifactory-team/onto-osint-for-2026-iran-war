@@ -3741,7 +3741,164 @@
       "first_seen": "2026-05-09",
       "last_seen": "2026-05-09",
       "mention_count": 4
+    },
+    {
+      "id": "ent-333",
+      "type": "Event",
+      "name": "Iran formal response to US MoU via Pakistan",
+      "properties": {
+        "date": "2026-05-10",
+        "description": "Iran delivers multi-page counterproposal to US peace plan via Pakistan mediators. Demands: OFAC sanctions lift within 30 days, end to naval blockade, gradual Hormuz reopening. Nuclear enrichment declared 'non-negotiable red line.' Proposes separate 30-day nuclear talks, partial uranium transfer to third country."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-334",
+      "type": "Event",
+      "name": "Trump rejects Iran response ('TOTALLY UNACCEPTABLE')",
+      "properties": {
+        "date": "2026-05-10",
+        "description": "Trump via Truth Social: 'I have just read the response from Iran's so-called Representatives. I don't like it — TOTALLY UNACCEPTABLE!' Accused Iran of 'playing games.'"
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-335",
+      "type": "Organization",
+      "name": "Al Kharaitiyat",
+      "properties": {
+        "type": "LNG carrier",
+        "flag": "Qatar",
+        "operator": "Nakilat (Qatar Gas Transport)",
+        "description": "First LNG vessel to transit Strait of Hormuz since war began Feb 28. Loaded at Ras Laffan, bound for Pakistan's Port Qasim. Iran approved under government-to-government deal with Islamabad."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-336",
+      "type": "Organization",
+      "name": "Qatar",
+      "properties": {
+        "type": "state",
+        "location": "Persian Gulf",
+        "role": "LNG exporter, war mediator",
+        "description": "World's largest LNG exporter. Dual role as mediator and energy supplier. Two earlier LNG tankers aborted April 6 crossing. First successful transit May 10."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-337",
+      "type": "Event",
+      "name": "Iran nuclear counter-offer (uranium dilution + third country transfer)",
+      "properties": {
+        "date": "2026-05-10",
+        "description": "WSJ/Bloomberg: Iran offers to dilute enriched uranium and transfer portion to third country (not US). Halts enrichment for shorter period than 20 years. Rejects dismantling facilities. Demands return clause if US withdraws. Marks shift from previous 'non-negotiable' stance."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-338",
+      "type": "Event",
+      "name": "Trump-Xi Beijing Summit (May 14-15)",
+      "properties": {
+        "date": "2026-05-14",
+        "location": "Beijing",
+        "description": "Officials confirm Iran dominates agenda. Focus: Chinese purchases of Iranian oil, possible arms supplies, Hormuz reopening. Originally planned for March, delayed by war. Unfinished Iran war gives Xi leverage."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-339",
+      "type": "Event",
+      "name": "Lebanon Day 24 strikes (39+ killed)",
+      "properties": {
+        "date": "2026-05-10",
+        "death_toll": "39+",
+        "sites_hit": "85+",
+        "description": "Bloodiest day since ceasefire (April 16). IDF struck 85+ Hezbollah sites in 24 hours. Saksakiyeh (7 dead including child), Nabatieh, multiple southern towns. 3rd Washington talks due May 14-15."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-340",
+      "type": "Location",
+      "name": "Ras Laffan",
+      "properties": {
+        "type": "LNG export terminal",
+        "country": "Qatar",
+        "description": "Qatar's main LNG production and export hub."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-341",
+      "type": "Location",
+      "name": "Port Qasim",
+      "properties": {
+        "type": "port",
+        "country": "Pakistan",
+        "description": "Pakistan's deep-water port, destination of Al Kharaitiyat LNG shipment."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-342",
+      "type": "Location",
+      "name": "Biyyada",
+      "properties": {
+        "type": "town",
+        "country": "Lebanon",
+        "region": "southern",
+        "description": "Hezbollah artillery attack target on Israeli positions, May 10."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-343",
+      "type": "Location",
+      "name": "Misgav Am",
+      "properties": {
+        "type": "border town",
+        "country": "Israel",
+        "region": "northern",
+        "description": "Hezbollah drone attack target on Israel border, May 10."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-344",
+      "type": "Concept",
+      "name": "Uranium return clause",
+      "properties": {
+        "domain": "nuclear diplomacy",
+        "description": "Iran demands return of transferred uranium if US withdraws from agreement — novel condition reflecting JCPOA trauma."
+      },
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mention_count": 2
     }
   ],
-  "total_count": 273
+  "total_count": 285
 }
