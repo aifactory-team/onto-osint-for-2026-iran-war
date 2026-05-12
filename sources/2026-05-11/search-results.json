@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-11",
+  "collected_at": "2026-05-12T00:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 48,
+  "expanded_keywords": ["Iran war", "Trump ceasefire", "Hormuz blockade", "Lebanon strikes", "Trump Xi summit", "IRGC", "Pezeshkian", "oil prices Brent", "이란 전쟁", "호르무즈", "종전 협상", "유가"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war live: Trump says ceasefire with Tehran 'on massive life support'", "url": "https://www.aljazeera.com/news/liveblog/2026/5/11/iran-war-live-trump-slams-tehrans-reply-israel-kills-2-medics-in-lebanon", "snippet": "Trump says ceasefire on 'life support', slams Iran response. Pezeshkian vows never to bow.", "source_name": "Al Jazeera"},
+        {"title": "Iran says it will 'never bow' as Trump rejects peace counteroffer", "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html", "snippet": "Iranian President Pezeshkian: 'We will never bow our heads before the enemy'", "source_name": "CNBC"},
+        {"title": "Trump says Iran ceasefire is on 'life support,' calls latest proposal 'garbage'", "url": "https://www.washingtonpost.com/politics/2026/05/10/iran-response-us-proposal-war/", "snippet": "Trump escalates rhetoric, calls ceasefire 'on massive life support' and Iran proposal 'garbage'", "source_name": "Washington Post"},
+        {"title": "'Unacceptable': What's Iran's peace proposal that Trump has rejected?", "url": "https://www.aljazeera.com/news/2026/5/11/unacceptable-whats-irans-peace-proposal-that-trump-has-rejected", "snippet": "Analysis of Iran's counterproposal key demands vs US 14-point plan", "source_name": "Al Jazeera"},
+        {"title": "Live updates: Trump says ceasefire with Iran on 'massive life support'", "url": "https://www.cnn.com/2026/05/11/world/live-news/iran-war-proposal-trump", "snippet": "Day 73 live updates. Trump tells reporters ceasefire is 'unbelievably weak'", "source_name": "CNN"},
+        {"title": "Where Are The Carriers As Of May 11, 2026: 20 Warships Enforce Iran Blockade", "url": "https://www.twz.com/sea/where-are-the-carriers-as-of-may-11-2026-20-warships-including-two-carriers-enforce-iran-blockade", "snippet": "20 warships incl. 2 carriers (Bush, Lincoln) enforce blockade. CENTCOM redirected 61 vessels.", "source_name": "The War Zone"},
+        {"title": "Iran war day 73: Trump and Tehran clash over latest peace proposals", "url": "https://www.aljazeera.com/economy/2026/5/11/iran-war-day-73-trump-and-tehran-clash-over-latest-peace-proposals", "snippet": "Day 73 analysis: dueling proposals, oil prices, summit preview", "source_name": "Al Jazeera"},
+        {"title": "Trump says ceasefire on 'life support', slams Iran response to US proposal", "url": "https://www.aljazeera.com/news/2026/5/11/trump-says-ceasefire-on-life-support-slams-iran-response-to-us-proposal", "snippet": "Trump 'on massive life support' statement and details", "source_name": "Al Jazeera"},
+        {"title": "Iran war live updates: U.S., Iran hit snag over dueling peace proposals", "url": "https://www.ms.now/liveblog/iran-war-news-today-may-11-2026", "snippet": "Live updates on dueling proposals and reactions", "source_name": "MSNBC"},
+        {"title": "Trump says Iran ceasefire is 'on life support' after rejecting Tehran's counterproposal", "url": "https://www.cnbc.com/2026/05/11/trump-iran-war-ceasefire-life-support.html", "snippet": "Ceasefire 'on life support', raises stakes for Beijing trip", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran US negotiations Hormuz blockade May 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:02:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict", "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html", "snippet": "Iran vows never to bow, Trump rejects counteroffer", "source_name": "CNBC"},
+        {"title": "Iran warns Europe not to send ships to Hormuz as US talks gap widens", "url": "https://www.euronews.com/2026/05/11/iran-warns-europe-against-sending-warships-to-hormuz-as-us-talks-gap-widens", "snippet": "Baghaei warns European nations against Hormuz warship deployments", "source_name": "Euronews"},
+        {"title": "Live updates: Trump says ceasefire with Iran on 'massive life support'", "url": "https://www.cnn.com/2026/05/11/world/live-news/iran-war-proposal-trump", "snippet": "CNN Day 73 live updates", "source_name": "CNN"},
+        {"title": "Iran Issues Warning to France, UK Over Warship Deployments Near Hormuz", "url": "https://www.newsweek.com/iran-warning-france-uk-warship-deployments-strait-hormuz-11934707", "snippet": "Iran specifically warns France and UK over warship plans near Hormuz", "source_name": "Newsweek"},
+        {"title": "Trump rejects Iran peace proposal as Tehran vows to confront 'enemies'", "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html", "snippet": "Negotiations at impasse, Tehran defiant", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon Israel Hezbollah strikes May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:03:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Medics among 51 killed in Israeli attacks on Lebanon", "url": "https://www.aljazeera.com/news/2026/5/10/medics-among-51-killed-in-israeli-attacks-on-lebanon-in-past-24-hours", "snippet": "51 killed in 24 hours including 2 medics. 552 killed since ceasefire.", "source_name": "Al Jazeera"},
+        {"title": "Israel targets 30 locations in Lebanon with strikes - NNA", "url": "https://www.rte.ie/news/middle-east/2026/0511/1572868-lebanon-israel/", "snippet": "Israel strikes 30+ locations, evacuation warnings for 7 south Lebanon towns + 2 Bekaa", "source_name": "RTE"},
+        {"title": "Lebanon urges US to put pressure on Israel to stop attacks and demolitions", "url": "https://www.detroitnews.com/story/news/world/2026/05/11/lebanon-urges-us-pressure-israel-stop-attacks-demolitions/90029391007/", "snippet": "Aoun/Salam meet US ambassador Issa, asks to pressure Israel", "source_name": "Detroit News"},
+        {"title": "Israeli Strikes on Lebanon Kill Dozens, Including Infant and Medics", "url": "https://www.democracynow.org/2026/5/11/headlines/israeli_strikes_on_lebanon_kill_dozens_including_infant_and_medics_despite_ceasefire_deal", "snippet": "Dozens killed including infant and medics despite ceasefire", "source_name": "Democracy Now!"},
+        {"title": "Israeli killings in Lebanon rise: Is even the pretence of a ceasefire over?", "url": "https://www.aljazeera.com/news/2026/5/11/israeli-killings-in-lebanon-rise-is-even-the-pretence-of-a-ceasefire-over", "snippet": "Analysis: ceasefire pretence questioned as killings escalate", "source_name": "Al Jazeera"},
+        {"title": "Israel, Hezbollah clash in south Lebanon as strikes kill several", "url": "https://www.newarab.com/news/israel-hezbollah-clash-south-lebanon-strikes-kill-several", "snippet": "Hezbollah claims 20+ attacks on Israeli targets in south Lebanon", "source_name": "The New Arab"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Xi Beijing summit Iran May 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:04:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "From Singapore to Brussels, world leaders eye Trump-Xi summit from afar", "url": "https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html", "snippet": "Singapore, Brussels, Tokyo, Seoul watch summit for signals on Iran, trade, Taiwan", "source_name": "CNBC"},
+        {"title": "China Confirms Xi-Trump Summit After Delay Linked to Iran War", "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-confirms-x-trump-summit-that-was-delayed-by-iran-war", "snippet": "China confirms summit, originally scheduled for March, delayed by war", "source_name": "Bloomberg"},
+        {"title": "Xi, confident in China's power, is ready to host an unpredictable Trump", "url": "https://www.washingtonpost.com/world/2026/05/11/trump-xi-china-beijing-visit/", "snippet": "Xi confident, prepared to host Trump. Iran unresolved = leverage for China", "source_name": "Washington Post"},
+        {"title": "At the Trump-Xi Summit, China Will Have the Upper Hand", "url": "https://www.cfr.org/articles/at-the-trump-xi-summit-china-will-have-the-upper-hand", "snippet": "CFR analysis: China has upper hand due to unresolved Iran war", "source_name": "CFR"},
+        {"title": "The Trump-Xi summit: can progress be made on Iran?", "url": "https://www.chathamhouse.org/2026/05/trump-xi-summit-can-progress-be-made-iran", "snippet": "Chatham House analysis on Iran summit prospects", "source_name": "Chatham House"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Hormuz ships May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:05:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran warns Europe not to send ships to Hormuz as US talks gap widens", "url": "https://www.euronews.com/2026/05/11/iran-warns-europe-against-sending-warships-to-hormuz-as-us-talks-gap-widens", "snippet": "Baghaei warns European nations", "source_name": "Euronews"},
+        {"title": "Iran Issues Warning to France, UK Over Warship Deployments Near Hormuz", "url": "https://www.newsweek.com/iran-warning-france-uk-warship-deployments-strait-hormuz-11934707", "snippet": "UK and France considering increased naval activity", "source_name": "Newsweek"},
+        {"title": "Iran warns European countries against sending warships to Strait of Hormuz", "url": "https://www.africanews.com/2026/05/11/iran-warns-european-countries-against-sending-warships-to-strait-of-hormuz/", "snippet": "Iran warns decisive response to European naval deployment", "source_name": "Africanews"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Iran war May 11 2026 Brent crude",
+      "language": "en",
+      "timestamp": "2026-05-12T00:06:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Oil price today: Brent, WTI rise on Iran war worries", "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html", "snippet": "Brent $104.21 (+2.88%), WTI $98.07 (+2.78%)", "source_name": "CNBC"},
+        {"title": "Oil prices rise as the Iran war drags on, but U.S. stocks inch toward more records", "url": "https://www.washingtontimes.com/news/2026/may/11/oil-prices-rising-iran-war-drags-us-stocks-inch-toward-records/", "snippet": "Brent +2.9% to $104.18, S&P inches toward records", "source_name": "Washington Times"},
+        {"title": "Oil prices rise as the Iran war drags on, but US stocks inch to more records", "url": "https://www.bnnbloomberg.ca/business/international/2026/05/11/oil-prices-rise-as-the-iran-war-drags-on-but-us-stocks-inch-toward-more-records/", "snippet": "Oil up, stocks up on divergent signals", "source_name": "BNN Bloomberg"},
+        {"title": "Iran war day 73: Trump and Tehran clash over latest peace proposals", "url": "https://www.aljazeera.com/economy/2026/5/11/iran-war-day-73-trump-and-tehran-clash-over-latest-peace-proposals", "snippet": "Day 73 economic analysis", "source_name": "Al Jazeera"},
+        {"title": "Oil prices rise as the Iran war drags on, but US stocks inch to more records", "url": "https://www.local10.com/news/2026/05/11/oil-prices-rise-as-the-iran-war-drags-on-but-us-stocks-inch-to-more-records/", "snippet": "Oil up, stocks records", "source_name": "Local10"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 5월 11일",
+      "language": "ko",
+      "timestamp": "2026-05-12T00:07:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "美-이란 종전 협상 사실상 파국…전쟁 재개-협상 지속 중대 갈림길", "url": "https://www.seoul.co.kr/news/international/2026/05/11/20260511500200", "snippet": "미이란 종전 협상 사실상 결렬, 전쟁 재개 vs 협상 지속 갈림길", "source_name": "서울신문"},
+        {"title": "[뉴스퀘어10] 트럼프 '이란 답변, 용납 불가'...종전협상 또 고비", "url": "https://www.ytn.co.kr/_ln/0104_202605111022241244", "snippet": "트럼프 이란 답변 거부, 종전 협상 고비", "source_name": "YTN"},
+        {"title": "트럼프 '이란 답변 도저히 용납 못해'...종전 협상 파국 우려", "url": "https://seoul.co.kr/news/international/2026/05/11/20260511500005", "snippet": "트럼프 이란 답변 거부, 파국 우려", "source_name": "서울신문"},
+        {"title": "주한 이란 대사가 말하는 미·이란 전쟁의 향방", "url": "https://weekly.khan.co.kr/article/202605110600021", "snippet": "트럼프는 호르무즈 해협의 늪에 빠졌다 — 주한 이란 대사 인터뷰", "source_name": "주간경향"},
+        {"title": "미·이란 종전 협상 또 교착… 트럼프 '전혀 수용 불가'", "url": "https://www.g-enews.com/article/Global-Biz/2026/05/2026051106203217702bd56fbc3c_1", "snippet": "종전 협상 교착, 트럼프 수용 불가", "source_name": "글로벌이코노믹"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran nuclear deal proposal counterproposal May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:08:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Trump rejects Iran peace proposal as Tehran vows to confront 'enemies'", "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html", "snippet": "Nuclear core dispute: US wants enrichment halt, Iran separates nuclear from ceasefire", "source_name": "CNBC"},
+        {"title": "'Unacceptable': What's Iran's peace proposal that Trump has rejected?", "url": "https://www.aljazeera.com/news/2026/5/11/unacceptable-whats-irans-peace-proposal-that-trump-has-rejected", "snippet": "Detailed breakdown: US 14-point vs Iran counterproposal demands", "source_name": "Al Jazeera"},
+        {"title": "Trump says ceasefire on 'life support' after rejecting counterproposal", "url": "https://www.cnbc.com/2026/05/11/trump-iran-war-ceasefire-life-support.html", "snippet": "Nuclear sequencing the core divide", "source_name": "CNBC"},
+        {"title": "Pezeshkian vows talks with US 'not surrender' but defense of national interests", "url": "https://www.presstv.ir/Detail/2026/05/10/768383/Pezeshkian-vows-talks-with-US-", "snippet": "Pezeshkian: negotiations are defense of national interests", "source_name": "Press TV"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Pezeshkian never bow Iran enemies May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:09:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Pezeshkian emphasizes that negotiations do not mean surrender", "url": "https://zamin.uz/en/world/200252-pezeshkian-emphasizes-that-negotiations-do-not-mean-surrender.html", "snippet": "Pezeshkian: 'We will never bow our heads before the enemy'", "source_name": "Zamin.uz"},
+        {"title": "Pezeshkian vows Iran will 'never bow before aggressors'", "url": "https://www.timesofisrael.com/pezeshkian-vows-iran-will-never-bow-before-aggressors-as-snapback-sanctions-loom/", "snippet": "Iran president defiant amid snapback sanctions threat", "source_name": "Times of Israel"},
+        {"title": "Iran Will Never Surrender! President Pezeshkian's Fiery Warning", "url": "https://www.youtube.com/watch?v=whcm-vOVY78", "snippet": "Video: Pezeshkian fiery warning to enemies", "source_name": "NewsX/YouTube"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon medics killed Israeli strikes Day 25 May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:10:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Medics among 51 killed in Israeli attacks on Lebanon", "url": "https://www.aljazeera.com/news/2026/5/10/medics-among-51-killed-in-israeli-attacks-on-lebanon-in-past-24-hours", "snippet": "51 killed in 24 hours including 2 medics. 552 since ceasefire. 103 medical workers killed total.", "source_name": "Al Jazeera"},
+        {"title": "Israeli strikes in Lebanon kill 51 people including medics, ministry says", "url": "https://www.thenews.com.pk/latest/1402132-israeli-strikes-in-lebanon-kill-51-people-including-medics-ministry-says", "snippet": "Lebanese Health Ministry: 51 killed in 24 hours including medics", "source_name": "The News (Pakistan)"},
+        {"title": "Witnesses detail deadly Israeli strikes on medics in Lebanon", "url": "https://www.pbs.org/newshour/world/witnesses-detail-deadly-israeli-strikes-on-medics-in-lebanon", "snippet": "PBS witnesses account of strikes on medical workers", "source_name": "PBS"},
+        {"title": "Israeli Strikes on Lebanon Kill Dozens, Including Infant and Medics, Despite Ceasefire Deal", "url": "https://www.democracynow.org/2026/5/11/headlines/israeli_strikes_on_lebanon_kill_dozens_including_infant_and_medics_despite_ceasefire_deal", "snippet": "Dozens killed including infant and medics", "source_name": "Democracy Now!"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran warns Europe warships Hormuz Baghaei May 11 2026",
+      "language": "en",
+      "timestamp": "2026-05-12T00:11:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran warns Europe against sending warships to Hormuz as US talks gap widens", "url": "https://www.euronews.com/2026/05/11/iran-warns-europe-against-sending-warships-to-hormuz-as-us-talks-gap-widens", "snippet": "Baghaei: refrain from making any move that would undermine their interests", "source_name": "Euronews"},
+        {"title": "Iran Issues Warning to France, UK Over Warship Deployments Near Hormuz", "url": "https://www.newsweek.com/iran-warning-france-uk-warship-deployments-strait-hormuz-11934707", "snippet": "Iran warns France, UK specifically over warship plans", "source_name": "Newsweek"},
+        {"title": "Iran warns European countries against sending warships to Strait of Hormuz", "url": "https://www.africanews.com/2026/05/11/iran-warns-european-countries-against-sending-warships-to-strait-of-hormuz/", "snippet": "Iran warns decisive response to any European naval deployment", "source_name": "Africanews"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "미이란 전쟁 종전 협상 파국 2026년 5월 11일 유가",
+      "language": "ko",
+      "timestamp": "2026-05-12T00:12:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "美-이란 종전 협상 사실상 파국…전쟁 재개-협상 지속 중대 갈림길", "url": "https://www.seoul.co.kr/news/international/2026/05/11/20260511500200", "snippet": "종전 협상 파국, 3가지 시나리오", "source_name": "서울신문"},
+        {"title": "[금/유가] '임종 직전' 美-이란 휴전에 유가 급등…금값 소폭 상승", "url": "https://www.newspim.com/news/view/20260512000024", "snippet": "브렌트 $104.21(+2.88%), WTI $98.07(+2.78%)", "source_name": "뉴스핌"},
+        {"title": "이란 '트럼프 종전안'에 답변 전달했다", "url": "https://www.seoul.co.kr/news/international/2026/05/11/20260511012006", "snippet": "이란 역제안 전달 확인", "source_name": "서울신문"},
+        {"title": "[뉴스퀘어10] 트럼프 '이란 답변, 용납 불가'...종전협상 또 고비", "url": "https://www.ytn.co.kr/_ln/0104_202605111022241244", "snippet": "종전 협상 고비", "source_name": "YTN"},
+        {"title": "주한 이란 대사가 말하는 미·이란 전쟁의 향방", "url": "https://weekly.khan.co.kr/article/202605110600021", "snippet": "주한 이란 대사 인터뷰 — 호르무즈 늪", "source_name": "주간경향"}
+      ]
+    }
+  ]
+}

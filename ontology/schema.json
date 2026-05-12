@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-11",
   "classes": [
     {
       "id": "Entity",
@@ -651,6 +651,13 @@
       "target": "12 new entities (ent-333~ent-344)",
       "reason": "이란 공식 역제안 파키스탄 경유 전달(다페이지 응답서·OFAC 제재 해제 30일·봉쇄 종료·핵 분리 협상 요구), 트럼프 즉각 거부('TOTALLY UNACCEPTABLE'), 카타르 Al Kharaitiyat LNG선 호르무즈 최초 통과(전쟁 후 첫 LNG·이란-파키스탄 정부간 합의), 이란 핵 역제안(우라늄 희석+제3국 이전·반환조항·시설 해체 거부), 레바논 Day 24 최대 사상자(39명+·85개소 타격), 헤즈볼라 비야다/라차프/미스가브암 공격, 트럼프-시진핑 베이징 정상회담(5/14-15) 이란 의제 확인",
       "source_ids": ["src-993", "src-994", "src-995", "src-996", "src-997", "src-998", "src-999", "src-1000"]
+    },
+    {
+      "date": "2026-05-11",
+      "action": "add_instances",
+      "target": "8 new entities (ent-345~ent-352)",
+      "reason": "금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능. 스키마 변경 없음.",
+      "source_ids": ["src-1023", "src-1024", "src-1025", "src-1026", "src-1029", "src-1030"]
     }
   ]
 }

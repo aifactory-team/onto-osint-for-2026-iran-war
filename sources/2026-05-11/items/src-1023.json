@@ -1,0 +1,24 @@
+{
+  "id": "src-1023",
+  "title": "Trump says ceasefire on 'massive life support', calls Iran proposal 'garbage' — escalates rhetoric day after rejection",
+  "url": "https://www.aljazeera.com/news/2026/5/11/trump-says-ceasefire-on-life-support-slams-iran-response-to-us-proposal",
+  "snippet": "US President Donald Trump told reporters Sunday that the Iran ceasefire is 'on massive life support' and 'unbelievably weak,' escalating from his previous day's 'TOTALLY UNACCEPTABLE' Truth Social post. He called Iran's counterproposal 'garbage' and questioned whether Tehran was serious about negotiations. The rejection raises the stakes for Trump's trip to China this week.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New escalation rhetoric from Trump on May 11, distinct from May 10 'TOTALLY UNACCEPTABLE' statement — different quotes, different setting (reporters vs Truth Social), different framing (life support/garbage vs unacceptable)",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-338", "type": "Event", "name": "Trump-Xi Beijing Summit", "role": "upcoming summit"},
+    {"id": "ent-333", "type": "Event", "name": "Iran formal response", "role": "rejected proposal"},
+    {"id": "temp-1001", "type": "Event", "name": "Ceasefire 'life support' declaration", "role": "diplomatic escalation"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-333"},
+    {"subject": "temp-1001", "predicate": "follows", "object": "ent-334"}
+  ]
+}

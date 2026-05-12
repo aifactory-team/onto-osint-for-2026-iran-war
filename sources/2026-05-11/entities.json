@@ -1,0 +1,114 @@
+{
+  "date": "2026-05-11",
+  "entities": [
+    {
+      "temp_id": "temp-1001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Ceasefire 'life support' declaration",
+      "properties": {"date": "2026-05-11", "participants": ["Donald Trump"], "description": "Trump declares ceasefire 'on massive life support', calls Iran proposal 'garbage'"},
+      "source_ids": ["src-1023"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-1002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Pezeshkian 'never bow' statement",
+      "properties": {"date": "2026-05-11", "participants": ["Masoud Pezeshkian"], "description": "Iran president: 'We will never bow our heads before the enemy' — negotiations not surrender"},
+      "source_ids": ["src-1024"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-1003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Day 25 strikes (51 killed)",
+      "properties": {"date": "2026-05-11", "location": "Lebanon", "participants": ["Israel", "Hezbollah"], "casualties": "51 killed (incl. 2 medics, 1 infant)", "cumulative": "552 since ceasefire, ~3000 since March 2"},
+      "source_ids": ["src-1025"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-1008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran warns Europe warships Hormuz",
+      "properties": {"date": "2026-05-11", "participants": ["Esmaeil Baghaei", "UK", "France"], "description": "Iran warns European nations against sending warships to Hormuz, threatens decisive response"},
+      "source_ids": ["src-1026"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-1013",
+      "matched_id": null,
+      "type": "Event",
+      "name": "3rd Washington Israel-Lebanon talks",
+      "properties": {"date": "2026-05-14", "location": "Washington", "participants": ["Lebanon", "Israel", "US"], "description": "3rd meeting between Lebanese and Israeli representatives, Thu-Fri May 14-15"},
+      "source_ids": ["src-1029"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-1017",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Blockade status May 11",
+      "properties": {"date": "2026-05-11", "participants": ["US Military", "CENTCOM"], "details": "20 warships, 2 CSGs (Bush, Lincoln), 61 vessels redirected, 4 disabled, Ford CSG returning"},
+      "source_ids": ["src-1030"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-1006",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "UK",
+      "properties": {"type": "state", "location": "Europe", "role": "considering Hormuz naval deployment"},
+      "source_ids": ["src-1026"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-1007",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "France",
+      "properties": {"type": "state", "location": "Europe", "role": "considering Hormuz naval deployment"},
+      "source_ids": ["src-1026"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-1014",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS George H.W. Bush CSG",
+      "properties": {"type": "carrier strike group", "air_wing": "Carrier Air Wing 7", "aircraft": "25 F/A-18E/F, 2 E-2D, 3 MH-60"},
+      "source_ids": ["src-1030"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-1015",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Abraham Lincoln CSG",
+      "properties": {"type": "carrier strike group", "note": "equipped with F-35C"},
+      "source_ids": ["src-1030"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-333", "source_ids": ["src-1023"], "confidence": 0.95},
+    {"subject": "temp-1001", "predicate": "follows", "object": "ent-334", "source_ids": ["src-1023"], "confidence": 0.95},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-1024"], "confidence": 0.9},
+    {"subject": "temp-1002", "predicate": "follows", "object": "temp-1001", "source_ids": ["src-1024"], "confidence": 0.9},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-078", "source_ids": ["src-1025"], "confidence": 0.95},
+    {"subject": "temp-1003", "predicate": "follows", "object": "ent-339", "source_ids": ["src-1025"], "confidence": 0.95},
+    {"subject": "ent-320", "predicate": "opposes", "object": "temp-1006", "source_ids": ["src-1026"], "confidence": 0.85},
+    {"subject": "ent-320", "predicate": "opposes", "object": "temp-1007", "source_ids": ["src-1026"], "confidence": 0.85},
+    {"subject": "ent-282", "predicate": "cooperatesWith", "object": "ent-002", "source_ids": ["src-1028"], "confidence": 0.85},
+    {"subject": "ent-265", "predicate": "cooperatesWith", "object": "ent-175", "source_ids": ["src-1029"], "confidence": 0.8},
+    {"subject": "ent-003", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1030"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 10,
+    "matched_entities": 0,
+    "total_relations": 11
+  }
+}

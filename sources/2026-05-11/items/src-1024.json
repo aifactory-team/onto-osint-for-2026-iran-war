@@ -1,0 +1,23 @@
+{
+  "id": "src-1024",
+  "title": "Pezeshkian vows Iran will 'never bow' — negotiations 'not surrender but defense of national interests'",
+  "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
+  "snippet": "Iranian President Masoud Pezeshkian wrote on social media: 'We will never bow our heads before the enemy, and if talk of dialogue or negotiation arises, it does not mean surrender or retreat.' He stressed that Iranian rights and national interests remain the priority in any diplomatic process. The statement came as a defiant counter to Trump's 'garbage' characterization of Iran's counterproposal.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New statement by Pezeshkian on May 11 in direct response to Trump's rhetoric escalation — first 'never bow' language from Iranian president in this negotiation cycle",
+  "entities": [
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian", "role": "Iranian President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-1002", "type": "Event", "name": "Pezeshkian 'never bow' statement", "role": "defiant response"}
+  ],
+  "relations": [
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "temp-1002", "predicate": "follows", "object": "temp-1001"}
+  ]
+}

@@ -1409,3 +1409,39 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
 - Al Kharaitiyat은 Organization(vessel) 클래스로, Qatar는 Organization(state)으로, 핵 역제안은 Event로 충분히 표현됨
+
+---
+
+## 2026-05-11 추론 결과
+
+### 추론 #1: event_chain (협상 에스컬레이션 인과 체인)
+- **입력:** (ent-333/Iran formal response, follows, ent-289/14-Point MoU), (ent-334/Trump REJECTS, follows, ent-333), (ent-345/Life Support, follows, ent-334)
+- **추론:** (ent-345/Ceasefire 'life support', causedBy, ent-333/Iran formal response)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** Iran Response(5/10) → Trump Rejects(5/10) → 'Life Support'(5/11)의 3단계 인과 체인. 트럼프 rhetoric이 'TOTALLY UNACCEPTABLE' → 'garbage'/'life support'로 24시간 내 에스컬레이션.
+
+### 추론 #2: event_chain (레바논 사상자 에스컬레이션)
+- **입력:** (ent-339/Day 24 strikes 39+, locatedIn, ent-079/Lebanon), (ent-347/Day 25 strikes 51, locatedIn, ent-079)
+- **추론:** (ent-347/Day 25 strikes, causedBy, ent-339/Day 24 strikes)
+- **신뢰도:** 0.9
+- **상태:** 확정
+- **비고:** Day 23(19명)→Day 24(39명)→Day 25(51명)으로 3일 연속 에스컬레이션. 의료진 사망(103명 누적)은 국제인도법 위반 쟁점. 5/14-15 3차 워싱턴 회담 전 '최대 압박' 패턴 지속.
+
+### 추론 #3: co_participation (UK-France 공동 호르무즈 대응)
+- **입력:** (ent-320/Baghaei, opposes, ent-348/UK), (ent-320/Baghaei, opposes, ent-349/France)
+- **추론:** (ent-348/UK, potentialRelation, ent-349/France)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** UK와 France가 모두 호르무즈 해군 증강을 검토 중 → 잠재적 공동 유럽 해군 대응. 이란이 양국을 명시적으로 경고한 것은 이 가능성을 인지하고 있음을 시사.
+
+### 추론 #4: event_chain (베이징 정상회담 긴급성 상승)
+- **입력:** (ent-345/Ceasefire 'life support', follows, ent-334/Trump Rejects), (ent-001/Trump, participatesIn, ent-338/Beijing Summit)
+- **추론:** (ent-338/Beijing Summit, causedBy, ent-345/Life Support)
+- **신뢰도:** 0.8
+- **상태:** 확정
+- **비고:** 협상 결렬 → 정상회담 의미 상승. 트럼프가 시진핑에 이란 원유 구매 중단 압박 가능성. 중국이 이란 최대 원유 구매국이라는 점에서 정상회담이 협상 동력 복원의 핵심 변수.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- UK/France는 Organization(state), 호르무즈 경고/봉쇄 현황은 Event, 3차 워싱턴 회담은 Event로 분류

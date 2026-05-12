@@ -1,0 +1,26 @@
+{
+  "id": "src-1029",
+  "title": "Lebanon urges US to pressure Israel — Aoun/Salam meet ambassador Issa, 3rd Washington talks Thu-Fri",
+  "url": "https://www.detroitnews.com/story/news/world/2026/05/11/lebanon-urges-us-pressure-israel-stop-attacks-demolitions/90029391007/",
+  "snippet": "Lebanese President Joseph Aoun and PM Nawaf Salam met separately with US ambassador Michel Issa to prepare for the 3rd meeting between Lebanese and Israeli representatives in Washington on Thursday-Friday (May 14-15). PM Salam asked Issa to 'exert pressure on Israel to stop the ongoing attacks and violations, in order to consolidate the ceasefire.'",
+  "source_name": "Detroit News",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New diplomatic development — May 11 meetings between Lebanese leadership and US ambassador, new detail on 3rd Washington talks dates (Thu-Fri May 14-15)",
+  "entities": [
+    {"id": "ent-265", "type": "Person", "name": "Joseph Aoun", "role": "Lebanese President"},
+    {"id": "ent-264", "type": "Person", "name": "Nawaf Salam", "role": "Lebanese PM"},
+    {"id": "ent-175", "type": "Person", "name": "Michel Issa", "role": "US ambassador"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon", "role": "state"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "temp-1013", "type": "Event", "name": "3rd Washington Israel-Lebanon talks", "role": "upcoming diplomacy"}
+  ],
+  "relations": [
+    {"subject": "ent-265", "predicate": "cooperatesWith", "object": "ent-175"},
+    {"subject": "ent-264", "predicate": "cooperatesWith", "object": "ent-175"},
+    {"subject": "ent-079", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

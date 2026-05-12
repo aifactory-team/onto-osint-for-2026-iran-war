@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-11",
+  "new_triples": [
+    {
+      "subject": "ent-001",
+      "predicate": "opposes",
+      "object": "ent-333",
+      "source_id": "src-1023",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-345",
+      "predicate": "follows",
+      "object": "ent-334",
+      "source_id": "src-1023",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-149",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_id": "src-1024",
+      "date": "2026-05-11",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-346",
+      "predicate": "follows",
+      "object": "ent-345",
+      "source_id": "src-1024",
+      "date": "2026-05-11",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-347",
+      "predicate": "follows",
+      "object": "ent-339",
+      "source_id": "src-1025",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-347",
+      "predicate": "locatedIn",
+      "object": "ent-079",
+      "source_id": "src-1025",
+      "date": "2026-05-11",
+      "confidence": 0.98,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-078",
+      "source_id": "src-1025",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-320",
+      "predicate": "opposes",
+      "object": "ent-348",
+      "source_id": "src-1026",
+      "date": "2026-05-11",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-320",
+      "predicate": "opposes",
+      "object": "ent-349",
+      "source_id": "src-1026",
+      "date": "2026-05-11",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-350",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-1026",
+      "date": "2026-05-11",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-282",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "source_id": "src-1028",
+      "date": "2026-05-11",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-265",
+      "predicate": "cooperatesWith",
+      "object": "ent-175",
+      "source_id": "src-1029",
+      "date": "2026-05-11",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-264",
+      "predicate": "cooperatesWith",
+      "object": "ent-175",
+      "source_id": "src-1029",
+      "date": "2026-05-11",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-003",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-1030",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-060",
+      "predicate": "participatesIn",
+      "object": "ent-351",
+      "source_id": "src-1030",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {
+      "subject": "ent-345",
+      "predicate": "causedBy",
+      "object": "ent-333",
+      "rule": "event_chain",
+      "date": "2026-05-11",
+      "confidence": 0.85,
+      "type": "inferred",
+      "reasoning": "Trump rejection (ent-334) follows Iran response (ent-333), 'life support' (ent-345) follows rejection → causal chain"
+    },
+    {
+      "subject": "ent-347",
+      "predicate": "causedBy",
+      "object": "ent-339",
+      "rule": "event_chain",
+      "date": "2026-05-11",
+      "confidence": 0.9,
+      "type": "inferred",
+      "reasoning": "Day 24 (39+ killed) → Day 25 (51 killed) escalation chain. Pattern: ceasefire-era Lebanon killings accelerating"
+    },
+    {
+      "subject": "ent-348",
+      "predicate": "potentialRelation",
+      "object": "ent-349",
+      "rule": "co_participation",
+      "date": "2026-05-11",
+      "confidence": 0.75,
+      "type": "inferred",
+      "reasoning": "UK and France both considering Hormuz warship deployment → co-participation in potential European naval response"
+    },
+    {
+      "subject": "ent-338",
+      "predicate": "causedBy",
+      "object": "ent-345",
+      "rule": "event_chain",
+      "date": "2026-05-11",
+      "confidence": 0.8,
+      "type": "inferred",
+      "reasoning": "Ceasefire 'life support' status raises stakes for Beijing summit → Iran impasse drives summit urgency"
+    }
+  ],
+  "stats": {
+    "new_nodes": 8,
+    "new_edges": 15,
+    "inferred_edges": 4
+  }
+}

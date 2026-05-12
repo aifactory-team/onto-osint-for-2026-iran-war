@@ -1,0 +1,26 @@
+{
+  "id": "src-1026",
+  "title": "Iran warns Europe against sending warships to Hormuz — Baghaei: 'refrain from moves that undermine your interests'",
+  "url": "https://www.euronews.com/2026/05/11/iran-warns-europe-against-sending-warships-to-hormuz-as-us-talks-gap-widens",
+  "snippet": "Iran's Foreign Ministry spokesperson Esmaeil Baghaei warned European nations on May 11 against sending warships to the Strait of Hormuz, saying they should 'refrain from making any move that would undermine their interests.' He argued military intervention in the Persian Gulf would push energy prices higher. Reports indicate UK and France are considering increased naval activity. Iran insists it alone has the right to secure the strait. Baghaei confirmed Iran's core demands as 'legitimate and reasonable': frozen assets release, end to US 'maritime piracy', and safe navigation guarantees. He added any agreement must include a Lebanon ceasefire as a red line.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New diplomatic development — first explicit Iranian warning to Europe over warship deployments. New detail: Lebanon ceasefire as Iran red line for any deal.",
+  "entities": [
+    {"id": "ent-320", "type": "Person", "name": "Esmaeil Baghaei", "role": "Iran FM spokesperson"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "waterway"},
+    {"id": "temp-1006", "type": "Organization", "name": "UK", "role": "potential naval deployer"},
+    {"id": "temp-1007", "type": "Organization", "name": "France", "role": "potential naval deployer"},
+    {"id": "temp-1008", "type": "Event", "name": "Iran warns Europe warships", "role": "diplomatic warning"}
+  ],
+  "relations": [
+    {"subject": "ent-320", "predicate": "opposes", "object": "temp-1006"},
+    {"subject": "ent-320", "predicate": "opposes", "object": "temp-1007"},
+    {"subject": "temp-1008", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

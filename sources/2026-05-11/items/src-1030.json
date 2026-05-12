@@ -1,0 +1,26 @@
+{
+  "id": "src-1030",
+  "title": "20 warships including 2 carriers enforce Iran blockade — CENTCOM redirected 61 vessels, disabled 4",
+  "url": "https://www.twz.com/sea/where-are-the-carriers-as-of-may-11-2026-20-warships-including-two-carriers-enforce-iran-blockade",
+  "snippet": "More than 20 US Navy warships including 2 carrier strike groups (USS George H.W. Bush and USS Abraham Lincoln) are enforcing the Iran blockade. Bush has 25 F/A-18E/F Super Hornets, 2 E-2D Hawkeyes, 3 MH-60 Seahawks. CENTCOM has redirected 61 commercial vessels linked to Iran and disabled at least 4 attempting to run the blockade. Gerald R. Ford CSG returning to Norfolk after 322 days deployed.",
+  "source_name": "The War Zone",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New detailed force disposition report for May 11 — updated vessel counts (20 warships, 61 redirected, 4 disabled), Ford CSG homeward detail",
+  "entities": [
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "military"},
+    {"id": "temp-1014", "type": "Organization", "name": "USS George H.W. Bush CSG", "role": "carrier strike group"},
+    {"id": "temp-1015", "type": "Organization", "name": "USS Abraham Lincoln CSG", "role": "carrier strike group"},
+    {"id": "ent-060", "type": "Organization", "name": "CENTCOM", "role": "command"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade zone"},
+    {"id": "temp-1016", "type": "Organization", "name": "USS Gerald R. Ford CSG", "role": "returning carrier"},
+    {"id": "temp-1017", "type": "Event", "name": "Blockade status May 11", "role": "military operation"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-060", "predicate": "participatesIn", "object": "temp-1017"}
+  ]
+}

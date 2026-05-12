@@ -1,0 +1,27 @@
+{
+  "id": "src-1025",
+  "title": "Lebanon Day 25: 51 killed in 24 hours including infant and 2 medics — 552 total since ceasefire",
+  "url": "https://www.aljazeera.com/news/2026/5/10/medics-among-51-killed-in-israeli-attacks-on-lebanon-in-past-24-hours",
+  "snippet": "The Lebanese Health Ministry said Israeli attacks over 24 hours killed 51 people, including 2 medical workers and an infant. Total killed since April 16 ceasefire: 552. Since March 2: nearly 3,000 killed, 1.2 million displaced. UN reports 103 Lebanese medical workers killed and 230 injured in 130+ Israeli strikes. Israel targeted 30+ locations with evacuation warnings for 7 south Lebanon towns and 2 Bekaa villages. Hezbollah claimed 20+ attacks on Israeli military targets in retaliation.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New day (Day 25) casualty data — 51 vs yesterday's 39, new medic/infant casualties, new cumulative total (552), new 30+ location strikes with evacuation warnings",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon", "role": "target"},
+    {"id": "ent-078", "type": "Organization", "name": "Hezbollah", "role": "armed group"},
+    {"id": "temp-1003", "type": "Event", "name": "Day 25 strikes (51 killed)", "role": "military action"},
+    {"id": "temp-1004", "type": "Person", "name": "Lebanese medics killed", "role": "casualties"},
+    {"id": "ent-011", "type": "Organization", "name": "UN", "role": "reporter"},
+    {"id": "temp-1005", "type": "Location", "name": "Bekaa Valley", "role": "target area"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-078"},
+    {"subject": "temp-1003", "predicate": "follows", "object": "ent-339"},
+    {"subject": "temp-1003", "predicate": "locatedIn", "object": "ent-079"}
+  ]
+}

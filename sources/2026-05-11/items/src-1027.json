@@ -1,0 +1,28 @@
+{
+  "id": "src-1027",
+  "title": "From Singapore to Brussels, world leaders eye Trump-Xi summit from afar — Iran, trade, Taiwan on agenda",
+  "url": "https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html",
+  "snippet": "Governments in Singapore, Brussels, Tokyo and Seoul are watching for signals from the Trump-Xi summit (May 14-15, Beijing). Agenda spans trade, technology, rare earth export controls, Taiwan, the Iran war and AI. China's suspension of rare earth and magnet exports plus Nexperia semiconductor ban has disrupted automakers across Europe, Japan and South Korea. Both sides preparing smaller deliverables: trade forums, Boeing purchases, agriculture and energy deals.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New pre-summit global positioning analysis — first reporting on how Singapore, Brussels, Tokyo, Seoul are specifically preparing for summit outcomes. New detail on rare earth disruptions.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping", "role": "Chinese President"},
+    {"id": "ent-338", "type": "Event", "name": "Trump-Xi Beijing Summit", "role": "summit"},
+    {"id": "ent-282", "type": "Organization", "name": "China", "role": "state"},
+    {"id": "temp-1009", "type": "Location", "name": "Singapore", "role": "watching"},
+    {"id": "temp-1010", "type": "Location", "name": "Brussels", "role": "watching"},
+    {"id": "temp-1011", "type": "Location", "name": "Tokyo", "role": "watching"},
+    {"id": "temp-1012", "type": "Location", "name": "Seoul", "role": "watching"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-338"},
+    {"subject": "ent-283", "predicate": "participatesIn", "object": "ent-338"},
+    {"subject": "ent-282", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

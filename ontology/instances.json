@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-11",
   "entities": [
     {
       "id": "ent-001",
@@ -3898,7 +3898,123 @@
       "first_seen": "2026-05-10",
       "last_seen": "2026-05-10",
       "mention_count": 2
+    },
+    {
+      "id": "ent-345",
+      "type": "Event",
+      "name": "Ceasefire 'life support' declaration",
+      "properties": {
+        "date": "2026-05-11",
+        "participants": ["Donald Trump"],
+        "description": "Trump declares ceasefire 'on massive life support', calls Iran proposal 'garbage' — rhetoric escalation from 'TOTALLY UNACCEPTABLE'"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-346",
+      "type": "Event",
+      "name": "Pezeshkian 'never bow' statement",
+      "properties": {
+        "date": "2026-05-11",
+        "participants": ["Masoud Pezeshkian"],
+        "description": "Iran president: 'We will never bow our heads before the enemy' — negotiations not surrender"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-347",
+      "type": "Event",
+      "name": "Day 25 strikes (51 killed)",
+      "properties": {
+        "date": "2026-05-11",
+        "location": "Lebanon",
+        "casualties": "51 killed (incl. 2 medics, 1 infant)",
+        "cumulative_since_ceasefire": 552,
+        "cumulative_since_march": "~3000",
+        "sites_hit": "30+"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-348",
+      "type": "Organization",
+      "name": "UK",
+      "properties": {
+        "type": "state",
+        "location": "Europe",
+        "role": "considering Hormuz naval deployment"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-349",
+      "type": "Organization",
+      "name": "France",
+      "properties": {
+        "type": "state",
+        "location": "Europe",
+        "role": "considering Hormuz naval deployment"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-350",
+      "type": "Event",
+      "name": "Iran warns Europe warships Hormuz",
+      "properties": {
+        "date": "2026-05-11",
+        "participants": ["Esmaeil Baghaei", "UK", "France"],
+        "description": "Iran warns European nations against sending warships to Hormuz — 'refrain from moves that undermine your interests'"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-351",
+      "type": "Event",
+      "name": "Blockade status May 11",
+      "properties": {
+        "date": "2026-05-11",
+        "details": "20 warships, 2 CSGs (Bush, Lincoln), 61 vessels redirected, 4 disabled, Ford CSG returning after 322 days"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-352",
+      "type": "Event",
+      "name": "3rd Washington Israel-Lebanon talks",
+      "properties": {
+        "date": "2026-05-14",
+        "location": "Washington",
+        "participants": ["Lebanon", "Israel", "US"],
+        "description": "3rd meeting between Lebanese and Israeli representatives, Thu-Fri May 14-15"
+      },
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "mention_count": 2
     }
   ],
-  "total_count": 285
+  "total_count": 285,
+  "changelog": [
+    {
+      "date": "2026-05-11",
+      "action": "add_instances",
+      "target": "8 new entities (ent-345~ent-352)",
+      "reason": "트럼프 'life support'/'garbage' 에스컬레이션(src-1023), 페제시키안 'never bow'(src-1024), 레바논 Day 25 51명 사살(src-1025), 이란 유럽 군함 경고(src-1026), UK/France 해군 파견 검토, 봉쇄 현황(20척·61척 전환), 3차 워싱턴 이-레 회담 예고",
+      "source_ids": ["src-1023", "src-1024", "src-1025", "src-1026", "src-1027", "src-1028", "src-1029", "src-1030"]
+    }
+  ]
 }

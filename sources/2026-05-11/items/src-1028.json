@@ -1,0 +1,22 @@
+{
+  "id": "src-1028",
+  "title": "China confirms Xi-Trump summit delayed by Iran war — Bloomberg",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-confirms-x-trump-summit-that-was-delayed-by-iran-war",
+  "snippet": "China officially confirmed the Xi-Trump summit for May 14-15 in Beijing. The summit was originally scheduled for March but was delayed by the Iran war. Trump arrives Wednesday. Focus will be on Chinese purchases of Iranian oil, possible Chinese arms supplies to Iran, and Hormuz reopening pressure.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: China's official confirmation of the summit on May 11. Previous reports were US-side confirmations only.",
+  "entities": [
+    {"id": "ent-282", "type": "Organization", "name": "China", "role": "host"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping", "role": "Chinese President"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-338", "type": "Event", "name": "Trump-Xi Beijing Summit", "role": "summit"}
+  ],
+  "relations": [
+    {"subject": "ent-282", "predicate": "cooperatesWith", "object": "ent-002"}
+  ]
+}
