@@ -1,0 +1,21 @@
+{
+  "id": "src-1059",
+  "title": "IRGC 'Martyred Commander' 5-day drill near Tehran — simulates US invasion, codenamed 'Labbayk Ya Khamenei'",
+  "url": "https://www.israelhayom.com/2026/05/13/rgc-drill-simulates-us-invasion-tehran",
+  "snippet": "IRGC Tehran Mohammad Rasulullah Corps concluded 5-day large-scale exercise simulating US-Israeli invasion near Tehran. Codenamed 'Labbayk Ya Khamenei' in honor of late Supreme Leader. General Hassan Hassanzadeh announced full readiness of IRGC and Basij battalions. Practiced individual/group tactics for confronting enemy in various terrains.",
+  "source_name": "Israel Hayom",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC exercise reported 5/13, not previously covered",
+  "entities": [
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "temp-008", "type": "Event", "name": "IRGC Martyred Commander drill" },
+    { "id": "temp-009", "type": "Person", "name": "Hassan Hassanzadeh", "role": "IRGC Tehran Corps commander" }
+  ],
+  "relations": [
+    { "subject": "ent-005", "predicate": "participatesIn", "object": "temp-008" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-1063",
+  "title": "IDF weeklong raid north of Litani River — Golani Brigade destroys 100+ targets, finds Hezbollah tunnels",
+  "url": "https://www.timesofisrael.com/idf-says-it-carried-out-weeklong-raid-on-hezbollah-sites-beyond-lebanons-litani-river/",
+  "snippet": "IDF announced May 13 that Golani Brigade Reconnaissance Unit conducted weeklong raid north of Litani River near Zawtar al-Sharqiyah (~10km from border). Troops achieved 'operational control', destroyed 100+ military targets, found tunnel networks with weapon stockpiles and rocket launchers. First IDF crossing of Litani since ceasefire.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IDF Litani crossing disclosed 5/13, not previously reported",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-078", "type": "Organization", "name": "Hezbollah" },
+    { "id": "temp-016", "type": "Event", "name": "IDF Litani River crossing raid" },
+    { "id": "temp-017", "type": "Location", "name": "Litani River" },
+    { "id": "temp-018", "type": "Location", "name": "Zawtar al-Sharqiyah" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-016" },
+    { "subject": "temp-016", "predicate": "locatedIn", "object": "temp-017" }
+  ]
+}

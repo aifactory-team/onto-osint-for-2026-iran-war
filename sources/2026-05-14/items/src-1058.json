@@ -1,0 +1,22 @@
+{
+  "id": "src-1058",
+  "title": "Vance: US 'making progress' in Iran talks — spoke with Kushner/Witkoff, 'fundamental question is President's red line'",
+  "url": "https://www.al-monitor.com/originals/2026/05/vance-says-us-making-progress-iran-talks",
+  "snippet": "VP JD Vance on May 13 said 'I think that we are making progress. The fundamental question is do we make enough progress that we satisfy the President's red line' — ensuring Iran never has nuclear weapons. Vance said he spoke with Kushner and Witkoff that morning and contacts in Arab world.",
+  "source_name": "Al-Monitor",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New statement by Vance on 5/13, not previously reported",
+  "entities": [
+    { "id": "ent-044", "type": "Person", "name": "JD Vance", "role": "US Vice President" },
+    { "id": "ent-042", "type": "Person", "name": "Jared Kushner" },
+    { "id": "ent-043", "type": "Person", "name": "Steve Witkoff" }
+  ],
+  "relations": [
+    { "subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-042" },
+    { "subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-043" }
+  ]
+}

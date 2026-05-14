@@ -1,0 +1,22 @@
+{
+  "id": "src-1065",
+  "title": "Hormuz blockade disrupts global chip supply chains — helium shortage from Qatar, photoresist shortages grow",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-13/how-the-strait-of-hormuz-blockade-is-disrupting-global-chip-supply-chains",
+  "snippet": "Hormuz closure disrupts 35-40% of global helium supply from Qatar Ras Laffan facility. Spot helium prices above $450/kcf in 2026. ~200 specialised containers stranded. TSMC, Samsung facing supply challenges. If Hormuz remains closed into Q3 2026, fab stockpiles could be exhausted. EUV lithography machines at risk from power outages. Photoresist shortages growing.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Bloomberg semiconductor analysis published 5/13, not previously covered",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-021", "type": "Concept", "name": "Hormuz semiconductor disruption", "domain": "technology/economics" },
+    { "id": "temp-022", "type": "Organization", "name": "TSMC" },
+    { "id": "temp-023", "type": "Organization", "name": "Samsung" }
+  ],
+  "relations": [
+    { "subject": "ent-008", "predicate": "causedBy", "object": "temp-021" }
+  ]
+}

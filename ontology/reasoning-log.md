@@ -1445,3 +1445,46 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
 - UK/France는 Organization(state), 호르무즈 경고/봉쇄 현황은 Event, 3차 워싱턴 회담은 Event로 분류
+
+---
+
+## 2026-05-14 추론 결과
+
+### 추론 #1: event_chain (호르무즈 → CPI → 트럼프 발언 인과 체인)
+- **입력:** (ent-008/Hormuz, causedBy, ent-354/CPI 3.8%), (ent-354/CPI 3.8%, causedBy, ent-353/Trump 'Americans' finances')
+- **추론:** (ent-354/CPI 3.8%, causalChain, ent-353/Trump 발언)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 호르무즈 봉쇄 → 에너지 가격 급등 → CPI 3.8%(3년 최고) → 트럼프 '미국인 재정 생각 안 해' 발언. 전쟁의 실물경제 충격이 정치적 파장으로 전이되는 인과 체인.
+
+### 추론 #2: co_participation (중국 유조선 — 정상회담 연계)
+- **입력:** (ent-357/Yuan Hua Hu, affiliatedWith, ent-282/China), (ent-001/Trump, participatesIn, ent-338/Beijing Summit), (ent-283/Xi, participatesIn, ent-338)
+- **추론:** (ent-357/Yuan Hua Hu, potentialRelation, ent-338/Beijing Summit)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 중국 국영 Cosco Shipping 소속 VLCC가 정상회담 당일 호르무즈 통과 시도. 이란이 통행료 없이 통과 허용 — 테헤란의 중국에 대한 제스처이자, 시진핑에게 레버리지를 제공하는 조정된 시그널링.
+
+### 추론 #3: event_chain (IDF 리타니 진출 ↔ 워싱턴 회담 모순)
+- **입력:** (ent-004/Israel, participatesIn, ent-360/Litani crossing), (ent-004/Israel, participatesIn, ent-352/3rd Washington talks)
+- **추론:** (ent-360/Litani crossing, opposes, ent-352/3rd Washington talks)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** IDF가 리타니강 이북으로 진출하여 100+ 표적을 파괴하면서 동시에 워싱턴에서 평화 회담을 진행. 군사 행동이 외교를 약화시키는 구조적 모순.
+
+### 추론 #4: event_chain ($29B → 슬레지해머 연계)
+- **입력:** (ent-003/US Military, relatedTo, ent-355/$29B), (ent-003, relatedTo, ent-356/Sledgehammer)
+- **추론:** (ent-356/Sledgehammer, follows, ent-355/$29B)
+- **신뢰도:** 0.75
+- **상태:** 잠정
+- **비고:** 전쟁 비용 $29B 공개 → 의회 압박 → '슬레지해머' 개명으로 WPR 시계 리셋 시도. 비용 정당화와 법적 우회가 연동되는 패턴.
+
+### 추론 #5: co_participation (IEA 경고 ↔ 반도체 위기 수렴)
+- **입력:** (ent-358/IEA warning, causedBy, ent-008/Hormuz), (ent-362/Semiconductor disruption, causedBy, ent-008)
+- **추론:** (ent-358/IEA warning, relatedTo, ent-362/Semiconductor disruption)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** IEA 원유 재고 기록적 감소와 반도체 공급망 타격 모두 호르무즈 봉쇄에서 기인. 에너지 위기와 기술 위기가 수렴하는 복합 공급망 위기.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- 신규 개념(Operation Sledgehammer, Hormuz semiconductor disruption)은 Concept 클래스로 분류

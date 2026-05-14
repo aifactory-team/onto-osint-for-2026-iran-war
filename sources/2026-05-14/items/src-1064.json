@@ -1,0 +1,24 @@
+{
+  "id": "src-1064",
+  "title": "3rd Israel-Lebanon Washington talks begin May 14 — military reps for first time, Ron Dermer/Simon Karam lead",
+  "url": "https://www.thenationalnews.com/news/us/2026/05/07/lebanon-and-israel-to-hold-third-round-of-talks-in-washington-next-week/",
+  "snippet": "Third round of Israel-Lebanon peace talks in Washington on May 14-15. First time military representatives from both sides participate. Israeli delegation led by Ron Dermer, Lebanese delegation by Simon Karam. Focus on concrete measures to disarm Hezbollah. Coincides with Trump-Xi Beijing summit.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "3rd round talks opening on 5/14, follow-up to tracking item but significant new development",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-079", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-019", "type": "Person", "name": "Ron Dermer", "role": "Israeli negotiator" },
+    { "id": "temp-020", "type": "Person", "name": "Simon Karam", "role": "Lebanese negotiator" },
+    { "id": "ent-352", "type": "Event", "name": "3rd Washington Israel-Lebanon talks" }
+  ],
+  "relations": [
+    { "subject": "temp-019", "predicate": "participatesIn", "object": "ent-352" },
+    { "subject": "temp-020", "predicate": "participatesIn", "object": "ent-352" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-14",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-338", "source_id": "src-1053", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-283", "predicate": "participatesIn", "object": "ent-338", "source_id": "src-1053", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-338", "predicate": "locatedIn", "object": "ent-282", "source_id": "src-1053", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-353", "source_id": "src-1054", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-353", "predicate": "causedBy", "object": "ent-354", "source_id": "src-1055", "date": "2026-05-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-354", "predicate": "causedBy", "object": "ent-008", "source_id": "src-1055", "date": "2026-05-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "relatedTo", "object": "ent-355", "source_id": "src-1056", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "relatedTo", "object": "ent-356", "source_id": "src-1057", "date": "2026-05-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-042", "source_id": "src-1058", "date": "2026-05-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-359", "source_id": "src-1059", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-357", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1060", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-357", "predicate": "affiliatedWith", "object": "ent-282", "source_id": "src-1060", "date": "2026-05-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-358", "predicate": "causedBy", "object": "ent-008", "source_id": "src-1061", "date": "2026-05-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-361", "source_id": "src-1062", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-361", "predicate": "locatedIn", "object": "ent-364", "source_id": "src-1062", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-360", "source_id": "src-1063", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-360", "predicate": "locatedIn", "object": "ent-363", "source_id": "src-1063", "date": "2026-05-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-362", "predicate": "causedBy", "object": "ent-008", "source_id": "src-1065", "date": "2026-05-14", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-354", "predicate": "causalChain", "object": "ent-353", "source_id": "inferred", "date": "2026-05-14", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "basis": "Hormuz closure → CPI 3.8% → Trump 'don't think about finances' — 3-step causal chain"},
+    {"subject": "ent-357", "predicate": "potentialRelation", "object": "ent-338", "source_id": "inferred", "date": "2026-05-14", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "basis": "Yuan Hua Hu transit timed to Trump-Xi summit — Chinese state vessel + Chinese state summit = coordinated signaling"},
+    {"subject": "ent-360", "predicate": "opposes", "object": "ent-352", "source_id": "inferred", "date": "2026-05-14", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "basis": "IDF Litani crossing undermines ceasefire that Washington talks aim to strengthen"},
+    {"subject": "ent-356", "predicate": "follows", "object": "ent-355", "source_id": "inferred", "date": "2026-05-14", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "basis": "War cost $29B disclosure → Operation Sledgehammer renaming = cost justification + congressional clock reset"},
+    {"subject": "ent-358", "predicate": "relatedTo", "object": "ent-362", "source_id": "inferred", "date": "2026-05-14", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "basis": "IEA inventory depletion and semiconductor disruption both stem from Hormuz closure — converging supply chain crises"}
+  ],
+  "stats": {
+    "new_nodes": 12,
+    "new_edges": 18,
+    "inferred_edges": 5
+  }
+}

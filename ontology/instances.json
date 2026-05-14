@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-05-14",
   "entities": [
     {
       "id": "ent-001",
@@ -4015,6 +4015,13 @@
       "target": "8 new entities (ent-345~ent-352)",
       "reason": "트럼프 'life support'/'garbage' 에스컬레이션(src-1023), 페제시키안 'never bow'(src-1024), 레바논 Day 25 51명 사살(src-1025), 이란 유럽 군함 경고(src-1026), UK/France 해군 파견 검토, 봉쇄 현황(20척·61척 전환), 3차 워싱턴 이-레 회담 예고",
       "source_ids": ["src-1023", "src-1024", "src-1025", "src-1026", "src-1027", "src-1028", "src-1029", "src-1030"]
+    },
+    {
+      "date": "2026-05-14",
+      "action": "add_instances",
+      "target": "12 new entities (ent-353~ent-364)",
+      "reason": "트럼프-시진핑 베이징 정상회담 개시(src-1053), 트럼프 '미국인 재정 무관' 발언(src-1054), CPI 4월 3.8% 3년 최고(src-1055), 전쟁 비용 $29B(src-1056), '슬레지해머 작전' 개명 검토(src-1057), IRGC 테헤란 군사훈련(src-1059), 중국 유조선 호르무즈 시험(src-1060), IEA 원유 재고 기록적 감소(src-1061), 레바논 Day 28 15명 사망(src-1062), IDF 리타니강 이북 진출(src-1063), 3차 워싱턴 회담 개시(src-1064), 호르무즈 반도체 공급망 타격(src-1065)",
+      "source_ids": ["src-1053", "src-1054", "src-1055", "src-1056", "src-1057", "src-1058", "src-1059", "src-1060", "src-1061", "src-1062", "src-1063", "src-1064", "src-1065", "src-1066"]
     }
   ]
 }

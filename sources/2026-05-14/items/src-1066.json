@@ -1,0 +1,21 @@
+{
+  "id": "src-1066",
+  "title": "[한국] 미중 정상회담 — 트럼프 '5B' vs 시진핑 '3T', 이란·관세·희토류 핵심 의제",
+  "url": "https://segye.com/newsView/20260513515793",
+  "snippet": "세계일보: 14일 미중 정상회담에서 트럼프 '5B'(Buy, Build, Borrow, Balance, Blockade) vs 시진핑 '3T'(Trade, Taiwan, Technology) 의제 수싸움. 이란 전쟁이 최대 변수. 루비오 국무장관, 헤그세스 국방장관, 그리어 USTR 대표 등 동행. 엔비디아, 테슬라, 애플 CEO 대거 동승.",
+  "source_name": "세계일보",
+  "language": "ko",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국 언론 미중 정상회담 분석 기사, 한국어 고유 보도",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-283", "type": "Person", "name": "Xi Jinping" },
+    { "id": "ent-282", "type": "Organization", "name": "China" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-338" }
+  ]
+}

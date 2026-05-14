@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-14",
+  "collected_at": "2026-05-14T00:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 78,
+  "expanded_keywords": ["Trump Xi Beijing summit", "Hormuz blockade", "Iran ceasefire", "Lebanon strikes", "IRGC drill", "Operation Sledgehammer", "CPI inflation", "IEA oil inventories", "Yuan Hua Hu", "Litani River", "트럼프 시진핑 정상회담", "이란 전쟁 유가"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war latest news May 14 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Day 74 of Middle East conflict — Trump says 'I don't think about Americans' financial situation'", "url": "https://www.cnn.com/2026/05/12/world/live-news/trump-iran-war-news", "snippet": "Trump says he doesn't think about Americans' finances 'even a little bit' in Iran talks", "source_name": "CNN"},
+        {"title": "Iran war live: Tehran vows 'no retreat'; Vance says US 'making progress'", "url": "https://www.aljazeera.com/news/liveblog/2026/5/13/iran-war-live-trump-travels-to-china-as-conflict-with-tehran-looms-large", "snippet": "Iran maintains highest level of readiness as ceasefire hangs in balance", "source_name": "Al Jazeera"},
+        {"title": "Live updates: Cost of Iran war increases to $29 billion so far, Pentagon official says", "url": "https://www.cnn.com/2026/05/13/world/live-news/trump-iran-war-news", "snippet": "Pentagon estimates war has cost $29B, up from $25B two weeks ago", "source_name": "CNN"},
+        {"title": "Iran war updates: Trump claims 'not long' before war ends", "url": "https://www.aljazeera.com/news/liveblog/2026/5/12/iran-war-live-trump-slams-iranian-proposal-as-ceasefire-hangs-by-a-thread", "snippet": "Day 74: Trump departing for China, ceasefire on 'life support'", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Xi Beijing summit May 14 2026 Iran",
+      "language": "en",
+      "timestamp": "2026-05-14T00:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump arrives in Beijing for state visit after almost 9 years", "url": "https://www.globaltimes.cn/page/202605/1360929.shtml", "snippet": "Trump arrives in Beijing with CEOs including Tim Cook and Elon Musk", "source_name": "Global Times"},
+        {"title": "Trump in China: President lands in Beijing with Tesla, Nvidia CEOs", "url": "https://www.cnbc.com/2026/05/13/trump-china-xi-beijing-meeting-ceos.html", "snippet": "Trump lands in Beijing with top business leaders for summit", "source_name": "CNBC"},
+        {"title": "Trump-Xi Summit: China's help in Iran may require US concessions", "url": "https://www.aljazeera.com/news/2026/5/13/trump-xi-summit-chinas-help-in-iran-may-require-us-concessions", "snippet": "China remains largest buyer of Iranian oil, purchasing 80%+ of exports", "source_name": "Al Jazeera"},
+        {"title": "Trump lands in China as Iran war smolders", "url": "https://www.npr.org/2026/05/12/nx-s1-5818529/trump-china-iran-war", "snippet": "Trump heads to China for high-stakes meeting with Xi", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Strait of Hormuz blockade May 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Strait of Hormuz Blockade Faces Test as Chinese Supertanker Attempts Exit", "url": "https://www.bloomberg.com/news/articles/2026-05-13/hormuz-tracker-chinese-tanker-set-to-test-us-naval-blockade", "snippet": "Yuan Hua Hu VLCC with Iraqi crude testing US blockade", "source_name": "Bloomberg"},
+        {"title": "How the Strait of Hormuz Blockade Is Disrupting Global Chip Supply Chains", "url": "https://www.bloomberg.com/news/articles/2026-05-13/how-the-strait-of-hormuz-blockade-is-disrupting-global-chip-supply-chains", "snippet": "Helium shortage from Qatar affecting semiconductor fabs", "source_name": "Bloomberg"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire strikes May 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "At least 15 people killed in Israeli attacks on Lebanon", "url": "https://www.aljazeera.com/news/2026/5/13/at-least-eight-killed-in-israeli-drone-strikes-on-highway-south-of-beirut", "snippet": "8 killed in drone strikes on Jiyeh highway, 15 total killed May 14", "source_name": "Al Jazeera"},
+        {"title": "Lebanon says Israeli strikes on cars kill 12", "url": "https://www.rte.ie/news/middle-east/2026/0513/1573202-israel-lebanon/", "snippet": "12 killed by Israeli strikes on cars including woman and 2 children, May 13", "source_name": "RTE"},
+        {"title": "What ceasefire? Israel continues to destroy Lebanese property", "url": "https://www.thenationalnews.com/news/2026/05/13/what-ceasefire-israel-continues-to-destroy-lebanese-property/", "snippet": "380 killed since April 17 ceasefire, per AFP tally", "source_name": "The National"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Pentagon Sledgehammer Iran war May 13 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Pentagon considering renaming Iran war 'Sledgehammer' if ceasefire collapses", "url": "https://www.nbcnews.com/politics/national-security/pentagon-considering-re-naming-iran-war-sledgehammer-ceasefire-collaps-rcna344630", "snippet": "Name change could reset 60-day congressional authorization clock", "source_name": "NBC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC military exercise Tehran May 13 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IRGC Holds Major 5-Day Combat Exercise around Tehran", "url": "https://www.islamtimes.com/en/video/1279884/irgc-holds-major-5-day-combat-exercise-around-tehran", "snippet": "Martyred Commander exercise simulates US invasion near Tehran", "source_name": "Islam Times"},
+        {"title": "Iran's IRGC drills US invasion near Tehran", "url": "https://www.israelhayom.com/2026/05/13/rgc-drill-simulates-us-invasion-tehran", "snippet": "5-day exercise codenamed Labbayk Ya Khamenei", "source_name": "Israel Hayom"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "CPI inflation April 2026 3.8% oil Iran war",
+      "language": "en",
+      "timestamp": "2026-05-14T00:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "CPI inflation April 2026: Prices rose 3.8% annually", "url": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html", "snippet": "Highest in nearly 3 years, energy prices account for 40% of increase", "source_name": "CNBC"},
+        {"title": "Iran war fuels sharpest inflation spike in nearly three years at 3.8 percent", "url": "https://www.washingtonpost.com/business/2026/05/12/iran-inflation-trump-oil-gas-prices/", "snippet": "Gasoline +28.4% YoY, airline fares +20.7%", "source_name": "Washington Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IEA oil inventories record pace May 13 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil price spike turmoil far from over, IEA says as inventories are depleted at 'record pace'", "url": "https://www.cnbc.com/2026/05/13/oil-price-spike-turmoil-iea-iran-war.html", "snippet": "4M bbl/day decline in March-April, market 'severely undersupplied' until October", "source_name": "CNBC"},
+        {"title": "Oil Inventories Falling at Record Pace on Iran War, IEA Says", "url": "https://www.bloomberg.com/news/articles/2026-05-13/oil-inventories-fall-at-record-pace-on-iran-war-shock-iea-says", "snippet": "OECD on-land inventories dropped 146M barrels", "source_name": "Bloomberg"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Litani River Lebanon May 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IDF says it carried out weeklong raid on Hezbollah sites beyond Lebanon's Litani River", "url": "https://www.timesofisrael.com/idf-says-it-carried-out-weeklong-raid-on-hezbollah-sites-beyond-lebanons-litani-river/", "snippet": "Golani Brigade crossed Litani, destroyed 100+ targets, found tunnels", "source_name": "Times of Israel"},
+        {"title": "Israeli forces cross north of Litani River for first time", "url": "https://www.arabnews.com/node/2643247/middle-east", "snippet": "First time IDF crosses Litani since ceasefire, Zawtar al-Sharqiyah", "source_name": "Arab News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Vance making progress Iran ceasefire May 13 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T00:10:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Vance says US making progress in Iran talks", "url": "https://www.al-monitor.com/originals/2026/05/vance-says-us-making-progress-iran-talks", "snippet": "Vance: 'fundamental question is do we make enough progress that we satisfy the President's red line'", "source_name": "Al-Monitor"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 5월 14일 트럼프 시진핑",
+      "language": "ko",
+      "timestamp": "2026-05-14T00:11:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란 전쟁 변수 속… 트럼프 '5B' 시진핑 '3T' 치열한 수싸움", "url": "https://segye.com/newsView/20260513515793", "snippet": "14일 미중 정상회담, 이란·관세·희토류 핵심 의제", "source_name": "세계일보"},
+        {"title": "방중길 트럼프 '시진핑과 회담 무역에 집중… 이란 문제 논의, 도움은 불필요'", "url": "https://www.newspim.com/news/view/20260513000013", "snippet": "트럼프 '이란 잘 통제하고 있다' 주장", "source_name": "뉴스핌"},
+        {"title": "트럼프-시진핑 오늘 담판…靑 '중동·공급망·관세' 파장 촉각", "url": "https://www.fnnews.com/news/202605140505235826", "snippet": "청와대/용산 중동·공급망·관세 파장 주시", "source_name": "파이낸셜뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 방중 시진핑 정상회담 이란 전쟁 유가 5월 14일 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T00:12:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "美ㆍ中 정상회담 하루 앞으로⋯트럼프, 시진핑과 '세기의 담판'", "url": "https://www.etoday.co.kr/news/view/2584031", "snippet": "14일 오전 10시 정상회담 예정", "source_name": "이투데이"},
+        {"title": "트럼프 대통령 5월 14일 방중... 이란·관세·역내 안보 핵심 의제", "url": "https://www.voakorea.com/a/8147976.html", "snippet": "이란 전쟁, 무역, 대만 주요 의제", "source_name": "VOA Korea"}
+      ]
+    }
+  ]
+}

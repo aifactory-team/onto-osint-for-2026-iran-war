@@ -1,0 +1,20 @@
+{
+  "id": "src-1061",
+  "title": "IEA: oil inventories falling at record pace — 4M bbl/day in Mar-Apr, market 'severely undersupplied' until October",
+  "url": "https://www.cnbc.com/2026/05/13/oil-price-spike-turmoil-iea-iran-war.html",
+  "snippet": "IEA May report warns global oil inventories declined at record pace of 4M bbl/day in March-April. Global stockpiles fell 129M barrels in March and 117M in April. OECD on-land inventories dropped 146M barrels. Market will remain 'severely undersupplied' until October even if conflict ends next month. Oil prices could rise further over summer.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IEA May report released 5/13, not previously covered",
+  "entities": [
+    { "id": "temp-012", "type": "Organization", "name": "IEA" },
+    { "id": "temp-013", "type": "Event", "name": "IEA record inventory depletion warning" }
+  ],
+  "relations": [
+    { "subject": "temp-013", "predicate": "causedBy", "object": "ent-008" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-1060",
+  "title": "Chinese supertanker Yuan Hua Hu tests Hormuz blockade — Cosco VLCC with 2M bbl Iraqi crude, timed to Trump-Xi summit",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-13/hormuz-tracker-chinese-tanker-set-to-test-us-naval-blockade",
+  "snippet": "Cosco Shipping-owned supertanker Yuan Hua Hu with 2M barrels of Iraqi crude from Basra Oil Terminal (loaded early March) transited past Iran's Larak islands into Gulf of Oman on May 13. Third Chinese VLCC transit since war began. Passed Iranian-controlled corridor without paying tolls — seen as Tehran gesture timed to Trump-Xi summit. Unclear if ship will make it past US blockade.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Hormuz transit event on 5/13, not previously reported",
+  "entities": [
+    { "id": "temp-010", "type": "Organization", "name": "Yuan Hua Hu", "type": "vessel" },
+    { "id": "ent-282", "type": "Organization", "name": "China" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-011", "type": "Organization", "name": "Cosco Shipping" }
+  ],
+  "relations": [
+    { "subject": "temp-010", "predicate": "relatedTo", "object": "ent-008" },
+    { "subject": "temp-011", "predicate": "affiliatedWith", "object": "ent-282" }
+  ]
+}

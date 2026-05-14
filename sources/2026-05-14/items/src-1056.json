@@ -1,0 +1,21 @@
+{
+  "id": "src-1056",
+  "title": "Pentagon: Iran war cost rises to $29 billion — up from $25B two weeks ago; Harvard expert projects $1T",
+  "url": "https://www.cnn.com/2026/05/13/world/live-news/trump-iran-war-news",
+  "snippet": "Pentagon estimates war cost $29B, up from $25B two weeks prior. Increase reflects updated repair/replacement costs plus general operational costs. Includes munitions, aircraft damage, O&M, other expenses tied to Operation Epic Fury. Harvard Kennedy School expert Linda Bilmes projects true cost at $1 trillion.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Updated war cost figure disclosed 5/12, not previously reported",
+  "entities": [
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "temp-005", "type": "Concept", "name": "War cost $29B", "domain": "economics" },
+    { "id": "temp-006", "type": "Person", "name": "Linda Bilmes", "role": "Harvard Kennedy School expert" }
+  ],
+  "relations": [
+    { "subject": "ent-003", "predicate": "relatedTo", "object": "temp-005" }
+  ]
+}

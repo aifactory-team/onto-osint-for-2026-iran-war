@@ -1,0 +1,23 @@
+{
+  "id": "src-1062",
+  "title": "Lebanon Day 28: 15 killed in Israeli drone strikes on Jiyeh highway — 8 killed (2 children) south of Beirut",
+  "url": "https://www.aljazeera.com/news/2026/5/13/at-least-eight-killed-in-israeli-drone-strikes-on-highway-south-of-beirut",
+  "snippet": "May 14: At least 15 killed in Israeli attacks across Lebanon. 8 people including 2 children killed in 3 drone attacks on key Beirut-south highway near Jiyeh, 20km south of Beirut. National News Agency reported. Day 28 of ceasefire.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "May 14 Lebanon strikes — new daily casualties",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-079", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-014", "type": "Event", "name": "Day 28 Lebanon strikes (15 killed)" },
+    { "id": "temp-015", "type": "Location", "name": "Jiyeh" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-014" },
+    { "subject": "temp-014", "predicate": "locatedIn", "object": "ent-079" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-1057",
+  "title": "Pentagon considering renaming war 'Operation Sledgehammer' if ceasefire collapses — could reset 60-day WPR clock",
+  "url": "https://www.nbcnews.com/politics/national-security/pentagon-considering-re-naming-iran-war-sledgehammer-ceasefire-collaps-rcna344630",
+  "snippet": "NBC News reported May 13 that Pentagon is considering renaming Iran war from 'Operation Epic Fury' to 'Operation Sledgehammer' if ceasefire collapses. The name change could allow Trump to argue the 60-day War Powers Resolution clock has reset, avoiding need for congressional authorization. One Pentagon official said Epic Fury continues and ceasefire simply paused major combat operations.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Pentagon planning detail reported 5/13, not previously covered",
+  "entities": [
+    { "id": "temp-007", "type": "Concept", "name": "Operation Sledgehammer", "domain": "military" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" }
+  ],
+  "relations": [
+    { "subject": "ent-003", "predicate": "relatedTo", "object": "temp-007" }
+  ]
+}

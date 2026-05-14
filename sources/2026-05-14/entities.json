@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-14",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Han Zheng",
+      "properties": {"role": "Chinese Vice President", "affiliation": "China"},
+      "source_ids": ["src-1053"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Elon Musk",
+      "properties": {"role": "CEO Tesla", "affiliation": "Tesla"},
+      "source_ids": ["src-1053"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "CPI April 3.8%",
+      "properties": {"domain": "economics", "date": "2026-05-12"},
+      "source_ids": ["src-1055"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "War cost $29B",
+      "properties": {"domain": "economics", "date": "2026-05-12"},
+      "source_ids": ["src-1056"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Operation Sledgehammer",
+      "properties": {"domain": "military", "status": "under consideration"},
+      "source_ids": ["src-1057"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Martyred Commander drill",
+      "properties": {"date": "2026-05-09~13", "location": "Tehran", "codename": "Labbayk Ya Khamenei"},
+      "source_ids": ["src-1059"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Hassan Hassanzadeh",
+      "properties": {"role": "IRGC Tehran Corps commander", "affiliation": "IRGC"},
+      "source_ids": ["src-1059"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Yuan Hua Hu",
+      "properties": {"type": "VLCC supertanker", "owner": "Cosco Shipping", "flag": "China", "cargo": "2M bbl Iraqi crude"},
+      "source_ids": ["src-1060"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Cosco Shipping",
+      "properties": {"type": "state-owned shipping company", "location": "China"},
+      "source_ids": ["src-1060"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IEA",
+      "properties": {"type": "international organization", "full_name": "International Energy Agency"},
+      "source_ids": ["src-1061"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IEA record inventory depletion warning",
+      "properties": {"date": "2026-05-13", "rate": "4M bbl/day", "forecast": "undersupplied until October"},
+      "source_ids": ["src-1061"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Day 28 Lebanon strikes (15 killed)",
+      "properties": {"date": "2026-05-14", "location": "Jiyeh highway, south of Beirut", "casualties": "15 killed including 2 children"},
+      "source_ids": ["src-1062"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Jiyeh",
+      "properties": {"type": "town", "location": "20km south of Beirut, Lebanon"},
+      "source_ids": ["src-1062"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IDF Litani River crossing raid",
+      "properties": {"date": "2026-05-06~13", "unit": "Golani Brigade Reconnaissance", "targets_destroyed": "100+", "location": "Zawtar al-Sharqiyah"},
+      "source_ids": ["src-1063"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Litani River",
+      "properties": {"type": "river/boundary", "significance": "key boundary in southern Lebanon"},
+      "source_ids": ["src-1063"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ron Dermer",
+      "properties": {"role": "Israeli negotiator/envoy", "affiliation": "Israel"},
+      "source_ids": ["src-1064"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-020",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Simon Karam",
+      "properties": {"role": "Lebanese negotiator", "affiliation": "Lebanon"},
+      "source_ids": ["src-1064"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-021",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Hormuz semiconductor disruption",
+      "properties": {"domain": "technology/economics", "helium_loss": "35-40% global supply", "affected": "TSMC, Samsung"},
+      "source_ids": ["src-1065"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-338", "source_ids": ["src-1053"], "confidence": 0.95},
+    {"subject": "ent-283", "predicate": "participatesIn", "object": "ent-338", "source_ids": ["src-1053"], "confidence": 0.95},
+    {"subject": "ent-044", "predicate": "cooperatesWith", "object": "ent-042", "source_ids": ["src-1058"], "confidence": 0.90},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-1059"], "confidence": 0.95},
+    {"subject": "temp-010", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-1060"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-1063"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-014", "source_ids": ["src-1062"], "confidence": 0.95},
+    {"subject": "temp-019", "predicate": "participatesIn", "object": "ent-352", "source_ids": ["src-1064"], "confidence": 0.90},
+    {"subject": "temp-020", "predicate": "participatesIn", "object": "ent-352", "source_ids": ["src-1064"], "confidence": 0.90},
+    {"subject": "ent-008", "predicate": "causedBy", "object": "temp-021", "source_ids": ["src-1065"], "confidence": 0.85},
+    {"subject": "temp-013", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-1061"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 18,
+    "new_entities": 18,
+    "matched_entities": 0,
+    "total_relations": 11
+  }
+}

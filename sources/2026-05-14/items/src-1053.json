@@ -1,0 +1,27 @@
+{
+  "id": "src-1053",
+  "title": "Trump arrives in Beijing for Xi summit — first US presidential visit to China in 9 years, CEOs (Musk/Cook) in tow",
+  "url": "https://www.cnbc.com/2026/05/13/trump-china-xi-beijing-meeting-ceos.html",
+  "snippet": "Trump arrived in Beijing on May 13 evening for state visit, welcomed by VP Han Zheng. Accompanied by Rubio, Hegseth, CEOs including Elon Musk, Tim Cook, Jensen Huang. Summit with Xi on May 14-15 covering Iran war, trade, Taiwan, rare earths, AI. First US presidential visit to China in 9 years.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of Trump's arrival in Beijing on 5/13; no prior coverage in lookback window",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President" },
+    { "id": "ent-283", "type": "Person", "name": "Xi Jinping", "role": "Chinese President" },
+    { "id": "ent-282", "type": "Organization", "name": "China", "type": "state" },
+    { "id": "temp-001", "type": "Person", "name": "Han Zheng", "role": "Chinese Vice President" },
+    { "id": "temp-002", "type": "Person", "name": "Elon Musk", "role": "CEO Tesla" },
+    { "id": "temp-003", "type": "Person", "name": "Tim Cook", "role": "CEO Apple" },
+    { "id": "ent-338", "type": "Event", "name": "Trump-Xi Beijing Summit" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-338" },
+    { "subject": "ent-283", "predicate": "participatesIn", "object": "ent-338" },
+    { "subject": "ent-338", "predicate": "locatedIn", "object": "ent-282" }
+  ]
+}

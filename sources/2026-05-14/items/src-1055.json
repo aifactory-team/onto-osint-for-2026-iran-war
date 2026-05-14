@@ -1,0 +1,21 @@
+{
+  "id": "src-1055",
+  "title": "CPI April 3.8% — highest in 3 years, Iran war drives energy/gasoline (+28.4% YoY) prices",
+  "url": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html",
+  "snippet": "US CPI rose 3.8% YoY in April 2026, up from 3.3% in March — highest since May 2023. Energy prices accounted for 40% of total increase. Gasoline +28.4% YoY, airline fares +20.7%, beef +14.8%. Average hourly wages fell 0.3% after inflation — first YoY drop in 3 years. Iran war Hormuz closure directly responsible.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "April 2026 CPI data released 5/12, not previously reported",
+  "entities": [
+    { "id": "temp-004", "type": "Concept", "name": "CPI April 3.8%", "domain": "economics" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "causedBy", "object": "temp-004" }
+  ]
+}
