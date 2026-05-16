@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-14",
+  "last_updated": "2026-05-15",
   "entities": [
     {
       "id": "ent-001",
@@ -4003,11 +4003,254 @@
         "description": "3rd meeting between Lebanese and Israeli representatives, Thu-Fri May 14-15"
       },
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
+      "last_seen": "2026-05-15",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-353",
+      "type": "Event",
+      "name": "Trump 'Americans finances' statement",
+      "properties": {"date": "2026-05-12", "description": "'I don't think about Americans' financial situation, not even a little bit'"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-354",
+      "type": "Event",
+      "name": "CPI April 3.8%",
+      "properties": {"date": "2026-05-12", "description": "3-year high, energy +40%, gasoline +28.4% YoY"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-355",
+      "type": "Concept",
+      "name": "War cost $29B",
+      "properties": {"domain": "economics", "description": "Pentagon war cost, up from $25B; Harvard estimates $1T"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-356",
+      "type": "Concept",
+      "name": "Operation Sledgehammer",
+      "properties": {"domain": "military", "description": "Planned renamed operation to reset WPR 60-day clock"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-357",
+      "type": "Organization",
+      "name": "Yuan Hua Hu",
+      "properties": {"type": "VLCC tanker", "affiliation": "COSCO Shipping (China)", "cargo": "2M bbl Iraqi crude"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-358",
+      "type": "Event",
+      "name": "IEA record inventory warning",
+      "properties": {"date": "2026-05-13", "description": "4M bbl/day depletion, severely undersupplied until October"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-359",
+      "type": "Event",
+      "name": "IRGC Martyred Commander drill",
+      "properties": {"date": "2026-05-09~13", "description": "5-day drill near Tehran, US invasion simulation"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
       "mention_count": 2
+    },
+    {
+      "id": "ent-360",
+      "type": "Event",
+      "name": "IDF Litani River crossing",
+      "properties": {"date": "2026-05-06~13", "description": "Golani Brigade weeklong raid north of Litani, 100+ targets destroyed"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-361",
+      "type": "Event",
+      "name": "Day 28 Lebanon strikes (15 killed)",
+      "properties": {"date": "2026-05-14", "location": "Jiyeh/Lebanon", "casualties": "15 killed including 2 children"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-362",
+      "type": "Concept",
+      "name": "Hormuz semiconductor disruption",
+      "properties": {"domain": "supply chain", "description": "35-40% global helium blocked, TSMC/Samsung affected"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-363",
+      "type": "Location",
+      "name": "Litani River",
+      "properties": {"type": "river/boundary", "description": "Key ceasefire boundary in Lebanon"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-364",
+      "type": "Location",
+      "name": "Jiyeh",
+      "properties": {"type": "city", "description": "20km south of Beirut, drone attack site"},
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-365",
+      "type": "Concept",
+      "name": "Constructive Strategic Stability Framework",
+      "properties": {"domain": "diplomacy", "description": "3-year US-China bilateral framework agreed at Beijing summit"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-366",
+      "type": "Organization",
+      "name": "Boeing",
+      "properties": {"type": "corporation", "location": "United States", "deal": "200 737 jets to China (unconfirmed by China), stock -4%"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-367",
+      "type": "Event",
+      "name": "Beijing Trade Deal 2026",
+      "properties": {"date": "2026-05-15", "description": "Boeing 200 jets, soybeans, oil/LNG — 'small deal', no joint communique"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-368",
+      "type": "Event",
+      "name": "45-day ceasefire extension",
+      "properties": {"date": "2026-05-15", "description": "2nd extension since April 16, next talks June 2-3, 657+ killed since ceasefire"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-369",
+      "type": "Event",
+      "name": "Pentagon military track May 29",
+      "properties": {"date": "2026-05-29", "description": "Parallel military delegation talks at Pentagon for Israel-Lebanon"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-370",
+      "type": "Event",
+      "name": "Nuclear enriched uranium deadlock",
+      "properties": {"date": "2026-05-15", "description": "Araghchi admits deadlock, postponed to later stages, Russia offer mentioned"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-371",
+      "type": "Event",
+      "name": "Cooper Senate testimony",
+      "properties": {"date": "2026-05-14", "description": "CENTCOM chief: Iran 90% degraded, generation to rebuild navy, every Epic Fury objective met"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-372",
+      "type": "Person",
+      "name": "Izz al-Din Haddad",
+      "properties": {"role": "Senior Hamas military leader", "affiliation": "Hamas", "status": "targeted May 15, outcome unclear"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-373",
+      "type": "Event",
+      "name": "Haddad strike Gaza May 15",
+      "properties": {"date": "2026-05-15", "location": "Gaza", "description": "Israel targets most senior Hamas military leader"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-374",
+      "type": "Concept",
+      "name": "Trump 20-point Gaza plan",
+      "properties": {"domain": "diplomacy", "description": "US plan for ending Gaza war including Hamas disarmament"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-375",
+      "type": "Person",
+      "name": "Negev Dagan",
+      "properties": {"role": "Staff Sergeant, Golani Brigade 12th Battalion", "affiliation": "IDF", "status": "killed 2026-05-14 by Hezbollah mortar", "age": 20},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-376",
+      "type": "Event",
+      "name": "Day 29-30 Lebanon strikes (55 killed 48h)",
+      "properties": {"date": "2026-05-14~15", "location": "Lebanon", "casualties": "55 killed in 48 hours, 657+ since ceasefire, 2951 total"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-377",
+      "type": "Concept",
+      "name": "Iran victory narrative",
+      "properties": {"domain": "propaganda", "description": "Araghchi: 'all countries acknowledge Iran was the victor'"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-378",
+      "type": "Event",
+      "name": "Xi September US visit invitation",
+      "properties": {"date": "2026-09 (planned)", "description": "Trump invites Xi for September visit to US"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-379",
+      "type": "Event",
+      "name": "Epic Fury declared over",
+      "properties": {"date": "2026-05-15", "description": "Rubio officially declares Operation Epic Fury objectives met"},
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mention_count": 3
     }
   ],
-  "total_count": 285,
+  "total_count": 312,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -4022,6 +4265,13 @@
       "target": "12 new entities (ent-353~ent-364)",
       "reason": "트럼프-시진핑 베이징 정상회담 개시(src-1053), 트럼프 '미국인 재정 무관' 발언(src-1054), CPI 4월 3.8% 3년 최고(src-1055), 전쟁 비용 $29B(src-1056), '슬레지해머 작전' 개명 검토(src-1057), IRGC 테헤란 군사훈련(src-1059), 중국 유조선 호르무즈 시험(src-1060), IEA 원유 재고 기록적 감소(src-1061), 레바논 Day 28 15명 사망(src-1062), IDF 리타니강 이북 진출(src-1063), 3차 워싱턴 회담 개시(src-1064), 호르무즈 반도체 공급망 타격(src-1065)",
       "source_ids": ["src-1053", "src-1054", "src-1055", "src-1056", "src-1057", "src-1058", "src-1059", "src-1060", "src-1061", "src-1062", "src-1063", "src-1064", "src-1065", "src-1066"]
+    },
+    {
+      "date": "2026-05-15",
+      "action": "add_instances",
+      "target": "15 new entities (ent-365~ent-379)",
+      "reason": "트럼프-시진핑 정상회담 마무리('전략적 안정' 프레임워크, '스몰딜'), 보잉 200대 합의(시장 기대 500대 미달), 이스라엘-레바논 휴전 45일 연장(3차 워싱턴 회담), 아라그치 핵 교착 공식 인정(농축우라늄 후순위), CENTCOM 쿠퍼 청문회(이란 90% 열화), 이스라엘 하마스 하다드 가자 타격, IDF 레바논 48시간 55명 사살(다간 중사 전사), 위안화후 호르무즈 성공적 통과, 아라그치 '전쟁 승리' 선언, 트럼프 시진핑 9월 방미 초청, '에픽 퓨리' 종료 공식 선언",
+      "source_ids": ["src-1083", "src-1084", "src-1085", "src-1086", "src-1087", "src-1088", "src-1089", "src-1090", "src-1091", "src-1092", "src-1093", "src-1094", "src-1095"]
     }
   ]
 }

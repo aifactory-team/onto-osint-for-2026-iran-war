@@ -1,0 +1,26 @@
+{
+  "id": "src-1089",
+  "title": "IDF kills 55 in Lebanon in 48 hours — Staff Sgt. Negev Dagan (Golani) killed by Hezbollah mortar; 657+ killed since ceasefire, 2,951 total since March 2",
+  "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-15/ty-article-live/u-s-says-israel-and-lebanon-held-full-day-of-productive-and-positive-talks/0000019e-295b-d6dd-adfe-ebff50420000",
+  "snippet": "Israel killed 55 people in Lebanon over the past 48 hours. IDF struck approximately 65 Hezbollah infrastructure sites including weapon depots, surveillance posts, command centers. Over 20 Hezbollah operatives killed. Staff Sgt. Negev Dagan, 20, of Golani Brigade 12th Battalion killed by Hezbollah mortar fire on May 14. Since ceasefire began, 657+ killed. Since March 2 war start, 2,951 killed, 8,988 wounded.",
+  "source_name": "Haaretz",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "48시간 55명 사망 및 IDF 병사 전사는 신규 사건. 5/14 보도(Day 28 15명)와 누적적이지만 새 데이터.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-046", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-011", "type": "Person", "name": "Negev Dagan", "role": "Staff Sgt., Golani Brigade"},
+    {"id": "temp-012", "type": "Event", "name": "Day 29-30 Lebanon strikes (55 killed 48h)"},
+    {"id": "ent-360", "type": "Event", "name": "Golani Brigade operations"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-046"},
+    {"subject": "temp-011", "predicate": "affiliatedWith", "object": "ent-004"},
+    {"subject": "ent-046", "predicate": "opposes", "object": "temp-011"}
+  ]
+}

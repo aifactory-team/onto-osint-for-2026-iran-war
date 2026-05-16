@@ -1,0 +1,25 @@
+{
+  "id": "src-1085",
+  "title": "Israel-Lebanon ceasefire extended 45 days — State Dept 'highly productive' 3rd Washington talks; next round June 2-3; Pentagon military track May 29",
+  "url": "https://www.cnbc.com/2026/05/15/israel-lebanon-agree-to-extend-ceasefire-by-45-days-us-state-dept.html",
+  "snippet": "Israel and Lebanon agreed to extend ceasefire by 45 days to enable further progress after two highly productive days of talks in Washington. State Department announced next round of political negotiations June 2-3. A parallel Pentagon military track will begin May 29 with military delegations from both countries. Hezbollah not participant in US-led talks. This is the second ceasefire extension since Trump announced it April 16. 657+ killed since ceasefire began.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "45일 연장 합의는 이전 소스에 없는 신규 결과. 5/14 회담 개시는 보도되었으나 결과(45일 연장)는 신규.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-352", "type": "Event", "name": "3rd Washington Talks"},
+    {"id": "temp-004", "type": "Event", "name": "45-day ceasefire extension"},
+    {"id": "temp-005", "type": "Event", "name": "Pentagon military track May 29"},
+    {"id": "ent-046", "type": "Organization", "name": "Hezbollah"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-079"},
+    {"subject": "temp-004", "predicate": "follows", "object": "ent-352"}
+  ]
+}

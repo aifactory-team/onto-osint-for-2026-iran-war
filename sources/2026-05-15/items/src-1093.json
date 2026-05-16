@@ -1,0 +1,22 @@
+{
+  "id": "src-1093",
+  "title": "Trump-Xi summit: China, US disagree on what they agreed on — US touted deals, China warned Taiwan; neither confirmed other's claims",
+  "url": "https://www.aljazeera.com/news/2026/5/15/trump-xi-summit-china-us-disagree-on-what-they-agreed-on",
+  "snippet": "US and China wrapped up summit with fundamentally different descriptions of what was agreed. US touted trade deals while China focused on Taiwan warnings. Neither side confirmed the other's claims. No joint communique. China's statement did not mention Boeing deal or oil purchases. US statement did not mention Chinese demands on Taiwan.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "'동상이몽' 분석은 정상회담 결과 평가로 신규.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping"},
+    {"id": "ent-282", "type": "Organization", "name": "China"},
+    {"id": "ent-338", "type": "Event", "name": "Beijing Summit 2026"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-283"}
+  ]
+}

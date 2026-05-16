@@ -1,0 +1,28 @@
+{
+  "id": "src-1083",
+  "title": "Trump-Xi summit wraps up — both agree Hormuz must stay open & Iran no nukes; 'constructive strategic stability' framework; Xi warns over Taiwan",
+  "url": "https://www.cnbc.com/2026/05/14/trump-xi-summit-beijing-takeaway-taiwan-trade-iran-war-strategic-relations-.html",
+  "snippet": "Trump and Xi wrapped up critical two-day talks in Beijing claiming progress in stabilizing US-China relations. Both agreed Iran can never have a nuclear weapon and that Hormuz must remain open. Xi reserved sharpest language for Taiwan. No formal joint communique issued. China agreed to a 'constructive China-U.S. relationship of strategic stability' framework for the next three years.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 정상회담 결과 보도 없음. 5/14 src-1053은 도착/개시 보도이며 결과 보도는 신규.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping", "role": "Chinese President"},
+    {"id": "ent-282", "type": "Organization", "name": "China", "role": "state"},
+    {"id": "ent-338", "type": "Event", "name": "Beijing Summit 2026", "role": "summit"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-001", "type": "Concept", "name": "Constructive Strategic Stability Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-338"},
+    {"subject": "ent-283", "predicate": "participatesIn", "object": "ent-338"},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-283"},
+    {"subject": "ent-338", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

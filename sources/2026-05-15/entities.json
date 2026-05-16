@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-15",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Constructive Strategic Stability Framework",
+      "properties": {"domain": "diplomacy", "description": "3-year US-China bilateral framework agreed at Beijing summit"},
+      "source_ids": ["src-1083"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Boeing",
+      "properties": {"type": "corporation", "location": "United States", "deal": "200 737 jets to China (unconfirmed by China)"},
+      "source_ids": ["src-1084", "src-1095"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Beijing Trade Deal 2026",
+      "properties": {"date": "2026-05-15", "participants": ["US", "China"], "description": "Boeing 200 jets, soybeans, oil/LNG — 'small deal' assessment"},
+      "source_ids": ["src-1084"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "45-day ceasefire extension",
+      "properties": {"date": "2026-05-15", "participants": ["Israel", "Lebanon"], "description": "2nd extension since April 16, next talks June 2-3"},
+      "source_ids": ["src-1085", "src-1089"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Pentagon military track May 29",
+      "properties": {"date": "2026-05-29", "participants": ["Israel military", "Lebanon military"], "description": "Parallel military delegation talks at Pentagon"},
+      "source_ids": ["src-1085"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Nuclear enriched uranium deadlock",
+      "properties": {"date": "2026-05-15", "description": "Araghchi admits deadlock, both sides agreed to postpone nuclear issue"},
+      "source_ids": ["src-1086"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Cooper Senate testimony May 14",
+      "properties": {"date": "2026-05-14", "location": "US Senate", "description": "CENTCOM chief: Iran 90% degraded, generation to rebuild"},
+      "source_ids": ["src-1087"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Izz al-Din Haddad",
+      "properties": {"role": "Senior Hamas military leader", "affiliation": "Hamas", "status": "targeted May 15 (outcome unclear)"},
+      "source_ids": ["src-1088"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Haddad strike Gaza May 15",
+      "properties": {"date": "2026-05-15", "location": "Gaza", "description": "Israel strikes most senior Hamas leader in Gaza"},
+      "source_ids": ["src-1088"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Trump 20-point Gaza plan",
+      "properties": {"domain": "diplomacy", "description": "US plan for ending Gaza war including Hamas disarmament"},
+      "source_ids": ["src-1088"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Negev Dagan",
+      "properties": {"role": "Staff Sergeant, Golani Brigade 12th Battalion", "affiliation": "IDF", "status": "killed 2026-05-14 by Hezbollah mortar", "age": 20},
+      "source_ids": ["src-1089"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Day 29-30 Lebanon strikes (55 killed 48h)",
+      "properties": {"date": "2026-05-14~15", "location": "Lebanon", "casualties": "55 killed in 48 hours"},
+      "source_ids": ["src-1089"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Zhoushan, China",
+      "properties": {"type": "port city", "description": "Destination of Yuan Hua Hu crude oil shipment"},
+      "source_ids": ["src-1090"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran victory narrative",
+      "properties": {"domain": "propaganda", "description": "Araghchi's claim that Iran 'was the victor in this war'"},
+      "source_ids": ["src-1091"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Xi September US visit invitation",
+      "properties": {"date": "2026-09 (planned)", "description": "Trump invites Xi for September visit to US"},
+      "source_ids": ["src-1092"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Epic Fury declared over",
+      "properties": {"date": "2026-05-15", "description": "Rubio officially declares Operation Epic Fury objectives met and operation over"},
+      "source_ids": ["src-1094"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-283", "source_ids": ["src-1083", "src-1092"], "confidence": 0.85},
+    {"subject": "ent-338", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-1083"], "confidence": 0.90},
+    {"subject": "ent-282", "predicate": "cooperatesWith", "object": "temp-002", "source_ids": ["src-1084"], "confidence": 0.70},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-079", "source_ids": ["src-1085"], "confidence": 0.75},
+    {"subject": "ent-043", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1086"], "confidence": 0.95},
+    {"subject": "ent-009", "predicate": "relatedTo", "object": "temp-006", "source_ids": ["src-1086"], "confidence": 0.70},
+    {"subject": "ent-235", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-1087"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-008", "source_ids": ["src-1088"], "confidence": 0.90},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-046", "source_ids": ["src-1089"], "confidence": 0.95},
+    {"subject": "ent-357", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1090"], "confidence": 0.95},
+    {"subject": "ent-043", "predicate": "mentions", "object": "temp-014", "source_ids": ["src-1091"], "confidence": 0.90},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-1094"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 16,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

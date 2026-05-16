@@ -1,0 +1,21 @@
+{
+  "id": "src-1092",
+  "title": "Trump invites Xi for September visit — wraps up 2-day China trip; talks dominated by trade, oil, Taiwan",
+  "url": "https://www.cnbc.com/2026/05/15/trump-wraps-up-two-day-china-trip-invites-xi-for-a-september-visit.html",
+  "snippet": "Trump wrapped up two-day China trip and invited Xi Jinping for a September visit to the US. Talks dominated by trade, oil and Taiwan. Six or more events over two days including welcome ceremony, bilateral talks, Temple of Heaven visit, and working luncheon. No formal joint communique.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "9월 초청 및 2일 여정 마무리는 신규 정보.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping"},
+    {"id": "temp-015", "type": "Event", "name": "Xi September US visit invitation"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-283"}
+  ]
+}

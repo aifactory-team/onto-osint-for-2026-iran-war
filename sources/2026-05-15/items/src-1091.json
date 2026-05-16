@@ -1,0 +1,22 @@
+{
+  "id": "src-1091",
+  "title": "Araghchi: 'Iran was the victor in this war' — 'all countries acknowledge', 'Iran must be viewed differently, as a power capable of confronting the world's greatest powers'",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/5/15/iran-war-live-trumps-visit-to-china-shadowed-by-conflict-with-tehran",
+  "snippet": "Iranian FM Abbas Araghchi told state TV that 'all countries now acknowledge that the Islamic Republic of Iran was the victor in this war.' He added: 'Iran was able to prevent its enemies from achieving their objectives and succeeded in imposing its will.' 'Iran must be viewed differently, as a power capable of confronting the world's greatest powers.' This victory narrative contrasts sharply with CENTCOM's 90% degradation assessment on the same day.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "'승리' 내러티브 공식 선언은 신규. 이전 보도에서 이란의 강경 입장은 있었으나 '전쟁 승리' 공식 선언은 처음.",
+  "entities": [
+    {"id": "ent-043", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-014", "type": "Concept", "name": "Iran victory narrative"}
+  ],
+  "relations": [
+    {"subject": "ent-043", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "ent-043", "predicate": "mentions", "object": "temp-014"}
+  ]
+}

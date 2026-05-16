@@ -1,0 +1,24 @@
+{
+  "id": "src-1090",
+  "title": "Yuan Hua Hu successfully transits Hormuz — 3rd Chinese VLCC since war began, now anchored off Oman coast, timed with Trump-Xi summit",
+  "url": "https://dailycaller.com/2026/05/14/chinese-supertanker-hormuz-blockade-china-talks/",
+  "snippet": "Chinese supertanker Yuan Hua Hu sailed through Strait of Hormuz on Wednesday and is now anchored off Oman coast near US Navy blockade force. 2M barrels of Iraqi crude heading to Zhoushan, China. Third Chinese VLCC to transit since war began. Transit timed with Trump-Xi summit seen as 'net positive' — White House declined to push back on transit during summit.",
+  "source_name": "Daily Caller",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "성공적 통과 확인은 신규. 5/14 src-1060은 통과 시도 보도였으나 성공적 통과 + 오만 정박은 새 정보.",
+  "entities": [
+    {"id": "ent-357", "type": "Organization", "name": "Yuan Hua Hu"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-282", "type": "Organization", "name": "China"},
+    {"id": "ent-338", "type": "Event", "name": "Beijing Summit 2026"},
+    {"id": "temp-013", "type": "Location", "name": "Zhoushan, China"}
+  ],
+  "relations": [
+    {"subject": "ent-357", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-357", "predicate": "relatedTo", "object": "ent-338"}
+  ]
+}

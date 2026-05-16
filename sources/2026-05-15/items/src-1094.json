@@ -1,0 +1,23 @@
+{
+  "id": "src-1094",
+  "title": "Rubio declares Operation Epic Fury 'over' — objectives achieved; Operation Sledgehammer still under consideration for next phase",
+  "url": "https://www.britbrief.co.uk/politics/diplomacy/pentagon-plans-operation-sledgehammer-to-bypass-war-powers.html",
+  "snippet": "Secretary of State Marco Rubio declared Operation Epic Fury 'over,' stating objectives achieved. Pentagon still considering Operation Sledgehammer as name for next phase if ceasefire collapses. A White House official says any new combat phase would be treated as restarting the 60-day WPR clock. This is the latest step in the administration's strategy to bypass Congressional authorization for extended military action.",
+  "source_name": "British Brief",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "루비오의 '에픽 퓨리 종료' 공식 선언은 신규. 5/14 src-1057의 검토 단계에서 공식 선언으로 진전.",
+  "entities": [
+    {"id": "ent-042", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-356", "type": "Concept", "name": "Operation Sledgehammer"},
+    {"id": "temp-016", "type": "Event", "name": "Epic Fury declared over"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"}
+  ],
+  "relations": [
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "temp-016"},
+    {"subject": "temp-016", "predicate": "relatedTo", "object": "ent-356"}
+  ]
+}

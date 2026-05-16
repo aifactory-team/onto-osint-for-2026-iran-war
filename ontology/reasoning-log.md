@@ -1488,3 +1488,44 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
 - 신규 개념(Operation Sledgehammer, Hormuz semiconductor disruption)은 Concept 클래스로 분류
+
+## 2026-05-15 추론 결과
+
+### 추론 #1: co_participation (Cooper 90% 열화 vs Araghchi '전쟁 승리' — 모순적 평가)
+- **입력:** (ent-235/Brad Cooper, participatesIn, ent-371/Senate testimony — '90% 열화'), (ent-043/Araghchi, mentions, ent-377/'Iran was the victor')
+- **추론:** (ent-371/Cooper testimony, opposes, ent-377/Iran victory narrative)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 같은 날 CENTCOM 사령관은 이란 군사력 90% 파괴를 증언하고, 이란 외무장관은 '전쟁 승리'를 선언. 정보전 차원의 상반된 내러티브. 양측 모두 국내 청중을 겨냥한 메시지이며, 객관적 평가와 선전 사이의 간극을 보여줌.
+
+### 추론 #2: co_participation (45일 휴전 연장 vs 48시간 55명 사망 — 명목적 휴전)
+- **입력:** (ent-352/3rd Washington talks, relatedTo, ent-368/45-day extension), (ent-004/Israel, opposes, ent-046/Hezbollah via ent-376/55 killed 48h)
+- **추론:** (ent-368/45-day extension, opposes, ent-376/Day 29-30 strikes)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 워싱턴에서 '매우 생산적' 회담 후 45일 연장을 발표하는 동시에 48시간 동안 55명이 사망. 휴전 누적 사망자 657명+. 휴전은 법적 프레임워크이지 실질적 전투 중단이 아님.
+
+### 추론 #3: co_participation (중국 석유 구매 + Yuan Hua Hu 통과 — 조율된 석유 외교)
+- **입력:** (ent-282/China, cooperatesWith, ent-366/Boeing), (ent-357/Yuan Hua Hu, locatedIn, ent-008/Hormuz), (ent-367/Beijing Trade Deal, follows, ent-338/Beijing Summit)
+- **추론:** (ent-367/Trade Deal, relatedTo, ent-357/Yuan Hua Hu)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 중국이 미국산 석유 구매를 약속하면서 동시에 Yuan Hua Hu가 이라크 원유를 실고 호르무즈를 통과. 중국은 양방향 석유 외교를 구사 — 미국으로부터 석유를 사면서 이란/이라크 원유도 확보. 시진핑의 레버리지 극대화 전략.
+
+### 추론 #4: event_chain (Epic Fury 종료 → Sledgehammer 전환 — WPR 시계 리셋)
+- **입력:** (ent-042/Rubio, participatesIn, ent-379/Epic Fury declared over), (ent-356/Sledgehammer, follows, ent-379)
+- **추론:** (ent-379/Epic Fury over, relatedTo, ent-356/Sledgehammer)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 루비오가 Epic Fury '종료'를 선언하면서 60일 WPR 시한 논쟁을 종결시키려는 시도. 다음 단계로 Sledgehammer 개명을 통해 시계를 리셋하려는 법적 전략. 의회 우회 시도의 진화.
+
+### 추론 #5: co_participation (가자 하다드 타격 ↔ 휴전 연장 동시 — 다중 전선 에스컬레이션)
+- **입력:** (ent-004/Israel, opposes, ent-372/Haddad via ent-373/Haddad strike), (ent-368/45-day extension announced same day)
+- **추론:** (ent-373/Haddad strike, opposes, ent-368/45-day extension)
+- **신뢰도:** 0.75
+- **상태:** 잠정
+- **비고:** 이스라엘이 레바논 휴전 45일 연장 발표 당일 가자에서 하마스 최고위 지휘관을 타격. 다중 전선에서 외교와 군사 행동을 동시 추진하는 이스라엘의 전략 패턴. 트럼프 20점 가자 계획과의 연계 가능성.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- 신규 개념(Constructive Strategic Stability Framework, Iran victory narrative, Trump 20-point Gaza plan)은 Concept 클래스로 분류

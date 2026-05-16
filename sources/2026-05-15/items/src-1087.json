@@ -1,0 +1,25 @@
+{
+  "id": "src-1087",
+  "title": "CENTCOM Cooper: Iran 90% degraded — generation to rebuild navy, 90% naval mines eliminated, every Epic Fury objective met, proxies cut off",
+  "url": "https://www.militarytimes.com/news/pentagon-congress/2026/05/14/iran-military-threat-is-diminished-but-not-eliminated-centcom-chief-says/",
+  "snippet": "CENTCOM Commander Admiral Brad Cooper testified before Senate that 38-day bombing campaign has diminished Iran's ability to threaten global security. 90% of defense industrial base destroyed. 90% of 8,000+ naval mines eliminated. 'Generation' to rebuild navy, years to recover drone/missile production. Every Operation Epic Fury objective met. Hamas, Hezbollah, Houthis all cut off from Iranian weapons and support. Iran retains 'very moderate, if not small, capability' for regional strikes.",
+  "source_name": "Military Times",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "쿠퍼 CENTCOM 사령관 상원 청문회는 이전 소스에 없음. 이란 군사력 평가 정량화 신규 데이터.",
+  "entities": [
+    {"id": "ent-235", "type": "Person", "name": "Brad Cooper", "role": "CENTCOM Commander"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "temp-007", "type": "Event", "name": "Cooper Senate testimony May 14"},
+    {"id": "ent-046", "type": "Organization", "name": "Hezbollah"}
+  ],
+  "relations": [
+    {"subject": "ent-235", "predicate": "participatesIn", "object": "temp-007"},
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

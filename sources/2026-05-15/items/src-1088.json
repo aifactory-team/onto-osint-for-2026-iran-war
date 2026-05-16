@@ -1,0 +1,24 @@
+{
+  "id": "src-1088",
+  "title": "Israel strikes Hamas leader Izz al-Din Haddad in Gaza — 'undermining Trump's 20-point plan'; approved a week ago, executed on operational opportunity",
+  "url": "https://www.timesofisrael.com/liveblog-may-15-2026/",
+  "snippet": "Israel carried out a strike targeting most senior Hamas military leader Izz al-Din Haddad in Gaza on May 15. Israeli security official said strike was approved about a week and a half ago and executed due to 'operational opportunity with high probability of successful elimination.' Official asserted Haddad was 'undermining President Trump's and the Board of Peace efforts' and called him 'this arch terrorist.' Strike outcome not yet confirmed.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "하다드 타격은 완전 신규 사건. 이전 소스에 관련 보도 없음.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-008", "type": "Person", "name": "Izz al-Din Haddad", "role": "Senior Hamas military leader"},
+    {"id": "temp-009", "type": "Event", "name": "Haddad strike Gaza May 15"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-010", "type": "Concept", "name": "Trump 20-point Gaza plan"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-008"},
+    {"subject": "temp-008", "predicate": "opposes", "object": "temp-010"}
+  ]
+}
