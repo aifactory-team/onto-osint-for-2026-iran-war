@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-15",
+  "last_updated": "2026-05-16",
   "entities": [
     {
       "id": "ent-001",
@@ -4272,6 +4272,87 @@
       "target": "15 new entities (ent-365~ent-379)",
       "reason": "트럼프-시진핑 정상회담 마무리('전략적 안정' 프레임워크, '스몰딜'), 보잉 200대 합의(시장 기대 500대 미달), 이스라엘-레바논 휴전 45일 연장(3차 워싱턴 회담), 아라그치 핵 교착 공식 인정(농축우라늄 후순위), CENTCOM 쿠퍼 청문회(이란 90% 열화), 이스라엘 하마스 하다드 가자 타격, IDF 레바논 48시간 55명 사살(다간 중사 전사), 위안화후 호르무즈 성공적 통과, 아라그치 '전쟁 승리' 선언, 트럼프 시진핑 9월 방미 초청, '에픽 퓨리' 종료 공식 선언",
       "source_ids": ["src-1083", "src-1084", "src-1085", "src-1086", "src-1087", "src-1088", "src-1089", "src-1090", "src-1091", "src-1092", "src-1093", "src-1094", "src-1095"]
+    },
+    {
+      "id": "ent-380",
+      "type": "Event",
+      "name": "Trump Sledgehammer threat (post-Xi)",
+      "properties": {"date": "2026-05-16", "location": "Air Force One / Washington", "participants": ["Donald Trump", "US Military", "Iran"], "action": "Trump officially threatens 'Operation Sledgehammer' fresh strikes after Xi summit fails to produce Iran breakthrough; 'we'll finish the job'; commandos for nuclear retrieval considered; strikes could begin next week"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-381",
+      "type": "Organization",
+      "name": "USS Gerald R. Ford",
+      "properties": {"type": "aircraft carrier (CVN-78)", "location": "Naval Station Norfolk, Virginia", "deployment_days": 326, "action_may16": "returns after 11-month record deployment (longest since Vietnam), participated in Iran war opening + Maduro capture, Presidential Unit Citation awarded, 5,000 sailors return"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-382",
+      "type": "Location",
+      "name": "Naval Station Norfolk",
+      "properties": {"type": "military base", "coordinates": "36.9461,-76.3313"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-383",
+      "type": "Event",
+      "name": "IDF first post-extension strikes May 16",
+      "properties": {"date": "2026-05-16", "location": "southern Lebanon (9 villages)", "participants": ["IDF", "Hezbollah"], "action": "first wave of airstrikes since 45-day extension, 9 villages evacuated (Qaaqaaiyet al-Snoubar et al), ~100 targets hit, 2 Hezbollah terrorists killed, 1 IDF soldier killed"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-384",
+      "type": "Event",
+      "name": "Trump 20-year moratorium proposal",
+      "properties": {"date": "2026-05-16", "location": "Air Force One departing Beijing", "participants": ["Donald Trump"], "action": "proposes 20-year enrichment suspension with 'real guarantee' — shift from permanent halt demand; AF1 press gaggle departing China"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-385",
+      "type": "Person",
+      "name": "Ali Shamkhani",
+      "properties": {"role": "Supreme Leader advisor / former SNSC Secretary", "affiliation": "Iran", "action_may16": "responds to Trump: 'ready to sign if all sanctions lifted'; 'He speaks of olive branch, but we see only barbed wire'; demands quick removal of all financial sanctions"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-386",
+      "type": "Person",
+      "name": "Wesley Clark",
+      "properties": {"role": "former NATO Supreme Allied Commander / retired General", "affiliation": "United States", "action_may16": "speaks at Free Iran rally DC, calls for regime change in Tehran"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-387",
+      "type": "Event",
+      "name": "Free Iran Rally DC May 16",
+      "properties": {"date": "2026-05-16", "location": "Upper Senate Park, Capitol Hill, Washington DC", "participants": ["NCRI", "Wesley Clark", "Maryam Rajavi", "Carla Sands"], "action": "thousands of Iranian diaspora demand regime change, call for accountability on executions of political prisoners"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-388",
+      "type": "Person",
+      "name": "Maryam Rajavi",
+      "properties": {"role": "President-elect of NCRI", "affiliation": "NCRI/MEK", "action_may16": "speaks via video at Free Iran rally DC"},
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "mention_count": 1
     }
   ]
 }

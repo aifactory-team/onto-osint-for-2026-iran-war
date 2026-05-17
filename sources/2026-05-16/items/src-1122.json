@@ -1,0 +1,24 @@
+{
+  "id": "src-1122",
+  "title": "[한국] 트럼프, 시진핑 회담 후 이란에 '슬레지해머' 무력 위협 — 핵 20년 모라토리엄 제안도 병행",
+  "url": "https://news.nate.com/view/20260513n30554",
+  "snippet": "트럼프 대통령이 시진핑과의 베이징 정상회담이 이란 문제에서 구체적 성과를 내지 못하자 귀국 중 '슬레지해머' 작전 위협을 공식화했다. 동시에 핵 20년 모라토리엄을 '실질적 보장' 조건으로 수용할 수 있다고 밝혀 당근과 채찍 전략을 병행하고 있다.",
+  "source_name": "네이트뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 종합 분석 보도. 이전 한국어 소스에는 5/15 호르무즈·핵 합의 보도(src-1095)만 있었으며 슬레지해머 위협 + 핵 양보 병행은 신규.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping"},
+    {"id": "ent-356", "type": "Concept", "name": "Operation Sledgehammer"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-004", "type": "Event", "name": "Trump 20-year moratorium proposal"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-004"}
+  ]
+}

@@ -658,6 +658,13 @@
       "target": "8 new entities (ent-345~ent-352)",
       "reason": "금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능. 스키마 변경 없음.",
       "source_ids": ["src-1023", "src-1024", "src-1025", "src-1026", "src-1029", "src-1030"]
+    },
+    {
+      "date": "2026-05-16",
+      "action": "add_instances",
+      "target": "9 new entities (ent-380~ent-388)",
+      "reason": "트럼프 슬레지해머 공식 위협(시진핑 회담 후), USS Gerald Ford 11개월 작전 귀환(베트남전 이후 최장), IDF 휴전 연장 후 첫 대규모 공습(9개 마을 대피), 트럼프 20년 핵 모라토리엄 제안(AF1), 샴카니 '올리브 가지=가시철사' 대응, Free Iran DC 집회(Wesley Clark/Rajavi), 헤즈볼라 드론 공격(메론)",
+      "source_ids": ["src-1113", "src-1114", "src-1115", "src-1116", "src-1117", "src-1118", "src-1119", "src-1120", "src-1121"]
     }
   ]
 }

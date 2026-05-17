@@ -1,0 +1,25 @@
+{
+  "id": "src-1113",
+  "title": "Trump threatens 'Operation Sledgehammer' fresh strikes after inconclusive Xi summit — 'we'll finish the job' warning to Iran",
+  "url": "https://www.republicworld.com/world-news/operation-sledgehammer-trump-threatens-fresh-strikes-after-inconclusive-iran-summit-with-xi-jinping-2026-05-16-124567",
+  "snippet": "Trump administration threatens fresh military strikes under Operation Sledgehammer after inconclusive 2-day summit with Xi Jinping failed to produce concrete Iran breakthrough. Trump warned 'we'll finish the job' if Iran doesn't agree to deal terms. US weighs deploying commandos to retrieve nuclear materials, increased bombing of military/infrastructure sites contemplated.",
+  "source_name": "Republic World",
+  "language": "en",
+  "discovered_date": "2026-05-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/14 src-1057에서 '슬레지해머 검토' 보도됐으나 이는 5/15 src-1094 '에픽 퓨리 종료 선언' 이후 트럼프가 시진핑 회담 직후 공식 위협으로 격상한 것으로 새로운 행동(fresh strikes threat)이므로 new",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-356", "type": "Concept", "name": "Operation Sledgehammer"},
+    {"id": "ent-283", "type": "Person", "name": "Xi Jinping"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-338", "type": "Event", "name": "Beijing Summit"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-356"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

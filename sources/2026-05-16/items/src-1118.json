@@ -1,0 +1,26 @@
+{
+  "id": "src-1118",
+  "title": "'Free Iran' rally floods Capitol Hill — thousands demand regime change, Wesley Clark & Maryam Rajavi speak, NCRI organized",
+  "url": "https://www.ncr-iran.org/en/news/iran-resistance/massive-d-c-demonstration-declares-mullahs-face-terminal-impasse-as-resistance-units-surge-inside-iran/",
+  "snippet": "Thousands of Iranian diaspora and supporters rallied at Upper Senate Park next to US Capitol on May 16. NCRI organized event demanding regime change and end to executions of political prisoners. Notable speakers: former NATO Supreme Allied Commander Gen. Wesley Clark, NCRI President-elect Maryam Rajavi (via video), former Ambassador Carla Sands. Demonstrators waved green/white/red flags calling for democratic republic in Iran.",
+  "source_name": "NCRI",
+  "language": "en",
+  "discovered_date": "2026-05-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/16 개최된 새로운 집회. 이전 DC 시위(4/24 참전용사 항의 등)와 다른 별도 이벤트.",
+  "entities": [
+    {"id": "temp-006", "type": "Event", "name": "Free Iran Rally DC May 16"},
+    {"id": "temp-007", "type": "Person", "name": "Wesley Clark"},
+    {"id": "temp-008", "type": "Person", "name": "Maryam Rajavi"},
+    {"id": "temp-014", "type": "Organization", "name": "NCRI"},
+    {"id": "temp-015", "type": "Person", "name": "Carla Sands"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-007", "predicate": "participatesIn", "object": "temp-006"},
+    {"subject": "temp-008", "predicate": "participatesIn", "object": "temp-006"},
+    {"subject": "temp-014", "predicate": "participatesIn", "object": "temp-006"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-1117",
+  "title": "Shamkhani: Iran ready to sign nuclear deal if all sanctions lifted — 'He speaks of olive branch but we see only barbed wire'",
+  "url": "https://www.newsweek.com/iran-nuclear-deal-offer-trump-warns-tehran-2081262",
+  "snippet": "Khamenei advisor Ali Shamkhani responded to Trump's 20-year moratorium offer saying Iran is ready to sign in exchange for quick removal of all financial sanctions. Criticized Trump's rhetoric: 'He speaks of an olive branch, but we see only barbed wire.' Absence of sanctions relief renders US plan unacceptable. Core disagreement: nuclear concessions vs sanctions relief.",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-05-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "샴카니의 트럼프 핵 제안에 대한 공식 대응은 5/16 최초 보도. 이전 소스에 샴카니 발언 없음.",
+  "entities": [
+    {"id": "temp-003", "type": "Person", "name": "Ali Shamkhani", "role": "Supreme Leader advisor"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-004", "type": "Event", "name": "Trump 20-year moratorium proposal"},
+    {"id": "ent-370", "type": "Event", "name": "Nuclear deadlock"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "opposes", "object": "temp-004"},
+    {"subject": "temp-003", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-16",
+  "collected_at": "2026-05-16T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 48,
+  "expanded_keywords": ["Operation Sledgehammer", "Hormuz", "Araghchi", "Trump Xi summit", "Lebanon ceasefire", "IRGC", "USS Ford", "Shamkhani"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war Hormuz strait May 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "2026 Strait of Hormuz crisis - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "snippet": "IRGC Navy announced Iran redefined Strait of Hormuz into 'vast operational area'", "source_name": "Wikipedia"},
+        {"title": "Iran says Strait of Hormuz passage to be ensured after US pauses operation", "url": "https://www.aljazeera.com/news/2026/5/6/french-container-ship-struck-in-latest-escalation-at-strait-of-hormuz", "snippet": "Iran says passage ensured after US pauses Project Freedom", "source_name": "Al Jazeera"},
+        {"title": "Trump says he's paused U.S. effort to guide stranded vessels out of Strait of Hormuz", "url": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates", "snippet": "Trump halted Project Freedom citing 'great progress'", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran nuclear talks MoU negotiations May 16 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump says he's OK with Iran suspending nuke enrichment for 20 years if there's 'real' guarantee", "url": "https://www.timesofisrael.com/trump-says-hes-ok-with-iran-suspending-nuke-program-for-20-years-if-theres-a-real-commitment/", "snippet": "Trump made comment on Air Force One departing China", "source_name": "Times of Israel"},
+        {"title": "Iran to Counter US Nuclear Offer as Trump Sends New Warning", "url": "https://www.newsweek.com/iran-nuclear-deal-offer-trump-warns-tehran-2081262", "snippet": "Shamkhani responds: ready to sign if sanctions lifted, 'olive branch but barbed wire'", "source_name": "Newsweek"},
+        {"title": "Iran says it will 'never bow' as Trump rejects peace counteroffer", "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html", "snippet": "Negotiations remain stalled", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire May 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IDF launches strikes targeting Hezbollah for 1st time since Lebanon ceasefire extended", "url": "https://www.timesofisrael.com/idf-launches-strikes-targeting-hezbollah-for-1st-time-since-lebanon-ceasefire-extended/", "snippet": "First wave of strikes since 45-day extension, 9 villages evacuation ordered", "source_name": "Times of Israel"},
+        {"title": "Israel strikes south Lebanon day after truce extension", "url": "https://www.rte.ie/news/world/2026/0516/1573658-israel-lebanon/", "snippet": "Strikes day after ceasefire extension announced", "source_name": "RTE"},
+        {"title": "One soldier killed in combat in southern Lebanon, IDF kills two Hezbollah terrorists in strikes", "url": "https://www.jpost.com/middle-east/iran-news/2026-05-16/live-updates-896346", "snippet": "IDF soldier killed, 2 Hezbollah terrorists killed in strikes", "source_name": "Jerusalem Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran deal Operation Sledgehammer 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "'Operation Sledgehammer': Trump Threatens Fresh Strikes After Inconclusive Iran Summit with Xi Jinping", "url": "https://www.republicworld.com/world-news/operation-sledgehammer-trump-threatens-fresh-strikes-after-inconclusive-iran-summit-with-xi-jinping-2026-05-16-124567", "snippet": "Trump threatens fresh strikes after inconclusive summit", "source_name": "Republic World"},
+        {"title": "US weighs relaunching strikes on Iran under new name after Trump's China visit", "url": "https://www.indiatvnews.com/news/world/us-weighs-relaunching-strikes-on-iran-under-new-name-after-trump-s-china-visit-reports-2026-05-16-1041391", "snippet": "US weighs relaunching strikes under new name", "source_name": "India TV"},
+        {"title": "'We'll finish the job': Trump warns Iran as US prepares to relaunch 'Operation Sledgehammer'", "url": "https://www.youtube.com/watch?v=clutGcxHlcY", "snippet": "Trump warns 'we'll finish the job'", "source_name": "YouTube"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "USS Gerald Ford returns Norfolk Iran war May 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "USS Gerald R. Ford: US aircraft carrier returns home after record deployment that included Iran war, Maduro capture", "url": "https://www.cnn.com/2026/05/16/politics/ford-iran-war-venezuela-maduro-record", "snippet": "11-month deployment, longest since Vietnam, Presidential Unit Citation", "source_name": "CNN"},
+        {"title": "World's largest aircraft carrier returns from 11-month deployment, longest since Vietnam", "url": "https://fortune.com/2026/05/16/uss-gerald-ford-aircraft-carrier-return-11-month-deployment-iran-war-maduro-raid/", "snippet": "326 days at sea, longest post-Vietnam carrier deployment", "source_name": "Fortune"},
+        {"title": "USS Ford returns home after 11-month deployment supporting the Iran war and Maduro's capture", "url": "https://www.washingtonpost.com/national/2026/05/16/uss-ford-aircraft-carrier-deployment-iran-maduro/a868d79c-5136-11f1-97e7-22c6c29ff0d8_story.html", "snippet": "5,000 sailors return to Norfolk, Presidential Unit Citation awarded", "source_name": "Washington Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Free Iran protest Washington DC Capitol Hill May 16 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Massive crowd protesting Iranian regime in Washington as fragile ceasefire holds", "url": "https://www.foxnews.com/live-news/iran-war-trump-news-strait-hormuz-blockade-ceasefire-tensions-may-16", "snippet": "Thousands flood streets near Capitol Hill, calling for regime change", "source_name": "Fox News"},
+        {"title": "Massive D.C. Demonstration Declares Mullahs Face Terminal Impasse as Resistance Units Surge Inside Iran", "url": "https://www.ncr-iran.org/en/news/iran-resistance/massive-d-c-demonstration-declares-mullahs-face-terminal-impasse-as-resistance-units-surge-inside-iran/", "snippet": "Wesley Clark, Carla Sands, Maryam Rajavi speak; thousands rally", "source_name": "NCRI"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent crude May 16 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Brent crude oil - Price - Chart - Historical Data - News", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent $109.24 (+3.33%), weekly gain +8.1%, 67% YoY", "source_name": "Trading Economics"},
+        {"title": "Oil Market Report - May 2026", "url": "https://www.iea.org/reports/oil-market-report-may-2026", "snippet": "IEA: market severely undersupplied until October", "source_name": "IEA"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Shamkhani Iran nuclear deal sanctions May 2026",
+      "language": "en",
+      "timestamp": "2026-05-16T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran to Counter US Nuclear Offer as Trump Sends New Warning", "url": "https://www.newsweek.com/iran-nuclear-deal-offer-trump-warns-tehran-2081262", "snippet": "Shamkhani: Iran ready to sign if all sanctions lifted; 'olive branch but barbed wire'", "source_name": "Newsweek"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 호르무즈 2026년 5월 16일",
+      "language": "ko",
+      "timestamp": "2026-05-16T23:08:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "트럼프, 이란 군사작전 재개 검토…새 작전명 '슬레지해머' 부상", "url": "https://news.nate.com/view/20260513n30554", "snippet": "미국 정부가 이란 전쟁 재개 시 작전명을 '슬레지해머'로 변경 검토", "source_name": "네이트뉴스"},
+        {"title": "美 이란 공격 재개? 작전명 '장대한 분노'서 '대형 망치'로 변경 검토", "url": "https://www.fnnews.com/news/202605131437170933", "snippet": "펜타곤 이란 공격 재개 시 작전명 교체 검토", "source_name": "파이낸셜뉴스"},
+        {"title": "\"미 국방부, 이란 전쟁 재개 시 작전명 '슬레지해머'로 교체 검토\"", "url": "https://www.newspim.com/news/view/20260513000059", "snippet": "미 국방부 이란 전쟁 재개 시 작전명 변경 검토 보도", "source_name": "뉴스핌"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 핵 제안 슬레지해머 작전 위협",
+      "language": "ko",
+      "timestamp": "2026-05-16T23:09:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "트럼프, 이란 군사작전 재개 검토…새 작전명 '슬레지해머' 부상", "url": "https://news.nate.com/view/20260513n30554", "snippet": "트럼프 행정부가 이란과의 군사 충돌 재개를 진지하게 검토", "source_name": "네이트뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IDF Hezbollah strikes Lebanon May 16 2026 ceasefire",
+      "language": "en",
+      "timestamp": "2026-05-16T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "IDF launches strikes targeting Hezbollah for 1st time since Lebanon ceasefire extended", "url": "https://www.timesofisrael.com/idf-launches-strikes-targeting-hezbollah-for-1st-time-since-lebanon-ceasefire-extended/", "snippet": "Wave of airstrikes on Hezbollah infrastructure, first since 45-day extension", "source_name": "Times of Israel"},
+        {"title": "WATCH: IDF strikes nearly 100 Hezbollah targets, kills two terrorists near rocket launch site", "url": "https://www.jpost.com/israel-news/defense-news/article-896371", "snippet": "Nearly 100 Hezbollah targets struck, 2 terrorists killed", "source_name": "Jerusalem Post"},
+        {"title": "Israel strikes south Lebanon day after truce extension", "url": "https://www.rte.ie/news/world/2026/0516/1573658-israel-lebanon/", "snippet": "Israel struck southern Lebanon Saturday, day after announcing ceasefire extension", "source_name": "RTE"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "USS 제럴드포드 귀환 이란 전쟁",
+      "language": "ko",
+      "timestamp": "2026-05-16T23:11:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "USS Gerald R. Ford: US aircraft carrier returns home after record deployment", "url": "https://www.cnn.com/2026/05/16/politics/ford-iran-war-venezuela-maduro-record", "snippet": "미 최대 항모 11개월 작전 후 귀환, 베트남전 이후 최장 배치", "source_name": "CNN"}
+      ]
+    }
+  ]
+}

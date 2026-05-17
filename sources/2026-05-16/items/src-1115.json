@@ -1,0 +1,24 @@
+{
+  "id": "src-1115",
+  "title": "IDF launches first strikes since ceasefire extended — 9 villages evacuated, wave of airstrikes on Hezbollah infrastructure in south Lebanon",
+  "url": "https://www.timesofisrael.com/idf-launches-strikes-targeting-hezbollah-for-1st-time-since-lebanon-ceasefire-extended/",
+  "snippet": "IDF launched wave of airstrikes on Hezbollah infrastructure in southern Lebanon, first since 45-day ceasefire extension announced a day earlier. Evacuation warnings issued for 9 villages (Qaaqaaiyet al-Snoubar, Kaouthariyet El Saiyad, Merouaniyeh, Ghassaniyeh, Tefahta, Irzay, Babliyeh, Insar, al-Baisariyah). IDF stated: 'In light of Hezbollah terror organization's violations of ceasefire agreement, IDF is forced to act against it with force.' Residents fled toward Sidon and Beirut.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "45일 휴전 연장 후 첫 대규모 공습. 이전 보도와 시간적/내용적 구분이 명확한 신규 사건.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-005", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-005", "type": "Event", "name": "IDF first post-extension strikes"},
+    {"id": "ent-368", "type": "Event", "name": "45-day ceasefire extension"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "follows", "object": "ent-368"}
+  ]
+}

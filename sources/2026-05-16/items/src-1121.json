@@ -1,0 +1,24 @@
+{
+  "id": "src-1121",
+  "title": "US weighs relaunching strikes on Iran under new name after Trump's China visit — commandos for nuclear material retrieval considered",
+  "url": "https://www.indiatvnews.com/news/world/us-weighs-relaunching-strikes-on-iran-under-new-name-after-trump-s-china-visit-reports-2026-05-16-1041391",
+  "snippet": "US and Israel have initiated most extensive military preparations since ceasefire began. Pentagon considers deploying commandos to retrieve nuclear materials — risky operation requiring extensive support. Increased bombing of Iranian military and infrastructure sites also contemplated. Renaming operation could reset 60-day WPR clock, bypassing congressional approval. Strikes could begin as early as next week.",
+  "source_name": "India TV News",
+  "language": "en",
+  "discovered_date": "2026-05-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "특수부대 핵물질 회수 작전 검토와 '다음 주 초 가능' 시점 보도는 신규 구체 정보. 5/14 슬레지해머 개명 검토에서 한 단계 진전.",
+  "entities": [
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-356", "type": "Concept", "name": "Operation Sledgehammer"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-370", "type": "Event", "name": "Nuclear deadlock"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "ent-003", "predicate": "relatedTo", "object": "ent-356"}
+  ]
+}

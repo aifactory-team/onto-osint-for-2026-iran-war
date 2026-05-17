@@ -1529,3 +1529,39 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
 - 신규 개념(Constructive Strategic Stability Framework, Iran victory narrative, Trump 20-point Gaza plan)은 Concept 클래스로 분류
+
+---
+
+## 2026-05-16 추론 결과
+
+### 추론 #1: co_participation (간접 대립)
+- **입력:** (ent-385/Shamkhani, opposes, ent-384/20년 모라토리엄), (ent-001/Trump, participatesIn, ent-384/20년 모라토리엄)
+- **추론:** (ent-385/Shamkhani, opposes, ent-001/Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 샴카니가 트럼프의 핵 제안을 직접 거부하면서 '올리브 가지=가시철사' 수사를 사용. 이란 최고지도자 측근이 트럼프와 직접 대립하는 구도.
+
+### 추론 #2: event_chain (핵 교착→슬레지해머 인과)
+- **입력:** (ent-370/Nuclear deadlock, relatedTo, ent-338/Xi summit), (ent-338/Xi summit, causedBy, ent-380/Sledgehammer threat)
+- **추론:** (ent-380/Sledgehammer, causedBy, ent-370/Nuclear deadlock)
+- **신뢰도:** 0.76
+- **상태:** 확정
+- **비고:** 핵 교착 인정(5/15 아라그치) → 정상회담 구체적 성과 부재 → 슬레지해머 위협 격상. 외교 실패가 군사 에스컬레이션으로 전환되는 인과 체인.
+
+### 추론 #3: co_participation (동시 에스컬레이션)
+- **입력:** (ent-383/IDF 공습, follows, ent-368/45일 연장), (ent-380/Sledgehammer, follows, ent-379/Epic Fury Over)
+- **추론:** (ent-383/IDF 공습, relatedTo, ent-380/Sledgehammer)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 이스라엘과 미국 모두 외교 합의 직후 군사 행동을 격화. 45일 연장과 에픽 퓨리 종료라는 '형식적 평화'가 실제로는 군사 활동의 면허로 기능하는 패턴.
+
+### 추론 #4: event_chain (Ford 귀환→재배치 잠재)
+- **입력:** (ent-381/USS Ford, participatesIn, ent-003/US Military), (ent-003/US Military, relatedTo, ent-380/Sledgehammer)
+- **추론:** (ent-381/USS Ford, relatedTo, ent-380/Sledgehammer)
+- **신뢰도:** 0.70
+- **상태:** 잠정
+- **비고:** Ford 11개월 배치 후 귀환 → 정비/재충전 기간 후 슬레지해머 작전에 재투입 가능성. 현재는 추론적 연결이나 미 해군 전력 재배치 패턴상 모니터링 대상.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- 신규 개념(Sledgehammer threat escalation, 20-year moratorium proposal)은 Event 클래스로 분류

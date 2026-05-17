@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-16",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-380", "source_id": "src-1113", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-380", "predicate": "follows", "object": "ent-379", "source_id": "src-1113", "date": "2026-05-16", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-381", "predicate": "locatedIn", "object": "ent-382", "source_id": "src-1114", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-381", "predicate": "participatesIn", "object": "ent-003", "source_id": "src-1114", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-383", "source_id": "src-1115", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-383", "predicate": "follows", "object": "ent-368", "source_id": "src-1115", "date": "2026-05-16", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-384", "source_id": "src-1116", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-384", "predicate": "relatedTo", "object": "ent-370", "source_id": "src-1116", "date": "2026-05-16", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-385", "predicate": "opposes", "object": "ent-384", "source_id": "src-1117", "date": "2026-05-16", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-385", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1117", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-386", "predicate": "participatesIn", "object": "ent-387", "source_id": "src-1118", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-388", "predicate": "participatesIn", "object": "ent-387", "source_id": "src-1118", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-004", "source_id": "src-1120", "date": "2026-05-16", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "relatedTo", "object": "ent-380", "source_id": "src-1121", "date": "2026-05-16", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-003", "source_id": "src-1121", "date": "2026-05-16", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-338", "predicate": "causedBy", "object": "ent-380", "source_id": "src-1113", "date": "2026-05-16", "confidence": 0.8, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1113", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-005", "source_id": "src-1115", "date": "2026-05-16", "confidence": 0.95, "type": "explicit"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-385", "predicate": "opposes", "object": "ent-001", "rule": "co_participation", "confidence": 0.81, "type": "inferred", "basis": "Shamkhani opposes Trump's proposal, affiliatedWith Iran which opposes US"},
+    {"subject": "ent-380", "predicate": "causedBy", "object": "ent-370", "rule": "event_chain", "confidence": 0.76, "type": "inferred", "basis": "Sledgehammer threat follows from nuclear deadlock → Xi summit failure → military escalation path"},
+    {"subject": "ent-383", "predicate": "relatedTo", "object": "ent-380", "rule": "co_participation", "confidence": 0.72, "type": "inferred", "basis": "IDF post-extension strikes and Sledgehammer threat both represent escalation after diplomatic window closing"},
+    {"subject": "ent-381", "predicate": "relatedTo", "object": "ent-380", "rule": "event_chain", "confidence": 0.7, "type": "inferred", "basis": "Ford return frees carrier group for potential Sledgehammer redeployment"}
+  ],
+  "stats": {
+    "new_nodes": 9,
+    "new_edges": 16,
+    "inferred_edges": 4
+  }
+}
