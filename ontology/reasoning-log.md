@@ -1565,3 +1565,41 @@
 ### 스키마 변경 없음
 - 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
 - 신규 개념(Sledgehammer threat escalation, 20-year moratorium proposal)은 Event 클래스로 분류
+
+---
+
+## 2026-05-17 추론 결과
+
+### 추론 #1: co_participation (바라카 드론→이란 연계)
+- **입력:** (ent-390/Barakah drone strike, locatedIn, ent-157/UAE), 이란의 기존 UAE 공격 패턴(5/4 푸자이라, 5/5 제벨알리, 5/9 3차 공격)
+- **추론:** (ent-390/Barakah drone strike, relatedTo, ent-002/Iran)
+- **신뢰도:** 0.75
+- **상태:** 잠정
+- **비고:** UAE 서쪽 국경에서 드론 진입. 이란은 공격 확인·부인 모두 거부. 기존 4차례 UAE 공격 패턴과 일치하나 원전 표적은 질적 변화. JPost 소스 "메시지 전달 의도."
+
+### 추론 #2: co_participation (사우디+UAE 동시 공격→동일 지휘)
+- **입력:** (ent-396/Saudi drone attack, date=2026-05-17), (ent-390/Barakah drone strike, date=2026-05-17)
+- **추론:** (ent-396, causedBy, ent-390) — 동일 지휘 체계에서의 동시다발 작전
+- **신뢰도:** 0.72
+- **상태:** 잠정
+- **비고:** 사우디 드론은 이라크 영공에서, UAE 드론은 서쪽 국경에서 진입. 발사 주체 미확인이나 동시 공격 타이밍은 조율된 작전 시사.
+
+### 추론 #3: event_chain (네타냐후-트럼프 통화→슬레지해머 사전 조율)
+- **입력:** (ent-001/Trump, cooperatesWith, ent-012/Netanyahu via src-1143), (ent-001/Trump, relatedTo, ent-380/Sledgehammer)
+- **추론:** (temp-001/Netanyahu-Trump call, causedBy, ent-380/Sledgehammer) — 전쟁 재개 사전 조율
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 5/16 슬레지해머 공식 위협 → 5/17 네타냐후 통화 + 안보각의 소집 + 5/19 군사회의 예고. 7일 연속 에스컬레이션 경로의 최고위 조율 단계.
+
+### 추론 #4: co_participation (호르무즈 수익화→장기전 전략)
+- **입력:** (ent-393/Hormuz toll plan, relatedTo, ent-008/Hormuz), (ent-394/Cable fees, relatedTo, ent-008/Hormuz)
+- **추론:** (ent-393, relatedTo, ent-394) — 이란의 호르무즈 다중 수익화 전략
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 5/17 하루에 해상 통행료 체계 공식화 + 해저케이블 사용료 위협 동시 발표. 석유·무역·디지털 인프라 전방위 수익화로 장기전 자금 확보 전략.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- Barakah Nuclear Power Plant → Location 클래스
+- Hormuz Safe insurance, Submarine cable fees → Concept 클래스
+- IAEA, KEPCO → Organization 클래스

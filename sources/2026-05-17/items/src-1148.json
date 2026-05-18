@@ -1,0 +1,21 @@
+{
+  "id": "src-1148",
+  "title": "Israel 100+ Lebanon strikes",
+  "url": "https://www.aljazeera.com/news/2026/5/17/iran-war-day-79-tehran-to-unveil-hormuz-toll-plan-israel-bombs-lebanon",
+  "snippet": "Over 100 Israeli airstrikes in southern Lebanon within 48 hours. Town of Zawtar al-Sharqiyah targeted. One IDF soldier killed in combat in southern Lebanon (21 total IDF losses since March 2). Over 2,900 people killed in Lebanon since war began, including 400+ since ceasefire took effect. Air attack continues despite 45-day ceasefire extension.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 48시간 100+ 공습, 자우타르 알샤르키야 집중 타격",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-079", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-013", "type": "Location", "name": "Zawtar al-Sharqiyah"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-005"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-1145",
+  "title": "Iran Hormuz toll plan",
+  "url": "https://www.fnnews.com/news/202605171142215669",
+  "snippet": "이란 의회 국가안보·외교정책위원회 위원장 에브라힘 아지지가 \"호르무즈 해협에서 지정된 항로를 따라 해상 교통을 관리하는 전문 메커니즘을 마련했다\"고 발표. 통항 시 '전문 서비스에 대한 비용' 부과. 이스라엘 선박 절대 통과 불가. 'Hormuz Safe' 디지털 보험 플랫폼 출범 — 암호화폐/비트코인 결제 가능. 중국·일본·파키스탄 등 아시아 국가 통항 협상 진행 중.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 이란 호르무즈 통행료 체계 공식화 및 보험 플랫폼 출시",
+  "entities": [
+    {"id": "ent-272", "type": "Person", "name": "Ebrahim Azizi", "role": "Iran parliament security committee chair"},
+    {"id": "temp-006", "type": "Event", "name": "Hormuz toll plan announcement"},
+    {"id": "temp-007", "type": "Concept", "name": "Hormuz Safe insurance"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-272", "predicate": "participatesIn", "object": "temp-006"},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

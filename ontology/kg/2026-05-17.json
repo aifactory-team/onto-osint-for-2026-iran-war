@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-17",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-012", "source_id": "src-1143", "date": "2026-05-17", "confidence": 0.95, "type": "explicit", "label": "Netanyahu-Trump 전쟁 재개 통화"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1143", "date": "2026-05-17", "confidence": 0.95, "type": "explicit", "label": "Trump 'clock is ticking' 최후통첩"},
+    {"subject": "ent-389", "predicate": "locatedIn", "object": "ent-157", "source_id": "src-1144", "date": "2026-05-17", "confidence": 0.99, "type": "explicit", "label": "바라카 원전 UAE 소재"},
+    {"subject": "ent-390", "predicate": "locatedIn", "object": "ent-389", "source_id": "src-1144", "date": "2026-05-17", "confidence": 0.99, "type": "explicit", "label": "드론 공격 바라카 원전 타격"},
+    {"subject": "ent-391", "predicate": "participatesIn", "object": "ent-393", "source_id": "src-1145", "date": "2026-05-17", "confidence": 0.90, "type": "explicit", "label": "아지지 통행료 체계 발표"},
+    {"subject": "ent-007", "predicate": "relatedTo", "object": "ent-394", "source_id": "src-1146", "date": "2026-05-17", "confidence": 0.85, "type": "explicit", "label": "IRGC 해저케이블 사용료 요구"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-004", "source_id": "src-1147", "date": "2026-05-17", "confidence": 0.95, "type": "explicit", "label": "헤즈볼라 야아라 드론떼 공격"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-005", "source_id": "src-1148", "date": "2026-05-17", "confidence": 0.95, "type": "explicit", "label": "이스라엘 48시간 100+ 공습"},
+    {"subject": "ent-392", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1149", "date": "2026-05-17", "confidence": 0.99, "type": "explicit", "label": "아레프 이란 부통령"},
+    {"subject": "ent-396", "predicate": "relatedTo", "object": "ent-390", "source_id": "src-1150", "date": "2026-05-17", "confidence": 0.80, "type": "explicit", "label": "사우디 UAE 동시 드론 공격"},
+    {"subject": "ent-397", "predicate": "relatedTo", "object": "ent-389", "source_id": "src-1152", "date": "2026-05-17", "confidence": 0.95, "type": "explicit", "label": "KEPCO 바라카 건설사"},
+    {"subject": "ent-012", "predicate": "cooperatesWith", "object": "ent-003", "source_id": "src-1143", "date": "2026-05-17", "confidence": 0.90, "type": "explicit", "label": "이스라엘-미군 전쟁 재개 조율"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-380", "source_id": "src-1143", "date": "2026-05-17", "confidence": 0.90, "type": "explicit", "label": "슬레지해머 실행 사전 조율 진행 중", "update_note": "5/16 위협→5/17 최고위 조율 단계로 격상"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-390", "predicate": "relatedTo", "object": "ent-002", "source_id": "inferred", "date": "2026-05-17", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "label": "바라카 드론→이란 연계 추론 (서쪽 국경, 기존 UAE 공격 패턴)"},
+    {"subject": "ent-396", "predicate": "causedBy", "object": "ent-390", "source_id": "inferred", "date": "2026-05-17", "confidence": 0.72, "type": "inferred", "rule": "co_participation", "label": "사우디+UAE 동시 공격→동일 지휘 체계 추론"},
+    {"subject": "ent-001", "predicate": "causedBy", "object": "ent-380", "source_id": "inferred", "date": "2026-05-17", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "label": "네타냐후-트럼프 통화→슬레지해머 실행 사전 조율"},
+    {"subject": "ent-393", "predicate": "relatedTo", "object": "ent-394", "source_id": "inferred", "date": "2026-05-17", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "label": "호르무즈 통행료+해저케이블→이란 장기전 수익화 전략"}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 12,
+    "inferred_edges": 4
+  }
+}

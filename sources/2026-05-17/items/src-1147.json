@@ -1,0 +1,23 @@
+{
+  "id": "src-1147",
+  "title": "Hezbollah drone swarm on Ya'ara",
+  "url": "https://sundayguardianlive.com/world/usisraeliran-war-latest-update-israel-strikes-lebanon-as-hezbollah-claims-attacks-on-troops-hormuz-plan-sparks-global-alarm-193202/",
+  "snippet": "Hezbollah claimed launching multiple retaliatory operations: drone swarm attack on Ya'ara barracks (Israel), rocket fire and explosive drone attacks on IDF forces near Rashaf and Hadatha, claims of hitting Israeli bulldozers. IDF reports identifying \"suspicious aerial target\" after sirens in Misgav Am. Israel reports no confirmed casualties from Hezbollah attacks.",
+  "source_name": "Sunday Guardian",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 헤즈볼라 이스라엘 본토 야아라 기지 드론떼 공격",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-009", "type": "Location", "name": "Ya'ara barracks"},
+    {"id": "temp-010", "type": "Location", "name": "Rashaf"},
+    {"id": "temp-011", "type": "Location", "name": "Hadatha"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-012"}
+  ]
+}

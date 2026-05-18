@@ -1,0 +1,21 @@
+{
+  "id": "src-1151",
+  "title": "NCRI Iran news brief",
+  "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-may-17-2026/",
+  "snippet": "Iran executions: ~30 political prisoners executed since war began, ~50,000 arrested this year. $1.7B cryptocurrency transferred through Binance to Iranian regime-affiliated networks. Iraqi militia commander Mohammad Bagher Saad Dawood Saeedi arrested for plotting 12+ attacks on synagogues/Jewish centers in N. America and Europe. PMOI resistance units in Zahedan resumed activities. Dizel Abad Prison visitation suspended.",
+  "source_name": "NCRI",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 이란 내부 탄압·자금 흐름·테러 연계 다각적 신규 정보",
+  "entities": [
+    {"id": "temp-016", "type": "Person", "name": "Mohammad Bagher Saeedi", "role": "Iraqi militia commander"},
+    {"id": "temp-017", "type": "Concept", "name": "Iran crypto sanctions evasion"},
+    {"id": "ent-093", "type": "Organization", "name": "NCRI"}
+  ],
+  "relations": [
+    {"subject": "temp-016", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}

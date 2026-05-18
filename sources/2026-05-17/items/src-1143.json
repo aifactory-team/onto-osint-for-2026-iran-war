@@ -1,0 +1,27 @@
+{
+  "id": "src-1143",
+  "title": "Trump \"clock is ticking\" ultimatum + Netanyahu phone call",
+  "url": "https://www.itv.com/news/2026-05-17/trump-and-netanyahu-speak-by-phone-as-they-consider-resuming-iran-war",
+  "snippet": "Trump posted on Truth Social: \"For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them. TIME IS OF THE ESSENCE!\" Netanyahu spoke with Trump Sunday evening about the war with Iran, then convened security cabinet. Netanyahu said \"our eyes are also open\" regarding Iran, \"prepared for any scenario.\" Axios reported Trump will meet national security advisors May 19 to discuss potential military action. Iraqi officials confirmed to NYT that Israel had held another secret base in Iraq for months. IDF spokesperson Defrin revealed months of joint US-Israel \"strategic and operational deception\" of satellite imagery.",
+  "source_name": "ITV News",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 이벤트 — 네타냐후-트럼프 통화 + 안보각의 소집 + 5/19 군사회의 예고",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-012", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israeli PM"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "temp-001", "type": "Event", "name": "Netanyahu-Trump May 17 call"},
+    {"id": "temp-002", "type": "Event", "name": "May 19 NSC military review"}
+  ],
+  "relations": [
+    {"subject": "ent-012", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1143"]},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1143"]},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-003", "source_ids": ["src-1143"]}
+  ]
+}

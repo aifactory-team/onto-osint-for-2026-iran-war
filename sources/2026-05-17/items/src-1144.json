@@ -1,0 +1,23 @@
+{
+  "id": "src-1144",
+  "title": "Barakah nuclear plant drone strike",
+  "url": "https://www.aljazeera.com/news/2026/5/17/drone-strike-sparks-fire-at-uaes-barakah-nuclear-power-plant",
+  "snippet": "Three drones targeted UAE's Barakah Nuclear Energy Plant (Al Dhafra region) on May 17. Two intercepted by air defenses, one struck electrical generator outside inner perimeter. Fire ignited, no injuries, radiation levels normal. IAEA expressed \"grave concern.\" UAE Defense Ministry called it \"treacherous terrorist attack.\" Drones entered from western border. JPost sources say attack \"intended to send message\" to Emiratis. Korea-built APR1400 reactor technology. One reactor temporarily relied on emergency diesel generators.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 중동 최초 원전 군사 공격, 전쟁 확전 리스크 급상승",
+  "entities": [
+    {"id": "temp-003", "type": "Location", "name": "Barakah Nuclear Power Plant", "properties": {"type": "nuclear facility", "location": "Al Dhafra, UAE"}},
+    {"id": "ent-157", "type": "Organization", "name": "UAE"},
+    {"id": "temp-004", "type": "Event", "name": "Barakah drone strike"},
+    {"id": "temp-005", "type": "Organization", "name": "IAEA"}
+  ],
+  "relations": [
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "temp-003"},
+    {"subject": "temp-004", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

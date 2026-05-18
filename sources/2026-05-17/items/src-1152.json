@@ -1,0 +1,20 @@
+{
+  "id": "src-1152",
+  "title": "Barakah Korean-built nuclear plant drone strike",
+  "url": "https://www.fnnews.com/news/202605180614354142",
+  "snippet": "한국전력이 차세대 원전 노형(APR1400) 기술로 건설한 중동 최초 상업용 원전인 바라카 원전이 드론 피격. 화재 발생했으나 인명 피해·방사능 안전 영향 없음. 한국인 피해 미확인. 같은 날 사우디에도 드론 3대 공격.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 한국 건설 원전 최초 군사 공격, 한국 관련 안보 이슈",
+  "entities": [
+    {"id": "temp-003", "type": "Location", "name": "Barakah Nuclear Power Plant"},
+    {"id": "temp-018", "type": "Organization", "name": "KEPCO", "properties": {"name": "한국전력"}}
+  ],
+  "relations": [
+    {"subject": "temp-018", "predicate": "relatedTo", "object": "temp-003"}
+  ]
+}

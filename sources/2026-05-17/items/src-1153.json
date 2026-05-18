@@ -1,0 +1,21 @@
+{
+  "id": "src-1153",
+  "title": "Hormuz toll + insurance (Korean)",
+  "url": "https://www.fnnews.com/news/202605171142215669",
+  "snippet": "이란이 호르무즈 해협 지정 항로 도입 공식 발표. 통행료 징수 체계 마련. Hormuz Safe 디지털 보험 플랫폼 출시 — 암호화폐·비트코인 결제 가능. 이란과 협력하는 상업 선박만 혜택, 이스라엘 선박 절대 통과 불가. 중국·일본·파키스탄 등 통항 협상 중.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 호르무즈 통행료 체계 공식화 한국어 상세 보도",
+  "entities": [
+    {"id": "ent-272", "type": "Person", "name": "Ebrahim Azizi"},
+    {"id": "temp-007", "type": "Concept", "name": "Hormuz Safe insurance"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-272", "predicate": "participatesIn", "object": "temp-006"}
+  ]
+}

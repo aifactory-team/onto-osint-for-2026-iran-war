@@ -1,0 +1,22 @@
+{
+  "id": "src-1146",
+  "title": "Iran submarine cable fees",
+  "url": "https://us.cnn.com/2026/05/17/middleeast/iran-hormuz-undersea-cables-intl",
+  "snippet": "Iran threatens to charge tech companies for 7 submarine internet cables beneath Strait of Hormuz. Cables carry ~20% of global data traffic, facilitate $10 trillion in daily financial transactions. IRGC demands initial licensing fees, annual \"protection\" payments from Meta/Amazon/Microsoft, exclusive Iranian control over maintenance. Experts say this is more threat than viable plan, violates UNCLOS Article 79.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 이란이 디지털 인프라로 위협 확장, 석유 넘어 데이터 인질화",
+  "entities": [
+    {"id": "ent-007", "type": "Organization", "name": "IRGC"},
+    {"id": "temp-008", "type": "Concept", "name": "Submarine cable fees"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-007", "predicate": "relatedTo", "object": "temp-008"},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

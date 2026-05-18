@@ -1,0 +1,187 @@
+{
+  "date": "2026-05-17",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Netanyahu-Trump May 17 call",
+      "properties": {"date": "2026-05-17", "participants": ["Netanyahu", "Trump"], "topic": "Iran war resumption coordination"},
+      "source_ids": ["src-1143"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "May 19 NSC military review",
+      "properties": {"date": "2026-05-19", "topic": "Potential military action against Iran"},
+      "source_ids": ["src-1143"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Barakah Nuclear Power Plant",
+      "properties": {"type": "nuclear facility", "location": "Al Dhafra, UAE", "built_by": "KEPCO (APR1400)"},
+      "source_ids": ["src-1144", "src-1152"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Barakah drone strike",
+      "properties": {"date": "2026-05-17", "drones": 3, "intercepted": 2, "hit": 1, "damage": "external generator fire", "radiation": "normal"},
+      "source_ids": ["src-1144", "src-1152"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IAEA",
+      "properties": {"type": "international organization", "response": "grave concern"},
+      "source_ids": ["src-1144"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hormuz toll plan announcement",
+      "properties": {"date": "2026-05-17", "features": ["designated lanes", "toll collection", "Hormuz Safe insurance", "crypto payment", "Israel ban"]},
+      "source_ids": ["src-1145", "src-1153"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Hormuz Safe insurance",
+      "properties": {"domain": "maritime insurance", "payment": "cryptocurrency/bitcoin"},
+      "source_ids": ["src-1145", "src-1153"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Submarine cable fees",
+      "properties": {"domain": "digital infrastructure", "cables": 7, "global_traffic_share": "20%", "daily_financial_flow": "$10T"},
+      "source_ids": ["src-1146"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Ya'ara barracks",
+      "properties": {"type": "military base", "location": "northern Israel"},
+      "source_ids": ["src-1147"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Rashaf",
+      "properties": {"type": "town", "location": "southern Lebanon"},
+      "source_ids": ["src-1147"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Hadatha",
+      "properties": {"type": "town", "location": "southern Lebanon"},
+      "source_ids": ["src-1147"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hezbollah Ya'ara drone swarm attack",
+      "properties": {"date": "2026-05-17", "target": "Ya'ara barracks", "weapons": ["drone swarm", "rockets", "explosive drones"]},
+      "source_ids": ["src-1147"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Zawtar al-Sharqiyah",
+      "properties": {"type": "town", "location": "southern Lebanon"},
+      "source_ids": ["src-1148"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Reza Aref",
+      "properties": {"role": "Iran First Vice President", "affiliation": "Iran"},
+      "source_ids": ["src-1149"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Saudi drone attack May 17",
+      "properties": {"date": "2026-05-17", "drones": 3, "origin": "Iraqi airspace", "intercepted": 3},
+      "source_ids": ["src-1150"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Bagher Saeedi",
+      "properties": {"role": "Iraqi militia commander", "charges": "plotting 12+ attacks on synagogues"},
+      "source_ids": ["src-1151"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran crypto sanctions evasion",
+      "properties": {"domain": "sanctions evasion", "amount": "$1.7B", "platform": "Binance"},
+      "source_ids": ["src-1151"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "KEPCO",
+      "properties": {"type": "state enterprise", "location": "South Korea", "role": "Barakah plant builder"},
+      "source_ids": ["src-1152"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-012", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1143"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1143"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-003", "source_ids": ["src-1143"], "confidence": 0.90},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "temp-003", "source_ids": ["src-1144"], "confidence": 0.99},
+    {"subject": "temp-004", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-1144"], "confidence": 0.75},
+    {"subject": "ent-272", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1145"], "confidence": 0.90},
+    {"subject": "ent-007", "predicate": "relatedTo", "object": "temp-008", "source_ids": ["src-1146"], "confidence": 0.85},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-1147"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-1148"], "confidence": 0.95},
+    {"subject": "temp-014", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-1149"], "confidence": 0.99},
+    {"subject": "temp-015", "predicate": "relatedTo", "object": "temp-004", "source_ids": ["src-1150"], "confidence": 0.80},
+    {"subject": "temp-018", "predicate": "relatedTo", "object": "temp-003", "source_ids": ["src-1152"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 18,
+    "new_entities": 18,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

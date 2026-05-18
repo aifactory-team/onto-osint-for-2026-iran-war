@@ -1,0 +1,20 @@
+{
+  "id": "src-1149",
+  "title": "Iran VP Aref statement",
+  "url": "https://sundayguardianlive.com/world/usisraeliran-war-latest-update-israel-strikes-lebanon-as-hezbollah-claims-attacks-on-troops-hormuz-plan-sparks-global-alarm-193202/",
+  "snippet": "Iranian First Vice President Mohammad Reza Aref said his country will no longer allow \"enemy\" military equipment to pass through the Strait of Hormuz. This escalates rhetoric beyond commercial tolls to outright military equipment ban.",
+  "source_name": "Sunday Guardian",
+  "language": "en",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/17 신규 — 이란 부통령의 호르무즈 '적국 군장비 통과 불허' 공식 선언",
+  "entities": [
+    {"id": "temp-014", "type": "Person", "name": "Mohammad Reza Aref", "role": "Iran First Vice President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "temp-014", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}
