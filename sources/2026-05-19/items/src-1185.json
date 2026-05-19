@@ -1,0 +1,19 @@
+{
+  "id": "src-1185",
+  "title": "Oil: Brent eases toward $102 from $111 — sanctions waiver report + strike postponement cause sharp reversal",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude futures eased toward $102 on Monday after rising above $111 earlier in the session. The sharp reversal was triggered by two factors: (1) Iranian media report that the US proposed a temporary waiver on oil sanctions, and (2) Trump's announcement that he was calling off the planned strike on Iran. The ~$9 intraday swing is one of the largest since the war began. Weekly gain from previous $109 level is now largely erased.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "update",
+  "related_report": "2026-05-17/src-1157",
+  "related_item": "src-1157",
+  "tag_reason": "업데이트 — 유가 추적(src-1157): $109→$111→$102 급반전, 제재유예+공습보류가 이중 하락 촉매",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "supply disruption source"},
+    {"id": "temp-005", "type": "Concept", "name": "Temporary Oil Sanctions Waiver", "role": "price catalyst"},
+    {"id": "temp-003", "type": "Event", "name": "Trump Strike Postponement", "role": "price catalyst"}
+  ],
+  "relations": []
+}

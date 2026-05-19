@@ -1603,3 +1603,43 @@
 - Barakah Nuclear Power Plant → Location 클래스
 - Hormuz Safe insurance, Submarine cable fees → Concept 클래스
 - IAEA, KEPCO → Organization 클래스
+
+---
+
+## 2026-05-19 추론 결과
+
+### 추론 #1: co_participation (걸프 3국 공동 중재)
+- **입력:** (ent-399/Tamim, cooperatesWith, ent-001/Trump), (ent-220/MBS, cooperatesWith, ent-001/Trump), (ent-400/MBZ, cooperatesWith, ent-001/Trump)
+- **추론:** (ent-399, cooperatesWith, ent-220), (ent-399, cooperatesWith, ent-400), (ent-220, cooperatesWith, ent-400) — 걸프 3국 공동 중재 블록
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 카타르·사우디·UAE 3국이 동시에 트럼프에게 공습 보류를 요청한 것은 걸프 3국이 이란 전쟁에서 공동 중재자 블록으로 활동하고 있음을 확인. GCC 제다 정상회의(4/28) 이후 걸프 국가 결속력의 실질적 발현.
+
+### 추론 #2: event_chain (공습 보류 ← 수정안 전달 인과 체인)
+- **입력:** (ent-402/Iran Revised Proposal, 2026-05-18), (ent-401/Strike Postponement, 2026-05-18)
+- **추론:** (ent-401/Strike Postponement, causedBy, ent-402/Revised Proposal) — 이란 수정안 전달이 걸프 중재의 근거가 되어 공습 보류를 가능하게 함
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 시간 순서상 이란 수정안이 파키스탄 경유로 전달된 직후 걸프 3국이 '진지한 협상 진행 중'을 근거로 보류를 요청. 수정안 내용이 핵심 쟁점을 해결하지 못했음에도 협상 동력이 살아있다는 신호로 기능.
+
+### 추론 #3: co_participation (UAE 이중 역할 — 피해자이자 중재자)
+- **입력:** (ent-400/MBZ, cooperatesWith, ent-001/Trump → 공습 보류 요청), (ent-157/UAE, 피해자 → ent-390/Barakah drone attack)
+- **추론:** (ent-400, potentialRelation, ent-002/Iran) — UAE가 이란 연계 공격의 피해자이면서도 이란을 위한 중재를 수행
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** UAE가 5/17 바라카 원전 드론 공격을 받고도 5/18 트럼프에게 이란 공습 보류를 요청한 것은 전략적 이중 역할을 보여줌. 이란 직접 비난을 회피하면서 협상 공간을 유지하는 실리적 접근.
+
+### 추론 #4: co_participation (제재 유예 + 공습 보류 = 유가 급반전)
+- **입력:** (ent-403/Sanctions Waiver, 2026-05-18 보도), (ent-401/Strike Postponement, 2026-05-18)
+- **추론:** (ent-403, relatedTo, ent-401) — 두 사건이 동시에 유가 하락의 이중 촉매로 작용
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 브렌트 $111→$102 일중 $9 급반전은 전쟁 이후 최대 일일 낙폭 중 하나. 제재 유예 보도(공급측 완화 기대)와 공습 보류(지정학적 리스크 완화)가 동시에 작용.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- Sheikh Tamim, MBZ → Person 클래스
+- PGSA, USS Alaska → Organization 클래스
+- Strike Postponement, Revised Proposal → Event 클래스
+- Sanctions Waiver → Concept 클래스
+- Gibraltar → Location 클래스

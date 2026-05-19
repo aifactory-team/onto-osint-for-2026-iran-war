@@ -1,0 +1,23 @@
+{
+  "id": "src-1177",
+  "title": "Pakistan's mediation faces limits as Iran-US tensions deepen",
+  "url": "https://www.aljazeera.com/amp/news/2026/5/18/pakistans-mediation-faces-limits-as-iran-us-tensions-deepen",
+  "snippet": "Al Jazeera analysis on the constraints of Pakistan's shuttle diplomacy between Iran and the US. Despite delivering multiple proposal exchanges, Pakistan's mediation faces structural limits: neither side is willing to make significant concessions on core issues (enrichment, sanctions, Hormuz), and Pakistan lacks the leverage to force compromises. The article notes that the mediation channel remains the only active diplomatic line.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 파키스탄 중재의 구조적 한계 분석은 이전 보도에 없던 새로운 시각",
+  "entities": [
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM / mediator"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiation party"},
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Army Chief"}
+  ],
+  "relations": [
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-002"}
+  ]
+}

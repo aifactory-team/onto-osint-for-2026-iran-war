@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-19",
+  "new_triples": [
+    {"subject": "ent-399", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-220", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-400", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-399", "predicate": "cooperatesWith", "object": "ent-220", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-399", "predicate": "cooperatesWith", "object": "ent-400", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-401", "predicate": "follows", "object": "ent-391", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-402", "source_id": "src-1174", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-027", "predicate": "participatesIn", "object": "ent-402", "source_id": "src-1174", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-402", "source_id": "src-1181", "date": "2026-05-19", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-404", "source_id": "src-1176", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-404", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1176", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-405", "predicate": "locatedIn", "object": "ent-406", "source_id": "src-1182", "date": "2026-05-19", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002", "source_id": "src-1178", "date": "2026-05-19", "confidence": 0.95, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1173", "date": "2026-05-19", "confidence": 0.95, "type": "explicit", "note": "strengthened — strike planned then postponed, military on standby"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-399", "predicate": "potentialRelation", "object": "ent-002", "source_id": "inferred", "date": "2026-05-19", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "note": "Qatar mediating between US and Iran — Tamim asked Trump to delay strike for Iran negotiations"},
+    {"subject": "ent-400", "predicate": "potentialRelation", "object": "ent-002", "source_id": "inferred", "date": "2026-05-19", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "note": "UAE simultaneously attacked by Iran-linked drones yet mediating for Iran deal"},
+    {"subject": "ent-401", "predicate": "causedBy", "object": "ent-402", "source_id": "inferred", "date": "2026-05-19", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "note": "Iran's revised proposal delivery (May 18) directly enabled Gulf allies to argue for strike postponement"},
+    {"subject": "ent-403", "predicate": "relatedTo", "object": "ent-401", "source_id": "inferred", "date": "2026-05-19", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "note": "Sanctions waiver report and strike postponement co-occurred and jointly drove oil price drop"}
+  ],
+  "stats": {
+    "new_nodes": 8,
+    "new_edges": 13,
+    "inferred_edges": 4
+  }
+}

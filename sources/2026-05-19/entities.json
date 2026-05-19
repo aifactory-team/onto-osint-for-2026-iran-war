@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-19",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sheikh Tamim bin Hamad Al Thani",
+      "properties": {"role": "Emir of Qatar", "affiliation": "Qatar"},
+      "source_ids": ["src-1173", "src-1180"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohamed bin Zayed Al Nahyan",
+      "properties": {"role": "President of UAE", "affiliation": "UAE"},
+      "source_ids": ["src-1173", "src-1180"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Strike Postponement",
+      "properties": {"date": "2026-05-18", "location": "Washington DC", "participants": "Trump, Gulf leaders"},
+      "source_ids": ["src-1173", "src-1180", "src-1183", "src-1185"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Revised Proposal May 18",
+      "properties": {"date": "2026-05-18", "location": "Pakistan (mediator)", "participants": "Iran, US, Pakistan"},
+      "source_ids": ["src-1174", "src-1181", "src-1186"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Temporary Oil Sanctions Waiver",
+      "properties": {"domain": "diplomacy/sanctions", "source": "Tasnim (Iranian media)"},
+      "source_ids": ["src-1175", "src-1185"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "PGSA (Persian Gulf Strait Authority)",
+      "properties": {"type": "government body", "location": "Iran/Hormuz", "parent": "Iran SNSC"},
+      "source_ids": ["src-1176"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Alaska (SSBN-732)",
+      "properties": {"type": "Ohio-class ballistic missile submarine", "location": "Gibraltar"},
+      "source_ids": ["src-1182"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Gibraltar",
+      "properties": {"type": "British overseas territory", "coordinates": "36.1408°N, 5.3536°W"},
+      "source_ids": ["src-1182"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1173"], "confidence": 0.95},
+    {"subject": "ent-220", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1173"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1173"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-220", "source_ids": ["src-1173"], "confidence": 0.90},
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "temp-002", "source_ids": ["src-1173"], "confidence": 0.90},
+    {"subject": "temp-003", "predicate": "follows", "object": "ent-391", "source_ids": ["src-1173"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1174"], "confidence": 0.95},
+    {"subject": "ent-027", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1174"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "temp-006", "source_ids": ["src-1176"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1176"], "confidence": 0.95},
+    {"subject": "temp-007", "predicate": "locatedIn", "object": "temp-008", "source_ids": ["src-1182"], "confidence": 0.90},
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1178", "src-1182"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 8,
+    "new_entities": 8,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

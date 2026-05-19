@@ -1,0 +1,20 @@
+{
+  "id": "src-1184",
+  "title": "UAE still investigating mystery Barakah nuclear plant drone attack — source not yet attributed",
+  "url": "https://www.euronews.com/2026/05/18/uae-still-investigating-mystery-nuclear-plant-drone-attack",
+  "snippet": "The UAE is continuing its investigation into the May 17 drone strike on the Barakah nuclear power plant. Officials have not attributed responsibility. The reference to a 'western border' raises questions over potential non-Iranian launch points. The Emirates did not accuse Iran directly, though two sources told JPost 'in any case, it's Iran who ordered the attack.' Whether Tehran or the Houthis are behind the incident remains under investigation.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "update",
+  "related_report": "2026-05-17/src-1144",
+  "related_item": "src-1144",
+  "tag_reason": "업데이트 — 바라카 원전 공격(src-1144) 후속: 조사 지속, 공격 주체 미귀속, 서쪽 국경 진입 경로에 대한 의문",
+  "entities": [
+    {"id": "ent-157", "type": "Organization", "name": "UAE", "role": "investigating party"},
+    {"id": "ent-390", "type": "Event", "name": "Barakah Drone Strike", "role": "incident under investigation"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "suspected orchestrator"},
+    {"id": "ent-397", "type": "Organization", "name": "KEPCO", "role": "plant builder"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-1178",
+  "title": "Pentagon prepared re-attack target list for Iran — military readiness maintained",
+  "url": "https://korea.news-pravda.com/dprk/2026/05/18/65482.html",
+  "snippet": "미 국방부가 이란에 대한 재공격 목표 목록을 준비했다. 트럼프가 공습을 보류했지만 국방부는 즉각적인 군사행동이 가능하도록 목표 목록을 최신화하고 대비 태세를 유지하고 있다.",
+  "source_name": "Pravda 한국",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 국방부의 구체적 재공격 목표 목록 준비는 이전에 보도되지 않은 새로운 정보",
+  "entities": [
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "target list preparer"},
+    {"id": "ent-107", "type": "Person", "name": "Pete Hegseth", "role": "Defense Secretary"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target"},
+    {"id": "ent-380", "type": "Concept", "name": "Operation Sledgehammer", "role": "potential operation name"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

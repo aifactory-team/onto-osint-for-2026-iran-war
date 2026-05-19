@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-15",
+  "last_updated": "2026-05-19",
   "classes": [
     {
       "id": "Entity",
@@ -643,35 +643,99 @@
       "action": "add_instances",
       "target": "12 new entities (ent-321~ent-332)",
       "reason": "IRGC 쌍방(해군/항공우주) 보복 위협(미국 센터 '중대 공격' 경고, 미사일·드론 '적에 조준 대기'), 모흐베르 최고지도자 고문 '호르무즈=원자폭탄' 독트린(해협 법적 지위 변경 선언), 헤즈볼라 이스라엘 영내 최초 공격 주장(나하리야/메론 군사기지·휴전 후 첫 크로스보더), 레바논 Day 23 이스라엘 공습(베이루트 남부 드론 4명·남부 13명 등 19+ 사망), UAE 3차 공격(탄도미사일 2발·드론 3기·3명 부상·IRGC 부인), MoU 교착(바가에이 '데드라인 무시'/갈리바프 'Operation Trust Me Bro failed'/레자에이 '미국 위시리스트'), 이란 해군 Ocean Koi 나포(바베이도스 기국·미제재 대상), FAO 식량가격 3년 최고(130.7·비료 +20%), 트럼프-시진핑 5/14-15 베이징 정상회담(이란 의제 지배 전망), 한국 유가 6주 연속 상승(휘발유 2011.2원/L)",
-      "source_ids": ["src-963", "src-964", "src-965", "src-966", "src-967", "src-968", "src-969", "src-970", "src-971", "src-972"]
+      "source_ids": [
+        "src-963",
+        "src-964",
+        "src-965",
+        "src-966",
+        "src-967",
+        "src-968",
+        "src-969",
+        "src-970",
+        "src-971",
+        "src-972"
+      ]
     },
     {
       "date": "2026-05-10",
       "action": "add_instances",
       "target": "12 new entities (ent-333~ent-344)",
       "reason": "이란 공식 역제안 파키스탄 경유 전달(다페이지 응답서·OFAC 제재 해제 30일·봉쇄 종료·핵 분리 협상 요구), 트럼프 즉각 거부('TOTALLY UNACCEPTABLE'), 카타르 Al Kharaitiyat LNG선 호르무즈 최초 통과(전쟁 후 첫 LNG·이란-파키스탄 정부간 합의), 이란 핵 역제안(우라늄 희석+제3국 이전·반환조항·시설 해체 거부), 레바논 Day 24 최대 사상자(39명+·85개소 타격), 헤즈볼라 비야다/라차프/미스가브암 공격, 트럼프-시진핑 베이징 정상회담(5/14-15) 이란 의제 확인",
-      "source_ids": ["src-993", "src-994", "src-995", "src-996", "src-997", "src-998", "src-999", "src-1000"]
+      "source_ids": [
+        "src-993",
+        "src-994",
+        "src-995",
+        "src-996",
+        "src-997",
+        "src-998",
+        "src-999",
+        "src-1000"
+      ]
     },
     {
       "date": "2026-05-11",
       "action": "add_instances",
       "target": "8 new entities (ent-345~ent-352)",
       "reason": "금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능. 스키마 변경 없음.",
-      "source_ids": ["src-1023", "src-1024", "src-1025", "src-1026", "src-1029", "src-1030"]
+      "source_ids": [
+        "src-1023",
+        "src-1024",
+        "src-1025",
+        "src-1026",
+        "src-1029",
+        "src-1030"
+      ]
     },
     {
       "date": "2026-05-16",
       "action": "add_instances",
       "target": "9 new entities (ent-380~ent-388)",
       "reason": "트럼프 슬레지해머 공식 위협(시진핑 회담 후), USS Gerald Ford 11개월 작전 귀환(베트남전 이후 최장), IDF 휴전 연장 후 첫 대규모 공습(9개 마을 대피), 트럼프 20년 핵 모라토리엄 제안(AF1), 샴카니 '올리브 가지=가시철사' 대응, Free Iran DC 집회(Wesley Clark/Rajavi), 헤즈볼라 드론 공격(메론)",
-      "source_ids": ["src-1113", "src-1114", "src-1115", "src-1116", "src-1117", "src-1118", "src-1119", "src-1120", "src-1121"]
+      "source_ids": [
+        "src-1113",
+        "src-1114",
+        "src-1115",
+        "src-1116",
+        "src-1117",
+        "src-1118",
+        "src-1119",
+        "src-1120",
+        "src-1121"
+      ]
     },
     {
       "date": "2026-05-17",
       "action": "add_instances",
       "target": "10 new entities (ent-389~ent-398)",
       "reason": "바라카 원전 드론 공격(중동 최초 원전 군사 공격·3대 중 1대 피격), 네타냐후-트럼프 전쟁 재개 통화·안보각의·5/19 군사회의 예고, 이란 호르무즈 통행료 체계 공식화(지정 항로·Hormuz Safe 보험·암호화폐), 해저케이블 7개 사용료 위협($10T 일일 금융거래), 이란 VP 아레프 적군 장비 불허, 사우디 드론 3대 동시 공격, 헤즈볼라 야아라 기지 드론떼 공격, 이스라엘 48시간 100+ 레바논 공습",
-      "source_ids": ["src-1143", "src-1144", "src-1145", "src-1146", "src-1147", "src-1148", "src-1149", "src-1150", "src-1151", "src-1152", "src-1153"]
+      "source_ids": [
+        "src-1143",
+        "src-1144",
+        "src-1145",
+        "src-1146",
+        "src-1147",
+        "src-1148",
+        "src-1149",
+        "src-1150",
+        "src-1151",
+        "src-1152",
+        "src-1153"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "action": "add_instances",
+      "target": "8 new entities (ent-399~ent-406)",
+      "reason": "트럼프 이란 공습 보류(걸프 3국 타밈/MBS/MBZ 요청), 이란 수정안 파키스탄 경유 전달, 미국 임시 석유 제재 유예 제안(타스님), PGSA 호르무즈 관리기구 설립, USS Alaska 핵잠 지브롤터 배치, 유가 $111→$102 급반전",
+      "source_ids": [
+        "src-1173",
+        "src-1174",
+        "src-1175",
+        "src-1176",
+        "src-1178",
+        "src-1180",
+        "src-1182"
+      ]
     }
   ]
 }

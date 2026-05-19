@@ -1,0 +1,19 @@
+{
+  "id": "src-1187",
+  "title": "Hormuz toll $2M per ship violates UNCLOS — Just Security legal analysis",
+  "url": "https://www.justsecurity.org/135899/strait-hormuz-tolls-crisis/",
+  "snippet": "Just Security legal analysis argues Iran's $2 million transit fee violates UNCLOS Article 38 (transit passage rights) and the prohibition on charges levied on foreign ships 'by reason of passage alone.' Charges may be levied only as payment for specific services rendered to the transiting vessel and must be applied without discrimination. The analysis calls the toll system 'illegal under international law' and notes it could establish a dangerous precedent for other international straits.",
+  "source_name": "Just Security",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "update",
+  "related_report": "2026-05-17/src-1145",
+  "related_item": "src-1145",
+  "tag_reason": "업데이트 — 호르무즈 통행료(src-1145) 후속: 국제법 위반 분석 상세화($2M, UNCLOS 38조)",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "toll location"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "toll imposer"},
+    {"id": "ent-393", "type": "Concept", "name": "Hormuz Toll System", "role": "subject of legal analysis"}
+  ],
+  "relations": []
+}

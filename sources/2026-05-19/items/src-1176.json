@@ -1,0 +1,24 @@
+{
+  "id": "src-1176",
+  "title": "Iran formalizes PGSA (Persian Gulf Strait Authority) to manage Hormuz — SNSC announces new body",
+  "url": "https://www.newsweek.com/iran-announces-new-body-to-manage-strait-of-hormuz-11962513",
+  "snippet": "Iran's Supreme National Security Council (SNSC) announced the creation of the Persian Gulf Strait Authority (PGSA), formalizing Tehran's grip on the critical waterway. The PGSA will manage passage clearances and toll collection, requiring all ships to coordinate with Iranian forces. This signals that Tehran is looking to institutionalize its Hormuz control as a permanent feature rather than a temporary wartime measure.",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — PGSA 기관 설립은 5/17 통행료 체계(src-1145) 이후의 제도화 단계로 질적으로 다른 사건",
+  "entities": [
+    {"id": "temp-006", "type": "Organization", "name": "PGSA (Persian Gulf Strait Authority)", "type_detail": "Iranian government body"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "PGSA creator"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "PGSA jurisdiction"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "enforcement"},
+    {"id": "ent-393", "type": "Concept", "name": "Hormuz Toll System", "role": "PGSA function"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "temp-006"},
+    {"subject": "temp-006", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

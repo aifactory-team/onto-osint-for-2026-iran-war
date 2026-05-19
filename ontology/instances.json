@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-19",
   "entities": [
     {
       "id": "ent-001",
@@ -4596,9 +4596,126 @@
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
       "mention_count": 2
+    },
+    {
+      "id": "ent-399",
+      "type": "Person",
+      "name": "Sheikh Tamim bin Hamad Al Thani",
+      "properties": {
+        "role": "Emir of Qatar",
+        "affiliation": "Qatar",
+        "action_may19": "requested Trump to postpone planned Iran strike; joined MBS and MBZ in coordinated Gulf appeal for 2-3 day delay to allow 'serious negotiations'"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-400",
+      "type": "Person",
+      "name": "Mohamed bin Zayed Al Nahyan",
+      "properties": {
+        "role": "President of UAE",
+        "affiliation": "UAE",
+        "action_may19": "joined Tamim and MBS in requesting Trump to postpone Iran strike; UAE simultaneously investigating Barakah nuclear plant drone attack"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-401",
+      "type": "Event",
+      "name": "Trump Strike Postponement",
+      "properties": {
+        "date": "2026-05-18",
+        "location": "Washington DC",
+        "participants": [
+          "Donald Trump",
+          "Tamim",
+          "MBS",
+          "MBZ",
+          "Hegseth",
+          "Caine"
+        ],
+        "action": "Trump called off planned 'very major attack' on Iran at request of Gulf allies (Qatar, Saudi, UAE); ordered Hegseth/Caine to stand down but military to remain ready for 'full, large scale assault on a moment's notice'; Gulf leaders said 2-3 days of negotiations could produce 'very acceptable' deal"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-402",
+      "type": "Event",
+      "name": "Iran Revised Proposal May 18",
+      "properties": {
+        "date": "2026-05-18",
+        "location": "Pakistan (mediator)",
+        "participants": [
+          "Iran",
+          "US",
+          "Pakistan"
+        ],
+        "action": "Iran delivered modified proposal to US via Pakistani mediators; enrichment remains sticking point; US demands 20-year moratorium + transfer of 400kg enriched to 60%; Iran rejects as 'no basis in reality'; Trump says 'not open to any proposal'"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-403",
+      "type": "Concept",
+      "name": "Temporary Oil Sanctions Waiver",
+      "properties": {
+        "domain": "diplomacy/sanctions",
+        "action_may19": "Tasnim (Iranian media) reported US proposed temporary waiver on oil sanctions until final agreement; not confirmed by Washington; key demand by Tehran for reopening Hormuz; report caused Brent to drop from $111 to ~$102"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-404",
+      "type": "Organization",
+      "name": "PGSA (Persian Gulf Strait Authority)",
+      "properties": {
+        "type": "government body",
+        "location": "Iran/Strait of Hormuz",
+        "parent": "Iran Supreme National Security Council (SNSC)",
+        "action_may19": "SNSC announced creation of PGSA to manage Hormuz passage clearances and toll collection; formalizes Iran's institutional grip on the waterway; signals permanent rather than temporary wartime control"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-405",
+      "type": "Organization",
+      "name": "USS Alaska (SSBN-732)",
+      "properties": {
+        "type": "Ohio-class ballistic missile submarine",
+        "location": "Gibraltar",
+        "action_may19": "deployed to Gibraltar in rare public disclosure of SSBN location; carries up to 20 Trident II D5 missiles; bypassed Spain's Rota base (Spain refused use for Iran operations); nuclear deterrence signal to Iran"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-406",
+      "type": "Location",
+      "name": "Gibraltar",
+      "properties": {
+        "type": "British overseas territory",
+        "coordinates": "36.1408N, 5.3536W",
+        "action_may19": "USS Alaska SSBN docked at South Mole; Royal Marines security; used as alternative to Spain's Rota after Madrid refused base access for Iran operations"
+      },
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "mention_count": 3
     }
   ],
-  "total_count": 312,
+  "total_count": 364,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -4793,6 +4910,22 @@
       "first_seen": "2026-05-16",
       "last_seen": "2026-05-16",
       "mention_count": 1
+    },
+    {
+      "date": "2026-05-19",
+      "action": "add_instances",
+      "target": "8 new entities (ent-399~ent-406)",
+      "reason": "트럼프 이란 공습 보류(걸프 3국 요청: 타밈/MBS/MBZ), 이란 수정안 파키스탄 경유 전달(농축 교착 지속), 미국 임시 제재 유예 제안(타스님 보도), PGSA 호르무즈 관리기구 설립(SNSC 발표), USS Alaska 핵잠 지브롤터 배치(핵 시그널링), 유가 $111→$102 급반전",
+      "source_ids": [
+        "src-1173",
+        "src-1174",
+        "src-1175",
+        "src-1176",
+        "src-1177",
+        "src-1178",
+        "src-1180",
+        "src-1182"
+      ]
     }
   ]
 }

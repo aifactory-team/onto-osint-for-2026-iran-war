@@ -1,0 +1,25 @@
+{
+  "id": "src-1174",
+  "title": "Iran delivers revised/modified proposal to US via Pakistan mediators — enrichment remains key sticking point",
+  "url": "https://www.aljazeera.com/news/2026/5/18/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan-2",
+  "snippet": "Iran delivered its response to the latest U.S. suggestions via Pakistani mediators on May 18. Washington's central demands include a 20-year moratorium on uranium enrichment and the transfer abroad of Iran's stockpile of roughly 400kg enriched to 60%. Iran's modified proposal addresses some concerns but enrichment remains the fundamental sticking point. Pakistan transmitted the document to Washington, continuing its role as shuttle mediator.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 5/18 이란 수정안 전달은 이전 협상 교착(src-1156) 이후의 새로운 외교적 진전",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "proposal sender"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM / mediator"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President / proposal recipient"},
+    {"id": "temp-004", "type": "Event", "name": "Iran Revised Proposal May 18", "date": "2026-05-18"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "key negotiation issue"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "ent-027", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-004", "predicate": "follows", "object": "ent-002"}
+  ]
+}

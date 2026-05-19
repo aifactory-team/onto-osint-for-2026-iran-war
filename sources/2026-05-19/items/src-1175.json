@@ -1,0 +1,23 @@
+{
+  "id": "src-1175",
+  "title": "Iranian media (Tasnim): US offered temporary oil sanctions waiver until final agreement reached",
+  "url": "https://www.ibtimes.com/iranian-media-says-us-offered-temporary-waiver-oil-sanctions-against-tehran-3802976",
+  "snippet": "Iran's semi-official Tasnim news agency reported, citing a source close to the negotiation team, that the US proposed a temporary waiver of sanctions on Iran's oil — a key demand by Tehran to agree to a peace deal and reopen the Strait of Hormuz. The waiver would be in place until a final agreement is achieved. The US has not confirmed the offer. This report caused oil prices to drop significantly from $111 toward $102.",
+  "source_name": "IBTimes",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 미국의 임시 제재 유예 제안은 이전 보도에 없던 새로운 협상 카드",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "sanctions target"},
+    {"id": "temp-005", "type": "Concept", "name": "Temporary Oil Sanctions Waiver", "domain": "diplomacy/sanctions"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "linked to sanctions relief"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

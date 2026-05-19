@@ -1,0 +1,23 @@
+{
+  "id": "src-1182",
+  "title": "[한국] 핵잠 대기시킨 미국‥본 적 없는 '엄포' — USS Alaska 지브롤터 배치",
+  "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6821907_37004.html",
+  "snippet": "미국이 오하이오급 탄도미사일 핵잠수함 USS Alaska(SSBN-732)를 지브롤터에 배치한 것이 핵 시그널링으로 분석된다. 트라이던트 II D5 미사일 최대 20발 탑재 가능. 통상 은밀 작전하는 SSBN의 위치를 공개 공개한 것은 극히 이례적이며, 이란에 대한 핵 억지 메시지로 해석된다. 스페인이 이란전 지원을 위한 로타/모론 기지 사용을 거부해 영국령 지브롤터로 기항.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — USS Alaska 배치 자체는 5/10-11이나, 한국어 심층 분석(핵 시그널링, 스페인 기지 거부)은 이전 보도에 없음",
+  "entities": [
+    {"id": "temp-007", "type": "Organization", "name": "USS Alaska (SSBN-732)", "type_detail": "US Navy nuclear submarine"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "deployer"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "deterrence target"},
+    {"id": "temp-008", "type": "Location", "name": "Gibraltar", "type_detail": "British overseas territory"}
+  ],
+  "relations": [
+    {"subject": "temp-007", "predicate": "locatedIn", "object": "temp-008"},
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-1186",
+  "title": "Iran enrichment proposals exchanged via Pakistan — enrichment remains sticking point, 20-year moratorium demand",
+  "url": "https://www.washingtontimes.com/news/2026/may/18/iran-says-exchanged-revised-proposals-us-though-enrichment-remains/",
+  "snippet": "Iran and the U.S. exchanged revised proposals for peace. Washington demands a 20-year moratorium on uranium enrichment and transfer of Iran's 400kg stockpile enriched to 60%. Iran objects, claiming 'these claims have no basis in reality.' Over the past two years, the same enrichment issues have been repeatedly raised. The exchange was conducted via Pakistani mediators.",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "update",
+  "related_report": "2026-05-17/src-1156",
+  "related_item": "src-1156",
+  "tag_reason": "업데이트 — 핵 협상 교착(src-1156) 후속: 수정안 교환 구체화, 20년 모라토리엄·400kg 이전 요구 상세",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiation party"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "mediator"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM"}
+  ],
+  "relations": []
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-19",
   "nodes": [
     {
       "id": "ent-001",
@@ -1799,6 +1799,46 @@
       "id": "ent-398",
       "type": "Organization",
       "label": "IAEA"
+    },
+    {
+      "id": "ent-399",
+      "type": "Person",
+      "label": "Sheikh Tamim bin Hamad Al Thani"
+    },
+    {
+      "id": "ent-400",
+      "type": "Person",
+      "label": "Mohamed bin Zayed Al Nahyan"
+    },
+    {
+      "id": "ent-401",
+      "type": "Event",
+      "label": "Trump Strike Postponement"
+    },
+    {
+      "id": "ent-402",
+      "type": "Event",
+      "label": "Iran Revised Proposal May 18"
+    },
+    {
+      "id": "ent-403",
+      "type": "Concept",
+      "label": "Temporary Oil Sanctions Waiver"
+    },
+    {
+      "id": "ent-404",
+      "type": "Organization",
+      "label": "PGSA"
+    },
+    {
+      "id": "ent-405",
+      "type": "Organization",
+      "label": "USS Alaska (SSBN-732)"
+    },
+    {
+      "id": "ent-406",
+      "type": "Location",
+      "label": "Gibraltar"
     }
   ],
   "edges": [
@@ -9298,6 +9338,102 @@
       "date": "2026-05-17",
       "confidence": 0.8,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-399",
+      "predicate": "cooperatesWith",
+      "object": "ent-001",
+      "source_id": "src-1173",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-220",
+      "predicate": "cooperatesWith",
+      "object": "ent-001",
+      "source_id": "src-1173",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-400",
+      "predicate": "cooperatesWith",
+      "object": "ent-001",
+      "source_id": "src-1173",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-401",
+      "predicate": "follows",
+      "object": "ent-391",
+      "source_id": "src-1173",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-402",
+      "source_id": "src-1174",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-027",
+      "predicate": "participatesIn",
+      "object": "ent-402",
+      "source_id": "src-1174",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "relatedTo",
+      "object": "ent-404",
+      "source_id": "src-1176",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-404",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-1176",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-405",
+      "predicate": "locatedIn",
+      "object": "ent-406",
+      "source_id": "src-1182",
+      "date": "2026-05-19",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-003",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "source_id": "src-1178",
+      "date": "2026-05-19",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-399",
+      "predicate": "potentialRelation",
+      "object": "ent-002",
+      "source_id": "inferred",
+      "date": "2026-05-19",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-401",
+      "predicate": "causedBy",
+      "object": "ent-402",
+      "source_id": "inferred",
+      "date": "2026-05-19",
+      "confidence": 0.85
     }
   ],
   "stats": {

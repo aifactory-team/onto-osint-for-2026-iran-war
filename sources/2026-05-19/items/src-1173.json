@@ -1,0 +1,30 @@
+{
+  "id": "src-1173",
+  "title": "Trump calls off planned Iran strike at Gulf allies' request — Qatar, Saudi, UAE leaders asked for 2-3 day delay",
+  "url": "https://www.cbsnews.com/news/trump-says-called-off-scheduled-iran-attack-gulf-partners/",
+  "snippet": "President Trump announced he has postponed a planned U.S. military strike on Iran at the request of key Gulf allies — the Emir of Qatar Sheikh Tamim, Saudi Crown Prince Mohammed bin Salman, and UAE President Mohamed bin Zayed — who said serious negotiations could produce a deal 'very acceptable' to the US. Trump ordered Hegseth and Caine to stand down but instructed the military to remain ready for a 'full, large scale assault of Iran, on a moment's notice' if negotiations fail. Trump said he had planned 'a very major attack' but put it off 'for a little while, hopefully, maybe forever.'",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프의 이란 공습 보류 결정은 이전 보도된 5/19 NSC 군사회의(src-1143)의 후속이나 결과가 정반대(공격→보류)인 전환적 사건",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-001", "type": "Person", "name": "Sheikh Tamim bin Hamad Al Thani", "role": "Emir of Qatar"},
+    {"id": "ent-220", "type": "Person", "name": "Mohammed bin Salman", "role": "Saudi Crown Prince"},
+    {"id": "temp-002", "type": "Person", "name": "Mohamed bin Zayed Al Nahyan", "role": "UAE President"},
+    {"id": "ent-107", "type": "Person", "name": "Pete Hegseth", "role": "Defense Secretary"},
+    {"id": "ent-108", "type": "Person", "name": "Daniel Caine", "role": "Joint Chiefs Chairman"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target of planned strike"},
+    {"id": "temp-003", "type": "Event", "name": "Trump Strike Postponement", "date": "2026-05-18"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "ent-220", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "temp-002", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-003", "predicate": "follows", "object": "ent-391"}
+  ]
+}

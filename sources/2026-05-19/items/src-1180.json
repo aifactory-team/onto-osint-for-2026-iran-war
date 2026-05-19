@@ -1,0 +1,25 @@
+{
+  "id": "src-1180",
+  "title": "[한국] 트럼프, 이란 공습 재개 전격 보류…'걸프 3국 중재 결렬 시 전면전'",
+  "url": "https://www.newspim.com/news/view/20260519000016",
+  "snippet": "트럼프 대통령이 카타르·사우디·UAE 등 중동 지도자들의 요청을 받아들여 예정됐던 이란 군사 공격을 보류하도록 지시했다. 진지한 협상이 진행 중이며 이란의 핵무기 보유를 절대 용납하지 않는다고 강조. 협상 결렬 시 즉각 전면적 대규모 공습을 감행할 수 있도록 만반의 준비를 갖추라고 국방부와 합참에 추가 명령.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — src-1173의 한국어 종합 보도. 걸프 3국 중재 결렬 시 전면전이라는 조건부 구조를 강조",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-001", "type": "Person", "name": "Sheikh Tamim bin Hamad Al Thani", "role": "Emir of Qatar"},
+    {"id": "ent-220", "type": "Person", "name": "Mohammed bin Salman", "role": "Saudi Crown Prince"},
+    {"id": "temp-002", "type": "Person", "name": "Mohamed bin Zayed Al Nahyan", "role": "UAE President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target"},
+    {"id": "temp-003", "type": "Event", "name": "Trump Strike Postponement", "date": "2026-05-18"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-220"},
+    {"subject": "temp-002", "predicate": "cooperatesWith", "object": "ent-220"}
+  ]
+}

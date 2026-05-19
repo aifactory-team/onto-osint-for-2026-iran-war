@@ -1,0 +1,19 @@
+{
+  "id": "src-1183",
+  "title": "[한국] 유럽증시 상승 — 이란 수정안 전달 소식·저가 매수세 유입",
+  "url": "https://www.newspim.com/news/view/20260519000013",
+  "snippet": "유럽증시가 이란의 수정안 전달 소식과 저가 매수세 유입으로 상승했다. 독일 DAX는 1.5% 상승. 이란 공습 보류 결정도 시장 안정에 기여. 글로벌 채권 금리 폭등 속에서도 전쟁 리스크 완화 기대감이 반영됐다.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 유럽 증시의 이란 공습 보류 반응은 이전 보도에 없는 시장 데이터",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "geopolitical factor"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "policy driver"},
+    {"id": "temp-003", "type": "Event", "name": "Trump Strike Postponement", "role": "market catalyst"}
+  ],
+  "relations": []
+}

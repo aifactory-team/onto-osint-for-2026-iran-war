@@ -1,0 +1,22 @@
+{
+  "id": "src-1181",
+  "title": "[한국] 트럼프 이란 최신 종전안에 실망…'어떤 제안에도 열려 있지 않아'",
+  "url": "https://www.fnnews.com/news/202605190338323910",
+  "snippet": "트럼프 대통령이 이란의 최신 종전 제안에 대해 실망감을 표명하며 '어떤 제안에도 열려 있지 않다'고 밝혔다. 공습은 보류했지만 이란의 제안이 미국의 핵심 요구(핵 모라토리엄, 호르무즈 개방)를 충족하지 못한다는 입장을 재확인.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프의 이란 제안 거부 의사 표명은 공습 보류와 동시에 나온 강경 메시지",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "proposal rejected"},
+    {"id": "temp-004", "type": "Event", "name": "Iran Revised Proposal May 18", "date": "2026-05-18"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "negotiation issue"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "temp-004"}
+  ]
+}

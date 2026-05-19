@@ -1,0 +1,19 @@
+{
+  "id": "src-1179",
+  "title": "Newsweek: 5 Iran War Scenarios as Trump Weighs Options",
+  "url": "https://www.newsweek.com/iran-war-trump-nuclear-deal-ceasefire-11962171",
+  "snippet": "Newsweek analysis presents 5 scenarios: (1) Diplomatic breakthrough — deal on Hormuz + nuclear moratorium, (2) Limited strikes under Sledgehammer — targeted nuclear/military sites, (3) Full-scale assault — comprehensive bombing campaign, (4) Continued stalemate — indefinite blockade/counter-blockade, (5) Regional escalation — Gulf states drawn into direct conflict. The article notes Trump's options are constrained by oil prices, congressional pressure, and Gulf allies' concerns.",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-05-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 5개 시나리오 분석은 현 시점의 전쟁 방향을 체계적으로 정리한 분석 기사",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "decision maker"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "adversary"},
+    {"id": "ent-380", "type": "Concept", "name": "Operation Sledgehammer", "role": "one of 5 scenarios"}
+  ],
+  "relations": []
+}
