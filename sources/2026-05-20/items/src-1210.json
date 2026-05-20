@@ -1,0 +1,25 @@
+{
+  "id": "src-1210",
+  "title": "[한국] UAE 국방부: 바라카 드론 이라크 출처 확인, 48시간 동안 6대 추가 요격",
+  "url": "https://korea.news-pravda.com/world/2026/05/19/65595.html",
+  "snippet": "UAE 국방부가 5월 17일 바라카 원전 인근에 떨어진 드론 3대가 모두 이라크 영토에서 발사됐다고 공식 확인했다. 또한 이후 48시간 동안 이라크에서 발사된 드론 6대를 추가 요격했으며, 이들은 '중요 민간 시설'을 겨냥했다고 밝혔다. 정보 소식통에 따르면 이란 지원을 받는 이라크 민병대 카타이브 헤즈볼라가 유력한 배후로 지목되고 있다. 이번 확인은 바라카 공격의 출처를 둘러싼 논란에 종지부를 찍는 한편, 이라크 내 이란 프록시 네트워크의 걸프국 위협 능력을 부각시킨다.",
+  "source_name": "Pravda 한국",
+  "language": "ko",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 한국어 보도로 바라카 드론 이라크 출처 확인 및 48시간 추가 요격 정보를 한국 독자에게 전달. src-1204의 한국어 병행 보도",
+  "entities": [
+    {"id": "ent-390", "type": "Event", "name": "Barakah Drone Strike", "role": "사건"},
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "유력 배후"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "드론 발사 원점"},
+    {"id": "ent-411", "type": "Event", "name": "Barakah Drones Iraq Origin Confirmation", "role": "UAE 국방부 발표"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "프록시 지원국"}
+  ],
+  "relations": [
+    {"subject": "ent-411", "predicate": "confirms", "object": "ent-390"},
+    {"subject": "ent-409", "predicate": "suspectedOf", "object": "ent-390"},
+    {"subject": "ent-390", "predicate": "originatesFrom", "object": "ent-410"}
+  ]
+}

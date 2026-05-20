@@ -1,0 +1,26 @@
+{
+  "id": "src-1208",
+  "title": "Rubio & Wang Yi jointly oppose Hormuz tolls — both agree 'no country can collect tolls in international waterways', rare US-China alignment",
+  "url": "https://windward.ai/blog/irans-hormuz-transit-toll-mechanism-and-what-it-means/",
+  "snippet": "Windward's maritime intelligence analysis highlights the rare convergence of US and Chinese positions on Iran's Hormuz toll mechanism. Secretary of State Marco Rubio and Chinese Foreign Minister Wang Yi both stated that 'no country can collect tolls in international waterways,' representing an unusual point of US-China agreement amid broader geopolitical competition. The joint opposition strengthens the international legal case against Iran's PGSA (Persian Gulf Strait Authority) toll collection. The analysis notes this convergence is driven by both countries' significant commercial shipping interests through Hormuz, with China importing ~40% of its oil via the strait.",
+  "source_name": "Windward",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 루비오-왕이 공동 반대 성명은 이전 미보도. 미-중 이례적 합의점으로 PGSA/호르무즈 통행료 문제의 국제적 압박 강화",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-280", "type": "Person", "name": "Wang Yi", "role": "Chinese Foreign Minister"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "contested waterway"},
+    {"id": "ent-404", "type": "Organization", "name": "PGSA", "role": "Iranian toll authority opposed"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "toll collector"}
+  ],
+  "relations": [
+    {"subject": "ent-077", "predicate": "cooperatesWith", "object": "ent-280"},
+    {"subject": "ent-077", "predicate": "opposes", "object": "ent-404"},
+    {"subject": "ent-280", "predicate": "opposes", "object": "ent-404"},
+    {"subject": "ent-404", "predicate": "controls", "object": "ent-008"}
+  ]
+}

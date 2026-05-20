@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-19",
+  "last_updated": "2026-05-20",
   "nodes": [
     {
       "id": "ent-001",
@@ -1839,6 +1839,41 @@
       "id": "ent-406",
       "type": "Location",
       "label": "Gibraltar"
+    },
+    {
+      "id": "ent-407",
+      "type": "Person",
+      "label": "Bill Cassidy"
+    },
+    {
+      "id": "ent-408",
+      "type": "Event",
+      "label": "Senate WPR Resolution 7th Vote"
+    },
+    {
+      "id": "ent-409",
+      "type": "Organization",
+      "label": "Kata'ib Hezbollah"
+    },
+    {
+      "id": "ent-410",
+      "type": "Location",
+      "label": "Iraq"
+    },
+    {
+      "id": "ent-411",
+      "type": "Event",
+      "label": "Barakah Drones Iraq Origin Confirmation"
+    },
+    {
+      "id": "ent-412",
+      "type": "Event",
+      "label": "US Arrest of KH Leader"
+    },
+    {
+      "id": "ent-413",
+      "type": "Person",
+      "label": "Tim Kaine"
     }
   ],
   "edges": [
@@ -9434,11 +9469,147 @@
       "source_id": "inferred",
       "date": "2026-05-19",
       "confidence": 0.85
+    },
+    {
+      "subject": "ent-407",
+      "predicate": "participatesIn",
+      "object": "ent-408",
+      "source_id": "src-1203",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-413",
+      "predicate": "participatesIn",
+      "object": "ent-408",
+      "source_id": "src-1203",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-408",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_id": "src-1203",
+      "date": "2026-05-20",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-409",
+      "predicate": "locatedIn",
+      "object": "ent-410",
+      "source_id": "src-1204",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-409",
+      "predicate": "affiliatedWith",
+      "object": "ent-002",
+      "source_id": "src-1207",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-409",
+      "predicate": "affiliatedWith",
+      "object": "ent-005",
+      "source_id": "src-1207",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-411",
+      "predicate": "locatedIn",
+      "object": "ent-410",
+      "source_id": "src-1204",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-411",
+      "predicate": "follows",
+      "object": "ent-390",
+      "source_id": "src-1210",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-412",
+      "predicate": "opposes",
+      "object": "ent-409",
+      "source_id": "src-1206",
+      "date": "2026-05-20",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-003",
+      "predicate": "participatesIn",
+      "object": "ent-412",
+      "source_id": "src-1206",
+      "date": "2026-05-20",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "cooperatesWith",
+      "object": "ent-280",
+      "source_id": "src-1208",
+      "date": "2026-05-20",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "opposes",
+      "object": "ent-404",
+      "source_id": "src-1208",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-280",
+      "predicate": "opposes",
+      "object": "ent-404",
+      "source_id": "src-1208",
+      "date": "2026-05-20",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "relatedTo",
+      "object": "ent-409",
+      "source_id": "src-1207",
+      "date": "2026-05-20",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-409",
+      "predicate": "indirectlyAffiliatedWith",
+      "object": "ent-002",
+      "source_id": "inferred",
+      "date": "2026-05-20",
+      "confidence": 0.86
+    },
+    {
+      "subject": "ent-407",
+      "predicate": "potentialRelation",
+      "object": "ent-413",
+      "source_id": "inferred",
+      "date": "2026-05-20",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-411",
+      "predicate": "causedBy",
+      "object": "ent-390",
+      "source_id": "inferred",
+      "date": "2026-05-20",
+      "confidence": 0.90
     }
   ],
   "stats": {
-    "total_nodes": 348,
-    "total_edges": 839,
-    "total_triples": 839
+    "total_nodes": 355,
+    "total_edges": 858,
+    "total_triples": 858
   }
 }

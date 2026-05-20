@@ -1,0 +1,25 @@
+{
+  "id": "src-1213",
+  "title": "Lebanon ceasefire 45-day extension: Pentagon military track May 29, next diplomatic round June 2-3 in Washington",
+  "url": "https://en.wikipedia.org/wiki/2026_Israel%E2%80%93Lebanon_ceasefire",
+  "snippet": "The Israel-Lebanon ceasefire has been extended for a fourth 45-day period, with the next key dates being a Pentagon-led military track meeting on May 29 and the 4th round of diplomatic negotiations scheduled for June 2-3 in Washington. The extension maintains the framework established after the January 2026 ceasefire, with Hezbollah's gradual withdrawal from southern Lebanon and Israeli military pullback as core conditions. Outstanding issues include the pace of Hezbollah weapons handover, LAF deployment timeline in the south, and the status of remaining Israeli observation posts. The extension was supported by both sides, reflecting a shared interest in maintaining calm while the broader Iran-US conflict remains unresolved.",
+  "source_name": "Wikipedia/multiple",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "update",
+  "related_report": "2026-05-16/src-1130",
+  "related_item": "src-1130",
+  "tag_reason": "업데이트 — 레바논 휴전(src-1130)의 타임라인 업데이트: 5/29 군사 트랙, 6/2-3 외교 라운드 일정 확인. 4차 45일 연장 세부사항",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "ceasefire party"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "ceasefire territory"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "ceasefire party, gradual withdrawal"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "Pentagon military track lead"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "military track participant"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "ceasefireWith", "object": "ent-047"},
+    {"subject": "ent-047", "predicate": "locatedIn", "object": "ent-050"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "src-1213"}
+  ]
+}

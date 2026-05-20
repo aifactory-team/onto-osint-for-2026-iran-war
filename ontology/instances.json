@@ -13,8 +13,8 @@
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-17",
-      "mention_count": 260
+      "last_seen": "2026-05-20",
+      "mention_count": 270
     },
     {
       "id": "ent-002",
@@ -26,8 +26,8 @@
         "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-17",
-      "mention_count": 311
+      "last_seen": "2026-05-20",
+      "mention_count": 323
     },
     {
       "id": "ent-003",
@@ -51,8 +51,8 @@
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-17",
-      "mention_count": 126
+      "last_seen": "2026-05-20",
+      "mention_count": 129
     },
     {
       "id": "ent-005",
@@ -64,8 +64,8 @@
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-17",
-      "mention_count": 100
+      "last_seen": "2026-05-20",
+      "mention_count": 105
     },
     {
       "id": "ent-006",
@@ -101,8 +101,8 @@
         "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-17",
-      "mention_count": 270
+      "last_seen": "2026-05-20",
+      "mention_count": 278
     },
     {
       "id": "ent-009",
@@ -349,8 +349,8 @@
         "action_apr21": "Munir + Sharif requested ceasefire extension from Trump — cited by Trump in extension announcement; racing against time as Iran boycotts talks"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
-      "mention_count": 102
+      "last_seen": "2026-05-20",
+      "mention_count": 104
     },
     {
       "id": "ent-030",
@@ -574,8 +574,8 @@
         "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-09",
-      "mention_count": 66
+      "last_seen": "2026-05-20",
+      "mention_count": 70
     },
     {
       "id": "ent-048",
@@ -608,8 +608,8 @@
         "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-09",
-      "mention_count": 102
+      "last_seen": "2026-05-20",
+      "mention_count": 105
     },
     {
       "id": "ent-051",
@@ -961,8 +961,8 @@
         "action": "mediated Israel-Lebanon Washington talks (Apr 14)"
       },
       "first_seen": "2026-04-14",
-      "last_seen": "2026-04-14",
-      "mention_count": 8
+      "last_seen": "2026-05-20",
+      "mention_count": 13
     },
     {
       "id": "ent-078",
@@ -3069,8 +3069,8 @@
         "action_may05": "meets Araghchi in Beijing, first since Feb 28 war"
       },
       "first_seen": "2026-05-05",
-      "last_seen": "2026-05-05",
-      "mention_count": 2
+      "last_seen": "2026-05-20",
+      "mention_count": 5
     },
     {
       "id": "ent-281",
@@ -4489,8 +4489,8 @@
         "casualties": 0
       },
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "mention_count": 10
+      "last_seen": "2026-05-20",
+      "mention_count": 18
     },
     {
       "id": "ent-391",
@@ -4641,8 +4641,8 @@
         "action": "Trump called off planned 'very major attack' on Iran at request of Gulf allies (Qatar, Saudi, UAE); ordered Hegseth/Caine to stand down but military to remain ready for 'full, large scale assault on a moment's notice'; Gulf leaders said 2-3 days of negotiations could produce 'very acceptable' deal"
       },
       "first_seen": "2026-05-19",
-      "last_seen": "2026-05-19",
-      "mention_count": 15
+      "last_seen": "2026-05-20",
+      "mention_count": 18
     },
     {
       "id": "ent-402",
@@ -4685,8 +4685,8 @@
         "action_may19": "SNSC announced creation of PGSA to manage Hormuz passage clearances and toll collection; formalizes Iran's institutional grip on the waterway; signals permanent rather than temporary wartime control"
       },
       "first_seen": "2026-05-19",
-      "last_seen": "2026-05-19",
-      "mention_count": 3
+      "last_seen": "2026-05-20",
+      "mention_count": 7
     },
     {
       "id": "ent-405",
@@ -4713,9 +4713,106 @@
       "first_seen": "2026-05-19",
       "last_seen": "2026-05-19",
       "mention_count": 3
+    },
+    {
+      "id": "ent-407",
+      "type": "Person",
+      "name": "Bill Cassidy",
+      "properties": {
+        "role": "GOP Senator",
+        "state": "Louisiana",
+        "party": "Republican",
+        "action_may20": "flipped on WPR vote after primary loss; joined Paul/Collins/Murkowski — 50-47 advance marks first time war powers resolution cleared procedural hurdle"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-408",
+      "type": "Event",
+      "name": "Senate WPR Resolution 7th Vote",
+      "properties": {
+        "date": "2026-05-19",
+        "result": "50-47 advance",
+        "location": "US Senate",
+        "participants": ["Tim Kaine", "Rand Paul", "Susan Collins", "Lisa Murkowski", "Bill Cassidy"],
+        "significance": "first time WPR resolution advanced past procedural vote; bipartisan momentum building against undeclared war"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-409",
+      "type": "Organization",
+      "name": "Kata'ib Hezbollah",
+      "properties": {
+        "type": "Iraq-based Iran proxy militia",
+        "designation": "US-designated terrorist organization",
+        "patron": "IRGC Quds Force",
+        "base": "Iraq",
+        "action_may20": "identified as most active proxy in Gulf drone warfare; leader arrested by US; UAE confirms Barakah drones originated from Iraqi territory where KH operates"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-410",
+      "type": "Location",
+      "name": "Iraq",
+      "properties": {
+        "type": "country",
+        "role_may20": "confirmed origin of Barakah drone attacks; operating base for Kata'ib Hezbollah and other Iran-backed militias conducting Gulf drone warfare"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 18
+    },
+    {
+      "id": "ent-411",
+      "type": "Event",
+      "name": "Barakah Drones Iraq Origin Confirmation",
+      "properties": {
+        "date": "2026-05-19",
+        "announcer": "UAE Defence Ministry",
+        "significance": "official attribution of Barakah attack origin to Iraqi territory; 6 more drones intercepted in 48 hours",
+        "details": "UAE confirms all Barakah drones originated from Iraqi territory, implicating Iraq-based militias; ongoing threat with additional intercepts"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-412",
+      "type": "Event",
+      "name": "US Arrest of KH Leader",
+      "properties": {
+        "date": "2026-05-19",
+        "target": "Kata'ib Hezbollah leadership",
+        "significance": "shift from military strikes to targeted legal/intelligence operations against Iran proxies; signals new counter-proxy strategy"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-413",
+      "type": "Person",
+      "name": "Tim Kaine",
+      "properties": {
+        "role": "Democratic Senator",
+        "state": "Virginia",
+        "party": "Democratic",
+        "action_may20": "WPR co-sponsor with Rand Paul; leads bipartisan war powers push; sponsors resolution that advances 50-47"
+      },
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mention_count": 2
     }
   ],
-  "total_count": 364,
+  "total_count": 371,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -4925,6 +5022,24 @@
         "src-1178",
         "src-1180",
         "src-1182"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "action": "add_instances",
+      "target": "7 new entities (ent-407~ent-413)",
+      "reason": "상원 WPR 7차 투표 50-47 통과(캐시디 공화당 이탈), UAE 바라카 드론 이라크 발원 확인(48시간 6대 추가 요격), 카타이브 헤즈볼라(이라크 기반 이란 프록시) 식별 및 지도자 미국 체포, 트럼프 '2-3일' 최후통첩, 루비오-왕이 호르무즈 통행료 공동 반대(미중 이례적 합의), 유가 Brent ~$110, 12-15년 핵 모라토리엄 착륙지대 부상",
+      "source_ids": [
+        "src-1203",
+        "src-1204",
+        "src-1205",
+        "src-1206",
+        "src-1207",
+        "src-1208",
+        "src-1210",
+        "src-1211",
+        "src-1212",
+        "src-1213"
       ]
     }
   ]

@@ -1,0 +1,22 @@
+{
+  "id": "src-1209",
+  "title": "Brent eases to ~$110 — giving back gains after Trump postponed strike, optimism about negotiations restart",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude oil eased to approximately $110 per barrel, retreating from the $111+ level seen during the peak of strike fears. The pullback reflects market optimism following Trump's postponement of the planned Iran strike and signals of renewed diplomatic engagement via Pakistan mediation. However, prices remain elevated well above pre-war levels (~$75), reflecting persistent risk premium from Hormuz disruption, PGSA toll uncertainty, and the 2-3 day ultimatum timeline. Traders note the $110 level as a key support, with further downside dependent on concrete diplomatic progress.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 5/19 유가($102 근처) 대비 $110으로 반등한 새로운 가격 수준. 공습 보류→2-3일 최후통첩 전환에 따른 시장 재평가 반영",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "strike postponement driver"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "risk premium factor"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "war counterparty"}
+  ],
+  "relations": [
+    {"subject": "ent-401", "predicate": "influences", "object": "src-1209"},
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "src-1209"}
+  ]
+}

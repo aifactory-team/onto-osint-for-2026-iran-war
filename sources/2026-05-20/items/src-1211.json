@@ -1,0 +1,25 @@
+{
+  "id": "src-1211",
+  "title": "Barakah investigation update: Iraq origin confirmed, Kata'ib Hezbollah suspected — update to 2026-05-17 and 2026-05-19 reports",
+  "url": "https://www.euronews.com/2026/05/19/uae-says-mystery-drones-targeting-nuclear-plant-came-from-iraq",
+  "snippet": "Euronews reports that the UAE has confirmed the drones that targeted the Barakah nuclear power plant originated from Iraqi territory, resolving the 'mystery' of attribution from the initial May 17 attack. The update supersedes earlier Euronews reporting (May 18) which noted the UAE was still investigating and had not attributed the attack. Intelligence sources now point to Kata'ib Hezbollah, an Iran-backed Iraqi militia, as the likely perpetrator. The confirmation raises serious questions about Iraqi sovereignty and the ability of Iran-aligned militias to operate independently on Iraqi soil, potentially drawing Iraq further into the Iran-US conflict.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "update",
+  "related_report": "2026-05-19/src-1184",
+  "related_item": "src-1184",
+  "tag_reason": "업데이트 — src-1184(바라카 조사 중, 미귀속)의 직접 후속: 이라크 출처 확인으로 귀속 완료. 동일 매체(유로뉴스)의 추적 보도",
+  "entities": [
+    {"id": "ent-390", "type": "Event", "name": "Barakah Drone Strike", "role": "now attributed"},
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "suspected perpetrator"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "confirmed origin"},
+    {"id": "ent-411", "type": "Event", "name": "Barakah Drones Iraq Origin Confirmation", "role": "investigation conclusion"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "suspected patron"}
+  ],
+  "relations": [
+    {"subject": "ent-411", "predicate": "confirms", "object": "ent-390"},
+    {"subject": "ent-409", "predicate": "suspectedOf", "object": "ent-390"},
+    {"subject": "ent-390", "predicate": "originatesFrom", "object": "ent-410"}
+  ]
+}

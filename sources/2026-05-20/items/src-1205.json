@@ -1,0 +1,24 @@
+{
+  "id": "src-1205",
+  "title": "Trump '2-3 days' ultimatum: attack on Iran if no deal — Iranian official vows 'threat of massive assault will be repelled resolutely'",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/5/19/iran-war-live-trump-says-iran-attack-postponed-at-request-of-gulf-allies",
+  "snippet": "In a live blog update, Al Jazeera reports Trump has warned that an attack on Iran will come 'in two or three days' if no deal is reached. This narrows the timeline from the earlier indefinite postponement announced on May 18. An unnamed Iranian official responded that 'the threat of a massive assault will be repelled resolutely,' signaling Tehran's defiant posture. The ultimatum creates a hard deadline of approximately May 21-22 for diplomacy to produce results, dramatically increasing pressure on Pakistan-mediated negotiations.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 5/18 공습 보류(src-1173) 후속이나, '2-3일 내 공격' 최후통첩은 완전히 새로운 정보. 보류에서 구체적 시한부 위협으로 전환된 사건",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "issues 2-3 day ultimatum"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target of ultimatum, vows resistance"},
+    {"id": "ent-401", "type": "Event", "name": "Trump Strike Postponement", "role": "preceding event, now with deadline"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator under deadline pressure"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "threatens", "object": "ent-002"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "ent-401", "predicate": "updatedBy", "object": "src-1205"}
+  ]
+}

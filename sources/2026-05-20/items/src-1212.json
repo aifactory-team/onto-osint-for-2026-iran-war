@@ -1,0 +1,23 @@
+{
+  "id": "src-1212",
+  "title": "Nuclear framework landing zone shifts to 12-15 year moratorium — enhanced inspections, snap inspections, underground facility ban included",
+  "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo",
+  "snippet": "Axios reports that the nuclear framework being negotiated between the US and Iran is converging on a 12-15 year enrichment moratorium, significantly shorter than the initial 20-year US demand. The one-page memo framework reportedly includes 14 points covering: enrichment freeze at current levels, enhanced IAEA inspections regime, snap inspection provisions for undeclared sites, ban on construction of new underground enrichment facilities, gradual sanctions relief tied to verification milestones, and preservation of Iran's right to civilian nuclear energy. The 12-15 year landing zone represents a compromise between Iran's preference for a shorter moratorium and the US insistence on long-term constraints.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "update",
+  "related_report": "2026-05-17/src-1156",
+  "related_item": "src-1156",
+  "tag_reason": "업데이트 — 핵 프레임워크(src-1156, 20년 모라토리엄 요구)의 후속: 12-15년으로 착지점 이동. 강화된 사찰·스냅 사찰·지하시설 금지 등 새로운 세부사항 추가",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiating party"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US negotiating authority"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iranian Foreign Minister"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "negotiatesWith", "object": "ent-002"},
+    {"subject": "ent-077", "predicate": "negotiatesWith", "object": "ent-044"}
+  ]
+}

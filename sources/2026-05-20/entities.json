@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-20",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-407",
+      "type": "Person",
+      "name": "Bill Cassidy",
+      "properties": {"role": "GOP Senator", "state": "Louisiana", "party": "Republican", "note": "flipped on WPR vote after primary loss"},
+      "source_ids": ["src-1203"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-408",
+      "type": "Event",
+      "name": "Senate WPR Resolution 7th Vote",
+      "properties": {"date": "2026-05-19", "result": "50-47 advance", "location": "US Senate", "significance": "first time resolution advanced"},
+      "source_ids": ["src-1203"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-409",
+      "type": "Organization",
+      "name": "Kata'ib Hezbollah",
+      "properties": {"type": "Iraq-based Iran proxy militia", "designation": "US-designated terrorist organization", "patron": "IRGC Quds Force", "base": "Iraq"},
+      "source_ids": ["src-1204", "src-1206", "src-1207", "src-1210", "src-1211"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-410",
+      "type": "Location",
+      "name": "Iraq",
+      "properties": {"type": "country", "role": "drone launch origin, militia operating base"},
+      "source_ids": ["src-1204", "src-1207", "src-1210", "src-1211"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-411",
+      "type": "Event",
+      "name": "Barakah Drones Iraq Origin Confirmation",
+      "properties": {"date": "2026-05-19", "announcer": "UAE Defence Ministry", "significance": "official attribution of Barakah attack origin"},
+      "source_ids": ["src-1204", "src-1210", "src-1211"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-412",
+      "type": "Event",
+      "name": "US Arrest of KH Leader",
+      "properties": {"date": "2026-05-19", "target": "Kata'ib Hezbollah leadership", "significance": "shift from military strikes to targeted legal operations"},
+      "source_ids": ["src-1206"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-413",
+      "type": "Person",
+      "name": "Tim Kaine",
+      "properties": {"role": "Democratic Senator", "state": "Virginia", "party": "Democratic", "note": "WPR co-sponsor with Rand Paul"},
+      "source_ids": ["src-1203"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-407", "predicate": "participatesIn", "object": "ent-408", "source_ids": ["src-1203"], "confidence": 0.95},
+    {"subject": "ent-413", "predicate": "participatesIn", "object": "ent-408", "source_ids": ["src-1203"], "confidence": 0.95},
+    {"subject": "ent-408", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-1203"], "confidence": 0.90},
+    {"subject": "ent-409", "predicate": "proxyOf", "object": "ent-002", "source_ids": ["src-1204", "src-1206", "src-1207"], "confidence": 0.95},
+    {"subject": "ent-409", "predicate": "proxyOf", "object": "ent-005", "source_ids": ["src-1206", "src-1207"], "confidence": 0.95},
+    {"subject": "ent-409", "predicate": "locatedIn", "object": "ent-410", "source_ids": ["src-1204", "src-1207"], "confidence": 0.95},
+    {"subject": "ent-409", "predicate": "suspectedOf", "object": "ent-390", "source_ids": ["src-1204", "src-1207", "src-1210", "src-1211"], "confidence": 0.90},
+    {"subject": "ent-390", "predicate": "originatesFrom", "object": "ent-410", "source_ids": ["src-1204", "src-1210", "src-1211"], "confidence": 0.95},
+    {"subject": "ent-411", "predicate": "confirms", "object": "ent-390", "source_ids": ["src-1204", "src-1210", "src-1211"], "confidence": 0.95},
+    {"subject": "ent-003", "predicate": "conducts", "object": "ent-412", "source_ids": ["src-1206"], "confidence": 0.90},
+    {"subject": "ent-412", "predicate": "targets", "object": "ent-409", "source_ids": ["src-1206"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "supplies", "object": "ent-409", "source_ids": ["src-1207"], "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "threatens", "object": "ent-002", "source_ids": ["src-1205"], "confidence": 0.95},
+    {"subject": "ent-077", "predicate": "cooperatesWith", "object": "ent-280", "source_ids": ["src-1208"], "confidence": 0.90},
+    {"subject": "ent-077", "predicate": "opposes", "object": "ent-404", "source_ids": ["src-1208"], "confidence": 0.95},
+    {"subject": "ent-280", "predicate": "opposes", "object": "ent-404", "source_ids": ["src-1208"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "ceasefireWith", "object": "ent-047", "source_ids": ["src-1213"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "negotiatesWith", "object": "ent-002", "source_ids": ["src-1212"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 7,
+    "matched_entities": 0,
+    "total_relations": 18
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "src-1207",
+  "title": "Inside Iraq's Iran-backed militias: how Tehran's proxy drones targeted Barakah and Gulf states — Kata'ib Hezbollah identified as most active",
+  "url": "https://gulfnews.com/world/mena/inside-iraq-s-iran-backed-militias-tehran-s-terror-tools-1.500546271",
+  "snippet": "Gulf News investigation provides a deep dive into how Iran's Iraq-based proxy militias, particularly Kata'ib Hezbollah, have evolved their drone warfare capabilities to target Gulf state infrastructure. The report identifies KH as the most operationally active militia, with drone launch sites in western and southern Iraq capable of reaching UAE, Saudi Arabia, and Kuwait. The piece traces the supply chain from IRGC-provided drone kits assembled in Iraqi workshops, creating plausible deniability for Tehran. Multiple Iraqi militia sources confirm Barakah was targeted under Iranian direction. The investigation also notes increasing Iraqi government frustration with militias operating outside state control.",
+  "source_name": "Gulf News",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이라크 기반 이란 프록시 민병대의 드론 전쟁 역량에 대한 심층 탐사 보도. 바라카 공격의 공급망과 작전 네트워크에 대한 고유한 분석 포함",
+  "entities": [
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "primary militia profiled"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "militia operating base"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "drone kit supplier"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "proxy patron directing operations"},
+    {"id": "ent-390", "type": "Event", "name": "Barakah Drone Strike", "role": "primary case study"}
+  ],
+  "relations": [
+    {"subject": "ent-409", "predicate": "locatedIn", "object": "ent-410"},
+    {"subject": "ent-005", "predicate": "supplies", "object": "ent-409"},
+    {"subject": "ent-409", "predicate": "conducts", "object": "ent-390"},
+    {"subject": "ent-002", "predicate": "directs", "object": "ent-409"}
+  ]
+}

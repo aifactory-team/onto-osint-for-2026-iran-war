@@ -1,0 +1,26 @@
+{
+  "id": "src-1203",
+  "title": "Senate advances resolution to end Iran war 50-47 — GOP Sen. Bill Cassidy flips after primary loss, joins Paul/Collins/Murkowski as 4th Republican",
+  "url": "https://www.nbcnews.com/politics/congress/senate-advances-resolution-end-iran-war-trump-bill-cassidy-rcna346001",
+  "snippet": "The U.S. Senate voted 50-47 to advance a war powers resolution aimed at ending U.S. military involvement in the Iran war. Sen. Bill Cassidy (R-La.) became the fourth Republican to support the measure, joining Rand Paul, Susan Collins, and Lisa Murkowski, after losing his primary race. The resolution, co-sponsored by Sens. Tim Kaine (D-Va.) and Rand Paul (R-Ky.), invokes the War Powers Resolution to withdraw U.S. forces from hostilities with Iran within 30 days. The measure still needs a full Senate vote, a House vote, and faces a likely presidential veto. Cassidy said 'the American people deserve a debate and a vote on whether we should be at war' after his primary loss freed him from party pressure.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 상원 전쟁권한결의안이 50-47로 처음 통과한 전환적 사건. 캐시디 이탈로 공화당 4번째 반대표 확보. 이전 보도(5/14 src-1090 등)에서 추적해온 의회 반전 움직임의 새로운 이정표",
+  "entities": [
+    {"id": "ent-407", "type": "Person", "name": "Bill Cassidy", "role": "GOP Senator, Louisiana, flipped on WPR vote"},
+    {"id": "ent-413", "type": "Person", "name": "Tim Kaine", "role": "Democratic Senator, Virginia, WPR co-sponsor"},
+    {"id": "ent-408", "type": "Event", "name": "Senate WPR Resolution 7th Vote", "role": "50-47 vote, first advance"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "faces potential veto decision"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target of war powers resolution"}
+  ],
+  "relations": [
+    {"subject": "ent-407", "predicate": "participatesIn", "object": "ent-408"},
+    {"subject": "ent-413", "predicate": "participatesIn", "object": "ent-408"},
+    {"subject": "ent-408", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "ent-408", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-20",
+  "new_triples": [
+    {"subject": "ent-407", "predicate": "participatesIn", "object": "ent-408", "source_id": "src-1203", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-413", "predicate": "participatesIn", "object": "ent-408", "source_id": "src-1203", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-408", "predicate": "opposes", "object": "ent-001", "source_id": "src-1203", "date": "2026-05-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-409", "predicate": "locatedIn", "object": "ent-410", "source_id": "src-1204", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-409", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1207", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-409", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-1207", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-411", "predicate": "locatedIn", "object": "ent-410", "source_id": "src-1204", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-411", "predicate": "follows", "object": "ent-390", "source_id": "src-1210", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-412", "predicate": "opposes", "object": "ent-409", "source_id": "src-1206", "date": "2026-05-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-412", "source_id": "src-1206", "date": "2026-05-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-077", "predicate": "cooperatesWith", "object": "ent-280", "source_id": "src-1208", "date": "2026-05-20", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-077", "predicate": "opposes", "object": "ent-404", "source_id": "src-1208", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-280", "predicate": "opposes", "object": "ent-404", "source_id": "src-1208", "date": "2026-05-20", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-409", "source_id": "src-1207", "date": "2026-05-20", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1205", "date": "2026-05-20", "confidence": 0.95, "type": "explicit", "note": "strengthened — Trump issues '2-3 days' ultimatum to Iran, combining diplomatic deadline with military threat"},
+    {"subject": "ent-390", "predicate": "locatedIn", "object": "ent-410", "source_id": "src-1204", "date": "2026-05-20", "confidence": 0.95, "type": "explicit", "note": "updated — UAE officially confirms Barakah drones originated from Iraqi territory; 6 more intercepted in 48 hours"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-409", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "source_id": "inferred", "date": "2026-05-20", "confidence": 0.86, "type": "inferred", "rule": "transitivity", "note": "KH → IRGC → Iran: Kata'ib Hezbollah affiliated with IRGC (conf 0.95) which is affiliated with Iran (conf 0.90); product = 0.855 → rounded 0.86"},
+    {"subject": "ent-407", "predicate": "potentialRelation", "object": "ent-413", "source_id": "inferred", "date": "2026-05-20", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "note": "Both Cassidy and Kaine participate in WPR 7th vote (ent-408); cross-party alliance on war powers indicates bipartisan opposition bloc"},
+    {"subject": "ent-411", "predicate": "causedBy", "object": "ent-390", "source_id": "inferred", "date": "2026-05-20", "confidence": 0.90, "type": "inferred", "rule": "event_chain", "note": "Iraq origin confirmation is direct causal follow-up to original Barakah drone strike; UAE investigation traced flight path back to Iraqi territory"}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 14,
+    "updated_edges": 2,
+    "inferred_edges": 3
+  }
+}

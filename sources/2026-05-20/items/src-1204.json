@@ -1,0 +1,28 @@
+{
+  "id": "src-1204",
+  "title": "UAE Defence Ministry confirms all 3 Barakah drones launched from Iraqi territory — 6 more drones intercepted in subsequent 48 hours",
+  "url": "https://www.thenationalnews.com/news/uae/2026/05/19/uae-says-drone-strike-on-barakah-plant-launched-from-iraqi-territory/",
+  "snippet": "The UAE Defence Ministry confirmed that all three drones that struck near the Barakah nuclear power plant on May 17 were launched from Iraqi territory. The ministry also revealed that six additional drones originating from Iraq were intercepted in the subsequent 48 hours, all targeting 'vital civilian areas.' While the ministry did not name any group directly, intelligence sources point to Kata'ib Hezbollah, an Iran-backed Iraqi militia designated as a terrorist organization by the US. The confirmation shifts the attribution away from Yemen's Houthis or direct Iranian launch, pointing instead to Iran's proxy network operating from Iraqi soil.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — UAE 국방부의 공식 확인 발표: 바라카 드론이 이라크 영토에서 발사됨. 5/17 사건(src-1144)의 출처가 처음으로 공식 귀속됨. 48시간 추가 6대 요격은 완전히 새로운 정보",
+  "entities": [
+    {"id": "ent-390", "type": "Event", "name": "Barakah Drone Strike", "role": "incident attributed to Iraq origin"},
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "suspected perpetrator, Iraq-based Iran proxy"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "confirmed drone launch origin"},
+    {"id": "ent-411", "type": "Event", "name": "Barakah Drones Iraq Origin Confirmation", "role": "UAE Defence Ministry announcement"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "suspected orchestrator via proxy"},
+    {"id": "ent-400", "type": "Person", "name": "Mohamed bin Zayed Al Nahyan", "role": "UAE President"}
+  ],
+  "relations": [
+    {"subject": "ent-411", "predicate": "confirms", "object": "ent-390"},
+    {"subject": "ent-409", "predicate": "suspectedOf", "object": "ent-390"},
+    {"subject": "ent-409", "predicate": "locatedIn", "object": "ent-410"},
+    {"subject": "ent-409", "predicate": "proxyOf", "object": "ent-002"},
+    {"subject": "ent-390", "predicate": "originatesFrom", "object": "ent-410"}
+  ]
+}

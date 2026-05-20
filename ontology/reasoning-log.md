@@ -1643,3 +1643,42 @@
 - Strike Postponement, Revised Proposal → Event 클래스
 - Sanctions Waiver → Concept 클래스
 - Gibraltar → Location 클래스
+
+---
+
+## 2026-05-20 추론 결과
+
+### 추론 #1: transitivity (프록시 전이 — KH → IRGC → Iran)
+- **입력:** (ent-409/Kata'ib Hezbollah, affiliatedWith, ent-005/IRGC), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-409/Kata'ib Hezbollah, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.86 (= 0.95 × 0.90)
+- **상태:** 확정
+- **비고:** 카타이브 헤즈볼라는 IRGC 쿠드스 포스의 직접 후원을 받는 이라크 기반 민병대. UAE가 바라카 드론의 이라크 발원을 공식 확인함으로써, 이란의 프록시 전쟁 구조가 명확해짐. KH → IRGC → Iran의 지휘 체계는 미국의 KH 지도자 체포(ent-412)가 대이란 프록시 전략 전환을 의미하는 근거.
+
+### 추론 #2: co_participation (캐시디-케인 초당파 전쟁권한 동맹)
+- **입력:** (ent-407/Bill Cassidy, participatesIn, ent-408/WPR 7th Vote), (ent-413/Tim Kaine, participatesIn, ent-408/WPR 7th Vote)
+- **추론:** (ent-407/Bill Cassidy, potentialRelation, ent-413/Tim Kaine) — 초당파 전쟁권한 동맹
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 공화당 캐시디(예비선거 패배 후 이탈)와 민주당 케인(WPR 주요 발의자)이 동일 투표에 참여하여 50-47 역사적 통과를 만들어냄. 이전 6차 부결 대비 결정적 변화는 캐시디의 이탈로, 공화당 내부에서도 전쟁에 대한 의회 감시 요구가 확산되고 있음을 시사.
+
+### 추론 #3: event_chain (이라크 발원 확인 ← 바라카 드론 공격 인과 체인)
+- **입력:** (ent-411/Iraq Origin Confirmation, follows, ent-390/Barakah Drone Strike), (ent-411, locatedIn, ent-410/Iraq)
+- **추론:** (ent-411, causedBy, ent-390) — 이라크 발원 확인은 바라카 드론 공격의 직접적 조사 결과
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 5/17 바라카 원전 드론 공격 → 5/19 UAE 국방부 공식 발표(이라크 영토 발원 확인 + 48시간 내 6대 추가 요격). 이 인과 체인은 이란 프록시(KH)의 이라크 기반 작전이 걸프국 핵 인프라까지 위협하는 새로운 에스컬레이션 경로를 확립. 바라카 공격의 귀속 문제가 '미확인'에서 '이라크 발원'으로 진전되었으나, 최종 발사 주체(KH vs. 다른 민병대)는 여전히 미확인.
+
+### 추가 관찰: 루비오-왕이 이례적 협력
+- **입력:** (ent-077/Rubio, cooperatesWith, ent-280/Wang Yi), (ent-077, opposes, ent-404/PGSA), (ent-280, opposes, ent-404/PGSA)
+- **관찰:** 미중 양국이 이란의 호르무즈 통행료 체계(PGSA)에 공동 반대하는 것은 전쟁 82일 만에 최초의 이례적 합의. 이란의 해상 수익화 전략이 미중 모두의 이해에 반하는 것으로 판명됨.
+- **신뢰도:** 해당 없음 (관찰, 추론 아님)
+- **상태:** 관찰
+- **비고:** 5/15 트럼프-시진핑 정상회담의 실질적 후속 조치로 볼 수 있음. 호르무즈 통행의 자유는 미국(군사적 이해)과 중국(에너지 수입 경로)의 공통 관심사로, 이란의 PGSA 설립이 양국을 공동 전선으로 묶는 역설적 효과를 생성.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- Bill Cassidy, Tim Kaine → Person 클래스
+- Kata'ib Hezbollah → Organization 클래스
+- Senate WPR 7th Vote, Barakah Drones Iraq Origin Confirmation, US Arrest of KH Leader → Event 클래스
+- Iraq → Location 클래스

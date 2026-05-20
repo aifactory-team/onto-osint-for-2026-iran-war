@@ -1,0 +1,26 @@
+{
+  "id": "src-1206",
+  "title": "US arrest of Kata'ib Hezbollah leader signals shift in approach to Iranian proxy model — Soufan Center analysis",
+  "url": "https://thesoufancenter.org/intelbrief-2026-may-19/",
+  "snippet": "The Soufan Center's IntelBrief analyzes the recent US arrest of a Kata'ib Hezbollah (KH) leader as a significant shift in Washington's approach to countering Iran's proxy network. The arrest signals a move from broad military strikes toward targeted legal and intelligence operations against Iran-backed militia leadership. The analysis notes KH as the most operationally active Iran-aligned militia in Iraq, with direct links to IRGC Quds Force. The arrest comes amid the Barakah drone attribution to Iraqi territory, suggesting coordinated US pressure on Iraqi-based proxies. The piece argues this represents a more sustainable counter-proxy strategy than aerial bombardment.",
+  "source_name": "Soufan Center",
+  "language": "en",
+  "discovered_date": "2026-05-20",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — KH 지도자 체포는 이전 미보도 사건. 이란 프록시 대응 전략 전환(군사→법적/첩보)의 분석적 의미 포함",
+  "entities": [
+    {"id": "ent-412", "type": "Event", "name": "US Arrest of KH Leader", "role": "key event analyzed"},
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "target organization"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "KH patron via Quds Force"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "conducting arrest operation"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "proxy network patron"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "conducts", "object": "ent-412"},
+    {"subject": "ent-412", "predicate": "targets", "object": "ent-409"},
+    {"subject": "ent-409", "predicate": "proxyOf", "object": "ent-005"},
+    {"subject": "ent-005", "predicate": "partOf", "object": "ent-002"}
+  ]
+}
