@@ -1,0 +1,24 @@
+{
+  "id": "src-1241",
+  "title": "Last Rounds? Status of Key Munitions at the Iran War Ceasefire — CSIS detailed analysis",
+  "url": "https://www.csis.org/analysis/last-rounds-status-key-munitions-iran-war-ceasefire",
+  "snippet": "The Center for Strategic and International Studies (CSIS) published a comprehensive analysis of key munitions status at the Iran war ceasefire. The report details the state of both US and Iranian military assets, including Iranian missile stockpile levels, IRGC coastal defense capabilities, and the restoration of Strait of Hormuz missile sites. The analysis provides granular data on the munitions expenditure during the active conflict phase and assesses both sides' capacity for sustained operations if the ceasefire collapses. CSIS warns that Iran's retention of the majority of its missile stockpiles, combined with rapid site restoration, means the military balance has not shifted significantly during the ceasefire period.",
+  "source_name": "CSIS",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — CSIS의 상세 탄약 현황 분석은 새로운 자료. 이란-미국 양측 군사 자산의 체계적 평가. src-1236의 수치와 상호 보완하는 전문 분석",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "munitions status assessed"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "coastal defense capabilities analyzed"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "munitions expenditure assessed"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "missile site restoration analyzed"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "ent-005", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-1233",
+  "title": "Iran's Army warns U.S. it will open 'new fronts' if war resumes — Akraminia admits ceasefire used to rebuild military",
+  "url": "https://www.presstv.ir/Detail/2026/05/19/768906/New-fronts-will-be-opened-you-commit-another-folly-iran-Army-spokesman-warns-enemy",
+  "snippet": "Iran Army spokesman Brigadier General Mohammad Akraminia warned the United States that Iran will open 'new fronts' if hostilities resume. In a striking admission, Akraminia stated that 'the Islamic Republic's army has treated the ceasefire period as a time of war and used the opportunity to strengthen its combat power.' The statement signals Iran's military posture during the ceasefire has been one of active rearmament rather than de-escalation, and that Tehran is prepared to escalate geographically if the conflict resumes. The warning comes amid Trump's 2-3 day ultimatum deadline and rising tensions over the collapse of diplomatic progress.",
+  "source_name": "Press TV",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란군 대변인의 '새로운 전선' 경고와 휴전 기간 군사력 증강 인정은 새로운 정보. 이란의 공식적 재무장 인정은 이전에 보도되지 않은 사건",
+  "entities": [
+    {"id": "ent-221", "type": "Person", "name": "Mohammad Akraminia", "role": "Iran Army spokesman, warns of new fronts"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "admits ceasefire used for military rebuilding"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "target of warning"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "Iranian military apparatus"}
+  ],
+  "relations": [
+    {"subject": "ent-221", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "ent-002", "predicate": "rebuilds", "object": "src-1233"}
+  ]
+}

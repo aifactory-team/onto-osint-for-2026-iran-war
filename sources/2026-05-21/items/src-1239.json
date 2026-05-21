@@ -1,0 +1,23 @@
+{
+  "id": "src-1239",
+  "title": "Vance says both sides made 'a lot of progress' in Iran talks — Trump says deal will come 'very quickly'",
+  "url": "https://www.aljazeera.com/news/2026/5/20/iran-war-day-82-tehran-warns-of-new-fronts-as-trump-sets-deadline",
+  "snippet": "Al Jazeera reports that Vice President JD Vance stated both sides have made 'a lot of progress' in ongoing Iran negotiations, while President Trump separately claimed a deal will come 'very quickly.' The optimistic rhetoric contrasts with Iran's simultaneous warnings about opening 'new fronts' and its military rebuilding during the ceasefire. Vance, who has been actively involved in the diplomatic track, characterized the talks as productive without specifying which intermediary channel produced the progress. Trump's 'very quickly' framing aligns with his earlier 2-3 day ultimatum but shifts the tone from threat to anticipated agreement.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 밴스의 '많은 진전' 발언과 트럼프의 '매우 빠르게' 합의 전망은 새로운 외교적 신호. 이란의 강경 발언과 대조되는 미국측 낙관론",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "VP, says 'a lot of progress' in talks"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "says deal will come 'very quickly'"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiation counterparty"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "src-1239"},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-041"},
+    {"subject": "ent-001", "predicate": "negotiatesWith", "object": "ent-002"}
+  ]
+}

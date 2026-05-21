@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-21",
   "classes": [
     {
       "id": "Entity",
@@ -754,6 +754,13 @@
         "src-1212",
         "src-1213"
       ]
+    },
+    {
+      "date": "2026-05-21",
+      "action": "add_instances",
+      "target": "5 new entities (ent-414~ent-418)",
+      "reason": "시진핑-푸틴 베이징 정상회담(~40건 거래·파워오브시베리아2 합의), 사우디아라비아 이라크 발원 드론 확인(3대 요격), 고트하이머 하원 WPR 결의안, 알사디 KH 테러혐의 기소, 파워오브시베리아2 파이프라인 개념. 스키마 변경 없음 — 기존 클래스/관계로 표현 가능",
+      "source_ids": ["src-1233", "src-1234", "src-1235", "src-1236", "src-1237", "src-1238", "src-1239", "src-1240", "src-1241", "src-1243"]
     }
   ]
 }

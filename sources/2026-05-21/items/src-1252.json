@@ -1,0 +1,15 @@
+{
+  "id": "src-1252",
+  "title": "Iran strike postponement analysis — NBC News",
+  "url": "https://www.nbcnews.com/news/world/iran-strike-postponement-analysis",
+  "snippet": "NBC News 보도. 이란 공습 보류 관련 분석으로 src-1205(Al Jazeera)에서 이미 다룬 트럼프 최후통첩의 병행 보도.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "reported",
+  "related_report": "2026-05-20/src-1205",
+  "related_item": "src-1205",
+  "tag_reason": "기보도 — src-1205에서 다룬 트럼프 공습 보류/최후통첩의 NBC News 분석",
+  "entities": [],
+  "relations": []
+}

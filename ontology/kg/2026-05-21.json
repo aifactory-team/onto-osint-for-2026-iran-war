@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-21",
+  "new_triples": [
+    {"subject": "ent-414", "predicate": "cooperatesWith", "object": "ent-199", "source_id": "src-1234", "date": "2026-05-21", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-009", "predicate": "cooperatesWith", "object": "ent-010", "source_id": "src-1234", "date": "2026-05-21", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-415", "predicate": "opposes", "object": "ent-409", "source_id": "src-1235", "date": "2026-05-21", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-010", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-1236", "date": "2026-05-21", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-416", "predicate": "participatesIn", "object": "ent-408", "source_id": "src-1237", "date": "2026-05-21", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-417", "predicate": "affiliatedWith", "object": "ent-409", "source_id": "src-1241", "date": "2026-05-21", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-221", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1233", "date": "2026-05-21", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008", "source_id": "src-1236", "date": "2026-05-21", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-418", "predicate": "relatedTo", "object": "ent-009", "source_id": "src-1234", "date": "2026-05-21", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-418", "predicate": "relatedTo", "object": "ent-010", "source_id": "src-1234", "date": "2026-05-21", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-002", "source_id": "src-1239", "date": "2026-05-21", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1239", "date": "2026-05-21", "confidence": 0.90, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-417", "predicate": "indirectlyAffiliatedWith", "object": "ent-002", "rule": "transitivity", "confidence": 0.81, "chain": ["ent-417→ent-409", "ent-409→ent-005", "ent-005→ent-002"], "type": "inferred"},
+    {"subject": "ent-414", "predicate": "potentialRelation", "object": "ent-002", "rule": "co_participation", "confidence": 0.75, "chain": ["Iran war energy disruption connects Xi-Putin summit agenda to Iran conflict"], "type": "inferred"},
+    {"subject": "ent-415", "predicate": "cooperatesWith", "object": "ent-035", "rule": "co_participation", "confidence": 0.85, "chain": ["Both Saudi and UAE confirm Iraq-origin drones, implying coordinated intelligence sharing"], "type": "inferred"}
+  ],
+  "stats": {
+    "new_nodes": 5,
+    "new_edges": 12,
+    "inferred_edges": 3
+  }
+}

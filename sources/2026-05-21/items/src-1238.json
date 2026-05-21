@@ -1,0 +1,21 @@
+{
+  "id": "src-1238",
+  "title": "1,600 ships still stranded near Hormuz as zero vessels transit for second consecutive day",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-israel-lebanon-ceasefire/",
+  "snippet": "CBS News reports that approximately 1,600 ships remain stranded near the Strait of Hormuz as zero vessels transited the waterway on May 19, marking the second consecutive day of complete shipping stoppage. Before the Iran war, the strait handled approximately 3,000 vessel transits per month. The complete cessation of traffic reflects the extreme danger posed by Iranian military assets in the strait area, including restored missile sites. The shipping backlog has severe implications for global oil supply chains, with tankers unable to deliver crude from Persian Gulf producers. Insurance premiums for Hormuz transit have become effectively prohibitive, further discouraging any attempt to resume normal shipping operations.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 1,600척 좌초, 5/19 연속 2일째 통행량 0이라는 구체적 수치는 새로운 데이터. 전쟁 전 월 3,000척 대비 완전 정지 상태 확인",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "zero transits, 1,600 ships stranded"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "naval presence in strait area"}
+  ],
+  "relations": [
+    {"subject": "ent-008", "predicate": "blockedBy", "object": "ent-002"},
+    {"subject": "ent-008", "predicate": "impacts", "object": "src-1238"}
+  ]
+}

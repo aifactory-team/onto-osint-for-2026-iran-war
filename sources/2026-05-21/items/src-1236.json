@@ -1,0 +1,25 @@
+{
+  "id": "src-1236",
+  "title": "Iran preparing for renewed war: 70% missile stockpiles intact, 30 of 33 Hormuz missile sites restored",
+  "url": "https://www.euronews.com/2026/05/13/iran-preparing-for-renewed-war-as-military-assets-remain-largely-intact-reports-warn",
+  "snippet": "Euronews reports that Iran has maintained approximately 70% of its pre-war missile stockpiles and restored 30 of 33 Strait of Hormuz missile sites during the ceasefire period. The analysis warns that Iran's military posture suggests preparation for renewed conflict rather than genuine de-escalation. China has been identified as a key supplier of replacement components, enabling Iran's rapid restoration of military capabilities. The Hormuz missile sites, which control critical chokepoints for global oil transit, represent a significant strategic threat if hostilities resume. The data corroborates Iranian military spokesman Akraminia's admission that the ceasefire was used to 'strengthen combat power.'",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란 미사일 비축량 70% 유지, 호르무즈 미사일 기지 30/33 복원, 중국의 부품 공급 등 구체적 수치 데이터는 새로운 정보. src-1233의 재무장 인정과 상호 보완",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "70% missile stockpiles intact, rebuilding"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "controls Hormuz missile sites"},
+    {"id": "ent-010", "type": "Organization", "name": "China", "role": "supplies replacement components to Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "30/33 missile sites restored"}
+  ],
+  "relations": [
+    {"subject": "ent-010", "predicate": "cooperatesWith", "object": "ent-002"},
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008"},
+    {"subject": "ent-010", "predicate": "supplies", "object": "ent-002"},
+    {"subject": "ent-002", "predicate": "rebuilds", "object": "ent-008"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-1234",
+  "title": "Xi-Putin summit: ~40 deals signed as Iran war disrupts China's energy supply — Power of Siberia 2 pipeline progresses",
+  "url": "https://www.scmp.com/news/china/diplomacy/article/3354159/xi-putin-summit-live-energy-ties-iran-and-ukraine-set-top-agenda",
+  "snippet": "Chinese President Xi Jinping and Russian President Vladimir Putin held a summit in Beijing where approximately 40 deals were signed, with energy cooperation as a central theme driven by the Iran war's disruption to China's oil imports. The two leaders 'reached understanding on main parameters' for the Power of Siberia 2 gas pipeline, a long-stalled project that has gained urgency as the Iran war has disrupted roughly half of China's oil imports transiting the Strait of Hormuz. The summit underscores how the Iran-US conflict is accelerating Russia-China energy integration and reshaping global energy trade patterns. Iran and Ukraine were also top agenda items, with both leaders calling for diplomatic solutions.",
+  "source_name": "South China Morning Post",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 시진핑-푸틴 베이징 정상회담, ~40건 협정 서명, 시베리아의 힘 2 가스관 진전은 새로운 사건. 이란전쟁이 중국 에너지 공급에 미치는 영향과 러중 에너지 협력 가속화 맥락",
+  "entities": [
+    {"id": "ent-414", "type": "Person", "name": "Xi Jinping", "role": "President of China, summit host"},
+    {"id": "ent-199", "type": "Person", "name": "Vladimir Putin", "role": "President of Russia, summit participant"},
+    {"id": "ent-010", "type": "Organization", "name": "China", "role": "energy supply disrupted by Iran war"},
+    {"id": "ent-009", "type": "Organization", "name": "Russia", "role": "energy partner, ~40 deals signed"},
+    {"id": "ent-418", "type": "Concept", "name": "Power of Siberia 2", "role": "Russia-China gas pipeline, main parameters agreed"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "disrupted energy transit route"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "war causing energy disruption"}
+  ],
+  "relations": [
+    {"subject": "ent-199", "predicate": "cooperatesWith", "object": "ent-414"},
+    {"subject": "ent-009", "predicate": "cooperatesWith", "object": "ent-010"},
+    {"subject": "ent-002", "predicate": "disrupts", "object": "ent-010"},
+    {"subject": "ent-418", "predicate": "connects", "object": "ent-009"},
+    {"subject": "ent-418", "predicate": "connects", "object": "ent-010"}
+  ]
+}

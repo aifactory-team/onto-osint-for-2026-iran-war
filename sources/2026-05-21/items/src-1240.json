@@ -1,0 +1,22 @@
+{
+  "id": "src-1240",
+  "title": "Oil: Brent steadies above $105 as Trump says nearing 'final phase' of Iran negotiations",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude oil steadied above $105 per barrel, reflecting a roughly 5% drop from recent highs as markets respond to Trump's characterization of Iran negotiations entering a 'final phase.' The price decline from the ~$110 level seen on May 20 suggests traders are pricing in increased probability of a diplomatic resolution. However, the $105 floor indicates persistent risk premium from the ongoing Hormuz shipping blockade, with 1,600 vessels stranded and zero transits recorded. Analysts note that even a deal would take weeks to fully restore Hormuz traffic, keeping prices elevated above pre-war ~$75 levels in the medium term.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — $110에서 $105로 ~5% 하락한 새로운 가격 수준. '최종 단계' 프레이밍이라는 새로운 맥락. src-1209($110) 대비 유가 변동 추적",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade maintains price floor"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiations in 'final phase'"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "describes 'final phase' framing"}
+  ],
+  "relations": [
+    {"subject": "ent-008", "predicate": "influences", "object": "src-1240"},
+    {"subject": "ent-001", "predicate": "negotiatesWith", "object": "ent-002"}
+  ]
+}

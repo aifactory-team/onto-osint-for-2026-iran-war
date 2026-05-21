@@ -1,0 +1,15 @@
+{
+  "id": "src-1246",
+  "title": "Oil prices drop 5% on Iran deal hopes — CNBC",
+  "url": "https://www.cnbc.com/2026/05/20/oil-prices-iran-negotiations.html",
+  "snippet": "CNBC 보도. 이란 협상 낙관론에 유가 5% 하락으로 src-1240(Trading Economics)에서 다루는 유가 동향의 병행 보도.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "reported",
+  "related_report": "2026-05-21/src-1240",
+  "related_item": "src-1240",
+  "tag_reason": "기보도 — src-1240에서 다루는 유가 하락($105)의 CNBC 보도",
+  "entities": [],
+  "relations": []
+}

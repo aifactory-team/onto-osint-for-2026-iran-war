@@ -1682,3 +1682,28 @@
 - Kata'ib Hezbollah → Organization 클래스
 - Senate WPR 7th Vote, Barakah Drones Iraq Origin Confirmation, US Arrest of KH Leader → Event 클래스
 - Iraq → Location 클래스
+
+---
+
+## 2026-05-21 추론 결과
+
+### 추론 #1: transitivity (간접 소속)
+- **입력:** (ent-417 al Saadi, affiliatedWith, ent-409 KH), (ent-409 KH, affiliatedWith, ent-005 IRGC), (ent-005 IRGC, affiliatedWith, ent-002 Iran)
+- **추론:** (ent-417 al Saadi, indirectlyAffiliatedWith, ent-002 Iran)
+- **신뢰도:** 0.81 (3단계 체인 감쇠 적용)
+- **상태:** 확정
+- **의미:** KH 테러 혐의자의 이란 간접 소속 확인 — 프록시 지휘 체인의 법적 귀속 근거
+
+### 추론 #2: co_participation (에너지 위기 연결)
+- **입력:** (ent-414 Xi, cooperatesWith, ent-199 Putin, src-1234), Iran war disrupts China energy
+- **추론:** (ent-414 Xi, potentialRelation, ent-002 Iran)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **의미:** 이란 전쟁의 에너지 파급이 중러 정상회담 의제를 지배 — 간접 행위자 연결
+
+### 추론 #3: co_participation (걸프 정보 공유)
+- **입력:** (ent-415 Saudi, confirms Iraq drones), (ent-035 UAE, confirms Iraq drones)
+- **추론:** (ent-415 Saudi, cooperatesWith, ent-035 UAE)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **의미:** 사우디-UAE 동시 이라크 발원 확인은 걸프국 간 정보 공유/조율을 시사

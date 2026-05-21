@@ -1,0 +1,24 @@
+{
+  "id": "src-1237",
+  "title": "Democrats on the brink of war powers breakthrough — House vote expected this week after Senate's 50-47 advance",
+  "url": "https://thehill.com/policy/defense/5880849-congress-iran-war-resolution-trump/",
+  "snippet": "The Hill reports that House Democrats, led by Rep. Josh Gottheimer (D-NJ), are preparing a 4th attempt at a war powers resolution vote in the House, following the Senate's historic 50-47 advance. The previous 3rd House vote ended in a 212-212 tie, falling one vote short of passage. The 4th attempt is expected this week, with Democrats optimistic that the Senate's momentum and shifting public opinion on the Iran war will sway enough Republicans to break the deadlock. If passed, the resolution would still face a presidential veto, requiring a two-thirds override vote in both chambers. The vote represents the most significant congressional challenge to presidential war authority since the 1973 War Powers Resolution.",
+  "source_name": "The Hill",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "update",
+  "related_report": "2026-05-20/src-1203",
+  "related_item": "src-1203",
+  "tag_reason": "업데이트 — 상원 WPR 통과(src-1203) 후속으로 하원 4차 투표 추진. 3차 212-212 동률 후 새로운 시도. 하원 각도에서의 새로운 전개",
+  "entities": [
+    {"id": "ent-416", "type": "Person", "name": "Josh Gottheimer", "role": "D-NJ, House WPR resolution author"},
+    {"id": "ent-408", "type": "Event", "name": "Senate WPR Resolution 7th Vote", "role": "preceding 50-47 advance"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "faces potential veto decision"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "subject of war powers resolution"}
+  ],
+  "relations": [
+    {"subject": "ent-416", "predicate": "participatesIn", "object": "ent-408"},
+    {"subject": "ent-416", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "ent-408", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

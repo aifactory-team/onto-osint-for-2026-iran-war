@@ -1,0 +1,27 @@
+{
+  "id": "src-1235",
+  "title": "Saudi Arabia and UAE say drone attacks were launched from Iraq — FDD analysis confirms Iranian proxy chain",
+  "url": "https://www.fdd.org/analysis/2026/05/20/saudi-arabia-and-uae-say-drone-attacks-were-launched-from-iraq/",
+  "snippet": "The Foundation for Defense of Democracies (FDD) published an analysis confirming that Saudi Arabia and the UAE have officially attributed recent drone attacks to Iraqi territory, implicating the Iranian proxy chain. The analysis details how Kata'ib Hezbollah, operating from Iraq with IRGC support, has conducted drone strikes targeting Gulf state infrastructure. Saudi Arabia's confirmation adds to the UAE's earlier attribution, establishing a unified Gulf state position on Iraq as the launch origin for Iranian proxy attacks. The FDD analysis traces the command-and-control chain from IRGC Quds Force through Iraqi militia leadership to operational drone units.",
+  "source_name": "FDD (Foundation for Defense of Democracies)",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 사우디아라비아의 이라크 출처 드론 공격 공식 확인은 새로운 정보. UAE 발표(src-1204)에 이어 사우디도 합류한 통합 걸프국 입장. FDD의 프록시 체인 분석 추가",
+  "entities": [
+    {"id": "ent-415", "type": "Organization", "name": "Saudi Arabia", "role": "confirms Iraq drone origin"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "drone launch origin"},
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "implicated proxy militia"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "proxy chain commander"},
+    {"id": "ent-035", "type": "Organization", "name": "UAE", "role": "co-attributes drone attacks to Iraq"}
+  ],
+  "relations": [
+    {"subject": "ent-409", "predicate": "locatedIn", "object": "ent-410"},
+    {"subject": "ent-409", "predicate": "affiliatedWith", "object": "ent-005"},
+    {"subject": "ent-415", "predicate": "opposes", "object": "ent-409"},
+    {"subject": "ent-415", "predicate": "confirms", "object": "ent-410"},
+    {"subject": "ent-035", "predicate": "confirms", "object": "ent-410"}
+  ]
+}

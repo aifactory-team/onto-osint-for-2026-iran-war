@@ -1,0 +1,25 @@
+{
+  "id": "src-1243",
+  "title": "The Iran-Backed Militia Behind a Terror Plot Against American Jews — Kata'ib Hezbollah member charged",
+  "url": "https://time.com/article/2026/05/16/kataib-hezbollah-terror-plot-synagogue/",
+  "snippet": "Time reports on the case of Mohammad Baqer Saad Dawood al Saadi, a Kata'ib Hezbollah member who has been charged in connection with a terror plot targeting American Jews, including a synagogue attack plan. The article details how the Iran-backed Iraqi militia has been linked to approximately 20 attacks or attempted attacks in the US and Europe, representing a significant escalation from KH's traditional Middle Eastern operations to transnational terrorism. Al Saadi's arrest highlights the growing homeland security threat from Iran's proxy network as the Iran war continues. The case is part of a broader US effort to target KH leadership and operatives through legal channels alongside military operations.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — KH 조직원의 미국 유대인 대상 테러 음모 기소는 새로운 정보. 20건의 미국/유럽 공격 시도 수치 및 알사아디 체포 상세",
+  "entities": [
+    {"id": "ent-409", "type": "Organization", "name": "Kata'ib Hezbollah", "role": "terror plot organization"},
+    {"id": "ent-417", "type": "Person", "name": "Mohammad Baqer Saad Dawood al Saadi", "role": "KH member, charged with terror plot"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "KH patron organization"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "backs KH through IRGC"}
+  ],
+  "relations": [
+    {"subject": "ent-417", "predicate": "affiliatedWith", "object": "ent-409"},
+    {"subject": "ent-409", "predicate": "proxyOf", "object": "ent-005"},
+    {"subject": "ent-409", "predicate": "conducts", "object": "src-1243"},
+    {"subject": "ent-005", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}
