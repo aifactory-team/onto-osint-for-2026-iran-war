@@ -1,0 +1,23 @@
+{
+  "id": "src-1263",
+  "title": "Rubio: 'some good signs' on Iran peace deal — FT interview, warns against being 'overly optimistic'",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/5/21/iran-war-live-tehran-says-no-surrender-to-us-diplomacy-wiser-than-war",
+  "snippet": "US Secretary of State Marco Rubio told the Financial Times there were 'some good signs' that an agreement may be reached in peace talks with Iran. However, Rubio says he doesn't want to be 'overly optimistic' and 'let's see what happens over the next few days'. Trump again vows to retrieve Iran's HEU stockpile. An Iranian official tells Al Jazeera Tehran will 'downblend' the nuclear material itself.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Rubio 'good signs' is a new statement not in previous sources. Yesterday had Vance 'a lot of progress' (src-1239) — this is a new diplomatic signal from a different official.",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"}
+  ],
+  "relations": [
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-002"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

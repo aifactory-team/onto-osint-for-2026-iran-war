@@ -1,0 +1,24 @@
+{
+  "id": "src-1260",
+  "title": "Khamenei orders enriched uranium to stay in Iran — rejects Trump's central demand for HEU removal, oil swings 3% then reverses",
+  "url": "https://www.haaretz.com/middle-east-news/iran/2026-05-21/ty-article/khamenei-says-enriched-uranium-must-stay-in-iran-senior-iranian-sources-say/0000019e-4a17-dab3-adfe-da77293b0000",
+  "snippet": "Iranian Supreme Leader Mojtaba Khamenei has ordered that Iran's stockpile of uranium enriched to 60% remain strictly inside Iranian territory. The directive hardens Tehran's stance on one of the main U.S. demands at peace talks. Israeli officials told Reuters Trump assured Israel HEU would be sent out of Iran. Iran's top officials believe sending the material abroad would leave the country more vulnerable to future US/Israeli attacks.",
+  "source_name": "Haaretz",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Khamenei uranium retention order is a new development not in previous 7 days of sources. Previous discussions covered downblend/moratorium proposals but not a direct Supreme Leader order to keep HEU in-country.",
+  "entities": [
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"}
+  ],
+  "relations": [
+    {"subject": "ent-046", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-1265",
+  "title": "Munir heads to Tehran for mediation — Pakistan army chief visiting Iran Thursday; Naqvi visited Iran twice in one week",
+  "url": "https://english.alarabiya.net/News/middle-east/2026/05/21/pakistan-army-chief-to-visit-tehran-in-mediation-effort-between-us-and-iran",
+  "snippet": "Pakistan's Chief of Army Staff Field Marshal Asim Munir expected to visit Iran for talks and consultations with Iranian authorities. Interior Minister Mohsin Naqvi also visited Iran twice within a single week, interpreted as intensified diplomatic engagement. Pakistan relays proposals, responses, and diplomatic messages between US and Iran, maintaining fragile communication line in absence of direct engagement.",
+  "source_name": "Al Arabiya",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Munir's new Tehran visit (May 22) is a new trip distinct from previous visits. Naqvi's double visit in one week is also newly reported. This is the most intensified Pakistan mediation engagement yet.",
+  "entities": [
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Field Marshal"},
+    {"id": "ent-092", "type": "Person", "name": "Mohsin Naqvi", "role": "Pakistan Interior Minister"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-002"},
+    {"subject": "ent-029", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

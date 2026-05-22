@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-22",
+  "entities": [
+    {
+      "temp_id": "temp-419",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Gregory Meeks",
+      "properties": {"role": "House Foreign Affairs Committee Ranking Member (D-NY)", "affiliation": "United States"},
+      "source_ids": ["src-1261"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-420",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "South Korea",
+      "properties": {"type": "state", "location": "East Asia", "action": "First tanker HMM Universal Winner transited Hormuz with 2M barrels, no tolls paid"},
+      "source_ids": ["src-1262", "src-1266", "src-1269"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-421",
+      "matched_id": null,
+      "type": "Event",
+      "name": "HMM Universal Winner Hormuz Transit",
+      "properties": {"date": "2026-05-20", "location": "Strait of Hormuz", "detail": "First Korean tanker since war, 2M barrels crude, no tolls paid, 4 rounds of diplomatic talks"},
+      "source_ids": ["src-1262", "src-1266", "src-1269"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-422",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Khamenei HEU Retention Order",
+      "properties": {"date": "2026-05-21", "detail": "Supreme Leader Mojtaba Khamenei orders 60% enriched uranium to remain strictly inside Iranian territory, rejecting Trump's central demand for HEU removal"},
+      "source_ids": ["src-1260", "src-1267", "src-1268"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-423",
+      "matched_id": null,
+      "type": "Event",
+      "name": "House GOP WPR Vote Cancellation",
+      "properties": {"date": "2026-05-21", "detail": "GOP leaders cancel House WPR vote for 2nd straight day — feared it would pass due to Republican absences; postponed to early June after Memorial Day recess. 3 GOP defectors: Barrett, Fitzpatrick, Massie"},
+      "source_ids": ["src-1261", "src-1271"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-424",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC 26-Vessel Hormuz Transit",
+      "properties": {"date": "2026-05-20", "detail": "IRGC Navy claims 26 vessels transited Hormuz in 24 hours under IRGC coordination, including Chinese and Korean tankers. Reverses previous 0-vessel days."},
+      "source_ids": ["src-1262", "src-1273"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-425",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Domestic Downblend Path",
+      "properties": {"domain": "nuclear/nonproliferation", "detail": "Iran offers to downblend HEU domestically to 3.7% and 20% levels, rejects sending abroad. Consistent with Khamenei retention order. Counter-proposal to Trump's demand for HEU removal."},
+      "source_ids": ["src-1267", "src-1260"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-046", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-1260"], "confidence": 0.95},
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025", "source_ids": ["src-1260", "src-1267"], "confidence": 0.95},
+    {"subject": "temp-419", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-1261"], "confidence": 0.85},
+    {"subject": "ent-005", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1262"], "confidence": 0.95},
+    {"subject": "temp-420", "predicate": "cooperatesWith", "object": "ent-002", "source_ids": ["src-1262", "src-1266"], "confidence": 0.80},
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-002", "source_ids": ["src-1265"], "confidence": 0.90},
+    {"subject": "ent-077", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-1263"], "confidence": 0.85},
+    {"subject": "ent-029", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-1265"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 7,
+    "matched_entities": 0,
+    "total_relations": 8
+  }
+}

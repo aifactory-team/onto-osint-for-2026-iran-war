@@ -1,0 +1,24 @@
+{
+  "id": "src-1262",
+  "title": "IRGC claims 26 vessels transited Hormuz in 24 hours — including first Korean tanker (HMM Universal Winner, 2M bbl), all under IRGC coordination",
+  "url": "https://www.aljazeera.com/news/2026/5/20/iran-says-it-coordinated-crossing-of-26-vessels-out-of-strait-of-hormuz",
+  "snippet": "Iran's IRGC said it coordinated the transit of 26 vessels through the Strait of Hormuz in 24 hours, including oil tankers, container ships, and commercial vessels. All transits required prior IRGC Navy authorization. South Korea's first tanker HMM Universal Winner transited with 2M barrels of crude after 4 rounds of diplomatic talks. Korea stated no tolls were paid. IRGC: 'Traffic through Hormuz is being carried out with permission and in coordination with the IRGC Navy.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC 26-vessel transit claim is new — reverses yesterday's report of 0 vessels transiting (src-1238). Korean tanker transit is also new. Represents major shift from 1,600 stranded ships narrative.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-420", "type": "Organization", "name": "South Korea"},
+    {"id": "temp-421", "type": "Event", "name": "HMM Universal Winner Hormuz Transit"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "temp-420", "predicate": "cooperatesWith", "object": "ent-002"}
+  ]
+}

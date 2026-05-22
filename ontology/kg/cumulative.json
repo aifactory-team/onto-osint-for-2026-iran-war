@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-22",
   "nodes": [
     {
       "id": "ent-001",
@@ -1899,6 +1899,41 @@
       "id": "ent-418",
       "type": "Concept",
       "label": "Power of Siberia 2"
+    },
+    {
+      "id": "ent-419",
+      "type": "Person",
+      "label": "Gregory Meeks"
+    },
+    {
+      "id": "ent-420",
+      "type": "Organization",
+      "label": "South Korea"
+    },
+    {
+      "id": "ent-421",
+      "type": "Event",
+      "label": "HMM Universal Winner Hormuz Transit"
+    },
+    {
+      "id": "ent-422",
+      "type": "Event",
+      "label": "Khamenei HEU Retention Order"
+    },
+    {
+      "id": "ent-423",
+      "type": "Event",
+      "label": "House GOP WPR Vote Cancellation"
+    },
+    {
+      "id": "ent-424",
+      "type": "Event",
+      "label": "IRGC 26-Vessel Hormuz Transit"
+    },
+    {
+      "id": "ent-425",
+      "type": "Concept",
+      "label": "Domestic Downblend Path"
     }
   ],
   "edges": [
@@ -9750,11 +9785,123 @@
       "source_id": "inferred",
       "date": "2026-05-21",
       "confidence": 0.85
+    },
+    {
+      "subject": "ent-046",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_id": "src-1260",
+      "date": "2026-05-22",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-046",
+      "predicate": "mentions",
+      "object": "ent-025",
+      "source_id": "src-1260",
+      "date": "2026-05-22",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-419",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_id": "src-1261",
+      "date": "2026-05-22",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-420",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "source_id": "src-1266",
+      "date": "2026-05-22",
+      "confidence": 0.80
+    },
+    {
+      "subject": "ent-421",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-1266",
+      "date": "2026-05-22",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-1262",
+      "date": "2026-05-22",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-028",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "source_id": "src-1265",
+      "date": "2026-05-22",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "relatedTo",
+      "object": "ent-002",
+      "source_id": "src-1263",
+      "date": "2026-05-22",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "mentions",
+      "object": "ent-025",
+      "source_id": "src-1267",
+      "date": "2026-05-22",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-029",
+      "predicate": "relatedTo",
+      "object": "ent-002",
+      "source_id": "src-1265",
+      "date": "2026-05-22",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-419",
+      "predicate": "participatesIn",
+      "object": "ent-423",
+      "source_id": "src-1261",
+      "date": "2026-05-22",
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-420",
+      "predicate": "participatesIn",
+      "object": "ent-421",
+      "source_id": "src-1266",
+      "date": "2026-05-22",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-046",
+      "predicate": "opposes",
+      "object": "ent-004",
+      "source_id": "inferred",
+      "date": "2026-05-22",
+      "confidence": 0.78
+    },
+    {
+      "subject": "ent-420",
+      "predicate": "potentialRelation",
+      "object": "ent-010",
+      "source_id": "inferred",
+      "date": "2026-05-22",
+      "confidence": 0.72
     }
   ],
   "stats": {
-    "total_nodes": 378,
-    "total_edges": 899,
-    "total_triples": 899
+    "total_nodes": 385,
+    "total_edges": 914,
+    "total_triples": 914
   }
 }

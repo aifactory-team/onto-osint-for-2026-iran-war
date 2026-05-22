@@ -1,0 +1,22 @@
+{
+  "id": "src-1264",
+  "title": "Iran says US proposal has 'narrowed the gaps' — senior source says no deal but gaps bridged; Khamenei uranium order complicates outlook",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-21/iran-reviewing-trump-s-latest-offer-as-clock-ticks-on-ceasefire",
+  "snippet": "Iran said the latest proposal from the US has partly bridged the gap between the warring sides, as they seek to turn a fragile ceasefire into a peace deal. A senior Iranian source said no deal has been reached with the U.S., but the gaps had narrowed. However, comments from the Supreme Leader about keeping Tehran's uranium stockpile and a dispute over tolls in the Strait of Hormuz clouded the outlook for a breakthrough.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran's assessment that US proposal 'narrowed the gaps' is a new diplomatic development not in previous sources. This is the first time Iran has officially acknowledged progress on the latest US proposal.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-001"}
+  ]
+}

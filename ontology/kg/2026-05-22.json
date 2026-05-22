@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-22",
+  "new_triples": [
+    {"subject": "ent-046", "predicate": "opposes", "object": "ent-001", "source_id": "src-1260", "date": "2026-05-22", "confidence": 0.95, "type": "explicit", "detail": "Khamenei orders HEU to stay in Iran, directly opposing Trump's demand for removal"},
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025", "source_id": "src-1260", "date": "2026-05-22", "confidence": 0.95, "type": "explicit", "detail": "Khamenei's order directly concerns nuclear program/enriched uranium"},
+    {"subject": "ent-419", "predicate": "opposes", "object": "ent-001", "source_id": "src-1261", "date": "2026-05-22", "confidence": 0.85, "type": "explicit", "detail": "Meeks introduces WPR resolution to limit Trump's war powers"},
+    {"subject": "ent-420", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-1266", "date": "2026-05-22", "confidence": 0.80, "type": "explicit", "detail": "South Korea negotiated Hormuz transit with Iran, 4 rounds of diplomatic talks"},
+    {"subject": "ent-421", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1266", "date": "2026-05-22", "confidence": 0.95, "type": "explicit", "detail": "Korean tanker transit occurred at Strait of Hormuz"},
+    {"subject": "ent-005", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1262", "date": "2026-05-22", "confidence": 0.95, "type": "explicit", "detail": "IRGC Navy asserts Hormuz traffic control — 26 vessels under coordination"},
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-1265", "date": "2026-05-22", "confidence": 0.90, "type": "explicit", "detail": "Munir visits Tehran for mediation, Naqvi double visit in one week"},
+    {"subject": "ent-077", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-1263", "date": "2026-05-22", "confidence": 0.85, "type": "explicit", "detail": "Rubio 'some good signs' on Iran peace deal in FT interview"},
+    {"subject": "ent-002", "predicate": "mentions", "object": "ent-025", "source_id": "src-1267", "date": "2026-05-22", "confidence": 0.90, "type": "explicit", "detail": "Iran offers domestic downblend to 3.7%/20%, rejects sending HEU abroad"},
+    {"subject": "ent-029", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-1265", "date": "2026-05-22", "confidence": 0.90, "type": "explicit", "detail": "Pakistan intensifies mediation — Munir Tehran visit, Naqvi double visit"},
+    {"subject": "ent-419", "predicate": "participatesIn", "object": "ent-423", "source_id": "src-1261", "date": "2026-05-22", "confidence": 0.90, "type": "explicit", "detail": "Meeks introduced the resolution that GOP cancelled"},
+    {"subject": "ent-420", "predicate": "participatesIn", "object": "ent-421", "source_id": "src-1266", "date": "2026-05-22", "confidence": 0.95, "type": "explicit", "detail": "South Korea's HMM tanker transited Hormuz"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-046", "predicate": "opposes", "object": "ent-004", "source_id": "inferred", "date": "2026-05-22", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "detail": "Khamenei's HEU order opposes both Trump AND Israeli assurances (Israel told Reuters Trump assured HEU removal)"},
+    {"subject": "ent-420", "predicate": "relatedTo", "object": "ent-010", "source_id": "inferred", "date": "2026-05-22", "confidence": 0.72, "type": "inferred", "rule": "co_participation", "detail": "Both South Korea and China negotiated Hormuz transits with Iran — parallel bilateral channels"},
+    {"subject": "ent-422", "predicate": "opposes", "object": "ent-425", "source_id": "inferred", "date": "2026-05-22", "confidence": 0.70, "type": "inferred", "rule": "event_chain", "detail": "Khamenei HEU retention order enables domestic downblend path but opposes Trump's removal demand — two concepts are complementary but in tension with US position"}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 12,
+    "inferred_edges": 3
+  }
+}

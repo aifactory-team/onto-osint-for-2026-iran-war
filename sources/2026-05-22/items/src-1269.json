@@ -1,0 +1,22 @@
+{
+  "id": "src-1269",
+  "title": "[한국] 韓 유조선 호르무즈 첫 통과 — HMM 유니버설위너호 원유 200만 배럴 적재",
+  "url": "https://www.munhwa.com/article/11590583",
+  "snippet": "한국 HMM 소속 초대형 유조선 유니버설위너호가 원유 200만 배럴을 싣고 호르무즈 해협을 통과해 울산으로 향했다. 미국·이란 전쟁 이후 사실상 첫 한국 유조선 통과 사례. 한국 정부와 이란 측의 협의 속에서 이뤄졌으며, 통행료는 지불하지 않았다.",
+  "source_name": "문화일보",
+  "language": "ko",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국 유조선 호르무즈 통과는 한국 관점에서 신규 사건. src-1266의 한국어 상세 보도.",
+  "entities": [
+    {"id": "temp-420", "type": "Organization", "name": "South Korea"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-420", "predicate": "cooperatesWith", "object": "ent-002"}
+  ]
+}

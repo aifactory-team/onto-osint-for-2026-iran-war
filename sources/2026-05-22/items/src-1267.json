@@ -1,0 +1,22 @@
+{
+  "id": "src-1267",
+  "title": "Iran downblend offer: will process HEU domestically to 3.7%/20% — rejects sending abroad, Khamenei order backs domestic-only path",
+  "url": "https://cryptobriefing.com/iran-ready-to-downblend-uranium-amid-us-iran-nuclear-talks/",
+  "snippet": "Iran has announced its readiness to downblend its highly enriched uranium to levels of 3.7% and 20% domestically. This move comes amid ongoing US-Iran negotiations aiming at de-escalating nuclear tensions. The downblending would involve mixing stocks with depleted uranium to achieve lower enrichment percentages. Iran rejects sending HEU abroad, consistent with Khamenei's order for uranium to remain in the country.",
+  "source_name": "CryptoBriefing",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Specific downblend levels (3.7% and 20%) and domestic-only processing path are new details not in previous sources. Combined with Khamenei's uranium retention order, this is a coherent Iranian counter-proposal emerging.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"},
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "mentions", "object": "ent-025"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-1268",
+  "title": "[한국] 이란 최고지도자, 고농축우라늄 반출 거부 — 미이란 핵협상 최대 고비",
+  "url": "https://www.fnnews.com/news/202605220148455442",
+  "snippet": "이란 최고지도부가 농축우라늄을 해외로 반출하지 않겠다는 방침을 공식화하면서 미국과 이란 간 핵협상이 다시 최대 고비를 맞고 있다. 이란은 최대 60% 수준까지 우라늄 농축을 진행해온 상태이며, 핵무기 제조에 필요한 90% 농축과도 가까운 단계다.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 매체의 하메네이 우라늄 반출 거부 보도. src-1260의 한국어 보도이지만 한국 시각 분석 포함.",
+  "entities": [
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"}
+  ],
+  "relations": [
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025"}
+  ]
+}

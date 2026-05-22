@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-22",
   "entities": [
     {
       "id": "ent-001",
@@ -4874,9 +4874,100 @@
       "first_seen": "2026-05-21",
       "last_seen": "2026-05-21",
       "mention_count": 3
+    },
+    {
+      "id": "ent-419",
+      "type": "Person",
+      "name": "Gregory Meeks",
+      "properties": {
+        "role": "House Foreign Affairs Committee Ranking Member (D-NY)",
+        "affiliation": "United States",
+        "action": "Introduced House WPR resolution; GOP cancelled vote 2 days running fearing passage"
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-420",
+      "type": "Organization",
+      "name": "South Korea",
+      "properties": {
+        "type": "state",
+        "location": "East Asia",
+        "action": "First tanker HMM Universal Winner transited Hormuz with 2M barrels crude, no tolls paid, after 4 rounds of diplomatic talks with Iran"
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-421",
+      "type": "Event",
+      "name": "HMM Universal Winner Hormuz Transit",
+      "properties": {
+        "date": "2026-05-20",
+        "location": "Strait of Hormuz",
+        "detail": "First Korean tanker since war began, 2M barrels crude, no tolls paid, 4 rounds of diplomatic talks. Part of IRGC 26-vessel transit claim.",
+        "participants": "South Korea, Iran/IRGC"
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-422",
+      "type": "Event",
+      "name": "Khamenei HEU Retention Order",
+      "properties": {
+        "date": "2026-05-21",
+        "detail": "Supreme Leader Mojtaba Khamenei orders 60% enriched uranium to remain strictly inside Iranian territory, rejecting Trump's central demand for HEU removal. Israeli officials told Reuters Trump assured Israel HEU would be sent abroad.",
+        "participants": "Mojtaba Khamenei, Iran"
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-423",
+      "type": "Event",
+      "name": "House GOP WPR Vote Cancellation",
+      "properties": {
+        "date": "2026-05-20~21",
+        "detail": "GOP leaders cancel House WPR vote for 2nd straight day — feared it would pass due to Republican absences. 3 GOP defectors: Barrett, Fitzpatrick, Massie. Postponed to early June after Memorial Day recess.",
+        "participants": "Gregory Meeks, Josh Gottheimer, House GOP leadership"
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-424",
+      "type": "Event",
+      "name": "IRGC 26-Vessel Hormuz Transit Claim",
+      "properties": {
+        "date": "2026-05-20",
+        "detail": "IRGC Navy claims 26 vessels transited Hormuz in 24 hours under IRGC coordination, including Chinese and Korean tankers. Reverses previous 0-vessel transit days. IRGC asserts Hormuz traffic control.",
+        "participants": "IRGC Navy, Iran"
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-425",
+      "type": "Concept",
+      "name": "Domestic Downblend Path",
+      "properties": {
+        "domain": "nuclear/nonproliferation",
+        "detail": "Iran offers to downblend HEU domestically to 3.7% and 20% levels, rejects sending abroad. Consistent with Khamenei retention order. Counter-proposal to Trump's demand for HEU removal."
+      },
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mention_count": 4
     }
   ],
-  "total_count": 376,
+  "total_count": 383,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5105,6 +5196,13 @@
         "src-1212",
         "src-1213"
       ]
+    },
+    {
+      "date": "2026-05-22",
+      "action": "add_instances",
+      "target": "7 new entities (ent-419~ent-425)",
+      "reason": "하메네이 HEU 보유 명령(핵 협상 최대 쟁점 공식화), 하원 GOP WPR 투표 2일 연속 취소(그레고리 믹스 등장), IRGC 26척 호르무즈 통과·한국 유조선 첫 통과(HMM 유니버설위너·200만bbl), 이란 국내 다운블렌드(3.7%/20%) 제안, 루비오 'good signs', 무니르 테헤란 방문. 스키마 변경 없음",
+      "source_ids": ["src-1260", "src-1261", "src-1262", "src-1263", "src-1264", "src-1265", "src-1266", "src-1267", "src-1268", "src-1269"]
     }
   ]
 }

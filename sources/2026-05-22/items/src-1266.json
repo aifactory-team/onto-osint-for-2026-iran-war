@@ -1,0 +1,24 @@
+{
+  "id": "src-1266",
+  "title": "Korean tanker HMM Universal Winner first Hormuz transit since war — 2M barrels crude, no tolls paid, 4 rounds of diplomatic talks",
+  "url": "https://maritime-executive.com/article/chinese-and-korean-vlccs-clear-hormuz-as-iran-claims-to-increase-traffic",
+  "snippet": "South Korea's Ministry of Foreign Affairs announced its first tanker had been able to make the transit carrying about 2 million barrels of crude. The passage came after four rounds of discussions with Iranian officials. South Korea emphatically stated no tolls were paid or exchange of money to obtain the passage. The IRGC Navy released a statement claiming 26 vessels safely transited, including Chinese and Korean tankers.",
+  "source_name": "Maritime Executive",
+  "language": "en",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean tanker transit is a new development — first Korean vessel through Hormuz since war began. Previous Korean media reported on when Korea would get access; this is the actual transit.",
+  "entities": [
+    {"id": "temp-420", "type": "Organization", "name": "South Korea"},
+    {"id": "temp-421", "type": "Event", "name": "HMM Universal Winner Hormuz Transit"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-420", "predicate": "cooperatesWith", "object": "ent-002"},
+    {"subject": "temp-421", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

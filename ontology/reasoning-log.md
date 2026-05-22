@@ -1707,3 +1707,28 @@
 - **신뢰도:** 0.85
 - **상태:** 확정
 - **의미:** 사우디-UAE 동시 이라크 발원 확인은 걸프국 간 정보 공유/조율을 시사
+
+---
+
+## 2026-05-22 추론 결과
+
+### 추론 #1: co_participation (하메네이-이스라엘 대립)
+- **입력:** (ent-046 Khamenei, opposes, ent-001 Trump, src-1260), Israeli officials told Reuters Trump assured Israel HEU would be sent abroad
+- **추론:** (ent-046 Khamenei, opposes, ent-004 Israel)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **의미:** 하메네이의 HEU 보유 명령은 트럼프뿐 아니라 이스라엘의 HEU 반출 보장 요구도 정면 거부 — 이스라엘은 이란 핵 위협을 가장 직접적으로 받는 국가
+
+### 추론 #2: co_participation (한국-중국 병행 채널)
+- **입력:** (ent-420 South Korea, cooperatesWith, ent-002 Iran, src-1266), (ent-010 China, cooperatesWith, ent-002 Iran, prior)
+- **추론:** (ent-420 South Korea, potentialRelation, ent-010 China)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **의미:** 한국과 중국 모두 이란과 개별 호르무즈 통과 협상을 완료 — 이란의 '선별적 허가' 체제가 양자 외교 채널을 통해 확대되는 패턴
+
+### 추론 #3: event_chain (하메네이 명령 → 다운블렌드 경로)
+- **입력:** (ent-422 Khamenei HEU Order, src-1260), (ent-425 Domestic Downblend, src-1267)
+- **추론:** Khamenei order enables domestic downblend path but opposes Trump's removal demand
+- **신뢰도:** 0.70
+- **상태:** 잠정
+- **의미:** 하메네이 명령은 HEU를 '없애는' 것을 거부한 게 아니라 '반출'을 거부한 것. 국내 다운블렌드는 양립 가능한 타협안이나, 미국이 이를 수용할지는 미지수
