@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-23",
   "classes": [
     {
       "id": "Entity",
@@ -761,6 +761,20 @@
       "target": "5 new entities (ent-414~ent-418)",
       "reason": "시진핑-푸틴 베이징 정상회담(~40건 거래·파워오브시베리아2 합의), 사우디아라비아 이라크 발원 드론 확인(3대 요격), 고트하이머 하원 WPR 결의안, 알사디 KH 테러혐의 기소, 파워오브시베리아2 파이프라인 개념. 스키마 변경 없음 — 기존 클래스/관계로 표현 가능",
       "source_ids": ["src-1233", "src-1234", "src-1235", "src-1236", "src-1237", "src-1238", "src-1239", "src-1240", "src-1241", "src-1243"]
+    },
+    {
+      "date": "2026-05-22",
+      "action": "add_instances",
+      "target": "7 new entities (ent-419~ent-425)",
+      "reason": "하메네이 HEU 보유 명령(핵 협상 최대 쟁점 공식화), 하원 GOP WPR 투표 2일 연속 취소(그레고리 믹스 등장), IRGC 26척 호르무즈 통과·한국 유조선 첫 통과(HMM 유니버설위너·200만bbl), 이란 국내 다운블렌드(3.7%/20%) 제안, 루비오 'good signs', 무니르 테헤란 방문. 스키마 변경 없음",
+      "source_ids": ["src-1260", "src-1261", "src-1262", "src-1263", "src-1264", "src-1265", "src-1266", "src-1267", "src-1268", "src-1269"]
+    },
+    {
+      "date": "2026-05-23",
+      "action": "no_change",
+      "target": "schema",
+      "reason": "카타르 중재 복귀, IRGC 35척 호르무즈 관리 통과, 무니르 테헤란 방문 취소, 하원 WPR 6/2 연기 + Golden 이탈 예고. 신규 엔티티(ent-426/Jared Golden → Person)와 기존 엔티티 업데이트(ent-336/Qatar). 모든 엔티티와 관계는 기존 클래스/관계 유형으로 표현 가능. 스키마 변경 없음",
+      "source_ids": ["src-1290", "src-1291", "src-1292", "src-1293", "src-1294", "src-1295", "src-1296", "src-1297"]
     }
   ]
 }

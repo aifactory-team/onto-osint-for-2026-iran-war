@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-23",
   "entities": [
     {
       "id": "ent-001",
@@ -13,8 +13,8 @@
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-20",
-      "mention_count": 270
+      "last_seen": "2026-05-23",
+      "mention_count": 276
     },
     {
       "id": "ent-002",
@@ -26,8 +26,8 @@
         "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-20",
-      "mention_count": 323
+      "last_seen": "2026-05-23",
+      "mention_count": 329
     },
     {
       "id": "ent-003",
@@ -64,8 +64,8 @@
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-20",
-      "mention_count": 105
+      "last_seen": "2026-05-23",
+      "mention_count": 108
     },
     {
       "id": "ent-006",
@@ -101,8 +101,8 @@
         "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-20",
-      "mention_count": 278
+      "last_seen": "2026-05-23",
+      "mention_count": 283
     },
     {
       "id": "ent-009",
@@ -299,8 +299,8 @@
         "domain": "military/energy"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 22
+      "last_seen": "2026-05-23",
+      "mention_count": 25
     },
     {
       "id": "ent-026",
@@ -336,8 +336,8 @@
         "action_apr21": "requested ceasefire extension from Trump alongside Sharif — cited by name in Trump Truth Social announcement; Pakistan's military-diplomatic dual track continues"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-21",
-      "mention_count": 37
+      "last_seen": "2026-05-23",
+      "mention_count": 40
     },
     {
       "id": "ent-029",
@@ -349,8 +349,8 @@
         "action_apr21": "Munir + Sharif requested ceasefire extension from Trump — cited by Trump in extension announcement; racing against time as Iran boycotts talks"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-20",
-      "mention_count": 104
+      "last_seen": "2026-05-23",
+      "mention_count": 107
     },
     {
       "id": "ent-030",
@@ -560,8 +560,8 @@
         "note": "Son of late Ali Khamenei"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-09",
-      "mention_count": 6
+      "last_seen": "2026-05-23",
+      "mention_count": 8
     },
     {
       "id": "ent-047",
@@ -961,8 +961,8 @@
         "action": "mediated Israel-Lebanon Washington talks (Apr 14)"
       },
       "first_seen": "2026-04-14",
-      "last_seen": "2026-05-20",
-      "mention_count": 13
+      "last_seen": "2026-05-23",
+      "mention_count": 15
     },
     {
       "id": "ent-078",
@@ -3788,11 +3788,12 @@
         "type": "state",
         "location": "Persian Gulf",
         "role": "LNG exporter, war mediator",
-        "description": "World's largest LNG exporter. Dual role as mediator and energy supplier. Two earlier LNG tankers aborted April 6 crossing. First successful transit May 10."
+        "description": "World's largest LNG exporter. Dual role as mediator and energy supplier. Two earlier LNG tankers aborted April 6 crossing. First successful transit May 10.",
+        "action_may23": "Qatar returns to active mediation after stepping back due to Iranian strikes on Qatari LNG infrastructure. Negotiating team arrived in Tehran, coordinated with US."
       },
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-10",
-      "mention_count": 8
+      "last_seen": "2026-05-23",
+      "mention_count": 13
     },
     {
       "id": "ent-337",
@@ -4736,7 +4737,13 @@
         "date": "2026-05-19",
         "result": "50-47 advance",
         "location": "US Senate",
-        "participants": ["Tim Kaine", "Rand Paul", "Susan Collins", "Lisa Murkowski", "Bill Cassidy"],
+        "participants": [
+          "Tim Kaine",
+          "Rand Paul",
+          "Susan Collins",
+          "Lisa Murkowski",
+          "Bill Cassidy"
+        ],
         "significance": "first time WPR resolution advanced past procedural vote; bipartisan momentum building against undeclared war"
       },
       "first_seen": "2026-05-20",
@@ -4965,9 +4972,22 @@
       "first_seen": "2026-05-22",
       "last_seen": "2026-05-22",
       "mention_count": 4
+    },
+    {
+      "id": "ent-426",
+      "type": "Person",
+      "name": "Jared Golden",
+      "properties": {
+        "role": "US Representative (D-ME)",
+        "affiliation": "United States / Democratic Party",
+        "action_may23": "Planning to flip WPR vote to yes — potential critical swing vote for House WPR passage on June 2"
+      },
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "mention_count": 3
     }
   ],
-  "total_count": 383,
+  "total_count": 384,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5202,7 +5222,34 @@
       "action": "add_instances",
       "target": "7 new entities (ent-419~ent-425)",
       "reason": "하메네이 HEU 보유 명령(핵 협상 최대 쟁점 공식화), 하원 GOP WPR 투표 2일 연속 취소(그레고리 믹스 등장), IRGC 26척 호르무즈 통과·한국 유조선 첫 통과(HMM 유니버설위너·200만bbl), 이란 국내 다운블렌드(3.7%/20%) 제안, 루비오 'good signs', 무니르 테헤란 방문. 스키마 변경 없음",
-      "source_ids": ["src-1260", "src-1261", "src-1262", "src-1263", "src-1264", "src-1265", "src-1266", "src-1267", "src-1268", "src-1269"]
+      "source_ids": [
+        "src-1260",
+        "src-1261",
+        "src-1262",
+        "src-1263",
+        "src-1264",
+        "src-1265",
+        "src-1266",
+        "src-1267",
+        "src-1268",
+        "src-1269"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "action": "add_instances",
+      "target": "1 new entity (ent-426), 1 existing entity updated (ent-336/Qatar)",
+      "reason": "카타르 중재 복귀(이란 LNG 인프라 공격 후 후퇴 → 재참여), IRGC 35척 호르무즈 관리 통과(3일 연속 증가), 무니르 테헤란 방문 취소(시퀀싱 교착), 하원 WPR 6/2 연기 + Golden(D-ME) 이탈 예고, Bloomberg 호르무즈+핵 교착 분석, 유가 $104.52 (+1.89%). 스키마 변경 없음",
+      "source_ids": [
+        "src-1290",
+        "src-1291",
+        "src-1292",
+        "src-1293",
+        "src-1294",
+        "src-1295",
+        "src-1296",
+        "src-1297"
+      ]
     }
   ]
 }

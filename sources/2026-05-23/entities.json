@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-23",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Qatar",
+      "properties": {"type": "state", "location": "Middle East", "action": "Returned to US-Iran mediation after stepping back following Iranian strikes on Qatari LNG infrastructure; negotiating team arrived in Tehran"},
+      "source_ids": ["src-1286"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Jared Golden",
+      "properties": {"role": "US Representative (D-ME)", "affiliation": "United States", "action": "Planning to flip vote to yes on Iran war powers resolution"},
+      "source_ids": ["src-1289"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President"},
+      "source_ids": ["src-1286", "src-1288", "src-1289", "src-1291", "src-1294"],
+      "mention_count": 9
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"type": "state"},
+      "source_ids": ["src-1285", "src-1286", "src-1287", "src-1288", "src-1290", "src-1291"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"type": "military", "role": "Iranian military force controlling Hormuz transit"},
+      "source_ids": ["src-1285", "src-1292", "src-1293"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"significance": "Critical maritime chokepoint, 35 vessels transited in 24 hours on May 22"},
+      "source_ids": ["src-1285", "src-1288", "src-1292", "src-1293"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-025",
+      "type": "Concept",
+      "name": "Nuclear Program",
+      "properties": {"domain": "nuclear/nonproliferation"},
+      "source_ids": ["src-1288", "src-1290"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-028",
+      "type": "Person",
+      "name": "Asim Munir",
+      "properties": {"role": "Pakistan Army Chief", "action": "Cancelled planned Tehran visit; continues supervising written message exchanges"},
+      "source_ids": ["src-1287", "src-1291"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan",
+      "properties": {"type": "state", "role": "Mediator in US-Iran peace talks"},
+      "source_ids": ["src-1287", "src-1291"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-046",
+      "type": "Person",
+      "name": "Mojtaba Khamenei",
+      "properties": {"role": "Iran Supreme Leader"},
+      "source_ids": ["src-1290"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": {"role": "US Secretary of State", "action": "Upgraded assessment from 'some good signs' to 'slight progress'"},
+      "source_ids": ["src-1287"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008", "source_ids": ["src-1285", "src-1292", "src-1293"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "mediates", "object": "ent-002", "source_ids": ["src-1286"], "confidence": 0.90},
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1286"], "confidence": 0.85},
+    {"subject": "ent-028", "predicate": "mediates", "object": "ent-002", "source_ids": ["src-1287", "src-1291"], "confidence": 0.95},
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-1291"], "confidence": 0.85},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-001", "source_ids": ["src-1288"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "controls", "object": "ent-008", "source_ids": ["src-1288"], "confidence": 0.90},
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025", "source_ids": ["src-1290"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-1289"], "confidence": 0.80},
+    {"subject": "ent-077", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-1287"], "confidence": 0.85},
+    {"subject": "ent-029", "predicate": "mediates", "object": "ent-002", "source_ids": ["src-1287", "src-1291"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 11,
+    "new_entities": 2,
+    "matched_entities": 9,
+    "total_relations": 11
+  }
+}

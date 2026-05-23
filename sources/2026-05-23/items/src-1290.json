@@ -1,0 +1,22 @@
+{
+  "id": "src-1290",
+  "title": "Iran's enriched uranium stockpile: can it be safely transferred? — analysis on downblend vs. export vs. third-country options after Khamenei's domestic retention order",
+  "url": "https://www.aljazeera.com/news/2026/5/22/irans-enriched-uranium-stockpile-can-it-be-safely-transferred",
+  "snippet": "Al Jazeera examines the technical and political options for Iran's enriched uranium stockpile after Supreme Leader Khamenei's order to retain it domestically. Options analyzed include downblending HEU to lower enrichment levels within Iran, exporting the material to a third country such as Russia, and establishing international safeguard arrangements. The analysis concludes that Khamenei's retention order significantly narrows the viable options.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New analytical content examining the technical feasibility of uranium transfer options in light of Khamenei's retention order (src-1260). Previous coverage reported the order but did not analyze transfer options in detail.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"}
+  ],
+  "relations": [
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-025"}
+  ]
+}

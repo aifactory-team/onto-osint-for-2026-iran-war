@@ -1,0 +1,22 @@
+{
+  "id": "src-1286",
+  "title": "Qatari negotiating team in Tehran to help secure US-Iran deal to end war — Qatar returns to mediation after stepping back following Iranian strikes on Qatari LNG infrastructure",
+  "url": "https://www.jpost.com/middle-east/iran-news/article-897019",
+  "snippet": "Qatar has returned to mediation efforts between the US and Iran after stepping back following Iranian strikes on Qatari LNG infrastructure. A Qatari negotiating team arrived in Tehran in coordination with the US to help resolve outstanding issues in the peace deal negotiations. Qatar's re-engagement adds a new diplomatic channel alongside Pakistan's ongoing mediation.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Qatar's return to US-Iran mediation is a new diplomatic development. Qatar had stepped back after Iranian strikes on its LNG infrastructure. Its re-entry alongside Pakistan's mediation changes the negotiation dynamics.",
+  "entities": [
+    {"id": "temp-001", "type": "Organization", "name": "Qatar", "role": "Mediator state"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "mediates", "object": "ent-002"},
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-001"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-1293",
+  "title": "[한국] 호르무즈 통과 선박 하루 35척, 이틀 연속 30척 웃돌아",
+  "url": "https://www.fnnews.com/news/202605221908191166",
+  "snippet": "호르무즈 해협 통과 선박이 하루 35척을 기록하며 이틀 연속 30척을 넘어섰다. 전일 31척에 이어 통항량이 증가세를 이어가고 있다. IRGC 해군의 통제 하에 유조선과 화물선이 통과하고 있으며, 휴전 이후 해상 운송 정상화가 진행 중인 것으로 평가된다.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 매체의 호르무즈 통과 선박 수 보도. 이틀 연속 30척 이상이라는 추세 분석 포함.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "Iranian military force"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008"}
+  ]
+}

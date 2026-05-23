@@ -1,0 +1,24 @@
+{
+  "id": "src-1287",
+  "title": "Pakistan army chief Asim Munir calls off Iran trip — no final formula reached; US insists nuclear issue closed, Iran demands 30-day confidence-building process",
+  "url": "https://www.theweek.in/news/middle-east/2026/05/22/why-did-pakistan-army-chief-asim-munir-call-off-his-iran-trip-despite-marco-rubios-good-signs-remark.html",
+  "snippet": "Pakistan Army Chief Gen. Asim Munir cancelled his planned visit to Tehran because no final formula had been reached between the US and Iran. The US insists the nuclear issue must be negotiated and closed as part of the deal; Iran conditions nuclear talks on a 30-day confidence-building process first. Munir continues supervising written message exchanges between the parties. The cancellation came despite US Secretary of State Marco Rubio's earlier 'good signs' remark.",
+  "source_name": "The Week",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Munir's cancellation of the Iran trip is a new development contradicting earlier reporting (src-1265) that he was heading to Tehran. The 30-day confidence-building process demand from Iran and the nuclear sequencing dispute are new details.",
+  "entities": [
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Army Chief"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-028", "predicate": "mediates", "object": "ent-002"},
+    {"subject": "ent-028", "predicate": "partOf", "object": "ent-029"},
+    {"subject": "ent-077", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

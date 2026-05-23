@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-23",
+  "new_triples": [
+    {"subject": "ent-336", "predicate": "cooperatesWith", "object": "ent-029", "source_id": "src-1290", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "Qatar joins Pakistan in co-mediation — Qatari negotiating team arrived in Tehran, coordinated with US"},
+    {"subject": "ent-336", "predicate": "participatesIn", "object": "ent-016", "source_id": "src-1290", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "Qatar returns to active mediation after stepping back due to Iranian strikes on Qatari LNG infrastructure"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1291", "date": "2026-05-23", "confidence": 0.95, "type": "explicit", "detail": "IRGC claims 35 vessels transited Hormuz under managed system — up from 31 (May 22), 26 (May 21)"},
+    {"subject": "ent-028", "predicate": "opposes", "object": "ent-002", "source_id": "src-1292", "date": "2026-05-23", "confidence": 0.80, "type": "explicit", "detail": "Munir calls off Tehran trip — no final formula reached; US insists nuclear closed first, Iran wants 30-day confidence-building"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-423", "source_id": "src-1293", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Trump stays in Washington skipping son's wedding for Iran negotiations; WPR vote postponed to June 2"},
+    {"subject": "ent-426", "predicate": "participatesIn", "object": "ent-423", "source_id": "src-1294", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Jared Golden (D-ME) planning to flip WPR vote to yes — potential critical swing vote"},
+    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025", "source_id": "src-1295", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "Al Jazeera analysis of uranium transfer options following Khamenei's HEU retention order"},
+    {"subject": "ent-008", "predicate": "mentions", "object": "ent-025", "source_id": "src-1296", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Bloomberg analysis: Hormuz and nuclear enrichment remain the two key sticking points in negotiations"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-005", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1291", "date": "2026-05-23", "confidence": 0.95, "type": "update", "detail": "IRGC 'managed transit' system solidifying — 35 vessels, up from 26→31→35 in three consecutive days"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-336", "predicate": "potentialRelation", "object": "ent-029", "source_id": "inferred", "date": "2026-05-23", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "detail": "Qatar and Pakistan both participatesIn Ceasefire Negotiations (ent-016) — co-mediation alliance forming with complementary leverage (Qatar: financial/LNG, Pakistan: border/military)"},
+    {"subject": "ent-422", "predicate": "relatedTo", "object": "ent-016", "source_id": "inferred", "date": "2026-05-23", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "detail": "Khamenei HEU order → complicates nuclear negotiations → affects Hormuz deal; nuclear and Hormuz remain interlinked sticking points per Bloomberg analysis"},
+    {"subject": "ent-028", "predicate": "relatedTo", "object": "ent-336", "source_id": "inferred", "date": "2026-05-23", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "detail": "Munir's failed Tehran trip coincides with Qatar's return to mediation — suggests coordinated multi-track diplomatic effort between Pakistan (military channel) and Qatar (Gulf financial channel)"}
+  ],
+  "stats": {
+    "new_nodes": 1,
+    "new_edges": 8,
+    "updated_edges": 1,
+    "inferred_edges": 3
+  }
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-23",
   "nodes": [
     {
       "id": "ent-001",
@@ -1934,6 +1934,11 @@
       "id": "ent-425",
       "type": "Concept",
       "label": "Domestic Downblend Path"
+    },
+    {
+      "id": "ent-426",
+      "type": "Person",
+      "label": "Jared Golden"
     }
   ],
   "edges": [
@@ -2153,6 +2158,94 @@
       "id": "ent-388",
       "type": "Person",
       "label": "Maryam Rajavi"
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "cooperatesWith",
+      "object": "ent-029",
+      "source_id": "src-1290",
+      "date": "2026-05-23",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "participatesIn",
+      "object": "ent-016",
+      "source_id": "src-1290",
+      "date": "2026-05-23",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "source_id": "src-1291",
+      "date": "2026-05-23",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-028",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "source_id": "src-1292",
+      "date": "2026-05-23",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "relatedTo",
+      "object": "ent-423",
+      "source_id": "src-1293",
+      "date": "2026-05-23",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-426",
+      "predicate": "participatesIn",
+      "object": "ent-423",
+      "source_id": "src-1294",
+      "date": "2026-05-23",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-046",
+      "predicate": "mentions",
+      "object": "ent-025",
+      "source_id": "src-1295",
+      "date": "2026-05-23",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-008",
+      "predicate": "mentions",
+      "object": "ent-025",
+      "source_id": "src-1296",
+      "date": "2026-05-23",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "potentialRelation",
+      "object": "ent-029",
+      "source_id": "inferred",
+      "date": "2026-05-23",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-422",
+      "predicate": "relatedTo",
+      "object": "ent-016",
+      "source_id": "inferred",
+      "date": "2026-05-23",
+      "confidence": 0.78
+    },
+    {
+      "subject": "ent-028",
+      "predicate": "relatedTo",
+      "object": "ent-336",
+      "source_id": "inferred",
+      "date": "2026-05-23",
+      "confidence": 0.75
     }
   ],
   "triples": [
@@ -9552,7 +9645,7 @@
       "object": "ent-001",
       "source_id": "src-1203",
       "date": "2026-05-20",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-409",
@@ -9600,7 +9693,7 @@
       "object": "ent-409",
       "source_id": "src-1206",
       "date": "2026-05-20",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-003",
@@ -9608,7 +9701,7 @@
       "object": "ent-412",
       "source_id": "src-1206",
       "date": "2026-05-20",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-077",
@@ -9616,7 +9709,7 @@
       "object": "ent-280",
       "source_id": "src-1208",
       "date": "2026-05-20",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-077",
@@ -9664,7 +9757,7 @@
       "object": "ent-390",
       "source_id": "inferred",
       "date": "2026-05-20",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-414",
@@ -9688,7 +9781,7 @@
       "object": "ent-409",
       "source_id": "src-1235",
       "date": "2026-05-21",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-010",
@@ -9704,7 +9797,7 @@
       "object": "ent-408",
       "source_id": "src-1237",
       "date": "2026-05-21",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-417",
@@ -9728,7 +9821,7 @@
       "object": "ent-008",
       "source_id": "src-1236",
       "date": "2026-05-21",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-418",
@@ -9736,7 +9829,7 @@
       "object": "ent-009",
       "source_id": "src-1234",
       "date": "2026-05-21",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-418",
@@ -9744,7 +9837,7 @@
       "object": "ent-010",
       "source_id": "src-1234",
       "date": "2026-05-21",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-041",
@@ -9760,7 +9853,7 @@
       "object": "ent-002",
       "source_id": "src-1239",
       "date": "2026-05-21",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-417",
@@ -9816,7 +9909,7 @@
       "object": "ent-002",
       "source_id": "src-1266",
       "date": "2026-05-22",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "subject": "ent-421",
@@ -9840,7 +9933,7 @@
       "object": "ent-002",
       "source_id": "src-1265",
       "date": "2026-05-22",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-077",
@@ -9856,7 +9949,7 @@
       "object": "ent-025",
       "source_id": "src-1267",
       "date": "2026-05-22",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-029",
@@ -9864,7 +9957,7 @@
       "object": "ent-002",
       "source_id": "src-1265",
       "date": "2026-05-22",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-419",
@@ -9872,7 +9965,7 @@
       "object": "ent-423",
       "source_id": "src-1261",
       "date": "2026-05-22",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "subject": "ent-420",
@@ -9900,8 +9993,8 @@
     }
   ],
   "stats": {
-    "total_nodes": 385,
-    "total_edges": 914,
-    "total_triples": 914
+    "total_nodes": 386,
+    "total_edges": 925,
+    "total_triples": 925
   }
 }

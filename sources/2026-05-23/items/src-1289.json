@@ -1,0 +1,20 @@
+{
+  "id": "src-1289",
+  "title": "Republicans call off vote on Iran war resolution — postponed to June 2 after Memorial Day recess; Jared Golden (D-ME) planning to flip to yes",
+  "url": "https://www.npr.org/2026/05/22/g-s1-123592/republicans-call-off-vote-on-iran-war-resolution",
+  "snippet": "House Republicans called off the vote on the Iran war powers resolution, postponing it to June 2 when the chamber returns from Memorial Day recess. The legislative clock forces a vote by that date. Rep. Jared Golden (D-ME) is reportedly planning to flip his vote to yes, which would add to the 4 Republicans who previously voted in favor. The postponement underscores growing bipartisan pressure to invoke the War Powers Resolution.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New details emerge: June 2 hard deadline due to legislative clock, and Jared Golden's planned flip to yes. Previous coverage (src-1261) reported the cancellation but not the June 2 date or Golden's flip.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-002", "type": "Person", "name": "Jared Golden", "role": "US Representative (D-ME)"}
+  ],
+  "relations": [
+    {"subject": "temp-002", "predicate": "opposes", "object": "ent-001"}
+  ]
+}

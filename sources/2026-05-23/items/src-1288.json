@@ -1,0 +1,24 @@
+{
+  "id": "src-1288",
+  "title": "Iran-US Peace Deal: Hormuz and nuclear enrichment are key sticking points — gaps narrowed but significant differences remain",
+  "url": "https://www.bloomberg.com/news/articles/2026-05-22/iran-us-peace-deal-why-hormuz-and-nuclear-enrichment-are-key-sticking-points",
+  "snippet": "Bloomberg analysis identifies two key sticking points preventing a US-Iran peace deal: Iran's uranium enrichment program and control of the Strait of Hormuz. The US and Iran remain locked in a stalemate since the ceasefire. Iran is reviewing Trump's latest proposal. While gaps have narrowed, significant differences remain on both issues. The nuclear question and Hormuz sovereignty are interlinked as both involve Iran's strategic leverage.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Bloomberg analysis synthesizing the two core sticking points. While the individual issues (nuclear, Hormuz) have been covered separately, this analysis framing them as the paired deal-breakers is new analytical content.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-001"},
+    {"subject": "ent-002", "predicate": "controls", "object": "ent-008"},
+    {"subject": "ent-002", "predicate": "mentions", "object": "ent-025"}
+  ]
+}

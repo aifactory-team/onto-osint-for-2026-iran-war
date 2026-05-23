@@ -1,0 +1,20 @@
+{
+  "id": "src-1292",
+  "title": "[한국] 이란, 호르무즈 통행 허가 압박…35척 승인 항로로 통과",
+  "url": "https://www.edaily.co.kr/News/Read?newsId=05966326645451544&mediaCodeNo=257",
+  "snippet": "이란 혁명수비대(IRGC) 해군이 호르무즈 해협을 통과하는 선박 35척의 안전한 통항을 조율했다고 발표했다. 유조선과 컨테이너선 등이 포함됐으며, 전일 31척에 이어 증가세를 보이고 있다. IRGC는 모든 선박이 자국의 '허가와 조율' 하에 통과했다고 강조했다.",
+  "source_name": "이데일리",
+  "language": "ko",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 매체의 호르무즈 35척 통과 보도. src-1285의 한국어 보도이지만 한국 시각 분석 포함.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "Iranian military force"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008"}
+  ]
+}

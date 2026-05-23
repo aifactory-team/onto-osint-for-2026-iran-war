@@ -1,0 +1,24 @@
+{
+  "id": "src-1291",
+  "title": "Pakistani mediators step up efforts to close U.S.-Iran deal — Munir picked because of long history with Iran and good standing with Trump",
+  "url": "https://www.washingtontimes.com/news/2026/may/22/pakistani-mediators-step-efforts-close-us-iran-deal/",
+  "snippet": "Pakistan's mediation role in the US-Iran peace talks is detailed. Army Chief Gen. Asim Munir was picked to mediate because of his long history with Iran and good standing with President Trump. The Washington Times profiles Munir's unique position bridging both sides. Pakistan's mediators are stepping up efforts as the ceasefire window narrows and pressure mounts for a comprehensive deal.",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New background detail on why Munir was selected as mediator — his dual credibility with both Iran and Trump. Previous coverage (src-1265) reported the visit but not the reasoning behind his selection.",
+  "entities": [
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Army Chief"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "ent-028", "predicate": "mediates", "object": "ent-002"},
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "ent-028", "predicate": "partOf", "object": "ent-029"}
+  ]
+}

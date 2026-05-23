@@ -1,0 +1,22 @@
+{
+  "id": "src-1285",
+  "title": "IRGC Navy coordinates safe passage of another 35 ships through Strait of Hormuz — up from 31 previous day, all under IRGC 'permission and coordination'",
+  "url": "https://www.presstv.ir/Detail/2026/05/22/769076/IRGC-Navy-coordinates-passage-of-35-ships-through-Strait-of-Hormuz",
+  "snippet": "Iran's IRGC Navy claims 35 vessels transited the Strait of Hormuz in 24 hours including oil tankers and container ships, up from 31 the previous day and 26 before that. All vessels transited under IRGC 'permission and coordination,' reinforcing Tehran's assertion of sovereignty over the waterway. The rising daily transit numbers represent a continued upward trend since the ceasefire.",
+  "source_name": "Press TV",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Daily Hormuz transit count has increased from 26 (May 20) to 31 (May 21) to 35 (May 22). The new record figure and continued upward trend constitute a new development. Previous coverage: src-1262 (26 vessels), src-1273 (update).",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "Iranian military force controlling Hormuz transit"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "controls", "object": "ent-008"},
+    {"subject": "ent-005", "predicate": "partOf", "object": "ent-002"}
+  ]
+}

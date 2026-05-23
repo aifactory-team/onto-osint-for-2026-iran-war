@@ -1,0 +1,17 @@
+{
+  "id": "src-1294",
+  "title": "Trump says skipping son's wedding to stay in capital — staying in Washington amid Iran war negotiations",
+  "url": "https://www.timesofisrael.com/qatari-negotiating-team-in-tehran-to-try-to-help-secure-us-iran-deal-to-end-war/",
+  "snippet": "President Trump announced he is skipping his son Barron's wedding to remain in Washington, D.C. during ongoing Iran war negotiations. The decision signals the intensity of the diplomatic moment as multiple negotiation tracks are active simultaneously, including Pakistan's mediation and Qatar's return to the table.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Trump's personal decision to skip a family event for Iran negotiations is new. Signals urgency and engagement level of the US president in the peace process.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": []
+}
