@@ -4980,14 +4980,65 @@
       "properties": {
         "role": "US Representative (D-ME)",
         "affiliation": "United States / Democratic Party",
-        "action_may23": "Planning to flip WPR vote to yes — potential critical swing vote for House WPR passage on June 2"
+        "action_may23": "Announced support for 'clean' WPR resolution — 60-day War Powers Act deadline passed. Previously sole Democrat voting against."
+      },
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-427",
+      "type": "Event",
+      "name": "Trump 'Largely Negotiated' Declaration (May 23)",
+      "properties": {
+        "date": "2026-05-23",
+        "detail": "Trump announced on social media that deal with Iran 'largely negotiated, subject to finalization.' Called leaders of Saudi Arabia, UAE, Qatar, Pakistan, Turkey, Egypt, Jordan, Bahrain, and separately Netanyahu. Described as 'Memorandum of Understanding pertaining to PEACE.' Said 50/50 to make 'good deal' or 'blow them to kingdom come.' Will decide Sunday.",
+        "participants": "US, Iran, Saudi Arabia, UAE, Qatar, Pakistan, Turkey, Egypt, Jordan, Bahrain, Israel"
+      },
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-428",
+      "type": "Concept",
+      "name": "MoU Framework (Peace)",
+      "properties": {
+        "domain": "diplomacy/peace",
+        "detail": "Framework agreement to end war: stop fighting all fronts (including Lebanon), reopen Hormuz (lift US blockade, free commercial traffic, no tolls), release $25B frozen assets, sanctions lifting 'explicitly in text.' 30-60 days for detailed negotiations. Nuclear issues excluded from current talks. Iran Fars: Hormuz stays under Iran management."
+      },
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-429",
+      "type": "Concept",
+      "name": "$25B Frozen Assets Release",
+      "properties": {
+        "domain": "finance/diplomacy",
+        "amount": "$25 billion",
+        "detail": "NYT: 3 senior Iranian officials confirmed deal would release $25B in frozen Iranian assets overseas. Evolved from earlier $20B cash-for-uranium framework."
       },
       "first_seen": "2026-05-23",
       "last_seen": "2026-05-23",
       "mention_count": 3
+    },
+    {
+      "id": "ent-430",
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": {
+        "role": "President of Iran",
+        "affiliation": "Iran",
+        "action_may23": "Met Munir during Tehran visit Saturday"
+      },
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "mention_count": 2
     }
   ],
-  "total_count": 384,
+  "total_count": 388,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5238,17 +5289,11 @@
     {
       "date": "2026-05-23",
       "action": "add_instances",
-      "target": "1 new entity (ent-426), 1 existing entity updated (ent-336/Qatar)",
-      "reason": "카타르 중재 복귀(이란 LNG 인프라 공격 후 후퇴 → 재참여), IRGC 35척 호르무즈 관리 통과(3일 연속 증가), 무니르 테헤란 방문 취소(시퀀싱 교착), 하원 WPR 6/2 연기 + Golden(D-ME) 이탈 예고, Bloomberg 호르무즈+핵 교착 분석, 유가 $104.52 (+1.89%). 스키마 변경 없음",
+      "target": "5 new entities (ent-426~ent-430), 6 existing updated",
+      "reason": "트럼프 'largely negotiated' MoU 선언(9개국+네타냐후), '50/50' 딜/폭격(일요일 결정), NYT MoU $25B 확인, 바가에이 '프레임워크'(30-60일·핵 제외), Fars '현실 불일치', 카타르 공동 중재, 무니르 테헤란 완료(페제시키안/갈리바프), IRGC 35→25척, 골든 WPR 전환",
       "source_ids": [
-        "src-1290",
-        "src-1291",
-        "src-1292",
-        "src-1293",
-        "src-1294",
-        "src-1295",
-        "src-1296",
-        "src-1297"
+        "src-1310", "src-1311", "src-1312", "src-1313", "src-1314",
+        "src-1315", "src-1285", "src-1286", "src-1287", "src-1289", "src-1316"
       ]
     }
   ]

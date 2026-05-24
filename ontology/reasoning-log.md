@@ -1776,3 +1776,31 @@
 - Jared Golden → Person 클래스
 - Qatar 중재 복귀 → 기존 Organization 엔티티(ent-336)의 속성 업데이트
 - 모든 관계(cooperatesWith, participatesIn, opposes, relatedTo, mentions)는 기존 관계 유형
+
+---
+
+## 2026-05-23 추론 결과 (업데이트 — breaking news 포함)
+
+### 추론 #1: co_participation (카타르-미국 공동 중재)
+- **입력:** (ent-336/Qatar, cooperatesWith, ent-029/Pakistan), (ent-029/Pakistan, cooperatesWith, ent-001/Trump via mediation)
+- **추론:** (ent-336/Qatar, potentialRelation, ent-001/Trump)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 카타르가 파키스탄과 함께 공동 중재자로 복귀. 트럼프가 9개국 통화에 카타르를 포함시켜 공동 중재 체제를 공식화.
+
+### 추론 #2: event_chain (MoU 진화)
+- **입력:** (ent-136/$20B Cash-for-Uranium Framework, relatedTo, nuclear/finance), (ent-428/MoU Framework Peace, relatedTo, ent-429/$25B)
+- **추론:** (ent-428/MoU Framework Peace, follows, ent-136/$20B Cash-for-Uranium)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** $20B 현금-우라늄 딜(4/18)이 $25B MoU 프레임워크(5/23)로 확대 진화. 핵 이슈를 분리하고 종전·호르무즈·자산·제재로 범위 확장.
+
+### 추론 #3: event_chain (무니르 면담 → 트럼프 선언)
+- **입력:** (ent-028/Munir, cooperatesWith, ent-002/Iran — Tehran meetings), (ent-427/Trump Declaration, date: same day)
+- **추론:** (ent-427/Trump Declaration, causedBy, ent-028/Munir Tehran visit)
+- **신뢰도:** 0.72
+- **상태:** 잠정
+- **비고:** 무니르의 테헤란 면담(페제시키안/갈리바프)에서 '고무적 진전' 보고 → 같은 날 트럼프 'largely negotiated' 선언. 인과관계 가능하나 확정 불가.
+
+### 스키마 변경 없음
+- 모든 엔티티와 관계는 기존 클래스(Person, Organization, Event, Location, Concept)와 관계 유형으로 표현 가능.

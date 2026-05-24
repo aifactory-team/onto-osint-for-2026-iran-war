@@ -771,10 +771,10 @@
     },
     {
       "date": "2026-05-23",
-      "action": "no_change",
-      "target": "schema",
-      "reason": "카타르 중재 복귀, IRGC 35척 호르무즈 관리 통과, 무니르 테헤란 방문 취소, 하원 WPR 6/2 연기 + Golden 이탈 예고. 신규 엔티티(ent-426/Jared Golden → Person)와 기존 엔티티 업데이트(ent-336/Qatar). 모든 엔티티와 관계는 기존 클래스/관계 유형으로 표현 가능. 스키마 변경 없음",
-      "source_ids": ["src-1290", "src-1291", "src-1292", "src-1293", "src-1294", "src-1295", "src-1296", "src-1297"]
+      "action": "add_instances",
+      "target": "4 new entities (ent-427~ent-430), 6 existing updated",
+      "reason": "트럼프 'largely negotiated' MoU 선언(9개국 통화+네타냐후), '50/50' 딜/폭격 이분법(일요일 결정), NYT MoU 확인($25B 동결자산·전선 전체 중단·레바논 포함), 바가에이 '프레임워크 합의'(30-60일·핵 제외·제재 명문화), Fars '현실 불일치' 반박(호르무즈 이란 관리 유지), 카타르 공동 중재 복귀, 무니르 테헤란 방문 완료(페제시키안/갈리바프 면담·'고무적 진전'), IRGC 35→25척 호르무즈 관리 통행, 골든 WPR 찬성 전환, 유가 Brent $103(-6%w). 스키마 변경 없음",
+      "source_ids": ["src-1310", "src-1311", "src-1312", "src-1313", "src-1314", "src-1315", "src-1285", "src-1286", "src-1287", "src-1289", "src-1316", "src-1317"]
     }
   ]
 }

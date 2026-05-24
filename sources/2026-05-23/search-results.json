@@ -1,161 +1,156 @@
 {
   "date": "2026-05-23",
-  "collected_at": "2026-05-23T00:00:00Z",
+  "collected_at": "2026-05-24T00:15:00Z",
   "config_topic": "2026 Iran War",
-  "search_count": 12,
-  "total_results": 68,
-  "expanded_keywords": ["Iran war", "Iran deal", "Hormuz blockade", "IRGC", "Trump Iran", "nuclear enrichment", "Munir Tehran", "Qatar mediation", "Khamenei uranium", "이란 전쟁", "호르무즈 해협", "이란 핵 협상", "Pakistan mediation", "House war powers", "Hezbollah Lebanon ceasefire", "oil prices brent"],
+  "search_count": 20,
+  "total_results": 112,
+  "expanded_keywords": ["Iran war", "Iran deal", "Hormuz blockade", "IRGC", "Trump Iran", "nuclear enrichment", "Munir Tehran", "Qatar mediation", "Khamenei uranium", "이란 전쟁", "호르무즈 해협", "이란 핵 협상", "Pakistan mediation", "House war powers", "Hezbollah Lebanon ceasefire", "oil prices brent", "largely negotiated", "Trump 50/50", "MoU framework", "Baghaei", "Jared Golden"],
   "searches": [
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Iran war 2026 latest news today May 23",
+      "keyword": "Iran war latest news May 23 2026 Hormuz negotiations",
       "language": "en",
-      "timestamp": "2026-05-23T00:01:00Z",
+      "timestamp": "2026-05-24T00:01:00Z",
       "result_count": 7,
       "results": [
-        {"title": "2026 Iran war - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Iran_war", "snippet": "Since February 28, 2026, the United States and Israel have been engaged in a war with Iran", "source_name": "Wikipedia"},
-        {"title": "Iran war updates: 'Some good signs' peace deal can be reached, says Rubio", "url": "https://www.aljazeera.com/news/liveblog/2026/5/21/iran-war-live-tehran-says-no-surrender-to-us-diplomacy-wiser-than-war", "snippet": "Iran reviewing US position; Trump willing to wait", "source_name": "Al Jazeera"},
-        {"title": "Iran reviewing U.S. position on ending war; Trump willing to wait", "url": "https://www.cnbc.com/2026/05/21/iran-war-us-peace-talks-trump-hormuz.html", "snippet": "Iran says reviewing Trump proposal; Brent crude at $106.92", "source_name": "CNBC"},
-        {"title": "Iran threatens to extend conflict 'beyond the region'", "url": "https://www.cnbc.com/2026/05/20/iran-war-us-israel-middle-east.html", "snippet": "IRGC threatens extended conflict if attacks resume", "source_name": "CNBC"}
+        {"title": "Live Updates: Peace deal with Iran has been 'largely negotiated' and will include reopening Strait of Hormuz, Trump says", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-peace-talks-strait-of-hormuz-control/", "snippet": "Trump says deal 'largely negotiated' after calls with 9 leaders plus Israel", "source_name": "CBS News"},
+        {"title": "Trump says a deal with Iran and opening of Strait of Hormuz are 'largely negotiated'", "url": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz", "snippet": "MoU pertaining to PEACE, final aspects being discussed", "source_name": "NPR"},
+        {"title": "Trump says Iran deal reopening Strait of Hormuz 'largely negotiated,' will be announced soon", "url": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html", "snippet": "50/50 deal or blow them to kingdom come", "source_name": "CNBC"},
+        {"title": "Trump Says He'll Announce Negotiated Deal With Iran Shortly", "url": "https://www.bloomberg.com/news/articles/2026-05-23/trump-says-he-ll-announce-negotiated-deal-with-iran-shortly", "snippet": "Bloomberg reporting on Trump announcement", "source_name": "Bloomberg"}
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Iran US peace deal nuclear negotiations May 2026",
+      "keyword": "Iran war ceasefire negotiations Trump May 2026",
       "language": "en",
-      "timestamp": "2026-05-23T00:02:00Z",
-      "result_count": 7,
-      "results": [
-        {"title": "Iran-US Peace Deal: Why Hormuz and Nuclear Enrichment Are Key Sticking Points", "url": "https://www.bloomberg.com/news/articles/2026-05-22/iran-us-peace-deal-why-hormuz-and-nuclear-enrichment-are-key-sticking-points", "snippet": "US and Iran locked in stalemate; Hormuz and nuclear remain key issues", "source_name": "Bloomberg"},
-        {"title": "Iran's new offer is insufficient, risks war resumption: senior U.S. official", "url": "https://www.axios.com/2026/05/18/iran-peace-deal-offer-nuclear-unacceptable", "snippet": "Iran's latest proposal includes limited nuclear commitments", "source_name": "Axios"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Strait of Hormuz blockade shipping update May 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:03:00Z",
-      "result_count": 8,
-      "results": [
-        {"title": "IRGC Navy coordinates safe passage of another 35 ships through Strait of Hormuz", "url": "https://www.presstv.ir/Detail/2026/05/22/769076/IRGC-Navy-coordinates-passage-of-35-ships-through-Strait-of-Hormuz", "snippet": "IRGC coordinated transit of 35 ships in 24 hours on May 22", "source_name": "Press TV"},
-        {"title": "Iran's IRGC Navy claims 35 vessels transited through Strait of Hormuz with its 'permission'", "url": "https://www.tribuneindia.com/news/global-trade-corridor/irans-irgc-navy-claims-35-vessels-transited-through-strait-of-hormuz-with-its-permission", "snippet": "35 ships including oil tankers and container ships transited under IRGC coordination", "source_name": "Tribune India"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "이란 전쟁 2026 최신 뉴스 협상",
-      "language": "ko",
-      "timestamp": "2026-05-23T00:04:00Z",
-      "result_count": 7,
-      "results": [
-        {"title": "호르무즈 합의 헛물 켠 트럼프‥이란은 中 밀착 과시", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6822848_37004.html", "snippet": "트럼프 호르무즈 합의 무산, 이란 중국 연대 강화", "source_name": "MBC"},
-        {"title": "美-이란 종전 협상 사실상 파국", "url": "https://www.seoul.co.kr/news/international/2026/05/11/20260511500200", "snippet": "미이란 종전 협상 교착", "source_name": "서울신문"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Trump Iran ceasefire Hormuz deal latest May 22 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:05:00Z",
-      "result_count": 3,
-      "results": [
-        {"title": "Live updates: Trump says ceasefire with Iran on 'massive life support'", "url": "https://www.cnn.com/2026/05/11/world/live-news/iran-war-proposal-trump", "snippet": "Trump aides considering resumption of combat operations", "source_name": "CNN"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Qatar joins Iran US peace negotiations mediation May 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:06:00Z",
-      "result_count": 8,
-      "results": [
-        {"title": "Qatari negotiating team in Tehran to help secure US-Iran deal to end war, says source", "url": "https://www.jpost.com/middle-east/iran-news/article-897019", "snippet": "Qatari team arrived in Tehran to help secure deal, coordinated with US", "source_name": "Jerusalem Post"},
-        {"title": "Qatar Returns to the Table: High-Stakes Push for a U.S.-Iran Peace Deal Amid Fragile Ceasefire", "url": "https://yournews.com/2026/05/22/6995612/qatar-returns-to-the-table-high-stakes-push-for-a-u-s-iran/", "snippet": "Qatar returns after stepping back from mediation due to Iranian strikes on Qatari infrastructure", "source_name": "YourNews"},
-        {"title": "US Iran peace talks breakthrough near? Qatar joins negotiations, Asim Munir leaves for Tehran", "url": "https://www.businesstoday.in/world/story/us-iran-peace-talks-breakthrough-near-qatar-joins-negotiations-asim-munir-leaves-for-tehran-532965-2026-05-22", "snippet": "Qatar joins mediation alongside Pakistan", "source_name": "Business Today"},
-        {"title": "Qatar Reportedly Joins Efforts to Advance Iran-US Peace Talks", "url": "https://barlamantoday.com/2026/05/22/qatar-reportedly-joins-efforts-to-advance-iran-us-peace-talks/", "snippet": "Qatari team in Tehran to advance negotiations", "source_name": "Barlaman Today"},
-        {"title": "Qatari team in Tehran for talks; Trump says skipping son's wedding to stay in capital", "url": "https://www.timesofisrael.com/qatari-negotiating-team-in-tehran-to-try-to-help-secure-us-iran-deal-to-end-war/", "snippet": "Qatari negotiating team in Tehran; Trump staying in Washington", "source_name": "Times of Israel"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Munir called off cancelled Iran trip May 22 23 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:07:00Z",
-      "result_count": 9,
-      "results": [
-        {"title": "Why did Pakistan army chief Asim Munir call off his Iran trip despite Marco Rubio's 'good signs' remark?", "url": "https://www.theweek.in/news/middle-east/2026/05/22/why-did-pakistan-army-chief-asim-munir-call-off-his-iran-trip-despite-marco-rubios-good-signs-remark.html", "snippet": "Munir called off Tehran visit; will travel only if final formula reached; disagreements on nuclear sequencing and Hormuz tolls", "source_name": "The Week"},
-        {"title": "Why Did Pakistan Army Chief Asim Munir Cancel His Iran Trip?", "url": "https://www.oneindia.com/international/why-did-pakistan-army-chief-asim-munir-cancel-his-iran-trip-014-8095369.html", "snippet": "Munir cancelled because no final formula reached", "source_name": "Oneindia"},
-        {"title": "Pakistani field marshal in Tehran to try to seal U.S.-Iran deal", "url": "https://www.axios.com/2026/05/22/pakistan-munir-iran-deal-trump", "snippet": "Axios: Munir in Tehran to try to seal deal", "source_name": "Axios"},
-        {"title": "Pakistani mediators step up efforts to close U.S.-Iran deal", "url": "https://www.washingtontimes.com/news/2026/may/22/pakistani-mediators-step-efforts-close-us-iran-deal/", "snippet": "Pakistan steps up mediation intensity", "source_name": "Washington Times"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "House war powers resolution Iran vote June 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:08:00Z",
-      "result_count": 6,
-      "results": [
-        {"title": "GOP leaders abruptly cancel House vote on Iran war powers, shielding Trump from rebuke", "url": "https://www.cnn.com/2026/05/21/politics/house-trump-iran-war-powers", "snippet": "House GOP cancels WPR vote; vote expected June 2 when chamber returns", "source_name": "CNN"},
-        {"title": "House Republicans scrap vote to rein in Trump's war in Iran", "url": "https://www.axios.com/2026/05/21/house-iran-war-powers-vote", "snippet": "Axios: GOP scraps vote amid fear of passage", "source_name": "Axios"},
-        {"title": "Republicans call off vote on Iran war resolution that was on the verge of passing", "url": "https://www.npr.org/2026/05/22/g-s1-123592/republicans-call-off-vote-on-iran-war-resolution", "snippet": "NPR: vote postponed to June after Memorial Day recess; legislative clock forces vote June 2", "source_name": "NPR"},
-        {"title": "House Republicans cancel vote curbing Trump on Iran", "url": "https://www.nbcnews.com/politics/congress/house-republicans-cancel-vote-war-powers-trump-iran-rcna346468", "snippet": "NBC: Golden (D-ME) planning to flip to yes; 4 Republicans previously voted yes", "source_name": "NBC News"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "oil prices brent WTI May 22 23 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:09:00Z",
-      "result_count": 10,
-      "results": [
-        {"title": "Brent crude oil - Price - Chart", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent $104.52 on May 22, up 1.89%", "source_name": "Trading Economics"},
-        {"title": "Current price of oil as of May 22, 2026", "url": "https://fortune.com/article/price-of-oil-05-22-2026/", "snippet": "Oil at $104.68 per barrel at 9am ET May 22", "source_name": "Fortune"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Khamenei uranium enrichment downblend deal May 22 23 2026",
-      "language": "en",
-      "timestamp": "2026-05-23T00:10:00Z",
-      "result_count": 6,
-      "results": [
-        {"title": "Iran's enriched uranium stockpile: Can it be safely transferred?", "url": "https://www.aljazeera.com/news/2026/5/22/irans-enriched-uranium-stockpile-can-it-be-safely-transferred", "snippet": "Al Jazeera analysis on uranium transfer options after Khamenei order", "source_name": "Al Jazeera"}
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "이란 호르무즈 35척 통과 IRGC 5월 22일",
-      "language": "ko",
-      "timestamp": "2026-05-23T00:11:00Z",
+      "timestamp": "2026-05-24T00:02:00Z",
       "result_count": 5,
       "results": [
-        {"title": "이란, 호르무즈 통행 허가 압박…35척 승인 항로로 통과", "url": "https://www.edaily.co.kr/News/Read?newsId=05966326645451544&mediaCodeNo=257", "snippet": "IRGC 해군 35척 통과 발표, 유조선·컨테이너선 포함", "source_name": "이데일리"},
-        {"title": "꽉 막혔던 호르무즈서 하루 35척 통과", "url": "https://www.sedaily.com/article/20047521", "snippet": "호르무즈 통과 35척, 이란군 유조선 컨테이너 포함 발표", "source_name": "서울경제"},
-        {"title": "호르무즈 통과 선박 하루 35척, 이틀 연속 30척 웃돌아", "url": "https://www.fnnews.com/news/202605221908191166", "snippet": "IRGC 발표 35척, 전일 31척에 이어 이틀 연속 30척 이상", "source_name": "파이낸셜뉴스"}
+        {"title": "Agreement on Iran war 'largely negotiated,' Trump says amid fragile ceasefire", "url": "https://www.nbcnews.com/politics/politics-news/us-iran-officials-signal-progress-negotiations-fragile-ceasefire-war-rcna346636", "snippet": "Officials signal progress in negotiations", "source_name": "NBC News"},
+        {"title": "Trump says Iran agreement 'largely negotiated', still awaiting finalisation", "url": "https://www.aljazeera.com/news/2026/5/23/trump-says-iran-agreement-largely-negotiated-still-awaiting-finalisation", "snippet": "Al Jazeera: Trump says final aspects being discussed", "source_name": "Al Jazeera"}
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "Netanyahu MBZ secret meeting UAE March 2026",
+      "keyword": "Trump 50/50 Iran deal kingdom come May 2026",
       "language": "en",
-      "timestamp": "2026-05-23T00:12:00Z",
-      "result_count": 4,
+      "timestamp": "2026-05-24T00:03:00Z",
+      "result_count": 6,
       "results": [
-        {"title": "Netanyahu says he secretly visited UAE during Iran war; UAE denies it", "url": "https://www.timesofisrael.com/netanyahu-reveals-he-secretly-visited-uae-during-iran-war-hails-historic-breakthrough/", "snippet": "Netanyahu claims secret Mar 26 meeting with MBZ in Al-Ain; UAE denies", "source_name": "Times of Israel"},
-        {"title": "UAE rejects Benjamin Netanyahu's 'secret visit' claims", "url": "https://www.wionews.com/world/uae-rejects-benjamin-netanyahu-s-secret-visit-claims-amid-ongoing-iran-conflict-1778716836701/amp", "snippet": "UAE calls Netanyahu's claims 'entirely unfounded'", "source_name": "WION"}
+        {"title": "Trump says he's '50/50' on Iran deal or bombs, will meet envoys to decide", "url": "https://www.axios.com/2026/05/23/trump-iran-deal-resume-war-interview", "snippet": "Solid 50/50 to reach good deal or blow them to kingdom come, decision by Sunday", "source_name": "Axios"},
+        {"title": "U.S., Iran close to a deal to end war, official says", "url": "https://www.axios.com/2026/05/23/us-iran-trump-deal-war", "snippet": "Regional leaders urged Trump to take the deal", "source_name": "Axios"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Fars Hormuz management inconsistent reality Trump May 2026",
+      "language": "en",
+      "timestamp": "2026-05-24T00:04:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Hormuz will stay under Iran's management, Trump's post 'inconsistent with reality' — Iran's Fars news", "url": "https://www.timesofisrael.com/liveblog-may-23-2026/", "snippet": "Fars dismisses Trump announcement as incomplete", "source_name": "Times of Israel"},
+        {"title": "Deal with Iran to reopen Strait of Hormuz 'largely negotiated,' Trump says", "url": "https://www.cbc.ca/news/world/strait-hormuz-iran-trump-deal-9.7210138", "snippet": "NYT: 3 Iranian officials confirm MoU, $25B assets release", "source_name": "CBC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Baghaei framework agreement 30 60 days Iran May 23 2026",
+      "language": "en",
+      "timestamp": "2026-05-24T00:05:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Iran, US moving closer to 'finalizing memorandum of understanding': Baghaei", "url": "https://www.presstv.ir/Detail/2026/05/23/769157/Iran-US-Baghaei-understanding-nuclear", "snippet": "Framework agreement, 30-60 days for details, nuclear not included", "source_name": "Press TV"},
+        {"title": "Iran and US near agreement on MOU, as Tehran says Hormuz is part of talks but nuclear issues are not", "url": "https://fortune.com/2026/05/23/iran-war-us-agreement-memorandum-of-understanding-strait-hormuz-nuclear-weapons/", "snippet": "NYT: $25B frozen assets, MoU agreed", "source_name": "Fortune"},
+        {"title": "Iran and the US are close to a deal aimed at ending the war, officials say", "url": "https://abcnews.com/International/wireStory/iran-us-close-understanding-aimed-ending-war-officials-133250509", "snippet": "Positions moved closer, differences narrowed", "source_name": "ABC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Qatar mediator Iran war negotiations May 2026",
+      "language": "en",
+      "timestamp": "2026-05-24T00:06:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Qatari negotiating team in Tehran to try to help secure US-Iran deal to end war, says source", "url": "https://www.jpost.com/middle-east/iran-news/article-897019", "snippet": "Qatar alongside Pakistan mediating", "source_name": "Jerusalem Post"},
+        {"title": "Qatari Team in Tehran for U.S.-Iran Ceasefire Talks", "url": "https://athens-times.com/qatari-mediation-team-arrives-in-tehran-amid-u-s-iran-war-talks/", "snippet": "Qatar returns to mediation role", "source_name": "Athens Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Hormuz ships transit May 23 2026",
+      "language": "en",
+      "timestamp": "2026-05-24T00:07:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "IRGC Navy says 25 ships passed through Strait of Hormuz in 24 hours", "url": "https://www.presstv.ir/Detail/2026/05/23/769137/IRGC-coordinates-safe-passage-25-ships-Hormuz", "snippet": "25 ships with IRGC coordination May 23", "source_name": "Press TV"},
+        {"title": "IRGC Navy coordinates safe passage of another 35 ships through Strait of Hormuz", "url": "https://www.presstv.ir/Detail/2026/05/22/769076/IRGC-Navy-coordinates-passage-of-35-ships-through-Strait-of-Hormuz", "snippet": "35 ships on May 22", "source_name": "Press TV"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Munir Tehran visit Pakistan Iran May 23 2026",
+      "language": "en",
+      "timestamp": "2026-05-24T00:08:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Pakistan army chief leaves Tehran after talks as Iran warns US against renewed attacks", "url": "https://www.arabnews.com/node/2644675/pakistan", "snippet": "Munir met Pezeshkian and Ghalibaf, 'encouraging progress'", "source_name": "Arab News"},
+        {"title": "Pakistan's army chief Asim Munir will not travel to Iran", "url": "https://www.instagram.com/p/DYnJ86RE_gI/", "snippet": "Initially cancelled then went", "source_name": "Instagram"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil price Brent WTI May 23 2026 Iran deal",
+      "language": "en",
+      "timestamp": "2026-05-24T00:09:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Oil prices post weekly loss as U.S. and Iran signal progress toward a deal", "url": "https://www.cnbc.com/2026/05/22/oil-prices-today-trump-iran-strait-of-hormuz-uranium-.html", "snippet": "Brent down 6% for week on deal hopes", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Jared Golden war powers Iran vote May 2026",
+      "language": "en",
+      "timestamp": "2026-05-24T00:10:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "Golden announces support for 'clean' resolution to constrain military action in Iran", "url": "https://golden.house.gov/media/press-releases/golden-announces-support-for-clean-resolution-to-constrain-military-action-in-iran", "snippet": "Golden flips to support WPR", "source_name": "Rep. Golden official"},
+        {"title": "Republicans call off vote on Iran war resolution that was on the verge of passing", "url": "https://www.npr.org/2026/05/22/g-s1-123592/republicans-call-off-vote-on-iran-war-resolution", "snippet": "Postponed to June 2", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump calls Saudi UAE Qatar Pakistan Turkey leaders Iran deal May 23",
+      "language": "en",
+      "timestamp": "2026-05-24T00:11:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Iran deal 'largely negotiated' and final details will be announced shortly, Trump says", "url": "https://www.thenationalnews.com/news/us/2026/05/23/trump-iran-deal/", "snippet": "Spoke with leaders of 8 countries plus Israel separately", "source_name": "The National"},
+        {"title": "Trump announces 'largely negotiated' agreement with Iran", "url": "https://www.ms.now/news/trump-iran-war-deal-republicans-lindsey-graham", "snippet": "Lindsey Graham warning on Hormuz perception", "source_name": "MS Now"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 트럼프 합의 호르무즈 5월 23일 2026",
+      "language": "ko",
+      "timestamp": "2026-05-24T00:12:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "트럼프 '종전 협정 최종 사안 논의 중‥조만간 발표'", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6824845_37012.html", "snippet": "MBC 뉴스투데이 보도", "source_name": "MBC"},
+        {"title": "美 공습 재개설 속…이란 협상대표 '전쟁 재개시 더 참혹' 경고(종합)", "url": "https://www.fnnews.com/news/202605232129044783", "snippet": "파이낸셜뉴스 종합 보도", "source_name": "파이낸셜뉴스"},
+        {"title": "사우디 매체 '최종 합의 초안이 수시간 내 공개될 수도'", "url": "https://www.munhwa.com/article/11590869", "snippet": "문화일보 보도", "source_name": "문화일보"}
       ]
     }
   ]

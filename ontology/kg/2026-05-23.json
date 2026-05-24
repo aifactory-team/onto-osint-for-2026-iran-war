@@ -1,27 +1,30 @@
 {
   "date": "2026-05-23",
   "new_triples": [
-    {"subject": "ent-336", "predicate": "cooperatesWith", "object": "ent-029", "source_id": "src-1290", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "Qatar joins Pakistan in co-mediation — Qatari negotiating team arrived in Tehran, coordinated with US"},
-    {"subject": "ent-336", "predicate": "participatesIn", "object": "ent-016", "source_id": "src-1290", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "Qatar returns to active mediation after stepping back due to Iranian strikes on Qatari LNG infrastructure"},
-    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1291", "date": "2026-05-23", "confidence": 0.95, "type": "explicit", "detail": "IRGC claims 35 vessels transited Hormuz under managed system — up from 31 (May 22), 26 (May 21)"},
-    {"subject": "ent-028", "predicate": "opposes", "object": "ent-002", "source_id": "src-1292", "date": "2026-05-23", "confidence": 0.80, "type": "explicit", "detail": "Munir calls off Tehran trip — no final formula reached; US insists nuclear closed first, Iran wants 30-day confidence-building"},
-    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-423", "source_id": "src-1293", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Trump stays in Washington skipping son's wedding for Iran negotiations; WPR vote postponed to June 2"},
-    {"subject": "ent-426", "predicate": "participatesIn", "object": "ent-423", "source_id": "src-1294", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Jared Golden (D-ME) planning to flip WPR vote to yes — potential critical swing vote"},
-    {"subject": "ent-046", "predicate": "mentions", "object": "ent-025", "source_id": "src-1295", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "Al Jazeera analysis of uranium transfer options following Khamenei's HEU retention order"},
-    {"subject": "ent-008", "predicate": "mentions", "object": "ent-025", "source_id": "src-1296", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Bloomberg analysis: Hormuz and nuclear enrichment remain the two key sticking points in negotiations"}
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-427", "source_id": "src-1310", "date": "2026-05-23", "confidence": 0.95, "type": "explicit", "detail": "Trump announces 'largely negotiated' MoU after 9-leader call"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-427", "source_id": "src-1314", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "NYT: 3 Iranian officials confirm MoU agreed"},
+    {"subject": "ent-427", "predicate": "relatedTo", "object": "ent-428", "source_id": "src-1310", "date": "2026-05-23", "confidence": 0.95, "type": "explicit", "detail": "Declaration describes MoU Framework Peace"},
+    {"subject": "ent-428", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1314", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "MoU includes Hormuz reopening — lift blockade, free traffic, no tolls"},
+    {"subject": "ent-428", "predicate": "relatedTo", "object": "ent-429", "source_id": "src-1314", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "MoU includes $25B frozen assets release"},
+    {"subject": "ent-428", "predicate": "relatedTo", "object": "ent-050", "source_id": "src-1314", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "MoU halts fighting on all fronts including Lebanon"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001", "source_id": "src-1312", "date": "2026-05-23", "confidence": 0.80, "type": "explicit", "detail": "Fars: Trump post 'inconsistent with reality,' Hormuz stays under Iran management"},
+    {"subject": "ent-066", "predicate": "relatedTo", "object": "ent-428", "source_id": "src-1313", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Baghaei describes draft as 'framework agreement,' 30-60 days"},
+    {"subject": "ent-336", "predicate": "cooperatesWith", "object": "ent-029", "source_id": "src-1286", "date": "2026-05-23", "confidence": 0.80, "type": "explicit", "detail": "Qatar joins Pakistan as co-mediator"},
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-1315", "date": "2026-05-23", "confidence": 0.85, "type": "explicit", "detail": "Munir met Pezeshkian/Ghalibaf, 'encouraging progress'"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1285", "date": "2026-05-23", "confidence": 0.90, "type": "explicit", "detail": "IRGC coordinated 35 ships (5/22) then 25 ships (5/23) through Hormuz"},
+    {"subject": "ent-426", "predicate": "opposes", "object": "ent-001", "source_id": "src-1289", "date": "2026-05-23", "confidence": 0.75, "type": "explicit", "detail": "Golden flips to support WPR constraining Trump's war powers"}
   ],
   "updated_triples": [
-    {"subject": "ent-005", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1291", "date": "2026-05-23", "confidence": 0.95, "type": "update", "detail": "IRGC 'managed transit' system solidifying — 35 vessels, up from 26→31→35 in three consecutive days"}
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1311", "date": "2026-05-23", "confidence": 0.75, "type": "explicit", "detail": "Trump '50/50' deal or 'blow them to kingdom come' — dual track maintained"}
   ],
   "inferred_triples": [
-    {"subject": "ent-336", "predicate": "potentialRelation", "object": "ent-029", "source_id": "inferred", "date": "2026-05-23", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "detail": "Qatar and Pakistan both participatesIn Ceasefire Negotiations (ent-016) — co-mediation alliance forming with complementary leverage (Qatar: financial/LNG, Pakistan: border/military)"},
-    {"subject": "ent-422", "predicate": "relatedTo", "object": "ent-016", "source_id": "inferred", "date": "2026-05-23", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "detail": "Khamenei HEU order → complicates nuclear negotiations → affects Hormuz deal; nuclear and Hormuz remain interlinked sticking points per Bloomberg analysis"},
-    {"subject": "ent-028", "predicate": "relatedTo", "object": "ent-336", "source_id": "inferred", "date": "2026-05-23", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "detail": "Munir's failed Tehran trip coincides with Qatar's return to mediation — suggests coordinated multi-track diplomatic effort between Pakistan (military channel) and Qatar (Gulf financial channel)"}
+    {"subject": "ent-336", "predicate": "potentialRelation", "object": "ent-001", "rule": "co_participation", "date": "2026-05-23", "confidence": 0.78, "type": "inferred", "detail": "Qatar returns as co-mediator working with US on Iran deal — dual mediator track with Pakistan"},
+    {"subject": "ent-428", "predicate": "follows", "object": "ent-136", "rule": "event_chain", "date": "2026-05-23", "confidence": 0.80, "type": "inferred", "detail": "MoU Peace Framework evolves from $20B Cash-for-Uranium → $25B MoU with broader scope"},
+    {"subject": "ent-427", "predicate": "causedBy", "object": "ent-028", "rule": "event_chain", "date": "2026-05-23", "confidence": 0.72, "type": "inferred", "detail": "Munir's Tehran meetings produced 'encouraging progress' → Trump's 'largely negotiated' declaration same day"}
   ],
   "stats": {
-    "new_nodes": 1,
-    "new_edges": 8,
-    "updated_edges": 1,
+    "new_nodes": 4,
+    "new_edges": 12,
     "inferred_edges": 3
   }
 }

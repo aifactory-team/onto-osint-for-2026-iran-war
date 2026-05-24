@@ -4,50 +4,28 @@
 
 | 소스 ID | 제목 | 태그 | 카테고리 | 포함 근거 |
 |---------|------|------|----------|----------|
-| src-1290 | 카타르 중재 복귀 (테헤란 도착) | new | 중재/외교 | 중재 구조의 질적 변화 — 파키스탄 단독에서 공동 중재로 전환 |
-| src-1291 | IRGC 35척 호르무즈 통과 | new | 호르무즈 | 3일 연속 증가(26→31→35), 관리 통행 체계 정착 신호 |
-| src-1292 | 무니르 테헤란 방문 취소 | new | 중재/핵 | 핵심 중재자의 방문 취소 — 시퀀싱 교착 확인 |
-| src-1293 | 트럼프 워싱턴 잔류 (아들 결혼식 불참) | new | 외교 | 협상 집중도의 상징적 지표 |
-| src-1294 | 하원 WPR 투표 6/2 연기 + Golden 이탈 예고 | new | 의회 | 입법 시계 확정 + 민주당 내 이탈 동향 |
-| src-1295 | Al Jazeera 우라늄 이전 옵션 분석 | new | 핵 협상 | 하메네이 명령 이후 가능한 핵 경로 정리 |
-| src-1296 | Bloomberg 교착 분석 (호르무즈+핵) | new | 분석 | 2대 핵심 교착 지점 구조적 확인 |
-| src-1297 | 유가 Brent $104.52 (+1.89%) | update | 경제 | 교착 신호에 따른 유가 소폭 반등 |
+| src-1310 | Trump "largely negotiated" | new | 평화 협상 | 전쟁 이후 최대 외교 선언. 1면 기사. |
+| src-1311 | Trump "50/50" | new | 평화 협상 | 딜/폭격 이분법, 일요일 결정. src-1310 보완. |
+| src-1314 | NYT MoU $25B | new | 평화 협상 | 이란 3관료 MoU 확인, $25B, 전선 전체. |
+| src-1312 | Fars "inconsistent" | new | 호르무즈 | 이란 반박, 호르무즈 관리 유지 주장. |
+| src-1313 | Baghaei 프레임워크 | new | 평화 협상 | 30-60일, 핵 제외, 제재 명문화. |
+| src-1286 | 카타르 중재 복귀 | new | 중재 | 파키스탄+카타르 공동 중재. |
+| src-1315 | Munir 테헤란 완료 | update | 중재 | 취소→번복→면담→'고무적 진전'. |
+| src-1285 | IRGC 35척 | new | 호르무즈 | 3일 연속 30+척 통과. |
+| src-1316 | IRGC 25척 5/23 | update | 호르무즈 | 일별 통행 수치 업데이트. |
+| src-1289 | WPR 6/2 연기 | new | 의회 | 골든 전환, 하원 통과 가능성. |
+| src-1317 | 유가 Brent $103 | update | 경제 | 주간 -6% 하락. |
 
 ## 제외 항목
 
 | 소스 ID | 제목 | 제외 근거 |
 |---------|------|----------|
-| (해당 없음) | 이전 보도 반복 소스 | 동일 사건의 반복 보도는 출처 목록에 기재하되 본문에서 별도 항목으로 다루지 않음 |
+| src-1324~1339 | reported 소스들 | 대표 1개 포함 후 출처 목록에 기재 |
+| src-1290~1294 | 이전 파이프라인 소스 | 5/22 뉴스로 전일 보고서에서 커버됨 |
 
 ## KG 시각화 범위
+- 핵심 노드: Trump(ent-001), Iran(ent-002), MoU(ent-428), Hormuz(ent-008), Munir(ent-028), Qatar(ent-336), Baghaei(ent-066), Golden(ent-426), IRGC(ent-005), Lebanon(ent-050)
+- 주제별 그래프 2개: (1) MoU 협상 구조 (2) 호르무즈 관리+의회 트랙
 
-### 전체 그래프 (15~20 노드)
-- 핵심 행위자: Trump, Iran, IRGC, Khamenei, Rubio, Munir, Pakistan, Qatar
-- 핵심 사건: WPR Vote Postponement, 35-Vessel Transit, Munir Tehran Trip Cancellation
-- 핵심 개념: Nuclear Program, Hormuz, Ceasefire Negotiations
-- 새 행위자: Jared Golden
-- 새 관계: Qatar-Pakistan co-mediation, Qatar returns to Ceasefire Negotiations
-
-### 초점 서브그래프 1: 중재 구조 변화
-- Qatar → cooperatesWith → Pakistan
-- Qatar → participatesIn → Ceasefire Negotiations
-- Munir → opposes → Iran (30-day confidence-building sequencing)
-- Pakistan → participatesIn → Ceasefire Negotiations
-
-### 초점 서브그래프 2: 호르무즈 통행 추이
-- IRGC → relatedTo → Strait of Hormuz (35 vessels)
-- 호르무즈 통과 추이: 26→31→35 (Day 83→84→85)
-
-### 초점 서브그래프 3: 핵-호르무즈 연결
-- Khamenei HEU Order → complicates → Ceasefire Negotiations
-- Nuclear Program <-> Hormuz (interlinked sticking points)
-
-## 보고서 구조 권장
-
-1. **헤드라인:** 카타르 중재 복귀 + IRGC 35척 + 무니르 방문 취소 (3대 사건 병렬)
-2. **호르무즈:** 35척 관리 통행 + 체계 정착 분석
-3. **중재/외교:** 카타르 복귀 + 무니르 취소 + 트럼프 워싱턴 잔류
-4. **핵 협상:** 시퀀싱 교착 (미국: 핵 우선 vs 이란: 30일 신뢰구축) + Al Jazeera 우라늄 옵션
-5. **의회:** WPR 6/2 확정 + Golden 이탈 예고
-6. **경제:** 유가 $104.52 (+1.89%)
-7. **KG 시각화:** 중재 구조 변화 중심 Mermaid 다이어그램
+## 보고서 구성 방향
+Day 85의 핵심은 **'합의 직전' 선언과 '현실 불일치' 반박의 동시 발생**이다. 트럼프의 "largely negotiated"는 전쟁 이후 가장 강한 낙관 신호이지만, Fars의 즉각적 반박과 호르무즈 관리권 분쟁은 합의의 구조적 취약성을 드러낸다. "50/50" 발언이 보여주듯, 하루 안에 전쟁 재개와 평화 합의 모두 가능한 극단적 이분법적 국면이다.

@@ -1939,6 +1939,26 @@
       "id": "ent-426",
       "type": "Person",
       "label": "Jared Golden"
+    },
+    {
+      "id": "ent-427",
+      "type": "Event",
+      "label": "Trump 9-Leader Declaration"
+    },
+    {
+      "id": "ent-428",
+      "type": "Event",
+      "label": "MoU Peace Framework"
+    },
+    {
+      "id": "ent-429",
+      "type": "Concept",
+      "label": "$25B Frozen Assets Release"
+    },
+    {
+      "id": "ent-430",
+      "type": "Event",
+      "label": "Qatar Co-Mediation Return"
     }
   ],
   "edges": [
@@ -2246,6 +2266,150 @@
       "source_id": "inferred",
       "date": "2026-05-23",
       "confidence": 0.75
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-427",
+      "date": "2026-05-23",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1310"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-427",
+      "date": "2026-05-23",
+      "confidence": 0.9,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-427",
+      "predicate": "relatedTo",
+      "object": "ent-428",
+      "date": "2026-05-23",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1310"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "date": "2026-05-23",
+      "confidence": 0.9,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-429",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-050",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "date": "2026-05-23",
+      "confidence": 0.8,
+      "type": "explicit",
+      "source_id": "src-1312"
+    },
+    {
+      "subject": "ent-066",
+      "predicate": "relatedTo",
+      "object": "ent-428",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1313"
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "cooperatesWith",
+      "object": "ent-029",
+      "date": "2026-05-23",
+      "confidence": 0.8,
+      "type": "explicit",
+      "source_id": "src-1286"
+    },
+    {
+      "subject": "ent-028",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1315"
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "date": "2026-05-23",
+      "confidence": 0.9,
+      "type": "explicit",
+      "source_id": "src-1285"
+    },
+    {
+      "subject": "ent-426",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "date": "2026-05-23",
+      "confidence": 0.75,
+      "type": "explicit",
+      "source_id": "src-1289"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "date": "2026-05-23",
+      "confidence": 0.75,
+      "type": "explicit",
+      "source_id": "src-1311"
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "potentialRelation",
+      "object": "ent-001",
+      "date": "2026-05-23",
+      "confidence": 0.78,
+      "type": "inferred",
+      "source_id": "inferred"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "follows",
+      "object": "ent-136",
+      "date": "2026-05-23",
+      "confidence": 0.8,
+      "type": "inferred",
+      "source_id": "inferred"
+    },
+    {
+      "subject": "ent-427",
+      "predicate": "causedBy",
+      "object": "ent-028",
+      "date": "2026-05-23",
+      "confidence": 0.72,
+      "type": "inferred",
+      "source_id": "inferred"
     }
   ],
   "triples": [
@@ -9990,11 +10154,155 @@
       "source_id": "inferred",
       "date": "2026-05-22",
       "confidence": 0.72
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-427",
+      "date": "2026-05-23",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1310"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-427",
+      "date": "2026-05-23",
+      "confidence": 0.9,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-427",
+      "predicate": "relatedTo",
+      "object": "ent-428",
+      "date": "2026-05-23",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1310"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "date": "2026-05-23",
+      "confidence": 0.9,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-429",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-050",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1314"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "date": "2026-05-23",
+      "confidence": 0.8,
+      "type": "explicit",
+      "source_id": "src-1312"
+    },
+    {
+      "subject": "ent-066",
+      "predicate": "relatedTo",
+      "object": "ent-428",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1313"
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "cooperatesWith",
+      "object": "ent-029",
+      "date": "2026-05-23",
+      "confidence": 0.8,
+      "type": "explicit",
+      "source_id": "src-1286"
+    },
+    {
+      "subject": "ent-028",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "date": "2026-05-23",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1315"
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "date": "2026-05-23",
+      "confidence": 0.9,
+      "type": "explicit",
+      "source_id": "src-1285"
+    },
+    {
+      "subject": "ent-426",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "date": "2026-05-23",
+      "confidence": 0.75,
+      "type": "explicit",
+      "source_id": "src-1289"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "date": "2026-05-23",
+      "confidence": 0.75,
+      "type": "explicit",
+      "source_id": "src-1311"
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "potentialRelation",
+      "object": "ent-001",
+      "date": "2026-05-23",
+      "confidence": 0.78,
+      "type": "inferred",
+      "source_id": "inferred"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "follows",
+      "object": "ent-136",
+      "date": "2026-05-23",
+      "confidence": 0.8,
+      "type": "inferred",
+      "source_id": "inferred"
+    },
+    {
+      "subject": "ent-427",
+      "predicate": "causedBy",
+      "object": "ent-028",
+      "date": "2026-05-23",
+      "confidence": 0.72,
+      "type": "inferred",
+      "source_id": "inferred"
     }
   ],
   "stats": {
-    "total_nodes": 386,
-    "total_edges": 925,
-    "total_triples": 925
+    "total_nodes": 390,
+    "total_edges": 54,
+    "total_triples": 929
   }
 }
