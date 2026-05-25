@@ -1,0 +1,22 @@
+{
+  "id": "src-1347",
+  "title": "Trump officials: Iran deal to end war may take days",
+  "url": "https://www.axios.com/2026/05/24/iran-deal-white-house-delay-days-trump",
+  "snippet": "Trump administration officials including Vance, Witkoff, and Kushner indicated negotiations are in a 'very good place' but a weekend signing is unlikely, with the deal potentially taking several more days to finalize.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 백악관 관리들이 협상이 '매우 좋은 위치'에 있지만 주말 서명은 없을 것이라며 며칠 더 걸릴 수 있다고 밝힌 보도",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-431"}
+  ]
+}

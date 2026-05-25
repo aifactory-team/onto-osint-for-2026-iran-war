@@ -1,0 +1,20 @@
+{
+  "id": "src-1342",
+  "title": "Trump says not to rush as U.S. nears potential Iran deal",
+  "url": "https://www.pbs.org/newshour/world/trump-says-not-to-rush-as-u-s-nears-potential-iran-deal",
+  "snippet": "Trump stated 'not to rush' and that 'time is on our side' regarding the Iran deal, signaling that the naval blockade will remain in place as leverage while negotiations continue.",
+  "source_name": "PBS",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프가 이란 합의를 서두르지 않겠다고 발언하며 봉쇄를 협상 지렛대로 유지하겠다는 입장을 밝힌 보도",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-431", "type": "Event", "name": "60-Day MoU Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-431"}
+  ]
+}

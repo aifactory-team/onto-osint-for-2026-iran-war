@@ -1,0 +1,22 @@
+{
+  "id": "src-1346",
+  "title": "IDF draws up Lebanon plans amid concern Iran deal could curb fighting with Hezbollah",
+  "url": "https://www.timesofisrael.com/idf-draws-up-lebanon-plans-amid-concern-iran-deal-could-curb-fighting-with-hezbollah",
+  "snippet": "The IDF is drawing up plans for a 7-8km buffer zone in Lebanon, with Zamir approving the plans amid concern that a U.S.-Iran deal could constrain Israel's ability to continue fighting Hezbollah.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — IDF가 미-이란 합의로 헤즈볼라 전투가 제한될 수 있다는 우려 속에 레바논 7-8km 완충지대 계획을 수립한 보도",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-428", "type": "Event", "name": "MoU Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-428"}
+  ]
+}

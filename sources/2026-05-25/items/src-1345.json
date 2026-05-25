@@ -1,0 +1,28 @@
+{
+  "id": "src-1345",
+  "title": "Republicans blast 'disaster' Iran deal touted by Trump",
+  "url": "https://www.newsweek.com/iran-media-says-deal-touted-by-trump-inconsistent-with-reality-11987756",
+  "snippet": "Republican hawks including Senators Wicker, Graham, Cruz, and former Secretary Pompeo criticized the emerging Iran deal as a 'disaster,' marking significant GOP blowback against the Trump administration's diplomacy.",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 위커/그레이엄/크루즈/폼페이오 등 공화당 매파가 트럼프의 이란 합의를 '재앙'이라며 공개 비판한 당내 반발 보도",
+  "entities": [
+    {"id": "ent-432", "type": "Person", "name": "Roger Wicker"},
+    {"id": "ent-433", "type": "Person", "name": "Lindsey Graham"},
+    {"id": "ent-434", "type": "Person", "name": "Ted Cruz"},
+    {"id": "ent-435", "type": "Person", "name": "Mike Pompeo"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-428", "type": "Event", "name": "MoU Framework"},
+    {"id": "ent-436", "type": "Event", "name": "GOP Blowback"}
+  ],
+  "relations": [
+    {"subject": "ent-432", "predicate": "opposes", "object": "ent-428"},
+    {"subject": "ent-433", "predicate": "opposes", "object": "ent-428"},
+    {"subject": "ent-434", "predicate": "opposes", "object": "ent-428"},
+    {"subject": "ent-435", "predicate": "opposes", "object": "ent-428"}
+  ]
+}

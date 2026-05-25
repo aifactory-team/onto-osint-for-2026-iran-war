@@ -1,0 +1,22 @@
+{
+  "id": "src-1350",
+  "title": "트럼프 '이란과 합의 서두르지 말라'…미 '우라늄·해협 개방 원칙적 동의'",
+  "url": "https://www.edaily.co.kr/News/Read?newsId=01088966645452528&mediaCodeNo=257",
+  "snippet": "이데일리가 트럼프의 '서두르지 말라' 발언과 이란의 우라늄 처분·호르무즈 해협 개방에 대한 원칙적 동의를 종합적으로 보도했다.",
+  "source_name": "이데일리",
+  "language": "ko",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 트럼프 발언과 이란의 우라늄·해협 원칙적 동의를 종합 정리한 한국어 보도",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-025", "type": "Topic", "name": "Nuclear Program"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-431"}
+  ]
+}

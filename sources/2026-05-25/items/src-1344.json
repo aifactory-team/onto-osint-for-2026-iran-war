@@ -1,0 +1,21 @@
+{
+  "id": "src-1344",
+  "title": "Rubio: Good News On Iran Could Come Later Today",
+  "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html",
+  "snippet": "Secretary of State Rubio stated there has been 'significant progress' in Iran negotiations and suggested 'good news in hours,' signaling imminent developments in the deal process.",
+  "source_name": "RFE/RL",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 루비오 국무장관이 이란 협상에서 '상당한 진전'과 '몇 시간 내 좋은 소식'을 예고한 발언 보도",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-077", "predicate": "cooperatesWith", "object": "ent-002"}
+  ]
+}

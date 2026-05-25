@@ -1,0 +1,23 @@
+{
+  "id": "src-1343",
+  "title": "Iran agrees in principle to dispose of highly-enriched uranium, White House official says",
+  "url": "https://www.cbsnews.com/news/iran-peace-deal-negotiations-highly-enriched-uranium/",
+  "snippet": "CBS News reports that Iran's supreme leader has approved a 'template' for disposing of highly-enriched uranium in a two-step process, marking a key concession in the ongoing peace deal negotiations.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란 최고지도자가 고농축 우라늄 처분 '템플릿'을 승인했다는 백악관 관리 발언이 처음 보도된 핵심 진전 소식",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-046", "type": "Person", "name": "Ali Khamenei"},
+    {"id": "ent-025", "type": "Topic", "name": "Nuclear Program"},
+    {"id": "ent-431", "type": "Event", "name": "60-Day MoU Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-025"},
+    {"subject": "ent-046", "predicate": "participatesIn", "object": "ent-431"}
+  ]
+}

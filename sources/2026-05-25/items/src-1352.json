@@ -1,0 +1,21 @@
+{
+  "id": "src-1352",
+  "title": "Rubio defends push for Iran deal, which Trump says is in final stages",
+  "url": "https://www.washingtonpost.com/national-security/2026/05/24/rubio-defends-push-iran-deal-which-trump-says-is-final-stages/",
+  "snippet": "Secretary of State Rubio defended the administration's push for an Iran deal as Trump indicated the agreement is in its final stages of negotiation.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 루비오 국무장관이 이란 합의 추진을 옹호하고 트럼프가 최종 단계에 있다고 밝힌 보도",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-428", "type": "Event", "name": "MoU Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-077", "predicate": "cooperatesWith", "object": "ent-001"}
+  ]
+}

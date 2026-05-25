@@ -1,0 +1,21 @@
+{
+  "id": "src-1349",
+  "title": "이란, 핵문제·호르무즈 미 언론 보도와 이견",
+  "url": "https://www.fnnews.com/news/202605242147477511",
+  "snippet": "파르스 통신 등 이란 매체가 호르무즈 해협은 이란 관할하에 유지된다고 보도하며, 미국 언론의 합의 내용 보도와 이견을 드러냈다.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란 측이 호르무즈 해협 관할권에 대해 미국 보도와 상반된 입장을 밝히며 합의 해석에 이견이 존재함을 보여주는 보도",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-008"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-1351",
+  "title": "美·이란, 60일 휴전연장·호르무즈 무료개방 합의 근접",
+  "url": "https://biz.heraldcorp.com/article/10755176",
+  "snippet": "헤럴드경제가 미국과 이란이 60일 휴전 연장 및 호르무즈 해협 무료 개방 합의에 근접했다고 보도했다.",
+  "source_name": "헤럴드경제",
+  "language": "ko",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 60일 휴전 연장과 호르무즈 무료 개방 합의 근접 소식을 전한 한국어 보도",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-431", "type": "Event", "name": "60-Day MoU Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-431", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

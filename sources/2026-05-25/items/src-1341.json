@@ -1,0 +1,25 @@
+{
+  "id": "src-1341",
+  "title": "EXCLUSIVE: U.S., Iran to announce draft of peace deal within 24 hours",
+  "url": "https://www.washingtontimes.com/news/2026/may/23/exclusive-us-iran-announce-peace-deal-within-24-hours/",
+  "snippet": "Washington Times reports that Ghalibaf, Vance, Witkoff, and Kushner have approved a draft peace deal and sent it to their respective leaders for final sign-off, with an announcement expected within 24 hours.",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 미-이란 평화 협정 초안이 양측 협상대표(갈리바프/밴스/위트코프/쿠슈너)에 의해 승인되어 지도자에게 전달되었다는 독점 보도",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-046", "type": "Person", "name": "Ali Khamenei"}
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "ent-431"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-431"}
+  ]
+}
