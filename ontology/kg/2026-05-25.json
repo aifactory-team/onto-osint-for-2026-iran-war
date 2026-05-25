@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-25",
+  "new_triples": [
+    {"subject": "ent-431", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1340", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "MoU 60-day framework: Hormuz opens toll-free, mines cleared"},
+    {"subject": "ent-431", "predicate": "relatedTo", "object": "ent-025", "source_id": "src-1340", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "MoU includes Iran never pursue nukes, negotiate enrichment suspension + HEU removal"},
+    {"subject": "ent-431", "predicate": "relatedTo", "object": "ent-429", "source_id": "src-1340", "date": "2026-05-25", "confidence": 0.90, "type": "explicit", "detail": "MoU includes sanctions waivers and asset release provisions"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-431", "source_id": "src-1342", "date": "2026-05-25", "confidence": 0.90, "type": "explicit", "detail": "Trump: 'not to rush into a deal,' 'time is on our side,' blockade stays until signed"},
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "ent-431", "source_id": "src-1341", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "Ghalibaf approved MoU draft"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-431", "source_id": "src-1341", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "Vance approved MoU draft"},
+    {"subject": "ent-042", "predicate": "participatesIn", "object": "ent-431", "source_id": "src-1341", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "Kushner approved MoU draft"},
+    {"subject": "ent-043", "predicate": "participatesIn", "object": "ent-431", "source_id": "src-1341", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "Witkoff approved MoU draft"},
+    {"subject": "ent-432", "predicate": "opposes", "object": "ent-428", "source_id": "src-1345", "date": "2026-05-25", "confidence": 0.90, "type": "explicit", "detail": "Wicker: deal is a 'disaster'"},
+    {"subject": "ent-433", "predicate": "opposes", "object": "ent-428", "source_id": "src-1345", "date": "2026-05-25", "confidence": 0.85, "type": "explicit", "detail": "Graham: 'major shift'"},
+    {"subject": "ent-434", "predicate": "opposes", "object": "ent-428", "source_id": "src-1345", "date": "2026-05-25", "confidence": 0.90, "type": "explicit", "detail": "Cruz: 'disastrous mistake'"},
+    {"subject": "ent-435", "predicate": "opposes", "object": "ent-428", "source_id": "src-1345", "date": "2026-05-25", "confidence": 0.85, "type": "explicit", "detail": "Pompeo: 'not America First'"},
+    {"subject": "ent-077", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-1344", "date": "2026-05-25", "confidence": 0.80, "type": "explicit", "detail": "Rubio: 'good news' on Hormuz in hours, 'significant progress,' defends deal in India"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-428", "source_id": "src-1346", "date": "2026-05-25", "confidence": 0.85, "type": "explicit", "detail": "IDF draws up Lebanon plans, fears deal curbs Hezbollah fighting, Zamir approves continued ops"},
+    {"subject": "ent-046", "predicate": "participatesIn", "object": "ent-431", "source_id": "src-1343", "date": "2026-05-25", "confidence": 0.90, "type": "explicit", "detail": "CBS: supreme leader approved 'template,' Iran agrees in principle to dispose of HEU"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-428", "predicate": "relatedTo", "object": "ent-431", "source_id": "src-1340", "date": "2026-05-25", "confidence": 0.95, "type": "explicit", "detail": "MoU Framework now detailed as 60-day structure with specific provisions"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1342", "date": "2026-05-25", "confidence": 0.70, "type": "explicit", "detail": "Trump maintains blockade pressure: 'time is on our side,' won't rush — evolved from '50/50'"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-432", "predicate": "potentialRelation", "object": "ent-001", "rule": "co_participation", "date": "2026-05-25", "confidence": 0.75, "type": "inferred", "detail": "GOP critics (Wicker/Graham/Cruz) oppose Trump's own MoU — intra-party friction on Iran deal"},
+    {"subject": "ent-004", "predicate": "potentialRelation", "object": "ent-436", "rule": "co_participation", "date": "2026-05-25", "confidence": 0.72, "type": "inferred", "detail": "Israel and GOP critics share opposition to Iran deal — convergent interests"},
+    {"subject": "ent-431", "predicate": "follows", "object": "ent-427", "rule": "event_chain", "date": "2026-05-25", "confidence": 0.85, "type": "inferred", "detail": "Event chain: 'largely negotiated' declaration (5/23) → 60-day MoU framework details (5/24-25)"}
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 15,
+    "inferred_edges": 3
+  }
+}

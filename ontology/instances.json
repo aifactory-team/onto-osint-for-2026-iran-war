@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-25",
   "entities": [
     {
       "id": "ent-001",
@@ -13,8 +13,8 @@
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-23",
-      "mention_count": 276
+      "last_seen": "2026-05-25",
+      "mention_count": 284
     },
     {
       "id": "ent-002",
@@ -26,8 +26,8 @@
         "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-23",
-      "mention_count": 329
+      "last_seen": "2026-05-25",
+      "mention_count": 337
     },
     {
       "id": "ent-003",
@@ -51,8 +51,8 @@
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-20",
-      "mention_count": 129
+      "last_seen": "2026-05-25",
+      "mention_count": 134
     },
     {
       "id": "ent-005",
@@ -101,8 +101,8 @@
         "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-23",
-      "mention_count": 283
+      "last_seen": "2026-05-25",
+      "mention_count": 290
     },
     {
       "id": "ent-009",
@@ -299,8 +299,8 @@
         "domain": "military/energy"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-23",
-      "mention_count": 25
+      "last_seen": "2026-05-25",
+      "mention_count": 30
     },
     {
       "id": "ent-026",
@@ -497,8 +497,8 @@
         "action_apr21": "did NOT fly to Islamabad; trip 'postponed indefinitely' (Axios) as Iran boycotts 2nd round"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
-      "mention_count": 92
+      "last_seen": "2026-05-25",
+      "mention_count": 95
     },
     {
       "id": "ent-042",
@@ -509,8 +509,8 @@
         "affiliation": "United States"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
-      "mention_count": 13
+      "last_seen": "2026-05-25",
+      "mention_count": 16
     },
     {
       "id": "ent-043",
@@ -521,8 +521,8 @@
         "affiliation": "United States"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
-      "mention_count": 13
+      "last_seen": "2026-05-25",
+      "mention_count": 16
     },
     {
       "id": "ent-044",
@@ -547,8 +547,8 @@
         "action_apr21": "adviser says: 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms'"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-09",
-      "mention_count": 49
+      "last_seen": "2026-05-25",
+      "mention_count": 53
     },
     {
       "id": "ent-046",
@@ -560,8 +560,8 @@
         "note": "Son of late Ali Khamenei"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-23",
-      "mention_count": 8
+      "last_seen": "2026-05-25",
+      "mention_count": 11
     },
     {
       "id": "ent-047",
@@ -961,8 +961,8 @@
         "action": "mediated Israel-Lebanon Washington talks (Apr 14)"
       },
       "first_seen": "2026-04-14",
-      "last_seen": "2026-05-23",
-      "mention_count": 15
+      "last_seen": "2026-05-25",
+      "mention_count": 20
     },
     {
       "id": "ent-078",
@@ -4996,8 +4996,8 @@
         "participants": "US, Iran, Saudi Arabia, UAE, Qatar, Pakistan, Turkey, Egypt, Jordan, Bahrain, Israel"
       },
       "first_seen": "2026-05-23",
-      "last_seen": "2026-05-23",
-      "mention_count": 15
+      "last_seen": "2026-05-25",
+      "mention_count": 20
     },
     {
       "id": "ent-428",
@@ -5008,8 +5008,8 @@
         "detail": "Framework agreement to end war: stop fighting all fronts (including Lebanon), reopen Hormuz (lift US blockade, free commercial traffic, no tolls), release $25B frozen assets, sanctions lifting 'explicitly in text.' 30-60 days for detailed negotiations. Nuclear issues excluded from current talks. Iran Fars: Hormuz stays under Iran management."
       },
       "first_seen": "2026-05-23",
-      "last_seen": "2026-05-23",
-      "mention_count": 12
+      "last_seen": "2026-05-25",
+      "mention_count": 18
     },
     {
       "id": "ent-429",
@@ -5036,9 +5036,89 @@
       "first_seen": "2026-05-23",
       "last_seen": "2026-05-23",
       "mention_count": 2
+    },
+    {
+      "id": "ent-431",
+      "type": "Event",
+      "name": "MoU 60-Day Framework (May 24)",
+      "properties": {
+        "date": "2026-05-24",
+        "detail": "Axios exclusive: 60-day MoU structure — Hormuz opens toll-free, mines cleared, US lifts blockade + sanctions waivers, Iran commits to never pursue nukes, negotiate enrichment suspension + HEU removal, US forces stay, 'relief for performance.' Draft approved by Ghalibaf, Vance, Witkoff, Kushner, sent to leaders for final approval.",
+        "participants": "US, Iran",
+        "duration": "60 days",
+        "status": "draft approved, pending final leader sign-off"
+      },
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-432",
+      "type": "Person",
+      "name": "Roger Wicker",
+      "properties": {
+        "role": "US Senator, Chair of Senate Armed Services Committee",
+        "affiliation": "United States (Republican)",
+        "action_may25": "Called Iran deal a 'disaster'"
+      },
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-433",
+      "type": "Person",
+      "name": "Lindsey Graham",
+      "properties": {
+        "role": "US Senator",
+        "affiliation": "United States (Republican)",
+        "action_may25": "Called deal a 'major shift'"
+      },
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-434",
+      "type": "Person",
+      "name": "Ted Cruz",
+      "properties": {
+        "role": "US Senator",
+        "affiliation": "United States (Republican)",
+        "action_may25": "Called deal a 'disastrous mistake'"
+      },
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-435",
+      "type": "Person",
+      "name": "Mike Pompeo",
+      "properties": {
+        "role": "Former CIA Director / Secretary of State",
+        "affiliation": "United States (Republican)",
+        "action_may25": "Called deal 'not America First'"
+      },
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-436",
+      "type": "Concept",
+      "name": "GOP Blowback on Iran Deal",
+      "properties": {
+        "domain": "domestic politics/diplomacy",
+        "detail": "Republican internal criticism of Trump's Iran deal. Key critics: Wicker ('disaster'), Graham ('major shift'), Cruz ('disastrous mistake'), Pompeo ('not America First'). Represents significant intra-party friction on foreign policy.",
+        "participants": "ent-432, ent-433, ent-434, ent-435"
+      },
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "mention_count": 5
     }
   ],
-  "total_count": 388,
+  "total_count": 394,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5295,6 +5375,13 @@
         "src-1310", "src-1311", "src-1312", "src-1313", "src-1314",
         "src-1315", "src-1285", "src-1286", "src-1287", "src-1289", "src-1316"
       ]
+    },
+    {
+      "date": "2026-05-25",
+      "action": "add_instances",
+      "target": "6 new entities (ent-431~ent-436), 12 existing updated",
+      "reason": "MoU 60일 프레임워크 세부사항 공개(Axios), 초안 4자 승인(갈리바프/밴스/위트코프/쿠슈너), 트럼프 '서두르지 말라' 지시, CBS '이란 HEU 폐기 원칙 합의', 루비오 인도에서 '좋은 소식 곧', 공화당 '재앙' 비판(위커/그레이엄/크루즈/폼페이오), IDF 레바논 작전계획(이란 딜 우려). 스키마 변경 없음",
+      "source_ids": ["src-1340", "src-1341", "src-1342", "src-1343", "src-1344", "src-1345", "src-1346", "src-1347", "src-1348"]
     }
   ]
 }

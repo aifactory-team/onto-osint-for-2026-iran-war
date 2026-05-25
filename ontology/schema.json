@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-25",
   "classes": [
     {
       "id": "Entity",
@@ -775,6 +775,13 @@
       "target": "4 new entities (ent-427~ent-430), 6 existing updated",
       "reason": "트럼프 'largely negotiated' MoU 선언(9개국 통화+네타냐후), '50/50' 딜/폭격 이분법(일요일 결정), NYT MoU 확인($25B 동결자산·전선 전체 중단·레바논 포함), 바가에이 '프레임워크 합의'(30-60일·핵 제외·제재 명문화), Fars '현실 불일치' 반박(호르무즈 이란 관리 유지), 카타르 공동 중재 복귀, 무니르 테헤란 방문 완료(페제시키안/갈리바프 면담·'고무적 진전'), IRGC 35→25척 호르무즈 관리 통행, 골든 WPR 찬성 전환, 유가 Brent $103(-6%w). 스키마 변경 없음",
       "source_ids": ["src-1310", "src-1311", "src-1312", "src-1313", "src-1314", "src-1315", "src-1285", "src-1286", "src-1287", "src-1289", "src-1316", "src-1317"]
+    },
+    {
+      "date": "2026-05-25",
+      "action": "add_instances",
+      "target": "6 new entities (ent-431~ent-436), 12 existing updated",
+      "reason": "MoU 60일 프레임워크 세부사항 공개(Axios), 초안 4자 승인(갈리바프/밴스/위트코프/쿠슈너), 트럼프 '서두르지 말라' 지시, CBS '이란 HEU 폐기 원칙 합의', 루비오 인도에서 '좋은 소식 곧', 공화당 '재앙' 비판(위커/그레이엄/크루즈/폼페이오), IDF 레바논 작전계획(이란 딜 우려). 스키마 변경 없음",
+      "source_ids": ["src-1340", "src-1341", "src-1342", "src-1343", "src-1344", "src-1345", "src-1346", "src-1347", "src-1348"]
     }
   ]
 }

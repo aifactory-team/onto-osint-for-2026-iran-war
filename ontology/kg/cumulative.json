@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-25",
   "nodes": [
     {
       "id": "ent-001",
@@ -1959,6 +1959,36 @@
       "id": "ent-430",
       "type": "Event",
       "label": "Qatar Co-Mediation Return"
+    },
+    {
+      "id": "ent-431",
+      "type": "Event",
+      "label": "MoU 60-Day Framework"
+    },
+    {
+      "id": "ent-432",
+      "type": "Person",
+      "label": "Roger Wicker"
+    },
+    {
+      "id": "ent-433",
+      "type": "Person",
+      "label": "Lindsey Graham"
+    },
+    {
+      "id": "ent-434",
+      "type": "Person",
+      "label": "Ted Cruz"
+    },
+    {
+      "id": "ent-435",
+      "type": "Person",
+      "label": "Mike Pompeo"
+    },
+    {
+      "id": "ent-436",
+      "type": "Concept",
+      "label": "GOP Blowback on Iran Deal"
     }
   ],
   "edges": [
@@ -10298,11 +10328,191 @@
       "confidence": 0.72,
       "type": "inferred",
       "source_id": "inferred"
+    },
+    {
+      "subject": "ent-431",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1340"
+    },
+    {
+      "subject": "ent-431",
+      "predicate": "relatedTo",
+      "object": "ent-025",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1340"
+    },
+    {
+      "subject": "ent-431",
+      "predicate": "relatedTo",
+      "object": "ent-429",
+      "date": "2026-05-25",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1340"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1342"
+    },
+    {
+      "subject": "ent-045",
+      "predicate": "participatesIn",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1341"
+    },
+    {
+      "subject": "ent-041",
+      "predicate": "participatesIn",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1341"
+    },
+    {
+      "subject": "ent-042",
+      "predicate": "participatesIn",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1341"
+    },
+    {
+      "subject": "ent-043",
+      "predicate": "participatesIn",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1341"
+    },
+    {
+      "subject": "ent-432",
+      "predicate": "opposes",
+      "object": "ent-428",
+      "date": "2026-05-25",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1345"
+    },
+    {
+      "subject": "ent-433",
+      "predicate": "opposes",
+      "object": "ent-428",
+      "date": "2026-05-25",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1345"
+    },
+    {
+      "subject": "ent-434",
+      "predicate": "opposes",
+      "object": "ent-428",
+      "date": "2026-05-25",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1345"
+    },
+    {
+      "subject": "ent-435",
+      "predicate": "opposes",
+      "object": "ent-428",
+      "date": "2026-05-25",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1345"
+    },
+    {
+      "subject": "ent-077",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "date": "2026-05-25",
+      "confidence": 0.80,
+      "type": "explicit",
+      "source_id": "src-1344"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-428",
+      "date": "2026-05-25",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1346"
+    },
+    {
+      "subject": "ent-046",
+      "predicate": "participatesIn",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1343"
+    },
+    {
+      "subject": "ent-428",
+      "predicate": "relatedTo",
+      "object": "ent-431",
+      "date": "2026-05-25",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1340"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "date": "2026-05-25",
+      "confidence": 0.70,
+      "type": "explicit",
+      "source_id": "src-1342"
+    },
+    {
+      "subject": "ent-432",
+      "predicate": "potentialRelation",
+      "object": "ent-001",
+      "date": "2026-05-25",
+      "confidence": 0.75,
+      "type": "inferred",
+      "source_id": "inferred"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "potentialRelation",
+      "object": "ent-436",
+      "date": "2026-05-25",
+      "confidence": 0.72,
+      "type": "inferred",
+      "source_id": "inferred"
+    },
+    {
+      "subject": "ent-431",
+      "predicate": "follows",
+      "object": "ent-427",
+      "date": "2026-05-25",
+      "confidence": 0.85,
+      "type": "inferred",
+      "source_id": "inferred"
     }
   ],
   "stats": {
-    "total_nodes": 390,
-    "total_edges": 54,
-    "total_triples": 929
+    "total_nodes": 396,
+    "total_edges": 69,
+    "total_triples": 949
   }
 }

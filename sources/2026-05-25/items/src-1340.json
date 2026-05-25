@@ -1,0 +1,26 @@
+{
+  "id": "src-1340",
+  "title": "Exclusive: What's inside the Iran deal Trump is close to signing",
+  "url": "https://www.axios.com/2026/05/24/iran-deal-strait-hormuz-sanctions-nuclear",
+  "snippet": "Axios reports on the contents of a proposed 60-day MoU between the U.S. and Iran, including toll-free Hormuz passage, mine clearance, blockade lifting, sanctions waivers, and nuclear commitments under a 'relief for performance' framework.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 60일 MoU 초안의 구체적 내용(호르무즈 통행료 면제, 기뢰 제거, 봉쇄 해제, 제재 면제, 핵 약속)이 처음 공개된 독점 보도",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-025", "type": "Topic", "name": "Nuclear Program"},
+    {"id": "ent-428", "type": "Event", "name": "MoU Framework"},
+    {"id": "ent-431", "type": "Event", "name": "60-Day MoU Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-431", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "ent-431", "predicate": "relatedTo", "object": "ent-025"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-431"}
+  ]
+}
