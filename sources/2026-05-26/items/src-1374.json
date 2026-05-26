@@ -1,0 +1,26 @@
+{
+  "id": "src-1374",
+  "title": "Trump says 'mandatory' for Muslim nations involved in Iran deal to join Abraham Accords",
+  "url": "https://www.timesofisrael.com/trump-says-mandatory-for-muslim-nations-involved-in-iran-deal-to-join-abraham-accords/",
+  "snippet": "Trump demands Saudi Arabia, Pakistan, Qatar, Turkey, Egypt, Jordan normalize ties with Israel as part of Iran deal. Called it 'mandatory'. May accept 1-2 exceptions. 'Negotiations with the Islamic Republic of Iran are proceeding nicely!' Saudi Arabia maintains Palestinian statehood precondition.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New demand from Trump linking Iran deal to Abraham Accords expansion — could complicate or derail negotiations",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "temp-012", "type": "Organization", "name": "Qatar"},
+    {"id": "temp-005", "type": "Concept", "name": "Abraham Accords Normalization Demand"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-035", "type": "Organization", "name": "UAE"},
+    {"id": "ent-127", "type": "Person", "name": "Recep Tayyip Erdogan"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-005"}
+  ]
+}

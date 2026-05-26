@@ -1,0 +1,19 @@
+{
+  "id": "src-1380",
+  "title": "Oil prices fall: Brent tumbles nearly 6% below $98 as US-Iran deal optimism grows",
+  "url": "https://www.axios.com/2026/05/24/oil-prices-iran-war-hormuz-strait-trump-tehran-peace-talks",
+  "snippet": "Brent crude decreased to $96.31/bbl, lowest since April 2026. Over past 4 weeks, Brent lost 5.18%. WTI also declined. Full Hormuz reopening would push oil substantially lower — strait carries ~1/5 of global oil and LNG. In last 12 months Brent increased 49.42%.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: Brent crude at lowest since April 2026 — significant shift from $103 reported on May 23",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

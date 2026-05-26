@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-26",
+  "new_triples": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "ent-438", "source_id": "src-1372", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-438", "source_id": "src-1372", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-437", "predicate": "participatesIn", "object": "ent-438", "source_id": "src-1372", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-438", "predicate": "locatedIn", "object": "ent-442", "source_id": "src-1372", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-437", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1372", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-442", "predicate": "cooperatesWith", "object": "ent-029", "source_id": "src-1376", "date": "2026-05-26", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-443", "predicate": "locatedIn", "object": "ent-442", "source_id": "src-1376", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-438", "predicate": "relatedTo", "object": "ent-443", "source_id": "src-1382", "date": "2026-05-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-439", "source_id": "src-1374", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-439", "predicate": "relatedTo", "object": "ent-004", "source_id": "src-1374", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1377", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_id": "src-1378", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-440", "predicate": "relatedTo", "object": "ent-001", "source_id": "src-1379", "date": "2026-05-26", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1381", "date": "2026-05-26", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-438", "predicate": "follows", "object": "ent-431", "source_id": "src-1372", "date": "2026-05-26", "confidence": 0.9, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "ent-431", "update": "Ghalibaf now in Doha continuing MoU negotiations; approved draft", "source_id": "src-1372", "date": "2026-05-26"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-431", "update": "Araghchi in Doha; cautioned deal signing 'not imminent'", "source_id": "src-1373", "date": "2026-05-26"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-437", "predicate": "indirectlyAffiliatedWith", "object": "ent-045", "rule": "co_participation", "confidence": 0.85, "reason": "Hemmati and Ghalibaf both participate in Iran Doha Talks — co-participation indicates working relationship within Iran's negotiation structure"},
+    {"subject": "ent-442", "predicate": "potentialRelation", "object": "ent-002", "rule": "co_participation", "confidence": 0.8, "reason": "Qatar hosts Iran delegation and $6B frozen assets — emerging as key partner in Iran's diplomatic strategy"},
+    {"subject": "ent-439", "predicate": "potentialRelation", "object": "ent-436", "rule": "co_participation", "confidence": 0.75, "reason": "Abraham Accords demand may exacerbate GOP blowback — Israel hawks support normalization but Iran deal critics oppose the overall MoU; creates cross-cutting pressures"}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 15,
+    "inferred_edges": 3
+  }
+}

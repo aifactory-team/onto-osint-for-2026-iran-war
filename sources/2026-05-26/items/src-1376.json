@@ -1,0 +1,22 @@
+{
+  "id": "src-1376",
+  "title": "Qatar emerges as key broker in US-Iran frozen funds dispute",
+  "url": "https://www.iranintl.com/en/202605252488",
+  "snippet": "Qatar takes increasingly active role advancing negotiations. Qatari mediation narrows differences between Iranian delegation and US officials. $6B frozen funds transferred from South Korea to Qatar in 2023. Iran demands guaranteed access before any agreement moves forward.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New analysis of Qatar's elevated role as co-mediator alongside Pakistan — shift in negotiation geography",
+  "entities": [
+    {"id": "temp-012", "type": "Organization", "name": "Qatar"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-013", "type": "Concept", "name": "Iran Frozen Assets ($6B Qatar)"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "temp-012", "predicate": "cooperatesWith", "object": "ent-029"}
+  ]
+}

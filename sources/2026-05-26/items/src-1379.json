@@ -1,0 +1,23 @@
+{
+  "id": "src-1379",
+  "title": "House Republicans pull WPR vote on verge of passing — delayed to June after Memorial Day recess",
+  "url": "https://www.npr.org/2026/05/22/g-s1-123592/republicans-call-off-vote-on-iran-war-resolution",
+  "snippet": "House Republicans called off vote on Iran war resolution they were about to lose. 8 GOP members absent (only 1 likely WPR supporter), 2 Democrats absent. Hakeem Jeffries: 'cowardly'. Vote now expected early June after Memorial Day recess. Follows Senate 50-47 WPR passage with 4 Republican defections (Paul, Collins, Murkowski, Cassidy).",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New development: House WPR vote pulled for first time — escalation from previous Senate votes; bipartisan pressure mounting",
+  "entities": [
+    {"id": "temp-010", "type": "Person", "name": "Hakeem Jeffries"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-009", "type": "Event", "name": "House GOP WPR Vote Cancellation"},
+    {"id": "ent-407", "type": "Person", "name": "Bill Cassidy"},
+    {"id": "ent-232", "type": "Person", "name": "Susan Collins"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "relatedTo", "object": "ent-001"}
+  ]
+}

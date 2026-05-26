@@ -1,0 +1,27 @@
+{
+  "id": "src-1372",
+  "title": "Iran's Ghalibaf, Araghchi in Doha for talks on possible US-Iran deal — high-level delegation includes central bank chief Hemmati, focus on frozen assets and Hormuz",
+  "url": "https://english.alarabiya.net/News/middle-east/2026/05/25/iran-envoys-in-doha-for-talks-on-possible-usiran-deal-official-says-",
+  "snippet": "Iran's Parliament Speaker Mohammad Bagher Ghalibaf and Foreign Minister Abbas Araghchi arrived in Doha on Monday. Central bank chief Abdolnaser Hemmati joined the delegation to discuss frozen assets. Focus on Strait of Hormuz and highly enriched uranium issues. Iran's Foreign Ministry cautioned deal signing 'not imminent' despite consensus on many topics.",
+  "source_name": "Al Arabiya",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New development: Iran's top negotiating team relocates to Doha, with central bank chief joining for frozen assets talks — first time Qatar replaces Pakistan as primary venue",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf", "role": "Iran Parliament Speaker"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran Foreign Minister"},
+    {"id": "temp-003", "type": "Person", "name": "Abdolnaser Hemmati", "role": "Iran Central Bank Governor"},
+    {"id": "temp-012", "type": "Organization", "name": "Qatar", "role": "co-mediator"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"},
+    {"id": "temp-013", "type": "Concept", "name": "Iran Frozen Assets ($6B Qatar)"}
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-003", "predicate": "participatesIn", "object": "temp-004"}
+  ]
+}

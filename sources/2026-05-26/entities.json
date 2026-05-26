@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-26",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": {"role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran", "action_may26": "Led Iran delegation to Doha for talks on frozen assets and MoU; part of 4-approver group for MoU draft"},
+      "source_ids": ["src-1372", "src-1373", "src-1384"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"role": "Iran Foreign Minister", "affiliation": "Iran", "action_may26": "Accompanied Ghalibaf to Doha; cautioned deal signing 'not imminent' despite consensus on many topics"},
+      "source_ids": ["src-1372", "src-1373", "src-1384"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Abdolnaser Hemmati",
+      "properties": {"role": "Iran Central Bank Governor", "affiliation": "Iran", "action_may26": "Traveled to Doha as part of high-level delegation to discuss frozen assets release ($6B in Qatar banks)"},
+      "source_ids": ["src-1372", "src-1376", "src-1385", "src-1386"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Doha Talks (May 25-26)",
+      "properties": {"date": "2026-05-25~26", "location": "Doha, Qatar", "participants": "Iran (Ghalibaf, Araghchi, Hemmati), Qatar (mediator), US (indirect)", "focus": "frozen assets, Hormuz, HEU — MoU sticking points", "status": "intense talks continuing, consensus on many topics but signing not imminent"},
+      "source_ids": ["src-1372", "src-1373", "src-1376", "src-1382", "src-1384", "src-1385"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Abraham Accords Normalization Demand",
+      "properties": {"domain": "diplomacy/normalization", "detail": "Trump demands 6 Muslim-majority nations (Saudi Arabia, Pakistan, Qatar, Turkey, Egypt, Jordan) join Abraham Accords as part of Iran deal; called it 'mandatory'; regional leaders responded with silence"},
+      "source_ids": ["src-1374", "src-1375"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_may26": "'Mandatory' for Muslim nations to join Abraham Accords; 'Negotiations proceeding nicely'; 'Great Deal for all or no Deal at all'; leaders responded with silence to normalization request"},
+      "source_ids": ["src-1374", "src-1375", "src-1383"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"type": "state", "action_may26": "Killed 3 in Lebanon drone strikes (Nabatieh); issued displacement orders for 10 villages; 1 IDF soldier killed by Hezbollah drone"},
+      "source_ids": ["src-1377", "src-1378"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"type": "armed group", "action_may26": "Drone attack killed 1 IDF soldier, wounded another in south Lebanon; fired 40 rockets at northern Israel including Karmiel"},
+      "source_ids": ["src-1377", "src-1378"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "House GOP WPR Vote Cancellation",
+      "properties": {"date": "2026-05-22", "detail": "House Republicans pulled War Powers Resolution vote they were on verge of losing; delayed to June after Memorial Day recess; Democrats call it 'cowardly'; 8 Republicans absent", "significance": "Growing bipartisan pressure to end unauthorized war"},
+      "source_ids": ["src-1379"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Hakeem Jeffries",
+      "properties": {"role": "US House Democratic Leader", "affiliation": "Democratic Party", "statement": "Called GOP 'cowardly' for pulling WPR vote"},
+      "source_ids": ["src-1379"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_may26": "IRGC coordinated 32 vessel transit; Brent crude fell to $96.31 on deal optimism; 2% of pre-crisis volume still passing"},
+      "source_ids": ["src-1380", "src-1381"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Qatar",
+      "properties": {"type": "state", "role": "Emerging co-mediator alongside Pakistan; hosts $6B Iranian frozen assets; site of intense Iran-US proxy talks"},
+      "source_ids": ["src-1372", "src-1376"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran Frozen Assets ($6B Qatar)",
+      "properties": {"domain": "finance/sanctions", "amount": "$6 billion", "location": "Qatar banks", "context": "Transferred from South Korea to Qatar in 2023 for release of 5 US citizens; Iran demands unfreezing as precondition to MoU; Hemmati dispatched to negotiate release"},
+      "source_ids": ["src-1376", "src-1382", "src-1385", "src-1386"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sultan Al Jaber",
+      "properties": {"role": "ADNOC CEO", "affiliation": "UAE", "statement": "Even if conflict ends immediately, 80% Hormuz traffic recovery would take minimum 4 months"},
+      "source_ids": ["src-1387"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1372"], "confidence": 1.0},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1372"], "confidence": 1.0},
+    {"subject": "temp-003", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1372", "src-1376"], "confidence": 1.0},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "temp-012", "source_ids": ["src-1372"], "confidence": 1.0},
+    {"subject": "temp-012", "predicate": "cooperatesWith", "object": "ent-029", "source_ids": ["src-1376"], "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-005", "source_ids": ["src-1374", "src-1375"], "confidence": 1.0},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-1377", "src-1378"], "confidence": 1.0},
+    {"subject": "temp-003", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-1372"], "confidence": 1.0},
+    {"subject": "temp-013", "predicate": "locatedIn", "object": "temp-012", "source_ids": ["src-1376"], "confidence": 1.0},
+    {"subject": "temp-004", "predicate": "relatedTo", "object": "temp-013", "source_ids": ["src-1376", "src-1382"], "confidence": 0.95},
+    {"subject": "temp-009", "predicate": "relatedTo", "object": "ent-001", "source_ids": ["src-1379"], "confidence": 0.9},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-1381"], "confidence": 1.0}
+  ],
+  "stats": {
+    "total_entities": 14,
+    "new_entities": 7,
+    "matched_entities": 7,
+    "total_relations": 12
+  }
+}

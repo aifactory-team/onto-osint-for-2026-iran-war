@@ -1848,3 +1848,49 @@
 - MoU 60-Day Framework → Event 클래스
 - GOP Blowback on Iran Deal → Concept 클래스
 - 모든 관계(opposes, participatesIn, cooperatesWith, relatedTo, potentialRelation, follows)는 기존 관계 유형
+
+---
+
+## 2026-05-26 추론 결과
+
+### 추론 #1: co_participation (헤마티-갈리바프 공동 참여)
+- **입력:** (ent-437/Hemmati, participatesIn, ent-438/Doha Talks), (ent-045/Ghalibaf, participatesIn, ent-438/Doha Talks)
+- **추론:** (ent-437/Hemmati, indirectlyAffiliatedWith, ent-045/Ghalibaf)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 중앙은행 총재가 의회 의장과 함께 도하 대표단을 구성 — 이란 내 경제-정치 결합 협상 구조를 나타냄. 헤마티의 참여는 동결자산 해제가 MoU 서명의 최종 관문임을 시사.
+
+### 추론 #2: co_participation (카타르-이란 잠재적 관계)
+- **입력:** (ent-442/Qatar, locatedIn, ent-438/Doha Talks), (ent-002/Iran, participatesIn → ent-438 via delegation)
+- **추론:** (ent-442/Qatar, potentialRelation, ent-002/Iran)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 카타르가 $6B 동결자산 보관처이면서 동시에 중재자 역할을 수행 — 이해관계자와 중재자의 이중 역할. 파키스탄(안보 중재)과 카타르(금융 중재)의 역할 분화가 진행 중.
+
+### 추론 #3: co_participation (아브라함 협정-GOP 반발 교차 압력)
+- **입력:** (ent-439/Abraham Accords Demand, relatedTo, ent-004/Israel), (ent-436/GOP Blowback, opposes, ent-428/MoU)
+- **추론:** (ent-439, potentialRelation, ent-436)
+- **신뢰도:** 0.75
+- **상태:** 잠정
+- **비고:** 트럼프의 정상화 요구는 이스라엘 지지 매파를 달래려는 의도로 보이나, 딜 자체에 반대하는 GOP 비판과 교차. 위커/크루즈는 딜 자체를 반대하므로 정상화 조건 추가가 그들을 설득하기 어려움. 반면 정상화 지지자들은 MoU 전체에는 우호적일 수 있어 교차 압력이 발생.
+
+### 관찰 #1: 협상 지형 이동 (파키스탄→카타르)
+- **입력:** 4/11~5/23 파키스탄 중심 중재(이슬라마바드 회담, 파키스탄 경유 제안 전달) → 5/25 이란 대표단 카타르 도하 이동
+- **관찰:** 중재 지형이 안보 축(파키스탄/무니르)에서 금융 축(카타르/헤마티)으로 이동. 이는 MoU의 최종 장벽이 군사/핵이 아닌 금융(동결자산·제재 해제)에 있음을 시사. 파키스탄은 여전히 채널을 유지하나 카타르가 동결자산 소재지로서 실질적 협상 파트너로 부상.
+- **신뢰도:** 해당 없음 (관찰)
+- **상태:** 관찰
+
+### 관찰 #2: 하원 WPR — 6월 초 데드라인
+- **입력:** 상원 50-47 통과(5/20) → 하원 3차 투표 취소(5/22) → 6월 메모리얼 데이 후 투표 예정
+- **관찰:** MoU가 6월 초까지 서명되지 않으면 하원 WPR 투표가 실시될 가능성 높음. 이는 트럼프에게 시간 압박을 가하며, 역설적으로 이란에게는 협상 레버리지를 제공(미국이 의회 압박으로 조급해질 수 있음). 5/25 '서두르지 말라' 발언과 하원 WPR 데드라인 사이의 긴장.
+- **신뢰도:** 해당 없음 (관찰)
+- **상태:** 관찰
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 표현 가능
+- Abdolnaser Hemmati → Person 클래스
+- Iran Doha Talks, House GOP WPR Vote Cancellation → Event 클래스
+- Abraham Accords Normalization Demand, Iran Frozen Assets ($6B Qatar) → Concept 클래스
+- Qatar → Organization 클래스
+- Hakeem Jeffries → Person 클래스
+- 모든 관계는 기존 관계 유형으로 표현 가능

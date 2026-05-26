@@ -1,0 +1,22 @@
+{
+  "id": "src-1378",
+  "title": "IDF soldier killed by Hezbollah drone in south Lebanon, another wounded — Hezbollah fires 40 rockets at northern Israel",
+  "url": "https://www.timesofisrael.com/liveblog-may-24-2026/",
+  "snippet": "One IDF soldier killed, another wounded by Hezbollah drone attack in southern Lebanon. Hezbollah fired 10 rockets at Karmiel and 30 additional rockets at other northern Israel locations, triggering repeated emergency sirens. 23 Israeli soldiers killed total in conflict.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New IDF casualty and significant Hezbollah rocket barrage — escalation despite nominal ceasefire",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

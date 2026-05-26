@@ -5114,11 +5114,106 @@
         "participants": "ent-432, ent-433, ent-434, ent-435"
       },
       "first_seen": "2026-05-25",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-05-26",
+      "mention_count": 9
+    },
+    {
+      "id": "ent-437",
+      "type": "Person",
+      "name": "Abdolnaser Hemmati",
+      "properties": {
+        "role": "Iran Central Bank Governor",
+        "affiliation": "Iran",
+        "action_may26": "Traveled to Doha as part of high-level delegation (with Ghalibaf/Araghchi) to discuss frozen assets release ($6B in Qatar banks)"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-438",
+      "type": "Event",
+      "name": "Iran Doha Talks (May 25-26)",
+      "properties": {
+        "date": "2026-05-25~26",
+        "location": "Doha, Qatar",
+        "participants": "Iran (Ghalibaf, Araghchi, Hemmati), Qatar (co-mediator), US (indirect)",
+        "focus": "frozen assets ($6B), Hormuz reopening, HEU — MoU sticking points",
+        "status": "intense talks continuing; consensus on many topics but signing not imminent",
+        "significance": "First time Qatar replaces Pakistan as primary negotiation venue; central bank chief's presence signals frozen assets as key lever"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-439",
+      "type": "Concept",
+      "name": "Abraham Accords Normalization Demand",
+      "properties": {
+        "domain": "diplomacy/normalization",
+        "detail": "Trump demands 6 Muslim-majority nations (Saudi Arabia, Pakistan, Qatar, Turkey, Egypt, Jordan) join Abraham Accords as part of Iran deal; called it 'mandatory'; regional leaders responded with silence on the call; Trump joked 'are you still there?'; Saudi Arabia maintains Palestinian statehood precondition; could complicate or derail MoU",
+        "date": "2026-05-25"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
       "mention_count": 5
+    },
+    {
+      "id": "ent-440",
+      "type": "Event",
+      "name": "House GOP WPR Vote Cancellation (May 22)",
+      "properties": {
+        "date": "2026-05-22",
+        "detail": "House Republicans pulled War Powers Resolution vote they were about to lose; 8 GOP members absent; delayed to June after Memorial Day recess; Democrats call it 'cowardly'; follows Senate 50-47 WPR passage with 4 Republican defections (Paul/Collins/Murkowski/Cassidy)",
+        "significance": "Growing bipartisan pressure to end unauthorized war; first House WPR near-passage"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-441",
+      "type": "Person",
+      "name": "Hakeem Jeffries",
+      "properties": {
+        "role": "US House Democratic Leader",
+        "affiliation": "United States (Democratic Party)",
+        "action_may26": "Called GOP 'cowardly' for pulling WPR vote; said Democrats had the votes"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-442",
+      "type": "Organization",
+      "name": "Qatar",
+      "properties": {
+        "type": "state",
+        "location": "Middle East/Gulf",
+        "role": "Emerging co-mediator alongside Pakistan; hosts $6B Iranian frozen assets; site of intense Iran-US proxy talks (May 25-26)"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-443",
+      "type": "Concept",
+      "name": "Iran Frozen Assets ($6B Qatar)",
+      "properties": {
+        "domain": "finance/sanctions",
+        "amount": "$6 billion",
+        "location": "Qatar banks",
+        "context": "Transferred from South Korea to Qatar in 2023 for release of 5 US citizens detained by Iran; Iran demands unfreezing as precondition to MoU; Hemmati dispatched to negotiate release; actual total frozen assets may be much larger ($150B+)"
+      },
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-05-26",
+      "mention_count": 6
     }
   ],
-  "total_count": 394,
+  "total_count": 401,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5382,6 +5477,13 @@
       "target": "6 new entities (ent-431~ent-436), 12 existing updated",
       "reason": "MoU 60일 프레임워크 세부사항 공개(Axios), 초안 4자 승인(갈리바프/밴스/위트코프/쿠슈너), 트럼프 '서두르지 말라' 지시, CBS '이란 HEU 폐기 원칙 합의', 루비오 인도에서 '좋은 소식 곧', 공화당 '재앙' 비판(위커/그레이엄/크루즈/폼페이오), IDF 레바논 작전계획(이란 딜 우려). 스키마 변경 없음",
       "source_ids": ["src-1340", "src-1341", "src-1342", "src-1343", "src-1344", "src-1345", "src-1346", "src-1347", "src-1348"]
+    },
+    {
+      "date": "2026-05-26",
+      "action": "add_instances",
+      "target": "7 new entities (ent-437~ent-443), 12 existing updated",
+      "reason": "이란 도하 회담(갈리바프/아라그치/헤마티 카타르 이동·동결자산 $6B 핵심 쟁점), 트럼프 아브라함 협정 정상화 '필수' 요구(6개 이슬람 국가·지역 지도자 침묵 반응), 하원 GOP WPR 투표 취소(통과 직전·6월 연기·제프리스 '비겁'), 유가 Brent $96.31(4월 이후 최저), IRGC 32척 호르무즈 통과, 이스라엘 레바논 3명 사살·10개 마을 퇴거·IDF 1명 헤즈볼라 드론 전사. 스키마 변경 없음",
+      "source_ids": ["src-1372", "src-1373", "src-1374", "src-1375", "src-1376", "src-1377", "src-1378", "src-1379", "src-1380", "src-1381"]
     }
   ]
 }

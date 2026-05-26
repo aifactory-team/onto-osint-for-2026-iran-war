@@ -1,0 +1,22 @@
+{
+  "id": "src-1377",
+  "title": "Israel kills three in attacks on Lebanon, issues displacement orders for 10 villages",
+  "url": "https://www.aljazeera.com/news/2026/5/25/israel-kills-three-in-attacks-on-lebanon-issues-more-displacement-orders",
+  "snippet": "At least 3 killed in Israeli drone strikes on vehicles in Nabatieh area (Kafr Rumman-Jarmaq highway, Jarmaq-Khardali road). Israel ordered residents of 10 villages to evacuate, citing Hezbollah ceasefire violations. Israeli military spokesman: 'compelled to operate with force.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New daily update on Lebanon conflict — continued fighting despite extended ceasefire",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-052", "type": "Location", "name": "Beirut"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"}
+  ]
+}

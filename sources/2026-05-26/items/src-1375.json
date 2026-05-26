@@ -1,0 +1,24 @@
+{
+  "id": "src-1375",
+  "title": "Axios: Trump asked Muslim leaders to normalize ties with Israel — leaders responded with silence",
+  "url": "https://www.axios.com/2026/05/24/trump-iran-war-israel-muslim-countries-abraham-accords",
+  "snippet": "Trump spoke with leaders of Saudi Arabia, Pakistan, Qatar, Turkey, Egypt, Jordan about joining Abraham Accords. 'There was silence on the line and Trump joked and asked if they are still there.' Leaders all expressed support for Iran deal but silent on normalization. Saudi Arabia unlikely to normalize before Israeli elections (by October).",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Axios scoop revealing the silence response from regional leaders to Trump's normalization demand — significant diplomatic dynamic",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "temp-012", "type": "Organization", "name": "Qatar"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-005", "type": "Concept", "name": "Abraham Accords Normalization Demand"},
+    {"id": "ent-035", "type": "Organization", "name": "UAE"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-005"}
+  ]
+}

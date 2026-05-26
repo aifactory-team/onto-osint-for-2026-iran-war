@@ -1,0 +1,21 @@
+{
+  "id": "src-1381",
+  "title": "Iran navy claims 32 vessels crossed Strait of Hormuz under IRGC clearance",
+  "url": "https://www.aninews.in/news/world/middle-east/iran-navy-claims-32-vessels-crossed-strait-of-hormuz-under-irgc-clearance20260525183755/",
+  "snippet": "Fleet of 32 vessels successfully crossed Hormuz after obtaining IRGC Navy permission. Mix of oil tankers, container ships, commercial vessels. Part of multi-layered transit system giving preference to allied nations (China, Russia, India, Iraq, Pakistan). Overall transit still at ~2% of pre-crisis volume.",
+  "source_name": "ANI",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New daily transit data: 32 vessels vs 25 on May 23 — gradual increase in managed Hormuz traffic",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

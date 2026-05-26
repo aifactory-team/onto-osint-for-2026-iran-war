@@ -1,0 +1,24 @@
+{
+  "id": "src-1373",
+  "title": "CNN: Iran delegation continuing 'intense talks' in Qatar — deal taking shape but Iran says obstacles remain",
+  "url": "https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal",
+  "snippet": "Intense talks that began in Qatar on Monday on the details of an agreement to end the regional conflict were continuing. Israel simultaneously prepares to expand Lebanon operations. Iran Foreign Ministry: consensus reached on many topics but no one can claim signing is imminent.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New coverage of ongoing Doha talks with additional detail on obstacles and Israel's parallel military preparations",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-012", "type": "Organization", "name": "Qatar"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-004", "type": "Event", "name": "Iran Doha Talks (May 25-26)"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"}
+  ]
+}
