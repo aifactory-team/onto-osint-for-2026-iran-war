@@ -1,0 +1,19 @@
+{
+  "id": "src-1407",
+  "title": "Rubio promotes aide Michael Needham to top White House national security post — helped broker Israel-Lebanon talks",
+  "url": "https://www.timesofisrael.com/liveblog-may-26-2026/",
+  "snippet": "Secretary of State Marco Rubio promoted aide Michael Needham to a top White House national security post on May 26. Needham helped broker the Israel-Lebanon peace talks. The promotion signals the administration's commitment to the multi-track diplomatic approach and positions a key negotiation architect in the NSC.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New personnel move — Needham promotion signals diplomatic continuity",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "ent-177", "type": "Person", "name": "Michael Needham"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"}
+  ],
+  "relations": []
+}

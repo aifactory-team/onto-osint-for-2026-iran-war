@@ -1894,3 +1894,26 @@
 - Qatar → Organization 클래스
 - Hakeem Jeffries → Person 클래스
 - 모든 관계는 기존 관계 유형으로 표현 가능
+
+## 2026-05-27 추론 결과
+
+### 추론 #1: event_chain (MQ-9 → CENTCOM)
+- **입력:** (ent-446 [MQ-9 Shootdown], follows, ent-445 [US Strikes]), (ent-445, causedBy, ent-005 [IRGC provocations])
+- **추론:** (ent-446, relatedTo, ent-059 [CENTCOM])
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **근거:** IRGC의 MQ-9 격추는 CENTCOM 자위권 공습에 대한 직접 대응 — CENTCOM 자산을 표적으로 한 보복 행위
+
+### 추론 #2: co_participation (Shekarchi → IRGC)
+- **입력:** (ent-444 [Shekarchi], affiliatedWith, ent-002 [Iran]), IRGC(ent-005) 보복 위협 동시 발생
+- **추론:** (ent-444, relatedTo, ent-005 [IRGC])
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **근거:** 군 대변인과 IRGC의 동시 보복 위협은 이란 군사 기관 전체의 통일된 메시지 — 외교부와의 이원화된 신호와 대조
+
+### 추론 #3: event_chain (US Strikes → Doha Talks)
+- **입력:** (ent-445 [US Strikes], date, 2026-05-25), (ent-438 [Doha Talks], date, 2026-05-25~26)
+- **추론:** (ent-445, relatedTo, ent-438 [Doha Talks])
+- **신뢰도:** 0.75 (잠정)
+- **상태:** 잠정
+- **근거:** 동시 발생은 '에스컬레이트 투 디에스컬레이트' 전략(협상 레버리지)이거나 현장-외교 괴리의 증거 — 인과관계 명확하지 않아 잠정 처리

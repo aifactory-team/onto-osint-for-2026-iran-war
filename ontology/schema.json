@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-26",
+  "last_updated": "2026-05-27",
   "classes": [
     {
       "id": "Entity",
@@ -782,6 +782,13 @@
       "target": "6 new entities (ent-431~ent-436), 12 existing updated",
       "reason": "MoU 60일 프레임워크 세부사항 공개(Axios), 초안 4자 승인(갈리바프/밴스/위트코프/쿠슈너), 트럼프 '서두르지 말라' 지시, CBS '이란 HEU 폐기 원칙 합의', 루비오 인도에서 '좋은 소식 곧', 공화당 '재앙' 비판(위커/그레이엄/크루즈/폼페이오), IDF 레바논 작전계획(이란 딜 우려). 스키마 변경 없음",
       "source_ids": ["src-1340", "src-1341", "src-1342", "src-1343", "src-1344", "src-1345", "src-1346", "src-1347", "src-1348"]
+    },
+    {
+      "date": "2026-05-27",
+      "action": "add_instances",
+      "target": "6 new entities (ent-444~ent-449), 7 existing updated",
+      "reason": "CENTCOM 자위권 공습(2 IRGC 보트+밴더아바스 SAM), IRGC MQ-9 격추 주장(F-35 교전), 셰카르치 '지역 너머' 보복 위협, 이스라엘 레바논 120+ 공습(마슈하라 12명), 유가 Brent $99.58(+3%), 루비오 '며칠 내' 딜. 스키마 변경 없음",
+      "source_ids": ["src-1400", "src-1401", "src-1402", "src-1403", "src-1404", "src-1405", "src-1406", "src-1407", "src-1408", "src-1409"]
     }
   ]
 }

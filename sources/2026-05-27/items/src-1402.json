@@ -1,0 +1,22 @@
+{
+  "id": "src-1402",
+  "title": "Iran military spokesman Shekarchi: 'far more severe' retaliation beyond region if attacked again — oil export blockade threat",
+  "url": "https://www.presstv.ir/Detail/2026/05/26/769302/Iran",
+  "snippet": "Iranian army spokesperson Abolfazl Shekarchi warned that any new attack on Iran will generate a 'far more severe' response 'beyond the region' that will be heavier than before. He explicitly warned that if war resumes and Iran is prevented from exporting oil, it will prevent oil from leaving the region altogether. The IRGC warned it considers its right to retaliate to be 'legitimate and certain'.",
+  "source_name": "Press TV",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New escalatory rhetoric from Iran military spokesman — explicit oil blockade threat and beyond-region retaliation",
+  "entities": [
+    {"id": "ent-444", "type": "Person", "name": "Abolfazl Shekarchi"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-444", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}

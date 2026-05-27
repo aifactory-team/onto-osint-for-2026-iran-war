@@ -1,0 +1,19 @@
+{
+  "id": "src-1405",
+  "title": "Rubio: Iran deal still possible 'within days' despite US strikes — 'disagreements over a word, a sentence'",
+  "url": "https://www.timesofisrael.com/liveblog_entry/rubio-says-iran-deal-still-possible-within-days-despite-us-strikes/",
+  "snippet": "US Secretary of State Marco Rubio said on May 26 that an Iran deal is still possible 'within days' despite CENTCOM strikes. Rubio told reporters in India that negotiators were down to 'disagreements over a word, a sentence,' signaling the MoU is near-final in text form. He tempered expectations saying it could take 'a few days' more. Iran's foreign ministry denounced the strikes but said talks would continue.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Rubio statement on deal timeline — most specific language yet ('a word, a sentence')",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

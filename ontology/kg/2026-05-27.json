@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-27",
+  "new_triples": [
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "source_id": "src-1400", "date": "2026-05-27", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-059", "source_id": "src-1401", "date": "2026-05-27", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-444", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1402", "date": "2026-05-27", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1403", "date": "2026-05-27", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-449", "source_id": "src-1400", "date": "2026-05-27", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1400", "date": "2026-05-27", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-446", "predicate": "follows", "object": "ent-445", "source_id": "src-1401", "date": "2026-05-27", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-447", "predicate": "locatedIn", "object": "ent-448", "source_id": "src-1403", "date": "2026-05-27", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-447", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1403", "date": "2026-05-27", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-438", "source_id": "src-1405", "date": "2026-05-27", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-445", "predicate": "causedBy", "object": "ent-005", "source_id": "src-1400", "date": "2026-05-27", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-446", "predicate": "causedBy", "object": "ent-445", "source_id": "src-1401", "date": "2026-05-27", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1403", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "note": "escalation: 120+ strikes, ground ops expand"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-446", "predicate": "relatedTo", "object": "ent-059", "source_id": null, "date": "2026-05-27", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "MQ-9 shootdown claim (ent-446) follows US strikes (ent-445) which were conducted by CENTCOM (ent-059) → IRGC response targets CENTCOM assets"},
+    {"subject": "ent-444", "predicate": "relatedTo", "object": "ent-005", "source_id": null, "date": "2026-05-27", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "Shekarchi (ent-444) and IRGC (ent-005) both threatening retaliation → aligned military establishment messaging"},
+    {"subject": "ent-445", "predicate": "relatedTo", "object": "ent-438", "source_id": null, "date": "2026-05-27", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "reasoning": "US strikes (ent-445) during Doha talks (ent-438) → dual-track pressure strategy or ceasefire fragility indicator"}
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 12,
+    "inferred_edges": 3
+  }
+}

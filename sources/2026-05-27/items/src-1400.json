@@ -1,0 +1,27 @@
+{
+  "id": "src-1400",
+  "title": "CENTCOM self-defense strikes on IRGC mine-laying boats and SAM site in Bandar Abbas — 2nd strikes since April 8 ceasefire",
+  "url": "https://www.nbcnews.com/world/iran/us-military-says-conducted-self-defense-strikes-targets-iran-rcna346839",
+  "snippet": "The US military conducted targeted self-defense strikes against Iranian military assets in southern Iran on May 25: two IRGC naval vessels laying mines in the Strait of Hormuz and a SAM site in Bandar Abbas that was tracking American aircraft. CENTCOM Spokesperson Capt. Tim Hawkins said the strikes were in direct response to 24 hours of missile, drone and small boat launches by IRGC. This is the second US strike since the April 8 ceasefire. Iran's foreign ministry denounced the strikes as a 'gross violation' of the ceasefire.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of CENTCOM self-defense strikes on May 25 — new military escalation during ceasefire",
+  "entities": [
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-449", "type": "Location", "name": "Bandar Abbas"},
+    {"id": "ent-445", "type": "Event", "name": "US Self-Defense Strikes May 25"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-007", "type": "Person", "name": "Tim Hawkins"}
+  ],
+  "relations": [
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005"},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-449"},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

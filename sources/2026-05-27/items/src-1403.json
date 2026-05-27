@@ -1,0 +1,25 @@
+{
+  "id": "src-1403",
+  "title": "Israel 120+ strikes on Lebanon in heaviest day in weeks — 12 killed in Mashghara, ground ops expand past security zone, additional battalion called up",
+  "url": "https://www.nbcnews.com/world/israel/israel-military-says-striking-hezbollah-sites-netanyahu-rcna346837",
+  "snippet": "Israel pounded Lebanon with 120+ air strikes on May 26, one of the heaviest days in weeks. IDF struck 100+ Hezbollah sites across southern Lebanon and Bekaa Valley targeting storage facilities, command centers and observation points. A strike on Mashghara village killed 12 including family members. Israel called up an additional battalion and expanded ground operations past the security zone. IDF-Hezbollah clashed along a strategic river. Cumulative toll since March 2: 3,213 killed per Lebanon health ministry. The escalation comes 3 days before June 2-3 Washington talks.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Significant escalation — heaviest bombing in weeks, ground ops expansion, 12 killed Mashghara",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-448", "type": "Location", "name": "Mashghara"},
+    {"id": "ent-447", "type": "Event", "name": "Israel Lebanon Escalation May 26"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"},
+    {"subject": "ent-447", "predicate": "locatedIn", "object": "ent-448"}
+  ]
+}

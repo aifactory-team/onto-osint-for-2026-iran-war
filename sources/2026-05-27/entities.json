@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-27",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-444",
+      "type": "Person",
+      "name": "Abolfazl Shekarchi",
+      "properties": {"role": "Iran Armed Forces Spokesman", "affiliation": "Iran Armed Forces", "statement": "any new attack will generate 'far more severe' response beyond the region; if war resumes and Iran prevented from exporting oil, it will prevent oil from leaving the region altogether"},
+      "source_ids": ["src-1402", "src-1408"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-445",
+      "type": "Event",
+      "name": "US Self-Defense Strikes May 25",
+      "properties": {"date": "2026-05-25", "targets": "2 IRGC naval vessels laying mines in Hormuz + SAM site in Bandar Abbas tracking US aircraft", "justification": "CENTCOM: 'self-defense strikes to protect our troops'", "context": "2nd strikes since April 8 ceasefire, in response to 24 hours of missile/drone/small boat launches by IRGC", "commander": "CENTCOM Spokesperson Capt. Tim Hawkins"},
+      "source_ids": ["src-1400", "src-1409", "src-1414", "src-1415", "src-1416", "src-1421"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-446",
+      "type": "Event",
+      "name": "IRGC MQ-9 Reaper Shootdown Claim",
+      "properties": {"date": "2026-05-26", "detail": "IRGC air defense claims to have shot down US MQ-9 Reaper drone over Persian Gulf, fired at F-35 stealth fighter and RQ-4 Global Hawk forcing them to leave Iranian airspace", "us_confirmation": "not confirmed by US officials", "context": "response to CENTCOM self-defense strikes May 25"},
+      "source_ids": ["src-1401", "src-1408", "src-1417", "src-1418", "src-1419", "src-1424"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-447",
+      "type": "Event",
+      "name": "Israel Lebanon Escalation May 26",
+      "properties": {"date": "2026-05-26", "detail": "120+ air strikes in heaviest day in weeks, 12 killed in Mashghara (eastern Lebanon), ground ops expand past security zone, additional battalion called up, IDF-Hezbollah clashes along strategic river", "cumulative_toll": "3,213 killed since March 2 per health ministry", "context": "3 days before June 2-3 Washington talks"},
+      "source_ids": ["src-1403", "src-1412", "src-1420"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-448",
+      "type": "Location",
+      "name": "Mashghara",
+      "properties": {"type": "village", "country": "Lebanon", "region": "Bekaa Valley (eastern Lebanon)", "event": "12 killed in Israeli airstrike May 26 including family members"},
+      "source_ids": ["src-1403", "src-1420"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-449",
+      "type": "Location",
+      "name": "Bandar Abbas",
+      "properties": {"type": "port city", "country": "Iran", "region": "Hormozgan province", "event": "SAM site targeted by US self-defense strikes May 25"},
+      "source_ids": ["src-1400", "src-1413"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Tim Hawkins",
+      "properties": {"role": "CENTCOM Spokesperson", "affiliation": "US Navy / CENTCOM", "rank": "Captain"},
+      "source_ids": ["src-1400"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"action_may27": "says negotiations 'progressing well', warns additional attacks could follow if negotiations break down"},
+      "source_ids": ["src-1404", "src-1405", "src-1410"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_may27": "mine-laying boats struck by CENTCOM, claims MQ-9 shootdown and F-35 engagement, threatens 'legitimate and definitive' retaliation"},
+      "source_ids": ["src-1400", "src-1401", "src-1402", "src-1408"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-059",
+      "type": "Organization",
+      "name": "CENTCOM",
+      "properties": {"action_may27": "conducted self-defense strikes on 2 IRGC boats + Bandar Abbas SAM site; described as response to 24 hours of IRGC provocations"},
+      "source_ids": ["src-1400", "src-1409"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": {"action_may27": "says deal possible 'within days' despite strikes; 'disagreements over a word, a sentence'; promotes aide Needham to NSC"},
+      "source_ids": ["src-1405", "src-1407"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_may27": "120+ strikes on Lebanon, ground ops expand past security zone, additional battalion, Mashghara 12 killed"},
+      "source_ids": ["src-1403", "src-1412"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"action_may27": "clashes with IDF along strategic river in Lebanon"},
+      "source_ids": ["src-1403"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_may27": "IRGC mine-laying boats struck by US; Brent +3% to $99.58; deal talks continue for reopening under MoU"},
+      "source_ids": ["src-1400", "src-1404"],
+      "mention_count": 10
+    }
+  ],
+  "relations": [
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-1400"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-059", "source_ids": ["src-1401"], "confidence": 0.95},
+    {"subject": "ent-444", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-1402"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-1403"], "confidence": 0.95},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-449", "source_ids": ["src-1400"], "confidence": 0.90},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1400"], "confidence": 0.90},
+    {"subject": "ent-446", "predicate": "follows", "object": "ent-445", "source_ids": ["src-1401"], "confidence": 0.90},
+    {"subject": "ent-447", "predicate": "locatedIn", "object": "ent-448", "source_ids": ["src-1403"], "confidence": 0.95},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-438", "source_ids": ["src-1405"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 14,
+    "new_entities": 7,
+    "matched_entities": 7,
+    "total_relations": 9
+  }
+}

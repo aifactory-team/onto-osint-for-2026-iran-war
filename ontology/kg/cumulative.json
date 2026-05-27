@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-27",
   "nodes": [
     {
       "id": "ent-001",
@@ -1989,7 +1989,20 @@
       "id": "ent-436",
       "type": "Concept",
       "label": "GOP Blowback on Iran Deal"
-    }
+    },
+    {"id": "ent-437", "type": "Person", "label": "Abdolnaser Hemmati"},
+    {"id": "ent-438", "type": "Event", "label": "Iran Doha Talks (May 25-26)"},
+    {"id": "ent-439", "type": "Concept", "label": "Abraham Accords Normalization Demand"},
+    {"id": "ent-440", "type": "Event", "label": "House GOP WPR Vote Cancellation (May 22)"},
+    {"id": "ent-441", "type": "Person", "label": "Hakeem Jeffries"},
+    {"id": "ent-442", "type": "Organization", "label": "Qatar"},
+    {"id": "ent-443", "type": "Concept", "label": "Iran Frozen Assets ($6B Qatar)"},
+    {"id": "ent-444", "type": "Person", "label": "Abolfazl Shekarchi"},
+    {"id": "ent-445", "type": "Event", "label": "US Self-Defense Strikes May 25"},
+    {"id": "ent-446", "type": "Event", "label": "IRGC MQ-9 Reaper Shootdown Claim"},
+    {"id": "ent-447", "type": "Event", "label": "Israel Lebanon Escalation May 26"},
+    {"id": "ent-448", "type": "Location", "label": "Mashghara"},
+    {"id": "ent-449", "type": "Location", "label": "Bandar Abbas"}
   ],
   "edges": [
     {
@@ -10526,11 +10539,26 @@
     {"subject": "ent-438", "predicate": "follows", "object": "ent-431", "date": "2026-05-26", "confidence": 0.9, "type": "explicit", "source_id": "src-1372"},
     {"subject": "ent-437", "predicate": "indirectlyAffiliatedWith", "object": "ent-045", "date": "2026-05-26", "confidence": 0.85, "type": "inferred", "source_id": "inferred"},
     {"subject": "ent-442", "predicate": "potentialRelation", "object": "ent-002", "date": "2026-05-26", "confidence": 0.8, "type": "inferred", "source_id": "inferred"},
-    {"subject": "ent-439", "predicate": "potentialRelation", "object": "ent-436", "date": "2026-05-26", "confidence": 0.75, "type": "inferred", "source_id": "inferred"}
+    {"subject": "ent-439", "predicate": "potentialRelation", "object": "ent-436", "date": "2026-05-26", "confidence": 0.75, "type": "inferred", "source_id": "inferred"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "source_id": "src-1400"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-059", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "source_id": "src-1401"},
+    {"subject": "ent-444", "predicate": "affiliatedWith", "object": "ent-002", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "source_id": "src-1402"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "source_id": "src-1403"},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-449", "date": "2026-05-27", "confidence": 0.90, "type": "explicit", "source_id": "src-1400"},
+    {"subject": "ent-445", "predicate": "locatedIn", "object": "ent-008", "date": "2026-05-27", "confidence": 0.90, "type": "explicit", "source_id": "src-1400"},
+    {"subject": "ent-446", "predicate": "follows", "object": "ent-445", "date": "2026-05-27", "confidence": 0.90, "type": "explicit", "source_id": "src-1401"},
+    {"subject": "ent-447", "predicate": "locatedIn", "object": "ent-448", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "source_id": "src-1403"},
+    {"subject": "ent-447", "predicate": "locatedIn", "object": "ent-050", "date": "2026-05-27", "confidence": 0.95, "type": "explicit", "source_id": "src-1403"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-438", "date": "2026-05-27", "confidence": 0.85, "type": "explicit", "source_id": "src-1405"},
+    {"subject": "ent-445", "predicate": "causedBy", "object": "ent-005", "date": "2026-05-27", "confidence": 0.85, "type": "explicit", "source_id": "src-1400"},
+    {"subject": "ent-446", "predicate": "causedBy", "object": "ent-445", "date": "2026-05-27", "confidence": 0.85, "type": "explicit", "source_id": "src-1401"},
+    {"subject": "ent-446", "predicate": "relatedTo", "object": "ent-059", "date": "2026-05-27", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-444", "predicate": "relatedTo", "object": "ent-005", "date": "2026-05-27", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-445", "predicate": "relatedTo", "object": "ent-438", "date": "2026-05-27", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"}
   ],
   "stats": {
-    "total_nodes": 403,
-    "total_edges": 87,
-    "total_triples": 967
+    "total_nodes": 416,
+    "total_edges": 102,
+    "total_triples": 982
   }
 }

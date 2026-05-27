@@ -1,0 +1,20 @@
+{
+  "id": "src-1406",
+  "title": "Soufan Center: US-Iran close to framework accord — MoU provides early Hormuz reopening, nuclear deferred to 60-day window",
+  "url": "https://thesoufancenter.org/intelbrief-2026-may-26/",
+  "snippet": "The Soufan Center's May 26 IntelBrief assesses that Iranian officials corroborate Trump's assertion that negotiators are close to finalizing a MoU. The MoU draft provides for an early end to Iran's blockage of Hormuz transit. Regional leaders likely pressured Washington to compromise because they calculate US escalation would not cause Iranian capitulation. The MoU's 60-day period will determine whether Trump achieved core objectives, particularly blocking Iran's nuclear pathways.",
+  "source_name": "Soufan Center",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New expert analysis from Soufan Center — independent assessment of MoU status and dynamics",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"}
+  ],
+  "relations": []
+}

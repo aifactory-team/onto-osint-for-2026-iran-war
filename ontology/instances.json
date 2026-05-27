@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-27",
   "entities": [
     {
       "id": "ent-001",
@@ -13,8 +13,8 @@
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-25",
-      "mention_count": 284
+      "last_seen": "2026-05-27",
+      "mention_count": 290
     },
     {
       "id": "ent-002",
@@ -51,8 +51,8 @@
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-25",
-      "mention_count": 134
+      "last_seen": "2026-05-27",
+      "mention_count": 142
     },
     {
       "id": "ent-005",
@@ -64,8 +64,8 @@
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-23",
-      "mention_count": 108
+      "last_seen": "2026-05-27",
+      "mention_count": 126
     },
     {
       "id": "ent-006",
@@ -101,8 +101,8 @@
         "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-25",
-      "mention_count": 290
+      "last_seen": "2026-05-27",
+      "mention_count": 300
     },
     {
       "id": "ent-009",
@@ -574,8 +574,8 @@
         "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-20",
-      "mention_count": 70
+      "last_seen": "2026-05-27",
+      "mention_count": 75
     },
     {
       "id": "ent-048",
@@ -608,8 +608,8 @@
         "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-20",
-      "mention_count": 105
+      "last_seen": "2026-05-27",
+      "mention_count": 110
     },
     {
       "id": "ent-051",
@@ -725,8 +725,8 @@
         "location": "United States"
       },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-16",
-      "mention_count": 38
+      "last_seen": "2026-05-27",
+      "mention_count": 46
     },
     {
       "id": "ent-060",
@@ -961,8 +961,8 @@
         "action": "mediated Israel-Lebanon Washington talks (Apr 14)"
       },
       "first_seen": "2026-04-14",
-      "last_seen": "2026-05-25",
-      "mention_count": 20
+      "last_seen": "2026-05-27",
+      "mention_count": 25
     },
     {
       "id": "ent-078",
@@ -5211,9 +5211,92 @@
       "first_seen": "2026-05-26",
       "last_seen": "2026-05-26",
       "mention_count": 6
+    },
+    {
+      "id": "ent-444",
+      "type": "Person",
+      "name": "Abolfazl Shekarchi",
+      "properties": {
+        "role": "Iran Armed Forces Spokesman",
+        "affiliation": "Iran Armed Forces",
+        "statement_may27": "any new attack will generate 'far more severe' response beyond the region; if prevented from exporting oil, will prevent oil from leaving the region"
+      },
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-445",
+      "type": "Event",
+      "name": "US Self-Defense Strikes May 25",
+      "properties": {
+        "date": "2026-05-25",
+        "targets": "2 IRGC naval vessels laying mines in Hormuz + SAM site in Bandar Abbas tracking US aircraft",
+        "justification": "CENTCOM: 'self-defense strikes to protect our troops' in response to 24 hours of IRGC missile/drone/boat launches",
+        "context": "2nd US strikes since April 8 ceasefire"
+      },
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-446",
+      "type": "Event",
+      "name": "IRGC MQ-9 Reaper Shootdown Claim",
+      "properties": {
+        "date": "2026-05-26",
+        "detail": "IRGC air defense claims to have shot down US MQ-9 Reaper drone over Persian Gulf; also claims fired at F-35 stealth fighter and RQ-4 Global Hawk forcing them to leave Iranian airspace",
+        "us_confirmation": "not confirmed by US officials",
+        "context": "response to CENTCOM self-defense strikes May 25"
+      },
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-447",
+      "type": "Event",
+      "name": "Israel Lebanon Escalation May 26",
+      "properties": {
+        "date": "2026-05-26",
+        "detail": "120+ air strikes in heaviest day in weeks; 12 killed in Mashghara (eastern Lebanon); ground ops expand past security zone; additional battalion called up; IDF-Hezbollah clashes along strategic river",
+        "cumulative_toll": "3,213 killed since March 2",
+        "context": "3 days before June 2-3 Washington talks"
+      },
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-448",
+      "type": "Location",
+      "name": "Mashghara",
+      "properties": {
+        "type": "village",
+        "country": "Lebanon",
+        "region": "Bekaa Valley (eastern Lebanon)",
+        "event": "12 killed in Israeli airstrike May 26 including family members"
+      },
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-449",
+      "type": "Location",
+      "name": "Bandar Abbas",
+      "properties": {
+        "type": "port city / military base",
+        "country": "Iran",
+        "region": "Hormozgan province",
+        "event": "SAM site targeted by US self-defense strikes May 25"
+      },
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mention_count": 5
     }
   ],
-  "total_count": 401,
+  "total_count": 407,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5467,8 +5550,17 @@
       "target": "5 new entities (ent-426~ent-430), 6 existing updated",
       "reason": "트럼프 'largely negotiated' MoU 선언(9개국+네타냐후), '50/50' 딜/폭격(일요일 결정), NYT MoU $25B 확인, 바가에이 '프레임워크'(30-60일·핵 제외), Fars '현실 불일치', 카타르 공동 중재, 무니르 테헤란 완료(페제시키안/갈리바프), IRGC 35→25척, 골든 WPR 전환",
       "source_ids": [
-        "src-1310", "src-1311", "src-1312", "src-1313", "src-1314",
-        "src-1315", "src-1285", "src-1286", "src-1287", "src-1289", "src-1316"
+        "src-1310",
+        "src-1311",
+        "src-1312",
+        "src-1313",
+        "src-1314",
+        "src-1315",
+        "src-1285",
+        "src-1286",
+        "src-1287",
+        "src-1289",
+        "src-1316"
       ]
     },
     {
@@ -5476,14 +5568,35 @@
       "action": "add_instances",
       "target": "6 new entities (ent-431~ent-436), 12 existing updated",
       "reason": "MoU 60일 프레임워크 세부사항 공개(Axios), 초안 4자 승인(갈리바프/밴스/위트코프/쿠슈너), 트럼프 '서두르지 말라' 지시, CBS '이란 HEU 폐기 원칙 합의', 루비오 인도에서 '좋은 소식 곧', 공화당 '재앙' 비판(위커/그레이엄/크루즈/폼페이오), IDF 레바논 작전계획(이란 딜 우려). 스키마 변경 없음",
-      "source_ids": ["src-1340", "src-1341", "src-1342", "src-1343", "src-1344", "src-1345", "src-1346", "src-1347", "src-1348"]
+      "source_ids": [
+        "src-1340",
+        "src-1341",
+        "src-1342",
+        "src-1343",
+        "src-1344",
+        "src-1345",
+        "src-1346",
+        "src-1347",
+        "src-1348"
+      ]
     },
     {
       "date": "2026-05-26",
       "action": "add_instances",
       "target": "7 new entities (ent-437~ent-443), 12 existing updated",
       "reason": "이란 도하 회담(갈리바프/아라그치/헤마티 카타르 이동·동결자산 $6B 핵심 쟁점), 트럼프 아브라함 협정 정상화 '필수' 요구(6개 이슬람 국가·지역 지도자 침묵 반응), 하원 GOP WPR 투표 취소(통과 직전·6월 연기·제프리스 '비겁'), 유가 Brent $96.31(4월 이후 최저), IRGC 32척 호르무즈 통과, 이스라엘 레바논 3명 사살·10개 마을 퇴거·IDF 1명 헤즈볼라 드론 전사. 스키마 변경 없음",
-      "source_ids": ["src-1372", "src-1373", "src-1374", "src-1375", "src-1376", "src-1377", "src-1378", "src-1379", "src-1380", "src-1381"]
+      "source_ids": [
+        "src-1372",
+        "src-1373",
+        "src-1374",
+        "src-1375",
+        "src-1376",
+        "src-1377",
+        "src-1378",
+        "src-1379",
+        "src-1380",
+        "src-1381"
+      ]
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "id": "src-1409",
+  "title": "미 중부사령부 '이란 남부에 자위권 차원 공습'…4월 휴전 이후 두 번째",
+  "url": "https://www.voakorea.com/a/us-military-says-it-carried-out-2nd-self-defense-strikes-on-southern-iran-since-start-of-truce-with-iranian-regime-on-april-8-052526/8153976.html",
+  "snippet": "미 중부사령부(CENTCOM)가 5월 25일 이란 남부에 자위권 차원의 공습을 단행했다. 이는 4월 8일 휴전 발효 이후 두 번째 공습이다. 공격 대상은 호르무즈 해협에서 기뢰를 설치하던 IRGC 해군 선박 2척과 밴더아바스의 지대공 미사일(SAM) 기지였다. IRGC는 24시간 동안 미사일·드론·소형 보트 공격을 감행해 이에 대한 대응이었다고 CENTCOM은 설명했다.",
+  "source_name": "VOA Korea",
+  "language": "ko",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 매체 최초 보도 — CENTCOM 자위권 공습 상세 보도",
+  "entities": [
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-449", "type": "Location", "name": "Bandar Abbas"},
+    {"id": "ent-445", "type": "Event", "name": "US Self-Defense Strikes May 25"}
+  ],
+  "relations": []
+}

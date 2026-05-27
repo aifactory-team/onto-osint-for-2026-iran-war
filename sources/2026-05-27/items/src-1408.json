@@ -1,0 +1,20 @@
+{
+  "id": "src-1408",
+  "title": "이란 혁명수비대 '美 MQ-9 무인기 격추…휴전 위반엔 보복 정당'",
+  "url": "https://www.fnnews.com/news/202605261710442958",
+  "snippet": "이란 혁명수비대(IRGC)는 성명을 통해 자국 영공을 침범한 미군의 MQ-9 리퍼 무인기를 격추했다고 주장했다. 또한 F-35 전투기와 RQ-4 정찰 무인기에도 사격했으며, 이들이 이란 영공에서 이탈했다고 밝혔다. IRGC는 '휴전 위반에 대한 보복은 정당하고 확실하다'고 경고했다.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국 매체 최초 보도 — IRGC MQ-9 격추 주장 및 보복 경고",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-446", "type": "Event", "name": "IRGC MQ-9 Reaper Shootdown Claim"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

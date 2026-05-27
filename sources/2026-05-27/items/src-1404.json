@@ -1,0 +1,19 @@
+{
+  "id": "src-1404",
+  "title": "Brent oil jumps 3%+ to $99.58 on Iran retaliation fears — WTI $93.89, reverses 5/26 lows",
+  "url": "https://www.cnbc.com/2026/05/26/oil-prices-today-brent-wti-iran-trump-hormuz.html",
+  "snippet": "Brent crude futures gained more than 3% to close at $99.58/bbl on May 26, reversing the previous week's decline to $96.31. The jump was driven by Iran's retaliation threats after US self-defense strikes and the IRGC MQ-9 shootdown claim. WTI futures settled at $93.89/bbl (-3% vs Friday due to Memorial Day holiday dislocation). Trump said talks with Tehran were 'progressing well' but warned additional attacks could follow if negotiations broke down.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Significant oil price reversal — Brent rebounds 3%+ from $96 to $99 on retaliation fears",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}
