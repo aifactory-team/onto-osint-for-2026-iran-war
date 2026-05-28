@@ -1,0 +1,23 @@
+{
+  "id": "src-1429",
+  "title": "Iran partially restores internet after 88-day blackout — Pezeshkian order, NetBlocks confirms, admin court partially halted, traffic ~10%",
+  "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-partially-restores-internet-after-88-day-blackout",
+  "snippet": "NetBlocks confirms partial internet restoration in Iran after 2,093 hours (88 days) of near-total isolation — longest nationwide internet shutdown in modern history. President Pezeshkian ordered restoration but Administrative Court of Justice temporarily halted implementation. Cost $30-40M/day. Traffic at ~10% of pre-blackout levels. Trump sees it as 'sign Iran wants deal.'",
+  "source_name": "Middle East Eye",
+  "language": "en",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란 88일 인터넷 차단 해제는 이전 보고서에 없는 완전 신규 사건.",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-005", "type": "Person", "name": "Masoud Pezeshkian" },
+    { "id": "temp-006", "type": "Event", "name": "Iran Internet Restoration" },
+    { "id": "temp-007", "type": "Organization", "name": "NetBlocks" }
+  ],
+  "relations": [
+    { "subject": "temp-005", "predicate": "participatesIn", "object": "temp-006" },
+    { "subject": "temp-006", "predicate": "locatedIn", "object": "ent-002" }
+  ]
+}

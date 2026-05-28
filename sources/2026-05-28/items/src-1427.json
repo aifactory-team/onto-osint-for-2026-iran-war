@@ -1,0 +1,22 @@
+{
+  "id": "src-1427",
+  "title": "Trump says Iran 'negotiating on fumes,' insists midterms won't impact his war strategy — Cabinet meeting Day 90",
+  "url": "https://www.npr.org/2026/05/27/nx-s1-5836202/trump-cabinet-meeting",
+  "snippet": "At Cabinet meeting on Day 90 of war, Trump declared Iran 'negotiating on fumes' and insisted November midterms won't make him rush deal. 'We're not satisfied with it, but we will be. Either that or we'll have to just finish the job.' Said he wouldn't be comfortable with Russia or China taking Iran's HEU. Linked deal to Abraham Accords again — mandatory for Muslim nations.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 소스에 트럼프 '협상 위 동력(fumes)' 발언, 중간선거 언급, 러시아/중국 HEU 거부 없음. Day 90 각료회의 신규.",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-009", "type": "Organization", "name": "Russia" },
+    { "id": "ent-010", "type": "Organization", "name": "China" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "opposes", "object": "ent-002" }
+  ]
+}

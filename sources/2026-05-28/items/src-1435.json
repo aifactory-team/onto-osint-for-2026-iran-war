@@ -1,0 +1,22 @@
+{
+  "id": "src-1435",
+  "title": "해협 봉쇄 해제 담긴 MOU 초안 공개…60일 내 최종 합의",
+  "url": "https://www.sedaily.com/article/20048992",
+  "snippet": "이란 국영TV가 MOU 초안 보도. 호르무즈 해협 30일 내 전쟁 이전 수준 복구. 미군 철수 및 봉쇄 해제. 60일 내 최종 합의. 핵무기 개발 금지·농축 중단 협상.",
+  "source_name": "서울경제",
+  "language": "ko",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "서울경제의 MOU 초안 한국어 보도. 이전 보고서에 초안 전문 공개 보도 없음.",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-002", "type": "Concept", "name": "MoU Draft Publication" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

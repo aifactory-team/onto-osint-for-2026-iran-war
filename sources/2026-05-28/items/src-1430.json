@@ -1,0 +1,23 @@
+{
+  "id": "src-1430",
+  "title": "Oil prices fall after Iran state media says deal with US would include restored Hormuz shipping within 30 days, end to US naval blockade",
+  "url": "https://finance.yahoo.com/markets/article/oil-prices-fall-after-iran-state-media-says-deal-with-us-would-include-restored-hormuz-shipping-144319788.html",
+  "snippet": "Oil prices dropped precipitously at ~9 AM ET after Iranian state TV reported MoU draft: Iran would restore Hormuz shipping to pre-war levels within 30 days, US would withdraw military and lift blockade. 14-point document. Iran commits to never pursue nuclear weapons and negotiate enrichment suspension.",
+  "source_name": "Yahoo Finance",
+  "language": "en",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란 국영TV의 MoU 초안 내용(30일 내 호르무즈 복구, 미군 철수) 최초 보도. 이전 보도된 개괄적 MoU와 달리 구체 조항 공개.",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-002", "type": "Concept", "name": "MoU Draft Publication" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "ent-008" },
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "ent-025" }
+  ]
+}

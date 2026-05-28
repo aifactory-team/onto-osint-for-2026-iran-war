@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "classes": [
     {
       "id": "Entity",
@@ -789,6 +789,13 @@
       "target": "6 new entities (ent-444~ent-449), 7 existing updated",
       "reason": "CENTCOM 자위권 공습(2 IRGC 보트+밴더아바스 SAM), IRGC MQ-9 격추 주장(F-35 교전), 셰카르치 '지역 너머' 보복 위협, 이스라엘 레바논 120+ 공습(마슈하라 12명), 유가 Brent $99.58(+3%), 루비오 '며칠 내' 딜. 스키마 변경 없음",
       "source_ids": ["src-1400", "src-1401", "src-1402", "src-1403", "src-1404", "src-1405", "src-1406", "src-1407", "src-1408", "src-1409"]
+    },
+    {
+      "date": "2026-05-28",
+      "action": "add_instances",
+      "target": "6 new entities (ent-450~ent-455), 7 existing updated",
+      "reason": "유가 5%+ 급락(WTI $88.68/Brent $94.29, MoU 초안 공개 후), 트럼프 'negotiating on fumes' Day 90 각료회의, 이스라엘 레바논 31명 사살(4/16 이후 최대), 이란 인터넷 88일 차단 해제, MoU 초안 공개(30일 호르무즈 복구), 5/29 펜타곤 군사 조정 회의 예고. 스키마 변경 없음",
+      "source_ids": ["src-1426", "src-1427", "src-1428", "src-1429", "src-1430", "src-1431", "src-1432", "src-1434"]
     }
   ]
 }

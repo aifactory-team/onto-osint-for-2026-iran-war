@@ -1,0 +1,24 @@
+{
+  "id": "src-1426",
+  "title": "Oil prices fall more than 5% after Rubio says US will give Iran talks 'every chance to succeed' — WTI $88.68, Brent $94.29, lowest since April",
+  "url": "https://www.cnbc.com/2026/05/27/oil-price-today-iran-war-strait-hormuz.html",
+  "snippet": "WTI crude tumbled 5%+ to $88.68, Brent lost 5% to $94.29 — both at lowest since April 2026. Drop triggered by Iranian state TV publishing MoU draft details showing Hormuz restoration within 30 days and US blockade lift. Rubio: 'we prefer the negotiated diplomatic route and we're going to give it every chance to succeed.'",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 유가 $88.68/$94.29 급락 보도 없음. 5/27 MoU 초안 공개 후 5%+ 급락은 신규.",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-077", "type": "Person", "name": "Marco Rubio" },
+    { "id": "temp-001", "type": "Event", "name": "Oil Price Crash May 27" },
+    { "id": "temp-002", "type": "Concept", "name": "MoU Draft Publication" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "causedBy", "object": "temp-002" },
+    { "subject": "ent-077", "predicate": "participatesIn", "object": "temp-002" }
+  ]
+}

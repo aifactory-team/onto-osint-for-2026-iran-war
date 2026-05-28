@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-28",
+  "new_triples": [
+    {"subject": "ent-451", "predicate": "causedBy", "object": "ent-002", "source_id": "src-1430", "date": "2026-05-28", "confidence": 0.90, "type": "explicit", "note": "Iran state TV published MoU draft details"},
+    {"subject": "ent-450", "predicate": "causedBy", "object": "ent-451", "source_id": "src-1426", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "note": "Oil 5%+ crash directly caused by MoU draft publication"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-451", "source_id": "src-1426", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "note": "Rubio: 'every chance to succeed' amplified market reaction"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-452", "source_id": "src-1428", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "note": "Netanyahu ordered 'press pedal harder'"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-452", "source_id": "src-1428", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "note": "IDF conducted 100+ strikes killing 31"},
+    {"subject": "ent-452", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1428", "date": "2026-05-28", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-149", "predicate": "participatesIn", "object": "ent-453", "source_id": "src-1429", "date": "2026-05-28", "confidence": 0.90, "type": "explicit", "note": "Pezeshkian ordered internet restoration"},
+    {"subject": "ent-453", "predicate": "locatedIn", "object": "ent-002", "source_id": "src-1429", "date": "2026-05-28", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-454", "source_id": "src-1431", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "note": "Israeli military to attend Pentagon meeting"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-454", "source_id": "src-1431", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "note": "Lebanese military to attend Pentagon meeting"},
+    {"subject": "ent-451", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1430", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "note": "MoU includes Hormuz restoration within 30 days"},
+    {"subject": "ent-451", "predicate": "relatedTo", "object": "ent-025", "source_id": "src-1430", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "note": "MoU includes nuclear weapons prohibition, enrichment negotiation"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1428", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "note": "Israel escalation: 100+ strikes on Hezbollah, 31 killed"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-438", "source_id": "src-1427", "date": "2026-05-28", "confidence": 0.90, "type": "explicit", "note": "Trump 'negotiating on fumes' rhetoric at cabinet meeting"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-453", "predicate": "relatedTo", "object": "ent-451", "source_id": "inference", "date": "2026-05-28", "confidence": 0.72, "type": "inferred", "rule": "co_participation", "note": "Iran internet restoration and MoU draft publication — simultaneous normalization signals from Iran (provisional)"},
+    {"subject": "ent-452", "predicate": "relatedTo", "object": "ent-454", "source_id": "inference", "date": "2026-05-28", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "note": "Lebanon escalation (31 killed) precedes Pentagon military coordination meeting — escalate-to-negotiate cycle"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-455", "source_id": "inference", "date": "2026-05-28", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "note": "Trump rhetoric ('negotiating on fumes', midterms) reflects domestic political pressure on war strategy"}
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 12,
+    "inferred_edges": 3
+  }
+}

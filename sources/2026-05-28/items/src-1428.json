@@ -1,0 +1,26 @@
+{
+  "id": "src-1428",
+  "title": "Israel kills 31 in Lebanon in heaviest overnight bombardment since ceasefire — 100+ strikes, Netanyahu orders 'press pedal harder', 4 children among dead",
+  "url": "https://www.upi.com/Top_News/World-News/2026/05/27/Lebanon-deadly-Israeli-airstrikes-target-south/3711779869904/",
+  "snippet": "At least 31 killed including 4 children and 3 women in heaviest night of bombardment since April 16 ceasefire. 100+ strikes on Hezbollah infrastructure across southern and eastern Lebanon. 40 injured. Netanyahu ordered IDF to 'press the pedal even harder' amid surge in Hezbollah drone attacks. US official approved 'larger operation'. Hezbollah retaliated with drones/rockets on Israeli barracks in northern Israel.",
+  "source_name": "UPI",
+  "language": "en",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/27 보고서는 5/26 120+ 공습을 보도했으나 5/27 31명 사망, 네타냐후 'press pedal harder' 명령은 별도의 신규 에스컬레이션.",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu" },
+    { "id": "temp-003", "type": "Event", "name": "Lebanon 31 Killed May 27" },
+    { "id": "temp-004", "type": "Event", "name": "Netanyahu Press Pedal Harder Order" }
+  ],
+  "relations": [
+    { "subject": "ent-031", "predicate": "participatesIn", "object": "temp-004" },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-003" },
+    { "subject": "temp-003", "predicate": "locatedIn", "object": "ent-050" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "nodes": [
     {
       "id": "ent-001",
@@ -10554,11 +10554,26 @@
     {"subject": "ent-446", "predicate": "causedBy", "object": "ent-445", "date": "2026-05-27", "confidence": 0.85, "type": "explicit", "source_id": "src-1401"},
     {"subject": "ent-446", "predicate": "relatedTo", "object": "ent-059", "date": "2026-05-27", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
     {"subject": "ent-444", "predicate": "relatedTo", "object": "ent-005", "date": "2026-05-27", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
-    {"subject": "ent-445", "predicate": "relatedTo", "object": "ent-438", "date": "2026-05-27", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"}
+    {"subject": "ent-445", "predicate": "relatedTo", "object": "ent-438", "date": "2026-05-27", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-451", "predicate": "causedBy", "object": "ent-002", "date": "2026-05-28", "confidence": 0.90, "type": "explicit", "source_id": "src-1430"},
+    {"subject": "ent-450", "predicate": "causedBy", "object": "ent-451", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "source_id": "src-1426"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-451", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "source_id": "src-1426"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-452", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "source_id": "src-1428"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-452", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "source_id": "src-1428"},
+    {"subject": "ent-452", "predicate": "locatedIn", "object": "ent-050", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "source_id": "src-1428"},
+    {"subject": "ent-149", "predicate": "participatesIn", "object": "ent-453", "date": "2026-05-28", "confidence": 0.90, "type": "explicit", "source_id": "src-1429"},
+    {"subject": "ent-453", "predicate": "locatedIn", "object": "ent-002", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "source_id": "src-1429"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-454", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "source_id": "src-1431"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-454", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "source_id": "src-1431"},
+    {"subject": "ent-451", "predicate": "relatedTo", "object": "ent-008", "date": "2026-05-28", "confidence": 0.95, "type": "explicit", "source_id": "src-1430"},
+    {"subject": "ent-451", "predicate": "relatedTo", "object": "ent-025", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "source_id": "src-1430"},
+    {"subject": "ent-453", "predicate": "relatedTo", "object": "ent-451", "date": "2026-05-28", "confidence": 0.72, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-452", "predicate": "relatedTo", "object": "ent-454", "date": "2026-05-28", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-455", "date": "2026-05-28", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
   ],
   "stats": {
-    "total_nodes": 416,
-    "total_edges": 102,
-    "total_triples": 982
+    "total_nodes": 422,
+    "total_edges": 117,
+    "total_triples": 997
   }
 }

@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-28",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Crash May 27",
+      "properties": {"date": "2026-05-27", "wti": "$88.68 (-5%+)", "brent": "$94.29 (-5%+)", "cause": "Iran state TV MoU draft publication + Rubio 'every chance to succeed'", "note": "Lowest since April 2026"},
+      "source_ids": ["src-1426", "src-1430", "src-1438"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "MoU Draft Publication (Iran State TV)",
+      "properties": {"domain": "diplomacy", "date": "2026-05-27", "detail": "Iranian state TV published MoU draft details: Hormuz restoration to pre-war levels within 30 days, US military withdrawal, blockade lift, nuclear weapons prohibition, enrichment suspension negotiation. 14-point document."},
+      "source_ids": ["src-1426", "src-1430", "src-1435", "src-1439"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon 31 Killed May 27",
+      "properties": {"date": "2026-05-27", "casualties": "31 killed (4 children, 3 women), 40 injured", "strikes": "100+ air strikes overnight", "context": "Heaviest bombardment since April 16 ceasefire", "perpetrator": "Israel/IDF"},
+      "source_ids": ["src-1428", "src-1436", "src-1437"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Netanyahu 'Press Pedal Harder' Order",
+      "properties": {"date": "2026-05-26~27", "detail": "Netanyahu ordered IDF to 'press the pedal even harder' and 'intensify blows' against Hezbollah amid surge in drone attacks. US official approved larger operation."},
+      "source_ids": ["src-1428", "src-1436"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-149",
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": {"role": "Iran President", "affiliation": "Iran", "action_may27": "Ordered internet restoration after 88-day blackout. Admin court partially halted implementation."},
+      "source_ids": ["src-1429"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Internet Restoration (88-Day Blackout End)",
+      "properties": {"date": "2026-05-26~27", "duration_blackout": "88 days (2,093 hours)", "detail": "Longest nationwide internet shutdown in modern history. Pezeshkian ordered restoration. Admin court partially halted. Traffic ~10% of pre-blackout. Cost $30-40M/day. Trump sees as sign Iran wants deal.", "status": "partial"},
+      "source_ids": ["src-1429", "src-1433", "src-1440", "src-1441"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "NetBlocks",
+      "properties": {"type": "internet monitoring organization", "role": "Confirmed Iran internet restoration after 2,093 hours"},
+      "source_ids": ["src-1429"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Pentagon Military Coordination Meeting May 29",
+      "properties": {"date": "2026-05-29", "location": "Pentagon, Washington", "participants": "Lebanese military, Israeli military, US military", "agenda": "Hezbollah disarmament, Israeli withdrawal, Lebanese Army deployment, joint operations room under US supervision", "context": "Ahead of June 2-3 4th round Washington political talks"},
+      "source_ids": ["src-1431"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Midterm Elections Pressure",
+      "properties": {"domain": "US domestic politics", "detail": "Trump insists November 2026 midterms won't affect war strategy. War politically unpopular for Republicans. GOP hawks criticize deal. CNN analysis: Trump may not have good way out."},
+      "source_ids": ["src-1427", "src-1434"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Trump 'Negotiating on Fumes' Rhetoric",
+      "properties": {"domain": "diplomacy/rhetoric", "date": "2026-05-27", "detail": "Trump at Cabinet meeting: Iran 'negotiating on fumes', 'we're not satisfied but we will be', 'either that or finish the job', won't let Russia/China take HEU."},
+      "source_ids": ["src-1427"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "causedBy", "object": "temp-002", "source_ids": ["src-1426", "src-1430"], "confidence": 0.95},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-002", "source_ids": ["src-1426"], "confidence": 0.85},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1428", "src-1436"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-003", "source_ids": ["src-1428"], "confidence": 0.95},
+    {"subject": "temp-003", "predicate": "locatedIn", "object": "ent-050", "source_ids": ["src-1428"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1429"], "confidence": 0.90},
+    {"subject": "temp-006", "predicate": "locatedIn", "object": "ent-002", "source_ids": ["src-1429"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-1431"], "confidence": 0.85},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-1431"], "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "temp-009", "source_ids": ["src-1427", "src-1434"], "confidence": 0.90},
+    {"subject": "temp-002", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-1430", "src-1435"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "relatedTo", "object": "ent-025", "source_ids": ["src-1430", "src-1435"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 8,
+    "matched_entities": 2,
+    "total_relations": 12
+  }
+}

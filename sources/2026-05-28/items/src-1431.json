@@ -1,0 +1,24 @@
+{
+  "id": "src-1431",
+  "title": "Lebanon braces for Pentagon talks over Hezbollah disarmament — May 29 military coordination meeting ahead of June 2-3 4th round Washington talks",
+  "url": "https://www.newarab.com/news/lebanon-braces-pentagon-talks-over-hezbollah-disarmament",
+  "snippet": "Lebanese and Israeli military officers expected at Pentagon May 29 for first military-to-military coordination meeting. Focus: Hezbollah arsenal, Israeli withdrawal from south Lebanon, Lebanese Army deployment. Joint operations room under US supervision proposed. Ahead of June 2-3 4th round Washington political talks. 45-day ceasefire extension from April 16.",
+  "source_name": "The New Arab",
+  "language": "en",
+  "discovered_date": "2026-05-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/29 펜타곤 군사 조정 회의는 이전 보고서에 없는 신규 외교 일정.",
+  "entities": [
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "temp-008", "type": "Event", "name": "Pentagon Military Coordination Meeting May 29" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-008" },
+    { "subject": "ent-050", "predicate": "participatesIn", "object": "temp-008" }
+  ]
+}
