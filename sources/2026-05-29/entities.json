@@ -1,0 +1,149 @@
+{
+  "date": "2026-05-29",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US-Iran Tentative MoU Agreement (May 28)",
+      "properties": {
+        "date": "2026-05-28",
+        "participants": "US (Vance, Witkoff, Kushner), Iran (Ghalibaf), Pakistan (mediator)",
+        "detail": "Negotiators reached preliminary MoU for 60-day truce extension, Hormuz reopening, nuclear talks. Trump approval pending. Vance: 'still TBD', 'couple of language points' on HEU/enrichment remain."
+      },
+      "source_ids": ["src-1454", "src-1455", "src-1456", "src-1457"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ali Bagheri-Kani",
+      "properties": {
+        "role": "Deputy Secretary, Supreme National Security Council",
+        "affiliation": "Iran",
+        "statement": "Until we have agreed on all issues, we consider that we have agreed on nothing"
+      },
+      "source_ids": ["src-1456"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "MoU Messaging War (May 28-29)",
+      "properties": {
+        "date": "2026-05-28~29",
+        "detail": "White House calls Iran-published MoU draft 'complete fabrication'. Iran denies deal finalized. Both sides dispute terms while negotiators say agreement exists. Key dispute: US troop withdrawal and naval blockade language."
+      },
+      "source_ids": ["src-1457", "src-1456"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Warning Shots at 4 Ships (May 28)",
+      "properties": {
+        "date": "2026-05-28",
+        "time": "12:35 AM local",
+        "detail": "IRGC fired warning shots at 4 ships attempting Hormuz passage without coordination. Ships forced to return. Occurred simultaneously with MoU negotiations.",
+        "location": "Strait of Hormuz"
+      },
+      "source_ids": ["src-1458"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Pentagon Security Track Meeting (May 29)",
+      "properties": {
+        "date": "2026-05-29",
+        "location": "Pentagon, Washington",
+        "participants": "Lebanese military delegation, Israeli military delegation, US (mediator)",
+        "agenda": "Hezbollah disarmament, Israeli withdrawal, new LAF brigade, joint operations room, ceasefire enforcement",
+        "context": "First military-to-military track, parallel to June 2-3 political talks"
+      },
+      "source_ids": ["src-1459", "src-1462", "src-1463"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Pentagon Security Track",
+      "properties": {
+        "domain": "military/diplomacy",
+        "detail": "New parallel security track alongside political talks for Israel-Lebanon. Includes proposals for new US-funded LAF brigade for Hezbollah disarmament, joint operations room under US supervision. Hezbollah rejects talks, calling US 'not an honest broker'."
+      },
+      "source_ids": ["src-1459", "src-1463"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Litani River",
+      "properties": {
+        "type": "river/military boundary",
+        "country": "Lebanon",
+        "detail": "De facto boundary between Israeli-controlled southern Lebanon and Hezbollah territory. IDF pushing north across river, Hezbollah counterattacking."
+      },
+      "source_ids": ["src-1460"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Litani River Clashes (May 28-29)",
+      "properties": {
+        "date": "2026-05-28~29",
+        "location": "Litani River, Lebanon",
+        "detail": "IDF pushes north past Litani, clashes with Hezbollah near Yohmor al-Shaqif and Zawtar al-Sharqieh. IDF strikes 100+ sites. Hezbollah launches rockets, drones. Over 3,185 killed and 1M+ displaced total.",
+        "casualties": "3,185+ total since March 2"
+      },
+      "source_ids": ["src-1460"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Mixed (May 29)",
+      "properties": {
+        "date": "2026-05-29",
+        "brent": "$93.71",
+        "trend": "mixed — fell on MoU news, rebounded on Iran denial",
+        "context": "Down from $94.29 previous session"
+      },
+      "source_ids": ["src-1461"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001", "source_ids": ["src-1454", "src-1455"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-001", "source_ids": ["src-1454"], "confidence": 0.95},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-001", "source_ids": ["src-1455"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-1454"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-025", "source_ids": ["src-1455"], "confidence": 0.9},
+    {"subject": "temp-002", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-1456"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "opposes", "object": "temp-001", "source_ids": ["src-1456"], "confidence": 0.85},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-1458"], "confidence": 0.95},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1458"], "confidence": 0.95},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-1459"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-1459"], "confidence": 0.95},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-1459"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-047", "source_ids": ["src-1459", "src-1462"], "confidence": 0.9},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-1460", "src-1462"], "confidence": 0.95},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "temp-007", "source_ids": ["src-1460"], "confidence": 0.95},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "ent-050", "source_ids": ["src-1460"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 9,
+    "new_entities": 9,
+    "matched_entities": 0,
+    "total_relations": 16
+  }
+}

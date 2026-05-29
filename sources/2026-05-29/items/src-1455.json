@@ -1,0 +1,24 @@
+{
+  "id": "src-1455",
+  "title": "Vance: US and Iran 'very close' to deal, 'still TBD' whether Trump will sign — 'couple of language points' on nuclear/HEU remain",
+  "url": "https://www.axios.com/2026/05/28/iran-war-us-peace-deal-close-vance",
+  "snippet": "Vice President JD Vance said 'We're going back and forth on a couple of language points. We've made a lot of progress here.' Specifically, issues on the highly enriched uranium stockpile and the question of enrichment remain in flux. Vance: 'Hopefully, we'll continue to make progress and the President will be in a position where he can endorse the agreement, but obviously that's still TBD.' As of Thursday afternoon Trump was leaning toward signing but had not done so.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Vance's 'TBD' and 'language points' statements are new — first specific disclosure of remaining sticking points (HEU stockpile, enrichment)",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-001", "type": "Event", "name": "US-Iran Tentative MoU Agreement (May 28)"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-025"}
+  ]
+}

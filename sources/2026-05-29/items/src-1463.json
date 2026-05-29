@@ -1,0 +1,23 @@
+{
+  "id": "src-1463",
+  "title": "Washington Institute analysis: Israel-Lebanon Talks Round 4 — Pentagon security track significance for Hezbollah disarmament",
+  "url": "https://www.washingtoninstitute.org/policy-analysis/israel-lebanon-talks-round-4-pentagon-takes-seat",
+  "snippet": "Washington Institute analysis on Pentagon security track. The meeting involves military delegations focused on: Israeli army withdrawal, Lebanese army takeover of Southern Lebanon, financial support for LAF, Hezbollah disarmament, and enforcement mechanism for ceasefire. The 45-day ceasefire extension (announced May 15) created this parallel track alongside political talks (June 2-3).",
+  "source_name": "Washington Institute",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Expert analysis of Pentagon talks provides new analytical framework — not previously covered",
+  "entities": [
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-005", "type": "Event", "name": "Pentagon Security Track Meeting (May 29)"}
+  ],
+  "relations": [
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-047"},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-050"}
+  ]
+}

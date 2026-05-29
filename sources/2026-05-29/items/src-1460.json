@@ -1,0 +1,25 @@
+{
+  "id": "src-1460",
+  "title": "Israel and Hezbollah clash along Litani River — IDF pushes north, 100+ sites struck, Hezbollah fires rockets/drones",
+  "url": "https://www.pbs.org/newshour/world/israel-and-hezbollah-clash-along-strategic-river-after-overnight-strikes-across-lebanon",
+  "snippet": "Israel's military clashed with Hezbollah along the Litani River as Israeli troops pushed further north. IDF struck 100+ Hezbollah sites across southern Lebanon and Bekaa Valley — storage facilities, command centers, observation points. Hezbollah launched rockets, artillery and exploding drone attacks on Israeli troops mobilizing along the river toward Yohmor al-Shaqif and Zawtar al-Sharqieh. The Litani has become a de facto boundary with large areas to the south under Israeli control despite the ceasefire. Over 3,185 killed and 1M+ displaced in Lebanon since March 2.",
+  "source_name": "PBS",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Litani River clashes represent new escalation — IDF pushing beyond previous line, Hezbollah counterattacking",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-007", "type": "Location", "name": "Litani River"},
+    {"id": "temp-008", "type": "Event", "name": "Litani River Clashes (May 28-29)"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "temp-007"},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "ent-050"}
+  ]
+}

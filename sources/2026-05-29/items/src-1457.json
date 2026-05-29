@@ -1,0 +1,23 @@
+{
+  "id": "src-1457",
+  "title": "White House calls Iran-published MoU draft 'complete fabrication' — disputes Tehran's version of deal terms",
+  "url": "https://thehill.com/homenews/5897389-white-house-denies-iranian-mou/",
+  "snippet": "The White House described an Iranian state media report about the MOU as a 'complete fabrication.' Iranian state television had published a draft showing US would lift naval blockade and withdraw troops. White House: 'This report from Iranian controlled media is not true and the MOU they released is a complete fabrication. Nobody should believe what Iranian state media is putting out.' However, some details in Iran's report are similar to how US officials described the emerging deal.",
+  "source_name": "The Hill",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "White House 'complete fabrication' denial is new — escalation of messaging war between US and Iran over MoU content",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-001", "type": "Event", "name": "US-Iran Tentative MoU Agreement (May 28)"},
+    {"id": "temp-003", "type": "Event", "name": "MoU Messaging War (May 28-29)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

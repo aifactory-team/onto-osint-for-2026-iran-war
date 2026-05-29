@@ -1,0 +1,27 @@
+{
+  "id": "src-1459",
+  "title": "Pentagon Lebanon-Israel security track launched — military delegations discuss Hezbollah disarmament, Israeli withdrawal, new LAF brigade",
+  "url": "https://www.thenationalnews.com/news/us/2026/05/28/hezbollah-in-focus-as-lebanon-and-israeli-army-officials-meet-at-pentagon/",
+  "snippet": "Lebanese and Israeli military delegations meet at Pentagon on May 29 for security track discussions. Key proposals: (1) new Lebanese army brigade trained/funded by Washington for Hezbollah disarmament operations, (2) joint military operations room under US supervision for coordinating dismantlement of Hezbollah weapons infrastructure, (3) Israeli withdrawal timeline, (4) LAF deployment in southern Lebanon. This is the first military-to-military track, parallel to political talks (June 2-3). Hezbollah rejected direct talks, saying Washington 'is not an honest broker.'",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Pentagon security track is a new development — first military-level meeting between Lebanon and Israel under US mediation",
+  "entities": [
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "temp-005", "type": "Event", "name": "Pentagon Security Track Meeting (May 29)"},
+    {"id": "temp-006", "type": "Concept", "name": "Pentagon Security Track"}
+  ],
+  "relations": [
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-047"}
+  ]
+}

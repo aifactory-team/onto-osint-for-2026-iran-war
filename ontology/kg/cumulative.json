@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "nodes": [
     {
       "id": "ent-001",
@@ -2002,7 +2002,16 @@
     {"id": "ent-446", "type": "Event", "label": "IRGC MQ-9 Reaper Shootdown Claim"},
     {"id": "ent-447", "type": "Event", "label": "Israel Lebanon Escalation May 26"},
     {"id": "ent-448", "type": "Location", "label": "Mashghara"},
-    {"id": "ent-449", "type": "Location", "label": "Bandar Abbas"}
+    {"id": "ent-449", "type": "Location", "label": "Bandar Abbas"},
+    {"id": "ent-456", "type": "Event", "label": "US-Iran Tentative MoU Agreement (May 28)"},
+    {"id": "ent-457", "type": "Person", "label": "Ali Bagheri-Kani"},
+    {"id": "ent-458", "type": "Event", "label": "MoU Messaging War (May 28-29)"},
+    {"id": "ent-459", "type": "Event", "label": "IRGC Warning Shots at 4 Ships"},
+    {"id": "ent-460", "type": "Event", "label": "Pentagon Security Track Meeting (May 29)"},
+    {"id": "ent-461", "type": "Concept", "label": "Pentagon Security Track"},
+    {"id": "ent-462", "type": "Location", "label": "Litani River"},
+    {"id": "ent-463", "type": "Event", "label": "Litani River Clashes (May 28-29)"},
+    {"id": "ent-464", "type": "Event", "label": "Oil Price Mixed (May 29)"}
   ],
   "edges": [
     {
@@ -10569,11 +10578,30 @@
     {"subject": "ent-451", "predicate": "relatedTo", "object": "ent-025", "date": "2026-05-28", "confidence": 0.85, "type": "explicit", "source_id": "src-1430"},
     {"subject": "ent-453", "predicate": "relatedTo", "object": "ent-451", "date": "2026-05-28", "confidence": 0.72, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
     {"subject": "ent-452", "predicate": "relatedTo", "object": "ent-454", "date": "2026-05-28", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
-    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-455", "date": "2026-05-28", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-455", "date": "2026-05-28", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-456", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1454"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-456", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1454"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-456", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1455"},
+    {"subject": "ent-456", "predicate": "relatedTo", "object": "ent-008", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1454"},
+    {"subject": "ent-456", "predicate": "relatedTo", "object": "ent-025", "date": "2026-05-29", "confidence": 0.90, "type": "explicit", "source_id": "src-1455"},
+    {"subject": "ent-457", "predicate": "affiliatedWith", "object": "ent-002", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1456"},
+    {"subject": "ent-457", "predicate": "opposes", "object": "ent-456", "date": "2026-05-29", "confidence": 0.85, "type": "explicit", "source_id": "src-1456"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-459", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1458"},
+    {"subject": "ent-459", "predicate": "locatedIn", "object": "ent-008", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1458"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-460", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1459"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-460", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1459"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-460", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1459"},
+    {"subject": "ent-460", "predicate": "relatedTo", "object": "ent-047", "date": "2026-05-29", "confidence": 0.90, "type": "explicit", "source_id": "src-1459"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1460"},
+    {"subject": "ent-463", "predicate": "locatedIn", "object": "ent-462", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1460"},
+    {"subject": "ent-463", "predicate": "locatedIn", "object": "ent-050", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1460"},
+    {"subject": "ent-459", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-29", "confidence": 0.72, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-463", "predicate": "relatedTo", "object": "ent-460", "date": "2026-05-29", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-457", "predicate": "potentialRelation", "object": "ent-045", "date": "2026-05-29", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
   ],
   "stats": {
-    "total_nodes": 422,
-    "total_edges": 117,
-    "total_triples": 997
+    "total_nodes": 431,
+    "total_edges": 136,
+    "total_triples": 1016
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "src-1462",
+  "title": "Israel says Lebanon must choose between West and Iran ahead of Pentagon talks — Israel demands Hezbollah disarmament as precondition",
+  "url": "https://www.theweek.in/news/middle-east/2026/05/27/as-pentagon-talks-loom-israel-says-lebanon-must-choose-between-west-and-iran.html",
+  "snippet": "Ahead of Pentagon security track meeting, Israel's position demands Lebanon choose alignment: either with the West (accepting Hezbollah disarmament) or with Iran. Israel seeks Lebanese action to disarm Hezbollah and halt cross-border attacks, while Beirut wants clarity on timeline for Israeli withdrawal from the south.",
+  "source_name": "The Week",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Israel's explicit 'choose between West and Iran' framing is new — sets context for Pentagon talks",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-005", "type": "Event", "name": "Pentagon Security Track Meeting (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "ent-050"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-1456",
+  "title": "Iran denies deal finalized: Bagheri-Kani says 'until we have agreed on all issues, we consider that we have agreed on nothing'",
+  "url": "https://www.fnnews.com/news/202605290452302088",
+  "snippet": "Ali Bagheri-Kani, deputy secretary of Iran's Supreme National Security Council, told reporters 'As long as we have not agreed on all issues, we consider that nothing has been agreed.' Iran said the draft MoU is not yet finalized or approved. Tehran insists it would take no steps without 'tangible verification'. The framework excludes military vessels and envisages Iran managing ship traffic through the strait in cooperation with Oman.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Bagheri-Kani's 'agreed on nothing' statement is new — represents Iran's first official pushback on tentative deal reports",
+  "entities": [
+    {"id": "temp-002", "type": "Person", "name": "Ali Bagheri-Kani", "role": "Deputy Secretary, Supreme National Security Council"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-001", "type": "Event", "name": "US-Iran Tentative MoU Agreement (May 28)"}
+  ],
+  "relations": [
+    {"subject": "temp-002", "predicate": "affiliatedWith", "object": "ent-002"},
+    {"subject": "temp-002", "predicate": "opposes", "object": "temp-001"}
+  ]
+}

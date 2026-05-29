@@ -1,0 +1,22 @@
+{
+  "id": "src-1458",
+  "title": "IRGC fires warning shots at 4 ships attempting Hormuz passage 'without coordination' — vessels forced to return",
+  "url": "https://www.timesofisrael.com/liveblog-may-28-2026/",
+  "snippet": "The IRGC fired at four ships attempting to cross the Strait of Hormuz on Wednesday night. IRIB reported the ships attempted passage 'without coordination with security forces' at 12:35 AM local time. After warnings were ignored, warning shots were fired, forcing the ships to return. This occurred simultaneously with MoU negotiations reaching a tentative agreement.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New IRGC warning shots incident — not covered in previous days' sources",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-004", "type": "Event", "name": "IRGC Warning Shots at 4 Ships (May 28)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

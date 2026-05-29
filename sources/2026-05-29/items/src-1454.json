@@ -1,0 +1,27 @@
+{
+  "id": "src-1454",
+  "title": "US and Iran reach tentative deal for 60-day truce extension — MoU agreed by negotiators, awaits Trump's final approval",
+  "url": "https://www.aljazeera.com/news/2026/5/28/us-and-iran-reach-tentative-deal-for-60-day-truce-extension-officials-say",
+  "snippet": "The United States and Iran have reached a preliminary memorandum of understanding to extend the ceasefire for 60 days and start negotiations for permanently ending the war. The framework includes reopening the Strait of Hormuz, Iran clearing mines, US lifting blockade and issuing sanctions waivers. However, the MoU still requires President Donald Trump's final approval. US negotiators briefed Trump on details but he did not immediately sign off, wanting a few days to consider.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of negotiators reaching tentative MoU agreement — represents significant escalation from previous 'near deal' coverage",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf", "role": "Iran delegation leader"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "temp-001", "type": "Event", "name": "US-Iran Tentative MoU Agreement (May 28)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

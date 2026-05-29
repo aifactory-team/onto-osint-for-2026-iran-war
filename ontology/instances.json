@@ -5294,9 +5294,129 @@
       "first_seen": "2026-05-27",
       "last_seen": "2026-05-27",
       "mention_count": 5
+    },
+    {
+      "id": "ent-456",
+      "type": "Event",
+      "name": "US-Iran Tentative MoU Agreement (May 28)",
+      "properties": {
+        "date": "2026-05-28",
+        "participants": "US (Vance, Witkoff, Kushner), Iran (Ghalibaf), Pakistan (mediator)",
+        "detail": "Negotiators reached preliminary MoU for 60-day truce extension, Hormuz reopening, nuclear talks. Trump approval pending. Vance: 'still TBD', 'couple of language points' on HEU/enrichment remain. White House confirms negotiators agreed. Iran denies finalization."
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-457",
+      "type": "Person",
+      "name": "Ali Bagheri-Kani",
+      "properties": {
+        "role": "Deputy Secretary, Supreme National Security Council",
+        "affiliation": "Iran",
+        "statement": "Until we have agreed on all issues, we consider that we have agreed on nothing"
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-458",
+      "type": "Event",
+      "name": "MoU Messaging War (May 28-29)",
+      "properties": {
+        "date": "2026-05-28~29",
+        "detail": "White House calls Iran-published MoU draft 'complete fabrication'. Iran denies deal finalized (Bagheri-Kani). Both sides dispute terms while negotiators say agreement exists. Key dispute: US troop withdrawal and naval blockade language."
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-459",
+      "type": "Event",
+      "name": "IRGC Warning Shots at 4 Ships (May 28)",
+      "properties": {
+        "date": "2026-05-28",
+        "time": "12:35 AM local",
+        "location": "Strait of Hormuz",
+        "detail": "IRGC fired warning shots at 4 ships attempting Hormuz passage without coordination. Ships forced to return. Occurred simultaneously with MoU negotiations."
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-460",
+      "type": "Event",
+      "name": "Pentagon Security Track Meeting (May 29)",
+      "properties": {
+        "date": "2026-05-29",
+        "location": "Pentagon, Washington",
+        "participants": "Lebanese military, Israeli military, US (mediator)",
+        "agenda": "Hezbollah disarmament, Israeli withdrawal, new US-funded LAF brigade, joint operations room under US supervision, ceasefire enforcement",
+        "context": "First military-to-military track, parallel to June 2-3 political talks"
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-461",
+      "type": "Concept",
+      "name": "Pentagon Security Track",
+      "properties": {
+        "domain": "military/diplomacy",
+        "detail": "New parallel security track alongside political talks for Israel-Lebanon. Includes proposals for new US-funded LAF brigade for Hezbollah disarmament, joint operations room under US supervision. Hezbollah rejects talks, calling US 'not an honest broker'."
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-462",
+      "type": "Location",
+      "name": "Litani River",
+      "properties": {
+        "type": "river/military boundary",
+        "country": "Lebanon",
+        "detail": "De facto boundary between Israeli-controlled southern Lebanon and Hezbollah territory. IDF pushing north across river, Hezbollah counterattacking."
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-463",
+      "type": "Event",
+      "name": "Litani River Clashes (May 28-29)",
+      "properties": {
+        "date": "2026-05-28~29",
+        "location": "Litani River, Lebanon",
+        "detail": "IDF pushes north past Litani, clashes with Hezbollah near Yohmor al-Shaqif and Zawtar al-Sharqieh. IDF strikes 100+ sites. Hezbollah launches rockets, drones. Over 3,185 killed and 1M+ displaced total.",
+        "casualties_total": "3,185+ since March 2"
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-464",
+      "type": "Event",
+      "name": "Oil Price Mixed (May 29)",
+      "properties": {
+        "date": "2026-05-29",
+        "brent": "$93.71",
+        "trend": "mixed — fell on MoU news, rebounded on Iran denial",
+        "context": "Down from $94.29 previous session"
+      },
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mention_count": 2
     }
   ],
-  "total_count": 407,
+  "total_count": 416,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5611,6 +5731,13 @@
       "target": "6 new entities (ent-450~ent-455), 7 existing updated",
       "reason": "유가 5%+ 급락(WTI $88.68/Brent $94.29, MoU 초안 공개 후), 트럼프 'negotiating on fumes' Day 90 각료회의(중간선거 불영향·HEU 러/중 거부), 이스라엘 레바논 31명 사살(4/16 이후 최대·네타냐후 'press pedal harder'), 이란 인터넷 88일 차단 해제(페제시키안 명령·행정법원 부분 중단), 이란 국영TV MoU 초안 세부 공개(30일 호르무즈 복구·미군 철수), 5/29 펜타곤 이-레 군사 조정 회의 예고. 스키마 변경 없음",
       "source_ids": ["src-1426", "src-1427", "src-1428", "src-1429", "src-1430", "src-1431", "src-1432", "src-1434"]
+    },
+    {
+      "date": "2026-05-29",
+      "action": "add_instances",
+      "target": "9 new entities (ent-456~ent-464), 7 existing updated",
+      "reason": "미-이란 잠정 MoU 합의(60일 휴전연장·호르무즈 개방·핵 협상, 트럼프 승인 대기·밴스 'TBD'), 바게리카니 '합의한 것 없다' 부인, 백악관 '완전한 조작' 반박(MoU 메시지 전쟁), IRGC 호르무즈 4척 경고사격, 펜타곤 이-레 안보트랙 개시(헤즈볼라 무장해제·IDF 철수·합동작전실), 리타니강 전투(IDF 북진·100+타격·헤즈볼라 반격), 유가 혼조(Brent $93.71). 스키마 변경 없음",
+      "source_ids": ["src-1454", "src-1455", "src-1456", "src-1457", "src-1458", "src-1459", "src-1460", "src-1461", "src-1462", "src-1463"]
     }
   ]
 }

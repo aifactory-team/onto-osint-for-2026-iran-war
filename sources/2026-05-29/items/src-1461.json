@@ -1,0 +1,20 @@
+{
+  "id": "src-1461",
+  "title": "Oil prices mixed: Brent $93.71, 60-day truce news triggers mixed response — gold rises",
+  "url": "https://www.newspim.com/news/view/20260529000033",
+  "snippet": "유가 혼조세 마감. Brent 7월물 $93.71, 8월물 $92.97. 미-이란 60일 휴전 연장 잠정 합의 소식에 하락세를 보이다 이란의 '합의 아냐' 발언에 반등. 금은 안전자산 선호로 상승. 시장은 트럼프 승인 여부에 촉각.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-05-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Daily oil price update with new data point — Brent $93.71 vs previous $94.29",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-009", "type": "Event", "name": "Oil Price Mixed (May 29)"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}
