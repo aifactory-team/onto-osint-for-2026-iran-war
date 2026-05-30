@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-30",
   "entities": [
     {
       "id": "ent-001",
@@ -10,11 +10,12 @@
       "properties": {
         "role": "US President",
         "affiliation": "United States",
-        "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
+        "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'",
+        "action_may30": "heading to Situation Room for 'final determination' on Iran deal; demands: never nuclear weapon, Hormuz immediately open unrestricted, no tolls; shared MoU draft with allied nations"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-27",
-      "mention_count": 290
+      "last_seen": "2026-05-30",
+      "mention_count": 295
     },
     {
       "id": "ent-002",
@@ -23,11 +24,12 @@
       "properties": {
         "type": "state",
         "location": "Middle East",
-        "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension"
+        "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension",
+        "action_may30": "IRGC retaliatory strike on US airbase following CENTCOM May 26 strikes near Bandar Abbas; IRGC warns 'utter ruin' if diplomacy fails; Ali Azmaei IRGC Navy Chief possibly killed (unconfirmed)"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-25",
-      "mention_count": 337
+      "last_seen": "2026-05-30",
+      "mention_count": 342
     },
     {
       "id": "ent-003",
@@ -48,11 +50,12 @@
       "properties": {
         "type": "state",
         "location": "Middle East",
-        "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US"
+        "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US",
+        "action_may30": "Netanyahu confirms 36th Division crossed Litani River, advancing to dominating terrain; participating in first-ever Pentagon Israeli-Lebanese military talks (May 29); 5 killed in Lebanon"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-27",
-      "mention_count": 142
+      "last_seen": "2026-05-30",
+      "mention_count": 147
     },
     {
       "id": "ent-005",
@@ -61,11 +64,12 @@
       "properties": {
         "type": "military",
         "location": "Iran",
-        "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began"
+        "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began",
+        "action_may30": "retaliatory strike on US airbase (4:50 AM) following CENTCOM May 26 near Bandar Abbas; 'serious warning' — further aggression will receive 'more decisive response'; warns 'utter ruin' if renewed conflict; Navy Chief Ali Azmaei possibly killed (unconfirmed)"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-27",
-      "mention_count": 126
+      "last_seen": "2026-05-30",
+      "mention_count": 131
     },
     {
       "id": "ent-006",
@@ -98,11 +102,12 @@
       "name": "Strait of Hormuz",
       "properties": {
         "type": "strait/waterway",
-        "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
+        "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings",
+        "status_may30": "Trump demands 'immediately open, unrestricted, no tolls'; Brent oil -19% in May (worst monthly since March 2020, $92.05); key demand in Situation Room 'final determination'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-27",
-      "mention_count": 300
+      "last_seen": "2026-05-30",
+      "mention_count": 305
     },
     {
       "id": "ent-009",
@@ -373,11 +378,12 @@
       "properties": {
         "role": "Israel Prime Minister",
         "affiliation": "Israel",
-        "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'"
+        "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'",
+        "action_may30": "at northern border confirms 36th Division crossed Litani River; 'Crossed Litani, advanced to dominating terrain. Operating in Beirut, Bekaa, across entire front, striking Hezbollah hard.' 5 killed"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-26",
-      "mention_count": 24
+      "last_seen": "2026-05-30",
+      "mention_count": 27
     },
     {
       "id": "ent-032",
@@ -494,11 +500,12 @@
       "properties": {
         "role": "US Vice President",
         "affiliation": "United States",
-        "action_apr21": "did NOT fly to Islamabad; trip 'postponed indefinitely' (Axios) as Iran boycotts 2nd round"
+        "action_apr21": "did NOT fly to Islamabad; trip 'postponed indefinitely' (Axios) as Iran boycotts 2nd round",
+        "action_may30": "Iran deal outcome 'still TBD'; Trump heading to Situation Room for final determination; participating in pre-decision White House consultations"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-25",
-      "mention_count": 95
+      "last_seen": "2026-05-30",
+      "mention_count": 97
     },
     {
       "id": "ent-042",
@@ -571,11 +578,12 @@
         "type": "armed group",
         "location": "Lebanon",
         "affiliation": "Iran-backed",
-        "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began"
+        "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began",
+        "action_may30": "IDF striking Hezbollah hard across Beirut, Bekaa, entire front after 36th Division crosses Litani; facing military pressure across all Lebanon fronts"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-27",
-      "mention_count": 75
+      "last_seen": "2026-05-30",
+      "mention_count": 78
     },
     {
       "id": "ent-048",
@@ -605,11 +613,12 @@
       "name": "Lebanon",
       "properties": {
         "type": "country",
-        "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry"
+        "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry",
+        "status_may30": "IDF crossed Litani, 36th Division advancing to dominating terrain; Gen. Rodolphe Haykal represents LAF in first-ever Pentagon military talks (May 29); IDF operating in Beirut, Bekaa; 5 killed"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-27",
-      "mention_count": 110
+      "last_seen": "2026-05-30",
+      "mention_count": 114
     },
     {
       "id": "ent-051",
@@ -722,11 +731,12 @@
       "name": "CENTCOM (US Central Command)",
       "properties": {
         "type": "military command",
-        "location": "United States"
+        "location": "United States",
+        "action_may30": "May 26 strikes near Bandar Abbas provoked IRGC retaliatory strike on originating US airbase at 4:50 AM; IRGC called it 'serious warning'"
       },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-05-27",
-      "mention_count": 46
+      "last_seen": "2026-05-30",
+      "mention_count": 48
     },
     {
       "id": "ent-060",
@@ -5414,9 +5424,112 @@
       "first_seen": "2026-05-29",
       "last_seen": "2026-05-29",
       "mention_count": 2
+    },
+    {
+      "id": "ent-465",
+      "type": "Person",
+      "name": "Ali Azmaei",
+      "properties": {
+        "role": "IRGC Navy Chief",
+        "affiliation": "IRGC",
+        "status": "UNCONFIRMED — possibly killed in US airstrike on Bandar Abbas (May 26); not officially confirmed by Iranian authorities as of May 30"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-466",
+      "type": "Person",
+      "name": "Rodolphe Haykal",
+      "properties": {
+        "role": "Lebanese Armed Forces (LAF) commander",
+        "affiliation": "Lebanese Armed Forces",
+        "action_may29": "represented Lebanon at first-ever Pentagon Israeli-Lebanese military talks (May 29); focus on ceasefire enforcement, IDF withdrawal, LAF role in south"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-467",
+      "type": "Event",
+      "name": "Trump Situation Room Final Determination",
+      "properties": {
+        "date": "2026-05-30",
+        "location": "White House Situation Room",
+        "participants": ["Trump", "Vance", "senior national security advisors"],
+        "demands": "never nuclear weapon, Hormuz immediately open unrestricted, no tolls",
+        "context": "Trump heading to Situation Room for 'final determination' on Iran deal; MoU draft shared with allied nations"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-468",
+      "type": "Event",
+      "name": "IRGC Retaliatory Strike on US Airbase",
+      "properties": {
+        "date": "2026-05-30",
+        "time": "4:50 AM",
+        "trigger": "CENTCOM May 26 strikes near Bandar Abbas",
+        "target": "originating US airbase",
+        "irgc_statement": "'Serious warning' — further aggression will receive 'more decisive' response",
+        "context": "IRGC warns 'utter ruin' if diplomacy fails; CNN analysis on consequences if diplomacy fails"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-469",
+      "type": "Event",
+      "name": "Brent May 2026 Monthly Drop",
+      "properties": {
+        "date": "2026-05-30",
+        "brent_price": "$92.05",
+        "wti_price": "$87.36",
+        "monthly_change": "-19%",
+        "context": "Worst monthly oil price drop since March 2020 (COVID); driven by MoU deal expectations and demand concerns"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-470",
+      "type": "Event",
+      "name": "IDF Litani River Crossing (36th Division)",
+      "properties": {
+        "date": "2026-05-30",
+        "unit": "36th Division",
+        "confirmed_by": "Netanyahu at northern border",
+        "statement": "'Crossed Litani, advanced to dominating terrain. Operating in Beirut, Bekaa, across entire front, striking Hezbollah hard.'",
+        "casualties": "5 killed in Lebanon",
+        "context": "Significant territorial advance north of Litani River line"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-471",
+      "type": "Event",
+      "name": "Pentagon Israeli-Lebanese Military Talks",
+      "properties": {
+        "date": "2026-05-29",
+        "description": "First-ever Israeli-Lebanese military talks held at Pentagon",
+        "topics": ["ceasefire enforcement", "IDF withdrawal timeline", "LAF role in south Lebanon"],
+        "lebanon_rep": "Gen. Rodolphe Haykal (LAF)",
+        "context": "Part of Pentagon security track launched following May 28 announcement; complement to diplomatic MoU negotiations"
+      },
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mention_count": 2
     }
   ],
-  "total_count": 416,
+  "total_count": 423,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5738,6 +5851,13 @@
       "target": "9 new entities (ent-456~ent-464), 7 existing updated",
       "reason": "미-이란 잠정 MoU 합의(60일 휴전연장·호르무즈 개방·핵 협상, 트럼프 승인 대기·밴스 'TBD'), 바게리카니 '합의한 것 없다' 부인, 백악관 '완전한 조작' 반박(MoU 메시지 전쟁), IRGC 호르무즈 4척 경고사격, 펜타곤 이-레 안보트랙 개시(헤즈볼라 무장해제·IDF 철수·합동작전실), 리타니강 전투(IDF 북진·100+타격·헤즈볼라 반격), 유가 혼조(Brent $93.71). 스키마 변경 없음",
       "source_ids": ["src-1454", "src-1455", "src-1456", "src-1457", "src-1458", "src-1459", "src-1460", "src-1461", "src-1462", "src-1463"]
+    },
+    {
+      "date": "2026-05-30",
+      "action": "add_instances",
+      "target": "7 new entities (ent-465~ent-471), 10 existing updated",
+      "reason": "트럼프 상황실 '최종 결정'(호르무즈 무조건 개방·핵 불보유 요구·MoU 초안 동맹 공유), IRGC 미 공군기지 보복 타격(4:50 AM·Bandar Abbas 5/26 공습 대응·'중대 경고'), IRGC '완전한 파멸' 위협(CNN 외교실패 분석), 알리 아즈마에이 IRGC 해군사령관 사망 미확인 보도, 5월 유가 -19%(2020년 3월 이후 최대 월간 하락·Brent $92.05/WTI $87.36), IDF 리타니강 36사단 도하(네타냐후 직접 확인·베이루트·베카·전선 전체 작전), 펜타곤 이-레 최초 군사 회담(5/29·하이칼 LAF 대표). 스키마 변경 없음",
+      "source_ids": ["src-1480", "src-1481", "src-1482", "src-1483", "src-1484", "src-1485", "src-1486", "src-1487", "src-1488", "src-1489"]
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "src-1497",
+  "title": "PressTV: IRGC targets US airbase in retaliation for Bandar Abbas strikes",
+  "url": "https://www.presstv.ir/Detail/2026/05/28/769399/Iran-US-IRGC-aggression",
+  "snippet": "Iran's state broadcaster PressTV provides Iranian government perspective on IRGC retaliatory strike against US airbase, framing CENTCOM strikes as aggression and IRGC response as legitimate defense.",
+  "source_name": "PressTV",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_report": "2026-05-29/src-1458",
+  "related_item": "src-1481",
+  "tag_reason": "Iranian state media perspective on IRGC-CENTCOM exchange; updates yesterday's Hormuz warning shots story with direct IRGC airbase strike",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM"},
+    {"id": "temp-011", "type": "Location", "name": "Bandar Abbas"},
+    {"id": "temp-013", "type": "Event", "name": "IRGC Retaliatory Strike on US Airbase (May 28, 4:50 AM)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-013"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "temp-013"}
+  ]
+}

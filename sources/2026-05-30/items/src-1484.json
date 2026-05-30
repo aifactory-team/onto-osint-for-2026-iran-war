@@ -1,0 +1,24 @@
+{
+  "id": "src-1484",
+  "title": "Oil posts worst monthly loss since March 2020: Brent -19% in May, settles $92.05; WTI -17%, $87.36 — ceasefire expectations drive collapse",
+  "url": "https://www.cnbc.com/2026/05/29/oil-price-iran-deal-war-ceasefire-trump.html",
+  "snippet": "Crude oil posted its worst monthly performance since March 2020 (the COVID pandemic crash), with Brent crude falling approximately 19% over the course of May 2026 and WTI down 17%. On May 29, Brent settled at $92.05 per barrel and WTI at $87.36. The primary driver was growing market expectation of an Iran-US ceasefire deal and the anticipated reopening of the Strait of Hormuz to unrestricted international shipping. Analysts noted that the combination of deal optimism and Hormuz reopening expectations has rapidly unwound the 'war premium' baked into prices since March.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Major economic indicator — worst monthly oil price decline since COVID marks a macro-scale market response to Iran deal prospects; updates and supersedes src-1461 daily price data",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-016", "type": "Indicator", "name": "Oil Price (May 2026 Monthly)"},
+    {"id": "temp-017", "type": "Concept", "name": "War Premium Unwinding"}
+  ],
+  "relations": [
+    {"subject": "temp-016", "predicate": "drivenBy", "object": "temp-017"},
+    {"subject": "temp-017", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "temp-017", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-1482",
+  "title": "IRGC warns renewed conflict will bring 'utter ruin' far beyond the region — CNN analysis of what happens if diplomacy fails",
+  "url": "https://www.cnn.com/2026/05/29/middleeast/iran-ceasefire-prepare-war-next-intl",
+  "snippet": "The IRGC issued stark warnings that any renewed full-scale conflict would spread 'far beyond the region,' threatening 'crushing blows' and 'utter ruin' in places opponents 'cannot even imagine.' CNN published an analysis examining what happens if diplomacy fails, including scenarios for Hormuz total closure, missile strikes on Gulf states, cyberattacks on energy infrastructure, and proxy escalation across the Middle East. The IRGC statement came amid continued ceasefire negotiations and growing tensions over the unresolved naval blockade.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC escalatory rhetoric significantly strengthened — explicit threat of 'utter ruin' beyond the region, combined with CNN scenario analysis, signals diplomatic pressure campaign",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-014", "type": "Concept", "name": "IRGC Escalatory Warning (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "issues", "object": "temp-014"},
+    {"subject": "temp-014", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "ent-002", "predicate": "authorizes", "object": "temp-014"}
+  ]
+}

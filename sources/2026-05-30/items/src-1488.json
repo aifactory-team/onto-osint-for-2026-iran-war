@@ -1,0 +1,25 @@
+{
+  "id": "src-1488",
+  "title": "Iran-US deal nears finish line — but Trump and Khamenei must both say yes; Euronews analysis of remaining political hurdles",
+  "url": "https://www.euronews.com/2026/05/29/iran-us-deal-nears-finish-line-but-trump-and-khamenei-must-say-yes",
+  "snippet": "Euronews analysis assesses that the Iran-US deal is near completion at the technical negotiator level, but requires personal sign-off from both President Trump and Supreme Leader Ayatollah Ali Khamenei. Both face significant domestic political pressures working against signing: Trump from hawkish Republican factions demanding Iran's complete nuclear dismantlement, and Khamenei from hardliners opposing any deal with the US as a matter of ideological principle. Analysts note the deal could still collapse at the leadership level even with full negotiator agreement.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First analysis specifically identifying Khamenei as parallel approval bottleneck to Trump — adds Iranian domestic political dimension not covered in previous sources",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-020", "type": "Person", "name": "Ali Khamenei", "note": "Supreme Leader of Iran"},
+    {"id": "temp-001", "type": "Event", "name": "US-Iran Tentative MoU Agreement (May 28)"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Situation Room Final Determination Meeting (May 30)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "mustApprove", "object": "temp-001"},
+    {"subject": "temp-020", "predicate": "mustApprove", "object": "temp-001"},
+    {"subject": "temp-020", "predicate": "affiliatedWith", "object": "ent-002"}
+  ]
+}

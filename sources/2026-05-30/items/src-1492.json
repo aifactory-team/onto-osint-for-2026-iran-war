@@ -1,0 +1,23 @@
+{
+  "id": "src-1492",
+  "title": "Pentagon hosts first-ever Israeli-Lebanese military talks — Fox News",
+  "url": "https://www.foxnews.com/world/pentagon-hosts-first-ever-israeli-lebanese-military-talks-aimed-curbing-hezbollah",
+  "snippet": "Fox News reports on the first-ever Israeli-Lebanese military talks held at the Pentagon on May 29, focused on curbing Hezbollah, corroborating other reporting on the historic security track meeting.",
+  "source_name": "Fox News",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "reported",
+  "related_report": "2026-05-30/src-1485",
+  "related_item": "src-1485",
+  "tag_reason": "Same story as src-1485, Fox News outlet",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-005", "type": "Event", "name": "Pentagon Security Track Meeting (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "temp-005"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-1479",
+  "title": "Trump calls Situation Room meeting for 'final determination' on Iran deal — demands Hormuz open immediately, no nuclear weapons ever",
+  "url": "https://www.washingtonpost.com/politics/2026/05/29/trump-calls-situation-room-meeting-decide-extending-iran-ceasefire/",
+  "snippet": "President Trump announced he is convening a Situation Room meeting to make a 'final determination' on whether to move forward with the Iran deal. Trump issued public demands: Iran must agree to 'never have a Nuclear Weapon or Bomb' and the Strait of Hormuz must be 'immediately open, no tolls, unrestricted shipping.' The announcement followed days of diplomatic back-and-forth over the MoU, with both sides disputing terms. Trump's Situation Room meeting involves top national security advisers including Hegseth, Rubio, and Vance.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Major escalation in deal timeline — Trump personally convening Situation Room for final determination, first definitive presidential deadline signal",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "US Secretary of Defense"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "convenes", "object": "temp-010"},
+    {"subject": "ent-001", "predicate": "demands", "object": "ent-008"},
+    {"subject": "ent-001", "predicate": "demands", "object": "ent-002"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-010"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "temp-010"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-010"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-1486",
+  "title": "Trump shares near-final MoU draft with allied nations — Korean media reports draft contains Hormuz opening and nuclear negotiation framework",
+  "url": "https://www.fnnews.com/news/202605291051228305",
+  "snippet": "According to South Korean media (Financial News), Trump shared the near-final MoU draft document with allied nations prior to his Situation Room final determination meeting. The draft contains provisions for the opening of the Strait of Hormuz and a nuclear negotiation framework as foundational elements. The sharing with allies suggests the US is building international legitimacy for the deal before Trump makes his final decision. South Korea, Japan, and European partners were reportedly among the recipients.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New diplomatic intelligence — allied consultation round before final determination; suggests US treating this as multilateral legitimacy exercise, not purely bilateral",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-019", "type": "Document", "name": "Iran MoU Near-Final Draft (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "shares", "object": "temp-019"},
+    {"subject": "temp-019", "predicate": "concerns", "object": "ent-008"},
+    {"subject": "temp-019", "predicate": "concerns", "object": "ent-002"}
+  ]
+}

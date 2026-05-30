@@ -1,0 +1,22 @@
+{
+  "id": "src-1493",
+  "title": "IRGC warns we will attack if blockade continues — HotAir",
+  "url": "https://hotair.com/ed-morrissey/2026/05/29/irgc-warns-we-will-attack-if-blockade-continues-n3815400",
+  "snippet": "HotAir covers IRGC threats of utter ruin and crushing blows if the naval blockade continues, corroborating CNN coverage of IRGC escalatory rhetoric.",
+  "source_name": "HotAir",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "reported",
+  "related_report": "2026-05-30/src-1482",
+  "related_item": "src-1482",
+  "tag_reason": "Same story as src-1482, different outlet perspective on IRGC warning",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-014", "type": "Concept", "name": "IRGC Escalatory Warning (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "issues", "object": "temp-014"},
+    {"subject": "temp-014", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

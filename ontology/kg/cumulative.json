@@ -10597,11 +10597,39 @@
     {"subject": "ent-463", "predicate": "locatedIn", "object": "ent-050", "date": "2026-05-29", "confidence": 0.95, "type": "explicit", "source_id": "src-1460"},
     {"subject": "ent-459", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-29", "confidence": 0.72, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
     {"subject": "ent-463", "predicate": "relatedTo", "object": "ent-460", "date": "2026-05-29", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
-    {"subject": "ent-457", "predicate": "potentialRelation", "object": "ent-045", "date": "2026-05-29", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
+    {"subject": "ent-457", "predicate": "potentialRelation", "object": "ent-045", "date": "2026-05-29", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-467", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1480"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-467", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1480"},
+    {"subject": "ent-467", "predicate": "relatedTo", "object": "ent-008", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1480"},
+    {"subject": "ent-467", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1480"},
+    {"subject": "ent-468", "predicate": "causedBy", "object": "ent-445", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1481"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-468", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1481"},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "ent-468", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1481"},
+    {"subject": "ent-468", "predicate": "follows", "object": "ent-445", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1481"},
+    {"subject": "ent-465", "predicate": "affiliatedWith", "object": "ent-005", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1482"},
+    {"subject": "ent-465", "predicate": "relatedTo", "object": "ent-445", "date": "2026-05-30", "confidence": 0.60, "type": "inferred", "source_id": "inferred", "note": "UNCONFIRMED"},
+    {"subject": "ent-469", "predicate": "relatedTo", "object": "ent-008", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1483"},
+    {"subject": "ent-469", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1483"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-470", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1484"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-470", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1484"},
+    {"subject": "ent-470", "predicate": "locatedIn", "object": "ent-050", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1484"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1484"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-05-30", "confidence": 0.95, "type": "explicit", "source_id": "src-1484"},
+    {"subject": "ent-470", "predicate": "follows", "object": "ent-463", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1484"},
+    {"subject": "ent-466", "predicate": "participatesIn", "object": "ent-471", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1485"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-471", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1485"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-471", "date": "2026-05-30", "confidence": 1.0, "type": "explicit", "source_id": "src-1485"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-471", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1485"},
+    {"subject": "ent-471", "predicate": "relatedTo", "object": "ent-047", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1485"},
+    {"subject": "ent-471", "predicate": "follows", "object": "ent-460", "date": "2026-05-30", "confidence": 0.85, "type": "explicit", "source_id": "src-1485"},
+    {"subject": "ent-466", "predicate": "affiliatedWith", "object": "ent-050", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1486"},
+    {"subject": "ent-468", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "concurrent_pressure"},
+    {"subject": "ent-470", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "escalate_to_negotiate"},
+    {"subject": "ent-471", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "parallel_tracks"}
   ],
   "stats": {
-    "total_nodes": 431,
-    "total_edges": 136,
-    "total_triples": 1016
+    "total_nodes": 438,
+    "total_edges": 143,
+    "total_triples": 1045
   }
 }

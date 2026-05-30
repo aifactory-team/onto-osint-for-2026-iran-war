@@ -1,0 +1,22 @@
+{
+  "id": "src-1490",
+  "title": "Trump demands Hormuz open, no nuclear weapons — Newsweek on Situation Room meeting",
+  "url": "https://www.newsweek.com/donald-trump-final-determination-iran-deal-pending-strait-hormuz-12009530",
+  "snippet": "Newsweek covers Trump's public demand that Hormuz must be 'immediately open, no tolls, unrestricted shipping' and Iran must agree to never having nuclear weapons, as conditions for Situation Room final determination.",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "reported",
+  "related_report": "2026-05-30/src-1479",
+  "related_item": "src-1479",
+  "tag_reason": "Same story as src-1479, different outlet with additional Hormuz/nuclear demand specificity",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Situation Room Final Determination Meeting (May 30)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "demands", "object": "ent-008"},
+    {"subject": "ent-001", "predicate": "convenes", "object": "temp-010"}
+  ]
+}

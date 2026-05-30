@@ -1,0 +1,24 @@
+{
+  "id": "src-1487",
+  "title": "트럼프 \"오늘 백악관서 이란 합의 최종 결정\" — 시추에이션룸 소집, 호르무즈 개방·핵 포기 요구",
+  "url": "https://www.newspim.com/news/view/20260530000001",
+  "snippet": "뉴스핌 보도에 따르면 트럼프 대통령이 백악관 시추에이션룸에서 이란과의 합의 최종 결정을 내리겠다고 예고했다. 트럼프는 이란이 핵무기·핵폭탄을 '영원히 보유하지 않겠다'는 데 동의해야 하며, 호르무즈 해협을 '즉각 개방, 통행료 없이, 무제한 항해'를 허용해야 한다고 요구했다. 이는 협상 타결을 위한 최후통첩 성격으로 해석된다.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Korean-language reporting of Trump Situation Room meeting — same event as src-1479, included as Korean-language source for domestic audience coverage",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Situation Room Final Determination Meeting (May 30)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "convenes", "object": "temp-010"},
+    {"subject": "ent-001", "predicate": "demands", "object": "ent-002"},
+    {"subject": "temp-010", "predicate": "concerns", "object": "ent-008"}
+  ]
+}

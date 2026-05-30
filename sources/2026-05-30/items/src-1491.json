@@ -1,0 +1,23 @@
+{
+  "id": "src-1491",
+  "title": "Five killed in Lebanon as Israeli forces advance across Litani River — Al Jazeera",
+  "url": "https://www.aljazeera.com/news/2026/5/29/five-killed-in-lebanon-as-israeli-forces-advance-across-key-litani-river",
+  "snippet": "Al Jazeera reports 5 killed in Lebanon as IDF advances across the Litani River, corroborating Times of Israel reporting on Netanyahu's confirmation of 36th Division crossing near Zawtar al-Sharqiyah.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "reported",
+  "related_report": "2026-05-30/src-1480",
+  "related_item": "src-1480",
+  "tag_reason": "Same story as src-1480, Al Jazeera perspective with casualty count confirmation",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-007", "type": "Location", "name": "Litani River"},
+    {"id": "temp-012", "type": "Event", "name": "IDF Litani River Crossing — 36th Division (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-012"},
+    {"subject": "temp-012", "predicate": "locatedIn", "object": "temp-007"}
+  ]
+}

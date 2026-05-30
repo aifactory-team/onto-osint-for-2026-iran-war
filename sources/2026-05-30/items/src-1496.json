@@ -1,0 +1,23 @@
+{
+  "id": "src-1496",
+  "title": "IDF crosses Litani River near Zawtar al-Sharqiyah — CBC on Netanyahu confirmation",
+  "url": "https://www.cbc.ca/news/world/israel-lebanon-litani-river-9.7216696",
+  "snippet": "CBC News reports on IDF crossing the Litani River near Zawtar al-Sharqiyah, with Netanyahu's personal confirmation of the 36th Division crossing. Updates and confirms the unconfirmed clashes reported in previous sources.",
+  "source_name": "CBC",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_report": "2026-05-29/src-1460",
+  "related_item": "src-1480",
+  "tag_reason": "Update on yesterday's src-1460 Litani clashes — CBC now confirms full crossing with Netanyahu statement and location detail",
+  "entities": [
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-007", "type": "Location", "name": "Litani River"}
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "confirms", "object": "temp-012"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-012"}
+  ]
+}

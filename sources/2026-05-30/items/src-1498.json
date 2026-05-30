@@ -1,0 +1,22 @@
+{
+  "id": "src-1498",
+  "title": "Iran International: Trump calls Situation Room meeting for Iran final determination",
+  "url": "https://www.iranintl.com/en/202605297690",
+  "snippet": "Iran International (London-based Persian-language outlet) covers Trump's Situation Room meeting announcement for final Iran deal determination, providing diaspora/opposition Iranian perspective on the potential deal.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_report": "2026-05-30/src-1479",
+  "related_item": "src-1479",
+  "tag_reason": "Iran International's coverage adds Iranian exile/opposition perspective on Trump's Situation Room meeting",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Situation Room Final Determination Meeting (May 30)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "convenes", "object": "temp-010"},
+    {"subject": "temp-010", "predicate": "concerns", "object": "ent-002"}
+  ]
+}

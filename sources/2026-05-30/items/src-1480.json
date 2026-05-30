@@ -1,0 +1,28 @@
+{
+  "id": "src-1480",
+  "title": "Netanyahu visits northern border, confirms 36th Division crossed Litani River — 5 killed, operations in Beirut and Bekaa Valley",
+  "url": "https://www.timesofisrael.com/pm-confirms-troops-crossed-litani-as-pentagon-hosts-israeli-lebanon-security-talks",
+  "snippet": "Prime Minister Benjamin Netanyahu visited Israel's northern border and officially confirmed that the IDF 36th Division has crossed the Litani River. Netanyahu stated: 'Our forces crossed the Litani, advanced to dominating terrain. Operating in Beirut, Bekaa Valley, across entire front, striking Hezbollah hard.' Lebanese sources confirmed the crossing near Zawtar al-Sharqiyah. At least 5 people were killed in the latest round of fighting. The Litani crossing marks a significant escalation beyond the pre-existing clashes reported on previous days.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Official PM confirmation of Litani crossing — upgrades from 'clashes near Litani' to confirmed military advance across the river with ground truth from Netanyahu himself",
+  "entities": [
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israeli Prime Minister"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-007", "type": "Location", "name": "Litani River"},
+    {"id": "temp-012", "type": "Event", "name": "IDF Litani River Crossing — 36th Division (May 29)"}
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "confirms", "object": "temp-012"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-012"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "temp-012"},
+    {"subject": "temp-012", "predicate": "locatedIn", "object": "temp-007"},
+    {"subject": "temp-012", "predicate": "locatedIn", "object": "ent-050"}
+  ]
+}

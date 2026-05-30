@@ -1,0 +1,26 @@
+{
+  "id": "src-1481",
+  "title": "IRGC retaliates: targets US airbase at 4:50 AM after CENTCOM strikes near Bandar Abbas — 'serious warning', further aggression to meet 'decisive' response",
+  "url": "https://www.euronews.com/2026/05/28/iran-says-it-targeted-a-us-airbase-in-retaliatory-strikes",
+  "snippet": "Following CENTCOM airstrikes near Bandar Abbas airport, the IRGC launched a retaliatory strike targeting the originating US airbase at 4:50 AM local time. The IRGC described the strike as a 'serious warning,' adding that any further US aggression would be met with a 'more decisive' response. The exchange marks the most direct US-IRGC military confrontation since the initial outbreak of the conflict, with both sides striking each other's military assets. Iran's state media framed the strike as a proportionate defensive response.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New direct IRGC-CENTCOM exchange — IRGC strikes US airbase in retaliation; escalates beyond warning shots to direct military exchange",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-011", "type": "Location", "name": "Bandar Abbas"},
+    {"id": "temp-013", "type": "Event", "name": "IRGC Retaliatory Strike on US Airbase (May 28, 4:50 AM)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-013"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "temp-013"},
+    {"subject": "temp-013", "predicate": "locatedNear", "object": "temp-011"},
+    {"subject": "ent-002", "predicate": "authorizes", "object": "temp-013"}
+  ]
+}

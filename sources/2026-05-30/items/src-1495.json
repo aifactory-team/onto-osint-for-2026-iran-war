@@ -1,0 +1,22 @@
+{
+  "id": "src-1495",
+  "title": "Oil monthly drop gas prices fall — NBC News on worst monthly decline since 2020",
+  "url": "https://www.nbcnews.com/business/energy/oil-monthly-drop-gas-prices-fall-rcna347518",
+  "snippet": "NBC News reports on the worst monthly oil price decline since March 2020, with Brent down 19% in May. Ties decline to Iran ceasefire expectations and anticipated Hormuz reopening. Notes downstream impact on US domestic gasoline prices.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_report": "2026-05-29/src-1461",
+  "related_item": "src-1484",
+  "tag_reason": "NBC News coverage of same oil price decline story; adds US domestic gas price impact angle",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-016", "type": "Indicator", "name": "Oil Price (May 2026 Monthly)"}
+  ],
+  "relations": [
+    {"subject": "temp-016", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "temp-016", "predicate": "drivenBy", "object": "ent-002"}
+  ]
+}

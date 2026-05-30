@@ -1,0 +1,22 @@
+{
+  "id": "src-1483",
+  "title": "Unconfirmed: IRGC Navy chief Ali Azmaei possibly killed in US airstrike on Bandar Abbas",
+  "url": "https://www.theweek.in/news/middle-east/2026/05/28/did-us-airstrike-kill-irgc-navy-chief-ali-azmaei-in-irans-bandar-abbas.amp.html",
+  "snippet": "Unconfirmed reports emerged that IRGC Navy Commander Ali Azmaei was killed in the US airstrike on the Bandar Abbas area. The report, circulating on Iranian social media and picked up by regional outlets, has not been confirmed by US or Iranian officials. If confirmed, it would represent a significant leadership loss for the IRGC Navy, which oversees operations in the Persian Gulf and Strait of Hormuz. Iran has not issued an official denial or confirmation.",
+  "source_name": "The Week India",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Unconfirmed high-value target elimination report — IRGC Navy commander death if confirmed would be major escalation signal; included with confidence caveat",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "temp-011", "type": "Location", "name": "Bandar Abbas"},
+    {"id": "temp-015", "type": "Person", "name": "Ali Azmaei", "note": "IRGC Navy Commander — unconfirmed KIA report"}
+  ],
+  "relations": [
+    {"subject": "temp-015", "predicate": "affiliatedWith", "object": "ent-005"},
+    {"subject": "temp-015", "predicate": "reportedKilledAt", "object": "temp-011"}
+  ]
+}

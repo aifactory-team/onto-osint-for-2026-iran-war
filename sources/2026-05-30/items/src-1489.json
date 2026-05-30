@@ -1,0 +1,21 @@
+{
+  "id": "src-1489",
+  "title": "Trump 'final determination' on Iran deal — PBS NewsHour",
+  "url": "https://www.pbs.org/newshour/world/trump-meeting-with-aides-to-make-final-determination-on-moving-forward-with-iran-deal",
+  "snippet": "PBS NewsHour reports Trump's announcement of Situation Room meeting for final determination on the Iran deal, corroborating Washington Post reporting.",
+  "source_name": "PBS NewsHour",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "reported",
+  "related_report": "2026-05-30/src-1479",
+  "related_item": "src-1479",
+  "tag_reason": "Same story as src-1479, different outlet",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Situation Room Final Determination Meeting (May 30)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "convenes", "object": "temp-010"}
+  ]
+}

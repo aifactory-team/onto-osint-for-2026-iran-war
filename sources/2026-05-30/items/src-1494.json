@@ -1,0 +1,22 @@
+{
+  "id": "src-1494",
+  "title": "Oil prices Iran ceasefire Strait Hormuz energy costs — CNBC follow-up on monthly decline",
+  "url": "https://www.cnbc.com/2026/05/29/oil-prices-iran-ceasefire-us-trump-strait-hormuz-energy-costs.html",
+  "snippet": "CNBC follow-up report on oil price declines driven by Iran ceasefire expectations and anticipated Hormuz reopening. Confirms ceasefire deal optimism as primary driver of May's historic price drop.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_report": "2026-05-29/src-1461",
+  "related_item": "src-1484",
+  "tag_reason": "Update on oil price data from src-1461; full month-end figures now available confirming -19% monthly drop",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-016", "type": "Indicator", "name": "Oil Price (May 2026 Monthly)"}
+  ],
+  "relations": [
+    {"subject": "temp-016", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "temp-016", "predicate": "drivenBy", "object": "ent-002"}
+  ]
+}

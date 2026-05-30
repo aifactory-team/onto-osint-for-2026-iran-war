@@ -1,0 +1,30 @@
+{
+  "id": "src-1485",
+  "title": "Pentagon hosts first-ever Israeli-Lebanese military talks May 29 — LAF Gen. Rodolphe Haykal leads Lebanon delegation, focus on Hezbollah containment",
+  "url": "https://www.jammin999fm.com/2026/05/29/pentagon-hosts-first-ever-israeli-lebanese-military-talks-aimed-at-curbing-hezbollah/",
+  "snippet": "The Pentagon hosted the first-ever direct Israeli-Lebanese military talks on May 29, 2026. Lebanon's Armed Forces (LAF) were represented by General Rodolphe Haykal. The talks focused on: ceasefire enforcement mechanisms, border stability arrangements, IDF withdrawal timelines from southern Lebanon, and the Lebanese Armed Forces' role in containing Hezbollah. Israel's delegation pushed for concrete disarmament commitments. The talks are parallel to political negotiations scheduled for June 2-3. US officials described the meeting as 'historic' and a 'critical building block' for long-term stability.",
+  "source_name": "Jammin 99.9",
+  "language": "en",
+  "discovered_date": "2026-05-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Confirmation that previously announced talks actually took place — new detail (Gen. Haykal identity, specific agenda items) not available in yesterday's src-1459",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "US Secretary of Defense"},
+    {"id": "temp-005", "type": "Event", "name": "Pentagon Security Track Meeting (May 29)"},
+    {"id": "temp-018", "type": "Person", "name": "Rodolphe Haykal", "note": "LAF General, Lebanon delegation lead"},
+    {"id": "temp-006", "type": "Concept", "name": "Pentagon Security Track"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-018", "predicate": "represents", "object": "ent-050"},
+    {"subject": "temp-018", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "targets", "object": "ent-047"},
+    {"subject": "ent-104", "predicate": "hosts", "object": "temp-005"}
+  ]
+}
