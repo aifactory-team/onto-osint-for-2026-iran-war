@@ -1,0 +1,159 @@
+{
+  "date": "2026-05-31",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_may31": "ended 2-hour Situation Room meeting without 'final determination' on MoU; demands: never nuclear, Hormuz immediately open unrestricted, no tolls"},
+      "source_ids": ["src-1499", "src-1505", "src-1506", "src-1507"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-104",
+      "type": "Person",
+      "name": "Pete Hegseth",
+      "properties": {"role": "US Defense Secretary", "action_may31": "Shangri-La Dialogue Singapore: US military 'more than capable' of resuming strikes, 'we control the strait', weapons stockpiles 'enough to get the job done'"},
+      "source_ids": ["src-1500"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mehdi Khanalizadeh",
+      "properties": {"role": "Iranian state TV pundit / Islamabad delegation insider", "affiliation": "Iran", "action": "claimed draft MoU breaches 8 of 10 Khamenei-approved conditions"},
+      "source_ids": ["src-1502"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Abolfazl Aboutorabi",
+      "properties": {"role": "Iranian lawmaker", "affiliation": "Iran Parliament", "action": "accused US of offering 'a lollipop' ($300B fund without guarantees) in exchange for Hormuz opening"},
+      "source_ids": ["src-1502"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Scott Bessent",
+      "properties": {"role": "US Treasury Secretary", "affiliation": "United States", "action": "revealed US seized ~$1B in Iranian crypto, 'outright grabbed the wallets', Iran stealing $400-500M/month via sanctions evasion"},
+      "source_ids": ["src-1503"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Situation Room No-Decision (May 30)",
+      "properties": {"date": "2026-05-30", "duration": "~2 hours", "outcome": "no decision announced", "participants": "Trump, Vance, Rubio, Hegseth, advisers"},
+      "source_ids": ["src-1499", "src-1506", "src-1507"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hegseth Shangri-La Speech (May 31)",
+      "properties": {"date": "2026-05-31", "location": "Singapore, Shangri-La Dialogue", "detail": "US military 'more than capable' of resuming strikes; 'we control the strait'; if Iran doesn't want deal, 'they can deal with the US military'"},
+      "source_ids": ["src-1500"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Fars MoU Rebuttal",
+      "properties": {"date": "2026-05-30", "detail": "Fars calls Trump's demands 'mixture of truth and falsehood'; disputes toll-free clause, nuclear dismantlement, says key is $12B frozen assets immediate payment"},
+      "source_ids": ["src-1501"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US $1B Iran Crypto Seizure",
+      "properties": {"date": "2026-05-30", "amount": "$1 billion cumulative", "method": "Operation Economic Fury", "detail": "Iran stealing $400-500M/month via sanctions evasion, US 'outright grabbed wallets'"},
+      "source_ids": ["src-1503"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oman Hormuz Mine Alert",
+      "properties": {"date": "2026-05-31", "location": "Strait of Hormuz, Omani territorial waters, Inshore Traffic Zone", "detail": "Oman Maritime Security Centre warns of suspected floating mine; status and origin unclear"},
+      "source_ids": ["src-1504"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "MoU Khamenei 8/10 Breach Claim",
+      "properties": {"date": "2026-05-30", "detail": "Insider Khanalizadeh claims MoU draft violates 8 of 10 Khamenei-approved conditions and contradicts SNSC ceasefire statement; Aboutorabi calls US offer 'a lollipop'"},
+      "source_ids": ["src-1502"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-456",
+      "type": "Event",
+      "name": "MoU 60-Day Framework",
+      "properties": {"status_may31": "text largely agreed Tuesday; Trump deferred decision Friday; Iran Fars disputes terms; dual non-approval from Trump and Khamenei"},
+      "source_ids": ["src-1499", "src-1501", "src-1502", "src-1506", "src-1507"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Ceasefire Statistics (Apr 16-May 27)",
+      "properties": {"date": "2026-04-16~2026-05-27", "idf_strikes": 1600, "hezbollah_attacks": 500, "detail": "'Illusion' of ceasefire — nominal truce with continuous military operations"},
+      "source_ids": ["src-1508"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_may31": "suspected floating mine in Omani waters; Hegseth 'we control the strait'; Trump demands immediate unrestricted opening"},
+      "source_ids": ["src-1499", "src-1500", "src-1504"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Singapore (Shangri-La Dialogue)",
+      "properties": {"type": "venue", "event": "IISS Shangri-La Dialogue 2026"},
+      "source_ids": ["src-1500"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1499"], "confidence": 1.0},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-1500"], "confidence": 1.0},
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "ent-456", "source_ids": ["src-1499"], "confidence": 0.95},
+    {"subject": "temp-008", "predicate": "opposes", "object": "ent-001", "source_ids": ["src-1501"], "confidence": 0.90},
+    {"subject": "temp-005", "predicate": "affiliatedWith", "object": "ent-003", "source_ids": ["src-1503"], "confidence": 1.0},
+    {"subject": "temp-009", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1503"], "confidence": 0.85},
+    {"subject": "temp-010", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1504"], "confidence": 1.0},
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "temp-011", "source_ids": ["src-1502"], "confidence": 0.90},
+    {"subject": "temp-007", "predicate": "follows", "object": "temp-006", "source_ids": ["src-1500"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-1508"], "confidence": 1.0},
+    {"subject": "temp-011", "predicate": "relatedTo", "object": "ent-046", "source_ids": ["src-1502"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 10,
+    "matched_entities": 5,
+    "total_relations": 11
+  }
+}

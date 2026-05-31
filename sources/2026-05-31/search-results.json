@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-31",
+  "collected_at": "2026-05-31T08:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 52,
+  "expanded_keywords": ["Trump Situation Room Iran deal", "IRGC Hormuz MoU", "Hegseth Shangri-La", "Iran Fars MoU contradicts", "Khamenei MoU breaches", "Bessent crypto seized Iran", "Hormuz mine Oman", "Israel Lebanon Litani Hezbollah", "Ali Azmaei IRGC", "이란 합의 트럼프 결정", "호르무즈 기뢰 오만", "이란 암호화폐 압류"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war deal Trump Situation Room decision May 31 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:01:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Trump calls a Situation Room meeting to decide on extending Iran ceasefire", "url": "https://www.washingtonpost.com/politics/2026/05/29/trump-calls-situation-room-meeting-decide-extending-iran-ceasefire/", "snippet": "Trump called Situation Room meeting for 'final determination' on Iran deal", "source_name": "Washington Post"},
+        {"title": "Trump ends Iran meeting without announcing 'final determination' on deal", "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html", "snippet": "Trump ended 2-hour Situation Room meeting without decision on 60-day MoU", "source_name": "CNBC"},
+        {"title": "Iran official says Trump is stalling talks with 'excessive demands'", "url": "https://www.nbcnews.com/world/iran/wait-iran-deal-continues-trump-final-determination-rcna347659", "snippet": "Iranian official accuses Trump of stalling with excessive demands", "source_name": "NBC News"},
+        {"title": "Trump says he's about to decide whether to approve the draft Iran deal", "url": "https://www.washingtontimes.com/news/2026/may/29/donald-trump-says-hes-decide-whether-approve-draft-iran-deal/", "snippet": "Trump considering 60-day ceasefire extension MoU", "source_name": "Washington Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran IRGC Hormuz MoU ceasefire June 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:02:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "US-Iran 60-day proposal: What we know", "url": "https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know", "snippet": "MoU would reopen Hormuz, lift US blockade, start 60-day nuclear talks", "source_name": "Al Jazeera"},
+        {"title": "Tentative U.S.-Iran deal would reopen Strait of Hormuz: 5 takeaways", "url": "https://thehill.com/policy/international/5900355-us-iran-ceasefire-extension-deal/", "snippet": "5 takeaways from tentative US-Iran deal on Hormuz reopening", "source_name": "The Hill"},
+        {"title": "What's in the proposed deal that could end the US-Iran conflict?", "url": "https://www.cnn.com/2026/05/24/middleeast/iran-us-proposed-deal-wwk-intl", "snippet": "CNN analysis of proposed MoU terms", "source_name": "CNN"},
+        {"title": "What to watch in the US-Iran memo to end the war", "url": "https://edition.cnn.com/2026/05/30/world/what-to-watch-iran-memo-intl", "snippet": "Key factors to watch as Trump deliberates on Iran MoU", "source_name": "CNN"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon Hezbollah Litani River military operations May 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:03:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Israel expands military ground operations in Southern Lebanon as clashes with Hezbollah intensify", "url": "https://www.euronews.com/2026/05/27/israel-expands-military-ground-operations-in-southern-lebanon-as-clashes-with-hezbollah-in", "snippet": "Israel expands ground ops in southern Lebanon", "source_name": "Euronews"},
+        {"title": "Israeli attacks kill 14 in Lebanon as Pentagon hosts security talks", "url": "https://www.aljazeera.com/news/2026/5/29/five-killed-in-lebanon-as-israeli-forces-advance-across-key-litani-river", "snippet": "14 killed in Israeli bombing in Lebanon, Pentagon hosts military talks", "source_name": "Al Jazeera"},
+        {"title": "1,600 Strikes, 500 Drone Attacks: The 'Illusion' Of Israel-Lebanon Ceasefire", "url": "https://www.terrorismwatch.org/2026/05/1600-strikes-500-drone-attacks-illusion.html", "snippet": "1600 IDF strikes and 500 Hezbollah attacks since Apr 16 ceasefire", "source_name": "Terrorism Watch"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 트럼프 합의 호르무즈 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-31T08:04:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "\"호르무즈 개방·핵 반대\"‥트럼프 손 들어줬다?", "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6822583_36989.html", "snippet": "호르무즈 개방과 핵 반대 조건 분석", "source_name": "MBC"},
+        {"title": "\"미-이란 양해각서 합의‥트럼프 최종 승인 남아\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6826063_37012.html", "snippet": "미-이란 양해각서 합의됐으나 트럼프 최종 승인 대기", "source_name": "MBC"},
+        {"title": "이란 \"최종 합의는 아직\"‥군사적 충돌도 계속", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6826349_37012.html", "snippet": "이란 외무부 '메시지 교환 계속, 최종합의 아직'", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran deal no decision next week ceasefire 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:05:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Trump says a ceasefire extension deal with Iran is near, but core issues remain", "url": "https://www.npr.org/2026/05/30/nx-s1-5839359/trump-says-a-ceasefire-extension-deal-with-iran-is-near-but-core-issues-remain", "snippet": "NPR: deal near but core issues remain, Trump has not decided", "source_name": "NPR"},
+        {"title": "Live Updates: Trump decision yet to come on Iran deal as Hegseth talks negotiations", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-vance-ceasefire-strait-of-hormuz-deal-close/", "snippet": "CBS live updates: Trump decision still pending, Hegseth addresses negotiations", "source_name": "CBS News"},
+        {"title": "Trump meets team to decide on Iran deal", "url": "https://www.axios.com/2026/05/29/trump-iran-deal-decision", "snippet": "Axios: Trump met advisers but decision deferred", "source_name": "Axios"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Fars MoU contradicts Trump demands mixture truth lies 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:06:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "'Mix of truth and lies': Iran on Trump's nuclear, Hormuz demands ahead of US ceasefire decision", "url": "https://www.theweek.in/news/middle-east/2026/05/30/mix-of-truth-and-lies-iran-on-trump-s-nuclear-hormuz-demands-ahead-of-ceasefire-decision.html", "snippet": "Fars calls Trump's demands 'mixture of truth and falsehood', says they contradict MoU text", "source_name": "The Week India"},
+        {"title": "Draft US MoU breaches eight of 10 terms approved by Khamenei, insider says", "url": "https://www.iranintl.com/en/202605298158", "snippet": "Iran International: MoU breaches 8 of 10 Khamenei-approved conditions", "source_name": "Iran International"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hegseth Shangri-La Dialogue Singapore military ready resume combat Iran 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:07:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Live updates: US military ready to resume combat in Gulf if needed, US defense secretary warns", "url": "https://www.cnn.com/2026/05/29/world/live-news/iran-trump-war-news", "snippet": "Hegseth at Shangri-La: US military ready to resume combat", "source_name": "CNN"},
+        {"title": "Live Updates: Hegseth signals US military is ready after Trump Situation Room meeting ends without deal", "url": "https://www.foxnews.com/live-news/iran-war-news-trump-update-strait-hormuz-lebanon-oil-prices-may-30", "snippet": "Hegseth signals readiness after Trump meeting ends without decision", "source_name": "Fox News"},
+        {"title": "Pentagon Ready to Resume Strikes if Iran Peace Deal Collapses", "url": "https://www.kyivpost.com/post/77174", "snippet": "Pentagon ready to resume strikes if deal collapses", "source_name": "Kyiv Post"},
+        {"title": "US 'More Than Capable' Of Resuming Strikes Against Iran, Hegseth Says", "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html", "snippet": "Hegseth: US more than capable of resuming strikes, weapons stockpiles sufficient", "source_name": "RFE/RL"},
+        {"title": "US Ready to Restart Attacks on Iran if Deal Falls Through–Hegseth", "url": "https://www.newsweek.com/us-ready-to-restart-attacks-on-iran-if-deal-falls-through-hegseth-12012217", "snippet": "Hegseth: US ready to restart attacks if deal falls through", "source_name": "Newsweek"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran cryptocurrency seized billion Bessent sanctions PGSA 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:08:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "U.S. Government Has Seized $1 Billion of Iran's crypto: Bessent", "url": "https://www.cryptotimes.io/2026/05/30/u-s-government-has-seized-1-billion-of-irans-crypto-bessent/", "snippet": "Bessent: US seized $1B in Iranian crypto, 'outright grabbed the wallets'", "source_name": "CryptoTimes"},
+        {"title": "'We Outright Grabbed The Wallets': Bessent Boasts $1BN In Iran State Crypto Seized", "url": "https://www.zerohedge.com/crypto/we-outright-grabbed-wallets-bessent-boasts-1bn-iran-state-crypto-seized-date", "snippet": "Bessent at Reagan Forum: $1B Iranian crypto seized to date", "source_name": "ZeroHedge"},
+        {"title": "US sanctions Iranian buyers of military tech, seizes $1b crypto assets", "url": "https://www.24newshd.tv/30-May-2026/us-sanctions-iranian-buyers-military-tech-seizes-dollar-1b-crypto-assets", "snippet": "US sanctions Iranian military tech buyers, seizes $1B crypto", "source_name": "24 News HD"},
+        {"title": "U.S. says it seized about $1 billion in Iranian crypto as pressure campaign expands", "url": "https://www.coindesk.com/business/2026/05/30/u-s-says-it-seized-about-usd1-billion-in-iranian-crypto-as-pressure-campaign-expands", "snippet": "CoinDesk: US seized $1B Iranian crypto under Operation Economic Fury", "source_name": "CoinDesk"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hormuz mine Oman warning floating mine May 31 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:09:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Oman issues maritime alert over suspected floating mine in Hormuz Strait", "url": "https://english.news.cn/20260531/bb95c39249c64ce6bcbf8ca952f1e0e9/c.html", "snippet": "Oman Maritime Security Centre: suspected floating mine in Strait of Hormuz, Omani territorial waters", "source_name": "Xinhua"},
+        {"title": "Suspected floating mine spotted in Strait of Hormuz, Oman warns mariners", "url": "http://thepeninsulaqatar.com/article/30/05/2026/suspected-floating-mine-spotted-in-strait-of-hormuz-oman-warns-mariners", "snippet": "Suspected floating mine spotted in Hormuz inshore traffic zone", "source_name": "The Peninsula Qatar"},
+        {"title": "Mine Alert Jolts Hormuz Shipping Lane", "url": "https://www.millichronicle.com/2026/05/67945.html", "snippet": "Mine alert jolts Hormuz shipping lanes, heightens tensions", "source_name": "Milli Chronicle"},
+        {"title": "Oman warns of suspected floating mine near Strait of Hormuz", "url": "https://en.axar.az/news/world/1096309.html", "snippet": "Oman warns vessels to exercise caution", "source_name": "Axar.az"},
+        {"title": "Oman Maritime Security Centre warns of suspected sea mine in Strait of Hormuz", "url": "https://www.arabnews.com/node/2645440/middle-east", "snippet": "Arab News: Oman maritime security alert on mine", "source_name": "Arab News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 합의 트럼프 결정 미루기 5월 31일 2026",
+      "language": "ko",
+      "timestamp": "2026-05-31T08:10:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "트럼프 대통령, 이란 관련 합의 최종 결정 보류", "url": "https://korean.cri.cn/2026/05/30/ARTI1780129966213748", "snippet": "트럼프 상황실 회의 후 최종 결정 보류", "source_name": "CRI Korean"},
+        {"title": "트럼프 '최종판단' 회의했지만…이란 휴전 결론 못내", "url": "https://www.fnnews.com/news/202605300633468743", "snippet": "트럼프 최종판단 회의 결론 없이 종료", "source_name": "파이낸셜뉴스"},
+        {"title": "이란 \"최종 합의는 아직\"‥군사적 충돌도 계속", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6826349_37012.html", "snippet": "이란 외무부: 메시지 교환 중이나 최종합의 아직", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Ali Azmaei killed confirmed Bandar Abbas 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:11:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Fact Check: IRGC Navy commander Ali Azmaei killed in US strike on Bandar Abbas? Here's what we know", "url": "https://sundayguardianlive.com/world/fact-check-irgc-navy-commander-ali-azmaei-killed-in-us-strike-on-bandar-abbas-heres-what-we-know-197775/", "snippet": "Fact check: Azmaei death unconfirmed, Iranian State TV denied", "source_name": "Sunday Guardian Live"},
+        {"title": "US Strikes on Bandar Abbas: Was New IRGC Navy Chief Ali Azmaei Killed?", "url": "https://gulfnews.com/world/mena/did-the-us-strike-kill-new-irgc-navy-chief-ali-azmaei-1.500555414", "snippet": "Azmaei death unconfirmed, three other IRGC members confirmed killed", "source_name": "Gulf News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "NPR Iran deal near core issues ceasefire May 30 2026",
+      "language": "en",
+      "timestamp": "2026-05-31T08:12:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Trump says a ceasefire extension deal with Iran is near, but core issues remain", "url": "https://www.npr.org/2026/05/30/nx-s1-5839359/trump-says-a-ceasefire-extension-deal-with-iran-is-near-but-core-issues-remain", "snippet": "NPR: deal near, core issues remain, no decision from Trump", "source_name": "NPR"},
+        {"title": "Live Updates: Trump decision yet to come on Iran deal as Hegseth talks negotiations", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-vance-ceasefire-strait-of-hormuz-deal-close/", "snippet": "CBS: decision pending, Hegseth addresses negotiations at Shangri-La", "source_name": "CBS News"}
+      ]
+    }
+  ]
+}

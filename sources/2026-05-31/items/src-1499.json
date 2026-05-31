@@ -1,0 +1,25 @@
+{
+  "id": "src-1499",
+  "title": "Trump ends Iran meeting without announcing 'final determination' on deal — 2-hour Situation Room session concludes with no decision on 60-day MoU",
+  "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html",
+  "snippet": "Trump ended a meeting in the White House Situation Room without announcing his final decision on whether to approve a deal to pause the three-month-old Iran war. The MoU text was largely agreed to as of Tuesday but Trump told mediators he needed more time. Before the meeting, Trump demanded Iran must agree to never have a nuclear weapon, Hormuz must be immediately open with no tolls. Fars pushed back saying demands contradict the MoU text.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "새로운 사건 — 상황실 회의가 결정 없이 종료된 것은 5/30 보고서의 '최종 결정 대기' 상태에서 진전된 신규 발전",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-006", "type": "Event", "name": "Trump Situation Room No-Decision"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-006"},
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

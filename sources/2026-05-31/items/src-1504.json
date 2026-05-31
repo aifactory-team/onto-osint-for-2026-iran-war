@@ -1,0 +1,20 @@
+{
+  "id": "src-1504",
+  "title": "Oman Maritime Security Centre: suspected floating mine in Strait of Hormuz — warns mariners in Omani territorial waters",
+  "url": "https://english.news.cn/20260531/bb95c39249c64ce6bcbf8ca952f1e0e9/c.html",
+  "snippet": "Oman's Maritime Security Centre issued alert on Saturday (May 31) after floating object suspected to be a mine sighted west of Inshore Traffic Zone in Strait of Hormuz within Omani territorial waters. Centre urged all seafarers/fishermen/vessels to exercise utmost caution. Advises maintaining safe distance from suspicious objects, immediately report to authorities. Unclear if object recovered.",
+  "source_name": "Xinhua",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 호르무즈 해협 오만 영해에서 부유기뢰 의심 물체 발견, 해양 안전 경보 발령",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-010", "type": "Event", "name": "Oman Hormuz Mine Alert"}
+  ],
+  "relations": [
+    {"subject": "temp-010", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

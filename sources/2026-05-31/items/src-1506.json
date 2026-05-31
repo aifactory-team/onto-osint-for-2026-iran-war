@@ -1,0 +1,20 @@
+{
+  "id": "src-1506",
+  "title": "NPR: ceasefire extension deal near but core issues remain — Trump has not decided",
+  "url": "https://www.npr.org/2026/05/30/nx-s1-5839359/trump-says-a-ceasefire-extension-deal-with-iran-is-near-but-core-issues-remain",
+  "snippet": "NPR reports Trump says ceasefire extension deal with Iran is near but core issues remain. 60-day MoU largely agreed at negotiator level. Trump has not given final approval. Core issues: Iran's enriched uranium stockpile, frozen assets, Lebanon conflict inclusion. Pakistan mediation channel active.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — NPR의 종합 분석으로 핵심 쟁점(우라늄, 동결자산, 레바논)을 체계적으로 정리",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-1501",
+  "title": "Iran Fars: Trump's demands 'mixture of truth and falsehood' — contradicts MoU text on tolls, nuclear materials, frozen assets ($12B)",
+  "url": "https://www.theweek.in/news/middle-east/2026/05/30/mix-of-truth-and-lies-iran-on-trump-s-nuclear-hormuz-demands-ahead-of-ceasefire-decision.html",
+  "snippet": "Fars reported Trump's demands 'raised issues that contradict the provisions of the agreement's text.' Key disputes: (1) no toll-free clause in MoU text despite Trump's claim, (2) no nuclear dismantlement reference in draft, (3) Iran insists 'most important part' is $12B frozen assets immediate payment — will refuse further negotiations without it. Trump's assertions characterized as 'manufactured victory'.",
+  "source_name": "The Week India",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란 국영 Fars의 공식 MoU 반박은 양측 해석 차이를 처음으로 구체적으로 드러낸 새로운 발전",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-008", "type": "Event", "name": "Iran Fars MoU Rebuttal"}
+  ],
+  "relations": [
+    {"subject": "temp-008", "predicate": "opposes", "object": "ent-001"}
+  ]
+}

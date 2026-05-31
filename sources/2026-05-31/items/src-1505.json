@@ -1,0 +1,22 @@
+{
+  "id": "src-1505",
+  "title": "Iran official: Trump 'stalling' with 'excessive demands' — NBC reports messages still being exchanged",
+  "url": "https://www.nbcnews.com/world/iran/wait-iran-deal-continues-trump-final-determination-rcna347659",
+  "snippet": "Senior Iranian official told NBC Trump is 'pursuing excessive demands in the negotiations.' Iran Foreign Ministry spokesperson says 'messages are still being exchanged but no final agreement yet.' Deal described as near but outstanding issues include Iran's uranium stockpile, frozen assets, and Lebanon conflict.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란 고위관리의 '과도한 요구' 비판과 외무부 대변인의 '메시지 교환 중' 확인은 신규 발언",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-066", "type": "Person", "name": "Esmail Baghaei", "role": "Iran Foreign Ministry Spokesman"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001"}
+  ]
+}

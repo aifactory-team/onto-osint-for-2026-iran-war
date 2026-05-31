@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-05-31",
   "nodes": [
     {
       "id": "ent-001",
@@ -10625,11 +10625,33 @@
     {"subject": "ent-466", "predicate": "affiliatedWith", "object": "ent-050", "date": "2026-05-30", "confidence": 0.90, "type": "explicit", "source_id": "src-1486"},
     {"subject": "ent-468", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "concurrent_pressure"},
     {"subject": "ent-470", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "escalate_to_negotiate"},
-    {"subject": "ent-471", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "parallel_tracks"}
+    {"subject": "ent-471", "predicate": "relatedTo", "object": "ent-467", "date": "2026-05-30", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "parallel_tracks"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-472", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1499"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-472", "date": "2026-05-31", "confidence": 0.95, "type": "explicit", "source_id": "src-1499"},
+    {"subject": "ent-472", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.95, "type": "explicit", "source_id": "src-1499"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "ent-473", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1500"},
+    {"subject": "ent-473", "predicate": "follows", "object": "ent-472", "date": "2026-05-31", "confidence": 0.85, "type": "explicit", "source_id": "src-1500"},
+    {"subject": "ent-474", "predicate": "opposes", "object": "ent-001", "date": "2026-05-31", "confidence": 0.90, "type": "explicit", "source_id": "src-1501"},
+    {"subject": "ent-474", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.90, "type": "explicit", "source_id": "src-1501"},
+    {"subject": "ent-476", "predicate": "relatedTo", "object": "ent-475", "date": "2026-05-31", "confidence": 0.90, "type": "explicit", "source_id": "src-1502"},
+    {"subject": "ent-475", "predicate": "relatedTo", "object": "ent-046", "date": "2026-05-31", "confidence": 0.85, "type": "explicit", "source_id": "src-1502"},
+    {"subject": "ent-477", "predicate": "affiliatedWith", "object": "ent-003", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1503"},
+    {"subject": "ent-478", "predicate": "opposes", "object": "ent-002", "date": "2026-05-31", "confidence": 0.90, "type": "explicit", "source_id": "src-1503"},
+    {"subject": "ent-477", "predicate": "participatesIn", "object": "ent-478", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1503"},
+    {"subject": "ent-479", "predicate": "locatedIn", "object": "ent-008", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1504"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1508"},
+    {"subject": "ent-480", "predicate": "locatedIn", "object": "ent-050", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "source_id": "src-1508"},
+    {"subject": "ent-066", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.85, "type": "explicit", "source_id": "src-1505"},
+    {"subject": "ent-472", "predicate": "causedBy", "object": "ent-475", "date": "2026-05-31", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "mirrored_non_approval"},
+    {"subject": "ent-473", "predicate": "follows", "object": "ent-472", "date": "2026-05-31", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "diplomatic_stall_to_military"},
+    {"subject": "ent-474", "predicate": "relatedTo", "object": "ent-475", "date": "2026-05-31", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "domestic_opposition_coalition"},
+    {"subject": "ent-478", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "economic_leverage"},
+    {"subject": "ent-479", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "implementation_obstacle"},
+    {"subject": "ent-480", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "lebanon_leverage"}
   ],
   "stats": {
-    "total_nodes": 438,
-    "total_edges": 143,
-    "total_triples": 1045
+    "total_nodes": 449,
+    "total_edges": 166,
+    "total_triples": 1068
   }
 }

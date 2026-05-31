@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-31",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-472", "source_id": "src-1499", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-472", "source_id": "src-1499", "date": "2026-05-31", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-472", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1499", "date": "2026-05-31", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "ent-473", "source_id": "src-1500", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-473", "predicate": "follows", "object": "ent-472", "source_id": "src-1500", "date": "2026-05-31", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-474", "predicate": "opposes", "object": "ent-001", "source_id": "src-1501", "date": "2026-05-31", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-474", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1501", "date": "2026-05-31", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-476", "predicate": "relatedTo", "object": "ent-475", "source_id": "src-1502", "date": "2026-05-31", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-475", "predicate": "relatedTo", "object": "ent-046", "source_id": "src-1502", "date": "2026-05-31", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-477", "predicate": "affiliatedWith", "object": "ent-003", "source_id": "src-1503", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-478", "predicate": "opposes", "object": "ent-002", "source_id": "src-1503", "date": "2026-05-31", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-477", "predicate": "participatesIn", "object": "ent-478", "source_id": "src-1503", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-479", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1504", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1508", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-480", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1508", "date": "2026-05-31", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-481", "predicate": "relatedTo", "object": "ent-475", "source_id": "src-1502", "date": "2026-05-31", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-066", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1505", "date": "2026-05-31", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1499", "date": "2026-05-31", "confidence": 1.0, "type": "explicit", "note": "Trump still deliberating MoU, no decision after Situation Room"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001", "source_id": "src-1501", "date": "2026-05-31", "confidence": 0.90, "type": "explicit", "note": "Iran Fars publicly contradicts Trump's stated demands"},
+    {"subject": "ent-046", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1502", "date": "2026-05-31", "confidence": 0.80, "type": "explicit", "note": "Khamenei also has not approved MoU; mirrored non-approval"},
+    {"subject": "ent-104", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1500", "date": "2026-05-31", "confidence": 0.90, "type": "explicit", "note": "Hegseth claims US controls Hormuz at Shangri-La"},
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1499", "date": "2026-05-31", "confidence": 0.95, "type": "explicit", "note": "Hormuz remains central to MoU terms"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-472", "predicate": "causedBy", "object": "ent-475", "source_id": null, "date": "2026-05-31", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "reasoning": "트럼프 결정 보류 ← 하메네이 비승인 (CNN 'mirrored positions') — 양측 최고 지도자 모두 미승인으로 상호 연관"},
+    {"subject": "ent-473", "predicate": "follows", "object": "ent-472", "source_id": null, "date": "2026-05-31", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "트럼프 결정 보류 → 헤그세스 샹그릴라 군사 경고 — 외교 교착 시 군사 대안 시그널"},
+    {"subject": "ent-474", "predicate": "relatedTo", "object": "ent-475", "source_id": null, "date": "2026-05-31", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "Fars MoU 반박과 하메네이 조건 위반 주장이 동시 발생 — 이란 내부 MoU 반대 연합 형성"},
+    {"subject": "ent-478", "predicate": "relatedTo", "object": "ent-456", "source_id": null, "date": "2026-05-31", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "reasoning": "$1B 암호화폐 압류는 MoU 협상과 병행하는 경제 압박 — 협상 레버리지로 활용"},
+    {"subject": "ent-479", "predicate": "relatedTo", "object": "ent-456", "source_id": null, "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "rule": "co_participation", "reasoning": "호르무즈 부유기뢰 발견은 MoU 핵심 쟁점(기뢰 제거)과 직결 — 이행 난제 시사"},
+    {"subject": "ent-480", "predicate": "relatedTo", "object": "ent-456", "source_id": null, "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "rule": "co_participation", "reasoning": "레바논 휴전 실패 통계가 이란 MoU에서 레바논 포함 요구와 연결 — 이란 협상 레버리지"}
+  ],
+  "stats": {
+    "new_nodes": 11,
+    "new_edges": 17,
+    "inferred_edges": 6
+  }
+}

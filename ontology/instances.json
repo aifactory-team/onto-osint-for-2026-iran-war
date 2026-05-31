@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "entities": [
     {
       "id": "ent-001",
@@ -5527,9 +5527,144 @@
       "first_seen": "2026-05-30",
       "last_seen": "2026-05-30",
       "mention_count": 2
+    },
+    {
+      "id": "ent-472",
+      "type": "Event",
+      "name": "Trump Situation Room No-Decision (May 30)",
+      "properties": {
+        "date": "2026-05-30",
+        "duration": "~2 hours",
+        "outcome": "no decision announced",
+        "participants": "Trump, Vance, Rubio, Hegseth, advisers",
+        "context": "Trump ended meeting without 'final determination' on 60-day MoU; MoU text largely agreed Tuesday; both Trump and Khamenei have not approved"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-473",
+      "type": "Event",
+      "name": "Hegseth Shangri-La Speech (May 31)",
+      "properties": {
+        "date": "2026-05-31",
+        "location": "Singapore, Shangri-La Dialogue",
+        "detail": "US military 'more than capable' of resuming strikes; 'we control the strait'; if Iran doesn't want deal 'they can deal with US military'; weapons stockpiles 'enough to get the job done'"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-474",
+      "type": "Event",
+      "name": "Iran Fars MoU Rebuttal",
+      "properties": {
+        "date": "2026-05-30",
+        "detail": "Fars calls Trump's demands 'mixture of truth and falsehood'; disputes: (1) no toll-free clause in MoU, (2) no nuclear dismantlement reference, (3) key is $12B frozen assets immediate payment; characterizes Trump as 'manufactured victory'"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-475",
+      "type": "Event",
+      "name": "MoU Khamenei 8/10 Breach Claim",
+      "properties": {
+        "date": "2026-05-30",
+        "detail": "Insider Khanalizadeh: MoU draft breaches 8 of 10 Khamenei-approved terms; contradicts SNSC ceasefire statement; Aboutorabi: US offering 'lollipop' ($300B fund without guarantees)",
+        "significance": "Reveals internal Iranian opposition to MoU terms from conservative/establishment insiders"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-476",
+      "type": "Person",
+      "name": "Mehdi Khanalizadeh",
+      "properties": {
+        "role": "Iranian state TV pundit / Islamabad delegation insider",
+        "affiliation": "Iran",
+        "action": "claimed draft MoU breaches 8 of 10 Khamenei-approved conditions"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-477",
+      "type": "Person",
+      "name": "Scott Bessent",
+      "properties": {
+        "role": "US Treasury Secretary",
+        "affiliation": "United States",
+        "action": "revealed US seized ~$1B Iranian crypto; 'outright grabbed the wallets'; Iran stealing $400-500M/month via sanctions evasion"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-478",
+      "type": "Event",
+      "name": "US $1B Iran Crypto Seizure",
+      "properties": {
+        "date": "2026-05-30",
+        "amount": "$1 billion cumulative",
+        "method": "Operation Economic Fury",
+        "detail": "Bessent at Reagan Forum: 'outright grabbed wallets'; builds on April $344M USDT/Tron freeze; Iran stealing $400-500M/month"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-479",
+      "type": "Event",
+      "name": "Oman Hormuz Mine Alert (May 31)",
+      "properties": {
+        "date": "2026-05-31",
+        "location": "Strait of Hormuz, Omani territorial waters, Inshore Traffic Zone",
+        "detail": "Oman Maritime Security Centre warns of suspected floating mine; urges all vessels exercise utmost caution; origin and status unclear"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-480",
+      "type": "Event",
+      "name": "Lebanon Ceasefire Statistics (Apr 16-May 27)",
+      "properties": {
+        "date": "2026-04-16~2026-05-27",
+        "idf_strikes": 1600,
+        "hezbollah_attacks": 500,
+        "total_killed": 3213,
+        "total_wounded": 9700,
+        "detail": "'Illusion' of ceasefire — both sides conducting continuous operations despite nominal truce"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-481",
+      "type": "Person",
+      "name": "Abolfazl Aboutorabi",
+      "properties": {
+        "role": "Iranian lawmaker",
+        "affiliation": "Iran Parliament",
+        "action": "accused US of offering 'a lollipop' — $300B reconstruction fund without guarantees — in exchange for Hormuz reopening"
+      },
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "mention_count": 1
     }
   ],
-  "total_count": 423,
+  "total_count": 434,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5858,6 +5993,13 @@
       "target": "7 new entities (ent-465~ent-471), 10 existing updated",
       "reason": "트럼프 상황실 '최종 결정'(호르무즈 무조건 개방·핵 불보유 요구·MoU 초안 동맹 공유), IRGC 미 공군기지 보복 타격(4:50 AM·Bandar Abbas 5/26 공습 대응·'중대 경고'), IRGC '완전한 파멸' 위협(CNN 외교실패 분석), 알리 아즈마에이 IRGC 해군사령관 사망 미확인 보도, 5월 유가 -19%(2020년 3월 이후 최대 월간 하락·Brent $92.05/WTI $87.36), IDF 리타니강 36사단 도하(네타냐후 직접 확인·베이루트·베카·전선 전체 작전), 펜타곤 이-레 최초 군사 회담(5/29·하이칼 LAF 대표). 스키마 변경 없음",
       "source_ids": ["src-1480", "src-1481", "src-1482", "src-1483", "src-1484", "src-1485", "src-1486", "src-1487", "src-1488", "src-1489"]
+    },
+    {
+      "date": "2026-05-31",
+      "action": "add_instances",
+      "target": "11 new entities (ent-472~ent-481 + ent-476/477/481 persons), 5 existing updated",
+      "reason": "트럼프 상황실 2시간 회의 결정 보류(MoU 미승인), 헤그세스 싱가포르 샹그릴라 대화 군사재개 경고('we control the strait'), 이란 Fars MoU 반박('진실과 거짓의 혼합'·통행료/핵/동결자산 $12B 쟁점), 이란 인사이더 MoU 하메네이 10개 조건 중 8개 위반 주장(카날리자데·아부토라비 '롤리팝'), 베센트 이란 암호화폐 $1B 압류('지갑을 통째로 잡았다'), 오만 호르무즈 부유기뢰 경보, 레바논 휴전 통계(IDF 1,600회·헤즈볼라 500회 공격·3,213명 사망). 스키마 변경 없음",
+      "source_ids": ["src-1499", "src-1500", "src-1501", "src-1502", "src-1503", "src-1504", "src-1505", "src-1506", "src-1507", "src-1508"]
     }
   ]
 }

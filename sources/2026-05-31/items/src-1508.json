@@ -1,0 +1,22 @@
+{
+  "id": "src-1508",
+  "title": "1,600 strikes, 500 drone attacks: The 'illusion' of Israel-Lebanon ceasefire — ceasefire statistics since Apr 16",
+  "url": "https://www.terrorismwatch.org/2026/05/1600-strikes-500-drone-attacks-illusion.html",
+  "snippet": "Since the April 16 ceasefire announcement, IDF has conducted nearly 1,600 strikes across Lebanon while Hezbollah carried out approximately 500 rocket and drone attacks targeting Israeli forces. Total Lebanon war deaths: 3,213 killed, 9,700+ wounded since war start. Article characterizes ceasefire as 'illusion' with continuous military operations from both sides.",
+  "source_name": "Terrorism Watch",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 4/16 이후 양측 군사 행동의 종합 통계(IDF 1,600회, 헤즈볼라 500회)를 최초 집계",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-013", "type": "Event", "name": "Lebanon Ceasefire Statistics"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-1507",
+  "title": "CNN: What to watch in the US-Iran memo to end the war — key factors in Trump deliberation",
+  "url": "https://edition.cnn.com/2026/05/30/world/what-to-watch-iran-memo-intl",
+  "snippet": "CNN analysis of key factors in Trump's MoU deliberation: (1) Iran-US escalating military clashes may undermine deal, (2) Lebanon conflict — Iran insisting on inclusion, (3) Khamenei's approval uncertainty, (4) Trump's domestic political calculus, (5) oil price movements as barometer. Notes that Trump and Khamenei are in mirrored positions — both have negotiating teams who agreed, both leaders haven't signed off.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — CNN 분석의 '거울상(mirrored positions)' 프레이밍과 5가지 변수 분석은 새로운 관점",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": []
+}

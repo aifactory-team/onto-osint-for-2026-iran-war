@@ -1,0 +1,24 @@
+{
+  "id": "src-1502",
+  "title": "Iran International: Draft MoU breaches 8 of 10 terms approved by Khamenei — insider Khanalizadeh claims",
+  "url": "https://www.iranintl.com/en/202605298158",
+  "snippet": "Mehdi Khanalizadeh, state TV pundit who accompanied Iran's Islamabad negotiating team, said draft MoU violates 8 of 10 conditions approved by Mojtaba Khamenei and contradicts SNSC ceasefire statement. Lawmaker Aboutorabi accused US of offering 'a lollipop' — $300B reconstruction fund without guarantees — for Hormuz reopening. Israeli sources say 'no indication' Khamenei has approved MoU terms. JPost: Khamenei non-approval is why Trump also hasn't decided.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 — 이란 내부 인사이더의 MoU 구체적 위반 주장, 하메네이 비승인 이유 최초 상세 보도",
+  "entities": [
+    {"id": "temp-003", "type": "Person", "name": "Mehdi Khanalizadeh", "role": "State TV pundit / insider"},
+    {"id": "temp-004", "type": "Person", "name": "Abolfazl Aboutorabi", "role": "Iranian lawmaker"},
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Supreme Leader"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"},
+    {"id": "temp-011", "type": "Event", "name": "MoU Khamenei 8/10 Breach Claim"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "temp-011"},
+    {"subject": "temp-011", "predicate": "relatedTo", "object": "ent-046"}
+  ]
+}

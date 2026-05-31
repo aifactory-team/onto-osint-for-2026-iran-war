@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-31",
+  "total": 20,
+  "new": 10,
+  "reported": 5,
+  "update": 5,
+  "items": [
+    {"id": "src-1499", "title": "Trump ends Iran meeting without announcing 'final determination' on deal — 2-hour Situation Room session concludes with no decision on 60-day MoU", "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html", "tag": "new", "related_report": null, "entity_count": 6},
+    {"id": "src-1500", "title": "Hegseth at Shangri-La Dialogue: US military 'more than capable' of resuming strikes, 'we control the strait'", "url": "https://www.newsweek.com/us-ready-to-restart-attacks-on-iran-if-deal-falls-through-hegseth-12012217", "tag": "new", "related_report": null, "entity_count": 5},
+    {"id": "src-1501", "title": "Iran Fars: Trump's demands 'mixture of truth and falsehood' — contradicts MoU text on tolls, nuclear materials, frozen assets ($12B)", "url": "https://www.theweek.in/news/middle-east/2026/05/30/mix-of-truth-and-lies-iran-on-trump-s-nuclear-hormuz-demands-ahead-of-ceasefire-decision.html", "tag": "new", "related_report": null, "entity_count": 5},
+    {"id": "src-1502", "title": "Iran International: Draft MoU breaches 8 of 10 terms approved by Khamenei — insider Khanalizadeh claims", "url": "https://www.iranintl.com/en/202605298158", "tag": "new", "related_report": null, "entity_count": 5},
+    {"id": "src-1503", "title": "Bessent: US seized $1 billion in Iranian cryptocurrency — 'outright grabbed the wallets' at Reagan Forum", "url": "https://www.coindesk.com/business/2026/05/30/u-s-says-it-seized-about-usd1-billion-in-iranian-crypto-as-pressure-campaign-expands", "tag": "new", "related_report": null, "entity_count": 4},
+    {"id": "src-1504", "title": "Oman Maritime Security Centre: suspected floating mine in Strait of Hormuz — warns mariners in Omani territorial waters", "url": "https://english.news.cn/20260531/bb95c39249c64ce6bcbf8ca952f1e0e9/c.html", "tag": "new", "related_report": null, "entity_count": 3},
+    {"id": "src-1505", "title": "Iran official: Trump 'stalling' with 'excessive demands' — NBC reports messages still being exchanged", "url": "https://www.nbcnews.com/world/iran/wait-iran-deal-continues-trump-final-determination-rcna347659", "tag": "new", "related_report": null, "entity_count": 4},
+    {"id": "src-1506", "title": "NPR: ceasefire extension deal near but core issues remain — Trump has not decided", "url": "https://www.npr.org/2026/05/30/nx-s1-5839359/trump-says-a-ceasefire-extension-deal-with-iran-is-near-but-core-issues-remain", "tag": "new", "related_report": null, "entity_count": 4},
+    {"id": "src-1507", "title": "CNN: What to watch in the US-Iran memo to end the war — key factors in Trump deliberation", "url": "https://edition.cnn.com/2026/05/30/world/what-to-watch-iran-memo-intl", "tag": "new", "related_report": null, "entity_count": 4},
+    {"id": "src-1508", "title": "1,600 strikes, 500 drone attacks: The 'illusion' of Israel-Lebanon ceasefire — ceasefire statistics since Apr 16", "url": "https://www.terrorismwatch.org/2026/05/1600-strikes-500-drone-attacks-illusion.html", "tag": "new", "related_report": null, "entity_count": 4},
+    {"id": "src-1509", "title": "트럼프 '최종판단' 회의했지만…이란 휴전 결론 못내", "url": "https://www.fnnews.com/news/202605300633468743", "tag": "reported", "related_report": "2026-05-31/src-1499", "entity_count": 3},
+    {"id": "src-1510", "title": "트럼프 대통령, 이란 관련 합의 최종 결정 보류", "url": "https://korean.cri.cn/2026/05/30/ARTI1780129966213748", "tag": "reported", "related_report": "2026-05-31/src-1499", "entity_count": 3},
+    {"id": "src-1511", "title": "이란 \"최종 합의는 아직\"‥군사적 충돌도 계속", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6826349_37012.html", "tag": "reported", "related_report": "2026-05-31/src-1505", "entity_count": 3},
+    {"id": "src-1512", "title": "Fox News: Hegseth signals US military is ready after Trump meeting ends without deal", "url": "https://www.foxnews.com/live-news/iran-war-news-trump-update-strait-hormuz-lebanon-oil-prices-may-30", "tag": "reported", "related_report": "2026-05-31/src-1500", "entity_count": 3},
+    {"id": "src-1513", "title": "Pentagon Ready to Resume Strikes if Iran Peace Deal Collapses — Kyiv Post", "url": "https://www.kyivpost.com/post/77174", "tag": "reported", "related_report": "2026-05-31/src-1500", "entity_count": 3},
+    {"id": "src-1514", "title": "Ali Azmaei death fact check: IRGC Navy commander killed? State TV denied, still unconfirmed", "url": "https://sundayguardianlive.com/world/fact-check-irgc-navy-commander-ali-azmaei-killed-in-us-strike-on-bandar-abbas-heres-what-we-know-197775/", "tag": "update", "related_report": "2026-05-30/src-1483", "entity_count": 3},
+    {"id": "src-1515", "title": "CBS live updates: Trump decision yet to come on Iran deal as Hegseth talks negotiations", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-vance-ceasefire-strait-of-hormuz-deal-close/", "tag": "update", "related_report": "2026-05-30/src-1479", "entity_count": 4},
+    {"id": "src-1516", "title": "Al Jazeera: Israeli attacks kill 14 in Lebanon as Pentagon hosts security talks", "url": "https://www.aljazeera.com/news/2026/5/29/five-killed-in-lebanon-as-israeli-forces-advance-across-key-litani-river", "tag": "update", "related_report": "2026-05-30/src-1480", "entity_count": 4},
+    {"id": "src-1517", "title": "Al Jazeera: US-Iran 60-day proposal: What we know — MoU details and status", "url": "https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know", "tag": "update", "related_report": "2026-05-30/src-1486", "entity_count": 4},
+    {"id": "src-1518", "title": "The Hill: Tentative US-Iran deal would reopen Strait of Hormuz — 5 takeaways", "url": "https://thehill.com/policy/international/5900355-us-iran-ceasefire-extension-deal/", "tag": "update", "related_report": "2026-05-30/src-1486", "entity_count": 4}
+  ]
+}

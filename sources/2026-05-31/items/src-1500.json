@@ -1,0 +1,23 @@
+{
+  "id": "src-1500",
+  "title": "Hegseth at Shangri-La Dialogue: US military 'more than capable' of resuming strikes, 'we control the strait'",
+  "url": "https://www.newsweek.com/us-ready-to-restart-attacks-on-iran-if-deal-falls-through-hegseth-12012217",
+  "snippet": "US Defense Secretary Pete Hegseth warned at the Shangri-La Dialogue in Singapore that the US military is ready to resume combat in the Persian Gulf. 'They want to say that they control the strait but we do.' He stated if Iran doesn't want to make a deal ensuring they don't get a nuclear weapon, 'they can deal with the US military.' Weapons stockpiles described as 'enough to get the job done.'",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-05-31",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "새로운 사건 — 헤그세스가 싱가포르 샹그릴라 대화에서 군사 재개 준비 경고한 것은 트럼프 결정 보류 이후 신규 발전",
+  "entities": [
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "US Defense Secretary"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "temp-015", "type": "Location", "name": "Singapore (Shangri-La Dialogue)"}
+  ],
+  "relations": [
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "temp-007"}
+  ]
+}
