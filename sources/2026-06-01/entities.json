@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-01",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-482",
+      "type": "Event",
+      "name": "Trump 'Not in a Hurry' Declaration (May 31)",
+      "properties": {"date": "2026-05-31", "detail": "Fox News Lara Trump interview: 'not in a hurry', 'slowly but surely', 'end it a different way' if talks fail; signals deliberate delay strategy rather than indecision"},
+      "source_ids": ["src-1519", "src-1527", "src-1528"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-483",
+      "type": "Event",
+      "name": "Israel Beaufort Castle Seizure (May 31)",
+      "properties": {"date": "2026-05-31", "location": "Beaufort Castle, near Nabatiyeh, Lebanon", "detail": "IDF captures Crusader-era fortress 14.5km from border; Netanyahu orders 'expand ground manoeuvre'; deepest incursion in 26 years (since 2000 withdrawal); 2,000 sq km now occupied (~1/5 of Lebanon)"},
+      "source_ids": ["src-1520", "src-1521", "src-1522", "src-1529", "src-1530", "src-1531"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-484",
+      "type": "Event",
+      "name": "Israel-Lebanon Round 4 Washington Talks (June 2-3)",
+      "properties": {"date": "2026-06-02~03", "location": "Washington DC (State Dept + Pentagon)", "detail": "Security track at Pentagon separate from political track at State Dept; topics: IDF withdrawal, LAF takeover, financial support, Hezbollah disarmament, enforcement mechanism"},
+      "source_ids": ["src-1523", "src-1535"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-485",
+      "type": "Event",
+      "name": "Khamenei Non-Response Confirmed (May 31)",
+      "properties": {"date": "2026-05-31", "detail": "JPost: Khamenei has not responded to latest US proposal NOR to drafted MoU; confirms 'mirrored non-approval' continues — neither leader has signed off"},
+      "source_ids": ["src-1524"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-486",
+      "type": "Event",
+      "name": "Lockheed Martin $1B+ Contracts (May 2026)",
+      "properties": {"date": "2026-05-18~31", "detail": "$879M F-35 components (missile launchers, bomb racks, gun systems) + $14.3M MLRS engineering = $1B+ total in late May; THAAD interceptor production quadrupled to 400/year; Iran war driving military-industrial buildup"},
+      "source_ids": ["src-1525"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-487",
+      "type": "Event",
+      "name": "US Gas Price Crisis ($4.56 +51%)",
+      "properties": {"date": "2026-06-01", "detail": "National average $4.56/gal (+51% since war start); Newsweek: prices won't return to pre-war levels in 2026 even if deal signed; Brent at $91.2 (6-week low on deal hopes)"},
+      "source_ids": ["src-1526"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Beaufort Castle",
+      "properties": {"type": "fortress/strategic site", "coordinates": "33.3°N, 35.5°E", "country": "Lebanon", "significance": "Crusader-era fortress near Nabatiyeh, 14.5km from Israeli border; strategic hilltop position"},
+      "source_ids": ["src-1520", "src-1529"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Zahrani River",
+      "properties": {"type": "river/boundary", "country": "Lebanon", "significance": "~10km north of Litani River; IDF evacuation orders now extend this far north"},
+      "source_ids": ["src-1521", "src-1522"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Lockheed Martin",
+      "properties": {"type": "defense contractor", "location": "United States", "contracts_may2026": "$1B+ total, $879M F-35 components"},
+      "source_ids": ["src-1525"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Deliberate Delay Strategy",
+      "properties": {"domain": "diplomacy/negotiation", "detail": "Trump's 'not in a hurry' signals shift from urgency to patience; calculated posture to pressure Iran without committing timeline; mirrors Khamenei non-response"},
+      "source_ids": ["src-1519", "src-1524"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-482", "source_ids": ["src-1519"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-483", "source_ids": ["src-1520"], "confidence": 0.95},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-483", "source_ids": ["src-1521"], "confidence": 0.95},
+    {"subject": "ent-483", "predicate": "locatedIn", "object": "ent-050", "source_ids": ["src-1520"], "confidence": 0.95},
+    {"subject": "ent-482", "predicate": "opposes", "object": "ent-456", "source_ids": ["src-1519"], "confidence": 0.80},
+    {"subject": "ent-485", "predicate": "opposes", "object": "ent-456", "source_ids": ["src-1524"], "confidence": 0.80},
+    {"subject": "ent-482", "predicate": "relatedTo", "object": "ent-485", "source_ids": ["src-1519", "src-1524"], "confidence": 0.85},
+    {"subject": "ent-483", "predicate": "follows", "object": "ent-480", "source_ids": ["src-1520"], "confidence": 0.80},
+    {"subject": "ent-484", "predicate": "follows", "object": "ent-483", "source_ids": ["src-1523"], "confidence": 0.75},
+    {"subject": "ent-486", "predicate": "causedBy", "object": "ent-015", "source_ids": ["src-1525"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-1520"], "confidence": 0.95},
+    {"subject": "ent-487", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-1526"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 10,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

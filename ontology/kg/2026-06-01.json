@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-01",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-482", "source_id": "src-1519", "date": "2026-06-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-483", "source_id": "src-1520", "date": "2026-06-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-483", "source_id": "src-1521", "date": "2026-06-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-483", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1520", "date": "2026-06-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-482", "predicate": "opposes", "object": "ent-456", "source_id": "src-1519", "date": "2026-06-01", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-485", "predicate": "opposes", "object": "ent-456", "source_id": "src-1524", "date": "2026-06-01", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-482", "predicate": "relatedTo", "object": "ent-485", "source_id": "src-1524", "date": "2026-06-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-483", "predicate": "follows", "object": "ent-480", "source_id": "src-1520", "date": "2026-06-01", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-484", "predicate": "follows", "object": "ent-483", "source_id": "src-1523", "date": "2026-06-01", "confidence": 0.75, "type": "explicit"},
+    {"subject": "ent-486", "predicate": "causedBy", "object": "ent-015", "source_id": "src-1525", "date": "2026-06-01", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1520", "date": "2026-06-01", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-487", "predicate": "causedBy", "object": "ent-008", "source_id": "src-1526", "date": "2026-06-01", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-482", "predicate": "relatedTo", "object": "ent-472", "rule": "event_chain", "confidence": 0.75, "type": "inferred", "reason": "Trump 'not in a hurry'(ent-482)는 상황실 보류(ent-472)의 직접적 후속 — 보류에서 의도적 지연으로 프레이밍 전환"},
+    {"subject": "ent-483", "predicate": "opposes", "object": "ent-484", "rule": "co_participation", "confidence": 0.70, "type": "inferred", "reason": "이스라엘의 군사 확대(ent-483)가 다음 날 워싱턴 회담(ent-484)의 레버리지로 작동 — 군사 행동과 외교 동시 진행"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-046", "rule": "co_participation", "confidence": 0.80, "type": "inferred", "reason": "양측 비승인 거울상 구조 지속 확인 — ent-482(트럼프 지연)과 ent-485(하메네이 비응답)의 동시성"},
+    {"subject": "ent-473", "predicate": "follows", "object": "ent-482", "rule": "event_chain", "confidence": 0.75, "type": "inferred", "reason": "헤그세스 군사 경고(ent-473)와 트럼프 '다른 방법' 위협(ent-482)이 동일 날짜 — good cop/bad cop 패턴 강화"},
+    {"subject": "ent-483", "predicate": "relatedTo", "object": "ent-456", "rule": "co_participation", "confidence": 0.70, "type": "inferred", "reason": "이스라엘 레바논 확대 공세가 MoU에 레바논 조항 포함 여부에 영향 — 이란이 '레바논 없는 MoU 거부' 레버리지 강화"}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 12,
+    "inferred_edges": 5
+  }
+}

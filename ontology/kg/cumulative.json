@@ -10647,11 +10647,28 @@
     {"subject": "ent-474", "predicate": "relatedTo", "object": "ent-475", "date": "2026-05-31", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "domestic_opposition_coalition"},
     {"subject": "ent-478", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "economic_leverage"},
     {"subject": "ent-479", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "implementation_obstacle"},
-    {"subject": "ent-480", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "lebanon_leverage"}
+    {"subject": "ent-480", "predicate": "relatedTo", "object": "ent-456", "date": "2026-05-31", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "lebanon_leverage"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-482", "date": "2026-06-01", "confidence": 0.95, "type": "explicit", "source_id": "src-1519"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-483", "date": "2026-06-01", "confidence": 0.95, "type": "explicit", "source_id": "src-1520"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-483", "date": "2026-06-01", "confidence": 0.95, "type": "explicit", "source_id": "src-1521"},
+    {"subject": "ent-483", "predicate": "locatedIn", "object": "ent-050", "date": "2026-06-01", "confidence": 0.95, "type": "explicit", "source_id": "src-1520"},
+    {"subject": "ent-482", "predicate": "opposes", "object": "ent-456", "date": "2026-06-01", "confidence": 0.80, "type": "explicit", "source_id": "src-1519"},
+    {"subject": "ent-485", "predicate": "opposes", "object": "ent-456", "date": "2026-06-01", "confidence": 0.80, "type": "explicit", "source_id": "src-1524"},
+    {"subject": "ent-482", "predicate": "relatedTo", "object": "ent-485", "date": "2026-06-01", "confidence": 0.85, "type": "explicit", "source_id": "src-1524"},
+    {"subject": "ent-483", "predicate": "follows", "object": "ent-480", "date": "2026-06-01", "confidence": 0.80, "type": "explicit", "source_id": "src-1520"},
+    {"subject": "ent-484", "predicate": "follows", "object": "ent-483", "date": "2026-06-01", "confidence": 0.75, "type": "explicit", "source_id": "src-1523"},
+    {"subject": "ent-486", "predicate": "causedBy", "object": "ent-015", "date": "2026-06-01", "confidence": 0.85, "type": "explicit", "source_id": "src-1525"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-06-01", "confidence": 0.95, "type": "explicit", "source_id": "src-1520"},
+    {"subject": "ent-487", "predicate": "causedBy", "object": "ent-008", "date": "2026-06-01", "confidence": 0.85, "type": "explicit", "source_id": "src-1526"},
+    {"subject": "ent-482", "predicate": "follows", "object": "ent-472", "date": "2026-06-01", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-483", "predicate": "opposes", "object": "ent-484", "date": "2026-06-01", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "military_diplomatic_leverage"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-046", "date": "2026-06-01", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "mirrored_delay"},
+    {"subject": "ent-473", "predicate": "relatedTo", "object": "ent-482", "date": "2026-06-01", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "good_cop_bad_cop"},
+    {"subject": "ent-483", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-01", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "lebanon_mou_linkage"}
   ],
   "stats": {
-    "total_nodes": 449,
-    "total_edges": 166,
-    "total_triples": 1068
+    "total_nodes": 459,
+    "total_edges": 183,
+    "total_triples": 1085
   }
 }

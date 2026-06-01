@@ -1,0 +1,185 @@
+{
+  "date": "2026-06-01",
+  "collected_at": "2026-06-01T00:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 14,
+  "total_results": 78,
+  "expanded_keywords": ["Trump MoU decision", "Hormuz blockade", "Israel Lebanon Litani", "Hegseth Shangri-La", "IRGC", "Khamenei approval", "oil prices Brent", "이란 전쟁 휴전", "호르무즈 해협"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran deal MoU decision June 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:01:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Exclusive: What's inside the Iran deal Trump is close to signing", "url": "https://www.axios.com/2026/05/24/iran-deal-strait-hormuz-sanctions-nuclear", "snippet": "60-day ceasefire extension, Hormuz reopening, sanctions waivers", "source_name": "Axios"},
+        {"title": "Trump meets team to decide on Iran deal", "url": "https://www.axios.com/2026/05/29/trump-iran-deal-decision", "snippet": "Trump Situation Room 2-hour meeting, no final decision", "source_name": "Axios"},
+        {"title": "Scoop: U.S. and Iran reach deal but need Trump's final approval", "url": "https://www.axios.com/2026/05/28/iran-peace-deal-trump-approval", "snippet": "Negotiators agreed, awaiting Trump sign-off", "source_name": "Axios"},
+        {"title": "Trump's meeting to make 'final determination' on Iran deal said to end with no decision", "url": "https://www.timesofisrael.com/trump-meeting-to-make-final-determination-on-iran-deal-said-to-end-with-no-decision/", "snippet": "Situation Room session concludes without announcement", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war Hormuz strait June 1 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "2026 Strait of Hormuz crisis", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "snippet": "Commercial traffic dropped 90%+, 1,550 vessels stranded, 22,500 mariners trapped", "source_name": "Wikipedia"},
+        {"title": "Timeline of the 2026 Iran war", "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war", "snippet": "Comprehensive timeline of conflict events", "source_name": "Wikipedia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon Hezbollah ceasefire June 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:03:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "As Israel and Lebanon extend ceasefire by 45 days, Hezbollah disarmament remains elusive", "url": "https://www.ms.now/news/israel-lebanon-ceasefire-extended-45-days-hezbollah", "snippet": "45-day extension, disarmament elusive", "source_name": "MS Now"},
+        {"title": "Israel and Lebanon agree to 45-day extension of ceasefire", "url": "https://www.pbs.org/newshour/world/israel-and-lebanon-agree-to-45-day-extension-of-ceasefire-u-s-state-department-says", "snippet": "State Dept confirms, 4th round talks June 2-3", "source_name": "PBS"},
+        {"title": "Israel-Lebanon Talks, Round 4: The Pentagon Takes a Seat", "url": "https://www.washingtoninstitute.org/policy-analysis/israel-lebanon-talks-round-4-pentagon-takes-seat", "snippet": "Security track at Pentagon, political at State Dept, June 2-3", "source_name": "Washington Institute"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Iran military June 2026 latest",
+      "language": "en",
+      "timestamp": "2026-06-01T00:04:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Iran preparing for renewed war as military assets remain largely intact", "url": "https://www.euronews.com/2026/05/13/iran-preparing-for-renewed-war-as-military-assets-remain-largely-intact-reports-warn", "snippet": "70% missile stockpile survived, 30/33 missile sites restored", "source_name": "Euronews"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran deal Trump decision June 1 2026 signing",
+      "language": "en",
+      "timestamp": "2026-06-01T00:05:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Will Donald Trump Sign the Iran Deal or Not? Three Predictions", "url": "https://pjmedia.com/scott-pinsker/2026/05/30/will-donald-trump-sign-the-iran-deal-or-not-three-predictions-on-what-comes-next-n4953406", "snippet": "Three scenarios analyzed", "source_name": "PJ Media"},
+        {"title": "Trump ends Iran meeting without announcing 'final determination' on deal", "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html", "snippet": "2-hour Situation Room session, no decision", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 트럼프 합의 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-01T00:06:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "미·이란 협상 다시 교착‥\"불발 시 더 큰 공격\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6825150_37012.html", "snippet": "협상 교착, 불발 시 더 큰 공격 경고", "source_name": "MBC"},
+        {"title": "\"미-이란 양해각서 합의‥트럼프 최종 승인 남아\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6826063_37012.html", "snippet": "양해각서 합의, 트럼프 최종 승인 대기", "source_name": "MBC"},
+        {"title": "트럼프 \"종전 협정 최종 사안 논의 중‥조만간 발표\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6824845_37012.html", "snippet": "최종 사안 논의, 조만간 발표 예고", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent crude Iran June 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:07:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Brent crude oil - Price - Chart - Historical Data", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent fell to $91.2/bbl, 6-week low", "source_name": "Trading Economics"},
+        {"title": "Gas Prices Set To Stay High Across 2026–Even if Iran War Ends", "url": "https://www.newsweek.com/gas-prices-set-to-stay-high-even-if-iran-war-ends-12001888", "snippet": "Gas prices won't return to pre-war levels in 2026", "source_name": "Newsweek"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon Israel Washington talks June 2 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:08:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Israel-Lebanon Talks, Round 4: The Pentagon Takes a Seat", "url": "https://www.washingtoninstitute.org/policy-analysis/israel-lebanon-talks-round-4-pentagon-takes-seat", "snippet": "Pentagon security track separate from State Dept political track", "source_name": "Washington Institute"},
+        {"title": "The Diplomacy of Delay in Israel-Lebanon Peace Talks", "url": "https://www.arabamerica.com/the-diplomacy-of-delay-in-israel-lebanon-peace-talks/", "snippet": "Analysis of diplomatic delays in peace process", "source_name": "Arab America"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump 'not in a hurry' Iran deal 'slowly but surely' May 31",
+      "language": "en",
+      "timestamp": "2026-06-01T00:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "U.S. and Iran still without deal to end war after Trump says he's not in a 'hurry'", "url": "https://www.cnbc.com/2026/05/31/still-no-deal-to-end-us-iran-war-trump-says-hes-not-in-a-hurry.html", "snippet": "Trump: 'if you're going to be in a hurry, you're not going to make a good deal'", "source_name": "CNBC"},
+        {"title": "Trump vows Iran will end 'slowly but surely' if no deal reached", "url": "https://www.foxnews.com/live-news/trump-iran-war-peace-talks-hormuz-may-31", "snippet": "Fox News Lara Trump interview: slowly but surely, end it a different way", "source_name": "Fox News"},
+        {"title": "Iran war day 93: Trump won't 'rush' deal; Israel expands Lebanon invasion", "url": "https://www.aljazeera.com/news/2026/5/31/iran-war-day-93-trump-wont-rush-deal-israel-expands-lebanon-invasion", "snippet": "Trump patience + Israel expansion = dual track", "source_name": "Al Jazeera"},
+        {"title": "Trump said seeking changes to Iran deal, focused on fate of uranium stockpile", "url": "https://www.timesofisrael.com/trump-said-seeking-changes-to-iran-deal-focused-on-fate-of-uranium-stockpile/", "snippet": "Trump edited agreement, uranium stockpile focus", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lockheed Martin $1 billion contracts Iran war 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Lockheed Martin awarded $1B in military contracts as Iran war leads to buildup", "url": "https://fortworthreport.org/2026/05/31/lockheed-martin-awarded-1b-in-military-contracts-as-iran-war-leads-to-buildup/", "snippet": "$879M F-35 components + $1B+ total in late May", "source_name": "Fort Worth Report"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Khamenei MoU approval nuclear Hormuz latest",
+      "language": "en",
+      "timestamp": "2026-06-01T00:11:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "Khamenei has not yet responded to either latest US proposal, nor MoU", "url": "https://www.jpost.com/middle-east/iran-news/article-897909", "snippet": "No response from Khamenei to MoU or latest proposal", "source_name": "Jerusalem Post"},
+        {"title": "US-Iran ceasefire deal agreed upon, hangs on Trump, Khamenei approval", "url": "https://www.jpost.com/middle-east/article-897679", "snippet": "Deal hangs on dual approval from both leaders", "source_name": "Jerusalem Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon invasion expand Litani offensive May 31 June 2026",
+      "language": "en",
+      "timestamp": "2026-06-01T00:12:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "South Lebanon faces 'death, destruction' as Israel deepens invasion", "url": "https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle", "snippet": "Beaufort Castle seized, displacement orders expanded", "source_name": "Al Jazeera"},
+        {"title": "Israeli forces push past Lebanon's Litani River: How significant is it?", "url": "https://www.aljazeera.com/news/2026/5/31/israeli-forces-push-past-lebanons-litani-river-how-significant-is-it", "snippet": "2,000 sq km occupied, ~1/5 of Lebanon", "source_name": "Al Jazeera"},
+        {"title": "Netanyahu vows to expand Israel's grip on Lebanon after deepest incursion in 26 years", "url": "https://www.nbcnews.com/world/lebanon/israel-captures-key-lebanon-site-crossing-litani-river-rcna347732", "snippet": "Deepest incursion since 2000, Beaufort Castle captured", "source_name": "NBC News"},
+        {"title": "Israel seizes Crusader-era castle as Netanyahu orders forces deeper into Lebanon", "url": "https://www.cnn.com/2026/05/31/middleeast/israel-captures-beaufort-castle-lebanon-intl-hnk", "snippet": "Strategic Beaufort Castle near Nabatiyeh, 14.5km from border", "source_name": "CNN"},
+        {"title": "Netanyahu Announces 'Dramatic Shift' in Lebanon Invasion as Israel Conquers Medieval Castle", "url": "https://news.antiwar.com/2026/05/31/netanyahu-announces-dramatic-shift-in-lebanon-invasion-as-israel-conquers-medieval-castle/", "snippet": "'Dramatic shift' announcement, castle conquest", "source_name": "Antiwar.com"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hegseth Iran military Shangri-La June 2026 Hormuz",
+      "language": "en",
+      "timestamp": "2026-06-01T00:13:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Pete Hegseth in Singapore: US blockade in Strait of Hormuz remains amid Iran talks", "url": "https://thehill.com/policy/international/5902453-pete-hegseth-iran-war-naval-blockade-strait-of-hormuz/", "snippet": "Blockade 'very much still in place'", "source_name": "The Hill"},
+        {"title": "What Hegseth's comments at Shangri-La Dialogue say about US foreign policy", "url": "https://www.aljazeera.com/news/2026/5/30/what-hegseths-comments-at-shangri-la-dialogue-say-about-us-foreign-policy", "snippet": "Analysis of US foreign policy signals", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 호르무즈 해협 휴전 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T00:14:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "'60일 휴전' 물꼬 텄지만…핵·제재완화 협상 난항", "url": "https://www.fnnews.com/news/202605271603407018", "snippet": "60일 휴전 합의 임박하나 핵·제재 난항", "source_name": "파이낸셜뉴스"},
+        {"title": "\"호르무즈 열고 60일 종전 협상\"‥미·이란 합의 임박?", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6824942_37004.html", "snippet": "호르무즈 개방 + 60일 종전 협상 합의 임박", "source_name": "MBC"}
+      ]
+    }
+  ]
+}
