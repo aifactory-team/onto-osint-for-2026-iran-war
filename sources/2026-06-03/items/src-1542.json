@@ -1,0 +1,27 @@
+{
+  "id": "src-1542",
+  "title": "Trump announces Lebanon ceasefire — Netanyahu agrees to stop Dahieh strikes, Hezbollah agrees 'all shooting will stop'",
+  "url": "https://www.jpost.com/middle-east/article-898026",
+  "snippet": "Trump announces partial Lebanon ceasefire framework: Israeli strikes on Dahieh (Beirut southern suburbs) cease in exchange for Hezbollah stopping attacks on Israel. To be expanded to all of Lebanon. Netanyahu reportedly agreed after heated Trump call. Hezbollah agrees 'all shooting will stop.' Trump says he got commitments of de-escalation from both sides.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 트럼프가 레바논 부분 휴전 발표. 다히에 공격 중단 대 헤즈볼라 이스라엘 공격 중단 교환. 그러나 네타냐후가 곧바로 반박하여 실효성 불투명",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "ceasefire announcer"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israeli PM"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "ceasefire party"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "ceasefire party"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "theater"},
+    {"id": "temp-004", "type": "Event", "name": "Trump Lebanon Ceasefire Announcement (Jun 2)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "announces", "object": "temp-004"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-004", "predicate": "follows", "object": "temp-003"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-1552",
+  "title": "Iran reviewing deal, no communication for days — Baghaei: 'no negotiations on nuclear details at this stage'",
+  "url": "https://www.cbc.ca/news/world/iran-lebanon-trump-agreement-9.7220254",
+  "snippet": "Iranian media confirms Iran is reviewing the proposed agreement but spokesman Esmail Baghaei clarifies: 'no negotiations on nuclear details at this stage.' No communication from Iran for days. Updates the Khamenei non-response picture: Iran is internally reviewing the MoU but has explicitly ruled out nuclear negotiations for now, despite Rubio's 30-60-90 day timeline.",
+  "source_name": "CBC",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "update",
+  "related_report": "2026-06-01/src-1524",
+  "related_item": "src-1524",
+  "tag_reason": "업데이트 — src-1524 (카메네이 무응답)의 후속. 이란이 합의안을 검토 중이지만 핵 세부사항 협상은 거부. '무응답'에서 '검토 중이나 핵 논의 불가' 상태로 진전",
+  "entities": [
+    {"id": "ent-273", "type": "Person", "name": "Esmail Baghaei", "role": "Iranian Foreign Ministry Spokesman"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "reviewing party"},
+    {"id": "ent-456", "type": "Event", "name": "US-Iran Tentative MoU Agreement", "role": "subject of review"},
+    {"id": "temp-020", "type": "Event", "name": "Iran MoU Review, Nuclear Refusal (Jun 3)"}
+  ],
+  "relations": [
+    {"subject": "ent-273", "predicate": "announces", "object": "temp-020"},
+    {"subject": "temp-020", "predicate": "updates", "object": "ent-485"},
+    {"subject": "ent-002", "predicate": "reviews", "object": "ent-456"}
+  ]
+}

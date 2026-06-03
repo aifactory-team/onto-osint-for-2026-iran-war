@@ -1,0 +1,187 @@
+{
+  "date": "2026-06-03",
+  "collected_at": "2026-06-03T00:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 14,
+  "total_results": 82,
+  "expanded_keywords": ["Iran suspends talks US", "Trump Netanyahu crazy call", "Lebanon ceasefire Trump", "CENTCOM Iran missiles Kuwait Bahrain", "Qeshm Island strike", "Rubio Senate testimony Iran nuclear", "Bab el-Mandeb Iran threat", "Brent oil prices June 2026", "이란 협상 중단", "레바논 휴전 트럼프"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran suspends talks US Israel Lebanon attacks June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran suspends talks with U.S. over Israel's attacks in Lebanon", "url": "https://www.nbcnews.com/world/iran/iran-suspends-talks-us-israel-attacks-lebanon-rcna347865", "snippet": "Iran's negotiating team halts talks and exchange of texts through mediators citing Israeli violations in Lebanon", "source_name": "NBC News"},
+        {"title": "Iran suspends nuclear deal talks with U.S. after Israeli attacks on Lebanon", "url": "https://www.npr.org/2026/06/01/iran-suspends-talks-us-israel-lebanon", "snippet": "Araghchi: ceasefire on all fronts including Lebanon; violation on one front equals violation on all fronts", "source_name": "NPR"},
+        {"title": "Iran halts peace talks with US over Israel Lebanon offensive", "url": "https://www.washingtontimes.com/news/2026/jun/1/iran-halts-peace-talks-us-over-israel-lebanon/", "snippet": "Tasnim reports negotiation team suspends all communication through mediators", "source_name": "Washington Times"},
+        {"title": "Iran suspends talks, threatens wider conflict", "url": "https://www.democracynow.org/2026/6/2/iran_suspends_talks", "snippet": "Iran links Lebanon operations to broader peace framework", "source_name": "Democracy Now"},
+        {"title": "Iran ends peace talks with U.S. and says it will close Bab el-Mandeb strait", "url": "https://www.middleeasteye.net/news/iran-ends-peace-talks-us-and-says-it-will-close-bab-el-mandeb-strait-report", "snippet": "IRGC threatens Bab el-Mandeb closure alongside continued Hormuz blockade", "source_name": "Middle East Eye"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran talks continuing rapid pace June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:02:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Iran War: Trump insists talks at 'rapid pace' despite Iran suspension", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strikes-ceasefire-lebanon-israel/", "snippet": "Trump contradicts Iran suspension claim; posts on Truth Social after heated Netanyahu call", "source_name": "CBS News"},
+        {"title": "Trump says Iran talks 'going on continuously' despite Tehran's denials", "url": "https://www.cnn.com/2026/06/02/politics/trump-iran-talks-continuing", "snippet": "Trump insists negotiations proceeding; Iran says otherwise", "source_name": "CNN"},
+        {"title": "Trump claims Iran talks ongoing amid signals of breakdown", "url": "https://thehill.com/policy/international/5905123-trump-iran-talks-continuing/", "snippet": "Mixed signals: Trump says rapid pace, Iran says suspended", "source_name": "The Hill"},
+        {"title": "Trump contradicts Iran claim of suspended talks", "url": "https://www.cbc.ca/news/world/trump-iran-talks-continuing-9.7219445", "snippet": "Dueling narratives on state of US-Iran negotiations", "source_name": "CBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Netanyahu phone call crazy Beirut Lebanon June 2 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:03:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Trump calls Netanyahu 'f**king crazy,' demands Beirut strike cancellation", "url": "https://time.com/article/2026/06/02/trump-netanyahu-crazy-lebanon-hezbollah-ceasefire-iran-us-peace-deal/", "snippet": "Trump: 'I'm saving your ass. Everybody hates you now. Everybody hates Israel.' Tells Netanyahu 'You'd be in prison if it weren't for me'", "source_name": "TIME"},
+        {"title": "Trump-Netanyahu heated exchange over Lebanon", "url": "https://www.timesofisrael.com/liveblog-june-02-2026/", "snippet": "Netanyahu agrees to call off Beirut strikes after Trump pressure; but later contradicts ceasefire", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Lebanon ceasefire announcement Hezbollah June 2 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:04:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Trump announces Lebanon ceasefire: Netanyahu agrees to stop Beirut strikes, Hezbollah stops attacks on Israel", "url": "https://www.jpost.com/middle-east/article-898026", "snippet": "Framework: Israeli strikes on Dahieh cease, Hezbollah stops attacks on Israel, to be expanded to all Lebanon", "source_name": "Jerusalem Post"},
+        {"title": "Trump says Israel and Hezbollah agree to partial Lebanon ceasefire", "url": "https://www.pbs.org/newshour/world/trump-announces-lebanon-ceasefire-hezbollah-israel", "snippet": "All shooting will stop according to Trump announcement", "source_name": "PBS"},
+        {"title": "Trump announces partial ceasefire in Lebanon conflict", "url": "https://thehill.com/policy/international/5905456-trump-lebanon-ceasefire-hezbollah/", "snippet": "Partial ceasefire covering Dahieh strikes and cross-border attacks", "source_name": "The Hill"},
+        {"title": "Trump urges Israel, Hezbollah to hold fire in Lebanon", "url": "https://www.npr.org/2026/06/02/trump-lebanon-ceasefire-hezbollah-israel", "snippet": "Trump claims commitments from both sides for de-escalation", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Netanyahu contradicts ceasefire IDF southern Lebanon June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:05:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Netanyahu says IDF will keep striking southern Lebanon 'as planned'; Katz denies ceasefire exists", "url": "https://www.timesofisrael.com/liveblog-june-02-2026/", "snippet": "Defense Minister Katz says ceasefire doesn't exist; Netanyahu: operations continue as planned in south", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "CENTCOM Iran missiles Kuwait Bahrain intercepted June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:06:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "US intercepts Iranian missiles targeting Kuwait and Bahrain forces", "url": "https://www.cnbc.com/amp/2026/06/01/us-iran-war-missiles-kuwait.html", "snippet": "2 ballistic missiles at Kuwait intercepted; 3 missiles at Bahrain intercepted by US/Bahrain air defense; IRGC says response to Qeshm Island strikes", "source_name": "CNBC"},
+        {"title": "Iran fires missiles at US forces in Gulf; all intercepted", "url": "https://www.cnn.com/2026/06/01/middleeast/iran-missiles-kuwait-bahrain-intercepted", "snippet": "No casualties reported; IRGC claims retaliation for Qeshm strikes", "source_name": "CNN"},
+        {"title": "Iranian missiles target US forces in Kuwait, Bahrain", "url": "https://www.washingtontimes.com/news/2026/jun/1/iranian-missiles-target-us-kuwait-bahrain/", "snippet": "5 total missiles intercepted across two Gulf states", "source_name": "Washington Times"},
+        {"title": "Iran retaliates with missile strikes on Gulf bases", "url": "https://www.aljazeera.com/news/2026/6/1/iran-missiles-kuwait-bahrain-gulf-retaliation", "snippet": "IRGC: strikes are response to US aggression on Qeshm Island", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "CENTCOM Qeshm Island strike drone ground control June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:07:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "CENTCOM strikes Qeshm Island military drone ground control station", "url": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855", "snippet": "US hits Iranian military ground control station for drones; response to IRGC shootdown of US MQ-1 over international waters", "source_name": "ABC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IDF soldier killed Beaufort Castle Hezbollah drone June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:08:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "IDF soldier killed, 3 hurt in Hezbollah drone attack near Beaufort Castle", "url": "https://www.timesofisrael.com/idf-soldier-killed-3-hurt-in-hezbollah-drone-attack-near-newly-seized-beaufort-castle/", "snippet": "Staff Sgt. Adam Tzarfati, 20, Commando Brigade Maglan Unit; Hezbollah FPV drone at Yohmor; first fatality since Beaufort capture", "source_name": "Times of Israel"},
+        {"title": "Hezbollah kills Israeli soldier near Beaufort Castle with FPV drone", "url": "https://www.washingtonexaminer.com/news/hezbollah-kills-idf-soldier-beaufort-castle", "snippet": "FPV drone strike kills commando near recently captured fortress", "source_name": "Washington Examiner"},
+        {"title": "IDF confirms soldier death in Hezbollah drone attack near Beaufort", "url": "https://www.i24news.tv/en/news/israel-at-war/1717200000-idf-soldier-killed-beaufort-castle", "snippet": "3 additional wounded in attack; Maglan unit operating in area", "source_name": "i24NEWS"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Rubio Senate testimony Iran nuclear talks June 2 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:09:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Iran must agree to 'severe and long-term' nuclear limitations, Rubio tells Senate", "url": "https://www.thenationalnews.com/news/us/2026/06/02/iran-nuclear-talks-rubio/", "snippet": "No sanctions relief for Hormuz reopening alone; nuclear talks highly technical could take 30-60-90 days; Iran agreed to negotiate aspects they refused to mention a year ago", "source_name": "The National"},
+        {"title": "Rubio: Iran nuclear deal could take months of negotiations", "url": "https://www.washingtonpost.com/national-security/2026/06/02/rubio-iran-nuclear-senate/", "snippet": "Secretary of State outlines long timeline for nuclear component of deal", "source_name": "Washington Post"},
+        {"title": "Rubio Senate hearing: Iran talks update", "url": "https://www.washingtontimes.com/news/2026/jun/2/rubio-iran-nuclear-talks-senate/", "snippet": "Severe and long-term limitations demanded; Rubio hints Iran showing flexibility on previously off-limits topics", "source_name": "Washington Times"},
+        {"title": "Rubio outlines Iran deal framework to Senate", "url": "https://www.cnbc.com/2026/06/02/rubio-iran-nuclear-deal-senate-testimony.html", "snippet": "30-60-90 day timeline for nuclear negotiations; highly technical process", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Bab el-Mandeb strait threat Hormuz closure June 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:10:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Iran ends peace talks with US and says it will close Bab el-Mandeb strait", "url": "https://www.middleeasteye.net/news/iran-ends-peace-talks-us-and-says-it-will-close-bab-el-mandeb-strait-report", "snippet": "IRGC threatens both Hormuz and Bab el-Mandeb over Israel Lebanon operations; Hormuz effectively closed to Western-allied commercial shipping since May 4", "source_name": "Middle East Eye"},
+        {"title": "Iran threatens second strait closure as tensions spike", "url": "https://www.aljazeera.com/news/2026/6/2/iran-threatens-bab-el-mandeb-closure", "snippet": "Dual-strait blockade threat escalates maritime dimension of conflict", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Brent crude oil price June 2 3 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:11:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Brent Crude Oil - Price Chart and Latest News", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent +5% to ~$95 on Iran suspension news Jun 2, then slips toward $91 Jun 3; WTI ~$92", "source_name": "Trading Economics"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon talks Round 4 Washington June 2 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:12:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "New round of Israel-Lebanon talks begins in Washington", "url": "https://www.timesofisrael.com/liveblog_entry/new-round-of-israel-lebanon-talks-begins-in-washington/", "snippet": "State Department Jun 2-3; Needham (promoted deputy NSA)/Holler lead US side; Israeli/Lebanese ambassadors present", "source_name": "Times of Israel"},
+        {"title": "Ghalibaf tells Berri Iran may retaliate if Israeli Lebanon attacks continue", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm", "snippet": "Most explicit Iranian escalatory signaling since late May", "source_name": "GlobalSecurity.org"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 협상 중단 레바논 이스라엘 공격 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T00:13:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "트럼프 \"美-이란 대화 계속\"...이란 \"협상 중단\"", "url": "https://www.newspim.com/news/view/20260602000100", "snippet": "트럼프와 이란 간 엇갈리는 메시지; 트럼프 Truth Social에서 대화 계속 주장", "source_name": "뉴스핌"},
+        {"title": "종전협상 최대 암초 '레바논'...이란 '전선 연계' 카드", "url": "https://biz.heraldcorp.com/article/20260602000456", "snippet": "이란이 레바논 전선과 미이란 협상을 연계하는 전략 분석", "source_name": "헤럴드경제"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran reviewing deal no communication June 3 2026",
+      "language": "en",
+      "timestamp": "2026-06-03T00:14:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Iran reviewing proposed agreement but says no nuclear negotiations at this stage", "url": "https://www.cbc.ca/news/world/iran-lebanon-trump-agreement-9.7220254", "snippet": "Iranian media confirms reviewing deal; Baghaei says no negotiations on nuclear details at this stage; no communication for days", "source_name": "CBC"},
+        {"title": "Fox News: Iran peace talks in limbo as Iran reviews US proposal", "url": "https://www.foxnews.com/live-news/iran-peace-talks-review-june-2026", "snippet": "Multiple sources confirm Iran has gone silent; reviewing internally", "source_name": "Fox News"}
+      ]
+    }
+  ]
+}

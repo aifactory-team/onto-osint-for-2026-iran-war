@@ -1,0 +1,19 @@
+{
+  "id": "src-1553",
+  "title": "NPR: Iran suspends nuclear deal talks with US after Israeli attacks on Lebanon",
+  "url": "https://www.npr.org/2026/06/01/iran-suspends-talks-us-israel-lebanon",
+  "snippet": "NPR coverage of Iran suspending talks with US. Araghchi statement on ceasefire linkage across all fronts. Largely mirrors NBC News reporting.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1539",
+  "related_item": "src-1539",
+  "tag_reason": "기보도 — src-1539 (이란 협상 중단)의 NPR 보도. 동일 사건, 추가 정보 없음",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "src-1548",
+  "title": "Iran threatens Bab el-Mandeb closure — IRGC threatens both Hormuz and Bab el-Mandeb; Hormuz 'effectively closed' since May 4",
+  "url": "https://www.middleeasteye.net/news/iran-ends-peace-talks-us-and-says-it-will-close-bab-el-mandeb-strait-report",
+  "snippet": "IRGC threatens to block both Strait of Hormuz and Bab el-Mandeb strait over Israel's continuing Lebanon operations. Hormuz remains 'effectively closed' to Western-allied commercial shipping since May 4. Bab el-Mandeb threat would extend maritime disruption to Red Sea and Suez Canal route. Most expansive Iranian maritime threat since war began.",
+  "source_name": "Middle East Eye",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — IRGC가 호르무즈에 이어 바브엘만데브 해협 봉쇄도 위협. 전쟁 이래 가장 광범위한 해상 위협. 홍해-수에즈 항로까지 위협 확대",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "threat issuer"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade target"},
+    {"id": "temp-014", "type": "Location", "name": "Bab el-Mandeb Strait", "role": "new blockade threat"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "threatening state"},
+    {"id": "temp-015", "type": "Event", "name": "Bab el-Mandeb Closure Threat (Jun 1-2)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "threatens", "object": "temp-014"},
+    {"subject": "temp-015", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "temp-015", "predicate": "escalates", "object": "temp-001"}
+  ]
+}

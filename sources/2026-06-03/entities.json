@@ -1,0 +1,224 @@
+{
+  "date": "2026-06-03",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-492",
+      "type": "Event",
+      "name": "Iran Talk Suspension (Jun 1)",
+      "properties": {"date": "2026-06-01", "detail": "Iran negotiating team halts 'talks and exchange of texts through mediators' citing Israeli Lebanon attacks. Araghchi: 'ceasefire on all fronts, including Lebanon. Violation on one front = violation on all fronts.' Links Lebanon operations to broader US-Iran peace framework. Most significant diplomatic rupture since war began."},
+      "source_ids": ["src-1539", "src-1553", "src-1554", "src-1558", "src-1560"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-493",
+      "type": "Event",
+      "name": "Trump 'Rapid Pace' Contradiction (Jun 1-2)",
+      "properties": {"date": "2026-06-01~02", "detail": "Trump contradicts Iran suspension, insisting talks 'going on continuously' and at 'rapid pace.' Posted on Truth Social shortly after heated Netanyahu call. Creates dueling narratives about negotiation status."},
+      "source_ids": ["src-1540", "src-1555", "src-1559"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-494",
+      "type": "Event",
+      "name": "Trump-Netanyahu Heated Call (Jun 2)",
+      "properties": {"date": "2026-06-02", "detail": "Trump calls Netanyahu 'f**king crazy,' demands Beirut/Dahieh strike cancellation. 'I'm saving your ass. Everybody hates you now. Everybody hates Israel.' Also: 'You'd be in prison if it weren't for me.' Most confrontational Trump-Netanyahu exchange during the war. Leads directly to ceasefire announcement."},
+      "source_ids": ["src-1541"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-495",
+      "type": "Event",
+      "name": "Trump Lebanon Ceasefire Announcement (Jun 2)",
+      "properties": {"date": "2026-06-02", "detail": "Trump announces partial Lebanon ceasefire: Israeli Dahieh strikes cease ↔ Hezbollah stops attacks on Israel, to be expanded to all Lebanon. Netanyahu reportedly agreed after heated call. However Netanyahu and Katz contradict within hours."},
+      "source_ids": ["src-1542", "src-1556", "src-1557"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-496",
+      "type": "Event",
+      "name": "Netanyahu Ceasefire Contradiction (Jun 2)",
+      "properties": {"date": "2026-06-02", "detail": "Netanyahu says IDF will keep striking southern Lebanon 'as planned'; Defense Minister Israel Katz explicitly denies ceasefire exists. Immediate public contradiction of Trump's announcement, undermining the framework."},
+      "source_ids": ["src-1543"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-497",
+      "type": "Event",
+      "name": "IRGC Missile Attacks on Kuwait/Bahrain (Jun 1-2)",
+      "properties": {"date": "2026-06-01~02", "detail": "IRGC fires 5 ballistic missiles: 2 at Kuwait forces (intercepted), 3 at Bahrain (intercepted by US/Bahrain air defense). No casualties. IRGC claims retaliation for US Qeshm Island strikes. Continues tit-for-tat military escalation in Gulf."},
+      "source_ids": ["src-1544"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-498",
+      "type": "Event",
+      "name": "CENTCOM Qeshm Island Drone Station Strike (Jun 2)",
+      "properties": {"date": "2026-06-02", "location": "Qeshm Island, Iran", "detail": "CENTCOM strikes Iranian military ground control station for drones on Qeshm Island. Response to IRGC shootdown of US MQ-1 Predator drone over international waters. Precision strike on drone infrastructure."},
+      "source_ids": ["src-1545"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-499",
+      "type": "Person",
+      "name": "Adam Tzarfati",
+      "properties": {"role": "IDF Staff Sergeant", "unit": "Commando Brigade Maglan Unit", "age": 20, "status": "killed 2026-06-01", "cause": "Hezbollah FPV drone strike near Yohmor/Beaufort Castle"},
+      "source_ids": ["src-1546"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-500",
+      "type": "Location",
+      "name": "Yohmor",
+      "properties": {"type": "village", "country": "Lebanon", "significance": "Near Beaufort Castle; site of Hezbollah FPV drone attack killing IDF soldier"},
+      "source_ids": ["src-1546"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-501",
+      "type": "Event",
+      "name": "Beaufort Castle Drone Attack (Jun 1)",
+      "properties": {"date": "2026-06-01", "location": "Yohmor, near Beaufort Castle, Lebanon", "detail": "Hezbollah FPV drone strikes IDF position near Beaufort Castle; Staff Sgt. Adam Tzarfati killed, 3 wounded. First IDF fatality since Beaufort capture on May 31. Demonstrates Hezbollah's ability to target forces in occupied territory."},
+      "source_ids": ["src-1546"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-502",
+      "type": "Organization",
+      "name": "Maglan Unit",
+      "properties": {"type": "special forces", "parent": "IDF Commando Brigade", "detail": "Elite deep-behind-enemy-lines unit; suffered first Beaufort-area casualty"},
+      "source_ids": ["src-1546"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-503",
+      "type": "Event",
+      "name": "Rubio Senate Nuclear Testimony (Jun 2)",
+      "properties": {"date": "2026-06-02", "detail": "Rubio testifies: Iran must agree to 'severe and long-term' nuclear limitations. No sanctions relief for Hormuz reopening alone. Nuclear talks 'highly technical, could take months' (30-60-90 days). Positive: Iran 'agreed to negotiate aspects they refused to mention a year ago.' First detailed public US framework for nuclear component."},
+      "source_ids": ["src-1547"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-504",
+      "type": "Concept",
+      "name": "30-60-90 Day Nuclear Timeline",
+      "properties": {"domain": "diplomacy/nuclear", "detail": "Rubio's proposed timeline for nuclear negotiations: highly technical process requiring 30-60-90 days minimum. Contradicts Iran's position that nuclear details are not being negotiated at this stage."},
+      "source_ids": ["src-1547"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-505",
+      "type": "Location",
+      "name": "Bab el-Mandeb Strait",
+      "properties": {"type": "strait/waterway", "significance": "Connects Red Sea to Gulf of Aden; controls Suez Canal trade route. IRGC threatens closure alongside Hormuz; would extend maritime disruption to global trade."},
+      "source_ids": ["src-1548"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-506",
+      "type": "Event",
+      "name": "Bab el-Mandeb Closure Threat (Jun 1-2)",
+      "properties": {"date": "2026-06-01~02", "detail": "IRGC threatens to block both Hormuz and Bab el-Mandeb over Israel Lebanon operations. Most expansive Iranian maritime threat since war began. Would extend disruption from Persian Gulf to Red Sea/Suez route. Hormuz remains 'effectively closed' to Western-allied commercial shipping since May 4."},
+      "source_ids": ["src-1548"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": "ent-507",
+      "type": "Event",
+      "name": "Brent Spike on Talk Suspension (Jun 2-3)",
+      "properties": {"date": "2026-06-02~03", "detail": "Brent crude +5% to ~$95/barrel on Jun 2 following Iran suspension news; slips back to ~$91 on Jun 3 amid mixed signals. WTI ~$92. Oil market highly sensitive to diplomatic signals."},
+      "source_ids": ["src-1549"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": "ent-508",
+      "type": "Person",
+      "name": "Needham",
+      "properties": {"role": "US Deputy National Security Adviser (promoted)", "detail": "Leads US side in Israel-Lebanon Round 4 talks at State Department Jun 2-3"},
+      "source_ids": ["src-1550"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": "ent-509",
+      "type": "Person",
+      "name": "Holler",
+      "properties": {"role": "US negotiator", "detail": "Co-leads US side in Israel-Lebanon Round 4 talks alongside Needham"},
+      "source_ids": ["src-1550"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": "ent-510",
+      "type": "Event",
+      "name": "Ghalibaf Retaliation Warning (Jun 2)",
+      "properties": {"date": "2026-06-02", "detail": "Iranian Parliament Speaker Ghalibaf tells Lebanese Speaker Berri that Iran may retaliate directly if Israeli Lebanon attacks continue. Most explicit Iranian escalatory signaling since late May. Signals potential shift from proxy to direct Iranian involvement in Lebanon theater."},
+      "source_ids": ["src-1551"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-020",
+      "matched_id": "ent-511",
+      "type": "Event",
+      "name": "Iran MoU Review, Nuclear Refusal (Jun 3)",
+      "properties": {"date": "2026-06-03", "detail": "Iranian media confirms reviewing proposed agreement but Baghaei says 'no negotiations on nuclear details at this stage.' No communication for days. Updates Khamenei non-response: Iran reviewing MoU but ruling out nuclear negotiations for now."},
+      "source_ids": ["src-1552"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "suspends", "object": "ent-456", "source_ids": ["src-1539"], "confidence": 0.95},
+    {"subject": "ent-044", "predicate": "announces", "object": "ent-492", "source_ids": ["src-1539"], "confidence": 0.95},
+    {"subject": "ent-492", "predicate": "causedBy", "object": "ent-004", "source_ids": ["src-1539"], "confidence": 0.90},
+    {"subject": "ent-001", "predicate": "contradicts", "object": "ent-492", "source_ids": ["src-1540"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "pressures", "object": "ent-031", "source_ids": ["src-1541"], "confidence": 0.95},
+    {"subject": "ent-494", "predicate": "relatedTo", "object": "ent-492", "source_ids": ["src-1541"], "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "announces", "object": "ent-495", "source_ids": ["src-1542"], "confidence": 0.95},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-495", "source_ids": ["src-1542"], "confidence": 0.90},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-495", "source_ids": ["src-1542"], "confidence": 0.90},
+    {"subject": "ent-495", "predicate": "follows", "object": "ent-494", "source_ids": ["src-1541", "src-1542"], "confidence": 0.90},
+    {"subject": "ent-031", "predicate": "contradicts", "object": "ent-495", "source_ids": ["src-1543"], "confidence": 0.95},
+    {"subject": "ent-296", "predicate": "contradicts", "object": "ent-495", "source_ids": ["src-1543"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "attacks", "object": "ent-037", "source_ids": ["src-1544"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "attacks", "object": "ent-036", "source_ids": ["src-1544"], "confidence": 0.95},
+    {"subject": "ent-059", "predicate": "intercepts", "object": "ent-497", "source_ids": ["src-1544"], "confidence": 0.95},
+    {"subject": "ent-497", "predicate": "retaliatesFor", "object": "ent-498", "source_ids": ["src-1544", "src-1545"], "confidence": 0.90},
+    {"subject": "ent-059", "predicate": "attacks", "object": "ent-300", "source_ids": ["src-1545"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "attacks", "object": "ent-004", "source_ids": ["src-1546"], "confidence": 0.95},
+    {"subject": "ent-499", "predicate": "killedIn", "object": "ent-501", "source_ids": ["src-1546"], "confidence": 0.95},
+    {"subject": "ent-501", "predicate": "follows", "object": "ent-483", "source_ids": ["src-1546"], "confidence": 0.90},
+    {"subject": "ent-077", "predicate": "announces", "object": "ent-503", "source_ids": ["src-1547"], "confidence": 0.95},
+    {"subject": "ent-503", "predicate": "relatedTo", "object": "ent-456", "source_ids": ["src-1547"], "confidence": 0.85},
+    {"subject": "ent-005", "predicate": "threatens", "object": "ent-505", "source_ids": ["src-1548"], "confidence": 0.90},
+    {"subject": "ent-506", "predicate": "escalates", "object": "ent-008", "source_ids": ["src-1548"], "confidence": 0.85},
+    {"subject": "ent-507", "predicate": "causedBy", "object": "ent-492", "source_ids": ["src-1549"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-484", "source_ids": ["src-1550"], "confidence": 0.95},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-484", "source_ids": ["src-1550"], "confidence": 0.95},
+    {"subject": "ent-045", "predicate": "warns", "object": "ent-271", "source_ids": ["src-1551"], "confidence": 0.90},
+    {"subject": "ent-510", "predicate": "threatens", "object": "ent-004", "source_ids": ["src-1551"], "confidence": 0.85},
+    {"subject": "ent-511", "predicate": "updates", "object": "ent-485", "source_ids": ["src-1552"], "confidence": 0.90},
+    {"subject": "ent-273", "predicate": "announces", "object": "ent-511", "source_ids": ["src-1552"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 20,
+    "new_entities": 20,
+    "matched_entities": 0,
+    "total_relations": 31
+  }
+}

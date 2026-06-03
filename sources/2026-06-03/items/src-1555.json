@@ -1,0 +1,19 @@
+{
+  "id": "src-1555",
+  "title": "The Hill: Trump claims Iran talks ongoing amid signals of breakdown",
+  "url": "https://thehill.com/policy/international/5905123-trump-iran-talks-continuing/",
+  "snippet": "The Hill coverage of Trump insisting talks continue at rapid pace despite Iran's announcement of suspension.",
+  "source_name": "The Hill",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1540",
+  "related_item": "src-1540",
+  "tag_reason": "기보도 — src-1540 (트럼프 대화 계속 주장)의 The Hill 보도. 동일 사건",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "src-1544",
+  "title": "CENTCOM intercepts 5 Iranian missiles — 2 at Kuwait, 3 at Bahrain; IRGC says response to Qeshm strikes; no casualties",
+  "url": "https://www.cnbc.com/amp/2026/06/01/us-iran-war-missiles-kuwait.html",
+  "snippet": "CENTCOM reports intercepting 5 Iranian ballistic missiles: 2 targeting US forces in Kuwait and 3 targeting forces in Bahrain. All intercepted by US and Bahraini air defense systems. No casualties. IRGC claims strikes are retaliation for US strikes on Qeshm Island drone ground control station. Marks continued tit-for-tat military escalation alongside diplomatic efforts.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이란이 쿠웨이트와 바레인의 미군 기지를 탄도미사일로 공격. 전량 요격되어 사상자 없음. IRGC는 케심 섬 공격에 대한 보복이라 주장. 새로운 군사 교전",
+  "entities": [
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "interceptor"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "attacker"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "target location"},
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "target location"},
+    {"id": "ent-300", "type": "Location", "name": "Qeshm Island", "role": "prior strike target"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "attacker state"},
+    {"id": "temp-006", "type": "Event", "name": "IRGC Missile Attacks on Kuwait/Bahrain (Jun 1-2)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "attacks", "object": "ent-037"},
+    {"subject": "ent-005", "predicate": "attacks", "object": "ent-036"},
+    {"subject": "ent-059", "predicate": "intercepts", "object": "temp-006"},
+    {"subject": "temp-006", "predicate": "retaliatesFor", "object": "temp-007"}
+  ]
+}

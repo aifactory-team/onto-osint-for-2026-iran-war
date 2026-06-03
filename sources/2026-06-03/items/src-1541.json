@@ -1,0 +1,25 @@
+{
+  "id": "src-1541",
+  "title": "Trump calls Netanyahu 'f**king crazy' — demands Beirut strike cancellation; 'Everybody hates you now. Everybody hates Israel'",
+  "url": "https://time.com/article/2026/06/02/trump-netanyahu-crazy-lebanon-hezbollah-ceasefire-iran-us-peace-deal/",
+  "snippet": "In a heated phone call, Trump tells Netanyahu: 'I'm saving your ass. Everybody hates you now. Everybody hates Israel.' Also says: 'You'd be in prison if it weren't for me.' Demands cancellation of planned Beirut/Dahieh strikes that are undermining US-Iran peace process. Most confrontational Trump-Netanyahu exchange reported during the conflict.",
+  "source_name": "TIME",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 트럼프-네타냐후 간 전쟁 이래 가장 격렬한 통화 내용 유출. 트럼프가 네타냐후에게 '미친놈'이라 부르며 베이루트 공격 중단 요구. 미-이스라엘 관계의 새로운 긴장점",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israeli PM"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "target of criticism"},
+    {"id": "ent-052", "type": "Location", "name": "Beirut", "role": "planned strike target"},
+    {"id": "temp-003", "type": "Event", "name": "Trump-Netanyahu Heated Call (Jun 2)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "pressures", "object": "ent-031"},
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "temp-001"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

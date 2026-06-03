@@ -1,0 +1,25 @@
+{
+  "id": "src-1551",
+  "title": "Ghalibaf tells Berri Iran may retaliate if Israeli Lebanon attacks continue — most explicit escalatory signal since late May",
+  "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+  "snippet": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf tells Lebanese Parliament Speaker Nabih Berri that Iran may retaliate directly if Israeli attacks on Lebanon continue. Most explicit Iranian escalatory signaling since late May. Marks potential shift from proxy-based response to direct Iranian involvement in Lebanon theater.",
+  "source_name": "GlobalSecurity.org",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 갈리바프가 베리에게 이란의 직접 보복 가능성 전달. 5월 말 이래 가장 명시적인 이란 확전 신호. 대리전에서 직접 개입으로의 전환 시사",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf", "role": "Iranian Parliament Speaker"},
+    {"id": "ent-271", "type": "Person", "name": "Nabih Berri", "role": "Lebanese Parliament Speaker"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "threatening retaliation"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "attack target"},
+    {"id": "temp-019", "type": "Event", "name": "Ghalibaf Retaliation Warning (Jun 2)"}
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "warns", "object": "ent-271"},
+    {"subject": "temp-019", "predicate": "threatens", "object": "ent-004"},
+    {"subject": "ent-002", "predicate": "escalates", "object": "temp-019"}
+  ]
+}

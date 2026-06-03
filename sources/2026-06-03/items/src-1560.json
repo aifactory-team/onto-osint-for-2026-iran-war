@@ -1,0 +1,19 @@
+{
+  "id": "src-1560",
+  "title": "종전협상 최대 암초 '레바논'...이란 '전선 연계' 카드",
+  "url": "https://biz.heraldcorp.com/article/20260602000456",
+  "snippet": "이란이 레바논 전선과 미이란 협상을 연계하는 전략 분석. 레바논 이스라엘 공격이 협상의 최대 장애물이 되고 있다는 분석.",
+  "source_name": "헤럴드경제",
+  "language": "ko",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1539",
+  "related_item": "src-1539",
+  "tag_reason": "기보도 — src-1539 (이란 협상 중단)의 한국어 분석 보도. 전선 연계 전략 분석이나 핵심 사건 동일",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"}
+  ],
+  "relations": []
+}

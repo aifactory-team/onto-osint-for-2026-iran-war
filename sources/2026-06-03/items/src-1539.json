@@ -1,0 +1,27 @@
+{
+  "id": "src-1539",
+  "title": "Iran suspends talks with US over Israeli attacks in Lebanon — Araghchi: 'ceasefire on all fronts, violation on one = violation on all'",
+  "url": "https://www.nbcnews.com/world/iran/iran-suspends-talks-us-israel-attacks-lebanon-rcna347865",
+  "snippet": "Iran's negotiating team has halted 'talks and exchange of texts through mediators,' Tasnim reports. Foreign Minister Araghchi states: 'ceasefire on all fronts, including Lebanon. Violation on one front equals violation on all fronts.' Iran explicitly links Lebanese operations to broader US-Iran peace framework, conditioning continuation of talks on Israeli de-escalation in Lebanon.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이란이 미국과의 협상을 공식적으로 중단. 레바논 이스라엘 공격을 이유로 모든 중재자 통한 소통 중지. 5/31 협상 교착 상태에서 공식 중단으로 격상된 새로운 발전",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiation suspender"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iranian Foreign Minister"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "catalyst for suspension"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "conflict theater"},
+    {"id": "temp-001", "type": "Event", "name": "Iran Talk Suspension (Jun 1)"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "suspends", "object": "ent-456"},
+    {"subject": "ent-044", "predicate": "announces", "object": "temp-001"},
+    {"subject": "temp-001", "predicate": "causedBy", "object": "ent-004"},
+    {"subject": "temp-001", "predicate": "opposes", "object": "ent-456"}
+  ]
+}

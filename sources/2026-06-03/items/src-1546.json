@@ -1,0 +1,28 @@
+{
+  "id": "src-1546",
+  "title": "IDF soldier killed at Beaufort Castle — Staff Sgt. Tzarfati, 20, Hezbollah FPV drone at Yohmor; 3 wounded",
+  "url": "https://www.timesofisrael.com/idf-soldier-killed-3-hurt-in-hezbollah-drone-attack-near-newly-seized-beaufort-castle/",
+  "snippet": "Staff Sgt. Adam Tzarfati, 20, of the Commando Brigade Maglan Unit killed by Hezbollah FPV drone strike near Yohmor, close to Beaufort Castle. Three additional soldiers wounded. First IDF fatality since Beaufort Castle capture on May 31. Demonstrates Hezbollah's continued ability to target IDF forces in occupied Lebanese territory using precision drones.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — IDF 병사 보포르 성 근처에서 헤즈볼라 FPV 드론에 전사. 보포르 성 점령 이후 첫 사망자. 점령 지역의 취약성 노출",
+  "entities": [
+    {"id": "temp-008", "type": "Person", "name": "Adam Tzarfati", "role": "IDF soldier killed"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "attacker"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "casualty state"},
+    {"id": "temp-009", "type": "Location", "name": "Yohmor", "role": "attack location"},
+    {"id": "ent-483", "type": "Event", "name": "Israel Beaufort Castle Seizure (May 31)", "role": "related event"},
+    {"id": "temp-010", "type": "Event", "name": "Beaufort Castle Drone Attack (Jun 1)"},
+    {"id": "temp-011", "type": "Organization", "name": "Maglan Unit", "role": "IDF commando unit"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "attacks", "object": "ent-004"},
+    {"subject": "temp-010", "predicate": "follows", "object": "ent-483"},
+    {"subject": "temp-008", "predicate": "killedIn", "object": "temp-010"},
+    {"subject": "temp-010", "predicate": "locatedAt", "object": "temp-009"}
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-03",
   "entities": [
     {
       "id": "ent-001",
@@ -14,8 +14,8 @@
         "action_may30": "heading to Situation Room for 'final determination' on Iran deal; demands: never nuclear weapon, Hormuz immediately open unrestricted, no tolls; shared MoU draft with allied nations"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-30",
-      "mention_count": 295
+      "last_seen": "2026-06-03",
+      "mention_count": 296
     },
     {
       "id": "ent-002",
@@ -28,8 +28,8 @@
         "action_may30": "IRGC retaliatory strike on US airbase following CENTCOM May 26 strikes near Bandar Abbas; IRGC warns 'utter ruin' if diplomacy fails; Ali Azmaei IRGC Navy Chief possibly killed (unconfirmed)"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-30",
-      "mention_count": 342
+      "last_seen": "2026-06-03",
+      "mention_count": 343
     },
     {
       "id": "ent-003",
@@ -54,8 +54,8 @@
         "action_may30": "Netanyahu confirms 36th Division crossed Litani River, advancing to dominating terrain; participating in first-ever Pentagon Israeli-Lebanese military talks (May 29); 5 killed in Lebanon"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-30",
-      "mention_count": 147
+      "last_seen": "2026-06-03",
+      "mention_count": 148
     },
     {
       "id": "ent-005",
@@ -68,8 +68,8 @@
         "action_may30": "retaliatory strike on US airbase (4:50 AM) following CENTCOM May 26 near Bandar Abbas; 'serious warning' — further aggression will receive 'more decisive response'; warns 'utter ruin' if renewed conflict; Navy Chief Ali Azmaei possibly killed (unconfirmed)"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-30",
-      "mention_count": 131
+      "last_seen": "2026-06-03",
+      "mention_count": 132
     },
     {
       "id": "ent-006",
@@ -106,8 +106,8 @@
         "status_may30": "Trump demands 'immediately open, unrestricted, no tolls'; Brent oil -19% in May (worst monthly since March 2020, $92.05); key demand in Situation Room 'final determination'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-30",
-      "mention_count": 305
+      "last_seen": "2026-06-03",
+      "mention_count": 306
     },
     {
       "id": "ent-009",
@@ -382,8 +382,8 @@
         "action_may30": "at northern border confirms 36th Division crossed Litani River; 'Crossed Litani, advanced to dominating terrain. Operating in Beirut, Bekaa, across entire front, striking Hezbollah hard.' 5 killed"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-30",
-      "mention_count": 27
+      "last_seen": "2026-06-03",
+      "mention_count": 28
     },
     {
       "id": "ent-032",
@@ -504,8 +504,8 @@
         "action_may30": "Iran deal outcome 'still TBD'; Trump heading to Situation Room for final determination; participating in pre-decision White House consultations"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-30",
-      "mention_count": 97
+      "last_seen": "2026-06-03",
+      "mention_count": 98
     },
     {
       "id": "ent-042",
@@ -541,8 +541,8 @@
         "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-26",
-      "mention_count": 82
+      "last_seen": "2026-06-03",
+      "mention_count": 83
     },
     {
       "id": "ent-045",
@@ -554,8 +554,8 @@
         "action_apr21": "adviser says: 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms'"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-25",
-      "mention_count": 53
+      "last_seen": "2026-06-03",
+      "mention_count": 54
     },
     {
       "id": "ent-046",
@@ -567,8 +567,8 @@
         "note": "Son of late Ali Khamenei"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-25",
-      "mention_count": 11
+      "last_seen": "2026-06-03",
+      "mention_count": 12
     },
     {
       "id": "ent-047",
@@ -582,8 +582,8 @@
         "action_may30": "IDF striking Hezbollah hard across Beirut, Bekaa, entire front after 36th Division crosses Litani; facing military pressure across all Lebanon fronts"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-30",
-      "mention_count": 78
+      "last_seen": "2026-06-03",
+      "mention_count": 79
     },
     {
       "id": "ent-048",
@@ -617,8 +617,8 @@
         "status_may30": "IDF crossed Litani, 36th Division advancing to dominating terrain; Gen. Rodolphe Haykal represents LAF in first-ever Pentagon military talks (May 29); IDF operating in Beirut, Bekaa; 5 killed"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-05-30",
-      "mention_count": 114
+      "last_seen": "2026-06-03",
+      "mention_count": 115
     },
     {
       "id": "ent-051",
@@ -735,8 +735,8 @@
         "action_may30": "May 26 strikes near Bandar Abbas provoked IRGC retaliatory strike on originating US airbase at 4:50 AM; IRGC called it 'serious warning'"
       },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-05-30",
-      "mention_count": 48
+      "last_seen": "2026-06-03",
+      "mention_count": 49
     },
     {
       "id": "ent-060",
@@ -971,8 +971,8 @@
         "action": "mediated Israel-Lebanon Washington talks (Apr 14)"
       },
       "first_seen": "2026-04-14",
-      "last_seen": "2026-05-27",
-      "mention_count": 25
+      "last_seen": "2026-06-03",
+      "mention_count": 26
     },
     {
       "id": "ent-078",
@@ -1331,8 +1331,8 @@
         "statement": "blockade 'as long as it takes', US 'maximally postured' to resume military operations, 'if Iran chooses poorly, bombs on infrastructure'"
       },
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-24",
-      "mention_count": 24
+      "last_seen": "2026-06-03",
+      "mention_count": 25
     },
     {
       "id": "ent-105",
@@ -5315,8 +5315,8 @@
         "detail": "Negotiators reached preliminary MoU for 60-day truce extension, Hormuz reopening, nuclear talks. Trump approval pending. Vance: 'still TBD', 'couple of language points' on HEU/enrichment remain. White House confirms negotiators agreed. Iran denies finalization."
       },
       "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
-      "mention_count": 15
+      "last_seen": "2026-06-03",
+      "mention_count": 16
     },
     {
       "id": "ent-457",
@@ -5458,7 +5458,11 @@
       "properties": {
         "date": "2026-05-30",
         "location": "White House Situation Room",
-        "participants": ["Trump", "Vance", "senior national security advisors"],
+        "participants": [
+          "Trump",
+          "Vance",
+          "senior national security advisors"
+        ],
         "demands": "never nuclear weapon, Hormuz immediately open unrestricted, no tolls",
         "context": "Trump heading to Situation Room for 'final determination' on Iran deal; MoU draft shared with allied nations"
       },
@@ -5520,7 +5524,11 @@
       "properties": {
         "date": "2026-05-29",
         "description": "First-ever Israeli-Lebanese military talks held at Pentagon",
-        "topics": ["ceasefire enforcement", "IDF withdrawal timeline", "LAF role in south Lebanon"],
+        "topics": [
+          "ceasefire enforcement",
+          "IDF withdrawal timeline",
+          "LAF role in south Lebanon"
+        ],
         "lebanon_rep": "Gen. Rodolphe Haykal (LAF)",
         "context": "Part of Pentagon security track launched following May 28 announcement; complement to diplomatic MoU negotiations"
       },
@@ -5662,9 +5670,195 @@
       "first_seen": "2026-05-31",
       "last_seen": "2026-05-31",
       "mention_count": 1
+    },
+    {
+      "id": "ent-492",
+      "type": "Event",
+      "name": "Iran Suspends US Talks (Jun 1)",
+      "properties": {
+        "date": "2026-06-01",
+        "detail": "Tasnim: Iran negotiation team halts exchanges with US over Israeli Lebanon attacks. Araghchi: 'ceasefire on all fronts' required before resuming. Most significant diplomatic setback since MoU near-agreement.",
+        "participants": [
+          "Araghchi",
+          "Iran negotiation team"
+        ],
+        "trigger": "Israel Lebanon offensive expansion"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-493",
+      "type": "Event",
+      "name": "Trump 'Rapid Pace' Claim (Jun 1-2)",
+      "properties": {
+        "date": "2026-06-01",
+        "detail": "Trump contradicts Iran suspension: 'talks going on continuously' at 'rapid pace.' Direct conflict with Tasnim report of halt.",
+        "context": "Messaging war continues — each side claims opposite status of negotiations"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-494",
+      "type": "Event",
+      "name": "Trump-Netanyahu 'Crazy' Call (Jun 2)",
+      "properties": {
+        "date": "2026-06-02",
+        "detail": "Trump to Netanyahu: 'You're f**king crazy. I'm saving your ass. Everybody hates you now.' Demands cancellation of planned Beirut strikes.",
+        "participants": [
+          "Trump",
+          "Netanyahu"
+        ],
+        "significance": "Most confrontational known US-Israel exchange since war began"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-495",
+      "type": "Event",
+      "name": "Trump Lebanon Ceasefire Announcement (Jun 2)",
+      "properties": {
+        "date": "2026-06-02",
+        "detail": "Israel halts Beirut strikes, Hezbollah stops attacks. Dahieh framework — starting with Beirut, expanding to all Lebanon. Follows Trump-Netanyahu confrontational call.",
+        "scope": "Beirut initial, expanding nationwide"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-496",
+      "type": "Event",
+      "name": "IRGC Missiles at Kuwait/Bahrain (Jun 1-2)",
+      "properties": {
+        "date": "2026-06-01",
+        "detail": "2 ballistic missiles at Kuwait intercepted by CENTCOM; 3 at Bahrain intercepted by US/Bahrain joint defense. First IRGC strikes at Gulf state bases since war began.",
+        "intercepted_by": [
+          "CENTCOM",
+          "Bahrain"
+        ],
+        "targets": [
+          "Kuwait",
+          "Bahrain"
+        ]
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-497",
+      "type": "Event",
+      "name": "CENTCOM Qeshm Island Strike (Jun 2)",
+      "properties": {
+        "date": "2026-06-02",
+        "detail": "CENTCOM strikes Iranian military ground control station on Qeshm Island; response to IRGC MQ-1 shootdown. Targeted strike on drone operations infrastructure.",
+        "trigger": "IRGC MQ-1 shootdown",
+        "location": "Qeshm Island, Iran"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-498",
+      "type": "Person",
+      "name": "Adam Tzarfati",
+      "properties": {
+        "role": "IDF Staff Sgt., Commando Brigade Maglan Unit",
+        "affiliation": "IDF",
+        "age": 20,
+        "status": "killed 2026-06-01",
+        "cause": "Hezbollah FPV drone at Yohmor near Beaufort Castle",
+        "unit": "Commando Brigade Maglan Unit"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-499",
+      "type": "Event",
+      "name": "Rubio Senate Nuclear Testimony (Jun 2)",
+      "properties": {
+        "date": "2026-06-02",
+        "detail": "Secretary Rubio testifies before Senate: Iran must accept 'severe and long-term' nuclear limitations. No sanctions relief for Hormuz alone. Talks could take 30-60-90 days.",
+        "key_demands": [
+          "severe nuclear limitations",
+          "no sanctions relief for Hormuz only"
+        ],
+        "timeline": "30-60-90 days"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-500",
+      "type": "Concept",
+      "name": "Bab el-Mandeb Closure Threat",
+      "properties": {
+        "domain": "maritime/geopolitics",
+        "detail": "Iran threatens to expand beyond Hormuz to Bab el-Mandeb strait. Risks: 30% global container traffic, 25% oil/gas transit. Represents significant escalation of maritime coercion strategy.",
+        "economic_impact": "30% global containers, 25% oil/gas"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-501",
+      "type": "Event",
+      "name": "Israel-Lebanon Round 4 Washington Talks (Jun 2-3)",
+      "properties": {
+        "date": "2026-06-02",
+        "location": "Washington DC, State Department",
+        "detail": "Round 4 of Israeli-Lebanese negotiations. US side led by Needham/Holler. Ambassadors present. State Dept hosts political track.",
+        "us_leads": [
+          "Michael Needham",
+          "Patrick Holler"
+        ],
+        "context": "Follows Beaufort escalation and Trump-Netanyahu call"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-502",
+      "type": "Event",
+      "name": "Ghalibaf-Berri Retaliation Threat (Jun 2)",
+      "properties": {
+        "date": "2026-06-02",
+        "detail": "Most explicit Iranian escalatory signaling since late May. Ghalibaf and Berri issue coordinated retaliation threats against Israel.",
+        "significance": "Coordinated Iran-Hezbollah escalation messaging"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-503",
+      "type": "Event",
+      "name": "Oil Price Spike Jun 2-3",
+      "properties": {
+        "date": "2026-06-02",
+        "brent": "~$95 (peak), ~$91 (settle)",
+        "wti": "~$92",
+        "change": "+5% on Iran suspension news",
+        "context": "Spike on Iran talks suspension, partial retreat on Lebanon ceasefire announcement"
+      },
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "mention_count": 4
     }
   ],
-  "total_count": 434,
+  "total_count": 445,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -5971,42 +6165,134 @@
       "action": "add_instances",
       "target": "6 new entities (ent-444~ent-449), 7 existing updated",
       "reason": "CENTCOM 자위권 공습(2 IRGC 보트+밴더아바스 SAM), IRGC MQ-9 격추 주장(F-35 교전), 셰카르치 '지역 너머' 보복 위협, 이스라엘 레바논 120+ 공습(마슈하라 12명), 유가 Brent $99.58(+3%), 루비오 '며칠 내' 딜. 스키마 변경 없음",
-      "source_ids": ["src-1400", "src-1401", "src-1402", "src-1403", "src-1404", "src-1405", "src-1406", "src-1407", "src-1408", "src-1409"]
+      "source_ids": [
+        "src-1400",
+        "src-1401",
+        "src-1402",
+        "src-1403",
+        "src-1404",
+        "src-1405",
+        "src-1406",
+        "src-1407",
+        "src-1408",
+        "src-1409"
+      ]
     },
     {
       "date": "2026-05-28",
       "action": "add_instances",
       "target": "6 new entities (ent-450~ent-455), 7 existing updated",
       "reason": "유가 5%+ 급락(WTI $88.68/Brent $94.29, MoU 초안 공개 후), 트럼프 'negotiating on fumes' Day 90 각료회의(중간선거 불영향·HEU 러/중 거부), 이스라엘 레바논 31명 사살(4/16 이후 최대·네타냐후 'press pedal harder'), 이란 인터넷 88일 차단 해제(페제시키안 명령·행정법원 부분 중단), 이란 국영TV MoU 초안 세부 공개(30일 호르무즈 복구·미군 철수), 5/29 펜타곤 이-레 군사 조정 회의 예고. 스키마 변경 없음",
-      "source_ids": ["src-1426", "src-1427", "src-1428", "src-1429", "src-1430", "src-1431", "src-1432", "src-1434"]
+      "source_ids": [
+        "src-1426",
+        "src-1427",
+        "src-1428",
+        "src-1429",
+        "src-1430",
+        "src-1431",
+        "src-1432",
+        "src-1434"
+      ]
     },
     {
       "date": "2026-05-29",
       "action": "add_instances",
       "target": "9 new entities (ent-456~ent-464), 7 existing updated",
       "reason": "미-이란 잠정 MoU 합의(60일 휴전연장·호르무즈 개방·핵 협상, 트럼프 승인 대기·밴스 'TBD'), 바게리카니 '합의한 것 없다' 부인, 백악관 '완전한 조작' 반박(MoU 메시지 전쟁), IRGC 호르무즈 4척 경고사격, 펜타곤 이-레 안보트랙 개시(헤즈볼라 무장해제·IDF 철수·합동작전실), 리타니강 전투(IDF 북진·100+타격·헤즈볼라 반격), 유가 혼조(Brent $93.71). 스키마 변경 없음",
-      "source_ids": ["src-1454", "src-1455", "src-1456", "src-1457", "src-1458", "src-1459", "src-1460", "src-1461", "src-1462", "src-1463"]
+      "source_ids": [
+        "src-1454",
+        "src-1455",
+        "src-1456",
+        "src-1457",
+        "src-1458",
+        "src-1459",
+        "src-1460",
+        "src-1461",
+        "src-1462",
+        "src-1463"
+      ]
     },
     {
       "date": "2026-05-30",
       "action": "add_instances",
       "target": "7 new entities (ent-465~ent-471), 10 existing updated",
       "reason": "트럼프 상황실 '최종 결정'(호르무즈 무조건 개방·핵 불보유 요구·MoU 초안 동맹 공유), IRGC 미 공군기지 보복 타격(4:50 AM·Bandar Abbas 5/26 공습 대응·'중대 경고'), IRGC '완전한 파멸' 위협(CNN 외교실패 분석), 알리 아즈마에이 IRGC 해군사령관 사망 미확인 보도, 5월 유가 -19%(2020년 3월 이후 최대 월간 하락·Brent $92.05/WTI $87.36), IDF 리타니강 36사단 도하(네타냐후 직접 확인·베이루트·베카·전선 전체 작전), 펜타곤 이-레 최초 군사 회담(5/29·하이칼 LAF 대표). 스키마 변경 없음",
-      "source_ids": ["src-1480", "src-1481", "src-1482", "src-1483", "src-1484", "src-1485", "src-1486", "src-1487", "src-1488", "src-1489"]
+      "source_ids": [
+        "src-1480",
+        "src-1481",
+        "src-1482",
+        "src-1483",
+        "src-1484",
+        "src-1485",
+        "src-1486",
+        "src-1487",
+        "src-1488",
+        "src-1489"
+      ]
     },
     {
       "date": "2026-05-31",
       "action": "add_instances",
       "target": "11 new entities (ent-472~ent-481 + ent-476/477/481 persons), 5 existing updated",
       "reason": "트럼프 상황실 2시간 ���의 결정 보류(MoU 미승인), 헤그세스 싱가포르 샹그릴라 대�� 군사재개 경고('we control the strait'), 이란 Fars MoU 반박('진실과 ���짓의 혼합'·통행료/핵/동결자산 $12B 쟁점), 이란 인사이더 MoU 하메네이 10개 조건 중 8��� 위반 주장(카날리자데·아부토라비 '롤리팝'), 베센트 이란 암호화폐 $1B 압류('지갑을 통째로 잡았다'), 오만 호르무즈 부유기뢰 경보, 레바논 휴전 통계(IDF 1,600회·헤���볼라 500회 공격·3,213명 사망). 스키마 변경 없음",
-      "source_ids": ["src-1499", "src-1500", "src-1501", "src-1502", "src-1503", "src-1504", "src-1505", "src-1506", "src-1507", "src-1508"]
+      "source_ids": [
+        "src-1499",
+        "src-1500",
+        "src-1501",
+        "src-1502",
+        "src-1503",
+        "src-1504",
+        "src-1505",
+        "src-1506",
+        "src-1507",
+        "src-1508"
+      ]
     },
     {
       "date": "2026-06-01",
       "action": "add_instances",
       "target": "10 new entities (ent-482~ent-491), 6 existing updated",
       "reason": "트럼프 'not in a hurry'·'slowly but surely' 의도적 지연 선언(Fox Lara Trump 인터뷰), 이스라엘 보포르 성 점령(26년 만 최심 침투·네타냐후 '지상 기동 확대' 명령·2,000km² 점령·레바논 1/5), 자하라니강 대피 명령(리타니 10km 북쪽까지 작전 확대), 6/2-3 워싱턴 4차 회담 예고(안보 트랙 펜타곤·정치 트랙 국무부 분리), 하메네이 MoU+최신제안 모두 무응답 확인(JPost), 록히드마틴 $1B+ 계약($879M F-35·THAAD 400기/년), 가스 $4.56(+51% 전쟁 이후·전쟁 끝나도 고착 전망), 프랑스 UNSC 회의 요청(이스라엘 확대 규탄). 스키마 변경 없음",
-      "source_ids": ["src-1519", "src-1520", "src-1521", "src-1522", "src-1523", "src-1524", "src-1525", "src-1526"]
+      "source_ids": [
+        "src-1519",
+        "src-1520",
+        "src-1521",
+        "src-1522",
+        "src-1523",
+        "src-1524",
+        "src-1525",
+        "src-1526"
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "action": "add_instances",
+      "target": "12 new entities (ent-492~ent-503), 16 existing updated",
+      "reason": "이란 협상 중단(Araghchi '전 전선 휴전' 요구), 트럼프 'rapid pace' 반박(협상 지속 주장), 트럼프-네타냐후 'You're f**king crazy' 통화(베이루트 공습 취소 요구), 레바논 휴전(다히에 프레임워크·전국 확대), IRGC 쿠웨이트/바레인 BM 공격(CENTCOM 요격), CENTCOM 케심섬 공습(드론 관제소), Tzarfati IDF 전사(헤즈볼라 FPV 드론·보포르), 루비오 상원 핵 증언('severe and long-term' 제한·30-60-90일), Bab el-Mandeb 폐쇄 위협(30% 컨테이너·25% 에너지), 4차 워싱턴 회담(Needham/Holler), 갈리바프-베리 보복 위협(이란-헤즈볼라 조율), 유가 +5%→$91(협상 중단 급등·휴전 후 반락). 스키마 변경 없음",
+      "source_ids": [
+        "src-1539",
+        "src-1540",
+        "src-1541",
+        "src-1542",
+        "src-1543",
+        "src-1544",
+        "src-1545",
+        "src-1546",
+        "src-1547",
+        "src-1548",
+        "src-1549",
+        "src-1550",
+        "src-1551",
+        "src-1552",
+        "src-1553",
+        "src-1554",
+        "src-1555",
+        "src-1556",
+        "src-1557",
+        "src-1558",
+        "src-1559",
+        "src-1560"
+      ]
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "src-1554",
+  "title": "Washington Times: Iran halts peace talks with US over Israel Lebanon offensive",
+  "url": "https://www.washingtontimes.com/news/2026/jun/1/iran-halts-peace-talks-us-over-israel-lebanon/",
+  "snippet": "Washington Times coverage of Iran halting peace talks. Cites Tasnim report on negotiation team suspending all mediator communication.",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1539",
+  "related_item": "src-1539",
+  "tag_reason": "기보도 — src-1539 (이란 협상 중단)의 Washington Times 보도. 동일 사건",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"}
+  ],
+  "relations": []
+}

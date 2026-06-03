@@ -1,0 +1,24 @@
+{
+  "id": "src-1540",
+  "title": "Trump insists talks at 'rapid pace' — contradicts Iran suspension; posts on Truth Social after heated Netanyahu call",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strikes-ceasefire-lebanon-israel/",
+  "snippet": "Trump contradicts Iran's announcement of suspended talks, insisting negotiations have been 'going on continuously' and at a 'rapid pace.' Statement posted on Truth Social shortly after reported heated phone call with Netanyahu. Creates dueling narratives about state of US-Iran negotiations.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 트럼프가 이란의 협상 중단 발표를 정면으로 반박. Truth Social에서 '빠른 속도로 대화 계속' 주장. 양측 간 엇갈리는 메시지는 새로운 정보전 양상",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "counterparty"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israeli PM"},
+    {"id": "temp-002", "type": "Event", "name": "Trump Rapid Pace Claim (Jun 1-2)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "contradicts", "object": "temp-001"},
+    {"subject": "ent-001", "predicate": "announces", "object": "temp-002"},
+    {"subject": "temp-002", "predicate": "opposes", "object": "temp-001"}
+  ]
+}

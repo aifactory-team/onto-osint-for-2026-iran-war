@@ -1,0 +1,19 @@
+{
+  "id": "src-1558",
+  "title": "Fox News: Iran peace talks in limbo as Iran reviews US proposal",
+  "url": "https://www.foxnews.com/live-news/iran-peace-talks-review-june-2026",
+  "snippet": "Fox News coverage of Iran reviewing US proposal. Multiple sources confirm Iran has gone silent.",
+  "source_name": "Fox News",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1539",
+  "related_item": "src-1539",
+  "tag_reason": "기보도 — src-1539 (이란 협상 중단) 및 src-1552 (이란 검토 중)의 Fox News 보도. 동일 사건",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-456", "type": "Event", "name": "US-Iran Tentative MoU Agreement"}
+  ],
+  "relations": []
+}

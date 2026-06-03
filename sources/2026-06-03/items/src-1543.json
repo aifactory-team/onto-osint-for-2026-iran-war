@@ -1,0 +1,25 @@
+{
+  "id": "src-1543",
+  "title": "Netanyahu contradicts ceasefire — IDF will keep striking southern Lebanon 'as planned'; Katz denies ceasefire exists",
+  "url": "https://www.timesofisrael.com/liveblog-june-02-2026/",
+  "snippet": "Hours after Trump announces Lebanon ceasefire, Netanyahu says IDF will keep striking southern Lebanon 'as planned.' Defense Minister Israel Katz explicitly denies any ceasefire exists. Creates immediate contradiction to Trump's announcement and undermines the ceasefire framework before it can take effect.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 네타냐후가 트럼프의 레바논 휴전 발표를 수시간 만에 반박. 카츠 국방장관도 휴전 존재 부정. 미-이스라엘 간 공개적 불일치",
+  "entities": [
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "role": "ceasefire denier"},
+    {"id": "ent-296", "type": "Person", "name": "Israel Katz", "role": "Defense Minister"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "ceasefire contradiction"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "conflict theater"},
+    {"id": "temp-005", "type": "Event", "name": "Netanyahu Ceasefire Contradiction (Jun 2)"}
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "contradicts", "object": "temp-004"},
+    {"subject": "ent-296", "predicate": "contradicts", "object": "temp-004"},
+    {"subject": "temp-005", "predicate": "opposes", "object": "temp-004"}
+  ]
+}

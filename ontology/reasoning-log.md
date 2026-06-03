@@ -2112,3 +2112,48 @@
 - **의도적 지연 경쟁 (Deliberate Delay Contest):** Day 93의 '거울상 비승인'이 Day 94에는 양측의 '적극적 지연'으로 진화. Trump는 'not in a hurry'로 지연을 전략으로 프레이밍하고, Khamenei는 MoU+최신 제안 모두에 무응답으로 시간을 무기화. 누가 먼저 조급해지는지가 교착 해소의 열쇠.
 - **군사-외교 레버리지 패턴:** 이스라엘의 보포르 성 점령(5/31) → 워싱턴 4차 회담(6/2-3) 시퀀스는 이전 라운드에서 반복된 '회담 전 군사 확대' 패턴의 강화. 2,000km² 점령·자하라니강 대피는 이전 어느 라운드보다 강력한 기정사실.
 - **경제 구조 변형:** Lockheed $1B+ 계약과 가스 $4.56(+51%)는 전쟁이 단기 충격을 넘어 경제 구조를 변형하고 있음을 시사. 군산복합체 수혜 ↔ 소비자 부담의 이중 구조.
+
+---
+
+## 2026-06-03 추론 결과
+
+### 추론 #1: co_participation (루비오 + Needham + Holler → 외교 라인 공동 활동)
+- **입력:** (ent-077/Rubio, participatesIn, ent-499/Senate Nuclear Testimony), (ent-501/Round 4, follows, ent-484/Round 4 Preview)
+- **추론:** (ent-077/Rubio, potentialRelation, ent-501/Round 4)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **근거:** 루비오의 상원 핵 증언(ent-499)이 Round 4 회담(ent-501)과 동일 시간대에 진행. 상원에서 '심각하고 장기적인' 핵 제한을 요구하면서, 동시에 State Dept에서 이스라엘-레바논 정치 트랙이 진행 — 핵 압박과 레바논 외교의 이중 운용. Needham/Holler가 미국 측 수석으로 활동.
+
+### 추론 #2: event_chain (이스라엘 레바논 공세 → 이란 협상 중단 → 트럼프 네타냐후 통화 → 레바논 휴전)
+- **입력:** (ent-004/Israel, opposes, ent-050/Lebanon), (ent-492/Iran Suspends, causedBy, ent-004/Israel), (ent-494/Trump-Netanyahu Call, causedBy, ent-004/Israel), (ent-495/Lebanon Ceasefire, follows, ent-494)
+- **추론:** (ent-492, follows, ent-494) — 인과 체인
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **근거:** Day 94의 이스라엘 보포르 점령(ent-483) → 이란이 협상 중단(ent-492, 6/1 Tasnim) → 트럼프가 네타냐후에 'You're f**king crazy' 통화(ent-494, 6/2) → 레바논 휴전 발표(ent-495, 6/2). 이스라엘의 군사 확대가 이란의 외교 후퇴를 촉발하고, 이것이 트럼프의 이스라엘 억제로 이어진 4단계 인과 체인. 트럼프는 이란 딜을 위해 이스라엘을 제어해야 하는 역학이 최초로 공개적으로 노출.
+
+### 추론 #3: transitivity (갈리바프-베리 보복 위협 + 이란 협상 중단 → 이란 조율된 에스컬레이션)
+- **입력:** (ent-045/Ghalibaf, participatesIn, ent-502/Retaliation Threat), (ent-044/Araghchi, participatesIn, ent-492/Iran Suspends)
+- **추론:** (ent-502, relatedTo, ent-492) — 조율된 에스컬레이션 압박
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **근거:** 갈리바프(의회의장)의 베리와의 조율된 보복 위협(ent-502)이 아라그치(외무장관)의 협상 중단(ent-492)과 동일 시간대에 발생. '5월 말 이후 가장 명시적인 에스컬레이션 시그널링'이라는 평가와 일치. 정치(갈리바프)·외교(아라그치)·군사(IRGC BM 공격 ent-496) 3개 축이 동기화 — Day 93-94의 '의도적 지연'에서 '적극적 에스컬레이션'으로 이란 전략 전환 가능성.
+
+### 추론 #4: concurrent_pressure (IRGC 걸프 BM 공격 ↔ 이란 협상 중단 동기화)
+- **입력:** (ent-005/IRGC, participatesIn, ent-496/Missiles at Kuwait/Bahrain), (ent-492/Iran Suspends, opposes, ent-456/MoU)
+- **추론:** (ent-496, relatedTo, ent-492) — 군사·외교 동기화
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **근거:** IRGC 쿠웨이트/바레인 BM 공격(ent-496)이 이란 협상 중단(ent-492) 같은 날 발생. 전쟁 이후 최초의 걸프 국가 기지 직접 타격으로, 미국의 중동 안보 공약을 시험. 외교 중단(아라그치) + 군사 에스컬레이션(IRGC) + 정치 위협(갈리바프) 3축 동기화 패턴의 군사 축.
+
+### 추론 #5: escalation_ladder (Bab el-Mandeb 위협 → 호르무즈 확장)
+- **입력:** (ent-500/Bab el-Mandeb, relatedTo, ent-008/Hormuz), (ent-496/IRGC Missiles, relatedTo, ent-005/IRGC)
+- **추론:** (ent-500, relatedTo, ent-496) — 에스컬레이션 사다리
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **근거:** 이란의 Bab el-Mandeb 폐쇄 위협(ent-500)은 호르무즈(ent-008) 봉쇄를 넘어 홍해·수에즈까지 해양 압박을 확대하려는 전략. 글로벌 컨테이너 30%, 석유/가스 25%가 통과하는 해협으로, 호르무즈 + Bab el-Mandeb '이중 해협 봉쇄'는 세계 경제에 대한 이란의 최대 레버리지. IRGC BM 공격(ent-496)이 이 위협의 물리적 시연.
+
+### 주요 패턴 분석 (Day 95-96 종합)
+- **3축 동기화 에스컬레이션 (Triaxial Synchronized Escalation):** Day 94의 '의도적 지연'에서 Day 95-96에는 이란이 외교(협상 중단) + 정치(갈리바프-베리 위협) + 군사(IRGC 걸프 BM) 3축을 동기화하여 적극적 에스컬레이션으로 전환. 이전의 수동적 비승인(Day 93)·의도적 지연(Day 94)과 질적으로 다른 공세적 자세.
+- **트럼프 딜레마 노출 (Trump Dilemma Exposed):** 이스라엘 레바논 확대(이란 딜 방해) vs 이란 딜 추진(이스라엘 억제 필요) 사이의 모순이 'You're f**king crazy' 통화로 최초 공개. 트럼프가 이란 딜과 이스라엘 지지를 동시에 추구할 수 없는 구조적 제약 확인.
+- **인과 체인 실증:** 이스라엘 보포르 → 이란 중단 → 트럼프-네타냐후 → 레바논 휴전의 4단계 체인이 48시간 내 실현. 레바논 전선이 이란 핵 협상의 가장 직접적인 변수로 확인.
+- **이중 해협 위협 (Dual Strait Threat):** 호르무즈에서 Bab el-Mandeb로 해양 압박 확장 시사 — 이란이 에스컬레이션 사다리의 다음 단계를 예고. 실현 시 글로벌 공급망에 대한 충격은 호르무즈 단독보다 기하급수적.

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-03",
   "classes": [
     {
       "id": "Entity",
@@ -824,6 +824,13 @@
       "target": "10 new entities (ent-482~ent-491)",
       "reason": "트럼프 'not in a hurry' 의도적 지연 선언, 이스라엘 보포르 성 점령(26년 만 최심 침투·2000km² 점령·자하라니강 대피), 6/2-3 워싱턴 4차 회담 예고(안보/정치 분리 트랙), 하메네이 MoU+최신제안 모두 무응답 확인, 록히드마틴 $1B+ 계약, 가스 $4.56(+51%) 등 — 모든 신규 엔티티 및 관계가 기존 클래스 및 관계 유형으로 표현 가능. 스키마 변경 없음.",
       "source_ids": ["src-1519", "src-1520", "src-1521", "src-1522", "src-1523", "src-1524", "src-1525", "src-1526"]
+    },
+    {
+      "date": "2026-06-03",
+      "action": "add_instances",
+      "target": "12 new entities (ent-492~ent-503), 16 existing updated",
+      "reason": "이란 협상 중단(Araghchi '전 전선 휴전'), 트럼프 'rapid pace' 반박, 트럼프-네타냐후 통화('You're f**king crazy'), 레바논 휴전(다히에 프레임워크), IRGC 쿠웨이트/바레인 BM 공격(CENTCOM 요격), CENTCOM 케심섬 공습, IDF Tzarfati 전사(헤즈볼라 FPV 드론), 루비오 상원 핵 증언, Bab el-Mandeb 폐쇄 위협, 이스라엘-레바논 4차 워싱턴 회담, 갈리바프-베리 보복 위협, 유가 급등($95→$91). 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1539", "src-1540", "src-1541", "src-1542", "src-1543", "src-1544", "src-1545", "src-1546", "src-1547", "src-1548", "src-1549", "src-1550", "src-1551", "src-1552", "src-1553", "src-1554", "src-1555", "src-1556", "src-1557", "src-1558", "src-1559", "src-1560"]
     }
   ]
 }

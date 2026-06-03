@@ -1,0 +1,25 @@
+{
+  "id": "src-1547",
+  "title": "Rubio Senate testimony — Iran must agree to 'severe and long-term' nuclear limits; 30-60-90 day timeline; Iran showing new flexibility",
+  "url": "https://www.thenationalnews.com/news/us/2026/06/02/iran-nuclear-talks-rubio/",
+  "snippet": "Secretary of State Marco Rubio testifies before Senate: Iran must agree to 'severe and long-term' nuclear limitations. No sanctions relief for Hormuz reopening alone. Nuclear talks are 'highly technical, could take months' with 30-60-90 day timeline. Positive note: Iran 'agreed to negotiate aspects they refused to mention a year ago,' suggesting new flexibility on nuclear issues.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 루비오 국무장관 상원 증언. 이란 핵 제한 요구, 30-60-90일 협상 타임라인 제시, 이란의 새로운 유연성 언급. 핵 협상의 구체적 윤곽 최초 공개",
+  "entities": [
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiation counterparty"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "negotiation element"},
+    {"id": "temp-012", "type": "Event", "name": "Rubio Senate Nuclear Testimony (Jun 2)"},
+    {"id": "temp-013", "type": "Concept", "name": "30-60-90 Day Nuclear Timeline"}
+  ],
+  "relations": [
+    {"subject": "ent-077", "predicate": "announces", "object": "temp-012"},
+    {"subject": "temp-012", "predicate": "relatedTo", "object": "ent-456"},
+    {"subject": "ent-077", "predicate": "demands", "object": "ent-002"}
+  ]
+}

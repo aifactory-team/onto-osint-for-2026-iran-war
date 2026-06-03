@@ -1,0 +1,19 @@
+{
+  "id": "src-1556",
+  "title": "PBS: Trump says Israel and Hezbollah agree to partial Lebanon ceasefire",
+  "url": "https://www.pbs.org/newshour/world/trump-announces-lebanon-ceasefire-hezbollah-israel",
+  "snippet": "PBS coverage of Trump's Lebanon ceasefire announcement. Dahieh strikes to cease in exchange for Hezbollah stopping attacks on Israel.",
+  "source_name": "PBS",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1542",
+  "related_item": "src-1542",
+  "tag_reason": "기보도 — src-1542 (트럼프 레바논 휴전 발표)의 PBS 보도. 동일 사건",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"}
+  ],
+  "relations": []
+}

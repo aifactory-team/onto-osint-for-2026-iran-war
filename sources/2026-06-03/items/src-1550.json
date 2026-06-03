@@ -1,0 +1,25 @@
+{
+  "id": "src-1550",
+  "title": "Israel-Lebanon Round 4 talks begin at State Department — Needham/Holler lead US side; Jun 2-3",
+  "url": "https://www.timesofisrael.com/liveblog_entry/new-round-of-israel-lebanon-talks-begins-in-washington/",
+  "snippet": "Fourth round of Israel-Lebanon talks begins at State Department, June 2-3. Needham (recently promoted to deputy NSA) and Holler lead the US side. Israeli and Lebanese ambassadors present. Trump says he secured commitments of de-escalation from both sides. Talks proceed despite chaos of ceasefire announcement and contradiction.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이스라엘-레바논 4차 워싱턴 회담 개시. src-1523에서 예고된 회담이 실제 개시. 니덤 부NSA 승진 후 첫 주도",
+  "entities": [
+    {"id": "ent-484", "type": "Event", "name": "Israel-Lebanon Round 4 Washington Talks", "role": "main event"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "participant"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "participant"},
+    {"id": "temp-017", "type": "Person", "name": "Needham", "role": "US deputy NSA"},
+    {"id": "temp-018", "type": "Person", "name": "Holler", "role": "US negotiator"}
+  ],
+  "relations": [
+    {"subject": "temp-017", "predicate": "leadsNegotiation", "object": "ent-484"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-484"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-484"}
+  ]
+}

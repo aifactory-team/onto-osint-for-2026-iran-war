@@ -1,0 +1,19 @@
+{
+  "id": "src-1557",
+  "title": "NPR: Trump urges Israel, Hezbollah to hold fire in Lebanon",
+  "url": "https://www.npr.org/2026/06/02/trump-lebanon-ceasefire-hezbollah-israel",
+  "snippet": "NPR coverage of Trump's push for Lebanon ceasefire. Claims commitments from both sides.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "reported",
+  "related_report": "2026-06-03/src-1542",
+  "related_item": "src-1542",
+  "tag_reason": "기보도 — src-1542 (트럼프 레바논 휴전 발표)의 NPR 보도. 동일 사건",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-03",
+  "new_triples": [
+    {"subject": "ent-492", "predicate": "causedBy", "object": "ent-004", "source_id": "src-1539", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-492", "predicate": "causedBy", "object": "ent-050", "source_id": "src-1539", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-492", "source_id": "src-1539", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-492", "predicate": "opposes", "object": "ent-456", "source_id": "src-1539", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-493", "predicate": "opposes", "object": "ent-492", "source_id": "src-1540", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-493", "source_id": "src-1540", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-494", "source_id": "src-1541", "date": "2026-06-03", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-494", "source_id": "src-1541", "date": "2026-06-03", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-494", "predicate": "causedBy", "object": "ent-004", "source_id": "src-1541", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-495", "predicate": "follows", "object": "ent-494", "source_id": "src-1542", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-495", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1542", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-495", "source_id": "src-1542", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-495", "source_id": "src-1542", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-496", "source_id": "src-1543", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-496", "source_id": "src-1543", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "ent-497", "source_id": "src-1544", "date": "2026-06-03", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-497", "predicate": "causedBy", "object": "ent-496", "source_id": "src-1544", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-498", "predicate": "participatesIn", "object": "ent-483", "source_id": "src-1545", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-498", "predicate": "affiliatedWith", "object": "ent-004", "source_id": "src-1545", "date": "2026-06-03", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-499", "source_id": "src-1546", "date": "2026-06-03", "confidence": 1.0, "type": "explicit"},
+    {"subject": "ent-499", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1546", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-500", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1547", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "mentions", "object": "ent-500", "source_id": "src-1547", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-501", "predicate": "follows", "object": "ent-484", "source_id": "src-1548", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-501", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1548", "date": "2026-06-03", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "ent-502", "source_id": "src-1549", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-502", "predicate": "opposes", "object": "ent-004", "source_id": "src-1549", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-503", "predicate": "causedBy", "object": "ent-492", "source_id": "src-1550", "date": "2026-06-03", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-503", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1550", "date": "2026-06-03", "confidence": 0.90, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-077", "predicate": "potentialRelation", "object": "ent-501", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reason": "Rubio(ent-077) + Needham + Holler → Round 4/외교 라인에서 공동 활동. Rubio 핵 증언(ent-499)이 Round 4 회담(ent-501)과 동일 시간대에 진행 — 상원 핵 압박과 레바논 외교를 동시에 운용"},
+    {"subject": "ent-492", "predicate": "follows", "object": "ent-494", "rule": "event_chain", "confidence": 0.80, "type": "inferred", "reason": "이스라엘 레바논 공세(ent-004/ent-050) → 이란 협상 중단(ent-492) → 트럼프-네타냐후 통화(ent-494) → 레바논 휴전(ent-495) 인과 체인. 이스라엘의 군사 확대가 이란의 외교 후퇴를 초래하고, 이것이 트럼프의 네타냐후 압박으로 이어진 연쇄 구조"},
+    {"subject": "ent-502", "predicate": "relatedTo", "object": "ent-492", "rule": "transitivity", "confidence": 0.80, "type": "inferred", "reason": "갈리바프-베리 보복 위협(ent-502) + 이란 협상 중단(ent-492) → 이란 조율된 에스컬레이션 압박. 갈리바프(의회의장)의 보복 시그널링이 아라그치(외무장관)의 협상 중단과 동시 발생 — 정치·군사·외교 3개 축의 동기화된 압박"},
+    {"subject": "ent-496", "predicate": "relatedTo", "object": "ent-492", "rule": "concurrent_pressure", "confidence": 0.75, "type": "inferred", "reason": "IRGC 쿠웨이트/바레인 BM 공격(ent-496)이 이란 협상 중단(ent-492)과 동일 시간대 — 외교 중단과 군사 에스컬레이션의 동기화. 걸프 동맹국 타격으로 미국의 중동 안보 공약 시험"},
+    {"subject": "ent-500", "predicate": "relatedTo", "object": "ent-496", "rule": "escalation_ladder", "confidence": 0.72, "type": "inferred", "reason": "Bab el-Mandeb 폐쇄 위협(ent-500)은 IRGC BM 공격(ent-496)의 연장선 — 호르무즈(ent-008)에서 Bab el-Mandeb까지 해양 압박 범위 확대. 이란이 에스컬레이션 사다리의 다음 단계를 시사"}
+  ],
+  "stats": {
+    "new_nodes": 12,
+    "new_edges": 29,
+    "inferred_edges": 5
+  }
+}

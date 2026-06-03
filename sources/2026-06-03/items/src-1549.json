@@ -1,0 +1,22 @@
+{
+  "id": "src-1549",
+  "title": "Oil prices: Brent +5% to ~$95 on Iran suspension news, then slips to ~$91; WTI ~$92",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude spikes 5% to approximately $95/barrel on June 2 following Iran's announcement of suspended talks. Slips back toward $91 on June 3 amid mixed signals. WTI fluctuates around $92. Oil market highly sensitive to diplomatic signals; suspension news immediately reversed prior week's downward trend.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-06-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이란 협상 중단 뉴스에 브렌트유 5% 급등 후 하락. 외교 신호에 민감한 유가 동향. 이전 하락 추세 반전",
+  "entities": [
+    {"id": "ent-469", "type": "Event", "name": "Brent May 2026 Monthly Drop", "role": "prior trend"},
+    {"id": "temp-016", "type": "Event", "name": "Brent Spike on Talk Suspension (Jun 2-3)"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "supply factor"}
+  ],
+  "relations": [
+    {"subject": "temp-016", "predicate": "causedBy", "object": "temp-001"},
+    {"subject": "temp-016", "predicate": "reverses", "object": "ent-469"}
+  ]
+}
