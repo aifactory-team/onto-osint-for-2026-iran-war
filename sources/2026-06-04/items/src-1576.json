@@ -1,0 +1,19 @@
+{
+  "id": "src-1576",
+  "title": "서울경제: 이란, 쿠웨이트 공항 공습...민간 시설 다시 겨눴다",
+  "url": "https://www.sedaily.com/article/20051389",
+  "snippet": "이란의 쿠웨이트 민간 시설 공격 보도. 서울경제 한국어 보도.",
+  "source_name": "서울경제",
+  "language": "ko",
+  "discovered_date": "2026-06-04",
+  "tag": "reported",
+  "related_report": "2026-06-04/src-1561",
+  "related_item": "src-1561",
+  "tag_reason": "src-1561과 동일 사건의 한국어 보도",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "attacker"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "target"},
+    {"id": "ent-505", "type": "Event", "name": "Kuwait Airport Attack", "role": "event"}
+  ],
+  "relations": []
+}

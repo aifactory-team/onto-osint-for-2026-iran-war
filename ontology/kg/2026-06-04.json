@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-04",
+  "new_triples": [
+    {"subject": "ent-504", "predicate": "opposes", "object": "ent-001", "source_id": "src-1562", "date": "2026-06-04", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-505", "predicate": "locatedIn", "object": "ent-037", "source_id": "src-1561", "date": "2026-06-04", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-505", "source_id": "src-1561", "date": "2026-06-04", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-505", "source_id": "src-1561", "date": "2026-06-04", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-505", "predicate": "follows", "object": "ent-496", "source_id": "src-1574", "date": "2026-06-04", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-506", "predicate": "follows", "object": "ent-495", "source_id": "src-1563", "date": "2026-06-04", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-506", "source_id": "src-1563", "date": "2026-06-04", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-506", "source_id": "src-1563", "date": "2026-06-04", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-506", "predicate": "mentions", "object": "ent-507", "source_id": "src-1563", "date": "2026-06-04", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-507", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1563", "date": "2026-06-04", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-507", "source_id": "src-1563", "date": "2026-06-04", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-508", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1565", "date": "2026-06-04", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-508", "source_id": "src-1565", "date": "2026-06-04", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-508", "source_id": "src-1565", "date": "2026-06-04", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1564", "date": "2026-06-04", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1566", "date": "2026-06-04", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-505", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1561", "date": "2026-06-04", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-504", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-1562", "date": "2026-06-04", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-505", "predicate": "relatedTo", "object": "ent-492", "rule": "escalation_ladder", "confidence": 0.80, "type": "inferred", "reason": "쿠웨이트 공항 드론 공격(ent-505)은 6/1-2 IRGC 쿠웨이트/바레인 BM(ent-496)에서 민간 인프라로 에스컬레이션한 것. 이란 협상 중단(ent-492)과 동시기에 발생하여 군사 에스컬레이션과 외교 후퇴의 동기화 패턴 지속"},
+    {"subject": "ent-506", "predicate": "relatedTo", "object": "ent-456", "rule": "event_chain", "confidence": 0.75, "type": "inferred", "reason": "이스라엘-레바논 파일럿 존 합의(ent-506)는 MoU(ent-456)와 연계. 레바논 전선의 안정화가 이란 핵 협상의 전제조건이라는 구조 확인. 6/22 차기 회담까지의 타임라인이 MoU 60일 프레임워크와 중첩"},
+    {"subject": "ent-507", "predicate": "opposes", "object": "ent-047", "rule": "structural_opposition", "confidence": 0.85, "type": "inferred", "reason": "파일럿 존(ent-507) 개념은 헤즈볼라(ent-047)의 리타니 이남 활동을 구조적으로 배제. LAF 독점 통제 = 헤즈볼라 무장해제의 실질적 첫 단계. 헤즈볼라 입장에서 존재론적 위협"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-044", "rule": "message_war", "confidence": 0.72, "type": "inferred", "reason": "트럼프 '이번 주말 가능'(src-1566) vs 아라그치 '진전 없음'(src-1564) — 협상 상태에 대한 메시지 전쟁 지속. Day 95-96의 'rapid pace vs 중단'에서 Day 96-97의 'this weekend vs no progress'로 진화. 단 아라그치의 '소통은 차단되지 않았다'는 미묘한 톤 변화"}
+  ],
+  "stats": {
+    "new_nodes": 5,
+    "new_edges": 18,
+    "inferred_edges": 4
+  }
+}

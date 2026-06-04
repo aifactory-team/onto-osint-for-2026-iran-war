@@ -1,0 +1,29 @@
+{
+  "id": "src-1561",
+  "title": "Iran drone attack on Kuwait International Airport — 1 killed (Indian citizen), 63+ wounded; T1 damaged; IRGC denies, claims US interceptor failure; CENTCOM: 'deliberate, calculated, unjustified'",
+  "url": "https://www.npr.org/2026/06/03/g-s1-125566/iran-war-updates",
+  "snippet": "Hostile drones hit Terminal 1 at Kuwait International Airport on June 3. One Indian citizen killed, 63+ wounded (7 requiring major surgery). Airport had just reopened Monday after months-long closure. IRGC denies responsibility, claims US interceptor failure caused the damage. CENTCOM responds: 'This was a deliberate, calculated and unjustified attack on civilian infrastructure.' Airport partially reopened at a different terminal.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이란 드론이 중립국 쿠웨이트의 민간 공항 터미널을 타격. 전쟁 이후 최초의 중립국 민간 인프라 공격. 1명 사망, 63명 부상은 걸프 국가 민간인 대규모 피해의 새로운 차원",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "alleged attacker (denies)"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "condemner/responder"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "target/victim state"},
+    {"id": "temp-002", "type": "Event", "name": "Iran Kuwait Airport Drone Attack (Jun 3)"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "alleged perpetrator"},
+    {"id": "ent-080", "type": "Organization", "name": "India", "role": "victim nationality"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "endangered framework"},
+    {"id": "ent-496", "type": "Event", "name": "IRGC Missile Attacks (Jun 1-2)", "role": "prior escalation"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-002"},
+    {"subject": "temp-002", "predicate": "locatedIn", "object": "ent-037"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "temp-002"},
+    {"subject": "temp-002", "predicate": "follows", "object": "ent-496"}
+  ]
+}

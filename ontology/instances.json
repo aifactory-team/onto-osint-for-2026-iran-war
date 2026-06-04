@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-04",
   "entities": [
     {
       "id": "ent-001",
@@ -11,11 +11,12 @@
         "role": "US President",
         "affiliation": "United States",
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'",
-        "action_may30": "heading to Situation Room for 'final determination' on Iran deal; demands: never nuclear weapon, Hormuz immediately open unrestricted, no tolls; shared MoU draft with allied nations"
+        "action_may30": "heading to Situation Room for 'final determination' on Iran deal; demands: never nuclear weapon, Hormuz immediately open unrestricted, no tolls; shared MoU draft with allied nations",
+        "action_jun04": "says deal possible 'this weekend'; 'I hear the negotiation itself is going very well'; claims Iran 'really wants' a deal; contradicts Araghchi 'no progress'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-03",
-      "mention_count": 296
+      "last_seen": "2026-06-04",
+      "mention_count": 301
     },
     {
       "id": "ent-002",
@@ -51,11 +52,12 @@
         "type": "state",
         "location": "Middle East",
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US",
-        "action_may30": "Netanyahu confirms 36th Division crossed Litani River, advancing to dominating terrain; participating in first-ever Pentagon Israeli-Lebanese military talks (May 29); 5 killed in Lebanon"
+        "action_may30": "Netanyahu confirms 36th Division crossed Litani River, advancing to dominating terrain; participating in first-ever Pentagon Israeli-Lebanese military talks (May 29); 5 killed in Lebanon",
+        "action_jun04": "agrees to pilot zones in 4th Washington trilateral; joint statement with Lebanon and US; LAF exclusive control south of Litani; next talks June 22"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-03",
-      "mention_count": 148
+      "last_seen": "2026-06-04",
+      "mention_count": 153
     },
     {
       "id": "ent-005",
@@ -65,11 +67,12 @@
         "type": "military",
         "location": "Iran",
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began",
-        "action_may30": "retaliatory strike on US airbase (4:50 AM) following CENTCOM May 26 near Bandar Abbas; 'serious warning' — further aggression will receive 'more decisive response'; warns 'utter ruin' if renewed conflict; Navy Chief Ali Azmaei possibly killed (unconfirmed)"
+        "action_may30": "retaliatory strike on US airbase (4:50 AM) following CENTCOM May 26 near Bandar Abbas; 'serious warning' — further aggression will receive 'more decisive response'; warns 'utter ruin' if renewed conflict; Navy Chief Ali Azmaei possibly killed (unconfirmed)",
+        "action_jun04": "drone attack on Kuwait International Airport T1 (1 killed Indian citizen, 63+ wounded, 7 major surgery); denies responsibility claiming US interceptor failure; Navy claims targeting US destroyer command center in Gulf of Oman (CENTCOM: 'Iran is lying')"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-03",
-      "mention_count": 132
+      "last_seen": "2026-06-04",
+      "mention_count": 137
     },
     {
       "id": "ent-006",
@@ -451,11 +454,12 @@
       "name": "Kuwait",
       "properties": {
         "type": "state",
-        "location": "Middle East/Gulf"
+        "location": "Middle East/Gulf",
+        "status_jun04": "Kuwait International Airport T1 hit by Iranian drones (1 killed Indian citizen, 63+ wounded); airport had just reopened Monday after months-long closure; partially reopened at different terminal"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 2
+      "last_seen": "2026-06-04",
+      "mention_count": 8
     },
     {
       "id": "ent-038",
@@ -538,11 +542,12 @@
       "properties": {
         "role": "Iran Foreign Minister",
         "affiliation": "Iran",
-        "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track"
+        "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track",
+        "action_jun04": "'no progress but communication not cut off'; both sides reviewing exchanged texts, working on 'final formula'; warns Israeli attacks on Beirut could jeopardize ceasefire — 'result of aggression against Beirut will be return of war'"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-06-03",
-      "mention_count": 83
+      "last_seen": "2026-06-04",
+      "mention_count": 88
     },
     {
       "id": "ent-045",
@@ -579,11 +584,12 @@
         "location": "Lebanon",
         "affiliation": "Iran-backed",
         "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began",
-        "action_may30": "IDF striking Hezbollah hard across Beirut, Bekaa, entire front after 36th Division crosses Litani; facing military pressure across all Lebanon fronts"
+        "action_may30": "IDF striking Hezbollah hard across Beirut, Bekaa, entire front after 36th Division crosses Litani; facing military pressure across all Lebanon fronts",
+        "status_jun04": "pilot zones agreement targets Hezbollah exclusion south of Litani; complete fire cessation and evacuation of all operatives required; existential structural challenge from LAF exclusive control framework"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-06-03",
-      "mention_count": 79
+      "last_seen": "2026-06-04",
+      "mention_count": 83
     },
     {
       "id": "ent-048",
@@ -614,11 +620,12 @@
       "properties": {
         "type": "country",
         "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry",
-        "status_may30": "IDF crossed Litani, 36th Division advancing to dominating terrain; Gen. Rodolphe Haykal represents LAF in first-ever Pentagon military talks (May 29); IDF operating in Beirut, Bekaa; 5 killed"
+        "status_may30": "IDF crossed Litani, 36th Division advancing to dominating terrain; Gen. Rodolphe Haykal represents LAF in first-ever Pentagon military talks (May 29); IDF operating in Beirut, Bekaa; 5 killed",
+        "status_jun04": "4th Washington trilateral produces pilot zones agreement; LAF takes exclusive security control in designated areas south of Litani excluding all non-state actors; ceasefire renewed; next talks June 22"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-06-03",
-      "mention_count": 115
+      "last_seen": "2026-06-04",
+      "mention_count": 120
     },
     {
       "id": "ent-051",
@@ -732,11 +739,12 @@
       "properties": {
         "type": "military command",
         "location": "United States",
-        "action_may30": "May 26 strikes near Bandar Abbas provoked IRGC retaliatory strike on originating US airbase at 4:50 AM; IRGC called it 'serious warning'"
+        "action_may30": "May 26 strikes near Bandar Abbas provoked IRGC retaliatory strike on originating US airbase at 4:50 AM; IRGC called it 'serious warning'",
+        "action_jun04": "condemns Kuwait airport attack as 'deliberate, calculated and unjustified'; denies Iran Navy claim of targeting US destroyer: 'Iran is lying. US military assets at sea continue to fly, sail, and operate safely'"
       },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-06-03",
-      "mention_count": 49
+      "last_seen": "2026-06-04",
+      "mention_count": 54
     },
     {
       "id": "ent-060",
@@ -5856,9 +5864,75 @@
       "first_seen": "2026-06-03",
       "last_seen": "2026-06-03",
       "mention_count": 4
+    },
+    {
+      "id": "ent-504",
+      "type": "Event",
+      "name": "House WPR Passage (Jun 3)",
+      "properties": {
+        "date": "2026-06-03",
+        "vote": "215-208",
+        "gop_defectors": "Tom Barrett (MI), Warren Davidson (OH), Brian Fitzpatrick (PA), Thomas Massie (KY)",
+        "detail": "US House passes War Powers Resolution on Iran war for the first time. 4 Republicans defect. Mostly symbolic — Senate unlikely to pass, Trump would veto. First successful legislative rebuke."
+      },
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-505",
+      "type": "Event",
+      "name": "Iran Kuwait Airport Drone Attack (Jun 3)",
+      "properties": {
+        "date": "2026-06-03",
+        "location": "Kuwait International Airport T1",
+        "casualties": "1 killed (Indian citizen), 63+ wounded (7 major surgery)",
+        "detail": "Iranian hostile drones hit T1 at Kuwait International Airport. Airport had just reopened Monday after months-long closure. IRGC denies, claims US interceptor failure. CENTCOM calls it 'deliberate, calculated and unjustified.' First attack on neutral Gulf state civilian infrastructure."
+      },
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-506",
+      "type": "Event",
+      "name": "Israel-Lebanon Pilot Zones Agreement (Jun 3)",
+      "properties": {
+        "date": "2026-06-03",
+        "location": "Washington, Department of State",
+        "detail": "4th Washington trilateral meeting concludes with joint statement. Ceasefire renewed. 'Pilot zones' where LAF takes exclusive control excluding all non-state actors. Contingent on complete Hezbollah fire cessation and evacuation south of Litani. Next talks week of June 22."
+      },
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-507",
+      "type": "Concept",
+      "name": "Pilot Zones",
+      "properties": {
+        "domain": "security/governance",
+        "detail": "Areas in southern Lebanon where LAF takes exclusive security control, excluding all non-state actors including Hezbollah. First concrete disarmament mechanism in the war. Framework for comprehensive agreement."
+      },
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-508",
+      "type": "Event",
+      "name": "Iran Navy Gulf of Oman Destroyer Claim (Jun 3)",
+      "properties": {
+        "date": "2026-06-03",
+        "location": "Gulf of Oman",
+        "detail": "Iran Navy claimed targeting US destroyer's 'command and control centre.' CENTCOM denied: 'Iran is lying. US military assets continue to operate safely.' Information warfare — no independent verification."
+      },
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "mention_count": 4
     }
   ],
-  "total_count": 445,
+  "total_count": 450,
   "changelog": [
     {
       "date": "2026-05-11",

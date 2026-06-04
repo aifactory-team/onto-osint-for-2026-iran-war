@@ -1,0 +1,19 @@
+{
+  "id": "src-1570",
+  "title": "PBS: House passes resolution for first time to halt military action against Iran",
+  "url": "https://www.pbs.org/newshour/politics/house-passes-resolution-for-first-time-to-halt-military-action-against-iran-in-rebuke-of-trump",
+  "snippet": "PBS coverage of House WPR passage. First time House successfully passed war powers resolution on Iran war.",
+  "source_name": "PBS",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "reported",
+  "related_report": "2026-06-04/src-1562",
+  "related_item": "src-1562",
+  "tag_reason": "src-1562와 동일 사건 — 하원 WPR 통과의 추가 보도",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "target"},
+    {"id": "ent-504", "type": "Event", "name": "House WPR Passage", "role": "event"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "war counterpart"}
+  ],
+  "relations": []
+}

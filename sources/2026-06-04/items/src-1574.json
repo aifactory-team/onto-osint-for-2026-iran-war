@@ -1,0 +1,23 @@
+{
+  "id": "src-1574",
+  "title": "NBC News: Iran attacks Kuwait, trades strikes with US in test to ceasefire",
+  "url": "https://www.nbcnews.com/world/iran/iran-attacks-kuwait-strikes-us-ceasefire-peace-talks-trump-rcna348213",
+  "snippet": "NBC News comprehensive coverage of Iran attacking Kuwait while trading strikes with the US. Updates previous reporting on June 3 missile exchanges (src-1544) with escalation to Kuwait airport drone attack.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "update",
+  "related_report": "2026-06-03/src-1544",
+  "related_item": "src-1544",
+  "tag_reason": "업데이트 — 6/1-2 쿠웨이트/바레인 BM(src-1544)에서 6/3 쿠웨이트 공항 드론 공격으로 에스컬레이션 업데이트",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "attacker"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "target"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "responder"},
+    {"id": "ent-505", "type": "Event", "name": "Kuwait Airport Attack", "role": "event"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "endangered"}
+  ],
+  "relations": [
+    {"subject": "ent-505", "predicate": "follows", "object": "ent-496"}
+  ]
+}

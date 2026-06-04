@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-04",
   "classes": [
     {
       "id": "Entity",
@@ -831,6 +831,13 @@
       "target": "12 new entities (ent-492~ent-503), 16 existing updated",
       "reason": "이란 협상 중단(Araghchi '전 전선 휴전'), 트럼프 'rapid pace' 반박, 트럼프-네타냐후 통화('You're f**king crazy'), 레바논 휴전(다히에 프레임워크), IRGC 쿠웨이트/바레인 BM 공격(CENTCOM 요격), CENTCOM 케심섬 공습, IDF Tzarfati 전사(헤즈볼라 FPV 드론), 루비오 상원 핵 증언, Bab el-Mandeb 폐쇄 위협, 이스라엘-레바논 4차 워싱턴 회담, 갈리바프-베리 보복 위협, 유가 급등($95→$91). 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1539", "src-1540", "src-1541", "src-1542", "src-1543", "src-1544", "src-1545", "src-1546", "src-1547", "src-1548", "src-1549", "src-1550", "src-1551", "src-1552", "src-1553", "src-1554", "src-1555", "src-1556", "src-1557", "src-1558", "src-1559", "src-1560"]
+    },
+    {
+      "date": "2026-06-04",
+      "action": "add_instances",
+      "target": "5 new entities (ent-504~ent-508), 8 existing updated",
+      "reason": "이란 쿠웨이트 공항 드론 공격(1명 사망·63+ 부상·T1 파손·전쟁 이후 최초 중립국 민간 인프라), 하원 WPR 최초 통과(215-208·4 GOP 이탈·Barrett/Davidson/Fitzpatrick/Massie), 이스라엘-레바논 파일럿 존 합의(4차 워싱턴 회담·LAF 독점 통제·헤즈볼라 배제·6/22 차기), 파일럿 존 개념(무장해제 첫 구체적 메커니즘), 이란 해군 미 구축함 타격 주장(CENTCOM 부인·정보전), 아라그치 '진전 없으나 소통 미차단'+'최종 공식'(톤 변화), 트럼프 '이번 주말' 딜 가능(메시지 전쟁), 유가 $96.89(3거래일 연속 상승). 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1561", "src-1562", "src-1563", "src-1564", "src-1565", "src-1566", "src-1567", "src-1568", "src-1569", "src-1570", "src-1571", "src-1572", "src-1573", "src-1574", "src-1575", "src-1576", "src-1577"]
     }
   ]
 }

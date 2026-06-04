@@ -1,0 +1,26 @@
+{
+  "id": "src-1562",
+  "title": "US House passes War Powers Resolution 215-208 — 4 Republicans defect (Barrett, Davidson, Fitzpatrick, Massie); first successful House WPR on Iran war",
+  "url": "https://www.npr.org/2026/06/03/nx-s1-5845102/house-iran-war-powers-vote",
+  "snippet": "The US House of Representatives passed a War Powers Resolution on June 3 by a vote of 215-208, directing President Trump to end hostilities with Iran. Four Republicans broke ranks: Tom Barrett (MI), Warren Davidson (OH), Brian Fitzpatrick (PA), and Thomas Massie (KY). This marks the first time the House successfully passed a WPR on the Iran war. The resolution is largely symbolic — the Senate is unlikely to pass it, and Trump would veto.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 하원이 이란 전쟁에 대해 최초로 전쟁권한법 결의안을 통과시킴. 215-208 양당 투표로 4명의 공화당원이 이탈. 실질 효력은 제한적이나 전쟁에 대한 의회 반발의 이정표",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "target of WPR"},
+    {"id": "temp-001", "type": "Event", "name": "House WPR Passage (Jun 3)"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "war counterpart"},
+    {"id": "ent-504-barrett", "type": "Person", "name": "Tom Barrett", "role": "GOP defector (MI)"},
+    {"id": "ent-504-davidson", "type": "Person", "name": "Warren Davidson", "role": "GOP defector (OH)"},
+    {"id": "ent-504-fitzpatrick", "type": "Person", "name": "Brian Fitzpatrick", "role": "GOP defector (PA)"},
+    {"id": "ent-504-massie", "type": "Person", "name": "Thomas Massie", "role": "GOP defector (KY)"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

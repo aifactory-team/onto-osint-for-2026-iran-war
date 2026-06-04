@@ -1,0 +1,19 @@
+{
+  "id": "src-1572",
+  "title": "Arab News: Israel-Lebanon pilot zones agreement at Washington talks",
+  "url": "https://www.arabnews.com/node/2645938/middle-east",
+  "snippet": "Arab News coverage of Israel-Lebanon pilot zones agreement from 4th Washington trilateral meeting.",
+  "source_name": "Arab News",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "reported",
+  "related_report": "2026-06-04/src-1563",
+  "related_item": "src-1563",
+  "tag_reason": "src-1563과 동일 사건 — 이스라엘-레바논 파일럿 존 합의의 추가 보도",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "participant"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "participant"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement", "role": "event"}
+  ],
+  "relations": []
+}

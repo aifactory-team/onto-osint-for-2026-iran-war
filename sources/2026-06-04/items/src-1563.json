@@ -1,0 +1,29 @@
+{
+  "id": "src-1563",
+  "title": "Israel-Lebanon ceasefire renewed with 'pilot zones' — 4th Washington trilateral; LAF exclusive control; Hezbollah excluded south of Litani; next talks June 22",
+  "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/joint-statement-of-the-united-states-of-america-republic-of-lebanon-and-state-of-israel-on-the-latest-high-level-trilateral-meeting/",
+  "snippet": "The 4th Washington trilateral meeting between the US, Lebanon, and Israel concluded with a joint statement. The ceasefire is renewed with the creation of 'pilot zones' where the Lebanese Armed Forces (LAF) takes exclusive security control, excluding all non-state actors. The arrangement is contingent on complete Hezbollah fire cessation and evacuation of all Hezbollah operatives south of the Litani River. Next talks are scheduled for the week of June 22 toward a comprehensive agreement.",
+  "source_name": "US State Department",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이스라엘-레바논 4차 워싱턴 회담 합의문 발표. '파일럿 존(Pilot Zones)' 최초 도입으로, LAF가 헤즈볼라 배제한 독점 통제권 행사하는 새로운 무장해제 메커니즘 구축",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "participant"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "participant/territory"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "excluded party"},
+    {"id": "temp-003", "type": "Event", "name": "Israel-Lebanon Pilot Zones Agreement (Jun 3)"},
+    {"id": "temp-004", "type": "Concept", "name": "Pilot Zones"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "mediator"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio", "role": "US State Dept host"},
+    {"id": "ent-506-laf", "type": "Organization", "name": "LAF", "role": "exclusive security controller"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "locatedIn", "object": "ent-050"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-003"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "temp-004"},
+    {"subject": "temp-003", "predicate": "mentions", "object": "temp-004"}
+  ]
+}

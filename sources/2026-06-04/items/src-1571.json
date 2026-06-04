@@ -1,0 +1,19 @@
+{
+  "id": "src-1571",
+  "title": "Al Jazeera: US House passes war powers resolution in rebuke to Trump",
+  "url": "https://www.aljazeera.com/news/2026/6/3/us-house-of-representatives-passes-war-powers-resolution-in-rebuke-to-trump",
+  "snippet": "Al Jazeera coverage. Clearest legislative rebuke yet of Trump's handling of Iran conflict.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "reported",
+  "related_report": "2026-06-04/src-1562",
+  "related_item": "src-1562",
+  "tag_reason": "src-1562와 동일 사건 — 하원 WPR 통과의 추가 보도",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "target"},
+    {"id": "ent-504", "type": "Event", "name": "House WPR Passage", "role": "event"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "war counterpart"}
+  ],
+  "relations": []
+}

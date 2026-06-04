@@ -1,0 +1,21 @@
+{
+  "id": "src-1567",
+  "title": "Oil prices rise toward $98 — Brent $96.89 (+0.93%), 3rd straight session gains",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude rose to $96.89 per barrel, up 0.93%, gaining for the 3rd straight session. Trading range was $95.76-$97.24. Risk premium is elevated from stalled peace talks and continued geopolitical tensions including the Kuwait airport attack and information warfare over US destroyer claims.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 유가가 3거래일 연속 상승하며 $97에 근접. 쿠웨이트 공항 공격·협상 교착·정보전 등 복합 리스크 프리미엄 반영",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "supply chokepoint"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "price driver"},
+    {"id": "ent-505", "type": "Event", "name": "Kuwait Airport Attack", "role": "risk factor"}
+  ],
+  "relations": [
+    {"subject": "ent-505", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

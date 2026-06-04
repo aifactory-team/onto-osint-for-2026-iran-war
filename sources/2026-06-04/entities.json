@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-04",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-504",
+      "type": "Event",
+      "name": "House WPR Passage (Jun 3)",
+      "properties": {"date": "2026-06-03", "vote": "215-208", "detail": "US House passes War Powers Resolution on Iran war for the first time. 4 Republicans defect: Tom Barrett (MI), Warren Davidson (OH), Brian Fitzpatrick (PA), Thomas Massie (KY). Mostly symbolic — Senate unlikely to pass, Trump would veto. First successful legislative rebuke of the war."},
+      "source_ids": ["src-1562", "src-1570", "src-1571"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-505",
+      "type": "Event",
+      "name": "Iran Kuwait Airport Drone Attack (Jun 3)",
+      "properties": {"date": "2026-06-03", "location": "Kuwait International Airport T1", "detail": "Iranian hostile drones hit Terminal 1 at Kuwait International Airport. 1 killed (Indian citizen), 63+ wounded (7 requiring major surgery). Airport had just reopened Monday after months-long closure. IRGC denies responsibility, claims US interceptor failure. CENTCOM calls it 'deliberate, calculated and unjustified attack.' Airport partially reopened at different terminal. First attack on neutral Gulf state civilian infrastructure."},
+      "source_ids": ["src-1561", "src-1568", "src-1569", "src-1574", "src-1575", "src-1576"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-506",
+      "type": "Event",
+      "name": "Israel-Lebanon Pilot Zones Agreement (Jun 3)",
+      "properties": {"date": "2026-06-03", "location": "Washington, Department of State", "detail": "4th Washington trilateral meeting concludes with joint statement. Ceasefire renewed. 'Pilot zones' created where LAF takes exclusive control excluding all non-state actors. Contingent on complete Hezbollah fire cessation and evacuation of all Hezbollah operatives south of Litani. Next talks week of June 22 toward comprehensive agreement."},
+      "source_ids": ["src-1563", "src-1572", "src-1573"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-507",
+      "type": "Concept",
+      "name": "Pilot Zones",
+      "properties": {"domain": "security/governance", "detail": "Areas in southern Lebanon where Lebanese Armed Forces (LAF) take exclusive security control, excluding all non-state actors including Hezbollah. First concrete disarmament mechanism proposed in the war. Contingent on Hezbollah evacuation south of Litani River. Framework for eventual comprehensive agreement."},
+      "source_ids": ["src-1563"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-508",
+      "type": "Event",
+      "name": "Iran Navy Gulf of Oman Destroyer Claim (Jun 3)",
+      "properties": {"date": "2026-06-03", "location": "Gulf of Oman", "detail": "Iran Navy claimed it targeted a US destroyer's 'command and control centre' in the Gulf of Oman. CENTCOM denied: 'Iran is lying. U.S. military assets at sea continue to fly, sail, and operate safely and unimpeded.' Information warfare event — claim vs denial with no independent verification."},
+      "source_ids": ["src-1565"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-504", "predicate": "opposes", "object": "ent-001", "source_id": "src-1562", "confidence": 0.85},
+    {"subject": "ent-505", "predicate": "locatedIn", "object": "ent-037", "source_id": "src-1561", "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-505", "source_id": "src-1561", "confidence": 0.80},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-505", "source_id": "src-1561", "confidence": 0.90},
+    {"subject": "ent-506", "predicate": "follows", "object": "ent-495", "source_id": "src-1563", "confidence": 0.90},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-506", "source_id": "src-1563", "confidence": 0.95},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-506", "source_id": "src-1563", "confidence": 0.95},
+    {"subject": "ent-506", "predicate": "mentions", "object": "ent-507", "source_id": "src-1563", "confidence": 0.95},
+    {"subject": "ent-507", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1563", "confidence": 0.90},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-507", "source_id": "src-1563", "confidence": 0.80},
+    {"subject": "ent-508", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1565", "confidence": 0.85},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-508", "source_id": "src-1565", "confidence": 0.90},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-456", "source_id": "src-1564", "confidence": 0.85},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-456", "source_id": "src-1566", "confidence": 0.85}
+  ]
+}

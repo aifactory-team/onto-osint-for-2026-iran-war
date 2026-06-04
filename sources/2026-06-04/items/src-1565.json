@@ -1,0 +1,25 @@
+{
+  "id": "src-1565",
+  "title": "Iran Navy claims targeting US destroyer command center in Gulf of Oman — CENTCOM denies: 'Iran is lying'",
+  "url": "https://www.tribuneindia.com/news/bahrain-kuwait-targets/us-military-denies-its-vessel-was-hit-in-sea-of-oman-says-iran-is-lying-about-strait-of-hormuz-rules-violation",
+  "snippet": "Iran Navy announced it had targeted a US destroyer's 'command and control centre' in the Gulf of Oman. CENTCOM dismissed the claim: 'Iran is lying. U.S. military assets at sea continue to fly, sail, and operate safely and unimpeded.' No independent verification of the attack. Information warfare event with competing narratives.",
+  "source_name": "Tribune India",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 이란 해군의 미 구축함 타격 주장과 CENTCOM의 정면 부인. 검증 불가능한 상충 주장으로, 양측의 정보전(information warfare) 사례",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "claimant"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "denier"},
+    {"id": "temp-005", "type": "Event", "name": "Iran Navy Gulf of Oman Destroyer Claim (Jun 3)"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "adjacent waterway"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "claimed target"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

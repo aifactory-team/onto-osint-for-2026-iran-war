@@ -1,0 +1,19 @@
+{
+  "id": "src-1575",
+  "title": "파이낸셜뉴스: 이란 쿠웨이트 공항 공습...민간 시설 다시 겨눴다",
+  "url": "https://www.fnnews.com/news/202606031832010986",
+  "snippet": "이란 드론이 쿠웨이트 국제공항을 타격. 1명 사망, 63명 부상. 한국어 보도.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-06-04",
+  "tag": "reported",
+  "related_report": "2026-06-04/src-1561",
+  "related_item": "src-1561",
+  "tag_reason": "src-1561과 동일 사건의 한국어 보도",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "attacker"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "target"},
+    {"id": "ent-505", "type": "Event", "name": "Kuwait Airport Attack", "role": "event"}
+  ],
+  "relations": []
+}

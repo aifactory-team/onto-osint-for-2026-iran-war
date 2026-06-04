@@ -1,0 +1,23 @@
+{
+  "id": "src-1566",
+  "title": "Trump says deal possible 'this weekend' — 'negotiation going very well'; claims Iran 'really wants' a deal",
+  "url": "https://athens-times.com/trump-on-iran-progress-possible-in-talks-this-weekend-2/",
+  "snippet": "Trump says 'I hear the negotiation itself is going very well, actually. Very well' and 'if it happens, it could happen, like, over the weekend.' Claims Iran 'really wants' a deal. Directly contradicts Iran's 'no progress' statement from Araghchi. Continues pattern of Trump optimism vs Iran caution in public messaging.",
+  "source_name": "Athens Times",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 트럼프가 이란 딜이 '이번 주말'에 가능할 수 있다고 발언. 이란 아라그치의 '진전 없음'과 정면 모순. Day 95-96 '메시지 전쟁'의 연장이나, 구체적 시한('this weekend')은 새로운 요소",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "optimistic claimant"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "deal counterpart"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "deal framework"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "contradicting party"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-456"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-044"}
+  ]
+}

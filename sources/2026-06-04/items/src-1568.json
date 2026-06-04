@@ -1,0 +1,20 @@
+{
+  "id": "src-1568",
+  "title": "Washington Post: Iranian attack leaves 1 dead, dozens injured at Kuwait airport",
+  "url": "https://www.washingtonpost.com/world/2026/06/03/us-iran-trade-strikes-kuwait-airport-hit-amid-stalled-peace-talks/",
+  "snippet": "Washington Post coverage of the Iranian drone attack on Kuwait International Airport. One dead, dozens injured amid stalled peace talks.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "reported",
+  "related_report": "2026-06-04/src-1561",
+  "related_item": "src-1561",
+  "tag_reason": "src-1561과 동일 사건 — 쿠웨이트 공항 공격의 추가 매체 보도. 핵심 사실 동일",
+  "entities": [
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "target"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "alleged attacker"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "perpetrator"},
+    {"id": "ent-505", "type": "Event", "name": "Kuwait Airport Attack", "role": "event"}
+  ],
+  "relations": []
+}

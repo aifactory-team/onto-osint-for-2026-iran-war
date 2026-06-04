@@ -1,0 +1,24 @@
+{
+  "id": "src-1564",
+  "title": "Araghchi: 'no progress' but 'communication not cut off' — reviewing exchanged texts, working on 'final formula'; warns Beirut attacks could jeopardize ceasefire",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/6/3/iran-war-live-us-strikes-irans-qeshm-says-tehran-attacks-kuwait-bahrain",
+  "snippet": "Iran Foreign Minister Abbas Araghchi stated: 'Our communication with the Americans has not been cut off but no progress has been achieved in the negotiations.' Both sides are reviewing exchanged texts and working on a 'final formula.' He warned that Israeli attacks on Beirut could jeopardize the ceasefire: 'The result of aggression against Beirut will be the return of war.' Nuanced shift from 6/1 'complete suspension' to 'no progress but communication continues.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-06-04",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 사건 — 아라그치가 6/1 '중단' 이후 '소통은 차단되지 않았다'로 톤 변화. '최종 공식(final formula)' 언급은 새로운 표현으로, 양측이 문서를 검토 중임을 확인. 6/1 완전 중단에서의 미묘하지만 유의미한 후퇴",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iranian FM"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "negotiator"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US side"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "negotiation framework"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "linked front"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-456"},
+    {"subject": "ent-044", "predicate": "relatedTo", "object": "ent-050"}
+  ]
+}

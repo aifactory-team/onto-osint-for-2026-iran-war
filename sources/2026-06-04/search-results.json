@@ -1,0 +1,174 @@
+{
+  "date": "2026-06-04",
+  "collected_at": "2026-06-04T08:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 52,
+  "expanded_keywords": ["Iran war negotiations", "Hormuz IRGC", "Israel Lebanon ceasefire pilot zones", "Trump Iran deal weekend", "Kuwait airport attack", "House war powers resolution", "Araghchi final formula", "이란 전쟁 협상", "레바논 휴전", "쿠웨이트 공항"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war negotiations June 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:01:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "June 1, 2026 - Trump insists talks continue after Iran suspended negotiations", "url": "https://www.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news", "snippet": "Trump told ABC News he believes a deal to reopen the Strait of Hormuz is reachable 'over the next week'", "source_name": "CNN"},
+        {"title": "Iran stops negotiations with U.S., vows to 'completely' block Strait of Hormuz", "url": "https://www.cnbc.com/2026/06/01/iran-us-negotiations-strait-of-hormuz.html", "snippet": "Iran suspends talks with the US in protest of Israel's actions in Lebanon", "source_name": "CNBC"},
+        {"title": "Iran live updates: Israel, Lebanon reach agreement on implementation of ceasefire", "url": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855", "snippet": "Israel and Lebanon agree to implement ceasefire contingent on Hezbollah actions", "source_name": "ABC News"},
+        {"title": "Iran live updates: House adopts war powers resolution in rebuke to Trump", "url": "https://abc7news.com/live-updates/iran-war-peace-talks-oil-prices-lebanon-strait-of-hormuz/19212967/", "snippet": "House passes war powers resolution 215-208", "source_name": "ABC7"},
+        {"title": "As Iran walks away from the negotiating table, Trump contradicts himself (again)", "url": "https://www.ms.now/rachel-maddow-show/maddowblog/as-iran-walks-away-from-the-negotiating-table-trump-contradicts-himself-again", "snippet": "Trump's claims about ongoing negotiations contradict Iran's suspension", "source_name": "MSNBC"},
+        {"title": "2026 Iran war - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Iran_war", "snippet": "The 2026 Iran war began Feb 28 with US-Israeli strikes", "source_name": "Wikipedia"},
+        {"title": "2025-2026 Iran-United States negotiations - Wikipedia", "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "snippet": "US-Iran negotiations overview", "source_name": "Wikipedia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran US ceasefire talks June 4 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran halts ceasefire talks with US, says it will keep Strait of Hormuz closed", "url": "https://thehill.com/policy/defense/5903844-iran-accuses-trump-ceasefire-violations/", "snippet": "Iran accused Trump administration of ceasefire violations", "source_name": "The Hill"},
+        {"title": "Iran targets US forces, Kuwait airport amid ceasefire", "url": "https://abc7ny.com/live-updates/iran-war-peace-talks-oil-prices-lebanon-strait-of-hormuz/19212967/", "snippet": "Iran attacks Kuwait airport amid stalled ceasefire talks", "source_name": "ABC7 NY"},
+        {"title": "US-Iran ceasefire and nuclear talks in 2026 - House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10637/", "snippet": "UK Parliament analysis of US-Iran negotiations", "source_name": "UK Parliament"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Strait of Hormuz IRGC June 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:03:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "Strait of Hormuz Closed, Day 94, June 2026 | Live Tracker", "url": "https://straits.live/", "snippet": "Only 10 ships transiting vs normal ~95 per day", "source_name": "Straits Live"},
+        {"title": "Fars: 15 Ships Crossed the Strait of Hormuz with IRGC Authorization", "url": "https://iranwire.com/en/news/153143-fars-15-ships-crossed-the-strait-of-hormuz-with-irgc-authorization/", "snippet": "IRGC selectively authorizing vessel passage", "source_name": "IranWire"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon Hezbollah ceasefire June 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:04:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Israel, Lebanon agree to renew truce, create 'pilot' zones where Hezbollah is banned", "url": "https://www.timesofisrael.com/liveblog-june-4-2026", "snippet": "Pilot zones where LAF takes exclusive control", "source_name": "Times of Israel"},
+        {"title": "Israel and Lebanon agree to renew fragile ceasefire, create Lebanese security zones", "url": "https://www.pbs.org/newshour/world/israel-and-lebanon-agree-to-renew-fragile-ceasefire-create-lebanese-security-zones", "snippet": "LAF exclusive control zones, reconvene June 22", "source_name": "PBS"},
+        {"title": "Israel and Lebanon Agree to Implementation of Ceasefire", "url": "https://www.usnews.com/news/world/articles/2026-06-03/israel-lebanon-say-they-agree-to-ceasefire", "snippet": "Contingent on complete Hezbollah cessation", "source_name": "US News"},
+        {"title": "Lebanese official told U.S. that Hezbollah ready for full ceasefire with Israel", "url": "https://www.axios.com/2026/06/01/lebanon-full-ceasefire-hezbollah-israel-nabih-berri", "snippet": "Nabih Berri signals Hezbollah ceasefire readiness", "source_name": "Axios"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire pilot zones Hezbollah banned June 3 4 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:05:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Joint Statement of the United States, Republic of Lebanon, and State of Israel", "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/joint-statement-of-the-united-states-of-america-republic-of-lebanon-and-state-of-israel-on-the-latest-high-level-trilateral-meeting/", "snippet": "Official State Department joint statement on 4th trilateral meeting", "source_name": "US State Department"},
+        {"title": "Israel-Lebanon war: Agreement to renew ceasefire, create security zones", "url": "https://www.cp24.com/news/world/2026/06/04/israel-lebanon-agree-to-renew-ceasefire-in-joint-statement-with-us/", "snippet": "Pilot zones where LAF takes exclusive control excluding non-state actors", "source_name": "CP24"},
+        {"title": "Live Updates: Israel, Lebanon agree to renew ceasefire as Iran launches deadly attack on Kuwait airport", "url": "https://www.cbsnews.com/live-updates/trump-iran-war-attacks-kuwait-airport-israel-hezbollah-ceasefire/", "snippet": "Ceasefire renewed amid Kuwait airport attack", "source_name": "CBS News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran attack Kuwait airport June 3 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:06:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Iran strikes Kuwait's main airport, killing 1", "url": "https://www.npr.org/2026/06/03/g-s1-125566/iran-war-updates", "snippet": "Iranian drones damaged passenger terminal, 1 killed, 63+ wounded", "source_name": "NPR"},
+        {"title": "Iranian attack leaves 1 dead, dozens injured in Kuwait", "url": "https://www.washingtonpost.com/world/2026/06/03/us-iran-trade-strikes-kuwait-airport-hit-amid-stalled-peace-talks/", "snippet": "Kuwait airport T1 hit, Indian citizen killed", "source_name": "Washington Post"},
+        {"title": "Kuwait releases CCTV footage of deadly Iranian strike on airport", "url": "https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-releases-cctv-footage-of-deadly-iranian-strike-on-airport", "snippet": "CCTV footage of attack released", "source_name": "Al Jazeera"},
+        {"title": "Iranian attack on Kuwait airport puts deadly dent into ceasefire", "url": "https://www.washingtontimes.com/news/2026/jun/3/iranian-attack-kuwait-airport-puts-deadly-dent-ceasefire/", "snippet": "Airport had just reopened Monday after months-long closure", "source_name": "Washington Times"},
+        {"title": "Kuwait's Foreign Ministry says one killed in Iranian attack on airport", "url": "https://www.thenationalnews.com/news/gulf/2026/06/03/fresh-iran-strikes-on-bahrain-and-kuwait-test-failing-talks/", "snippet": "Fresh strikes on Bahrain and Kuwait test failing talks", "source_name": "The National"},
+        {"title": "Iran hits Kuwait airport as Trump confirms 'crazy' call", "url": "https://www.indailysa.com.au/news/just-in/2026/06/04/iran-hits-kuwait-airport", "snippet": "Iran hits Kuwait airport as Trump confirms Netanyahu call", "source_name": "InDaily"},
+        {"title": "Iran war updates: No progress on negotiations with the US – Araghchi", "url": "https://www.aljazeera.com/news/liveblog/2026/6/3/iran-war-live-us-strikes-irans-qeshm-says-tehran-attacks-kuwait-bahrain", "snippet": "Araghchi: no progress but communication not cut off", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "House war powers resolution Iran June 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:07:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "House passes war powers resolution directing Trump to end hostilities with Iran", "url": "https://www.npr.org/2026/06/03/nx-s1-5845102/house-iran-war-powers-vote", "snippet": "Bipartisan 215-208, 4 Republicans defect", "source_name": "NPR"},
+        {"title": "House passes war powers resolution to push Trump to end Iran war", "url": "https://www.washingtonpost.com/politics/2026/06/03/house-passes-war-powers-resolution-push-trump-end-iran-war/", "snippet": "Barrett, Davidson, Fitzpatrick, Massie break ranks", "source_name": "Washington Post"},
+        {"title": "US House passes Iran war powers resolution in rare pushback against Trump", "url": "https://www.aljazeera.com/news/2026/6/3/us-house-of-representatives-passes-war-powers-resolution-in-rebuke-to-trump", "snippet": "Clearest rebuke yet of Trump's handling of conflict", "source_name": "Al Jazeera"},
+        {"title": "House passes resolution for first time to halt military action against Iran in rebuke of Trump", "url": "https://www.pbs.org/newshour/politics/house-passes-resolution-for-first-time-to-halt-military-action-against-iran-in-rebuke-of-trump", "snippet": "First time House passed WPR on Iran war", "source_name": "PBS"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran deal weekend possible June 4 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:08:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Trump on Iran Talks: Progress Possible This Weekend", "url": "https://athens-times.com/trump-on-iran-progress-possible-in-talks-this-weekend-2/", "snippet": "Trump says deal could happen 'over the weekend'", "source_name": "Athens Times"},
+        {"title": "Iran war: Trump hits out at critics, says Tehran 'really wants' a deal", "url": "https://www.cnbc.com/2026/06/01/iran-war-trump-hits-out-at-critics-says-tehran-really-wants-a-deal.html", "snippet": "Trump claims Iran 'really wants' deal", "source_name": "CNBC"},
+        {"title": "Iran, US reviewing exchanged texts, working on 'final formula,' foreign minister says", "url": "https://aa.com.tr/en/world/iran-us-reviewing-exchanged-texts-working-on-final-formula-foreign-minister-says/3955806", "snippet": "Araghchi: reviewing texts, working on final formula", "source_name": "Anadolu Agency"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Araghchi no progress Iran negotiations June 3 4 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:09:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Iran war updates: No progress on negotiations with the US – Araghchi", "url": "https://www.aljazeera.com/news/liveblog/2026/6/3/iran-war-live-us-strikes-irans-qeshm-says-tehran-attacks-kuwait-bahrain", "snippet": "Communication not cut off but no progress achieved", "source_name": "Al Jazeera"},
+        {"title": "Iran, US reviewing exchanged texts, working on 'final formula'", "url": "https://aa.com.tr/en/world/iran-us-reviewing-exchanged-texts-working-on-final-formula-foreign-minister-says/3955806", "snippet": "Both sides reviewing exchanged texts", "source_name": "Anadolu Agency"},
+        {"title": "Iran attacks Kuwait, trades strikes with U.S. in test to ceasefire", "url": "https://www.nbcnews.com/world/iran/iran-attacks-kuwait-strikes-us-ceasefire-peace-talks-trump-rcna348213", "snippet": "Iran attacks Kuwait as ceasefire tested", "source_name": "NBC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran navy targeting US destroyer Gulf of Oman CENTCOM June 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:10:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "US military denies its vessel was hit in Sea of Oman, says 'Iran is lying'", "url": "https://www.tribuneindia.com/news/bahrain-kuwait-targets/us-military-denies-its-vessel-was-hit-in-sea-of-oman-says-iran-is-lying-about-strait-of-hormuz-rules-violation", "snippet": "CENTCOM: Iran is lying, US assets continue to operate safely", "source_name": "Tribune India"},
+        {"title": "Iran targets US military vessel's 'command center' in Gulf of Oman, Centcom dismisses claim", "url": "https://www.inkl.com/news/iran-targets-us-military-vessels-command-center-in-gulf-of-oman-centcom-dismisses-claim", "snippet": "Iran Navy claimed targeting US destroyer command center", "source_name": "inkl"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices brent crude June 4 2026",
+      "language": "en",
+      "timestamp": "2026-06-04T08:11:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Brent crude oil - Price - Chart - Historical Data", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent $96.89, up 0.93% from previous day", "source_name": "Trading Economics"},
+        {"title": "Current price of oil as of June 3, 2026", "url": "https://fortune.com/article/price-of-oil-06-03-2026/", "snippet": "Oil prices volatile amid geopolitical tensions", "source_name": "Fortune"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 협상 레바논 휴전 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-04T08:12:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "트럼프 \"美-이란 대화 계속\"…긴장 고조 속 레바논 공습·상선 피격", "url": "https://www.newspim.com/news/view/20260603000005", "snippet": "트럼프 대통령은 대화 계속 이어지고 있다고 밝힘", "source_name": "뉴스핌"},
+        {"title": "이란, 쿠웨이트 국제공항 공습… 美와 종전협상 변수 될까", "url": "https://www.fnnews.com/news/202606031832010986", "snippet": "이란 드론이 쿠웨이트 공항 공격", "source_name": "파이낸셜뉴스"},
+        {"title": "이란, 쿠웨이트 공항 공습...민간 시설 다시 겨눴다", "url": "https://www.sedaily.com/article/20051389", "snippet": "이란의 쿠웨이트 민간 시설 공격", "source_name": "서울경제"},
+        {"title": "종전협상 최대 암초 '레바논'...이란 '휴전 위반, 협상 중단'", "url": "https://biz.heraldcorp.com/article/10761897", "snippet": "레바논이 종전 협상의 최대 암초", "source_name": "헤럴드경제"}
+      ]
+    }
+  ]
+}
