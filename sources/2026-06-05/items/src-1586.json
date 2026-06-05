@@ -1,0 +1,26 @@
+{
+  "id": "src-1586",
+  "title": "Pilot zones aftermath — both sides effectively reject terms: Hezbollah rejects, Israel says won't withdraw; agreement appears 'dead on arrival'",
+  "url": "https://www.washingtonpost.com/world/2026/06/04/israel-lebanon-renew-ceasefire-deal-without-hezbollah/",
+  "snippet": "Hours after the pilot zones agreement was announced, Hezbollah rejected it as 'surrender and defeat' while Israel's Defense Minister Katz said Israel will continue operations and won't withdraw from south Lebanon. The agreement appears 'dead on arrival' with neither key party committed to implementation.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "update",
+  "related_report": "2026-06-04/src-1563",
+  "related_item": "src-1563",
+  "tag_reason": "파일럿 존 합의(src-1563)의 후속. 헤즈볼라 거부 + 이스라엘 철수 거부라는 유의미한 새 정보 — 양측 모두 사실상 이행 거부, 합의 무력화",
+  "entities": [
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement"},
+    {"id": "ent-073", "type": "Person", "name": "Naim Qassem"},
+    {"id": "temp-002", "type": "Person", "name": "Yoav Katz"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-506"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-506"},
+    {"subject": "ent-073", "predicate": "opposes", "object": "ent-506"}
+  ]
+}

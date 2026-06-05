@@ -1,0 +1,157 @@
+{
+  "date": "2026-06-05",
+  "collected_at": "2026-06-05T08:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 11,
+  "total_results": 42,
+  "expanded_keywords": ["Hezbollah rejects ceasefire", "pilot zones", "Naim Qassem", "Kuwait airport aftermath", "Iran deal weekend", "IAEA nuclear", "Araghchi", "Trump Iran", "Israel Lebanon strikes", "oil prices Brent", "이란 헤즈볼라 휴전 거부"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war June 2026 latest news today",
+      "language": "en",
+      "timestamp": "2026-06-05T08:01:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Bipartisan War Powers Resolution A Rare Rebuke To US", "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html", "snippet": "House voted 215-208 on June 3 in favor of WPR directing Trump to remove forces from Iran hostilities", "source_name": "RFE/RL"},
+        {"title": "June 2-3, 2026 — Iranian attacks on Kuwait airport, Bahrain condemned", "url": "https://www.cnn.com/2026/06/02/world/live-news/iran-trump-israel-lebanon-war-intl-hnk", "snippet": "Iranian attacks on Kuwait airport, Bahrain condemned by Middle East countries", "source_name": "CNN"},
+        {"title": "Iran war updates: No progress on negotiations — Araghchi", "url": "https://www.aljazeera.com/news/liveblog/2026/6/3/iran-war-live-us-strikes-irans-qeshm-says-tehran-attacks-kuwait-bahrain", "snippet": "Araghchi: no progress but communication not cut off, working on final formula", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah Naim Qassem rejects ceasefire pilot zones Israel strikes June 4 2026",
+      "language": "en",
+      "timestamp": "2026-06-05T08:02:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Hezbollah rejects ceasefire deal agreed on by Israel and Lebanon", "url": "https://www.npr.org/2026/06/04/g-s1-125942/israel-lebanon-ceasefire", "snippet": "Hezbollah rejected cease-fire proposal, Qassem: concerned only with comprehensive cessation of aggression and withdrawal of Israel", "source_name": "NPR"},
+        {"title": "Hezbollah rejects Israel-Lebanon ceasefire deal", "url": "https://www.washingtonpost.com/world/2026/06/04/israel-lebanon-renew-ceasefire-deal-without-hezbollah/", "snippet": "Qassem: demand that fighters leave southern Lebanon under fire would mean surrender, defeat", "source_name": "Washington Post"},
+        {"title": "Israel and Hezbollah Trade Fresh Strikes as Militant Group Rejects Cease-Fire Plan", "url": "https://time.com/article/2026/06/04/hezbollah-rejects-israel-lebanon-ceasefire-agreement-strikes/", "snippet": "Israel kept up strikes in southern Lebanon Thursday, Defense Minister Katz: will continue fire and operations on ground", "source_name": "Time"},
+        {"title": "Rockets, drones trigger warnings in north after Hezbollah rejects Lebanon ceasefire proposal", "url": "https://www.timesofisrael.com/rockets-drones-trigger-warnings-in-north-after-hezbollah-rejects-lebanon-ceasefire-proposal", "snippet": "Hezbollah fires rockets and drones into northern Israel after rejecting ceasefire", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran deal Trump weekend nuclear Hormuz latest June 4 5 2026",
+      "language": "en",
+      "timestamp": "2026-06-05T08:03:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran war: Trump says Tehran 'really wants' a deal", "url": "https://www.cnbc.com/2026/06/01/iran-war-trump-hits-out-at-critics-says-tehran-really-wants-a-deal.html", "snippet": "Trump: deal could happen this weekend, Iran really wants a deal", "source_name": "CNBC"},
+        {"title": "June 1, 2026 - Trump insists talks continue after Iran suspended negotiations", "url": "https://www.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news", "snippet": "Trump insists talks at rapid pace, contradicts Iran suspension", "source_name": "CNN"},
+        {"title": "US launches strikes on Iran as Trump tightens framework", "url": "https://www.euronews.com/2026/06/01/us-launches-weekend-strikes-on-iran-as-trump-reportedly-tightens-framework-of-draft-deal", "snippet": "Trump tightens terms on draft deal, could take 3 days for Iran to respond", "source_name": "Euronews"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire pilot zones June 2026",
+      "language": "en",
+      "timestamp": "2026-06-05T08:04:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Israel, Lebanon agree to conditional ceasefire", "url": "https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire", "snippet": "Lebanon agrees to pilot zones, Hezbollah rejects hours later", "source_name": "Al Jazeera"},
+        {"title": "US brokers Israel-Lebanon ceasefire and military 'pilot zones' plan", "url": "https://www.jpost.com/israel-news/defense-news/article-898352", "snippet": "US brokers ceasefire with pilot zones where LAF takes exclusive control", "source_name": "Jerusalem Post"},
+        {"title": "Lebanon, Israel agree on creating 'pilot zones' to place Lebanese army in control", "url": "https://tribune.com.pk/story/2611382/lebanon-israel-agree-on-creating-pilot-zones-to-place-lebanese-army-in-control", "snippet": "Lebanese PM Nawaf Salam: army will begin deploying in pilot zones as first phase", "source_name": "Express Tribune"},
+        {"title": "Israel, Lebanon agree to renew fragile ceasefire, create Lebanese security zones", "url": "https://thefederal.com/category/international/israel-lebanon-fragile-ceasefire-lebanese-security-zones-245389", "snippet": "Israeli troops to withdraw from pilot zones to let Lebanese army takeover", "source_name": "The Federal"},
+        {"title": "Hezbollah rejects ceasefire plan declared in Washington", "url": "https://www.detroitnews.com/story/news/world/2026/06/04/hezbollah-rejects-ceasefire-plan-declared-in-washington/90401506007/", "snippet": "Hezbollah rejects ceasefire plan; Qassem: only comprehensive cessation acceptable", "source_name": "Detroit News"},
+        {"title": "Hezbollah Rejects Latest Ceasefire Agreement as Israeli Strikes Kill 4 in Lebanon", "url": "https://www.military.com/hezbollah-rejects-latest-ceasefire-agreement-as-israeli-strikes-kill-4-in-lebanon", "snippet": "Israeli strikes kill 4 in Lebanon as Hezbollah rejects agreement", "source_name": "Military.com"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Kuwait airport attack aftermath Iran drone June 2026",
+      "language": "en",
+      "timestamp": "2026-06-05T08:05:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Iranian drone attack kills Indian citizen in Kuwait", "url": "https://www.aljazeera.com/news/2026/6/3/iranian-drone-hits-kuwaits-main-airport-after-us-strikes-qeshm-island", "snippet": "Kuwait detected 30 BMs and drones; 1 killed, 63+ injured", "source_name": "Al Jazeera"},
+        {"title": "Kuwait airport attack: Video shows chaos, destruction", "url": "https://www.indiatvnews.com/news/world/kuwait-airport-attack-video-shows-chaos-destruction-the-moment-when-iranian-drone-hit-2026-06-04-1043577", "snippet": "Kuwait releases CCTV footage showing kamikaze drone crashing into terminal roof", "source_name": "India TV News"},
+        {"title": "Kuwait says Iranian drones hit airport and killed 1", "url": "https://www.npr.org/2026/06/03/g-s1-125566/iran-war-updates", "snippet": "Kuwait expels 2 Iranian embassy staff within 24 hours", "source_name": "NPR"},
+        {"title": "Watch: Kuwait releases footage of Iranian drone strike on airport terminal", "url": "https://aerospaceglobalnews.com/news/kuwait-iranian-drone-strike-airport-footage/", "snippet": "Kuwait Airways resumes flights from separate terminal", "source_name": "Aerospace Global News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil price brent crude June 4 5 2026 Iran",
+      "language": "en",
+      "timestamp": "2026-06-05T08:06:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Brent crude oil - Price - Chart - Historical Data", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent fell to 96.97 USD/Bbl on June 4, 2026, down 0.86% from previous day", "source_name": "TradingEconomics"},
+        {"title": "Brent oil jumps more than 3% after Iran vows to retaliate for U.S. strikes", "url": "https://www.cnbc.com/2026/05/26/oil-prices-today-brent-wti-iran-trump-hormuz.html", "snippet": "Brent futures fell below $97 on Thursday after 3 consecutive sessions of gains", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IAEA Iran nuclear material June 2026",
+      "language": "en",
+      "timestamp": "2026-06-05T08:07:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran nuclear program relatively unchanged since start of war: IAEA", "url": "https://thehill.com/homenews/5910409-iaea-report-iran-nuclear/", "snippet": "IAEA: Iran nuclear program relatively unchanged, calls for constructive engagement on nuclear material", "source_name": "The Hill"},
+        {"title": "Iran's Stockpile of Highly Enriched Uranium: Worth Bargaining For?", "url": "https://armscontrolcenter.org/irans-stockpile-of-highly-enriched-uranium-worth-bargaining-for/", "snippet": "Iran had 440.9 kg uranium enriched to 60% U-235 before strikes; IAEA unable to access sites since June 2025", "source_name": "Arms Control Center"},
+        {"title": "IAEA provides updates on Iran nuclear facilities", "url": "https://www.ans.org/news/article-7911/iaea-provides-updates-on-iran-nuclear-facilities/", "snippet": "IAEA calls on Tehran to engage constructively; military attacks created unprecedented situation", "source_name": "ANS Nuclear Newswire"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Hormuz June 5 2026",
+      "language": "en",
+      "timestamp": "2026-06-05T08:08:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran stops negotiations with U.S., vows to 'completely' block Strait of Hormuz", "url": "https://www.cnbc.com/2026/06/01/iran-us-negotiations-strait-of-hormuz.html", "snippet": "Iran vows to completely block Hormuz as negotiations break down", "source_name": "CNBC"},
+        {"title": "2026 Strait of Hormuz crisis - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "snippet": "Hormuz crisis continues with dual blockade; some traffic picking up with US coordination", "source_name": "Wikipedia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 6월 최신",
+      "language": "ko",
+      "timestamp": "2026-06-05T08:09:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "이란, 미 우방 쿠웨이트 공항 공격…종전 협상 타결 기대 무색", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260604010001171", "snippet": "이란 드론이 쿠웨이트 국제공항 타격, 종전 협상 기대 무색", "source_name": "아시아투데이"},
+        {"title": "미·이란 협상 다시 교착…불발 시 더 큰 공격", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6825150_37012.html", "snippet": "미이란 협상 교착, 트럼프 불발시 더 큰 공격 경고", "source_name": "MBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 헤즈볼라 휴전 거부 나임 카셈 이스라엘 레바논 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-05T08:10:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "합의 직후 공습 재개…미 중재 이스라엘·레바논 '종잇장 휴전'", "url": "https://www.newspim.com/news/view/20260605000018", "snippet": "합의 직후 이스라엘 공습 재개, 헤즈볼라 휴전 거부, 종잇장 휴전", "source_name": "뉴스핌"},
+        {"title": "헤즈볼라 '휴전 거부'…트럼프 중동구상 암초", "url": "https://www.fnnews.com/news/202606050447052553", "snippet": "헤즈볼라 휴전 거부로 트럼프 중동 구상에 암초", "source_name": "파이낸셜뉴스"},
+        {"title": "헤즈볼라, 미국 중재 '이스라엘-레바논 휴전 합의' 거부", "url": "https://www.voakorea.com/a/hezbollah-rejects-us-mediated-israel-lebanon-ceasefire-lebanon-commits-hezbollah-operatives-20260604/8157308.html", "snippet": "헤즈볼라 미국 중재 휴전 합의 거부, 레바논 시범구역 헤즈볼라 요원 배제 약속", "source_name": "VOA Korea"},
+        {"title": "이스라엘-레바논 휴전이행 합의, 이란 반발 부를듯", "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003240220&PAGE_CD=N0002&CMPT_CD=M0112", "snippet": "이스라엘-레바논 휴전 합의에 이란 반발 예상", "source_name": "오마이뉴스"},
+        {"title": "헤즈볼라도 이스라엘도 '못 받겠다'…레바논 휴전안 흔들리자 이란 협상도 안갯속", "url": "https://biz.heraldcorp.com/article/10764001", "snippet": "헤즈볼라와 이스라엘 모두 휴전안 사실상 거부, 이란 협상에도 영향", "source_name": "헤럴드경제"},
+        {"title": "이란 혁명수비대 '이스라엘군 전쟁 전 지점으로 철수해야'", "url": "https://www.fnnews.com/news/202606041959384990", "snippet": "IRGC 쿠드스군 가니 사령관: 이스라엘군 전쟁 전 지점 철수가 최소 조건", "source_name": "파이낸셜뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IAEA report Iran nuclear June 2026 constructive engagement",
+      "language": "en",
+      "timestamp": "2026-06-05T08:11:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran nuclear program relatively unchanged since start of war: IAEA", "url": "https://thehill.com/homenews/5910409-iaea-report-iran-nuclear/", "snippet": "IAEA report: Iran nuclear program relatively unchanged since war; calls for constructive engagement; loss of continuity of knowledge needs urgent attention", "source_name": "The Hill"},
+        {"title": "IAEA and Iran - IAEA Board Reports", "url": "https://www.iaea.org/newscenter/focus/iran/iaea-and-iran-iaea-board-reports", "snippet": "IAEA Board Reports on Iran nuclear situation", "source_name": "IAEA"}
+      ]
+    }
+  ]
+}

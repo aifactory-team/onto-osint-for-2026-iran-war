@@ -1,0 +1,25 @@
+{
+  "id": "src-1581",
+  "title": "IRGC Quds Force Ghaani: Israeli withdrawal to pre-war positions is minimum condition",
+  "url": "https://www.fnnews.com/news/202606041959384990",
+  "snippet": "이란 혁명수비대(IRGC) 쿠드스군 에스마일 가니 사령관이 이스라엘군의 전쟁 전 지점으로의 철수를 최소 조건이라고 밝혔다. 이란 핵심 군부 지도자가 레바논 이슈를 이란 딜에 명시적으로 연결한 가장 직접적인 발언이다.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IRGC 쿠드스군 가니 사령관의 이스라엘 철수 최소조건 발언은 이전 보도에 없는 신규 정보. IRGC 군부가 레바논과 이란 딜을 명시적으로 연결한 최초의 공식 발언",
+  "entities": [
+    {"id": "temp-005", "type": "Person", "name": "Esmail Ghaani", "role": "IRGC Quds Force Commander"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": [
+    {"subject": "temp-005", "predicate": "affiliatedWith", "object": "ent-005"},
+    {"subject": "temp-005", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

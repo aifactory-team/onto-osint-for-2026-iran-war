@@ -1,0 +1,23 @@
+{
+  "id": "src-1587",
+  "title": "Iran-US messages continue via intermediaries despite 'suspension' — Trump: 'this weekend'; Araghchi: 'final formula'",
+  "url": "https://www.cnbc.com/2026/06/01/iran-war-trump-hits-out-at-critics-says-tehran-really-wants-a-deal.html",
+  "snippet": "Despite Iran's formal suspension of talks, messaging between the US and Iran continues through intermediaries. Trump maintains a deal could happen 'this weekend' while Araghchi says both sides are working on a 'final formula.' The contradiction between official positions and back-channel activity continues.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "update",
+  "related_report": "2026-06-04/src-1566",
+  "related_item": "src-1566",
+  "tag_reason": "트럼프 'this weekend' 발언(src-1566)의 후속. 중개인 경유 메시지 지속이라는 새 정보 — 공식 중단 vs 비공식 소통 병존 구조 확인",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-456"},
+    {"subject": "ent-044", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

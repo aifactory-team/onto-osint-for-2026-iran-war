@@ -1,0 +1,27 @@
+{
+  "id": "src-1579",
+  "title": "Israel continues strikes despite agreement — Defense Minister Katz: 'will continue fire and operations on the ground'; 4 killed in Lebanon Thursday",
+  "url": "https://time.com/article/2026/06/04/hezbollah-rejects-israel-lebanon-ceasefire-agreement-strikes/",
+  "snippet": "Israel continued military operations in southern Lebanon despite the ceasefire agreement, with Defense Minister Yoav Katz stating Israel 'will continue fire and operations on the ground for the time being' and that Israel won't withdraw from south Lebanon. More than a dozen strikes were carried out Thursday, killing 4 people.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 파일럿 존 합의 이후 이스라엘 지속 공습에 대한 보도 없음. 합의 후 카츠 국방장관의 '작전 지속' 선언은 신규 정보",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-002", "type": "Person", "name": "Yoav Katz", "role": "Israel Defense Minister"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement"},
+    {"id": "temp-003", "type": "Event", "name": "Israel Continues Strikes Post-Agreement"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"}
+  ],
+  "relations": [
+    {"subject": "temp-002", "predicate": "affiliatedWith", "object": "ent-004"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-506"},
+    {"subject": "temp-003", "predicate": "follows", "object": "ent-506"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-003"}
+  ]
+}

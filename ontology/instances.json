@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-05",
   "entities": [
     {
       "id": "ent-001",
@@ -53,11 +53,12 @@
         "location": "Middle East",
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US",
         "action_may30": "Netanyahu confirms 36th Division crossed Litani River, advancing to dominating terrain; participating in first-ever Pentagon Israeli-Lebanese military talks (May 29); 5 killed in Lebanon",
-        "action_jun04": "agrees to pilot zones in 4th Washington trilateral; joint statement with Lebanon and US; LAF exclusive control south of Litani; next talks June 22"
+        "action_jun04": "agrees to pilot zones in 4th Washington trilateral; joint statement with Lebanon and US; LAF exclusive control south of Litani; next talks June 22",
+        "action_jun05": "Katz: 'will continue fire and operations on the ground for the time being'; refuses to withdraw from south Lebanon; 4 killed in dozen+ strikes Thursday despite agreement"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-04",
-      "mention_count": 153
+      "last_seen": "2026-06-05",
+      "mention_count": 161
     },
     {
       "id": "ent-005",
@@ -455,11 +456,12 @@
       "properties": {
         "type": "state",
         "location": "Middle East/Gulf",
-        "status_jun04": "Kuwait International Airport T1 hit by Iranian drones (1 killed Indian citizen, 63+ wounded); airport had just reopened Monday after months-long closure; partially reopened at different terminal"
+        "status_jun04": "Kuwait International Airport T1 hit by Iranian drones (1 killed Indian citizen, 63+ wounded); airport had just reopened Monday after months-long closure; partially reopened at different terminal",
+        "status_jun05": "expels 2 Iranian embassy staff within 24 hours; protest note to Iran charge d'affaires; detected 30 BMs/drones in June 3 attack; Kuwait Airways resumes from different terminal"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-04",
-      "mention_count": 8
+      "last_seen": "2026-06-05",
+      "mention_count": 12
     },
     {
       "id": "ent-038",
@@ -585,11 +587,12 @@
         "affiliation": "Iran-backed",
         "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began",
         "action_may30": "IDF striking Hezbollah hard across Beirut, Bekaa, entire front after 36th Division crosses Litani; facing military pressure across all Lebanon fronts",
-        "status_jun04": "pilot zones agreement targets Hezbollah exclusion south of Litani; complete fire cessation and evacuation of all operatives required; existential structural challenge from LAF exclusive control framework"
+        "status_jun04": "pilot zones agreement targets Hezbollah exclusion south of Litani; complete fire cessation and evacuation of all operatives required; existential structural challenge from LAF exclusive control framework",
+        "status_jun05": "Qassem rejects pilot zones as 'surrender and defeat'; demands full Israeli withdrawal; agreement appears 'dead on arrival' with neither side committed"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-06-04",
-      "mention_count": 83
+      "last_seen": "2026-06-05",
+      "mention_count": 91
     },
     {
       "id": "ent-048",
@@ -621,11 +624,12 @@
         "type": "country",
         "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry",
         "status_may30": "IDF crossed Litani, 36th Division advancing to dominating terrain; Gen. Rodolphe Haykal represents LAF in first-ever Pentagon military talks (May 29); IDF operating in Beirut, Bekaa; 5 killed",
-        "status_jun04": "4th Washington trilateral produces pilot zones agreement; LAF takes exclusive security control in designated areas south of Litani excluding all non-state actors; ceasefire renewed; next talks June 22"
+        "status_jun04": "4th Washington trilateral produces pilot zones agreement; LAF takes exclusive security control in designated areas south of Litani excluding all non-state actors; ceasefire renewed; next talks June 22",
+        "status_jun05": "3,516 killed, 10,674 wounded since March; PM Salam announces LAF deployment in pilot zones 'as first phase'; Hezbollah rejects, Israel continues strikes"
       },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-06-04",
-      "mention_count": 120
+      "last_seen": "2026-06-05",
+      "mention_count": 128
     },
     {
       "id": "ent-051",
@@ -927,11 +931,12 @@
       "properties": {
         "role": "Hezbollah Secretary-General",
         "affiliation": "Hezbollah",
-        "statement": "Called on Lebanon to cancel April 15 Washington meeting with Israel. Described talks as pointless."
+        "statement": "Called on Lebanon to cancel April 15 Washington meeting with Israel. Described talks as pointless.",
+        "action_jun05": "rejected pilot zones agreement: 'surrender, defeat, and achieving enemy's goals'; demands full Israeli withdrawal; 'concerned only with comprehensive cessation of aggression'"
       },
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-14",
-      "mention_count": 6
+      "last_seen": "2026-06-05",
+      "mention_count": 14
     },
     {
       "id": "ent-074",
@@ -5930,9 +5935,98 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-06-04",
       "mention_count": 4
+    },
+    {
+      "id": "ent-509",
+      "type": "Event",
+      "name": "Hezbollah Rejects Pilot Zones (Jun 4)",
+      "properties": {
+        "date": "2026-06-04",
+        "detail": "Naim Qassem rejected pilot zones agreement as 'surrender, defeat, and achieving enemy's goals'; demands comprehensive cessation of aggression and full Israeli withdrawal as nonnegotiable. Rejection came hours after June 3 agreement announced."
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-510",
+      "type": "Event",
+      "name": "Israel Continues Strikes Post-Agreement (Jun 4)",
+      "properties": {
+        "date": "2026-06-04",
+        "location": "Southern Lebanon",
+        "casualties": "4 killed",
+        "detail": "Defense Minister Katz: 'will continue fire and operations on the ground for the time being'; Israel says won't withdraw from south Lebanon; more than a dozen strikes Thursday."
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-511",
+      "type": "Event",
+      "name": "Kuwait Expels Iranian Diplomats (Jun 4)",
+      "properties": {
+        "date": "2026-06-04",
+        "detail": "Kuwait expels 2 Iranian embassy staff with 24-hour departure demand; protest note to Iran charge d'affaires; Kuwait detected 30 BMs/drones in June 3 attack; Kuwait Airways resumes from different terminal. First Gulf state diplomatic action against Iran in the war."
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-512",
+      "type": "Person",
+      "name": "Esmail Ghaani",
+      "properties": {
+        "role": "IRGC Quds Force Commander",
+        "affiliation": "IRGC",
+        "action_jun05": "minimum condition is Israeli withdrawal to pre-war positions; most explicit IRGC statement linking Lebanon to Iran deal"
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-513",
+      "type": "Event",
+      "name": "IAEA June 2026 Report",
+      "properties": {
+        "date": "2026-06-04",
+        "detail": "Iran nuclear program 'relatively unchanged' since war; calls for Tehran to engage 'constructively'; unable to access nuclear sites since June 2025 strikes; loss of continuity of knowledge needs 'utmost urgency'"
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-514",
+      "type": "Event",
+      "name": "Oil Price Jun 4 ($96.97)",
+      "properties": {
+        "date": "2026-06-04",
+        "brent": "$96.97 (-0.86%)",
+        "trend": "ends 3-session winning streak; futures fell below $97 on Thursday"
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-515",
+      "type": "Person",
+      "name": "Nawaf Salam",
+      "properties": {
+        "role": "Lebanese Prime Minister",
+        "affiliation": "Lebanon",
+        "action_jun05": "announced army will begin deploying in pilot zones 'as first phase'"
+      },
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "mention_count": 2
     }
   ],
-  "total_count": 450,
+  "total_count": 457,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -6367,6 +6461,20 @@
         "src-1559",
         "src-1560"
       ]
+    },
+    {
+      "date": "2026-06-04",
+      "action": "add_instances",
+      "target": "5 new entities (ent-504~ent-508), 8 existing updated",
+      "reason": "이란 쿠웨이트 공항 드론 공격(1명 사망·63+ 부상·T1 파손·전쟁 이후 최초 중립국 민간 인프라), 하원 WPR 최초 통과(215-208·4 GOP 이탈·Barrett/Davidson/Fitzpatrick/Massie), 이스라엘-레바논 파일럿 존 합의(4차 워싱턴 회담·LAF 독점 통제·헤즈볼라 배제·6/22 차기), 파일럿 존 개념(무장해제 첫 구체적 메커니즘), 이란 해군 미 구축함 타격 주장(CENTCOM 부인·정보전), 아라그치 '진전 없으나 소통 미차단'+'최종 공식'(톤 변화), 트럼프 '이번 주말' 딜 가능(메시지 전쟁), 유가 $96.89(3거래일 연속 상승). 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1561", "src-1562", "src-1563", "src-1564", "src-1565", "src-1566", "src-1567", "src-1568", "src-1569", "src-1570", "src-1571", "src-1572", "src-1573", "src-1574", "src-1575", "src-1576", "src-1577"]
+    },
+    {
+      "date": "2026-06-05",
+      "action": "add_instances",
+      "target": "7 new entities (ent-509~ent-515), 6 existing updated",
+      "reason": "헤즈볼라 파일럿 존 거부(카셈 '항복과 패배'), 이스라엘 합의 후 작전 지속(카츠 '철수 거부'·4명 사살), 쿠웨이트 이란 외교관 2명 추방(전쟁 이후 최초 걸프국 외교 조치), IRGC 가니 사령관 이스라엘 철수 최소조건(레바논-이란 딜 연계), IAEA 핵 보고('상대적 변동 없음'·사찰 접근 불가 1년), 유가 $96.97(-0.86%·3연속 상승 마감), 레바논 총리 살람 LAF 배치 '첫 단계' 발표. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1578", "src-1579", "src-1580", "src-1581", "src-1582", "src-1583", "src-1584", "src-1585", "src-1586", "src-1587", "src-1588", "src-1589", "src-1590", "src-1591", "src-1592", "src-1593", "src-1594", "src-1595"]
     }
   ]
 }

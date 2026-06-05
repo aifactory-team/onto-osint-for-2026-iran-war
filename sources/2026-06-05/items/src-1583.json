@@ -1,0 +1,22 @@
+{
+  "id": "src-1583",
+  "title": "Brent crude falls to $96.97 (-0.86%) — ends 3-session winning streak",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude oil fell to $96.97 USD/barrel on June 4, 2026, down 0.86% from the previous day, ending a 3-session winning streak. Futures fell below $97 on Thursday.",
+  "source_name": "TradingEconomics",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "6/4 유가 데이터는 신규 시장 정보. 전일 $96.89(src-1567)에서 소폭 상승 후 3연속 상승 마감",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-008", "type": "Event", "name": "Oil Price June 4"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": [
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "ent-008"},
+    {"subject": "temp-008", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

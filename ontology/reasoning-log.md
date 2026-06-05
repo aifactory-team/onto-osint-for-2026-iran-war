@@ -2194,3 +2194,46 @@
 - **3중 전환점 (Triple Inflection Point):** 군사(쿠웨이트 민간 인프라), 정치(하원 WPR 최초 통과), 외교(파일럿 존) 3개 축에서 동시에 전환점 발생. 각각은 전쟁의 상이한 측면을 변화시킨다: (1) 민간 인프라 타격은 걸프 국가들의 전쟁 비용을 직접적으로 증가, (2) WPR은 미국 내 전쟁 피로의 제도적 표현, (3) 파일럿 존은 레바논 전선의 첫 구조적 해법.
 - **메시지 전쟁 진화:** Day 95-96 'rapid pace vs 중단'에서 Day 96-97 'this weekend vs no progress + final formula'로 진화. 아라그치의 '최종 공식' 표현은 '중단'이 아닌 '교착 속 비공식 소통'임을 시사. 양측 모두 완전한 결렬을 피하면서 협상 지위를 극대화하는 포지셔닝.
 - **걸프 에스컬레이션 질적 변화:** BM→드론→민간 공항으로 표적이 군사→민간으로 이동. 이는 IRGC의 전략이 '군사적 보복'에서 '심리적 압박/공포 효과'로 전환했을 가능성. 국제법적 함의가 크며, 걸프 국가들의 미국 주둔 비용-이익 계산을 변경.
+
+---
+
+## 2026-06-05 추론 결과
+
+### 추론 #1: co_participation (파일럿 존 양측 거부 연동)
+- **입력:** (ent-509/Hezbollah Rejects, follows, ent-506/Pilot Zones Agreement), (ent-510/Israel Continues Strikes, follows, ent-506)
+- **추론:** (ent-509/Hezbollah Rejects, relatedTo, ent-510/Israel Continues Strikes)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 헤즈볼라 거부와 이스라엘 작전 지속은 파일럿 존 합의에 대한 양측의 동시적 거부. 합의 수시간 내 양측 모두 사실상 이행을 거부함으로써 합의가 '도착 즉시 사망(DOA)' 상태. 이는 4/16 이-레 10일 휴전(ent-109) → 위반(ent-120) → 로켓(ent-161) 패턴의 반복으로, 레바논 전선의 합의-위반 순환이 구조적임을 재확인.
+
+### 추론 #2: event_chain (쿠웨이트 외교 에스컬레이션 인과 체인)
+- **입력:** (ent-505/Kuwait Airport Attack, date=2026-06-03) → (ent-511/Kuwait Expels Diplomats, date=2026-06-04)
+- **추론:** (ent-511/Kuwait Expels Diplomats, relatedTo, ent-037/Kuwait)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 공항 공격 → 외교관 추방의 명확한 인과 체인. 전쟁 이후 최초의 걸프국-이란 직접 외교 조치. 단교가 아닌 축소(2명 추방)로 완전 단절은 회피하면서도 공개적 항의를 제도화.
+
+### 추론 #3: co_participation (IRGC 가니-헤즈볼라 거부 저항 축 조율)
+- **입력:** (ent-512/Ghaani, affiliatedWith, ent-005/IRGC), (ent-509/Hezbollah Rejects, participatesIn, ent-073/Qassem)
+- **추론:** (ent-512/Ghaani, relatedTo, ent-509/Hezbollah Rejects)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** IRGC 쿠드스군 사령관 가니의 '이스라엘 철수 최소조건' 발언과 헤즈볼라 카셈의 파일럿 존 거부는 이란 '저항 축' 전략의 양면. IRGC가 레바논 전선을 이란 핵 협상의 레버리지로 공식 활용하는 구조를 보여줌. 쿠드스군은 역사적으로 헤즈볼라의 직접 지원 기관.
+
+### 추론 #4: co_participation (IAEA 보고서-농축 우라늄 쟁점 연계)
+- **입력:** (ent-513/IAEA Report, mentions, ent-025/Nuclear Program), (ent-064/Enriched Uranium, relatedTo, ent-025)
+- **추론:** (ent-513/IAEA Report, relatedTo, ent-064/Enriched Uranium)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** IAEA 보고서의 '핵 프로그램 변동 없음'은 농축 우라늄 440.9kg(60% U-235)이 전쟁 중에도 유지됨을 시사. 1년간 사찰 접근 불가는 MoU 60일 프레임워크의 핵 단계(30-60일 차)에서 검증 메커니즘의 근본적 어려움을 예고. '최대 긴급성' 경고는 시간이 지남에 따라 검증 가능성이 감소한다는 IAEA의 우려.
+
+### 추론 #5: event_chain (파일럿 존 거부 패턴 반복)
+- **입력:** (ent-074/Hezbollah Rejects Washington Talks, date=2026-04-13), (ent-506/Pilot Zones Agreement, date=2026-06-03), (ent-509/Hezbollah Rejects Pilot Zones, date=2026-06-04)
+- **추론:** (ent-506/Pilot Zones Agreement, relatedTo, ent-074/Hezbollah Rejects Talks)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 헤즈볼라의 워싱턴 회담 거부(4/13)와 파일럿 존 거부(6/4)는 53일 간격의 동일 패턴. 카셈과 사파의 '적과 협상하지 않는다'는 입장이 3개월간 일관되게 유지됨. 이는 헤즈볼라의 구조적 협상 거부가 전술적이 아닌 전략적 결정임을 시사. 레바논 전선의 합의는 헤즈볼라 참여 없이는 이행 불가능하며, 헤즈볼라는 이란의 핵 협상 레버리지로서 지속적 저항을 유지하려는 전략.
+
+### 스키마 변경 없음
+- 7개 새 엔티티 모두 기존 클래스(Person, Event)로 분류 가능
+- 19개 새 관계(명시적) + 5개 추론 모두 기존 관계 유형(participatesIn, affiliatedWith, opposes, follows, relatedTo, mentions, locatedIn)으로 표현 가능

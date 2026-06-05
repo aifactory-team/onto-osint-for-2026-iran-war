@@ -1,0 +1,23 @@
+{
+  "id": "src-1585",
+  "title": "Lebanese PM Nawaf Salam: army will begin deploying in pilot zones 'as first phase'",
+  "url": "https://tribune.com.pk/story/2611382/lebanon-israel-agree-on-creating-pilot-zones-to-place-lebanese-army-in-control",
+  "snippet": "Lebanese Prime Minister Nawaf Salam announced the Lebanese army will begin deploying in pilot zones 'as first phase' of the ceasefire implementation.",
+  "source_name": "Express Tribune",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "레바논 총리 나와프 살람의 LAF 시범구역 배치 발표는 신규 정보. 파일럿 존 이행의 구체적 첫 단계",
+  "entities": [
+    {"id": "temp-009", "type": "Person", "name": "Nawaf Salam", "role": "Lebanese Prime Minister"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-507", "type": "Concept", "name": "Pilot Zones"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "affiliatedWith", "object": "ent-050"},
+    {"subject": "temp-009", "predicate": "participatesIn", "object": "ent-506"}
+  ]
+}

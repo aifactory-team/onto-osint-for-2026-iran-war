@@ -1,0 +1,29 @@
+{
+  "id": "src-1578",
+  "title": "Hezbollah rejects Israel-Lebanon ceasefire — Naim Qassem: 'surrender, defeat'; demands full Israeli withdrawal as nonnegotiable",
+  "url": "https://www.npr.org/2026/06/04/g-s1-125942/israel-lebanon-ceasefire",
+  "snippet": "Hezbollah Secretary-General Naim Qassem rejected the ceasefire deal agreed between Israel and Lebanon, calling demands that fighters leave southern Lebanon 'surrender, defeat, and achieving enemy's goals.' He stated: 'We are concerned only with a comprehensive cessation of aggression.' The rejection came hours after the June 3 pilot zones agreement was announced in Washington.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 헤즈볼라의 파일럿 존 합의 거부에 대한 보도 없음. 6/3 합의(src-1563) 이후 최초의 헤즈볼라 공식 반응",
+  "entities": [
+    {"id": "ent-073", "type": "Person", "name": "Naim Qassem", "role": "Hezbollah Secretary-General"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement"},
+    {"id": "ent-507", "type": "Concept", "name": "Pilot Zones"},
+    {"id": "temp-001", "type": "Event", "name": "Hezbollah Rejects Pilot Zones"}
+  ],
+  "relations": [
+    {"subject": "ent-073", "predicate": "affiliatedWith", "object": "ent-047"},
+    {"subject": "ent-073", "predicate": "opposes", "object": "ent-506"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-507"},
+    {"subject": "temp-001", "predicate": "follows", "object": "ent-506"},
+    {"subject": "ent-073", "predicate": "participatesIn", "object": "temp-001"}
+  ]
+}

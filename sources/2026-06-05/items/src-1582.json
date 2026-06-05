@@ -1,0 +1,25 @@
+{
+  "id": "src-1582",
+  "title": "IAEA report: Iran nuclear program 'relatively unchanged' since war — calls for constructive engagement; unable to access sites since June 2025",
+  "url": "https://thehill.com/homenews/5910409-iaea-report-iran-nuclear/",
+  "snippet": "The IAEA reports that Iran's nuclear program has been 'relatively unchanged' since the start of the war. The agency calls for Tehran to engage 'constructively' on nuclear material. IAEA has been unable to access nuclear sites since June 2025 strikes. Loss of continuity of knowledge needs 'utmost urgency' to address.",
+  "source_name": "The Hill",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IAEA의 이란 핵 프로그램 '상대적 변동 없음' 보고는 이전 7일 소스에 없는 신규 정보. 핵 사찰 접근 불가 상태와 '최대 긴급성' 경고는 MoU 핵 협상과 직접 관련",
+  "entities": [
+    {"id": "temp-006", "type": "Organization", "name": "IAEA", "role": "International nuclear watchdog"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"},
+    {"id": "temp-007", "type": "Event", "name": "IAEA June 2026 Report"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework"}
+  ],
+  "relations": [
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "ent-002"},
+    {"subject": "temp-007", "predicate": "mentions", "object": "ent-025"},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

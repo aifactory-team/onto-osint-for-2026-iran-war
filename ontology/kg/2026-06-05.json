@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-05",
+  "new_triples": [
+    {"subject": "ent-509", "predicate": "follows", "object": "ent-506", "source_id": "src-1578", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-073", "predicate": "participatesIn", "object": "ent-509", "source_id": "src-1578", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-506", "source_id": "src-1578", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-073", "predicate": "opposes", "object": "ent-506", "source_id": "src-1578", "date": "2026-06-05", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-510", "predicate": "follows", "object": "ent-506", "source_id": "src-1579", "date": "2026-06-05", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-510", "source_id": "src-1579", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-506", "source_id": "src-1586", "date": "2026-06-05", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-511", "predicate": "follows", "object": "ent-505", "source_id": "src-1580", "date": "2026-06-05", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-037", "predicate": "participatesIn", "object": "ent-511", "source_id": "src-1580", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-037", "predicate": "opposes", "object": "ent-002", "source_id": "src-1580", "date": "2026-06-05", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-512", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-1581", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-512", "predicate": "opposes", "object": "ent-004", "source_id": "src-1581", "date": "2026-06-05", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-512", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1581", "date": "2026-06-05", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-513", "predicate": "mentions", "object": "ent-025", "source_id": "src-1582", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-513", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-1582", "date": "2026-06-05", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-513", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1582", "date": "2026-06-05", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-515", "predicate": "affiliatedWith", "object": "ent-050", "source_id": "src-1585", "date": "2026-06-05", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-515", "predicate": "participatesIn", "object": "ent-506", "source_id": "src-1585", "date": "2026-06-05", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-510", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1579", "date": "2026-06-05", "confidence": 0.90, "type": "explicit"}
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {"subject": "ent-509", "predicate": "relatedTo", "object": "ent-510", "rule": "co_participation", "confidence": 0.85, "type": "inferred", "reason": "헤즈볼라 거부(ent-509)와 이스라엘 작전 지속(ent-510)은 파일럿 존 합의(ent-506)에 대한 양측의 동시적 거부로, 합의 무력화의 공동 원인"},
+    {"subject": "ent-511", "predicate": "relatedTo", "object": "ent-037", "rule": "event_chain", "confidence": 0.80, "type": "inferred", "reason": "쿠웨이트 외교관 추방(ent-511)은 공항 공격(ent-505) → 외교적 대응의 인과 체인. 걸프국의 대이란 외교 에스컬레이션의 첫 단계"},
+    {"subject": "ent-512", "predicate": "relatedTo", "object": "ent-509", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reason": "IRGC 가니의 이스라엘 철수 요구(ent-512)와 헤즈볼라 거부(ent-509)는 이란의 '저항 축' 전략의 양면. IRGC가 레바논 전선을 이란 딜의 레버리지로 활용하는 구조"},
+    {"subject": "ent-513", "predicate": "relatedTo", "object": "ent-064", "rule": "co_participation", "confidence": 0.80, "type": "inferred", "reason": "IAEA 보고서(ent-513)의 '핵 프로그램 변동 없음'은 농축 우라늄 쟁점(ent-064)과 직결. 1년간 사찰 불가 → MoU 핵 합의 검증 가능성에 근본적 의문"},
+    {"subject": "ent-506", "predicate": "relatedTo", "object": "ent-074", "rule": "event_chain", "confidence": 0.78, "type": "inferred", "reason": "파일럿 존 합의 거부(2026-06-04)는 4/13 헤즈볼라 워싱턴 회담 거부(ent-074)의 패턴 반복. 헤즈볼라의 구조적 협상 거부 패턴이 3개월째 일관"}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 19,
+    "inferred_edges": 5
+  }
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-05",
   "nodes": [
     {
       "id": "ent-001",
@@ -2319,6 +2319,41 @@
       "id": "ent-508",
       "type": "Event",
       "label": "Iran Navy Destroyer Claim"
+    },
+    {
+      "id": "ent-509",
+      "type": "Event",
+      "label": "Hezbollah Rejects Pilot Zones"
+    },
+    {
+      "id": "ent-510",
+      "type": "Event",
+      "label": "Israel Continues Strikes Post-Agreement"
+    },
+    {
+      "id": "ent-511",
+      "type": "Event",
+      "label": "Kuwait Expels Iranian Diplomats"
+    },
+    {
+      "id": "ent-512",
+      "type": "Person",
+      "label": "Esmail Ghaani"
+    },
+    {
+      "id": "ent-513",
+      "type": "Event",
+      "label": "IAEA June 2026 Report"
+    },
+    {
+      "id": "ent-514",
+      "type": "Event",
+      "label": "Oil Price Jun 4"
+    },
+    {
+      "id": "ent-515",
+      "type": "Person",
+      "label": "Nawaf Salam"
     }
   ],
   "edges": [
@@ -12581,11 +12616,232 @@
       "type": "inferred",
       "source_id": "inferred",
       "rule": "message_war"
+    },
+    {
+      "subject": "ent-509",
+      "predicate": "follows",
+      "object": "ent-506",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1578"
+    },
+    {
+      "subject": "ent-073",
+      "predicate": "participatesIn",
+      "object": "ent-509",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1578"
+    },
+    {
+      "subject": "ent-047",
+      "predicate": "opposes",
+      "object": "ent-506",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1578"
+    },
+    {
+      "subject": "ent-073",
+      "predicate": "opposes",
+      "object": "ent-506",
+      "date": "2026-06-05",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1578"
+    },
+    {
+      "subject": "ent-510",
+      "predicate": "follows",
+      "object": "ent-506",
+      "date": "2026-06-05",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1579"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "participatesIn",
+      "object": "ent-510",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1579"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-506",
+      "date": "2026-06-05",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1586"
+    },
+    {
+      "subject": "ent-511",
+      "predicate": "follows",
+      "object": "ent-505",
+      "date": "2026-06-05",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1580"
+    },
+    {
+      "subject": "ent-037",
+      "predicate": "participatesIn",
+      "object": "ent-511",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1580"
+    },
+    {
+      "subject": "ent-037",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "date": "2026-06-05",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1580"
+    },
+    {
+      "subject": "ent-512",
+      "predicate": "affiliatedWith",
+      "object": "ent-005",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1581"
+    },
+    {
+      "subject": "ent-512",
+      "predicate": "opposes",
+      "object": "ent-004",
+      "date": "2026-06-05",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1581"
+    },
+    {
+      "subject": "ent-512",
+      "predicate": "relatedTo",
+      "object": "ent-456",
+      "date": "2026-06-05",
+      "confidence": 0.80,
+      "type": "explicit",
+      "source_id": "src-1581"
+    },
+    {
+      "subject": "ent-513",
+      "predicate": "mentions",
+      "object": "ent-025",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1582"
+    },
+    {
+      "subject": "ent-513",
+      "predicate": "relatedTo",
+      "object": "ent-002",
+      "date": "2026-06-05",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1582"
+    },
+    {
+      "subject": "ent-513",
+      "predicate": "relatedTo",
+      "object": "ent-456",
+      "date": "2026-06-05",
+      "confidence": 0.80,
+      "type": "explicit",
+      "source_id": "src-1582"
+    },
+    {
+      "subject": "ent-515",
+      "predicate": "affiliatedWith",
+      "object": "ent-050",
+      "date": "2026-06-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-1585"
+    },
+    {
+      "subject": "ent-515",
+      "predicate": "participatesIn",
+      "object": "ent-506",
+      "date": "2026-06-05",
+      "confidence": 0.85,
+      "type": "explicit",
+      "source_id": "src-1585"
+    },
+    {
+      "subject": "ent-510",
+      "predicate": "locatedIn",
+      "object": "ent-050",
+      "date": "2026-06-05",
+      "confidence": 0.90,
+      "type": "explicit",
+      "source_id": "src-1579"
+    },
+    {
+      "subject": "ent-509",
+      "predicate": "relatedTo",
+      "object": "ent-510",
+      "date": "2026-06-05",
+      "confidence": 0.85,
+      "type": "inferred",
+      "source_id": "inferred",
+      "rule": "co_participation"
+    },
+    {
+      "subject": "ent-511",
+      "predicate": "relatedTo",
+      "object": "ent-037",
+      "date": "2026-06-05",
+      "confidence": 0.80,
+      "type": "inferred",
+      "source_id": "inferred",
+      "rule": "event_chain"
+    },
+    {
+      "subject": "ent-512",
+      "predicate": "relatedTo",
+      "object": "ent-509",
+      "date": "2026-06-05",
+      "confidence": 0.75,
+      "type": "inferred",
+      "source_id": "inferred",
+      "rule": "co_participation"
+    },
+    {
+      "subject": "ent-513",
+      "predicate": "relatedTo",
+      "object": "ent-064",
+      "date": "2026-06-05",
+      "confidence": 0.80,
+      "type": "inferred",
+      "source_id": "inferred",
+      "rule": "co_participation"
+    },
+    {
+      "subject": "ent-506",
+      "predicate": "relatedTo",
+      "object": "ent-074",
+      "date": "2026-06-05",
+      "confidence": 0.78,
+      "type": "inferred",
+      "source_id": "inferred",
+      "rule": "event_chain"
     }
   ],
   "stats": {
-    "total_nodes": 462,
-    "total_edges": 234,
-    "total_triples": 1139
+    "total_nodes": 469,
+    "total_edges": 258,
+    "total_triples": 1163
   }
 }

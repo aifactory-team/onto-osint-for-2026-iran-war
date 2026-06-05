@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-05",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-509",
+      "type": "Event",
+      "name": "Hezbollah Rejects Pilot Zones (Jun 4)",
+      "properties": {
+        "date": "2026-06-04",
+        "detail": "Naim Qassem rejected pilot zones agreement as 'surrender, defeat, and achieving enemy's goals'; demands comprehensive cessation of aggression and full Israeli withdrawal"
+      },
+      "source_ids": ["src-1578", "src-1586"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Yoav Katz",
+      "properties": {"role": "Israel Defense Minister", "affiliation": "Israel"},
+      "source_ids": ["src-1579", "src-1586"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-510",
+      "type": "Event",
+      "name": "Israel Continues Strikes Post-Agreement (Jun 4)",
+      "properties": {
+        "date": "2026-06-04",
+        "casualties": "4 killed",
+        "detail": "Katz: 'will continue fire and operations on the ground for the time being'; Israel says won't withdraw from south Lebanon; more than a dozen strikes Thursday"
+      },
+      "source_ids": ["src-1579"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-511",
+      "type": "Event",
+      "name": "Kuwait Expels Iranian Diplomats (Jun 4)",
+      "properties": {
+        "date": "2026-06-04",
+        "detail": "Kuwait expels 2 Iranian embassy staff with 24-hour departure demand; protest note to Iran charge d'affaires; Kuwait detected 30 BMs/drones in June 3 attack; Kuwait Airways resumes from different terminal"
+      },
+      "source_ids": ["src-1580"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-512",
+      "type": "Person",
+      "name": "Esmail Ghaani",
+      "properties": {
+        "role": "IRGC Quds Force Commander",
+        "affiliation": "IRGC",
+        "action_jun05": "minimum condition is Israeli withdrawal to pre-war positions; most explicit IRGC statement linking Lebanon to Iran deal"
+      },
+      "source_ids": ["src-1581"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IAEA",
+      "properties": {"type": "international organization", "role": "International nuclear watchdog"},
+      "source_ids": ["src-1582"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-513",
+      "type": "Event",
+      "name": "IAEA June 2026 Report",
+      "properties": {
+        "date": "2026-06-04",
+        "detail": "Iran nuclear program 'relatively unchanged' since war; calls for constructive engagement; unable to access sites since June 2025; loss of continuity of knowledge needs 'utmost urgency'"
+      },
+      "source_ids": ["src-1582"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-514",
+      "type": "Event",
+      "name": "Oil Price Jun 4 ($96.97)",
+      "properties": {
+        "date": "2026-06-04",
+        "brent": "$96.97 (-0.86%)",
+        "trend": "ends 3-session winning streak"
+      },
+      "source_ids": ["src-1583"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-515",
+      "type": "Person",
+      "name": "Nawaf Salam",
+      "properties": {
+        "role": "Lebanese Prime Minister",
+        "affiliation": "Lebanon",
+        "action_jun05": "announced army will begin deploying in pilot zones 'as first phase'"
+      },
+      "source_ids": ["src-1585"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-073", "predicate": "opposes", "object": "ent-509", "source_ids": ["src-1578"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-506", "source_ids": ["src-1578", "src-1586"], "confidence": 0.95},
+    {"subject": "ent-509", "predicate": "follows", "object": "ent-506", "source_ids": ["src-1578"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-506", "source_ids": ["src-1579", "src-1586"], "confidence": 0.85},
+    {"subject": "ent-510", "predicate": "follows", "object": "ent-506", "source_ids": ["src-1579"], "confidence": 0.90},
+    {"subject": "ent-511", "predicate": "follows", "object": "ent-505", "source_ids": ["src-1580"], "confidence": 0.90},
+    {"subject": "ent-037", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1580"], "confidence": 0.85},
+    {"subject": "ent-512", "predicate": "affiliatedWith", "object": "ent-005", "source_ids": ["src-1581"], "confidence": 0.95},
+    {"subject": "ent-512", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-1581"], "confidence": 0.85},
+    {"subject": "ent-513", "predicate": "mentions", "object": "ent-025", "source_ids": ["src-1582"], "confidence": 0.95},
+    {"subject": "ent-513", "predicate": "relatedTo", "object": "ent-456", "source_ids": ["src-1582"], "confidence": 0.80},
+    {"subject": "ent-515", "predicate": "affiliatedWith", "object": "ent-050", "source_ids": ["src-1585"], "confidence": 0.95},
+    {"subject": "ent-515", "predicate": "participatesIn", "object": "ent-506", "source_ids": ["src-1585"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 9,
+    "new_entities": 7,
+    "matched_entities": 2,
+    "total_relations": 13
+  }
+}

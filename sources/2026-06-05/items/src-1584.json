@@ -1,0 +1,20 @@
+{
+  "id": "src-1584",
+  "title": "Lebanon war toll reaches 3,516 killed since March — 10,674 wounded",
+  "url": "https://time.com/article/2026/06/04/hezbollah-rejects-israel-lebanon-ceasefire-agreement-strikes/",
+  "snippet": "Updated figures from Lebanon's Health Ministry show 3,516 killed and 10,674 wounded since the start of the conflict in March 2026.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-06-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "레바논 누적 사상자 업데이트 — 3,516명 사망은 이전 보고(3,213명·5/31)에서 303명 증가",
+  "entities": [
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-103", "type": "Concept", "name": "War Death Toll"}
+  ],
+  "relations": [
+    {"subject": "ent-103", "predicate": "locatedIn", "object": "ent-050"}
+  ]
+}
