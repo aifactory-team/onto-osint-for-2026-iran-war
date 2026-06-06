@@ -1,0 +1,28 @@
+{
+  "id": "src-1597",
+  "title": "IDF Capt. Eitan Shmuel Lemberg, 21, killed by Hezbollah anti-tank missile north of Litani",
+  "url": "https://www.jpost.com/israel-news/defense-news/article-898445",
+  "snippet": "Captain Eitan Shmuel Lemberg, 21, from Mishmar HaShiv'a, an officer in the 7th Armored Brigade's 75th Battalion, was killed when a Hezbollah anti-tank missile struck his tank north of the Litani River at approximately 4 PM on June 5. He is the 29th IDF soldier killed in southern Lebanon since the March escalation, and the first since the pilot zones announcement. IAF and artillery struck Hezbollah infrastructure in the area in response.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New IDF casualty on June 5, not in previous sources. First death since pilot zones agreement.",
+  "entities": [
+    {"id": "temp-518", "type": "Person", "name": "Eitan Shmuel Lemberg", "role": "IDF Captain, killed"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "affiliated state"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "attacker"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "location"},
+    {"id": "temp-519", "type": "Event", "name": "Lemberg Anti-Tank Missile Death (Jun 5)", "role": "primary event"},
+    {"id": "temp-520", "type": "Organization", "name": "7th Armored Brigade 75th Battalion", "role": "unit"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement", "role": "context"}
+  ],
+  "relations": [
+    {"subject": "temp-518", "predicate": "affiliatedWith", "object": "ent-004"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "temp-518", "predicate": "participatesIn", "object": "temp-519"},
+    {"subject": "temp-519", "predicate": "locatedIn", "object": "ent-050"}
+  ]
+}

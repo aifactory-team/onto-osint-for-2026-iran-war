@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-06",
+  "new_triples": [
+    {"subject": "ent-517", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1596", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "ent-517", "source_id": "src-1596", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-517", "source_id": "src-1596", "date": "2026-06-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-517", "predicate": "locatedIn", "object": "ent-516", "source_id": "src-1596", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-518", "predicate": "affiliatedWith", "object": "ent-004", "source_id": "src-1597", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-519", "source_id": "src-1597", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-519", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1597", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-519", "predicate": "follows", "object": "ent-506", "source_id": "src-1597", "date": "2026-06-06", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-520", "predicate": "affiliatedWith", "object": "ent-521", "source_id": "src-1598", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-523", "predicate": "locatedIn", "object": "ent-522", "source_id": "src-1598", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-523", "source_id": "src-1598", "date": "2026-06-06", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-521", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1598", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-524", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-1599", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-524", "predicate": "relatedTo", "object": "ent-035", "source_id": "src-1599", "date": "2026-06-06", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-524", "predicate": "relatedTo", "object": "ent-010", "source_id": "src-1599", "date": "2026-06-06", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-010", "source_id": "src-1600", "date": "2026-06-06", "confidence": 0.70, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-025", "source_id": "src-1600", "date": "2026-06-06", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-046", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1601", "date": "2026-06-06", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-050", "source_id": "src-1602", "date": "2026-06-06", "confidence": 0.95, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "source_id": "src-1596", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "note": "reinforced — CENTCOM-IRGC military exchanges continue"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_id": "src-1597", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "note": "reinforced — anti-tank missile killing IDF officer"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-517", "predicate": "relatedTo", "object": "ent-456", "rule": "event_chain", "confidence": 0.78, "type": "inferred", "reason": "CENTCOM-IRGC 호르무즈 교전(ent-517)은 MoU 협상(ent-456) 진행 중의 군사 에스컬레이션. '자위권 공습' 프레임은 유지되나, 반복적 교전은 MoU 타결 환경을 악화"},
+    {"subject": "ent-519", "predicate": "causedBy", "object": "ent-509", "rule": "event_chain", "confidence": 0.80, "type": "inferred", "reason": "헤즈볼라의 파일럿 존 거부(ent-509) → 군사행동 지속 → 렘버그 대위 전사(ent-519). 거부와 전투 사이의 직접적 인과 관계"},
+    {"subject": "ent-523", "predicate": "relatedTo", "object": "ent-519", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reason": "UNIFIL 평화유지군 사망(ent-523)과 IDF 장교 사망(ent-519)은 같은 시기 남부 레바논에서의 전투 격화를 반영. 파일럿 존 합의 무력화의 인적 비용"},
+    {"subject": "ent-524", "predicate": "follows", "object": "ent-456", "rule": "event_chain", "confidence": 0.72, "type": "inferred", "reason": "OFAC LPG 제재(ent-524)는 MoU 협상(ent-456) 진행과 병행하는 '최대 압박' 전략의 일환. 외교와 제재의 동시 추진"},
+    {"subject": "ent-001", "predicate": "potentialRelation", "object": "ent-010", "rule": "co_participation", "confidence": 0.70, "type": "inferred", "reason": "트럼프의 '미국과 중국만 농축 우라늄 회수 가능' 발언은 핵 쟁점에서의 미중 협력 가능성을 시사. 제재 대상이면서 동시에 핵 파트너의 이중적 위치"}
+  ],
+  "stats": {
+    "new_nodes": 9,
+    "new_edges": 19,
+    "inferred_edges": 5
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "src-1596",
+  "title": "CENTCOM shoots down 4 IRGC drones near Hormuz, strikes Goruk and Qeshm Island radar sites",
+  "url": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855",
+  "snippet": "The U.S. military shot down four Iranian drones launched toward the Strait of Hormuz on June 5, with CENTCOM stating the attack drones 'posed an immediate threat to regional maritime traffic.' In response, CENTCOM struck Iranian coastal surveillance radar sites in the city of Goruk and on Qeshm Island 'to defend against further attacks.' Iran condemned the incidents as ceasefire violations.",
+  "source_name": "ABC News",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "No similar CENTCOM drone shootdown/radar strike event in previous 7 days' sources. New military escalation on June 5.",
+  "entities": [
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "conducted strikes"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "launched drones"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "target area"},
+    {"id": "temp-516", "type": "Location", "name": "Goruk", "role": "radar strike target"},
+    {"id": "temp-517", "type": "Event", "name": "CENTCOM Goruk-Qeshm Radar Strikes (Jun 5)", "role": "primary event"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "affected state"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "conducting force"}
+  ],
+  "relations": [
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005"},
+    {"subject": "temp-517", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-517"}
+  ]
+}

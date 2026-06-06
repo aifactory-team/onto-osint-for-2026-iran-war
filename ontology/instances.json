@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "entities": [
     {
       "id": "ent-001",
@@ -6024,9 +6024,131 @@
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-05",
       "mention_count": 2
+    },
+    {
+      "id": "ent-516",
+      "type": "Location",
+      "name": "Goruk",
+      "properties": {
+        "type": "city/military site",
+        "country": "Iran",
+        "context": "CENTCOM struck coastal surveillance radar sites here on June 5"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-517",
+      "type": "Event",
+      "name": "CENTCOM Goruk-Qeshm Radar Strikes (Jun 5)",
+      "properties": {
+        "date": "2026-06-05",
+        "detail": "CENTCOM shot down 4 IRGC drones launched toward Strait of Hormuz, then struck Iranian coastal surveillance radar sites in Goruk and on Qeshm Island to defend against further attacks",
+        "trigger": "4 IRGC drones posed immediate threat to regional maritime traffic"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-518",
+      "type": "Person",
+      "name": "Eitan Shmuel Lemberg",
+      "properties": {
+        "role": "IDF Captain, 7th Armored Brigade 75th Battalion",
+        "affiliation": "Israel",
+        "age": 21,
+        "from": "Mishmar HaShiv'a",
+        "status": "killed 2026-06-05",
+        "cause": "Hezbollah anti-tank missile struck tank north of Litani River at ~4PM; 29th IDF soldier killed in southern Lebanon since March; first since pilot zones announcement"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-519",
+      "type": "Event",
+      "name": "Lemberg Anti-Tank Missile Death (Jun 5)",
+      "properties": {
+        "date": "2026-06-05",
+        "location": "North of Litani River, southern Lebanon",
+        "detail": "Hezbollah anti-tank missile struck IDF tank at ~4PM; IAF and artillery struck Hezbollah infrastructure in response",
+        "significance": "First IDF death since pilot zones announcement; 29th IDF fatality in southern Lebanon"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-520",
+      "type": "Person",
+      "name": "Milovan Jovanović",
+      "properties": {
+        "role": "UNIFIL Sergeant, Serbian peacekeeper",
+        "status": "killed 2026-06-03/04",
+        "cause": "mortar fire at UN position 7-2 near Marjayoun, Sector East",
+        "note": "7th UNIFIL peacekeeper killed since March 2 escalation; 2 others wounded"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-521",
+      "type": "Organization",
+      "name": "UNIFIL",
+      "properties": {
+        "type": "UN peacekeeping force",
+        "location": "Lebanon",
+        "losses_since_march": "7 peacekeepers killed since March 2, 2026"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-522",
+      "type": "Location",
+      "name": "Marjayoun",
+      "properties": {
+        "type": "town",
+        "country": "Lebanon",
+        "context": "UN position 7-2, Sector East; UNIFIL peacekeeper killed here"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-523",
+      "type": "Event",
+      "name": "UNIFIL Peacekeeper Jovanović Killed (Jun 3-4)",
+      "properties": {
+        "date": "2026-06-03/04",
+        "location": "Near Marjayoun, Sector East",
+        "detail": "Mortar impacted UN position 7-2; 2 others wounded; IDF attributes fire to Hezbollah from Al-Qatrani; UNIFIL does not assign blame; 7th UNIFIL death since March 2"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-524",
+      "type": "Event",
+      "name": "OFAC LPG Smuggling Network Sanctions (Jun 5-6)",
+      "properties": {
+        "date": "2026-06-05/06",
+        "detail": "OFAC designated network smuggling Iranian LPG disguised as Omani LPG to South/East Asia; UAE front companies (Butani Trading, Dundlod Trading FZE, ADH Energy FZE), China-based Shanghai Qianye Energy; part of Economic Fury campaign",
+        "sanctioned_individuals": "Sarbaz Abdul Zada (Afghan), Mohammad Shakol Mihandoust (Turkish)"
+      },
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "mention_count": 5
     }
   ],
-  "total_count": 457,
+  "total_count": 466,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -6475,6 +6597,13 @@
       "target": "7 new entities (ent-509~ent-515), 6 existing updated",
       "reason": "헤즈볼라 파일럿 존 거부(카셈 '항복과 패배'), 이스라엘 합의 후 작전 지속(카츠 '철수 거부'·4명 사살), 쿠웨이트 이란 외교관 2명 추방(전쟁 이후 최초 걸프국 외교 조치), IRGC 가니 사령관 이스라엘 철수 최소조건(레바논-이란 딜 연계), IAEA 핵 보고('상대적 변동 없음'·사찰 접근 불가 1년), 유가 $96.97(-0.86%·3연속 상승 마감), 레바논 총리 살람 LAF 배치 '첫 단계' 발표. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1578", "src-1579", "src-1580", "src-1581", "src-1582", "src-1583", "src-1584", "src-1585", "src-1586", "src-1587", "src-1588", "src-1589", "src-1590", "src-1591", "src-1592", "src-1593", "src-1594", "src-1595"]
+    },
+    {
+      "date": "2026-06-06",
+      "action": "add_instances",
+      "target": "9 new entities (ent-516~ent-524), 8 existing updated",
+      "reason": "CENTCOM 4 IRGC 드론 격추 + 고루크/케심섬 레이더 공습(Jun 5), IDF 렘버그 대위 전사(헤즈볼라 대전차 미사일·리타니 북쪽·파일럿 존 이후 첫 IDF 전사자), UNIFIL 세르비아 평화유지군 요바노비치 하사 전사(마르자윤 박격포·7번째 UNIFIL 사망자), OFAC 이란 LPG 밀수 네트워크 제재(UAE 프론트 기업·중국 상하이 첸예 에너지·Economic Fury 캠페인), 트럼프 '미국과 중국만 농축 우라늄 회수 가능' 발언(핵 쟁점 미중 협력 시사), 이란 최고지도자 고문 'ball is in Trump's court'(이란 대기 시그널), 이스라엘 레바논 공습 8명 사살(Jun 5·Tyre 근처). 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1596", "src-1597", "src-1598", "src-1599", "src-1600", "src-1601", "src-1602", "src-1603", "src-1604", "src-1605"]
     }
   ]
 }

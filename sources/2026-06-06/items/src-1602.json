@@ -1,0 +1,25 @@
+{
+  "id": "src-1602",
+  "title": "Israeli strikes kill 8 in eastern Lebanon and near Tyre on June 5",
+  "url": "https://www.france24.com/en/middle-east/20260603-middle-east-war-live-israel-and-lebanon-agree-to-implement-a-ceasefire",
+  "snippet": "Israeli strikes in eastern Lebanon and near the southern city of Tyre killed eight people on June 5, 2026. The strikes continue despite the pilot zones agreement announced on June 3, further undermining the framework. Combined with the Lemberg killing and UNIFIL death, June 5 was one of the deadliest days since the ceasefire framework was announced.",
+  "source_name": "France 24",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New casualties on June 5 in Lebanon strikes. Not in previous sources.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "conducted strikes"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "location"},
+    {"id": "temp-530", "type": "Location", "name": "Tyre", "role": "strike location"},
+    {"id": "temp-531", "type": "Event", "name": "Israeli Strikes Kill 8 in Lebanon (Jun 5)", "role": "primary event"},
+    {"id": "ent-506", "type": "Event", "name": "Pilot Zones Agreement", "role": "context"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-531"},
+    {"subject": "temp-531", "predicate": "locatedIn", "object": "ent-050"},
+    {"subject": "temp-531", "predicate": "follows", "object": "ent-506"}
+  ]
+}

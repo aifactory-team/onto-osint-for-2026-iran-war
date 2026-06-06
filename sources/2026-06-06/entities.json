@@ -1,0 +1,159 @@
+{
+  "date": "2026-06-06",
+  "entities": [
+    {
+      "temp_id": "temp-516",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Goruk",
+      "properties": {"type": "city/military site", "country": "Iran", "context": "CENTCOM struck coastal surveillance radar sites here on June 5"},
+      "source_ids": ["src-1596"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-517",
+      "matched_id": null,
+      "type": "Event",
+      "name": "CENTCOM Goruk-Qeshm Radar Strikes (Jun 5)",
+      "properties": {"date": "2026-06-05", "detail": "CENTCOM shot down 4 IRGC drones near Hormuz, then struck Iranian coastal surveillance radar sites in Goruk and on Qeshm Island", "trigger": "4 IRGC drones launched toward Strait of Hormuz"},
+      "source_ids": ["src-1596"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-518",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Eitan Shmuel Lemberg",
+      "properties": {"role": "IDF Captain, 7th Armored Brigade 75th Battalion", "age": 21, "from": "Mishmar HaShiv'a", "status": "killed 2026-06-05", "cause": "Hezbollah anti-tank missile struck tank north of Litani River at ~4PM"},
+      "source_ids": ["src-1597"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-519",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lemberg Anti-Tank Missile Death (Jun 5)",
+      "properties": {"date": "2026-06-05", "location": "North of Litani River, southern Lebanon", "detail": "Hezbollah anti-tank missile struck IDF tank at ~4PM; 29th IDF soldier killed in southern Lebanon since March; first since pilot zones announcement"},
+      "source_ids": ["src-1597"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-521",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Milovan Jovanović",
+      "properties": {"role": "UNIFIL Sergeant, Serbian peacekeeper", "status": "killed 2026-06-03/04", "cause": "mortar fire at UN position 7-2 near Marjayoun"},
+      "source_ids": ["src-1598"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-522",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "UNIFIL",
+      "properties": {"type": "UN peacekeeping force", "location": "Lebanon", "losses": "7 peacekeepers killed since March 2, 2026"},
+      "source_ids": ["src-1598"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-523",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Marjayoun",
+      "properties": {"type": "town", "country": "Lebanon", "context": "UN position 7-2 in Sector East"},
+      "source_ids": ["src-1598"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-524",
+      "matched_id": null,
+      "type": "Event",
+      "name": "UNIFIL Peacekeeper Jovanović Killed (Jun 3-4)",
+      "properties": {"date": "2026-06-03/04", "location": "Near Marjayoun, Sector East", "detail": "Mortar impacted UN position 7-2; 2 others wounded; IDF attributes fire to Hezbollah from Al-Qatrani; 7th UNIFIL death since March 2"},
+      "source_ids": ["src-1598"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-525",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sarbaz Abdul Zada",
+      "properties": {"role": "sanctioned individual", "nationality": "Afghan", "activity": "operated UAE front companies for Iranian LPG smuggling"},
+      "source_ids": ["src-1599"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-526",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Shakol Mihandoust",
+      "properties": {"role": "sanctioned individual", "nationality": "Turkish", "activity": "operated UAE/China front companies for Iranian LPG smuggling"},
+      "source_ids": ["src-1599"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-527",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Butani Trading LLC / Dundlod Trading FZE / ADH Energy FZE",
+      "properties": {"type": "front companies", "location": "UAE", "activity": "smuggling Iranian LPG disguised as Omani LPG", "status": "OFAC designated June 2026"},
+      "source_ids": ["src-1599"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-528",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Shanghai Qianye Energy Co., Ltd.",
+      "properties": {"type": "front company", "location": "China", "activity": "Iranian LPG distribution in East Asia", "status": "OFAC designated June 2026"},
+      "source_ids": ["src-1599"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-529",
+      "matched_id": null,
+      "type": "Event",
+      "name": "OFAC LPG Smuggling Network Sanctions (Jun 5-6)",
+      "properties": {"date": "2026-06-05/06", "detail": "OFAC designated network of individuals, UAE front companies, China entity, and shadow fleet vessels for smuggling Iranian LPG disguised as Omani LPG; part of Economic Fury campaign"},
+      "source_ids": ["src-1599"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-530",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Tyre",
+      "properties": {"type": "city", "country": "Lebanon"},
+      "source_ids": ["src-1602"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-531",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israeli Strikes Kill 8 in Lebanon (Jun 5)",
+      "properties": {"date": "2026-06-05", "location": "Eastern Lebanon and near Tyre", "casualties": "8 killed", "context": "Strikes continue despite pilot zones agreement"},
+      "source_ids": ["src-1602"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-1596"], "confidence": 0.95},
+    {"subject": "temp-517", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-1596"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-517", "source_ids": ["src-1596"], "confidence": 0.9},
+    {"subject": "temp-518", "predicate": "affiliatedWith", "object": "ent-004", "source_ids": ["src-1597"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-1597"], "confidence": 0.95},
+    {"subject": "temp-521", "predicate": "affiliatedWith", "object": "temp-522", "source_ids": ["src-1598"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "temp-524", "source_ids": ["src-1598"], "confidence": 0.8},
+    {"subject": "temp-525", "predicate": "relatedTo", "object": "temp-527", "source_ids": ["src-1599"], "confidence": 0.9},
+    {"subject": "temp-529", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-1599"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-010", "source_ids": ["src-1600"], "confidence": 0.7},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-531", "source_ids": ["src-1602"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 15,
+    "matched_entities": 0,
+    "total_relations": 11
+  }
+}

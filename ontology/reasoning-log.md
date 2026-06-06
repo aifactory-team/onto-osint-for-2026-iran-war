@@ -2237,3 +2237,46 @@
 ### 스키마 변경 없음
 - 7개 새 엔티티 모두 기존 클래스(Person, Event)로 분류 가능
 - 19개 새 관계(명시적) + 5개 추론 모두 기존 관계 유형(participatesIn, affiliatedWith, opposes, follows, relatedTo, mentions, locatedIn)으로 표현 가능
+
+---
+
+## 2026-06-06 추론 결과
+
+### 추론 #1: event_chain (CENTCOM-IRGC 교전 → MoU 환경 악화)
+- **입력:** (ent-517/CENTCOM Goruk-Qeshm Strikes, locatedIn, ent-008/Hormuz), (ent-456/MoU 60-Day Framework, relatedTo, ent-008)
+- **추론:** (ent-517/CENTCOM Goruk-Qeshm Strikes, relatedTo, ent-456/MoU 60-Day Framework)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** MoU 협상이 진행되는 와중에 CENTCOM이 4 IRGC 드론을 격추하고 이란 내 레이더 시설을 공습한 것은, 6/1 케심섬 공습, 6/3 쿠웨이트 미사일 공격에 이은 연속적 군사 에스컬레이션. '자위권 공습' 프레임은 양측 모두 유지하나, 반복적 교전은 MoU 타결 환경을 구조적으로 악화. 이란 최고지도자 고문의 'ball is in Trump's court' 발언과의 대조가 뚜렷 — 외교적 톤과 군사적 현실의 괴리.
+
+### 추론 #2: event_chain (헤즈볼라 거부 → 렘버그 전사)
+- **입력:** (ent-509/Hezbollah Rejects Pilot Zones, date=2026-06-04), (ent-519/Lemberg Death, date=2026-06-05)
+- **추론:** (ent-519/Lemberg Death, causedBy, ent-509/Hezbollah Rejects Pilot Zones)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 헤즈볼라의 파일럿 존 거부(6/4) 후 24시간 이내에 대전차 미사일로 IDF 장교를 사살한 것은 거부의 군사적 실행. 렘버그 대위는 파일럿 존 합의 이후 첫 IDF 전사자이며 29번째 남부 레바논 전사자. 합의가 무의미해졌음을 상징적으로 보여주는 사건.
+
+### 추론 #3: co_participation (UNIFIL 사망 ↔ IDF 사망 동시기 전투 격화)
+- **입력:** (ent-523/UNIFIL Jovanović Killed, date=Jun 3-4), (ent-519/Lemberg Death, date=Jun 5)
+- **추론:** (ent-523, relatedTo, ent-519)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 48시간 내에 UNIFIL 평화유지군(세르비아)과 IDF 장교가 동시에 사망한 것은 남부 레바논의 전투가 모든 당사자에게 치명적 수준으로 격화되었음을 보여줌. UNIFIL은 7번째 사망자(3월 이후), IDF는 29번째. 파일럿 존 합의의 인적 비용이 합의 발표 48시간 만에 현실화.
+
+### 추론 #4: event_chain (OFAC 제재 ↔ MoU 최대 압박 병행)
+- **입력:** (ent-524/OFAC LPG Sanctions, date=Jun 5-6), (ent-456/MoU 60-Day Framework)
+- **추론:** (ent-524, follows, ent-456)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** MoU 협상이 교착된 상태에서 OFAC가 이란 LPG 밀수 네트워크를 제재한 것은 외교와 제재의 동시 추진(Economic Fury + MoU). UAE와 중국 프론트 기업 지정은 이란의 제재 회피 네트워크가 걸프-동아시아 축을 따라 운영됨을 공식 확인. 트럼프의 '미중 핵 협력' 시사와 동시에 중국 기업 제재라는 이중 신호는 대중국 레버리지 활용의 새로운 차원.
+
+### 추론 #5: co_participation (트럼프-중국 핵 협력 가능성)
+- **입력:** (ent-001/Trump, cooperatesWith, ent-010/China via src-1600), (ent-524/OFAC Sanctions, relatedTo, ent-010 via src-1599)
+- **추론:** (ent-001/Trump, potentialRelation, ent-010/China)
+- **신뢰도:** 0.70
+- **상태:** 잠정
+- **비고:** 트럼프의 '미국과 중국만 농축 우라늄 회수 가능' 발언은 핵 쟁점에서의 미중 협력 가능성을 시사. 그러나 동일 시기 OFAC의 중국 상하이 첸예 에너지 제재는 모순적 신호. 제재 대상이면서 핵 파트너라는 이중적 위치는 트럼프의 거래적(transactional) 외교의 특징. 신뢰도가 기준치(0.7) 경계에 있어 '잠정' 분류.
+
+### 스키마 변경 없음
+- 9개 새 엔티티 모두 기존 클래스(Person 2, Organization 1, Event 4, Location 2)로 분류 가능
+- 19개 새 관계(명시적) + 5개 추론 모두 기존 관계 유형으로 표현 가능

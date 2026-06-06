@@ -1,0 +1,29 @@
+{
+  "id": "src-1599",
+  "title": "OFAC designates Iranian LPG smuggling network — UAE front companies, China-based Shanghai Qianye Energy, shadow fleet vessels",
+  "url": "https://home.treasury.gov/news/press-releases/sb0524",
+  "snippet": "OFAC designated a network of individuals, entities, and vessels smuggling hundreds of millions of dollars' worth of Iranian LPG disguised as Omani LPG to South and East Asia. Afghani national Sarbaz Abdul Zada and Turkish national Mohammad Shakol Mihandoust operated UAE front companies Butani Trading LLC, Dundlod Trading FZE, and ADH Energy FZE. China-based Shanghai Qianye Energy Co., Ltd. was also designated. Part of the 'Economic Fury' maximum pressure campaign.",
+  "source_name": "US Treasury",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New OFAC sanctions announcement on June 5-6. Not in previous sources.",
+  "entities": [
+    {"id": "temp-525", "type": "Person", "name": "Sarbaz Abdul Zada", "role": "sanctioned individual, Afghan national"},
+    {"id": "temp-526", "type": "Person", "name": "Mohammad Shakol Mihandoust", "role": "sanctioned individual, Turkish national"},
+    {"id": "temp-527", "type": "Organization", "name": "Butani Trading LLC", "role": "UAE front company, sanctioned"},
+    {"id": "temp-528", "type": "Organization", "name": "Shanghai Qianye Energy", "role": "China-based entity, sanctioned"},
+    {"id": "temp-529", "type": "Event", "name": "OFAC LPG Smuggling Network Sanctions (Jun 5-6)", "role": "primary event"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "source of smuggled LPG"},
+    {"id": "ent-035", "type": "Organization", "name": "UAE", "role": "location of front companies"},
+    {"id": "ent-010", "type": "Organization", "name": "China", "role": "location of sanctioned entity"}
+  ],
+  "relations": [
+    {"subject": "temp-525", "predicate": "relatedTo", "object": "temp-527"},
+    {"subject": "temp-526", "predicate": "relatedTo", "object": "temp-528"},
+    {"subject": "temp-529", "predicate": "relatedTo", "object": "ent-002"},
+    {"subject": "temp-527", "predicate": "locatedIn", "object": "ent-035"}
+  ]
+}

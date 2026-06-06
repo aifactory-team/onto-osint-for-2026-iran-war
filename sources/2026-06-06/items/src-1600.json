@@ -1,0 +1,24 @@
+{
+  "id": "src-1600",
+  "title": "Trump: only US and China have capability to retrieve enriched uranium from Iran",
+  "url": "https://www.foxnews.com/live-news/iran-war-news-trump-latest-oil-prices-china-hormuz-june-5",
+  "snippet": "President Trump stated that only the United States and China have the capability to retrieve enriched uranium from Iran, signaling potential US-China cooperation on the nuclear component of any Iran deal. The comment came amid ongoing negotiations over the 60-day MoU framework, where the fate of Iran's enriched uranium stockpile remains a core sticking point.",
+  "source_name": "Fox News",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Trump statement on nuclear issue on June 5. Not in previous sources.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-010", "type": "Organization", "name": "China", "role": "potential partner"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program", "role": "subject"},
+    {"id": "ent-064", "type": "Concept", "name": "Enriched Uranium Issue", "role": "context"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "context"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-025"},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-010"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "src-1598",
+  "title": "UNIFIL Serbian peacekeeper Sgt. Milovan Jovanović killed by mortar fire near Marjayoun — 7th UNIFIL fatality since March 2",
+  "url": "https://news.un.org/en/story/2026/06/1167645",
+  "snippet": "A Serbian UNIFIL peacekeeper, Sergeant Milovan Jovanović, was killed when mortar fire impacted UN position 7-2 near Marji'yun in Sector East of the UNIFIL area of operations on June 3-4. Two other peacekeepers were wounded. The IDF said Hezbollah fired from the Al-Qatrani area, while UNIFIL did not assign blame. He is the 7th UNIFIL peacekeeper killed since the March 2 escalation. The UN Secretary-General condemned the killing.",
+  "source_name": "UN News",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "UNIFIL peacekeeper death announced June 4-5, not in previous day's index. New casualty event.",
+  "entities": [
+    {"id": "temp-521", "type": "Person", "name": "Milovan Jovanović", "role": "UNIFIL Sgt., killed"},
+    {"id": "temp-522", "type": "Organization", "name": "UNIFIL", "role": "peacekeeping force"},
+    {"id": "temp-523", "type": "Location", "name": "Marjayoun", "role": "location of attack"},
+    {"id": "temp-524", "type": "Event", "name": "UNIFIL Peacekeeper Jovanović Killed (Jun 3-4)", "role": "primary event"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "alleged attacker"},
+    {"id": "ent-083", "type": "Person", "name": "António Guterres", "role": "condemned killing"}
+  ],
+  "relations": [
+    {"subject": "temp-521", "predicate": "affiliatedWith", "object": "temp-522"},
+    {"subject": "temp-524", "predicate": "locatedIn", "object": "temp-523"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "temp-524"}
+  ]
+}

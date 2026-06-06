@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "nodes": [
     {
       "id": "ent-001",
@@ -2354,7 +2354,16 @@
       "id": "ent-515",
       "type": "Person",
       "label": "Nawaf Salam"
-    }
+    },
+    {"id": "ent-516", "type": "Location", "label": "Goruk"},
+    {"id": "ent-517", "type": "Event", "label": "CENTCOM Goruk-Qeshm Radar Strikes (Jun 5)"},
+    {"id": "ent-518", "type": "Person", "label": "Eitan Shmuel Lemberg"},
+    {"id": "ent-519", "type": "Event", "label": "Lemberg Anti-Tank Missile Death (Jun 5)"},
+    {"id": "ent-520", "type": "Person", "label": "Milovan Jovanović"},
+    {"id": "ent-521", "type": "Organization", "label": "UNIFIL"},
+    {"id": "ent-522", "type": "Location", "label": "Marjayoun"},
+    {"id": "ent-523", "type": "Event", "label": "UNIFIL Peacekeeper Jovanović Killed"},
+    {"id": "ent-524", "type": "Event", "label": "OFAC LPG Smuggling Sanctions"}
   ],
   "edges": [
     {
@@ -12837,11 +12846,35 @@
       "type": "inferred",
       "source_id": "inferred",
       "rule": "event_chain"
-    }
+    },
+    {"subject": "ent-517", "predicate": "locatedIn", "object": "ent-008", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1596"},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "ent-517", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1596"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-517", "date": "2026-06-06", "confidence": 0.90, "type": "explicit", "source_id": "src-1596"},
+    {"subject": "ent-517", "predicate": "locatedIn", "object": "ent-516", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1596"},
+    {"subject": "ent-518", "predicate": "affiliatedWith", "object": "ent-004", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1597"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-519", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1597"},
+    {"subject": "ent-519", "predicate": "locatedIn", "object": "ent-050", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1597"},
+    {"subject": "ent-519", "predicate": "follows", "object": "ent-506", "date": "2026-06-06", "confidence": 0.85, "type": "explicit", "source_id": "src-1597"},
+    {"subject": "ent-520", "predicate": "affiliatedWith", "object": "ent-521", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1598"},
+    {"subject": "ent-523", "predicate": "locatedIn", "object": "ent-522", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1598"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-523", "date": "2026-06-06", "confidence": 0.80, "type": "explicit", "source_id": "src-1598"},
+    {"subject": "ent-521", "predicate": "locatedIn", "object": "ent-050", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1598"},
+    {"subject": "ent-524", "predicate": "relatedTo", "object": "ent-002", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1599"},
+    {"subject": "ent-524", "predicate": "relatedTo", "object": "ent-035", "date": "2026-06-06", "confidence": 0.85, "type": "explicit", "source_id": "src-1599"},
+    {"subject": "ent-524", "predicate": "relatedTo", "object": "ent-010", "date": "2026-06-06", "confidence": 0.85, "type": "explicit", "source_id": "src-1599"},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-010", "date": "2026-06-06", "confidence": 0.70, "type": "explicit", "source_id": "src-1600"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-025", "date": "2026-06-06", "confidence": 0.90, "type": "explicit", "source_id": "src-1600"},
+    {"subject": "ent-046", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-06", "confidence": 0.85, "type": "explicit", "source_id": "src-1601"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-050", "date": "2026-06-06", "confidence": 0.95, "type": "explicit", "source_id": "src-1602"},
+    {"subject": "ent-517", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-06", "confidence": 0.78, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-519", "predicate": "causedBy", "object": "ent-509", "date": "2026-06-06", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-523", "predicate": "relatedTo", "object": "ent-519", "date": "2026-06-06", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-524", "predicate": "follows", "object": "ent-456", "date": "2026-06-06", "confidence": 0.72, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-001", "predicate": "potentialRelation", "object": "ent-010", "date": "2026-06-06", "confidence": 0.70, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
   ],
   "stats": {
-    "total_nodes": 469,
-    "total_edges": 258,
-    "total_triples": 1163
+    "total_nodes": 478,
+    "total_edges": 282,
+    "total_triples": 1187
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "src-1601",
+  "title": "Iran Supreme Leader adviser: 'ball is in Trump's court'",
+  "url": "https://www.cbsnews.com/live-updates/iran-us-war-israel-hezbollah-fighting-ceasefire-efforts/",
+  "snippet": "An adviser to Iran's Supreme Leader Mojtaba Khamenei stated the 'ball is in Trump's court' regarding the MoU negotiations, signaling that Iran has made its position clear and is waiting for a US decision. The comment contrasts with Araghchi's earlier 'no progress' statement but aligns with the broader pattern of Iran positioning itself as responsive while placing the burden of decision on Washington.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-06-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New statement from Supreme Leader adviser. Not in previous sources.",
+  "entities": [
+    {"id": "ent-046", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "addressee"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "context"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "signaling party"}
+  ],
+  "relations": [
+    {"subject": "ent-046", "predicate": "relatedTo", "object": "ent-456"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-001"}
+  ]
+}
