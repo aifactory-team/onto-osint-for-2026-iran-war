@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-07",
+  "entities": [
+    {"temp_id": "temp-001", "matched_id": "ent-005", "type": "Organization", "name": "IRGC", "properties": {"action_jun07": "fired 7 BMs at Ali Al Salem (Kuwait) and Fifth Fleet (Bahrain); hit oil tanker in Hormuz; warned 'stronger response'"}, "source_ids": ["src-1614", "src-1615"], "mention_count": 8},
+    {"temp_id": "temp-002", "matched_id": "ent-059", "type": "Organization", "name": "CENTCOM", "properties": {"action_jun07": "intercepted 6 of 7 Iranian BMs targeting Kuwait/Bahrain; 7th failed to reach target"}, "source_ids": ["src-1614", "src-1623"], "mention_count": 4},
+    {"temp_id": "temp-003", "matched_id": "ent-037", "type": "Organization", "name": "Kuwait", "properties": {"status_jun07": "2nd BM attack in 4 days (Jun 3 airport, Jun 6 Ali Al Salem); condemns 'blatant aggression'"}, "source_ids": ["src-1614", "src-1616"], "mention_count": 6},
+    {"temp_id": "temp-004", "matched_id": "ent-036", "type": "Organization", "name": "Bahrain", "properties": {"status_jun07": "Fifth Fleet targeted by IRGC BMs; intercepts missiles/drones; condemns 'flagrant violation'"}, "source_ids": ["src-1614", "src-1616"], "mention_count": 5},
+    {"temp_id": "temp-005", "matched_id": null, "type": "Location", "name": "Ali Al Salem Air Base", "properties": {"type": "US military base", "location": "Kuwait"}, "source_ids": ["src-1614"], "mention_count": 3},
+    {"temp_id": "temp-006", "matched_id": null, "type": "Event", "name": "IRGC BM Strike on Kuwait/Bahrain (Jun 6)", "properties": {"date": "2026-06-06", "missiles": 7, "intercepted": 6, "targets": "Ali Al Salem Air Base (Kuwait), US Fifth Fleet (Bahrain)", "trigger": "CENTCOM Goruk/Qeshm strikes"}, "source_ids": ["src-1614", "src-1623"], "mention_count": 8},
+    {"temp_id": "temp-007", "matched_id": null, "type": "Event", "name": "IRGC Hormuz Tanker Attack (Jun 6)", "properties": {"date": "2026-06-06", "detail": "4 tankers attempted unauthorized transit, 1 struck and forced to halt, 3 turned back"}, "source_ids": ["src-1615"], "mention_count": 2},
+    {"temp_id": "temp-008", "matched_id": null, "type": "Event", "name": "Regional Condemnation of Iran BM Attacks (Jun 7)", "properties": {"date": "2026-06-07", "condemning_parties": "Kuwait, Bahrain, Saudi Arabia, GCC, UAE, Qatar, Egypt, Jordan"}, "source_ids": ["src-1616"], "mention_count": 3},
+    {"temp_id": "temp-009", "matched_id": null, "type": "Person", "name": "Mohsen Rezaei", "properties": {"role": "Military adviser to Supreme Leader Mojtaba Khamenei", "affiliation": "Iran", "action": "CNN exclusive: talks 'deadlocked,' $24B 'test of trust,' warns 'dark corridor'"}, "source_ids": ["src-1617"], "mention_count": 3},
+    {"temp_id": "temp-010", "matched_id": null, "type": "Event", "name": "US Treasury Frozen Assets Redirect Plan", "properties": {"date": "2026-06-06/07", "detail": "Bessent directs team to assess damage costs; plans to redirect Iranian assets to Gulf allies for reconstruction"}, "source_ids": ["src-1618"], "mention_count": 3},
+    {"temp_id": "temp-011", "matched_id": null, "type": "Person", "name": "Shahar Gamla", "properties": {"role": "IDF Captain, Egoz commando unit, age 24", "affiliation": "Israel/IDF", "status": "killed 2026-06-07 (wounded Jun 5 by Hezbollah FPV drone, died Saturday)"}, "source_ids": ["src-1619"], "mention_count": 4},
+    {"temp_id": "temp-012", "matched_id": null, "type": "Person", "name": "Ohad Yaari", "properties": {"role": "IDF Sergeant, Givati Brigade Shaked Battalion, age 21", "affiliation": "Israel/IDF", "status": "killed 2026-06-06 by accidental discharge"}, "source_ids": ["src-1619"], "mention_count": 3},
+    {"temp_id": "temp-013", "matched_id": null, "type": "Event", "name": "IDF 150 Strikes on Hezbollah (48h)", "properties": {"date": "2026-06-05/06", "targets": "150 Hezbollah positions: weapons depots, command centers, rocket launchers", "location": "southern Lebanon"}, "source_ids": ["src-1620"], "mention_count": 2},
+    {"temp_id": "temp-014", "matched_id": null, "type": "Event", "name": "Israel Defensive Posture Shift", "properties": {"date": "2026-06-07", "detail": "offensive operations stop; defensive posture ahead of June 22 fifth round; pilot zone LAF program begins"}, "source_ids": ["src-1621"], "mention_count": 2},
+    {"temp_id": "temp-015", "matched_id": "ent-001", "type": "Person", "name": "Donald Trump", "properties": {"action_jun07": "weekend deal deadline passed without deal; Polymarket odds crashed from 72% to 6%"}, "source_ids": ["src-1617", "src-1618"], "mention_count": 4},
+    {"temp_id": "temp-016", "matched_id": null, "type": "Person", "name": "Scott Bessent", "properties": {"role": "US Treasury Secretary", "affiliation": "United States", "action": "directs team to assess damage costs; plans to redirect Iranian assets to Gulf allies"}, "source_ids": ["src-1618"], "mention_count": 3},
+    {"temp_id": "temp-017", "matched_id": "ent-047", "type": "Organization", "name": "Hezbollah", "properties": {"action_jun07": "FPV drone killed Gamla; drones continue targeting IDF in south Lebanon; ceasefire remains rejected"}, "source_ids": ["src-1619", "src-1620"], "mention_count": 5},
+    {"temp_id": "temp-018", "matched_id": "ent-004", "type": "Organization", "name": "Israel", "properties": {"action_jun07": "150 strikes in 48h; shifts to defensive posture; 2 more soldiers killed (30th/31st since March)"}, "source_ids": ["src-1619", "src-1620", "src-1621"], "mention_count": 6},
+    {"temp_id": "temp-019", "matched_id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "properties": {"status_jun07": "IRGC hits tanker, 3 others turned back; Brent $93.71; escalation cycle continues"}, "source_ids": ["src-1615", "src-1622"], "mention_count": 4},
+    {"temp_id": "temp-020", "matched_id": "ent-002", "type": "Organization", "name": "Iran", "properties": {"action_jun07": "7 BMs at Gulf bases; tanker hit in Hormuz; Rezaei '$24B test of trust'; regional condemnation"}, "source_ids": ["src-1614", "src-1615", "src-1617"], "mention_count": 8}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1614"], "confidence": 0.95},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1614"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "causedBy", "object": "ent-517", "source_ids": ["src-1614", "src-1623"], "confidence": 0.90},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-1615"], "confidence": 0.90},
+    {"subject": "temp-009", "predicate": "affiliatedWith", "object": "ent-046", "source_ids": ["src-1617"], "confidence": 0.95},
+    {"subject": "temp-010", "predicate": "opposes", "object": "temp-009", "source_ids": ["src-1617", "src-1618"], "confidence": 0.85},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-1619"], "confidence": 0.90},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-013", "source_ids": ["src-1620"], "confidence": 0.95},
+    {"subject": "temp-014", "predicate": "follows", "object": "temp-013", "source_ids": ["src-1621"], "confidence": 0.85},
+    {"subject": "temp-016", "predicate": "affiliatedWith", "object": "ent-001", "source_ids": ["src-1618"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "locatedIn", "object": "temp-005", "source_ids": ["src-1614"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "locatedIn", "object": "ent-036", "source_ids": ["src-1614"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 20,
+    "new_entities": 11,
+    "matched_entities": 9,
+    "total_relations": 12
+  }
+}

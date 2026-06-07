@@ -2280,3 +2280,37 @@
 ### 스키마 변경 없음
 - 9개 새 엔티티 모두 기존 클래스(Person 2, Organization 1, Event 4, Location 2)로 분류 가능
 - 19개 새 관계(명시적) + 5개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-06-07 추론 결과
+
+### 추론 #1: event_chain — IRGC BM 공격 → MoU 환경 악화
+- **입력:** (ent-526 IRGC BM 공격, causedBy, ent-517 Goruk-Qeshm 공습), (ent-517, relatedTo, ent-456 MoU)
+- **추론:** (ent-526, relatedTo, ent-456) — 7일간 4회 교전으로 MoU 협상 환경 추가 악화
+- **신뢰도:** 0.80
+- **상태:** 확정
+
+### 추론 #2: co_participation — 동결자산 전쟁 ↔ MoU 교착
+- **입력:** (ent-530 베센트 자산전용, opposes, ent-529 레자에이 $24B), (ent-529, relatedTo, ent-456 MoU)
+- **추론:** (ent-530, relatedTo, ent-456) — 동일 자산을 두고 정반대 정책은 MoU 핵심 쟁점
+- **신뢰도:** 0.78
+- **상태:** 확정
+
+### 추론 #3: event_chain — 150 공습 → 방어 전환 → 파일럿 존
+- **입력:** (ent-534 방어전환, follows, ent-533 150곳 공습), (ent-506 Pilot Zones, relatedTo, ent-534)
+- **추론:** (ent-534, relatedTo, ent-506) — 최대 화력 투사 후 방어 전환은 6/22 회담 전 de-escalation 시도
+- **신뢰도:** 0.82
+- **상태:** 확정
+
+### 추론 #4: event_chain — 쿠웨이트 공항(6/3) → 알살렘 BM(6/6) 패턴
+- **입력:** (ent-526 BM 공격, follows, ent-504 쿠웨이트 공항 드론), (ent-504, locatedIn, ent-037 Kuwait)
+- **추론:** (ent-526, follows, ent-504) — 동일 국가(쿠웨이트) 미군 시설 대상, 드론→BM 무기 수준 격상
+- **신뢰도:** 0.85
+- **상태:** 확정
+
+### 추론 #5: co_participation — 레자에이 ↔ 하메네이 내부 권력 역학
+- **입력:** (ent-529 레자에이, affiliatedWith, ent-046 하메네이), (ent-529, 'first victory' 주장)
+- **추론:** (ent-529, relatedTo, ent-046) — 군사고문의 서방 매체 인터뷰는 최고지도자 내부 위치 강화 시도
+- **신뢰도:** 0.75
+- **상태:** 잠정

@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-07",
+  "new_triples": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-526", "source_id": "src-1614", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "ent-526", "source_id": "src-1614", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-526", "predicate": "locatedIn", "object": "ent-525", "source_id": "src-1614", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-526", "predicate": "locatedIn", "object": "ent-036", "source_id": "src-1614", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-526", "predicate": "causedBy", "object": "ent-517", "source_id": "src-1623", "date": "2026-06-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-527", "source_id": "src-1615", "date": "2026-06-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-527", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1615", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-528", "predicate": "follows", "object": "ent-526", "source_id": "src-1616", "date": "2026-06-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-529", "predicate": "affiliatedWith", "object": "ent-046", "source_id": "src-1617", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-530", "predicate": "opposes", "object": "ent-529", "source_id": "src-1618", "date": "2026-06-07", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-535", "predicate": "affiliatedWith", "object": "ent-001", "source_id": "src-1618", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-535", "predicate": "participatesIn", "object": "ent-530", "source_id": "src-1618", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-531", "source_id": "src-1619", "date": "2026-06-07", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-533", "source_id": "src-1620", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-533", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1620", "date": "2026-06-07", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-534", "predicate": "follows", "object": "ent-533", "source_id": "src-1621", "date": "2026-06-07", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-534", "source_id": "src-1621", "date": "2026-06-07", "confidence": 0.90, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-059", "source_id": "src-1623", "date": "2026-06-07", "confidence": 0.95, "type": "explicit", "note": "4th exchange in 7 days"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_id": "src-1619", "date": "2026-06-07", "confidence": 0.95, "type": "explicit", "note": "FPV drone killing, ceasefire rejection continues"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-526", "predicate": "relatedTo", "object": "ent-456", "source_id": "inferred", "date": "2026-06-07", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "BM attack on Gulf allies during MoU negotiations → MoU environment further deteriorated; 4th exchange in 7 days vs 'talks deadlocked'"},
+    {"subject": "ent-530", "predicate": "relatedTo", "object": "ent-456", "source_id": "inferred", "date": "2026-06-07", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "reasoning": "US redirecting frozen assets to Gulf allies directly contradicts Iran's $24B demand → MoU negotiation leverage shift"},
+    {"subject": "ent-534", "predicate": "relatedTo", "object": "ent-506", "source_id": "inferred", "date": "2026-06-07", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "reasoning": "150 strikes → defensive posture shift → pilot zones implementation attempt; linked to June 22 fifth round talks"},
+    {"subject": "ent-526", "predicate": "follows", "object": "ent-504", "source_id": "inferred", "date": "2026-06-07", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "reasoning": "Jun 3 Kuwait airport attack → Jun 6 Ali Al Salem/Fifth Fleet BM attack — same IRGC pattern of targeting US bases in Gulf states, escalating from drones to BMs"},
+    {"subject": "ent-529", "predicate": "relatedTo", "object": "ent-046", "source_id": "inferred", "date": "2026-06-07", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "reasoning": "Rezaei as Khamenei military adviser + $24B demand + 'first victory' claim → inner circle positioning for post-deal power dynamics"}
+  ],
+  "stats": {
+    "new_nodes": 11,
+    "new_edges": 17,
+    "inferred_edges": 5
+  }
+}

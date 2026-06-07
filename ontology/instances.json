@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "entities": [
     {
       "id": "ent-001",
@@ -6146,9 +6146,108 @@
       "first_seen": "2026-06-06",
       "last_seen": "2026-06-06",
       "mention_count": 5
+    },
+    {
+      "id": "ent-525",
+      "type": "Location",
+      "name": "Ali Al Salem Air Base",
+      "properties": {"type": "US military base", "location": "Kuwait", "status_jun07": "targeted by IRGC BM strike (7 missiles, 6 intercepted)"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-526",
+      "type": "Event",
+      "name": "IRGC BM Strike on Kuwait/Bahrain (Jun 6)",
+      "properties": {"date": "2026-06-06", "missiles": 7, "intercepted": 6, "targets": "Ali Al Salem Air Base (Kuwait), US Fifth Fleet (Bahrain)", "trigger": "CENTCOM Goruk/Qeshm strikes after IRGC drone launch toward Hormuz", "result": "no US casualties reported; IRGC warned 'stronger response'"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-527",
+      "type": "Event",
+      "name": "IRGC Hormuz Tanker Attack (Jun 6)",
+      "properties": {"date": "2026-06-06", "detail": "4 tankers attempted unauthorized Hormuz transit under US direction; 1 struck and forced to halt, 3 turned back; preceded CENTCOM/IRGC exchange"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-528",
+      "type": "Event",
+      "name": "Regional Condemnation of Iran BM Attacks (Jun 7)",
+      "properties": {"date": "2026-06-07", "condemning_parties": "Kuwait, Bahrain, Saudi Arabia, GCC, UAE, Qatar, Egypt, Jordan", "terms": "'blatant aggression', 'flagrant violation', 'unacceptable escalation'"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-529",
+      "type": "Person",
+      "name": "Mohsen Rezaei",
+      "properties": {"role": "Military adviser to Supreme Leader Mojtaba Khamenei", "affiliation": "Iran", "action_jun07": "CNN exclusive: talks 'deadlocked,' $24B frozen assets is 'test of trust that America must pass,' warns US enters 'dark corridor' if fighting resumes, claims 'first victory' over US"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-530",
+      "type": "Event",
+      "name": "US Treasury Frozen Assets Redirect Plan",
+      "properties": {"date": "2026-06-06/07", "detail": "Bessent directs team to assess damage costs; plans to redirect Iranian frozen assets to Gulf allies for reconstruction; assets include frozen bank accounts and seized tankers", "context": "directly opposes Iran's $24B demand"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-531",
+      "type": "Person",
+      "name": "Shahar Gamla",
+      "properties": {"role": "IDF Captain, Egoz commando unit, age 24, from Natur (Golan Heights)", "affiliation": "Israel/IDF", "status": "critically wounded by Hezbollah FPV drone overnight Jun 5-6, died Saturday Jun 7; 30th IDF death in Lebanon since March"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-532",
+      "type": "Person",
+      "name": "Ohad Yaari",
+      "properties": {"role": "IDF Sergeant, Givati Brigade Shaked Battalion, age 21, from Rehovot", "affiliation": "Israel/IDF", "status": "killed by accidental firearm discharge Jun 6 in southern Lebanon; 31st IDF death in Lebanon since March"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-533",
+      "type": "Event",
+      "name": "IDF 150 Strikes on Hezbollah (48h)",
+      "properties": {"date": "2026-06-05/06", "targets": "~150 Hezbollah positions: weapons depots, command centers, rocket launchers", "location": "southern Lebanon", "context": "Lebanese Pres. Aoun condemns 'ongoing unpunished attacks'"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-534",
+      "type": "Event",
+      "name": "Israel Defensive Posture Shift",
+      "properties": {"date": "2026-06-07", "detail": "Israeli official: 'offensive operations in the south will stop'; shifting to defensive posture ahead of June 22 fifth round; pilot zone LAF dismantlement program begins; 'Until then, there is still time to save the ceasefire'"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-535",
+      "type": "Person",
+      "name": "Scott Bessent",
+      "properties": {"role": "US Treasury Secretary", "affiliation": "United States", "action_jun07": "directs team to assess damage costs from Iran attacks on Gulf allies; plans to redirect Iranian frozen assets for reconstruction"},
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "mention_count": 3
     }
   ],
-  "total_count": 466,
+  "total_count": 477,
   "changelog": [
     {
       "date": "2026-05-11",
