@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-08",
+  "new_triples": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-536", "source_id": "src-1634", "date": "2026-06-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-536", "source_id": "src-1634", "date": "2026-06-08", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-536", "predicate": "locatedIn", "object": "ent-541", "source_id": "src-1634", "date": "2026-06-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-537", "predicate": "causedBy", "object": "ent-536", "source_id": "src-1635", "date": "2026-06-08", "confidence": 0.92, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-537", "source_id": "src-1635", "date": "2026-06-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-537", "predicate": "locatedIn", "object": "ent-540", "source_id": "src-1635", "date": "2026-06-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-538", "predicate": "follows", "object": "ent-537", "source_id": "src-1636", "date": "2026-06-08", "confidence": 0.88, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-538", "source_id": "src-1636", "date": "2026-06-08", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-031", "source_id": "src-1636", "date": "2026-06-08", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-539", "predicate": "follows", "object": "ent-537", "source_id": "src-1637", "date": "2026-06-08", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-539", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1637", "date": "2026-06-08", "confidence": 0.88, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "source_id": "src-1639", "date": "2026-06-08", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-536", "predicate": "follows", "object": "ent-534", "source_id": "src-1634", "date": "2026-06-08", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-530", "source_id": "src-1640", "date": "2026-06-08", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-004", "source_id": "src-1635", "date": "2026-06-08", "confidence": 0.95, "type": "explicit", "note": "first direct Iran-Israel attack since April 8 — 60 days"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1634", "date": "2026-06-08", "confidence": 0.95, "type": "explicit", "note": "Dahieh strike breaks June 3 ceasefire renewal"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-537", "predicate": "relatedTo", "object": "ent-456", "source_id": "inferred", "date": "2026-06-08", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "reasoning": "Iran→Israel missile attack breaks 60-day ceasefire → MoU negotiations directly threatened; Iranian official declares deal 'no longer feasible'"},
+    {"subject": "ent-536", "predicate": "causalChain", "object": "ent-534", "source_id": "inferred", "date": "2026-06-08", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "reasoning": "Israel declared 'defensive posture' (Jun 7) → struck Dahieh next day (Jun 8); 'defensive' limited to ground ops in south Lebanon, air operations continue independently"},
+    {"subject": "ent-537", "predicate": "follows", "object": "ent-526", "source_id": "inferred", "date": "2026-06-08", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "IRGC 7 BMs at Kuwait/Bahrain (Jun 6) → IRGC 10+ BMs at Israel (Jun 8); 72-hour BM deployment pattern showing IRGC escalation tempo across multiple fronts"},
+    {"subject": "ent-538", "predicate": "relatedTo", "object": "ent-456", "source_id": "inferred", "date": "2026-06-08", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "Trump 'I call the shots' restraining Israel + 'very close to deal' claim → attempting to preserve MoU framework despite Iranian attack; deal motivation overrides ally solidarity"},
+    {"subject": "ent-539", "predicate": "opposes", "object": "ent-538", "source_id": "inferred", "date": "2026-06-08", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "reasoning": "Iran 'deal no longer feasible' directly contradicts Trump 'very close to a final deal'; same-day opposing statements reveal fundamental US-Iran perception gap on negotiations"}
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 14,
+    "updated_edges": 2,
+    "inferred_edges": 5
+  }
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "entities": [
     {
       "id": "ent-001",
@@ -6241,13 +6241,67 @@
       "id": "ent-535",
       "type": "Person",
       "name": "Scott Bessent",
-      "properties": {"role": "US Treasury Secretary", "affiliation": "United States", "action_jun07": "directs team to assess damage costs from Iran attacks on Gulf allies; plans to redirect Iranian frozen assets for reconstruction"},
+      "properties": {"role": "US Treasury Secretary", "affiliation": "United States", "action_jun07": "directs team to assess damage costs from Iran attacks on Gulf allies; plans to redirect Iranian frozen assets for reconstruction", "action_jun08": "frozen asset redirect plan continues; Trump says won't unfreeze before deal done"},
       "first_seen": "2026-06-07",
-      "last_seen": "2026-06-07",
-      "mention_count": 3
+      "last_seen": "2026-06-08",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-536",
+      "type": "Event",
+      "name": "Israel Dahieh Strike (Jun 8)",
+      "properties": {"date": "2026-06-08", "location": "Dahieh, Beirut southern suburbs", "target": "Hezbollah HQ", "casualties": "2 killed, 11 wounded (Lebanon NNA)", "context": "first Beirut strike since June 3 ceasefire renewal; retaliation for Hezbollah fighter drone attack on northern Israel; Netanyahu office confirmed response to drone"},
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-537",
+      "type": "Event",
+      "name": "Iran Missile Attack on Ramat David (Jun 8)",
+      "properties": {"date": "2026-06-08", "target": "Ramat David Airbase, northern Israel", "missiles": "at least 10 BMs in at least 3 barrages", "intercepted": "all — Israeli air defenses", "context": "first direct Iran-to-Israel missile attack since April 8 ceasefire (60 days); retaliation for Dahieh strike; IRGC: targeted 'source of acts of aggression against Lebanese civilians'; warned 'broader response encompassing all US and Israeli targets'"},
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-538",
+      "type": "Event",
+      "name": "Trump 'I Call the Shots' Statement (Jun 8)",
+      "properties": {"date": "2026-06-08", "detail": "FT: Netanyahu 'won't have any choice' but accept deal; 'I call the shots. I call all the shots.'; called Netanyahu 'right now' not to retaliate; Axios: further action jeopardizes negotiations; 'very close to a final deal'; NBC: Iran 'strong, proud' but 'have no choice'"},
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-539",
+      "type": "Event",
+      "name": "Iran 'Deal No Longer Feasible' Statement (Jun 8)",
+      "properties": {"date": "2026-06-08", "detail": "Iranian official linked to talks: 'deal with President Trump no longer feasible at this stage'; blamed Trump for escalation in Lebanon; FM: Beirut strike was 'ceasefire violation'; Iran exercised 'self-defense'"},
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-540",
+      "type": "Location",
+      "name": "Ramat David Airbase",
+      "properties": {"type": "Israeli Air Force base", "location": "Jezreel Valley, northern Israel", "significance": "target of Iran's first missile attack on Israel since April 8 ceasefire"},
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-541",
+      "type": "Location",
+      "name": "Dahieh",
+      "properties": {"type": "Beirut southern suburbs", "significance": "Hezbollah headquarters area", "country": "Lebanon"},
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "mention_count": 5
     }
   ],
-  "total_count": 477,
+  "total_count": 483,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -6703,6 +6757,20 @@
       "target": "9 new entities (ent-516~ent-524), 8 existing updated",
       "reason": "CENTCOM 4 IRGC 드론 격추 + 고루크/케심섬 레이더 공습(Jun 5), IDF 렘버그 대위 전사(헤즈볼라 대전차 미사일·리타니 북쪽·파일럿 존 이후 첫 IDF 전사자), UNIFIL 세르비아 평화유지군 요바노비치 하사 전사(마르자윤 박격포·7번째 UNIFIL 사망자), OFAC 이란 LPG 밀수 네트워크 제재(UAE 프론트 기업·중국 상하이 첸예 에너지·Economic Fury 캠페인), 트럼프 '미국과 중국만 농축 우라늄 회수 가능' 발언(핵 쟁점 미중 협력 시사), 이란 최고지도자 고문 'ball is in Trump's court'(이란 대기 시그널), 이스라엘 레바논 공습 8명 사살(Jun 5·Tyre 근처). 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1596", "src-1597", "src-1598", "src-1599", "src-1600", "src-1601", "src-1602", "src-1603", "src-1604", "src-1605"]
+    },
+    {
+      "date": "2026-06-07",
+      "action": "add_instances",
+      "target": "11 new entities (ent-525~ent-535), 8 existing updated",
+      "reason": "IRGC 7 BM 쿠웨이트/바레인(6발 요격·1발 미도달), IRGC 호르무즈 유조선 타격(4척 시도·1척 피격), 걸프 8개국 규탄('노골적 침략'), 레자에이 CNN '$24B 신뢰 테스트'(교착 선언), 베센트 이란 자산 걸프 전용 계획, IDF 감라·야아리 전사(30/31번째), 150곳 공습, 방어 태세 전환. 스키마 변경 없음",
+      "source_ids": ["src-1614", "src-1615", "src-1616", "src-1617", "src-1618", "src-1619", "src-1620", "src-1621", "src-1622", "src-1623", "src-1624"]
+    },
+    {
+      "date": "2026-06-08",
+      "action": "add_instances",
+      "target": "6 new entities (ent-536~ent-541), 10 existing updated",
+      "reason": "이스라엘 다히에 공습(6/3 휴전 이후 최초 베이루트 공격·2명 사망·11명 부상), 이란 라맛다비드 BM 10+발(4/8 이후 60일 만에 이란→이스라엘 직접 미사일·전량 요격), 트럼프 'I call all the shots'(네타냐후 보복 금지·딜 근접 주장), 이란 '딜 불가능' 공식 선언(MoU 사실상 위기), CENTCOM 호르무즈 드론 2발 격추(에스컬레이션 소강), 유가 Brent +3.6% $96.47, 트럼프 '제재 유지·자산 해제 거부'. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1634", "src-1635", "src-1636", "src-1637", "src-1638", "src-1639", "src-1640", "src-1641"]
     }
   ]
 }

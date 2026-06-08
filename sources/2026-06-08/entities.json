@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-08",
+  "entities": [
+    {"temp_id": "temp-001", "matched_id": "ent-004", "type": "Organization", "name": "Israel", "properties": {"action_jun08": "struck Beirut Dahieh (Hezbollah HQ) — first strike since June 3 ceasefire renewal; 2 killed, 11 wounded; retaliation for Hezbollah fighter drone attack"}, "source_ids": ["src-1634", "src-1649"], "mention_count": 9},
+    {"temp_id": "temp-002", "matched_id": "ent-002", "type": "Organization", "name": "Iran", "properties": {"action_jun08": "fired 10+ BMs at Ramat David Airbase (Israel); first direct attack on Israel since April 8 ceasefire (60 days); FM calls Beirut strike 'ceasefire violation'; official says deal 'no longer feasible'"}, "source_ids": ["src-1635", "src-1637", "src-1641"], "mention_count": 12},
+    {"temp_id": "temp-003", "matched_id": "ent-005", "type": "Organization", "name": "IRGC", "properties": {"action_jun08": "fired at least 10 BMs at Ramat David; at least 3 barrages; statement: targeted 'source of acts of aggression against Lebanese civilians'; warned 'broader response encompassing all US and Israeli targets'"}, "source_ids": ["src-1635", "src-1641"], "mention_count": 8},
+    {"temp_id": "temp-004", "matched_id": "ent-001", "type": "Person", "name": "Donald Trump", "properties": {"action_jun08": "told FT Netanyahu 'won't have any choice' but to accept deal; 'I call the shots. I call all the shots.'; called Netanyahu 'right now' not to retaliate; said 'We are very close to a final deal with Iran'; NBC: Iran 'strong, proud' but 'have no choice'; won't unfreeze assets before deal"}, "source_ids": ["src-1636", "src-1640", "src-1644", "src-1647", "src-1648"], "mention_count": 10},
+    {"temp_id": "temp-005", "matched_id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu", "properties": {"action_jun08": "office said Dahieh strike was response to Hezbollah fighter drone; told by Trump not to retaliate for Iran missiles; Trump: 'won't have any choice' but to accept deal"}, "source_ids": ["src-1634", "src-1636"], "mention_count": 7},
+    {"temp_id": "temp-006", "matched_id": "ent-047", "type": "Organization", "name": "Hezbollah", "properties": {"action_jun08": "launched fighter drone at northern Israel (trigger for Dahieh strike); HQ in Dahieh struck"}, "source_ids": ["src-1634"], "mention_count": 5},
+    {"temp_id": "temp-007", "matched_id": "ent-059", "type": "Organization", "name": "CENTCOM", "properties": {"action_jun08": "shot down 2 more IRGC one-way attack drones threatening Hormuz maritime traffic (June 7); second consecutive day; no US strike on Iranian territory"}, "source_ids": ["src-1639"], "mention_count": 3},
+    {"temp_id": "temp-008", "matched_id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "properties": {"status_jun08": "CENTCOM intercepts 2 more IRGC drones; second consecutive day of Iranian drone launches toward waterway"}, "source_ids": ["src-1639"], "mention_count": 3},
+    {"temp_id": "temp-009", "matched_id": "ent-535", "type": "Person", "name": "Scott Bessent", "properties": {"action_jun08": "frozen asset redirect plan to Gulf allies continues; Trump says won't unfreeze before deal"}, "source_ids": ["src-1640"], "mention_count": 2},
+    {"temp_id": "temp-010", "matched_id": null, "type": "Event", "name": "Israel Dahieh Strike (Jun 8)", "properties": {"date": "2026-06-08", "location": "Dahieh, Beirut southern suburbs", "target": "Hezbollah HQ", "casualties": "2 killed, 11 wounded", "context": "first Beirut strike since June 3 ceasefire renewal; retaliation for Hezbollah fighter drone"}, "source_ids": ["src-1634", "src-1649"], "mention_count": 5},
+    {"temp_id": "temp-011", "matched_id": null, "type": "Event", "name": "Iran Missile Attack on Ramat David (Jun 8)", "properties": {"date": "2026-06-08", "target": "Ramat David Airbase, northern Israel", "missiles": "at least 10 BMs", "barrages": "at least 3", "intercepted": "all", "context": "first direct Iran-Israel attack since April 8 ceasefire (60 days); retaliation for Dahieh strike"}, "source_ids": ["src-1635", "src-1641", "src-1642", "src-1643", "src-1645", "src-1646"], "mention_count": 10},
+    {"temp_id": "temp-012", "matched_id": null, "type": "Event", "name": "Trump 'I Call the Shots' Statement (Jun 8)", "properties": {"date": "2026-06-08", "detail": "Trump tells FT Netanyahu 'won't have any choice'; 'I call the shots. I call all the shots.'; called Netanyahu 'right now' not to retaliate; 'very close to a final deal'", "context": "restraining Israel from escalation spiral"}, "source_ids": ["src-1636", "src-1644", "src-1647", "src-1648"], "mention_count": 7},
+    {"temp_id": "temp-013", "matched_id": null, "type": "Event", "name": "Iran 'Deal No Longer Feasible' Statement (Jun 8)", "properties": {"date": "2026-06-08", "detail": "Iranian official linked to talks: 'deal with Trump no longer feasible at this stage'; blames Trump for escalation; FM: Beirut strike was 'ceasefire violation', Iran exercised 'self-defense'"}, "source_ids": ["src-1637", "src-1650"], "mention_count": 4},
+    {"temp_id": "temp-014", "matched_id": null, "type": "Location", "name": "Ramat David Airbase", "properties": {"type": "Israeli Air Force base", "location": "Jezreel Valley, northern Israel"}, "source_ids": ["src-1635"], "mention_count": 6},
+    {"temp_id": "temp-015", "matched_id": null, "type": "Location", "name": "Dahieh", "properties": {"type": "Beirut southern suburbs", "significance": "Hezbollah headquarters area", "country": "Lebanon"}, "source_ids": ["src-1634"], "mention_count": 5},
+    {"temp_id": "temp-016", "matched_id": "ent-050", "type": "Location", "name": "Lebanon", "properties": {"status_jun08": "IDF strikes Dahieh after June 3 ceasefire renewal; 2 killed, 11 wounded; Iran retaliates on Israel for Beirut strike"}, "source_ids": ["src-1634"], "mention_count": 4},
+    {"temp_id": "temp-017", "matched_id": "ent-052", "type": "Location", "name": "Beirut", "properties": {"status_jun08": "Dahieh suburb struck by IDF; first since June 3 ceasefire renewal"}, "source_ids": ["src-1634"], "mention_count": 4}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-010", "source_ids": ["src-1634"], "confidence": 0.95},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "temp-010", "source_ids": ["src-1634"], "confidence": 0.90},
+    {"subject": "temp-010", "predicate": "locatedIn", "object": "temp-015", "source_ids": ["src-1634"], "confidence": 0.95},
+    {"subject": "temp-011", "predicate": "causedBy", "object": "temp-010", "source_ids": ["src-1635", "src-1641"], "confidence": 0.92},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-1635", "src-1641"], "confidence": 0.95},
+    {"subject": "temp-011", "predicate": "locatedIn", "object": "temp-014", "source_ids": ["src-1635"], "confidence": 0.95},
+    {"subject": "temp-012", "predicate": "follows", "object": "temp-011", "source_ids": ["src-1636"], "confidence": 0.88},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-012", "source_ids": ["src-1636"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-031", "source_ids": ["src-1636"], "confidence": 0.80},
+    {"subject": "temp-013", "predicate": "follows", "object": "temp-011", "source_ids": ["src-1637"], "confidence": 0.85},
+    {"subject": "ent-059", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-1639"], "confidence": 0.90},
+    {"subject": "temp-010", "predicate": "follows", "object": "ent-534", "source_ids": ["src-1634"], "confidence": 0.80}
+  ],
+  "stats": {
+    "total_entities": 17,
+    "new_entities": 6,
+    "matched_entities": 11,
+    "total_relations": 12
+  }
+}

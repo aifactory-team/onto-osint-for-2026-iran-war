@@ -1,0 +1,231 @@
+{
+  "date": "2026-06-08",
+  "collected_at": "2026-06-08T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 16,
+  "total_results": 68,
+  "expanded_keywords": ["Iran missiles Israel", "Beirut Dahieh strike", "Trump Netanyahu deal", "IRGC Ramat David", "Hormuz drones CENTCOM", "frozen assets $24B Bessent", "oil prices Brent", "이란 이스라엘 미사일 보복", "베이루트 공습", "호르무즈 해협", "pilot zones LAF Hezbollah"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war latest news June 8 2026 Hormuz IRGC",
+      "language": "en",
+      "timestamp": "2026-06-08T23:00:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "2026 Strait of Hormuz crisis - Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "snippet": "Iran launched multiple drones toward the Strait of Hormuz on June 6", "source_name": "Wikipedia"},
+        {"title": "US Forces Hit Iranian Coastal Sites After Tehran Launches Drones Toward Strait", "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html", "snippet": "CENTCOM-IRGC 4th exchange in 7 days", "source_name": "RFE/RL"},
+        {"title": "Timeline of the 2026 Iran war - Wikipedia", "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war", "snippet": "Timeline of events", "source_name": "Wikipedia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran missiles Israel Sunday June 8 2026 ceasefire first since April",
+      "language": "en",
+      "timestamp": "2026-06-08T23:01:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Israel says Iran launched a missile at it, in a first during fragile ceasefire", "url": "https://www.npr.org/2026/06/07/g-s1-126816/israel-iran-missile-ceasefire", "snippet": "Iran launched missiles at Israel on Sunday, first since April ceasefire", "source_name": "NPR"},
+        {"title": "Iran launches missiles at Israel in the first such bombardment since a ceasefire in April", "url": "https://www.euronews.com/2026/06/07/iran-launches-missiles-at-israel-in-the-first-such-bombardment-since-a-ceasefire-in-april", "snippet": "Iran launched missiles at Israel Sunday, first bombardment since April ceasefire", "source_name": "Euronews"},
+        {"title": "Live updates: Iran fires waves of missiles into Israel for first time since April ceasefire", "url": "https://www.cnn.com/2026/06/07/world/live-news/iran-war-trump-israel-lebanon", "snippet": "At least 10 ballistic missiles intercepted from three barrages", "source_name": "CNN"},
+        {"title": "Israel says Iran launched missiles in first bombardment since fragile ceasefire", "url": "https://www.pbs.org/newshour/world/israel-says-iran-launched-missiles-in-first-bombardment-since-fragile-ceasefire", "snippet": "Iran launched missiles at Israel, first since fragile ceasefire took effect in April", "source_name": "PBS"},
+        {"title": "Iran fires missiles at Israel for first time since ceasefire", "url": "https://www.axios.com/2026/06/07/iran-israel-missiles-us-tehran-negotiations-ceasefire-risk", "snippet": "Iran missiles at Israel threaten to unravel US-Iran negotiations", "source_name": "Axios"},
+        {"title": "Iran Fires Missiles at Israel for First Time Since April Ceasefire, Threatening to Collapse Peace Talks", "url": "https://redstate.com/joesquire/2026/06/07/iran-fires-missiles-at-israel-for-first-time-since-april-ceasefire-threatening-to-collapse-peace-talks-n2203129", "snippet": "Threatening to collapse peace talks", "source_name": "RedState"},
+        {"title": "Live Updates | Iran Fires Missiles at Israel for First Time Since April Truce", "url": "https://www.haaretz.com/israel-news/israel-security/2026-06-07/ty-article-live/seven-month-old-palestinian-baby-killed-by-idf-fire-laid-to-rest/0000019e-9f4b-d7a3-abfe-9febe79a0000", "snippet": "IRGC targeted Ramat David Airbase", "source_name": "Haaretz"},
+        {"title": "Iran unleashes missile barrages on Israel, threatens US targets in sudden escalation", "url": "https://www.foxnews.com/live-news/us-airstrikes-iran-israel-lebanon-war-june-7", "snippet": "Iran unleashes missile barrages on Israel", "source_name": "Fox News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Beirut Dahieh strike Sunday June 8 2026 Hezbollah killed",
+      "language": "en",
+      "timestamp": "2026-06-08T23:02:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Israeli strike hits southern Beirut in retaliation against Hezbollah", "url": "https://www.npr.org/2026/06/07/nx-s1-5849220/israel-lebanon-beirut-airstrike-ceasefire", "snippet": "Israel struck Beirut's southern suburbs, first since US-brokered ceasefire renewed", "source_name": "NPR"},
+        {"title": "IDF strikes Beirut's Dahiyeh after Hezbollah fires rockets at northern Israel", "url": "https://www.timesofisrael.com/idf-strikes-beiruts-dahiyeh-after-hezbollah-fires-rockets-at-northern-israel/", "snippet": "IDF struck Hezbollah headquarters in Dahiyeh, 2 killed, 11 wounded", "source_name": "Times of Israel"},
+        {"title": "Israel strikes Beirut's southern suburbs days after U.S.-supported ceasefire deal", "url": "https://www.inquirer.com/news/nation-world/israel-lebanon-beirut-strikes-hamas-ceasefire-netanyahu-trump-pakistan-20260607.html", "snippet": "Israel struck Beirut days after US-supported ceasefire deal", "source_name": "Philadelphia Inquirer"},
+        {"title": "Israel strikes Beirut's southern suburbs days after U.S.-supported ceasefire deal", "url": "https://www.washingtontimes.com/news/2026/jun/7/days-us-supported-ceasefire-deal-israel-strikes-beiruts-southern/", "snippet": "Israel struck Beirut days after US-supported ceasefire deal", "source_name": "Washington Times"},
+        {"title": "Israel responds: IDF strikes Hezbollah targets in the Dahieh", "url": "https://www.israelnationalnews.com/news/428255", "snippet": "IDF strikes Hezbollah targets in Dahieh", "source_name": "Israel National News"},
+        {"title": "Air Force strikes Beirut's Dahiyeh area after Hezbollah fires rockets at north", "url": "https://www.timesofisrael.com/liveblog_entry/air-force-strikes-beiruts-dahiyeh-area-after-hezbollah-fires-rockets-at-north/", "snippet": "Air Force strikes Dahiyeh after Hezbollah rockets", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Netanyahu deal Iran 'I call the shots' June 7 2026",
+      "language": "en",
+      "timestamp": "2026-06-08T23:03:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Trump says Netanyahu 'won't have any choice' but to accept US-Iran deal, 'I call the shots'", "url": "https://www.timesofisrael.com/liveblog-june-7-2026/", "snippet": "Trump to FT: Netanyahu won't have any choice, I call the shots", "source_name": "Times of Israel"},
+        {"title": "Trump: Netanyahu Will Have 'No Choice' on Iran", "url": "https://www.newsmax.com/politics/trump-netanyahu-iran-deal/2026/06/07/id/1258862/", "snippet": "Trump says Netanyahu will have no choice on Iran deal", "source_name": "Newsmax"},
+        {"title": "Trump tells Netanyahu not to strike Iran", "url": "https://www.axios.com/2026/06/07/trump-netanyahu-israel-iran-strikes-call", "snippet": "Trump called Netanyahu to tell him not to retaliate", "source_name": "Axios"},
+        {"title": "Trump: I'm calling Netanyahu 'right now... to tell him not to retaliate' for Iran's missile attacks", "url": "https://www.timesofisrael.com/liveblog_entry/trump-im-calling-netanyahu-right-now-to-tell-him-not-to-retaliate-for-irans-missile-attacks/", "snippet": "Trump calling Netanyahu right now to tell him not to retaliate", "source_name": "Times of Israel"},
+        {"title": "Netanyahu will have 'no choice' but to accept US deal with Iran, Trump says", "url": "https://aa.com.tr/en/americas/netanyahu-will-have-no-choice-but-to-accept-us-deal-with-iran-trump-says-report/3959663", "snippet": "Netanyahu will have no choice, Trump tells FT", "source_name": "Anadolu Agency"},
+        {"title": "Netanyahu 'won't have any choice' but to accept Iran deal, Trump tells FT", "url": "https://www.jpost.com/israel-news/article-898663", "snippet": "Trump FT interview: Netanyahu won't have any choice", "source_name": "Jerusalem Post"},
+        {"title": "'I call the shots:' Trump says Netanyahu will have 'no choice' but to accept deal", "url": "https://www.i24news.tv/en/news/international/americas/artc-i-call-the-shots-trump-says-netanyahu-will-have-no-choice-but-to-accept-whatever-deal-us-makes-with-iran", "snippet": "Trump says 'I call the shots' on Iran deal", "source_name": "i24NEWS"},
+        {"title": "Trump says Iran has not agreed to a deal because 'they're strong, they're proud'", "url": "https://www.nbcnews.com/politics/donald-trump/trump-iran-not-agreed-deal-strong-re-proud-rcna348511", "snippet": "Trump says Iran hasn't agreed because they're 'strong, proud'", "source_name": "NBC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran deal 'no longer feasible' official June 2026",
+      "language": "en",
+      "timestamp": "2026-06-08T23:04:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Iranian official tells MS NOW deal with Trump 'is no longer feasible at this stage'", "url": "https://www.ms.now/ms-now/watch/iranian-official-tells-ms-now-deal-with-trump-is-no-longer-feasible-at-this-stage-2502821955960", "snippet": "Iranian official: deal with Trump no longer feasible at this stage", "source_name": "MS NOW"},
+        {"title": "New Iran missile launches at Israel threaten war escalation", "url": "https://www.ms.now/news/new-iran-missile-launches-on-israel-threaten-war-escalation", "snippet": "Iran missile launches threaten war escalation", "source_name": "MS NOW"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "CENTCOM Iran drones June 7 2026 Hormuz shot down second consecutive day",
+      "language": "en",
+      "timestamp": "2026-06-08T23:05:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran live updates: IDF bracing for missiles fired at Israel from Iran", "url": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855&entryId=133643828", "snippet": "US shot down two more IRGC drones threatening maritime traffic in Hormuz, second consecutive day", "source_name": "ABC News"},
+        {"title": "Iran War 2026 -- Day 100 Update -- 07 June 2026", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm", "snippet": "Day 100 update", "source_name": "GlobalSecurity.org"},
+        {"title": "Iran live updates: US strikes Iranian radar sites after drones fired toward strait", "url": "https://abc7ny.com/live-updates/iran-war-peace-talks-oil-prices-lebanon-strait-of-hormuz/19212967/", "snippet": "CENTCOM strikes after drones fired toward strait", "source_name": "ABC7"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent June 8 2026 Iran Israel missiles spike",
+      "language": "en",
+      "timestamp": "2026-06-08T23:06:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Oil Jumps as Iran's Attacks on Israel Put Ceasefire at Risk", "url": "https://www.bloomberg.com/news/articles/2026-06-07/latest-oil-market-news-and-analysis-for-june-8", "snippet": "Brent +3.6% to $96.47, WTI near $94", "source_name": "Bloomberg"},
+        {"title": "Brent crude oil - Price - Chart - Historical Data - News", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent crude oil prices", "source_name": "Trading Economics"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "US Treasury frozen Iranian assets Gulf allies reconstruction Bessent June 2026",
+      "language": "en",
+      "timestamp": "2026-06-08T23:07:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "U.S. floats steering frozen Iran assets to Gulf allies for repairs", "url": "https://fortune.com/2026/06/07/us-frozen-iran-assets-gulf-allies-reconstruction-treasury-secretary-bessent/", "snippet": "US floats steering frozen Iran assets to Gulf allies", "source_name": "Fortune"},
+        {"title": "Trump says he would not unfreeze Iran's assets before deal is done", "url": "https://tribune.com.pk/story/2611896/trump-says-he-would-not-unfreeze-irans-assets-ahead-before-deal-is-done", "snippet": "Trump won't unfreeze assets before deal", "source_name": "Express Tribune"},
+        {"title": "US Plans to Use Frozen Iranian Assets to Fund Persian Gulf Reconstruction", "url": "https://www.kyivpost.com/post/77683", "snippet": "US plans to use frozen assets for Gulf reconstruction", "source_name": "Kyiv Post"},
+        {"title": "Donald Trump: US will only lift sanctions on Iran if 'they behave' after peace deal", "url": "https://thehill.com/homenews/administration/5913776-trump-iran-assets-negotiations/", "snippet": "Trump: only lift sanctions if Iran behaves after deal", "source_name": "The Hill"},
+        {"title": "US eyes Iranian assets for Gulf allies' reconstruction", "url": "https://www.tbsnews.net/worldbiz/middle-east/us-eyes-iranian-assets-gulf-allies-reconstruction-source-1455971", "snippet": "US eyes Iranian assets for Gulf reconstruction", "source_name": "The Business Standard"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 이스라엘 미사일 보복 베이루트 6월 8일 2026",
+      "language": "ko",
+      "timestamp": "2026-06-08T23:08:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "이란, 이스라엘 북부에 미사일 공격…'베이루트 공습 보복'", "url": "https://biz.heraldcorp.com/article/10765539", "snippet": "이란이 이스라엘 북부에 미사일 공격, 베이루트 공습 보복", "source_name": "헤럴드경제"},
+        {"title": "\"오늘 밤 이스라엘 하늘 보라\"…이란, 베이루트 공습에 보복 경고", "url": "https://biz.heraldcorp.com/article/10765538", "snippet": "이란, 베이루트 공습에 보복 경고", "source_name": "헤럴드경제"},
+        {"title": "이란 외무부 \"휴전 깬 이스라엘에 방어적 타격…자위권 행사\"", "url": "https://www.fnnews.com/news/202606080721294326", "snippet": "이란 외무부: 휴전 깬 이스라엘에 방어적 타격, 자위권 행사", "source_name": "파이낸셜뉴스"},
+        {"title": "이스라엘, 레바논 공습‥이란, 미사일 보복", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6809446_37012.html", "snippet": "이스라엘 레바논 공습, 이란 미사일 보복", "source_name": "MBC 뉴스"},
+        {"title": "\"美, 이란 자산 활용해 걸프국 '전쟁 피해 보상' 추진\"", "url": "https://www.fnnews.com/news/202606071020190991", "snippet": "미국, 이란 자산 활용해 걸프국 전쟁 피해 보상 추진", "source_name": "파이낸셜뉴스"},
+        {"title": "이란, 이스라엘의 베이루트 공습 맹비난…\"美·서방, 전쟁범죄 공범\"", "url": "https://www.fnnews.com/news/202605081707047851", "snippet": "이란, 이스라엘 베이루트 공습 맹비난", "source_name": "파이낸셜뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 최신 뉴스 2026년 6월 호르무즈 협상",
+      "language": "ko",
+      "timestamp": "2026-06-08T23:09:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "\"미-이란 양해각서 합의‥트럼프 최종 승인 남아\"", "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6826036_36989.html", "snippet": "미-이란 양해각서 합의, 트럼프 최종 승인 남아", "source_name": "MBC 뉴스"},
+        {"title": "美·이란 '60일 휴전 MOU' 임박…호르무즈·핵 놓고 막판 수싸움", "url": "https://v.daum.net/v/20260529102737263?f=p", "snippet": "미이란 60일 휴전 MOU 임박", "source_name": "다음뉴스"},
+        {"title": "사흘 만에 또 충돌‥협상 잘 돼 간다면서 왜", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6826002_37004.html", "snippet": "사흘 만에 또 충돌", "source_name": "MBC 뉴스"},
+        {"title": "미·이란 협상 다시 교착‥\"불발 시 더 큰 공격\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6825150_37012.html", "snippet": "미이란 협상 다시 교착", "source_name": "MBC 뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran rejects Trump nuclear proposal counter-offer Oman June 2026",
+      "language": "en",
+      "timestamp": "2026-06-08T23:10:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Iran rejects Trump nuclear proposal, plans counter-offer via Oman", "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "snippet": "June 9: Iran rejected Trump proposal, plans counter-offer through Omani mediators", "source_name": "Wikipedia"},
+        {"title": "Trump says Iran nuclear talks to resume with Tehran set to offer counterproposal", "url": "https://www.nbcnews.com/world/middle-east/trump-says-iran-nuclear-talks-resume-tehran-set-offer-counter-proposal-rcna211970", "snippet": "Trump says talks to resume, Tehran to offer counterproposal", "source_name": "NBC News"},
+        {"title": "Tehran rejects US terms as hardliners push escalation", "url": "https://www.iranintl.com/en/202605118029", "snippet": "Tehran rejects US terms", "source_name": "Iran International"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump NBC Meet the Press Iran interview June 7 2026",
+      "language": "en",
+      "timestamp": "2026-06-08T23:11:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Fact-checking Trump's interview with NBC News' 'Meet the Press'", "url": "https://www.nbcnews.com/politics/donald-trump/fact-checking-trump-interview-meet-press-june-2026-rcna348518", "snippet": "Trump interviewed on Meet the Press June 7 2026", "source_name": "NBC News"},
+        {"title": "Trump says Iran has not agreed to a deal to end the war because 'they're strong, they're proud'", "url": "https://www.nbcnews.com/politics/donald-trump/trump-iran-not-agreed-deal-strong-re-proud-rcna348511", "snippet": "Trump: Iran strong, proud, but have no choice", "source_name": "NBC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah rockets Israel Dahieh IDF response Sunday June 8 2026",
+      "language": "en",
+      "timestamp": "2026-06-08T23:12:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "IDF strikes Beirut's Dahiyeh after Hezbollah fires rockets at northern Israel", "url": "https://www.timesofisrael.com/idf-strikes-beiruts-dahiyeh-after-hezbollah-fires-rockets-at-northern-israel/", "snippet": "IDF struck Hezbollah HQ in Dahiyeh after rockets at northern Israel", "source_name": "Times of Israel"},
+        {"title": "Israeli strike hits southern Beirut in retaliation against Hezbollah", "url": "https://www.npr.org/2026/06/07/nx-s1-5849220/israel-lebanon-beirut-airstrike-ceasefire", "snippet": "Israel struck Beirut in retaliation for Hezbollah rockets", "source_name": "NPR"},
+        {"title": "Israel responds: IDF strikes Hezbollah targets in the Dahieh", "url": "https://www.israelnationalnews.com/news/428255", "snippet": "Israel responds with IDF strikes on Hezbollah in Dahieh", "source_name": "Israel National News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "CENTCOM two more Iranian drones Hormuz June 7 second consecutive day",
+      "language": "en",
+      "timestamp": "2026-06-08T23:13:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Iran live updates: IDF bracing for missiles from Iran", "url": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855&entryId=133643828", "snippet": "US shot down 2 more IRGC drones threatening Hormuz, second consecutive day", "source_name": "ABC News"},
+        {"title": "Iran live updates: US strikes Iranian radar sites", "url": "https://abc7ny.com/live-updates/iran-war-peace-talks-oil-prices-lebanon-strait-of-hormuz/19212967/", "snippet": "CENTCOM strikes after drones fired toward strait", "source_name": "ABC7"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran only lift sanctions if 'they behave' won't unfreeze assets before deal",
+      "language": "en",
+      "timestamp": "2026-06-08T23:14:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Donald Trump: US will only lift sanctions on Iran if 'they behave' after peace deal", "url": "https://thehill.com/homenews/administration/5913776-trump-iran-assets-negotiations/", "snippet": "Trump: only lift sanctions if they behave", "source_name": "The Hill"},
+        {"title": "Trump says he would not unfreeze Iran's assets before deal is done", "url": "https://tribune.com.pk/story/2611896/trump-says-he-would-not-unfreeze-irans-assets-ahead-before-deal-is-done", "snippet": "Trump won't unfreeze assets before deal", "source_name": "Express Tribune"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran foreign ministry 'defensive strike' Israel self-defense June 8",
+      "language": "en",
+      "timestamp": "2026-06-08T23:15:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "이란 외무부 \"휴전 깬 이스라엘에 방어적 타격…자위권 행사\"", "url": "https://www.fnnews.com/news/202606080721294326", "snippet": "Iran FM: defensive strike on Israel that broke ceasefire, exercise of self-defense", "source_name": "파이낸셜뉴스"},
+        {"title": "Live Updates: Iran retaliates after Israel's deadly strike in Beirut", "url": "https://www.cbsnews.com/live-updates/iran-us-war-israel-hezbollah-fighting-ceasefire-efforts/", "snippet": "Iran retaliates after Israel Beirut strike, accuses US of violating ceasefire", "source_name": "CBS News"}
+      ]
+    }
+  ]
+}
