@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-09",
   "classes": [
     {
       "id": "Entity",
@@ -859,6 +859,13 @@
       "target": "6 new entities (ent-536~ent-541), 6 existing updated",
       "reason": "이란 라맛다비드 BM 10+발(4/8 이후 60일 만의 이란→이스라엘 직접 미사일 공격·전량 요격), 이스라엘 다히에 헤즈볼라 본부 공습(6/3 이후 최초·2명 사망·11명 부상·기폭제), 트럼프 'I call all the shots'(FT·보복 금지·네타냐후 통화), 이란 '딜 불가능' 선언(MoU 위기 공식화), CENTCOM 호르무즈 IRGC 드론 2발 추가 격추(6/7·이틀 연속), 유가 Brent +3.6% $96.47. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1634", "src-1635", "src-1636", "src-1637", "src-1638", "src-1639", "src-1640", "src-1641"]
+    },
+    {
+      "date": "2026-06-09",
+      "action": "no_schema_change",
+      "target": "5 new entities (ent-542~ent-546), 5 existing updated",
+      "reason": "이스라엘 마흐샤르 석유화학 반격(4/8 이후 첫 에너지 타격), 이란-이스라엘 상호 공격 중단(조건부), 트럼프 'on your own very soon' 유기 위협, 중동 항공 재개방, 이란 레바논 조건부 평화 — 모든 신규 엔티티 및 관계가 기존 Person/Organization/Event/Location/Concept 클래스 및 기존 관계 유형으로 표현 가능. 스키마 변경 없음.",
+      "source_ids": ["src-1642", "src-1643", "src-1644", "src-1645", "src-1646"]
     }
   ]
 }

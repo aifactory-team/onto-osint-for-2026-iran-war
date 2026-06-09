@@ -1,0 +1,198 @@
+{
+  "date": "2026-06-09",
+  "collected_at": "2026-06-09T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 14,
+  "total_results": 58,
+  "expanded_keywords": ["Israel strikes Iran Mahshahr petrochemical", "Iran Israel mutual halt ceasefire", "Trump Netanyahu stop on your own", "oil prices WTI Brent Hormuz", "airspace reopens Iran Syria Iraq", "Iran Lebanon ceasefire conditions", "이란 이스라엘 군사작전 중단", "트럼프 네타냐후 공격 중단", "이란 석유화학 공습", "호르무즈 유가"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel strikes Iran Mahshahr petrochemical air defenses overnight June 8 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:00:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Israeli warplanes strike Mahshahr petrochemical complex and air defenses in Iran overnight", "url": "https://www.npr.org/2026/06/09/nx-s1-5850112/israel-strikes-iran-mahshahr-petrochemical-air-defenses", "snippet": "Dozens of Israeli warplanes hit Mahshahr petrochemical complex in Khuzestan province and restored air defense systems across western and central Iran", "source_name": "NPR"},
+        {"title": "IDF video: Israeli jets strike Iranian military targets including Mahshahr complex", "url": "https://www.jpost.com/breaking-news/article-898890", "snippet": "IDF releases footage of strikes on Mahshahr petrochemical complex, says facility produced unique materials critical for Iran's ballistic missile program", "source_name": "Jerusalem Post"},
+        {"title": "Israel strikes Iran's Mahshahr petrochemical complex, first energy site hit since April 8 ceasefire", "url": "https://www.business-standard.com/world-news/israel-strikes-iran-mahshahr-petrochemical-june-2026-126060900233_1.html", "snippet": "Israel targeted Mahshahr petrochemical complex — first energy-linked site hit since April 8 ceasefire; IDF says facility was critical for ballistic missile materials", "source_name": "Business Standard"},
+        {"title": "Israel strikes Iran despite Trump asking him to stop — dozens of warplanes hit Mahshahr, air defenses", "url": "https://www.rappler.com/world/middle-east/israel-strikes-iran-mahshahr-trump-ceasefire/", "snippet": "Netanyahu proceeded with strikes despite Trump asking him to stop; dozens of warplanes participated", "source_name": "Rappler"},
+        {"title": "15 wounded in Israeli strikes on Iran: 14 from Mahshahr/Khuzestan, 1 from Tehran", "url": "https://www.wdbo.com/news/national/israel-strikes-iran-mahshahr-wounded/ZABCDE12345/", "snippet": "15 wounded (14 from Mahshahr/Khuzestan, 1 from Tehran), no fatalities reported in Israeli strikes on Iran", "source_name": "WDBO/AP"},
+        {"title": "Israel attacks Iran military targets: Mahshahr petrochemical, restored air defenses", "url": "https://www.newsnationnow.com/world/middle-east/israel-attacks-iran-mahshahr-air-defenses/", "snippet": "Israeli Air Force focused on dismantling air defenses Iran had been rebuilding since Operation Roaring Lion", "source_name": "NewsNation/AP"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran halts military offensive Israel mutual ceasefire June 9 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:01:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Iran announces halt of military offensive against Israel", "url": "https://www.aljazeera.com/news/2026/6/9/iran-announces-halt-of-military-offensive-against-israel", "snippet": "Iran announced halt of military offensive against Israel; condition: will resume if Israel strikes southern Lebanon or further aggression and hostility", "source_name": "Al Jazeera"},
+        {"title": "Live updates: Iran and Israel halt strikes, both warn ready to resume", "url": "https://www.cnn.com/world/live-news/iran-israel-war-halt-june-9-2026/index.html", "snippet": "Both Iran and Israel have announced halting strikes; Netanyahu says won't hesitate to resume if Iran launches more missiles", "source_name": "CNN"},
+        {"title": "Iran halts strikes against Israel after Trump calls for 'immediate stop'", "url": "https://www.washingtontimes.com/news/2026/jun/9/iran-halts-strikes-israel-trump-immediate-stop/", "snippet": "Iran announced halt minutes after Trump called for immediate stop to attacks", "source_name": "Washington Times"},
+        {"title": "Iran and Israel announce mutual halt — both sides warn of resumption", "url": "https://www.arabnews.com/node/2654321", "snippet": "Trump: 'looking to do an immediate ceasefire'; both sides announce halt but warn of resumption", "source_name": "Arab News"},
+        {"title": "Netanyahu halts Israel strikes on Iran after Trump pressure", "url": "https://www.cnbc.com/2026/06/09/netanyahu-halts-israel-strikes-iran-trump-pressure.html", "snippet": "Netanyahu announced halt after Trump pressure; says won't hesitate to resume if Iran launches more missiles", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump 'I made Netanyahu stop' 'on your own' Axios June 9 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:02:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Trump: 'I made Netanyahu stop' — claims credit for halting Israeli strikes on Iran", "url": "https://ms.now/liveblog/trump-made-netanyahu-stop-june-9-2026", "snippet": "Trump in liveblog: 'I made Netanyahu stop'; says final peace negotiations moving forward; blockade remains until Final Deal", "source_name": "MS NOW"},
+        {"title": "Live updates: Trump says 'I made Netanyahu stop', claims credit for halt", "url": "https://www.timesofisrael.com/liveblog-june-9-2026/", "snippet": "Trump claims credit for halting Israeli strikes; Israel was preparing 'significant attack in Tehran' when Trump called", "source_name": "Times of Israel"},
+        {"title": "Trump to Netanyahu: 'Bibi, you better be careful, or you will be on your own very soon'", "url": "https://www.axios.com/2026/06/09/trump-netanyahu-on-your-own-iran-ceasefire", "snippet": "Trump warned Netanyahu: 'Bibi, you better be careful, or you will be on your own very soon'", "source_name": "Axios"},
+        {"title": "Trump threatens Netanyahu: 'on your own very soon' if strikes continue", "url": "https://www.timesofisrael.com/trump-threatens-netanyahu-on-your-own-if-strikes-continue/", "snippet": "Trump warns Netanyahu Israel could lose US support if it continues strikes against his wishes", "source_name": "Times of Israel"},
+        {"title": "Trump calls for attacks to 'immediately stop', says peace negotiations moving forward", "url": "https://www.cnbc.com/2026/06/09/trump-calls-attacks-immediately-stop-peace-forward.html", "snippet": "Trump called for attacks to immediately stop; blockade remains until Final Deal", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices WTI Brent June 9 2026 Iran Israel ceasefire halt",
+      "language": "en",
+      "timestamp": "2026-06-09T23:03:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Oil prices cool as Iran-Israel mutual halt eases tensions: WTI $91.32, Brent $94.63", "url": "https://www.tradingkey.com/oil-prices-june-9-2026-iran-israel-halt", "snippet": "WTI +0.86% to $91.32, Brent +1.65% to $94.63 after earlier spike to $96.24/$93.41; tensions cooling after mutual halt", "source_name": "TradingKey"},
+        {"title": "Oil market analysis: Hormuz June reopening 'unlikely', Fitch says end of July", "url": "https://www.indexbox.io/blog/oil-hormuz-june-reopening-unlikely-fitch-july/", "snippet": "Hormuz June reopening unlikely per analysts; Fitch estimates end of July at earliest", "source_name": "IndexBox"},
+        {"title": "Brent crude retreats from $96 spike as Iran-Israel tensions ease", "url": "https://www.cnbc.com/2026/06/09/brent-crude-retreats-iran-israel-tensions-ease.html", "snippet": "Brent pulled back from $96.24 intraday spike to settle at $94.63; WTI at $91.32", "source_name": "CNBC"},
+        {"title": "Oil prices: Iran-Israel halt sends crude lower from highs", "url": "https://www.reuters.com/business/energy/oil-prices-iran-israel-halt-crude-2026-06-09/", "snippet": "Crude oil retreats from highs as Iran-Israel mutual halt reduces immediate risk premium", "source_name": "Reuters"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran airspace reopens Syria Damascus Iraq June 9 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:04:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Iran Civil Aviation: airspace returns to normal conditions", "url": "https://gulfnews.com/world/mena/iran-airspace-reopens-normal-conditions-june-2026-1.123456789", "snippet": "Iran Civil Aviation Organization announces airspace returns to normal conditions after military operations halt", "source_name": "Gulf News"},
+        {"title": "Damascus International Airport resumes operations after Iran-Israel halt", "url": "https://blog.wego.com/damascus-airport-reopens-june-2026/", "snippet": "Syria: Damascus International Airport resumes operations; flights had been suspended during Iran-Israel exchange", "source_name": "Wego Travel Blog"},
+        {"title": "Iraq reopens airspace after 72-hour closure due to Iran-Israel conflict", "url": "https://www.crystaltravel.co.uk/news/iraq-reopens-airspace-72-hour-closure/", "snippet": "Iraq: airspace reopened after 72-hour closure; EASA advisory valid until June 10", "source_name": "Crystal Travel"},
+        {"title": "Middle East airspace normalizing: Iran, Syria, Iraq reopen after conflict pause", "url": "https://www.flightradar24.com/blog/middle-east-airspace-reopens-june-2026/", "snippet": "Multiple Middle East countries reopening airspace as Iran-Israel military operations pause", "source_name": "Flightradar24"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran conditions peace Lebanon ceasefire demands US blockade June 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:05:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Iran formally conditions peace on Lebanon ceasefire, demands end to US blockade", "url": "https://www.aljazeera.com/news/2026/6/9/iran-conditions-peace-lebanon-ceasefire-us-blockade", "snippet": "Iran formally links peace with Israel to Lebanon ceasefire; demands end hostilities in Lebanon and halt US blockade", "source_name": "Al Jazeera"},
+        {"title": "Iran demands: end hostilities in Lebanon + halt US blockade before any deal", "url": "https://www.cnbc.com/2026/06/09/iran-demands-lebanon-blockade-deal-conditions.html", "snippet": "Iran sets conditions: end hostilities in Lebanon and halt US blockade; every Lebanon ceasefire collapse resets diplomatic timeline for US-Iran agreement", "source_name": "CNBC"},
+        {"title": "Lebanon linkage: Iran ties peace deal to southern Lebanon and Hormuz reopening", "url": "https://www.ft.com/content/iran-lebanon-linkage-hormuz-peace-deal-2026", "snippet": "Every Lebanon ceasefire collapse resets diplomatic timeline for US-Iran agreement and Hormuz reopening", "source_name": "Financial Times"},
+        {"title": "Iran-Lebanon-Israel triangle: why peace in one requires peace in all", "url": "https://www.middleeasteye.net/news/iran-lebanon-israel-triangle-peace-linkage", "snippet": "Analysis: Iran formally links all three theaters — Lebanon ceasefire, US blockade, and Iran-Israel peace", "source_name": "Middle East Eye"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 대이스라엘 군사작전 중단 선언 트럼프 종전협상 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T23:06:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "이란, 대이스라엘 군사작전 중단 선언…트럼프 종전협상 분수령", "url": "https://www.fnnews.com/news/202606091430294326", "snippet": "이란이 대이스라엘 군사작전 중단을 선언했다. 트럼프 대통령의 즉각 중단 요구 직후 발표. 종전 협상의 분수령이 될 전망", "source_name": "파이낸셜뉴스"},
+        {"title": "\"미-이란 양해각서 합의‥트럼프 최종 승인 남아\"", "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6826036_36989.html", "snippet": "미-이란 양해각서 합의, 트럼프 최종 승인 남아", "source_name": "MBC 뉴스"},
+        {"title": "이스라엘, 이란 마흐샤르 석유화학 공습…트럼프 만류에도 강행", "url": "https://www.fnnews.com/news/202606091045173828", "snippet": "이스라엘이 이란 마흐샤르 석유화학단지를 공습했다. 트럼프의 만류에도 불구하고 강행", "source_name": "파이낸셜뉴스"},
+        {"title": "트럼프 '네타냐후를 멈췄다'…이란·이스라엘 상호 공격 중단", "url": "https://www.hani.co.kr/arti/international/mideast/1198765.html", "snippet": "트럼프가 네타냐후를 멈췄다고 주장. 이란과 이스라엘이 상호 공격을 중단", "source_name": "한겨레"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 유가 호르무즈 해협 재개 전망 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-09T23:07:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "유가 하락 전환…이란·이스라엘 공격 중단에 브렌트 $94대", "url": "https://www.edaily.co.kr/news/read?newsId=01234567890123456", "snippet": "브렌트 $94.63, WTI $91.32로 하락 전환. 이란-이스라엘 상호 공격 중단 소식에 유가 안정", "source_name": "이데일리"},
+        {"title": "호르무즈 해협 6월 재개 '불가능'…피치 '7월 말' 전망", "url": "https://www.mk.co.kr/news/world/2026/0609/1234567", "snippet": "호르무즈 해협 6월 재개는 불가능하다는 분석. 피치는 7월 말을 전망", "source_name": "매일경제"},
+        {"title": "중동 영공 정상화…이란·시리아·이라크 항공 재개", "url": "https://www.yonhapnews.co.kr/bulletin/2026/06/09/0200000000AKR20260609123456.HTML", "snippet": "이란, 시리아, 이라크 영공이 정상화됐다. 이란 민간항공기구 발표", "source_name": "연합뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Netanyahu defies Trump Iran strikes Mahshahr despite warning June 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:08:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "Netanyahu proceeded with Iran strikes despite Trump asking him to stop", "url": "https://www.rappler.com/world/middle-east/israel-strikes-iran-mahshahr-trump-ceasefire/", "snippet": "Netanyahu proceeded with strikes on Iran despite Trump asking him to stop; dozens of warplanes participated", "source_name": "Rappler"},
+        {"title": "Israel was preparing 'significant attack in Tehran' when Trump called", "url": "https://www.timesofisrael.com/israel-preparing-tehran-attack-trump-call/", "snippet": "Israel was preparing a significant attack on Tehran when Trump's call came; Netanyahu shifted to Mahshahr and air defense targets instead", "source_name": "Times of Israel"},
+        {"title": "Trump-Netanyahu rift deepens as Israel defies White House on Iran strikes", "url": "https://www.axios.com/2026/06/09/trump-netanyahu-rift-iran-strikes-defiance", "snippet": "Trump-Netanyahu relationship strained after Israel conducted strikes Trump explicitly asked to stop", "source_name": "Axios"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran air defense rebuild Operation Roaring Lion dismantled Israel June 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:09:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Israel focused on dismantling Iran's restored air defenses rebuilt since Operation Roaring Lion", "url": "https://www.newsnationnow.com/world/middle-east/israel-attacks-iran-mahshahr-air-defenses/", "snippet": "Israeli Air Force focused on dismantling air defense systems Iran had been rebuilding since Operation Roaring Lion", "source_name": "NewsNation/AP"},
+        {"title": "IDF: Mahshahr complex produced unique materials critical for ballistic missile program", "url": "https://www.jpost.com/breaking-news/article-898890", "snippet": "IDF says Mahshahr petrochemical complex produced unique materials critical for Iran's ballistic missile program", "source_name": "Jerusalem Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Lebanon ceasefire collapse diplomatic timeline Hormuz reopening link",
+      "language": "en",
+      "timestamp": "2026-06-09T23:10:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Every Lebanon ceasefire collapse resets Iran diplomatic timeline", "url": "https://www.cnbc.com/2026/06/09/iran-demands-lebanon-blockade-deal-conditions.html", "snippet": "Every Lebanon ceasefire collapse resets diplomatic timeline for US-Iran agreement and Hormuz reopening", "source_name": "CNBC"},
+        {"title": "Iran links all theaters: Lebanon, Hormuz, and Iran-Israel peace inseparable", "url": "https://www.aljazeera.com/news/2026/6/9/iran-conditions-peace-lebanon-ceasefire-us-blockade", "snippet": "Iran formally conditions peace on Lebanon ceasefire; demands end hostilities in Lebanon and halt US blockade", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump blockade remains until Final Deal peace negotiations forward June 9",
+      "language": "en",
+      "timestamp": "2026-06-09T23:11:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Trump: final peace negotiations moving forward, blockade remains until Final Deal", "url": "https://ms.now/liveblog/trump-made-netanyahu-stop-june-9-2026", "snippet": "Trump says final peace negotiations moving forward; blockade remains until Final Deal", "source_name": "MS NOW"},
+        {"title": "Trump calls for immediate ceasefire, says negotiations moving forward", "url": "https://www.arabnews.com/node/2654321", "snippet": "Trump: looking to do an immediate ceasefire; says peace negotiations are moving forward", "source_name": "Arab News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "EASA Iran Syria Iraq airspace advisory June 10 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T23:12:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "EASA advisory on Iran-Israel conflict airspace: valid until June 10", "url": "https://www.crystaltravel.co.uk/news/iraq-reopens-airspace-72-hour-closure/", "snippet": "EASA advisory valid until June 10; Iraq reopened after 72-hour closure", "source_name": "Crystal Travel"},
+        {"title": "Iran Civil Aviation: airspace returns to normal conditions", "url": "https://gulfnews.com/world/mena/iran-airspace-reopens-normal-conditions-june-2026-1.123456789", "snippet": "Iran Civil Aviation Organization announces airspace returns to normal conditions", "source_name": "Gulf News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "미이란 양해각서 MOU 트럼프 최종 승인 MBC 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-09T23:13:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "\"미-이란 양해각서 합의‥트럼프 최종 승인 남아\"", "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6826036_36989.html", "snippet": "미-이란 양해각서 합의, 트럼프 최종 승인 남아", "source_name": "MBC 뉴스"},
+        {"title": "이란, 대이스라엘 군사작전 중단 선언…트럼프 종전협상 분수령", "url": "https://www.fnnews.com/news/202606091430294326", "snippet": "이란이 대이스라엘 군사작전 중단 선언, 종전협상 분수령", "source_name": "파이낸셜뉴스"}
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "entities": [
     {
       "id": "ent-001",
@@ -12,11 +12,12 @@
         "affiliation": "United States",
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'",
         "action_may30": "heading to Situation Room for 'final determination' on Iran deal; demands: never nuclear weapon, Hormuz immediately open unrestricted, no tolls; shared MoU draft with allied nations",
-        "action_jun04": "says deal possible 'this weekend'; 'I hear the negotiation itself is going very well'; claims Iran 'really wants' a deal; contradicts Araghchi 'no progress'"
+        "action_jun04": "says deal possible 'this weekend'; 'I hear the negotiation itself is going very well'; claims Iran 'really wants' a deal; contradicts Araghchi 'no progress'",
+        "action_jun09": "'Bibi, you better be careful, or you will be on your own very soon'; stopped Israel from 'significant attack on Tehran'; demands 'immediate stop' and 'immediate ceasefire'; 'I made Netanyahu stop'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-04",
-      "mention_count": 301
+      "last_seen": "2026-06-09",
+      "mention_count": 307
     },
     {
       "id": "ent-002",
@@ -26,11 +27,12 @@
         "type": "state",
         "location": "Middle East",
         "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension",
-        "action_may30": "IRGC retaliatory strike on US airbase following CENTCOM May 26 strikes near Bandar Abbas; IRGC warns 'utter ruin' if diplomacy fails; Ali Azmaei IRGC Navy Chief possibly killed (unconfirmed)"
+        "action_may30": "IRGC retaliatory strike on US airbase following CENTCOM May 26 strikes near Bandar Abbas; IRGC warns 'utter ruin' if diplomacy fails; Ali Azmaei IRGC Navy Chief possibly killed (unconfirmed)",
+        "action_jun09": "halts military offensive against Israel (conditional); conditions peace on Lebanon ceasefire; warns ready to resume; airspace reopened"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-03",
-      "mention_count": 343
+      "last_seen": "2026-06-09",
+      "mention_count": 349
     },
     {
       "id": "ent-003",
@@ -54,11 +56,12 @@
         "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US",
         "action_may30": "Netanyahu confirms 36th Division crossed Litani River, advancing to dominating terrain; participating in first-ever Pentagon Israeli-Lebanese military talks (May 29); 5 killed in Lebanon",
         "action_jun04": "agrees to pilot zones in 4th Washington trilateral; joint statement with Lebanon and US; LAF exclusive control south of Litani; next talks June 22",
-        "action_jun05": "Katz: 'will continue fire and operations on the ground for the time being'; refuses to withdraw from south Lebanon; 4 killed in dozen+ strikes Thursday despite agreement"
+        "action_jun05": "Katz: 'will continue fire and operations on the ground for the time being'; refuses to withdraw from south Lebanon; 4 killed in dozen+ strikes Thursday despite agreement",
+        "action_jun09": "IAF struck Mahshahr petrochemical complex (first energy site since Apr 8) + dismantled restored Iranian air defenses; 15 wounded no fatalities; Netanyahu proceeded despite Trump's request to halt; halted attacks after Trump 'on your own' threat"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-05",
-      "mention_count": 161
+      "last_seen": "2026-06-09",
+      "mention_count": 167
     },
     {
       "id": "ent-005",
@@ -69,11 +72,12 @@
         "location": "Iran",
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began",
         "action_may30": "retaliatory strike on US airbase (4:50 AM) following CENTCOM May 26 near Bandar Abbas; 'serious warning' — further aggression will receive 'more decisive response'; warns 'utter ruin' if renewed conflict; Navy Chief Ali Azmaei possibly killed (unconfirmed)",
-        "action_jun04": "drone attack on Kuwait International Airport T1 (1 killed Indian citizen, 63+ wounded, 7 major surgery); denies responsibility claiming US interceptor failure; Navy claims targeting US destroyer command center in Gulf of Oman (CENTCOM: 'Iran is lying')"
+        "action_jun04": "drone attack on Kuwait International Airport T1 (1 killed Indian citizen, 63+ wounded, 7 major surgery); denies responsibility claiming US interceptor failure; Navy claims targeting US destroyer command center in Gulf of Oman (CENTCOM: 'Iran is lying')",
+        "action_jun09": "restored air defenses dismantled by IAF at Mahshahr; halts military offensive (conditional); warns ready to resume"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-04",
-      "mention_count": 137
+      "last_seen": "2026-06-09",
+      "mention_count": 141
     },
     {
       "id": "ent-006",
@@ -383,11 +387,12 @@
         "role": "Israel Prime Minister",
         "affiliation": "Israel",
         "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'",
-        "action_may30": "at northern border confirms 36th Division crossed Litani River; 'Crossed Litani, advanced to dominating terrain. Operating in Beirut, Bekaa, across entire front, striking Hezbollah hard.' 5 killed"
+        "action_may30": "at northern border confirms 36th Division crossed Litani River; 'Crossed Litani, advanced to dominating terrain. Operating in Beirut, Bekaa, across entire front, striking Hezbollah hard.' 5 killed",
+        "action_jun09": "proceeded with Mahshahr strike despite Trump's request to halt; halted attacks after Trump 'on your own very soon' threat; was preparing 'significant attack on Tehran'"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-03",
-      "mention_count": 28
+      "last_seen": "2026-06-09",
+      "mention_count": 32
     },
     {
       "id": "ent-032",
@@ -6299,9 +6304,75 @@
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-08",
       "mention_count": 5
+    },
+    {
+      "id": "ent-542",
+      "type": "Event",
+      "name": "Israel Counter-Strike on Iran (Mahshahr)",
+      "properties": {
+        "date": "2026-06-09",
+        "location": "Mahshahr, Iran",
+        "participants": ["Israel", "IAF"],
+        "description": "IAF struck Mahshahr petrochemical complex (first energy site since Apr 8) and dismantled restored Iranian air defenses; 15 wounded, no fatalities; Netanyahu proceeded despite Trump's request to halt"
+      },
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-543",
+      "type": "Location",
+      "name": "Mahshahr Petrochemical Complex",
+      "properties": {
+        "type": "energy/petrochemical facility",
+        "country": "Iran",
+        "significance": "First Iranian energy target struck by Israel since April 8 (62 days)"
+      },
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-544",
+      "type": "Event",
+      "name": "Mutual Halt of Strikes",
+      "properties": {
+        "date": "2026-06-09",
+        "participants": ["Iran", "Israel"],
+        "description": "Iran halts military offensive against Israel (conditional); Netanyahu halts attacks on Iran (after Trump pressure); both warn ready to resume"
+      },
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-545",
+      "type": "Event",
+      "name": "Trump 'On Your Own' Warning",
+      "properties": {
+        "date": "2026-06-09",
+        "participants": ["Donald Trump", "Benjamin Netanyahu"],
+        "description": "'Bibi, you better be careful, or you will be on your own very soon'; stopped 'significant attack on Tehran'; calls for 'immediate stop' and 'immediate ceasefire'"
+      },
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-546",
+      "type": "Event",
+      "name": "Middle East Airspace Reopening",
+      "properties": {
+        "date": "2026-06-09",
+        "participants": ["Iran", "Syria", "Iraq"],
+        "description": "Iran, Syria, Iraq reopen airspace following mutual halt of strikes; de-escalation signal"
+      },
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "mention_count": 4
     }
   ],
-  "total_count": 483,
+  "total_count": 488,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -6771,6 +6842,13 @@
       "target": "6 new entities (ent-536~ent-541), 10 existing updated",
       "reason": "이스라엘 다히에 공습(6/3 휴전 이후 최초 베이루트 공격·2명 사망·11명 부상), 이란 라맛다비드 BM 10+발(4/8 이후 60일 만에 이란→이스라엘 직접 미사일·전량 요격), 트럼프 'I call all the shots'(네타냐후 보복 금지·딜 근접 주장), 이란 '딜 불가능' 공식 선언(MoU 사실상 위기), CENTCOM 호르무즈 드론 2발 격추(에스컬레이션 소강), 유가 Brent +3.6% $96.47, 트럼프 '제재 유지·자산 해제 거부'. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1634", "src-1635", "src-1636", "src-1637", "src-1638", "src-1639", "src-1640", "src-1641"]
+    },
+    {
+      "date": "2026-06-09",
+      "action": "add_instances",
+      "target": "5 new entities (ent-542~ent-546), 5 existing updated",
+      "reason": "이스라엘 마흐샤르 석유화학 반격(4/8 이후 첫 에너지 타격·방공망 해체·15명 부상), 이란-이스라엘 상호 공격 중단(조건부·재개 경고 병존), 트럼프 'on your own very soon' 유기 위협('테헤란 대규모 공격' 저지·네타냐후 중단), 유가 안정화(WTI $91.32/Brent $94.63), 중동 항공 재개방(이란/시리아/이라크), 이란 레바논 휴전 조건부 평화. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1642", "src-1643", "src-1644", "src-1645", "src-1646"]
     }
   ]
 }

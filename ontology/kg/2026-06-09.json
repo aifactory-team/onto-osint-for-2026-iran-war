@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-09",
+  "new_triples": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-542", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-542", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-542", "predicate": "locatedIn", "object": "ent-543", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-542", "predicate": "follows", "object": "ent-537", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.92, "type": "explicit"},
+    {"subject": "ent-543", "predicate": "locatedIn", "object": "ent-002", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-544", "predicate": "follows", "object": "ent-542", "source_id": "src-1643", "date": "2026-06-09", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-544", "source_id": "src-1643", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-544", "source_id": "src-1643", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-545", "source_id": "src-1644", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-031", "source_id": "src-1644", "date": "2026-06-09", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-545", "predicate": "causedBy", "object": "ent-542", "source_id": "src-1644", "date": "2026-06-09", "confidence": 0.88, "type": "explicit"},
+    {"subject": "ent-546", "predicate": "follows", "object": "ent-544", "source_id": "src-1645", "date": "2026-06-09", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-546", "source_id": "src-1645", "date": "2026-06-09", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-542", "predicate": "opposes", "object": "ent-002", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-544", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1643", "date": "2026-06-09", "confidence": 0.88, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-050", "source_id": "src-1646", "date": "2026-06-09", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-002", "source_id": "src-1642", "date": "2026-06-09", "confidence": 0.95, "type": "explicit", "note": "IAF strikes Mahshahr petrochemical + air defenses — first energy target since April 8"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-031", "source_id": "src-1644", "date": "2026-06-09", "confidence": 0.90, "type": "explicit", "note": "Trump 'on your own' threat; Netanyahu proceeded despite Trump request to halt"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-542", "predicate": "causalChain", "object": "ent-537", "source_id": "inferred", "date": "2026-06-09", "confidence": 0.88, "type": "inferred", "rule": "event_chain", "reasoning": "Iran BMs at Ramat David (Jun 8) -> Israel counter-strikes Mahshahr (overnight Jun 8-9); direct tit-for-tat retaliation chain. Netanyahu defied Trump's halt request, indicating autonomous Israeli escalation ladder"},
+    {"subject": "ent-544", "predicate": "causedBy", "object": "ent-545", "source_id": "inferred", "date": "2026-06-09", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "reasoning": "Trump's 'on your own' threat directly pressured both sides into halting; mutual halt follows Trump pressure on Netanyahu + Iran's conditional halt announcement"},
+    {"subject": "ent-544", "predicate": "follows", "object": "ent-539", "source_id": "inferred", "date": "2026-06-09", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "Iran 'deal impossible' (Jun 8) -> mutual halt of strikes (Jun 9); the escalation cycle (attack-counterattack-halt) reverses previous 'no deal' trajectory"},
+    {"subject": "ent-545", "predicate": "follows", "object": "ent-538", "source_id": "inferred", "date": "2026-06-09", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "reasoning": "Trump 'I call all the shots' (Jun 8) escalated to 'on your own very soon' (Jun 9); same pressure pattern but with explicit abandonment threat — qualitative escalation in US-Israel coercive diplomacy"},
+    {"subject": "ent-546", "predicate": "relatedTo", "object": "ent-456", "source_id": "inferred", "date": "2026-06-09", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "reasoning": "Airspace reopening across Iran/Syria/Iraq signals de-escalation environment that could revive MoU framework; market stabilization (WTI $91.32) reflects this expectation"}
+  ],
+  "stats": {
+    "new_nodes": 5,
+    "new_edges": 16,
+    "updated_edges": 2,
+    "inferred_edges": 5
+  }
+}
