@@ -1,0 +1,26 @@
+{
+  "id": "src-1673",
+  "title": "EU sanctions IRGC Hormuz",
+  "url": "https://www.aa.com.tr/en/world/eu-imposes-sanctions-on-spokesman-for-irans-irgc-naval-arm-regional-command/3960407",
+  "snippet": "EU sanctioned Mohammad Akbarzadeh (IRGC Naval spokesman), IRGC Hormozgan Provincial Command, Hamid Hosseini (Oil/Gas Exporters Union). First sanctions under new navigation-threat framework. Asset freezes + travel bans.",
+  "source_name": "Anadolu Agency",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "EU의 항행자유 프레임워크 하 최초 IRGC 제재 — 이전 보도에 없음",
+  "entities": [
+    { "id": "temp-002", "type": "Person", "name": "Mohammad Akbarzadeh", "role": "IRGC Naval Spokesman" },
+    { "id": "temp-003", "type": "Organization", "name": "IRGC Hormozgan Provincial Command", "type_detail": "military unit" },
+    { "id": "temp-004", "type": "Person", "name": "Hamid Hosseini", "role": "Iran Oil/Gas Exporters Union rep" },
+    { "id": "ent-049", "type": "Organization", "name": "European Union" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-049", "predicate": "opposes", "object": "ent-005" },
+    { "subject": "temp-002", "predicate": "affiliatedWith", "object": "ent-005" },
+    { "subject": "temp-003", "predicate": "affiliatedWith", "object": "ent-005" }
+  ]
+}

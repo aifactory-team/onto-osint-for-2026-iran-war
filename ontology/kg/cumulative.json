@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-09",
+  "last_updated": "2026-06-10",
   "nodes": [
     {
       "id": "ent-001",
@@ -2385,7 +2385,16 @@
     {"id": "ent-543", "type": "Location", "label": "Mahshahr Petrochemical Complex"},
     {"id": "ent-544", "type": "Event", "label": "Mutual Halt of Strikes"},
     {"id": "ent-545", "type": "Event", "label": "Trump 'On Your Own' Warning"},
-    {"id": "ent-546", "type": "Event", "label": "Middle East Airspace Reopening"}
+    {"id": "ent-546", "type": "Event", "label": "Middle East Airspace Reopening"},
+    {"id": "ent-547", "type": "Person", "label": "Aziz Nasirzadeh"},
+    {"id": "ent-548", "type": "Person", "label": "Akbarzadeh"},
+    {"id": "ent-549", "type": "Organization", "label": "IRGC Hormozgan Command"},
+    {"id": "ent-550", "type": "Event", "label": "SPR Record Low / $150 Warning"},
+    {"id": "ent-551", "type": "Person", "label": "BG Sabra"},
+    {"id": "ent-552", "type": "Organization", "label": "Lebanese Armed Forces (LAF)"},
+    {"id": "ent-553", "type": "Event", "label": "EU IRGC Hormuz Sanctions"},
+    {"id": "ent-554", "type": "Event", "label": "IDF Strike Killing LAF BG Sabra"},
+    {"id": "ent-555", "type": "Event", "label": "Trump 'Much More Aggressive' Interview"}
   ],
   "edges": [
     {
@@ -12960,11 +12969,33 @@
     {"subject": "ent-544", "predicate": "causedBy", "object": "ent-545", "date": "2026-06-09", "confidence": 0.82, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
     {"subject": "ent-544", "predicate": "follows", "object": "ent-539", "date": "2026-06-09", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
     {"subject": "ent-545", "predicate": "follows", "object": "ent-538", "date": "2026-06-09", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
-    {"subject": "ent-546", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-09", "confidence": 0.78, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
+    {"subject": "ent-546", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-09", "confidence": 0.78, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-555", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1672"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-555", "date": "2026-06-10", "confidence": 0.9, "type": "explicit", "source_id": "src-1672"},
+    {"subject": "ent-049", "predicate": "opposes", "object": "ent-005", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1673"},
+    {"subject": "ent-049", "predicate": "participatesIn", "object": "ent-553", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1673"},
+    {"subject": "ent-548", "predicate": "affiliatedWith", "object": "ent-005", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1673"},
+    {"subject": "ent-549", "predicate": "affiliatedWith", "object": "ent-005", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1673"},
+    {"subject": "ent-549", "predicate": "locatedIn", "object": "ent-008", "date": "2026-06-10", "confidence": 0.9, "type": "explicit", "source_id": "src-1673"},
+    {"subject": "ent-547", "predicate": "affiliatedWith", "object": "ent-002", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1674"},
+    {"subject": "ent-547", "predicate": "opposes", "object": "ent-003", "date": "2026-06-10", "confidence": 0.9, "type": "explicit", "source_id": "src-1674"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-554", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1675"},
+    {"subject": "ent-551", "predicate": "affiliatedWith", "object": "ent-552", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1675"},
+    {"subject": "ent-552", "predicate": "locatedIn", "object": "ent-050", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1675"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-552", "date": "2026-06-10", "confidence": 0.85, "type": "explicit", "source_id": "src-1675"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-456", "date": "2026-06-10", "confidence": 0.9, "type": "explicit", "source_id": "src-1677"},
+    {"subject": "ent-544", "predicate": "relatedTo", "object": "ent-050", "date": "2026-06-10", "confidence": 0.85, "type": "explicit", "source_id": "src-1678"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "date": "2026-06-10", "confidence": 0.95, "type": "explicit", "source_id": "src-1680"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "date": "2026-06-10", "confidence": 0.9, "type": "explicit", "source_id": "src-1672", "note": "Trump 'much more aggressive' — tone shift"},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "ent-047", "date": "2026-06-10", "confidence": 0.85, "type": "explicit", "source_id": "src-1681", "note": "3-front linkage strategy reconfirmed"},
+    {"subject": "ent-549", "predicate": "relatedTo", "object": "ent-553", "date": "2026-06-10", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-547", "predicate": "relatedTo", "object": "ent-555", "date": "2026-06-10", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-554", "predicate": "causedBy", "object": "ent-544", "date": "2026-06-10", "confidence": 0.7, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-004", "predicate": "potentialRelation", "object": "ent-552", "date": "2026-06-10", "confidence": 0.8, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
   ],
   "stats": {
-    "total_nodes": 507,
-    "total_edges": 348,
-    "total_triples": 1255
+    "total_nodes": 516,
+    "total_edges": 370,
+    "total_triples": 1277
   }
 }

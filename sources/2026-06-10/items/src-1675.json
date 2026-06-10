@@ -1,0 +1,28 @@
+{
+  "id": "src-1675",
+  "title": "LAF BG Sabra killed",
+  "url": "https://www.timesofisrael.com/israeli-strike-kills-lebanese-army-general-two-soldiers-idf-says-incident-under-review/",
+  "snippet": "IDF strike on Kfar Tebnit-Khardali road killed BG Wassam Sabra, Captain Elie Khoury, soldier Hussein Ghozal on June 6. First LAF general killed in the war. IDF: vehicle \"moved suspiciously in active combat zone.\" PM Salam condemned; threatened to upend US-brokered ceasefire.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "LAF 준장 전사는 전쟁 중 최고위급 레바논군 사망자로 이전에 보도되지 않음",
+  "entities": [
+    { "id": "temp-006", "type": "Person", "name": "Wassam Sabra", "role": "LAF Brigadier General" },
+    { "id": "temp-007", "type": "Person", "name": "Elie Khoury", "role": "LAF Captain" },
+    { "id": "temp-008", "type": "Person", "name": "Hussein Ghozal", "role": "LAF Soldier" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "temp-009", "type": "Organization", "name": "Lebanese Armed Forces (LAF)" },
+    { "id": "ent-515", "type": "Person", "name": "Nawaf Salam", "role": "Lebanon PM" },
+    { "id": "temp-010", "type": "Location", "name": "Kfar Tebnit" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "opposes", "object": "temp-009" },
+    { "subject": "temp-006", "predicate": "affiliatedWith", "object": "temp-009" },
+    { "subject": "temp-009", "predicate": "locatedIn", "object": "ent-050" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-09",
+  "last_updated": "2026-06-10",
   "entities": [
     {
       "id": "ent-001",
@@ -6370,9 +6370,130 @@
       "first_seen": "2026-06-09",
       "last_seen": "2026-06-09",
       "mention_count": 4
+    },
+    {
+      "id": "ent-547",
+      "type": "Person",
+      "name": "Aziz Nasirzadeh",
+      "properties": {
+        "role": "Iran Defense Minister",
+        "affiliation": "Iran",
+        "statement_jun10": "If a conflict is imposed on us, all US bases are within our reach and we will boldly target them in host countries"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-548",
+      "type": "Person",
+      "name": "Mohammad Akbarzadeh",
+      "properties": {
+        "role": "IRGC Naval Forces Spokesman",
+        "affiliation": "IRGC",
+        "status": "EU sanctioned 2026-06-08 (asset freeze + travel ban)"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-549",
+      "type": "Organization",
+      "name": "IRGC Hormozgan Provincial Command",
+      "properties": {
+        "type": "military unit",
+        "location": "Hormozgan Province, Iran",
+        "role": "oversees vessel movements through Strait of Hormuz",
+        "status": "EU sanctioned 2026-06-08"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-550",
+      "type": "Person",
+      "name": "Hamid Hosseini",
+      "properties": {
+        "role": "representative, Iran Oil/Gas/Petrochemical Products Exporters' Union",
+        "affiliation": "Iran",
+        "status": "EU sanctioned 2026-06-08"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-551",
+      "type": "Person",
+      "name": "Wassam Sabra",
+      "properties": {
+        "role": "Brigadier General, Lebanese Armed Forces",
+        "affiliation": "LAF",
+        "status": "killed 2026-06-06 by IDF strike on Kfar Tebnit-Khardali road"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-552",
+      "type": "Organization",
+      "name": "Lebanese Armed Forces (LAF)",
+      "properties": {
+        "type": "military",
+        "location": "Lebanon",
+        "role": "designated for exclusive control in pilot zones south of Litani"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-553",
+      "type": "Event",
+      "name": "EU IRGC Hormuz Sanctions",
+      "properties": {
+        "date": "2026-06-08",
+        "targets": ["Mohammad Akbarzadeh (IRGC Naval spokesman)", "IRGC Hormozgan Provincial Command", "Hamid Hosseini"],
+        "framework": "first EU sanctions under new navigation-threat powers",
+        "measures": "asset freezes, travel bans, economic resource prohibition"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-554",
+      "type": "Event",
+      "name": "IDF Strike on LAF Personnel (Jun 6)",
+      "properties": {
+        "date": "2026-06-06",
+        "location": "Kfar Tebnit-Khardali road, Nabatieh",
+        "casualties": "BG Wassam Sabra, Capt. Elie Khoury, soldier Hussein Ghozal killed",
+        "idf_justification": "vehicle moved suspiciously in active combat zone",
+        "significance": "first LAF general killed in the war; PM Salam condemned; threatens ceasefire"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-555",
+      "type": "Event",
+      "name": "Trump 'Much More Aggressive' Interview (Jun 10)",
+      "properties": {
+        "date": "2026-06-10",
+        "detail": "Trump tells Fox News Bret Baier that Iran 'acting much differently,' 'much more aggressive,' 'disappointing'; 'set to meet again tomorrow'; senior officials say Iran dragging without concrete progress",
+        "significance": "tone shift from previous 'very well' characterization of talks"
+      },
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "mention_count": 2
     }
   ],
-  "total_count": 488,
+  "total_count": 498,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -6849,6 +6970,13 @@
       "target": "5 new entities (ent-542~ent-546), 5 existing updated",
       "reason": "이스라엘 마흐샤르 석유화학 반격(4/8 이후 첫 에너지 타격·방공망 해체·15명 부상), 이란-이스라엘 상호 공격 중단(조건부·재개 경고 병존), 트럼프 'on your own very soon' 유기 위협('테헤란 대규모 공격' 저지·네타냐후 중단), 유가 안정화(WTI $91.32/Brent $94.63), 중동 항공 재개방(이란/시리아/이라크), 이란 레바논 휴전 조건부 평화. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1642", "src-1643", "src-1644", "src-1645", "src-1646"]
+    },
+    {
+      "date": "2026-06-10",
+      "action": "add_instances",
+      "target": "9 new entities (ent-547~ent-555), 6 existing updated",
+      "reason": "트럼프 'much more aggressive' 톤 변화(Fox News 인터뷰), EU IRGC 호르무즈 제재(아크바르자데·호르모즈간사령부·호세이니 — EU 항행자유 프레임워크 하 최초), 이란 국방장관 나시르자데 미군기지 위협, IDF 레바논군 준장 와삼 사브라 사살(전쟁 중 최고위급 LAF 사망), 이란 MoU 거부·오만 경유 역제안, 유가 하락(WTI $86-91/Brent $89-94), 상호 중단 2일째 취약, 이스라엘 레바논 공습 지속, 미 SPR 최저치·$150 돌파 경고. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1672", "src-1673", "src-1674", "src-1675", "src-1676", "src-1677", "src-1678", "src-1679", "src-1680", "src-1681", "src-1682"]
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "src-1672",
+  "title": "Trump Fox News \"much more aggressive\"",
+  "url": "https://www.foxnews.com/politics/iran-becoming-much-more-aggressive-nuclear-talks-trump-tells-fox-news",
+  "snippet": "Trump told Bret Baier Iran \"acting much differently,\" \"much more aggressive,\" \"disappointing,\" \"set to meet again tomorrow.\" Senior officials say Iran dragging without concrete progress while pushing forward nuclear efforts.",
+  "source_name": "Fox News",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 '공격적' 발언은 이전 보도에 없던 새로운 톤 변화",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-001", "type": "Concept", "name": "Iran Negotiations Tone Shift", "domain": "diplomacy" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "opposes", "object": "ent-002" },
+    { "subject": "ent-002", "predicate": "relatedTo", "object": "temp-001" }
+  ]
+}

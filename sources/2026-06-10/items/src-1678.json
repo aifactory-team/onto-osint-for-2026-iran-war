@@ -1,0 +1,23 @@
+{
+  "id": "src-1678",
+  "title": "Mutual halt Day 2 fragile",
+  "url": "https://nationalsecurityjournal.org/iran-just-declared-the-fighting-with-israel-over-almost-no-one-believes-it-will-last/",
+  "snippet": "Mutual halt Day 2 structurally fragile — rests on immediate cost-calculation, not changed strategic conditions. Neither side committed to halting other's tripwires: Israel won't stop Lebanon ops (Iran's condition), Iran won't accept Trump's \"total victory\" framing.",
+  "source_name": "National Security Journal",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-09/src-1653",
+  "related_item": null,
+  "tag_reason": "6/9 상호 중단(src-1653) 후속 — 2일째 취약성 분석",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-544", "type": "Event", "name": "상호 중단" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" }
+  ],
+  "relations": [
+    { "subject": "ent-544", "predicate": "relatedTo", "object": "ent-050" }
+  ]
+}

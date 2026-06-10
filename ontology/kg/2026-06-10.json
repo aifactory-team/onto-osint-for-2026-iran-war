@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-10",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-555", "source_id": "src-1672", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-555", "source_id": "src-1672", "date": "2026-06-10", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-049", "predicate": "opposes", "object": "ent-005", "source_id": "src-1673", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-049", "predicate": "participatesIn", "object": "ent-553", "source_id": "src-1673", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-548", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-1673", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-549", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-1673", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-549", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1673", "date": "2026-06-10", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-547", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-1674", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-547", "predicate": "opposes", "object": "ent-003", "source_id": "src-1674", "date": "2026-06-10", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-554", "source_id": "src-1675", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-551", "predicate": "affiliatedWith", "object": "ent-552", "source_id": "src-1675", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-552", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-1675", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-552", "source_id": "src-1675", "date": "2026-06-10", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-456", "source_id": "src-1677", "date": "2026-06-10", "confidence": 0.9, "type": "explicit"},
+    {"subject": "ent-544", "predicate": "relatedTo", "object": "ent-050", "source_id": "src-1678", "date": "2026-06-10", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_id": "src-1680", "date": "2026-06-10", "confidence": 0.95, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1672", "date": "2026-06-10", "confidence": 0.9, "type": "explicit", "note": "Trump 'much more aggressive' — tone shift"},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "ent-047", "source_id": "src-1681", "date": "2026-06-10", "confidence": 0.85, "type": "explicit", "note": "3-front linkage strategy reconfirmed"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-549", "predicate": "relatedTo", "object": "ent-553", "date": "2026-06-10", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "reasoning": "IRGC Hormozgan Command is the target of EU sanctions event ent-553"},
+    {"subject": "ent-547", "predicate": "relatedTo", "object": "ent-555", "date": "2026-06-10", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "reasoning": "Nasirzadeh US-base threat and Trump 'aggressive' interview are parallel escalatory signals on same day"},
+    {"subject": "ent-554", "predicate": "causedBy", "object": "ent-544", "date": "2026-06-10", "confidence": 0.7, "type": "inferred", "rule": "event_chain", "reasoning": "LAF strike (Jun 6) occurred during fragile mutual halt period; highlights halt's failure to prevent Lebanon escalation"},
+    {"subject": "ent-004", "predicate": "potentialRelation", "object": "ent-552", "date": "2026-06-10", "confidence": 0.8, "type": "inferred", "rule": "co_participation", "reasoning": "Israel and LAF both participate in pilot zones framework but IDF killed LAF general — contradiction between cooperation and opposition"}
+  ],
+  "stats": {
+    "new_nodes": 9,
+    "new_edges": 16,
+    "inferred_edges": 4
+  }
+}

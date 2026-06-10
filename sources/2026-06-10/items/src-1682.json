@@ -1,0 +1,22 @@
+{
+  "id": "src-1682",
+  "title": "Korean MBC 휴전 유지",
+  "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6821653_37012.html",
+  "snippet": "트럼프: 휴전 '1% 생존 가능성'. 해방 프로젝트(Project Freedom) 재개 검토 시사.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-09/src-1655",
+  "related_item": null,
+  "tag_reason": "6/9 트럼프 발언(src-1655) 후속 — '1% 생존 가능성' 비유와 프리덤 재개 검토는 새로운 정보",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-263", "type": "Event", "name": "Project Freedom" },
+    { "id": "ent-544", "type": "Event", "name": "상호 중단" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-544" }
+  ]
+}

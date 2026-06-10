@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-10",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran Negotiations Tone Shift",
+      "properties": {"domain": "diplomacy", "detail": "Trump describes Iran as 'much more aggressive' in nuclear talks on June 10, marking tone shift from previous 'very well' characterization"},
+      "source_ids": ["src-1672"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Akbarzadeh",
+      "properties": {"role": "IRGC Naval Forces Spokesman", "affiliation": "IRGC"},
+      "source_ids": ["src-1673"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IRGC Hormozgan Provincial Command",
+      "properties": {"type": "military unit", "location": "Hormozgan Province, Iran", "role": "oversees vessel movements through Strait of Hormuz"},
+      "source_ids": ["src-1673"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Hamid Hosseini",
+      "properties": {"role": "representative, Iran Oil/Gas/Petrochemical Products Exporters' Union", "affiliation": "Iran"},
+      "source_ids": ["src-1673"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Aziz Nasirzadeh",
+      "properties": {"role": "Iran Defense Minister", "affiliation": "Iran", "statement": "If a conflict is imposed on us, all US bases are within our reach and we will boldly target them in host countries"},
+      "source_ids": ["src-1674"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Wassam Sabra",
+      "properties": {"role": "Brigadier General, LAF", "affiliation": "Lebanese Armed Forces", "status": "killed 2026-06-06 by IDF strike"},
+      "source_ids": ["src-1675"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Elie Khoury",
+      "properties": {"role": "Captain, LAF", "affiliation": "Lebanese Armed Forces", "status": "killed 2026-06-06 by IDF strike"},
+      "source_ids": ["src-1675"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Hussein Ghozal",
+      "properties": {"role": "Soldier, LAF", "affiliation": "Lebanese Armed Forces", "status": "killed 2026-06-06 by IDF strike"},
+      "source_ids": ["src-1675"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Lebanese Armed Forces (LAF)",
+      "properties": {"type": "military", "location": "Lebanon"},
+      "source_ids": ["src-1675", "src-1680"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Kfar Tebnit",
+      "properties": {"type": "village", "country": "Lebanon", "region": "Nabatieh"},
+      "source_ids": ["src-1675"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "US SPR Crisis",
+      "properties": {"domain": "energy/reserves", "detail": "SPR + commercial reserves at 791M barrels, lowest since Feb 2024; 8 consecutive weekly declines totaling 64M barrels; $150/barrel possible if reserves hit critical threshold by end of June"},
+      "source_ids": ["src-1676"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Muscat",
+      "properties": {"type": "city", "country": "Oman", "role": "Iran counteroffer mediation venue"},
+      "source_ids": ["src-1677"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Tyre",
+      "properties": {"type": "city", "country": "Lebanon", "context": "5 killed in Israeli strike on Monday"},
+      "source_ids": ["src-1680"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1672"], "confidence": 0.9},
+    {"subject": "ent-049", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-1673"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "affiliatedWith", "object": "ent-005", "source_ids": ["src-1673"], "confidence": 0.95},
+    {"subject": "temp-003", "predicate": "affiliatedWith", "object": "ent-005", "source_ids": ["src-1673"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-1674"], "confidence": 0.95},
+    {"subject": "temp-005", "predicate": "opposes", "object": "ent-003", "source_ids": ["src-1674"], "confidence": 0.9},
+    {"subject": "ent-004", "predicate": "opposes", "object": "temp-009", "source_ids": ["src-1675"], "confidence": 0.85},
+    {"subject": "temp-006", "predicate": "affiliatedWith", "object": "temp-009", "source_ids": ["src-1675"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-456", "source_ids": ["src-1677"], "confidence": 0.9},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "ent-047", "source_ids": ["src-1681"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-1680"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-050", "source_ids": ["src-1680"], "confidence": 0.8}
+  ],
+  "stats": {
+    "total_entities": 13,
+    "new_entities": 13,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

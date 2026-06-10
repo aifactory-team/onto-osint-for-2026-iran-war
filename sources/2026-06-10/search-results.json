@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-10",
+  "collected_at": "2026-06-10T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 68,
+  "expanded_keywords": ["Trump Iran aggressive", "EU IRGC sanctions Hormuz", "Iran counteroffer Oman nuclear", "oil prices Brent WTI", "mutual halt Israel Iran", "Lebanon IDF Hezbollah", "LAF general killed", "이란 이스라엘 휴전", "이란 전쟁 유가", "트럼프 협상"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Israel ceasefire June 10 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:00:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "Iran war day 102: Trump warns Israel against new strikes as ceasefire holds", "url": "https://www.aljazeera.com/amp/news/2026/6/9/iran-war-day-102-trump-warns-israel-against-new-strikes-as-ceasefire-holds", "snippet": "Tehran has warned that fighting could resume if Israel continues with its attacks, including on Lebanon.", "source_name": "Al Jazeera"},
+        {"title": "Iran Just Declared the Fighting with Israel Over. Almost No One Believes It Will Last", "url": "https://nationalsecurityjournal.org/iran-just-declared-the-fighting-with-israel-over-almost-no-one-believes-it-will-last/", "snippet": "The suspension is structurally fragile because it rests not on changed strategic conditions but on the immediate cost-calculation of both sides and on Trump's direct intervention.", "source_name": "National Security Journal"},
+        {"title": "Iran and Israel halt attacks but sabre-rattling continues", "url": "https://www.aljazeera.com/news/2026/6/8/israel-and-iran-exchange-attacks-as-ceasefire-falters", "snippet": "Iran and Israel are navigating a delicate de-escalation after a brief exchange of strikes shattered a fragile truce.", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Fox News Iran much more aggressive June 10 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:01:00Z",
+      "result_count": 2,
+      "results": [
+        {"title": "Trump says Iran has become 'much more aggressive' in nuclear negotiations", "url": "https://www.foxnews.com/politics/iran-becoming-much-more-aggressive-nuclear-talks-trump-tells-fox-news", "snippet": "Trump told Fox News' Bret Baier that 'Iran is acting much differently in negotiations than it did just days ago,' describing it as 'Much more aggressive' and 'disappointing, but we are set to meet again tomorrow.'", "source_name": "Fox News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "EU sanctions IRGC Hormuz June 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:02:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "EU imposes sanctions on spokesman for Iran's IRGC naval arm, regional command", "url": "https://www.aa.com.tr/en/world/eu-imposes-sanctions-on-spokesman-for-irans-irgc-naval-arm-regional-command/3960407", "snippet": "EU sanctioned Mohammad Akbarzadeh (IRGC Naval spokesman), Hormozgan Provincial Command, Hamid Hosseini on June 8.", "source_name": "Anadolu Agency"},
+        {"title": "EU sanctions IRGC-linked entities over Strait of Hormuz operations", "url": "https://safety4sea.com/eu-sanctions-irgc-linked-entities-over-strait-of-hormuz-operations/", "snippet": "First time EU used new powers to sanction Iran for restricting freedom of navigation.", "source_name": "SAFETY4SEA"},
+        {"title": "EU sanctions two Iranians, IRGC unit for participating in Hormuz blockade", "url": "https://www.timesofisrael.com/eu-sanctions-two-iranians-irgc-unit-for-participating-in-hormuz-blockade/", "snippet": "EU listed Hormozgan Provincial Command of IRGC Navy, asset freezes and travel bans.", "source_name": "Times of Israel"},
+        {"title": "Strait of Hormuz Crisis: EU Targets Iranian Naval Command and Officials in New Sanctions Over Freedom of Navigation", "url": "https://gulfnews.com/world/mena/strait-of-hormuz-tensions-eu-sanctions-iranian-naval-command-two-officials-1.500567359", "snippet": "Sanctions approved by Council of the European Union under extended legal framework.", "source_name": "Gulf News"},
+        {"title": "EU sanctions IRGC Navy unit, 2 Iranians over crippling Strait of Hormuz blockade", "url": "https://www.wionews.com/world/eu-sanctions-irgc-navy-unit-2-iranians-over-crippling-strait-of-hormuz-blockade-1780933198425", "snippet": "EU expanded sanctions regime targeting activities that threaten freedom of navigation.", "source_name": "WION"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran rejects US nuclear proposal counteroffer Oman June 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:03:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Iran Rejects Trump's MOU and Files a Counteroffer Through Oman", "url": "https://houseofsaud.com/iran-rejects-mou-files-counteroffer-oman/", "snippet": "Iran formally rejected Trump's MoU on June 6 and submitted alternative proposal through Omani intermediaries. Baghaei: 'unacceptable and not aligned with ongoing negotiations.'", "source_name": "House of Saud"},
+        {"title": "Trump says Iran nuclear talks to resume with Tehran set to offer counterproposal", "url": "https://www.nbcnews.com/world/middle-east/trump-says-iran-nuclear-talks-resume-tehran-set-offer-counter-proposal-rcna211970", "snippet": "Tehran set to offer counterproposal via Oman. Iran proposed diluting HEU and transferring rest to third country.", "source_name": "NBC News"},
+        {"title": "Iran, US moving closer to 'finalizing memorandum of understanding' to end imposed war: Baghaei", "url": "https://www.presstv.ir/Detail/2026/05/23/769157/Iran-US-Baghaei-understanding-nuclear", "snippet": "Baghaei earlier stated both sides were moving closer to finalizing MoU.", "source_name": "Press TV"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent WTI June 10 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:04:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "Brent crude oil - Price - Chart - Historical Data", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "snippet": "Brent fell below $93, trading range $89.61-$94.43 on June 10. WTI below $90, range $86.00-$91.54.", "source_name": "Trading Economics"},
+        {"title": "Crude Oil WTI Futures Historical Prices", "url": "https://www.investing.com/commodities/crude-oil-historical-data", "snippet": "WTI crude oil trading data showing decline after Iran-Israel mutual halt.", "source_name": "Investing.com"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon strikes Hezbollah pilot zones June 10 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:05:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Israel continues strikes on Lebanon despite halting attacks on Iran", "url": "https://www.aljazeera.com/video/newsfeed/2026/6/9/aje-onl-nf_israel-continues-strikes-on-lebanon-halts-on-iran-080626", "snippet": "Netanyahu halts Iran strikes but continues Lebanon operations. Five killed in Tyre.", "source_name": "Al Jazeera"},
+        {"title": "Security officials said to undercut Katz's warning that IDF will hit Beirut if Hezbollah attacks", "url": "https://www.timesofisrael.com/liveblog-june-09-2026/", "snippet": "Israeli security officials distancing from Katz's Beirut threat; IDF continues south Lebanon operations.", "source_name": "Times of Israel"},
+        {"title": "Israel and Lebanon agree to renew fragile ceasefire, create Lebanese security zones", "url": "https://www.pbs.org/newshour/world/israel-and-lebanon-agree-to-renew-fragile-ceasefire-create-lebanese-security-zones", "snippet": "Pilot zones agreement from June 3 remains contested; Hezbollah rejected.", "source_name": "PBS"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israeli strike kills Lebanese army general LAF June 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:06:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "Israeli strike kills Lebanese army general, two soldiers; IDF says incident under review", "url": "https://www.timesofisrael.com/israeli-strike-kills-lebanese-army-general-two-soldiers-idf-says-incident-under-review/", "snippet": "BG Wassam Sabra, Captain Elie Khoury, soldier Hussein Ghozal killed June 6. Vehicle on Kfar Tebnit-Khardali road.", "source_name": "Times of Israel"},
+        {"title": "Israeli Airstrike in South Lebanon Kills Lebanese Brigadier General and Soldiers on Khardali-Nabatieh Road", "url": "https://gulfnews.com/amp/story/world/mena/israeli-airstrike-kills-several-lebanese-military-personnel-including-officer-1.500565411", "snippet": "First high-ranking LAF general killed in the conflict. PM Salam condemned.", "source_name": "Gulf News"},
+        {"title": "Lebanon's Salam condemns Israeli strike that killed general, soldiers", "url": "https://www.dawn.com/news/amp/2005677", "snippet": "Lebanese PM Salam extended condolences; threatened to upend US-brokered ceasefire.", "source_name": "Dawn"},
+        {"title": "IDF confirms launching deadly strike on Lebanese army vehicle, says it moved 'suspiciously' in combat zone", "url": "https://www.timesofisrael.com/liveblog_entry/idf-confirms-launching-deadly-strike-on-lebanese-army-vehicle-says-it-moved-suspiciously-in-combat-zone/", "snippet": "IDF: vehicle moved suspiciously toward Israeli forces near Kfar Tebnit in active combat zone.", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran defense minister Nasirzadeh warning US bases June 2026",
+      "language": "en",
+      "timestamp": "2026-06-10T23:07:00Z",
+      "result_count": 9,
+      "results": [
+        {"title": "Iran threatens to strike US bases if conflict erupts over nuclear programme", "url": "https://www.aljazeera.com/news/2025/6/11/iran-threatens-to-strike-us-bases-if-conflict-erupts-over-nuclear-programme", "snippet": "Nasirzadeh: 'If a conflict is imposed on us, all US bases are within our reach and we will boldly target them in host countries.'", "source_name": "Al Jazeera"},
+        {"title": "Threat to US bases in Middle East remains heightened following strikes on Iran", "url": "https://www.foxnews.com/world/iran-threatens-hit-us-bases-middle-east-what-threat-level", "snippet": "Senior administration officials said Iran appears dragging negotiations without concrete progress while pushing forward with nuclear efforts.", "source_name": "Fox News"},
+        {"title": "Middle East heats up as Iran threatens US bases", "url": "https://www.washingtonexaminer.com/policy/defense/3438742/us-bases-middle-east-iran-threat-nuclear-discussions/", "snippet": "Iran defense minister warning came days ahead of planned Oman meeting.", "source_name": "Washington Examiner"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 이스라엘 휴전 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-10T23:08:00Z",
+      "result_count": 3,
+      "results": [
+        {"title": "이스라엘-레바논 휴전이행 합의, 이란 반발 부를듯", "url": "https://v.daum.net/v/6GHspEIk74", "snippet": "이스라엘-레바논 파일럿 존 합의에 이란 반발 전망. 헤즈볼라 무장해제 요구.", "source_name": "Daum/연합"},
+        {"title": "레바논 휴전 거부와 이란의 '연동 전략': 헤즈볼라가 멈추지 않는 진짜 이유와 글로벌 경제 파장", "url": "https://premium.sbs.co.kr/article/UiUqTLGN0", "snippet": "이란의 3전선 연동 전략 분석. 레바논 휴전 붕괴가 호르무즈 재개방 지연시키는 구조.", "source_name": "SBS Premium"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 트럼프 협상 공격적 2026년 6월 10일",
+      "language": "ko",
+      "timestamp": "2026-06-10T23:09:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "미·이란 협상 다시 교착‥\"불발 시 더 큰 공격\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6825150_37012.html", "snippet": "미-이란 협상 교착. 이란 군부 '불발 시 더 큰 공격' 경고.", "source_name": "MBC"},
+        {"title": "미·이란 전쟁 100일, 핵 협상 '막판 고비'… 유가 2차 충격 경고", "url": "https://www.g-enews.com/article/Global-Biz/2026/06/2026060606423331482bd56fbc3c_1", "snippet": "전쟁 100일. 6월 말 재고 임계치 도달 시 유가 $150 돌파 가능. SPR 포함 7.91억 배럴 최저.", "source_name": "글로벌이코노믹"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 유가 호르무즈 EU 제재 IRGC 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-10T23:10:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "호르무즈 위기 앞에 갈라진 EU…이란 제재 완화 놓고 이견", "url": "https://www.koreadaily.com/article/20260424082723920", "snippet": "EU 내부 이란 제재 완화 vs 강화 이견.", "source_name": "미주중앙일보"},
+        {"title": "2026년 미국-이란 분쟁 관련 제재 & 에너지 안보 스페셜 뉴스레터", "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=219661", "snippet": "OFAC 추가 제재 및 산업별 대응 방안 분석.", "source_name": "법률신문"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 뉴스 6월 10일 2026 유가 휴전",
+      "language": "ko",
+      "timestamp": "2026-06-10T23:11:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "\"휴전 간신히 유지‥'해방 프로젝트' 재개 검토\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6821653_37012.html", "snippet": "트럼프: 휴전 '1% 생존 가능성'. 해방 프로젝트(Project Freedom) 재개 검토.", "source_name": "MBC"}
+      ]
+    }
+  ]
+}

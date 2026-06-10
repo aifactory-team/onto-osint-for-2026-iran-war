@@ -1,0 +1,24 @@
+{
+  "id": "src-1677",
+  "title": "Iran rejects MoU, counteroffer via Oman",
+  "url": "https://houseofsaud.com/iran-rejects-mou-files-counteroffer-oman/",
+  "snippet": "Iran formally rejected Trump's MoU June 6. Baghaei: \"unacceptable, not aligned with ongoing negotiations.\" Filed counteroffer through Omani intermediaries. Inverts sequencing: frozen assets first ($12-24B), nuclear separate. Proposes diluting HEU + transferring to third country with return clause.",
+  "source_name": "House of Saud",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-09/src-1670",
+  "related_item": null,
+  "tag_reason": "MoU 거부 + 오만 경유 역제안은 6/9 MBC 보도(src-1670)의 후속으로 구체적 내용 포함",
+  "entities": [
+    { "id": "ent-066", "type": "Person", "name": "Esmail Baghaei" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "temp-012", "type": "Location", "name": "Muscat/Oman", "type_detail": "mediation venue" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-456" },
+    { "subject": "ent-066", "predicate": "affiliatedWith", "object": "ent-002" }
+  ]
+}

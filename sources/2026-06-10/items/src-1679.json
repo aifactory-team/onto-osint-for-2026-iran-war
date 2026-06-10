@@ -1,0 +1,19 @@
+{
+  "id": "src-1679",
+  "title": "Oil prices fall",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "WTI $86.00-$91.54, Brent $89.61-$94.43 on June 10. Biggest decline since mutual halt. Market pricing in de-escalation but Hormuz still closed under dual blockade.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-09/src-1658",
+  "related_item": null,
+  "tag_reason": "6/9 유가(src-1658) 후속 — 추가 하락 확인",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" }
+  ],
+  "relations": []
+}

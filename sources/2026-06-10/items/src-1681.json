@@ -1,0 +1,23 @@
+{
+  "id": "src-1681",
+  "title": "Korean SBS 연동 전략",
+  "url": "https://premium.sbs.co.kr/article/UiUqTLGN0",
+  "snippet": "이란의 3전선 연동 전략 분석. 레바논 휴전 거부의 진짜 이유. 헤즈볼라가 멈추지 않는 구조적 이유. 글로벌 경제 파장 분석.",
+  "source_name": "SBS Premium",
+  "language": "ko",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-09/src-1657",
+  "related_item": null,
+  "tag_reason": "6/9 3전선 연계(src-1657) 후속 — 한국어 심층 분석",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "cooperatesWith", "object": "ent-047" }
+  ]
+}

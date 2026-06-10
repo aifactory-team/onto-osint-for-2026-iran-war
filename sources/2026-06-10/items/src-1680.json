@@ -1,0 +1,25 @@
+{
+  "id": "src-1680",
+  "title": "Israel continues Lebanon strikes",
+  "url": "https://www.aljazeera.com/video/newsfeed/2026/6/9/aje-onl-nf_israel-continues-strikes-on-lebanon-halts-on-iran-080626",
+  "snippet": "Netanyahu halts Iran strikes but continues Lebanon operations. Katz confirms. 5 killed in Tyre Monday. 3,593 total killed, 10,990 wounded in Lebanon since war. Security officials undercut Katz's Beirut threat warning.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-09/src-1654",
+  "related_item": null,
+  "tag_reason": "6/9 이스라엘 공격 중단(src-1654) 후속 — 레바논은 예외 확인",
+  "entities": [
+    { "id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-293", "type": "Person", "name": "Israel Katz", "role": "Israel Defense Minister" },
+    { "id": "temp-013", "type": "Location", "name": "Tyre" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "opposes", "object": "ent-047" },
+    { "subject": "ent-004", "predicate": "opposes", "object": "ent-050" }
+  ]
+}

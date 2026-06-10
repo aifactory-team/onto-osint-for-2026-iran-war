@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-06-09",
+  "last_updated": "2026-06-10",
   "classes": [
     {
       "id": "Entity",
@@ -866,6 +866,13 @@
       "target": "5 new entities (ent-542~ent-546), 5 existing updated",
       "reason": "이스라엘 마흐샤르 석유화학 반격(4/8 이후 첫 에너지 타격), 이란-이스라엘 상호 공격 중단(조건부), 트럼프 'on your own very soon' 유기 위협, 중동 항공 재개방, 이란 레바논 조건부 평화 — 모든 신규 엔티티 및 관계가 기존 Person/Organization/Event/Location/Concept 클래스 및 기존 관계 유형으로 표현 가능. 스키마 변경 없음.",
       "source_ids": ["src-1642", "src-1643", "src-1644", "src-1645", "src-1646"]
+    },
+    {
+      "date": "2026-06-10",
+      "action": "no_schema_change",
+      "target": "9 new entities (ent-547~ent-555), 6 existing updated",
+      "reason": "트럼프 'much more aggressive' 인터뷰, EU IRGC 호르무즈 최초 제재(아크바르자데·호르모즈간사령부·호세이니), 나시르자데 미군기지 위협, LAF 준장 사브라 IDF 사살(전쟁 최고위급), MoU 거부·오만 역제안, 유가 하락, 상호 중단 2일째 — 모든 신규 엔티티 및 관계가 기존 Person/Organization/Event/Location/Concept 클래스 및 기존 관계 유형으로 표현 가능. 스키마 변경 없음.",
+      "source_ids": ["src-1672", "src-1673", "src-1674", "src-1675", "src-1676", "src-1677", "src-1678", "src-1679", "src-1680", "src-1681", "src-1682"]
     }
   ]
 }

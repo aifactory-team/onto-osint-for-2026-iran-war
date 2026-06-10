@@ -1,0 +1,22 @@
+{
+  "id": "src-1676",
+  "title": "Korean 100일 유가 경고",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/06/2026060606423331482bd56fbc3c_1",
+  "snippet": "전쟁 100일. 미 원유 재고 SPR 포함 7.91억 배럴로 2024년 2월 이후 최저. 전쟁 후 8주 연속 감소, 총 6400만 배럴 감소. 6월 말 재고 임계치 도달 시 유가 $150 돌파 가능.",
+  "source_name": "글로벌이코노믹",
+  "language": "ko",
+  "discovered_date": "2026-06-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "SPR 최저치 및 $150 돌파 경고는 이전 보도에 없던 새로운 분석",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "temp-011", "type": "Concept", "name": "US SPR Crisis", "domain": "energy/reserves" }
+  ],
+  "relations": [
+    { "subject": "temp-011", "predicate": "causedBy", "object": "ent-008" }
+  ]
+}

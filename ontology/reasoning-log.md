@@ -2398,3 +2398,29 @@
 ### 스키마 변경 없음
 - 5개 새 엔티티 모두 기존 클래스(Event 4, Location 1)로 분류 가능
 - 16개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형(participatesIn, locatedIn, causedBy, follows, opposes, relatedTo, causalChain)으로 표현 가능
+
+## 2026-06-10 추론 결과
+
+### 추론 #1: co_participation (IRGC 호르모즈간 ↔ EU 제재)
+- **입력:** (ent-549 [IRGC Hormozgan], affiliatedWith, ent-005 [IRGC]), (ent-049 [EU], participatesIn, ent-553 [EU 제재])
+- **추론:** (ent-549, relatedTo, ent-553) — 호르모즈간사령부가 EU 제재의 직접 대상
+- **신뢰도:** 0.85
+- **상태:** 확정
+
+### 추론 #2: co_participation (나시르자데 ↔ 트럼프 인터뷰)
+- **입력:** (ent-547 [Nasirzadeh], opposes, ent-003 [US Military]), (ent-001 [Trump], participatesIn, ent-555 [인터뷰])
+- **추론:** (ent-547, relatedTo, ent-555) — 같은 날 병렬 에스컬레이션 신호. 이란 국방장관의 미군기지 위협과 트럼프의 '공격적' 발언이 동시에 발생.
+- **신뢰도:** 0.75
+- **상태:** 확정
+
+### 추론 #3: event_chain (LAF 공격 ← 상호 중단)
+- **입력:** (ent-544 [상호 중단], relatedTo, ent-050 [Lebanon]), (ent-004 [Israel], participatesIn, ent-554 [LAF 공격])
+- **추론:** (ent-554, causedBy, ent-544) — 상호 중단이 이란-이스라엘 직접 교전을 중단시켰으나 레바논 전선은 억제하지 못함. LAF 준장 사살이 이를 입증.
+- **신뢰도:** 0.70
+- **상태:** 확정
+
+### 추론 #4: co_participation (이스라엘 ↔ LAF — 모순적 관계)
+- **입력:** (ent-004 [Israel], cooperatesWith, ent-552 [LAF]) via pilot zones, (ent-004, opposes, ent-552) via ent-554
+- **추론:** (ent-004, potentialRelation, ent-552) — 이스라엘과 LAF는 파일럿 존에서 협력하도록 합의했으나, IDF가 LAF 장군을 사살함으로써 모순적 관계 형성. 파일럿 존 이행의 구조적 장애.
+- **신뢰도:** 0.80
+- **상태:** 확정

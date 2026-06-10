@@ -1,0 +1,24 @@
+{
+  "id": "src-1674",
+  "title": "Iran Nasirzadeh US bases warning",
+  "url": "https://www.aljazeera.com/news/2025/6/11/iran-threatens-to-strike-us-bases-if-conflict-erupts-over-nuclear-programme",
+  "snippet": "Iran Defense Minister Aziz Nasirzadeh: \"If a conflict is imposed on us, all US bases are within our reach and we will boldly target them in host countries.\" Ahead of planned Oman meeting.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-06-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란 국방장관의 미군기지 직접 위협은 이전에 보도되지 않은 새로운 경고",
+  "entities": [
+    { "id": "temp-005", "type": "Person", "name": "Aziz Nasirzadeh", "role": "Iran Defense Minister" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-059", "type": "Organization", "name": "CENTCOM" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" }
+  ],
+  "relations": [
+    { "subject": "temp-005", "predicate": "affiliatedWith", "object": "ent-002" },
+    { "subject": "temp-005", "predicate": "opposes", "object": "ent-003" }
+  ]
+}
