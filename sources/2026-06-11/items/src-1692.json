@@ -1,0 +1,33 @@
+{
+  "id": "src-1692",
+  "title": "Iran Retaliatory Strikes on US Bases — Jordan, Kuwait, Bahrain, Iraq",
+  "url": "https://www.euronews.com/2026/06/10/tehran-launches-retaliatory-attacks-on-us-bases-following-strikes-on-iran",
+  "snippet": "Iran launched retaliatory strikes across four countries: missile attack on Al-Harir base in Iraq destroying US radar in Iraqi Kurdistan, attacks on US vessels in Hormuz, drone/missile attacks on Bahrain (5th Fleet), Kuwait (Ali Al-Salem), and Jordan (Al-Azraq/Muwaffaq Salti). IRGC claimed 21 attacks on US targets. Jordan intercepted 5 missiles with no casualties reported. This represents the most geographically widespread Iranian retaliation of the war.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "전쟁 이후 가장 광범위한 이란 보복 — 4개국 동시 공격, IRGC 21개 타격 주장",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "executed 21 retaliatory attacks"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "retaliating nation"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "targets"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Retaliatory Strikes June 11", "role": "primary event"},
+    {"id": "temp-005", "type": "Location", "name": "Al-Harir Air Base", "role": "Iraq, missile target"},
+    {"id": "ent-525", "type": "Location", "name": "Ali Al Salem Air Base", "role": "Kuwait, drone/missile target"},
+    {"id": "temp-007", "type": "Location", "name": "Al-Azraq / Muwaffaq Salti", "role": "Jordan, drone/missile target"},
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "host nation, 5th Fleet targeted"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "host nation targeted"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "Al-Harir base location"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "US vessels attacked"},
+    {"id": "temp-002", "type": "Event", "name": "US Strikes on Iran June 11", "role": "trigger for retaliation"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "causedBy", "object": "temp-002"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-003"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "temp-005", "predicate": "locatedIn", "object": "ent-410"}
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "entities": [
     {
       "id": "ent-001",
@@ -13,11 +13,12 @@
         "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'",
         "action_may30": "heading to Situation Room for 'final determination' on Iran deal; demands: never nuclear weapon, Hormuz immediately open unrestricted, no tolls; shared MoU draft with allied nations",
         "action_jun04": "says deal possible 'this weekend'; 'I hear the negotiation itself is going very well'; claims Iran 'really wants' a deal; contradicts Araghchi 'no progress'",
-        "action_jun09": "'Bibi, you better be careful, or you will be on your own very soon'; stopped Israel from 'significant attack on Tehran'; demands 'immediate stop' and 'immediate ceasefire'; 'I made Netanyahu stop'"
+        "action_jun09": "'Bibi, you better be careful, or you will be on your own very soon'; stopped Israel from 'significant attack on Tehran'; demands 'immediate stop' and 'immediate ceasefire'; 'I made Netanyahu stop'",
+        "action_jun11": "Situation Room with Vance/Kushner/Witkoff; authorized 49 Tomahawk strikes on Iran (SW Iran, 40mi from Tehran); ultimatum via Qatar: 'bomb the S out of them tomorrow night'; 'less confident' about deal; claimed Iran called for halt"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-09",
-      "mention_count": 307
+      "last_seen": "2026-06-11",
+      "mention_count": 315
     },
     {
       "id": "ent-002",
@@ -28,11 +29,12 @@
         "location": "Middle East",
         "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension",
         "action_may30": "IRGC retaliatory strike on US airbase following CENTCOM May 26 strikes near Bandar Abbas; IRGC warns 'utter ruin' if diplomacy fails; Ali Azmaei IRGC Navy Chief possibly killed (unconfirmed)",
-        "action_jun09": "halts military offensive against Israel (conditional); conditions peace on Lebanon ceasefire; warns ready to resume; airspace reopened"
+        "action_jun09": "halts military offensive against Israel (conditional); conditions peace on Lebanon ceasefire; warns ready to resume; airspace reopened",
+        "action_jun11": "retaliatory strikes on US bases in 4 countries (Iraq Al-Harir, Kuwait Ali Al-Salem, Bahrain 5th Fleet, Jordan Muwaffaq Salti); IRGC claims 21 attacks; claims complete Hormuz closure (CENTCOM denied); escalation cycle fully resumed"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-09",
-      "mention_count": 349
+      "last_seen": "2026-06-11",
+      "mention_count": 360
     },
     {
       "id": "ent-003",
@@ -40,11 +42,12 @@
       "name": "US Military",
       "properties": {
         "type": "military",
-        "location": "United States"
+        "location": "United States",
+        "action_jun11": "49 Tomahawk + fighter jet bombardment of Iran SW targets (40mi from Tehran); embassy evacuation ordered from Baghdad; authorized departures from Bahrain/Kuwait; M/T Settebello tanker disabled in Hormuz"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-05-17",
-      "mention_count": 59
+      "last_seen": "2026-06-11",
+      "mention_count": 68
     },
     {
       "id": "ent-004",
@@ -60,8 +63,8 @@
         "action_jun09": "IAF struck Mahshahr petrochemical complex (first energy site since Apr 8) + dismantled restored Iranian air defenses; 15 wounded no fatalities; Netanyahu proceeded despite Trump's request to halt; halted attacks after Trump 'on your own' threat"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-09",
-      "mention_count": 167
+      "last_seen": "2026-06-11",
+      "mention_count": 170
     },
     {
       "id": "ent-005",
@@ -73,11 +76,12 @@
         "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began",
         "action_may30": "retaliatory strike on US airbase (4:50 AM) following CENTCOM May 26 near Bandar Abbas; 'serious warning' — further aggression will receive 'more decisive response'; warns 'utter ruin' if renewed conflict; Navy Chief Ali Azmaei possibly killed (unconfirmed)",
         "action_jun04": "drone attack on Kuwait International Airport T1 (1 killed Indian citizen, 63+ wounded, 7 major surgery); denies responsibility claiming US interceptor failure; Navy claims targeting US destroyer command center in Gulf of Oman (CENTCOM: 'Iran is lying')",
-        "action_jun09": "restored air defenses dismantled by IAF at Mahshahr; halts military offensive (conditional); warns ready to resume"
+        "action_jun09": "restored air defenses dismantled by IAF at Mahshahr; halts military offensive (conditional); warns ready to resume",
+        "action_jun11": "21 retaliatory attacks claimed on US bases in Iraq (Al-Harir), Kuwait (Ali Al-Salem), Bahrain (5th Fleet HQ), Jordan (Muwaffaq Salti — 5 missiles intercepted); claims complete Hormuz closure (CENTCOM denied)"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-09",
-      "mention_count": 141
+      "last_seen": "2026-06-11",
+      "mention_count": 152
     },
     {
       "id": "ent-006",
@@ -111,11 +115,12 @@
       "properties": {
         "type": "strait/waterway",
         "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings",
-        "status_may30": "Trump demands 'immediately open, unrestricted, no tolls'; Brent oil -19% in May (worst monthly since March 2020, $92.05); key demand in Situation Room 'final determination'"
+        "status_may30": "Trump demands 'immediately open, unrestricted, no tolls'; Brent oil -19% in May (worst monthly since March 2020, $92.05); key demand in Situation Room 'final determination'",
+        "status_jun11": "IRGC claims 'complete closure' of Hormuz; CENTCOM denies; M/T Settebello Palau-flagged tanker disabled by CENTCOM (3 Indian crew missing, 21 rescued); dual chokepoint threat with Bab el-Mandeb"
       },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-06-03",
-      "mention_count": 306
+      "last_seen": "2026-06-11",
+      "mention_count": 312
     },
     {
       "id": "ent-009",
@@ -1346,11 +1351,12 @@
       "properties": {
         "role": "US Defense Secretary",
         "affiliation": "United States",
-        "statement": "blockade 'as long as it takes', US 'maximally postured' to resume military operations, 'if Iran chooses poorly, bombs on infrastructure'"
+        "statement": "blockade 'as long as it takes', US 'maximally postured' to resume military operations, 'if Iran chooses poorly, bombs on infrastructure'",
+        "action_jun11": "'negotiate with bombs' doctrine — signals coercive diplomacy framework where military strikes and negotiations proceed simultaneously"
       },
       "first_seen": "2026-04-16",
-      "last_seen": "2026-06-03",
-      "mention_count": 25
+      "last_seen": "2026-06-11",
+      "mention_count": 28
     },
     {
       "id": "ent-105",
@@ -5330,11 +5336,12 @@
       "properties": {
         "date": "2026-05-28",
         "participants": "US (Vance, Witkoff, Kushner), Iran (Ghalibaf), Pakistan (mediator)",
-        "detail": "Negotiators reached preliminary MoU for 60-day truce extension, Hormuz reopening, nuclear talks. Trump approval pending. Vance: 'still TBD', 'couple of language points' on HEU/enrichment remain. White House confirms negotiators agreed. Iran denies finalization."
+        "detail": "Negotiators reached preliminary MoU for 60-day truce extension, Hormuz reopening, nuclear talks. Trump approval pending. Vance: 'still TBD', 'couple of language points' on HEU/enrichment remain. White House confirms negotiators agreed. Iran denies finalization.",
+        "status_jun11": "effectively dead — 49 Tomahawk strikes + 21 Iran retaliatory attacks destroy the de-escalation foundation; 60-day truce extension impossible; mutual trust completely dissolved"
       },
       "first_seen": "2026-05-29",
-      "last_seen": "2026-06-03",
-      "mention_count": 16
+      "last_seen": "2026-06-11",
+      "mention_count": 18
     },
     {
       "id": "ent-457",
@@ -6339,11 +6346,12 @@
       "properties": {
         "date": "2026-06-09",
         "participants": ["Iran", "Israel"],
-        "description": "Iran halts military offensive against Israel (conditional); Netanyahu halts attacks on Iran (after Trump pressure); both warn ready to resume"
+        "description": "Iran halts military offensive against Israel (conditional); Netanyahu halts attacks on Iran (after Trump pressure); both warn ready to resume",
+        "status_jun11": "COLLAPSED — halt lasted only 48 hours; Apache helicopter downing triggered US 49 Tomahawk response; Iran retaliatory strikes on 4 countries; halt's structural weaknesses (informal, limited scope, no enforcement) fully exposed"
       },
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-09",
-      "mention_count": 10
+      "last_seen": "2026-06-11",
+      "mention_count": 15
     },
     {
       "id": "ent-545",
@@ -6491,9 +6499,171 @@
       "first_seen": "2026-06-10",
       "last_seen": "2026-06-10",
       "mention_count": 2
+    },
+    {
+      "id": "ent-556",
+      "type": "Concept",
+      "name": "Negotiate with Bombs Doctrine",
+      "properties": {
+        "domain": "coercive diplomacy / military strategy",
+        "originator": "Pete Hegseth (US Defense Secretary)",
+        "detail": "Framework where military strikes and diplomatic negotiations proceed simultaneously rather than sequentially; rejects premise that combat and talks are mutually exclusive; operationalized on June 11 with 49 Tomahawks alongside continued messaging via Qatar"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-557",
+      "type": "Event",
+      "name": "US Strikes on Iran (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "location": "SW Iran, targets 40 miles from Tehran",
+        "participants": ["Donald Trump", "US Military", "Pete Hegseth", "JD Vance", "Jared Kushner", "Steve Witkoff"],
+        "weapons": "49 Tomahawk cruise missiles + fighter jet bombardment",
+        "decision": "Situation Room authorization; Trump present with Vance/Kushner/Witkoff",
+        "significance": "largest single US strike on Iran in the war; proximity to Tehran signals willingness to escalate; breaks the 48-hour mutual halt"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-558",
+      "type": "Event",
+      "name": "Iran Retaliatory Strikes (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "participants": ["IRGC", "Iran"],
+        "attack_count": 21,
+        "targets": ["Al-Harir Air Base (Erbil, Iraq)", "Kurdistan radar facilities", "Bahrain 5th Fleet HQ", "Ali Al-Salem Air Base (Kuwait)", "Muwaffaq Salti Air Base (Al-Azraq, Jordan)"],
+        "jordan_result": "5 missiles intercepted",
+        "significance": "simultaneous attacks on US assets in 4 countries; demonstrates pre-planned retaliatory capability; proportional response to 49 Tomahawks"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-559",
+      "type": "Event",
+      "name": "US Embassy Evacuation Order (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "participants": ["US State Department", "US Military"],
+        "baghdad": "ordered departure",
+        "bahrain_kuwait": "authorized departure",
+        "military_dependents": "voluntary departure",
+        "significance": "pre-positioning signal for imminent larger strikes; echoes 2003 Iraq invasion embassy evacuation pattern"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-560",
+      "type": "Location",
+      "name": "Al-Harir Air Base",
+      "properties": {
+        "type": "military airbase",
+        "location": "Erbil, Kurdistan Region, Iraq",
+        "significance": "US military base; target of Iran retaliatory strikes Jun 11"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-561",
+      "type": "Location",
+      "name": "Ali Al-Salem Air Base",
+      "properties": {
+        "type": "military airbase",
+        "location": "Kuwait",
+        "significance": "US military base; target of Iran retaliatory strikes Jun 11"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-562",
+      "type": "Location",
+      "name": "Muwaffaq Salti Air Base",
+      "properties": {
+        "type": "military airbase",
+        "location": "Al-Azraq, Jordan",
+        "significance": "US military base; target of Iran retaliatory strikes Jun 11; 5 missiles intercepted"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-563",
+      "type": "Event",
+      "name": "M/T Settebello Tanker Attack (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "location": "Strait of Hormuz",
+        "participants": ["CENTCOM", "India"],
+        "vessel": "M/T Settebello (Palau-flagged)",
+        "result": "tanker disabled by CENTCOM; 3 Indian crew missing; 21 crew rescued",
+        "aftermath": "India protests; India-US tensions over missing nationals"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-564",
+      "type": "Event",
+      "name": "Houthi Red Sea Maritime Ban (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "participants": ["Houthis (Ansar Allah)"],
+        "scope": "complete ban on Israeli navigation in Red Sea",
+        "threat": "Bab el-Mandeb closure",
+        "significance": "combined with IRGC Hormuz closure claim = dual chokepoint threat; 30% global containers + 25% energy transit at risk"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-565",
+      "type": "Event",
+      "name": "Trump Ultimatum via Qatar (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "participants": ["Donald Trump", "Qatar (intermediary)", "Iran"],
+        "message": "'bomb the S out of them tomorrow night'",
+        "channel": "Qatar intermediary",
+        "trump_claim": "Iran called for halt after receiving message",
+        "significance": "operationalizes Hegseth 'negotiate with bombs' doctrine; 24-hour deadline for compliance"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-566",
+      "type": "Event",
+      "name": "Mutual Halt Collapse (Jun 11)",
+      "properties": {
+        "date": "2026-06-11",
+        "participants": ["US", "Iran", "Israel"],
+        "trigger": "Apache helicopter downing (presumed)",
+        "description": "48-hour mutual halt (Jun 9) completely collapsed; Apache downing -> US 49 Tomahawk response -> Iran 21-attack retaliation cycle; exposes structural weaknesses of informal halt (no written agreement, limited scope, no enforcement)",
+        "consequence": "MoU framework effectively dead; embassy evacuations; Trump ultimatum"
+      },
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "mention_count": 8
     }
   ],
-  "total_count": 498,
+  "total_count": 509,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -6977,6 +7147,13 @@
       "target": "9 new entities (ent-547~ent-555), 6 existing updated",
       "reason": "트럼프 'much more aggressive' 톤 변화(Fox News 인터뷰), EU IRGC 호르무즈 제재(아크바르자데·호르모즈간사령부·호세이니 — EU 항행자유 프레임워크 하 최초), 이란 국방장관 나시르자데 미군기지 위협, IDF 레바논군 준장 와삼 사브라 사살(전쟁 중 최고위급 LAF 사망), 이란 MoU 거부·오만 경유 역제안, 유가 하락(WTI $86-91/Brent $89-94), 상호 중단 2일째 취약, 이스라엘 레바논 공습 지속, 미 SPR 최저치·$150 돌파 경고. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1672", "src-1673", "src-1674", "src-1675", "src-1676", "src-1677", "src-1678", "src-1679", "src-1680", "src-1681", "src-1682"]
+    },
+    {
+      "date": "2026-06-11",
+      "action": "add_instances",
+      "target": "11 new entities (ent-556~ent-566), 9 existing updated",
+      "reason": "상호 중단 48시간 내 완전 붕괴, 미국 49 토마호크 이란 본토 폭격(테헤란 40mi·상황실 결정), 이란 4개국 미군기지 21건 보복(Al-Harir/Ali Al-Salem/바레인/Muwaffaq Salti), 미 대사관 바그다드 철수 명령, 헤그세스 'negotiate with bombs' 독트린, 트럼프 카타르 경유 최후통첩('bomb the S out of them'), IRGC 호르무즈 완전 봉쇄 주장(CENTCOM 부인), 후티 Red Sea 이스라엘 항행 완전 금지, M/T Settebello 유조선 무력화(인도 선원 3명 실종), MoU 사실상 사망. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1690", "src-1691", "src-1692", "src-1693", "src-1694", "src-1695", "src-1696", "src-1697", "src-1698", "src-1699", "src-1700", "src-1701"]
     }
   ]
 }

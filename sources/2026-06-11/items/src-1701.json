@@ -1,0 +1,24 @@
+{
+  "id": "src-1701",
+  "title": "Lebanon/Beirut — Families Flee as Israel Threatens Renewed Strikes",
+  "url": "https://news.un.org/en/story/2026/06/1167615",
+  "snippet": "UN reports families fleeing Beirut southern suburbs as Israel threatens renewed strikes on Hezbollah amid the broader Iran-US escalation. The collapse of the mutual halt has raised fears that the fragile Lebanon track will also unravel, with Israel signaling willingness to intensify operations.",
+  "source_name": "UN News",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "update",
+  "related_report": "2026-06-10/src-1680",
+  "related_item": null,
+  "tag_reason": "6/10 이스라엘 레바논 공습 지속(src-1680) 후속 — 민간인 대피, 상호 중단 붕괴로 레바논 전선 위기 심화",
+  "entities": [
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "families fleeing Beirut suburbs"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "threatens renewed strikes"},
+    {"id": "temp-014", "type": "Organization", "name": "United Nations", "role": "reports displacement"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "target of threatened strikes"},
+    {"id": "ent-544", "type": "Event", "name": "Iran-Israel Mutual Halt", "role": "collapse raises Lebanon fears"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-050"}
+  ]
+}

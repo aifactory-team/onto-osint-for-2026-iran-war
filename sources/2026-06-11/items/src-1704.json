@@ -1,0 +1,21 @@
+{
+  "id": "src-1704",
+  "title": "Iran attacks Kuwait, Bahrain, Jordan — Jerusalem Post coverage",
+  "url": "https://www.jpost.com/middle-east/article-898914",
+  "snippet": "Jerusalem Post reports on Iran's retaliatory strikes hitting US bases in Kuwait, Bahrain, and Jordan. Covers missile intercepts and damage assessments. Duplicate coverage of the same events reported in src-1692.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "2026-06-11/src-1692",
+  "related_item": "src-1692",
+  "tag_reason": "src-1692 이란 보복 공격의 중복 보도 — Jerusalem Post 시각",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "attacker"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "targeted"},
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "targeted"},
+    {"id": "temp-007", "type": "Location", "name": "Al-Azraq / Muwaffaq Salti", "role": "Jordan targeted"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Retaliatory Strikes June 11", "role": "same event"}
+  ],
+  "relations": []
+}

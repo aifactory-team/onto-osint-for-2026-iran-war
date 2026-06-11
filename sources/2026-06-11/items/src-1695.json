@@ -1,0 +1,23 @@
+{
+  "id": "src-1695",
+  "title": "IRGC Claims Complete Hormuz Closure — CENTCOM Denies",
+  "url": "https://www.iranintl.com/en/liveblog/202606062776",
+  "snippet": "IRGC claimed Strait of Hormuz is 'completely closed' due to US strikes on Iran. CENTCOM directly contradicted: 'Commercial ships are continuing to transit.' An information war has erupted over the actual status of the strait, with both sides presenting conflicting claims about maritime access.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "호르무즈 해협 완전 폐쇄 주장 vs CENTCOM 부인 — 정보전 심화",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "claimed complete Hormuz closure"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "denied closure, confirmed transit continuing"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "contested chokepoint"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "claiming closure"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-059"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

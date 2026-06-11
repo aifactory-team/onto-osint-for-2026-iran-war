@@ -1,0 +1,18 @@
+{
+  "id": "src-1703",
+  "title": "2026 Strait of Hormuz crisis - Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+  "snippet": "Wikipedia general overview of the 2026 Strait of Hormuz crisis. Covers the maritime blockade, naval confrontations, and economic impacts. No new information beyond existing reporting.",
+  "source_name": "Wikipedia",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "background",
+  "related_item": null,
+  "tag_reason": "위키백과 배경 문서 — 호르무즈 위기 종합, 신규 정보 없음",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "crisis subject"},
+    {"id": "ent-026", "type": "Concept", "name": "Strait of Hormuz Blockade", "role": "overview"}
+  ],
+  "relations": []
+}

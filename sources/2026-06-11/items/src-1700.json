@@ -1,0 +1,23 @@
+{
+  "id": "src-1700",
+  "title": "미·이란 협상 다시 교착‥\"불발 시 더 큰 공격\"",
+  "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6825150_37012.html",
+  "snippet": "미이란 협상이 다시 교착 상태에 빠졌으며, 불발 시 더 큰 공격이 예고되고 있다. 토마호크 미사일 재고 부족 우려가 제기되며, 장기전 시 미군 타격 능력에 의문이 제기되고 있다. 트럼프의 최후통첩과 이란의 보복이 맞물리며 협상 재개 전망이 어두워지고 있다.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-06-11",
+  "tag": "update",
+  "related_report": "2026-06-10/src-1682",
+  "related_item": null,
+  "tag_reason": "6/10 '휴전 간신히 유지'(src-1682) 후속 — 휴전 붕괴 후 협상 교착, 토마호크 재고 우려 신규 정보",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "최후통첩 발부"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "협상 교착 당사자"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "토마호크 재고 부족 우려"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "교착 상태"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-002"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-1691",
+  "title": "Hegseth 'Negotiate with Bombs' — Pentagon escalation rhetoric",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strikes-apache/",
+  "snippet": "Defense Secretary Pete Hegseth declared: 'If we need to negotiate with bombs, we'll negotiate with bombs. And we're very good at it.' This rhetoric marks the Pentagon's sharpest escalation language since the war began, signaling a decisive shift from diplomatic to military track.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-1690",
+  "tag_reason": "헤그세스 국방장관의 전쟁 이후 가장 강경한 발언 — 외교 트랙에서 군사 트랙으로의 전환 공식화",
+  "entities": [
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "Defense Secretary, 'negotiate with bombs' statement"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "Pentagon"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target of rhetoric"}
+  ],
+  "relations": [
+    {"subject": "ent-104", "predicate": "affiliatedWith", "object": "ent-003"},
+    {"subject": "ent-104", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

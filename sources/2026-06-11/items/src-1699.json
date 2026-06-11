@@ -1,0 +1,23 @@
+{
+  "id": "src-1699",
+  "title": "MoU Negotiations Collapse — From Diplomacy to Military Escalation",
+  "url": "https://www.axios.com/2026/05/28/iran-peace-deal-trump-approval",
+  "snippet": "In 48 hours, Trump's posture shifted from 'disappointing' (June 10) to Hegseth's 'negotiate with bombs' to Trump's 'bomb the S out of them tomorrow night.' The MoU 60-day framework appears dead. The military track has decisively replaced the diplomatic track, marking the most significant strategic pivot since the war began.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "update",
+  "related_report": "2026-06-10/src-1677",
+  "related_item": null,
+  "tag_reason": "6/10 이란 MoU 거부/역제안(src-1677) 후속 — 48시간 만에 외교→군사 전환 공식화, MoU 프레임워크 사실상 사망",
+  "entities": [
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-Day Framework", "role": "appears dead"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "'bomb the S out of them' ultimatum"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "'negotiate with bombs'"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "rejected MoU, now under military pressure"}
+  ],
+  "relations": [
+    {"subject": "temp-002", "predicate": "causedBy", "object": "ent-456"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

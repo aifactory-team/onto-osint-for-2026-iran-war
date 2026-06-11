@@ -1,0 +1,27 @@
+{
+  "id": "src-1693",
+  "title": "US Embassy Ordered Departure — Baghdad, Bahrain, Kuwait",
+  "url": "https://www.newsweek.com/iraq-us-embassy-evacuated-iran-nuclear-talks-2084155",
+  "snippet": "State Department ordered departure of non-emergency personnel from Baghdad and authorized voluntary departures from Bahrain and Kuwait embassies. Pentagon authorized voluntary departure of troops' dependents across the Middle East. Triggered by Nasirzadeh's threats and the escalation cycle. Trump stated: 'I did think so and I'm getting more and more—less confident about it' regarding a nuclear deal.",
+  "source_name": "Newsweek",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "미 대사관 퇴거 명령 — 전쟁 이후 최대 비전투 인력 철수, 확전 징후 극대화",
+  "entities": [
+    {"id": "temp-004", "type": "Event", "name": "US Embassy Evacuation Order", "role": "primary event"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "'less confident' about nuclear deal"},
+    {"id": "ent-547", "type": "Person", "name": "Aziz Nasirzadeh", "role": "threats triggered evacuation"},
+    {"id": "ent-410", "type": "Location", "name": "Iraq", "role": "Baghdad embassy ordered departure"},
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "voluntary departure authorized"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "voluntary departure authorized"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "Pentagon authorized dependents departure"}
+  ],
+  "relations": [
+    {"subject": "temp-004", "predicate": "causedBy", "object": "temp-003"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-004", "predicate": "locatedIn", "object": "ent-410"}
+  ]
+}

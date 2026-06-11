@@ -1,0 +1,30 @@
+{
+  "id": "src-1690",
+  "title": "US Strikes on Iran — 49 Tomahawk + Fighter Jets",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strikes-apache/",
+  "snippet": "Trump ordered strikes from the Situation Room with Vance, Kushner, and Witkoff present. 49 Tomahawk missiles and fighter jet bombardment targeted ammunition depots, C2 nodes, radar installations, and air defense systems in southwest Iran. The closest target was approximately 40 miles from Tehran. Strikes represent the collapse of the 2-day mutual halt and the most significant US direct action against Iran since the war began.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Day 104 최대 사건 — 상호 중단 2일 만에 미국의 대규모 이란 본토 공습, 전쟁의 새로운 단계 진입",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "ordered strikes from Situation Room"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "present in Situation Room"},
+    {"id": "ent-042", "type": "Person", "name": "Jared Kushner", "role": "present in Situation Room"},
+    {"id": "ent-043", "type": "Person", "name": "Steve Witkoff", "role": "present in Situation Room"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "executed Tomahawk + fighter jet strikes"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target nation"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "operational command"},
+    {"id": "temp-002", "type": "Event", "name": "US Strikes on Iran June 11", "role": "primary event"},
+    {"id": "ent-544", "type": "Event", "name": "Iran-Israel Mutual Halt", "role": "collapsed by this action"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-002"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-002"},
+    {"subject": "temp-002", "predicate": "causedBy", "object": "ent-544"},
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

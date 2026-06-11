@@ -1,0 +1,19 @@
+{
+  "id": "src-1702",
+  "title": "2026 Iran war - Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+  "snippet": "Wikipedia general overview article on the 2026 Iran war. Provides background and chronological summary of the conflict. No new information beyond existing reporting.",
+  "source_name": "Wikipedia",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "background",
+  "related_item": null,
+  "tag_reason": "위키백과 배경 문서 — 기존 보도 종합, 신규 정보 없음",
+  "entities": [
+    {"id": "ent-015", "type": "Event", "name": "2026 Iran War", "role": "overview article"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "belligerent"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "belligerent"}
+  ],
+  "relations": []
+}

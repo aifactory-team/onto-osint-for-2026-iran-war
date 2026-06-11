@@ -1,0 +1,20 @@
+{
+  "id": "src-1708",
+  "title": "US Embassy ordered evacuation — Jerusalem Post coverage",
+  "url": "https://www.jpost.com/middle-east/article-857404",
+  "snippet": "Jerusalem Post covers the US Embassy ordered departures from Baghdad and authorized voluntary departures from Bahrain and Kuwait. Covers the broader security implications. Duplicate coverage of src-1693.",
+  "source_name": "Jerusalem Post",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "2026-06-11/src-1693",
+  "related_item": "src-1693",
+  "tag_reason": "src-1693 미 대사관 퇴거의 중복 보도 — Jerusalem Post 시각",
+  "entities": [
+    {"id": "temp-004", "type": "Event", "name": "US Embassy Evacuation Order", "role": "same event"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "departures"},
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "voluntary departure"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "voluntary departure"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-1705",
+  "title": "Iran Launches New Missile Attacks — Gulf News coverage",
+  "url": "https://gulfnews.com/amp/story/world/mena/iranian-missiles-target-bahrain-and-kuwait-in-fresh-strikes-1.500565582",
+  "snippet": "Gulf News covers Iranian missile attacks targeting Bahrain and Kuwait military installations hosting US forces. Provides Gulf-region perspective on the retaliatory strikes. Duplicate coverage of src-1692.",
+  "source_name": "Gulf News",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "2026-06-11/src-1692",
+  "related_item": "src-1692",
+  "tag_reason": "src-1692 이란 보복 공격의 중복 보도 — Gulf News 걸프 지역 시각",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "attacker"},
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "targeted"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "targeted"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Retaliatory Strikes June 11", "role": "same event"}
+  ],
+  "relations": []
+}

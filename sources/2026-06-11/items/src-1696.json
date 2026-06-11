@@ -1,0 +1,25 @@
+{
+  "id": "src-1696",
+  "title": "Houthi Escalation Threat — Red Sea Maritime Ban",
+  "url": "https://www.euronews.com/2026/06/08/houthis-join-iran-war-fight-threatening-red-sea-shipping-amid-hormuz-closure",
+  "snippet": "Houthis declared a 'complete and total ban on Israeli maritime navigation in Red Sea' and threatened to close Bab el-Mandeb if the conflict escalates further. With IRGC claiming Hormuz closure and Houthis threatening Bab el-Mandeb, both of the world's critical maritime chokepoints connecting the Indian Ocean to global markets are now under simultaneous threat.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "후티 반군 홍해 항행 금지 선언 — 호르무즈+바벨만데브 동시 위협, 글로벌 해상 무역 양대 초크포인트 동시 봉쇄 위기",
+  "entities": [
+    {"id": "temp-009", "type": "Event", "name": "Houthi Red Sea Ban", "role": "complete ban on Israeli navigation"},
+    {"id": "temp-011", "type": "Organization", "name": "Houthis (Ansar Allah)", "role": "declared Red Sea ban"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "target of maritime ban"},
+    {"id": "temp-012", "type": "Location", "name": "Bab el-Mandeb", "role": "threatened chokepoint"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "already threatened chokepoint"}
+  ],
+  "relations": [
+    {"subject": "temp-011", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "temp-011", "predicate": "cooperatesWith", "object": "ent-002"},
+    {"subject": "temp-009", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

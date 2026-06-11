@@ -1,0 +1,27 @@
+{
+  "id": "src-1697",
+  "title": "M/T Settebello Tanker Attack — 3 Indian Crew Missing",
+  "url": "https://www.euronews.com/2026/06/10/one-dead-and-two-missing-in-missile-strike-on-tanker-near-oman",
+  "snippet": "CENTCOM disabled the Palau-flagged tanker M/T Settebello in the Gulf of Oman. An F/A-18 fired precision munitions into the engine room, leaving 3 Indian crew members missing and 21 rescued. India summoned a US diplomat to lodge a 'strong protest,' and the IMO issued a statement condemning the attack on a civilian vessel.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "CENTCOM의 민간 유조선 무력화 — 인도 외교 항의, IMO 규탄, 미-인도 관계 균열 위험",
+  "entities": [
+    {"id": "temp-008", "type": "Event", "name": "M/T Settebello Attack", "role": "CENTCOM disabled tanker"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM", "role": "ordered F/A-18 strike on tanker"},
+    {"id": "ent-080", "type": "Organization", "name": "India", "role": "summoned US diplomat, 3 crew missing"},
+    {"id": "temp-013", "type": "Organization", "name": "IMO (International Maritime Organization)", "role": "condemned attack"},
+    {"id": "ent-190", "type": "Organization", "name": "Oman", "role": "Gulf of Oman location"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "F/A-18 strike"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "proximate waterway"}
+  ],
+  "relations": [
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "temp-008"},
+    {"subject": "ent-080", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "temp-008", "predicate": "locatedIn", "object": "ent-190"}
+  ]
+}

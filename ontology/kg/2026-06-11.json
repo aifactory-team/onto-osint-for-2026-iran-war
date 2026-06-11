@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-11",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-557", "source_id": "src-1690", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-557", "source_id": "src-1690", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "ent-557", "source_id": "src-1691", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-557", "predicate": "causedBy", "object": "ent-566", "source_id": "src-1690", "date": "2026-06-11", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-558", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-558", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-558", "predicate": "causedBy", "object": "ent-557", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-558", "predicate": "locatedIn", "object": "ent-560", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-558", "predicate": "locatedIn", "object": "ent-561", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-558", "predicate": "locatedIn", "object": "ent-562", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-558", "predicate": "locatedIn", "object": "ent-036", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-559", "predicate": "causedBy", "object": "ent-558", "source_id": "src-1693", "date": "2026-06-11", "confidence": 0.92, "type": "explicit"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-559", "source_id": "src-1693", "date": "2026-06-11", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-566", "predicate": "follows", "object": "ent-544", "source_id": "src-1694", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-566", "predicate": "causedBy", "object": "ent-557", "source_id": "src-1694", "date": "2026-06-11", "confidence": 0.92, "type": "explicit"},
+    {"subject": "ent-565", "predicate": "follows", "object": "ent-557", "source_id": "src-1695", "date": "2026-06-11", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-565", "source_id": "src-1695", "date": "2026-06-11", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-564", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1696", "date": "2026-06-11", "confidence": 0.88, "type": "explicit"},
+    {"subject": "ent-564", "predicate": "relatedTo", "object": "ent-500", "source_id": "src-1696", "date": "2026-06-11", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-563", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-1697", "date": "2026-06-11", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-059", "predicate": "participatesIn", "object": "ent-563", "source_id": "src-1697", "date": "2026-06-11", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-560", "predicate": "locatedIn", "object": "ent-038", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit", "note": "Al-Harir Air Base in Erbil, Iraq"},
+    {"subject": "ent-561", "predicate": "locatedIn", "object": "ent-037", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit", "note": "Ali Al-Salem in Kuwait"},
+    {"subject": "ent-557", "predicate": "follows", "object": "ent-544", "source_id": "src-1690", "date": "2026-06-11", "confidence": 0.95, "type": "explicit", "note": "US strikes follow and break the mutual halt"},
+    {"subject": "ent-104", "predicate": "mentions", "object": "ent-556", "source_id": "src-1691", "date": "2026-06-11", "confidence": 0.85, "type": "explicit", "note": "Hegseth 'negotiate with bombs' doctrine"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-1695", "date": "2026-06-11", "confidence": 0.95, "type": "explicit", "note": "Trump ultimatum: 'bomb the S out of them tomorrow night'"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-003", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit", "note": "Iran retaliatory strikes on US bases in 4 countries"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-059", "source_id": "src-1692", "date": "2026-06-11", "confidence": 0.95, "type": "explicit", "note": "IRGC 21 claimed attacks on CENTCOM assets"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-558", "predicate": "causalChain", "object": "ent-544", "date": "2026-06-11", "confidence": 0.88, "type": "inferred", "rule": "event_chain", "reasoning": "3-step causal chain: Mutual Halt Day 2 collapse -> Apache downing trigger -> US 49 Tomahawk strikes -> Iran retaliatory strikes on 4 countries. The halt's fragility was exposed within 48 hours."},
+    {"subject": "ent-559", "predicate": "relatedTo", "object": "ent-557", "date": "2026-06-11", "confidence": 0.85, "type": "inferred", "rule": "event_chain", "reasoning": "Embassy evacuation as pre-positioning signal: ordered departure from Baghdad + authorized from Bahrain/Kuwait indicates US anticipation of imminent larger strikes. Evacuation precedes escalation, not follows it."},
+    {"subject": "ent-564", "predicate": "relatedTo", "object": "ent-005", "date": "2026-06-11", "confidence": 0.82, "type": "inferred", "rule": "co_participation", "reasoning": "Dual chokepoint threat: Houthi Red Sea ban + IRGC Hormuz closure claim threatens both global maritime chokepoints simultaneously. Bab el-Mandeb (30% containers, 25% energy) + Hormuz (20% oil) = unprecedented global trade disruption."},
+    {"subject": "ent-456", "predicate": "follows", "object": "ent-566", "date": "2026-06-11", "confidence": 0.90, "type": "inferred", "rule": "event_chain", "reasoning": "MoU framework effectively dead: mutual halt collapse -> military escalation cycle -> diplomatic track becomes impossible. 60-day MoU was predicated on de-escalation; 49 Tomahawks + 21 retaliatory strikes destroy that foundation."},
+    {"subject": "ent-565", "predicate": "relatedTo", "object": "ent-556", "date": "2026-06-11", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "Trump ultimatum ('bomb the S out of them') + Hegseth doctrine ('negotiate with bombs') represent a unified coercive diplomacy framework. The ultimatum operationalizes Hegseth's stated approach."}
+  ],
+  "stats": {
+    "new_nodes": 11,
+    "new_edges": 25,
+    "inferred_edges": 5
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "src-1694",
+  "title": "Trump Ultimatum via Qatar — 'bomb the S out of them tomorrow night'",
+  "url": "https://www.iranintl.com/en/liveblog/202606062776",
+  "snippet": "Trump conveyed a message to Iran via Qatar that the strikes were a response to the Apache helicopter downing, not a wider conflict. However, he warned: 'if Iran does not sign a deal, we'll bomb the S out of them tomorrow night.' Trump also claimed Iran called to request a bombing halt, which IRGC categorically denied having any contact with the US.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프 최후통첩 — 48시간 내 'disappointing'에서 'bomb the S out of them'으로 극적 에스컬레이션",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "issued ultimatum via Qatar"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Ultimatum via Qatar", "role": "primary event"},
+    {"id": "ent-336", "type": "Organization", "name": "Qatar", "role": "message intermediary"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "denied contact with US"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "ultimatum recipient"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-010"},
+    {"subject": "temp-010", "predicate": "follows", "object": "temp-002"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "src-1698",
+  "title": "Mutual Halt Collapse — Day 2 Halt Breaks Down",
+  "url": "https://www.cnbc.com/2026/06/07/iran-fires-missiles-israel-ceasefire-strains.html",
+  "snippet": "The 'fragile tactical pause' reported on June 10 has completely collapsed. Tit-for-tat strikes between the US and Iran have replaced the mutual halt. The escalation cycle follows the pattern: Apache helicopter downing triggers US strikes, which trigger Iran retaliation. The mutual halt lasted less than 48 hours before breaking down entirely.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "update",
+  "related_report": "2026-06-10/src-1678",
+  "related_item": null,
+  "tag_reason": "6/10 '취약한 전술적 일시 중단'(src-1678) 후속 — 48시간 내 완전 붕괴 확인",
+  "entities": [
+    {"id": "ent-544", "type": "Event", "name": "Iran-Israel Mutual Halt", "role": "collapsed"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "struck Iran"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "retaliated against US bases"},
+    {"id": "temp-002", "type": "Event", "name": "US Strikes on Iran June 11", "role": "halt-breaking action"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Retaliatory Strikes June 11", "role": "counter-escalation"}
+  ],
+  "relations": [
+    {"subject": "temp-002", "predicate": "causedBy", "object": "ent-544"},
+    {"subject": "temp-003", "predicate": "follows", "object": "temp-002"},
+    {"subject": "ent-003", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

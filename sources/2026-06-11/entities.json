@@ -1,0 +1,307 @@
+{
+  "date": "2026-06-11",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-104",
+      "type": "Person",
+      "name": "Pete Hegseth",
+      "properties": {"role": "US Defense Secretary", "affiliation": "US Military/Pentagon", "statement_jun11": "If we need to negotiate with bombs, we'll negotiate with bombs. And we're very good at it."},
+      "source_ids": ["src-1691"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US Strikes on Iran June 11",
+      "properties": {"date": "2026-06-11", "weapons": "49 Tomahawk missiles + fighter jet bombardment", "targets": "ammunition depots, C2 nodes, radar, air defense in southwest Iran", "closest_to_tehran": "~40 miles", "ordered_by": "Trump from Situation Room", "present": "Vance, Kushner, Witkoff", "trigger": "Apache helicopter downing + mutual halt collapse"},
+      "source_ids": ["src-1690", "src-1698", "src-1699", "src-1700"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Retaliatory Strikes June 11",
+      "properties": {"date": "2026-06-11", "claimed_attacks": 21, "targets": "Al-Harir (Iraq), Ali Al-Salem (Kuwait), Al-Azraq/Muwaffaq Salti (Jordan), US 5th Fleet (Bahrain), US vessels in Hormuz", "radar_destroyed": "US radar in Iraqi Kurdistan", "jordan_intercepted": 5, "jordan_casualties": 0},
+      "source_ids": ["src-1692", "src-1698", "src-1704", "src-1705", "src-1706"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US Embassy Evacuation Order",
+      "properties": {"date": "2026-06-11", "ordered_departure": "Baghdad (non-emergency personnel)", "voluntary_departure": "Bahrain, Kuwait", "pentagon": "authorized voluntary departure of troops' dependents across Middle East", "trigger": "Nasirzadeh threats + escalation cycle"},
+      "source_ids": ["src-1693", "src-1707", "src-1708"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Al-Harir Air Base",
+      "properties": {"type": "US military base", "location": "Iraqi Kurdistan, Iraq", "status_jun11": "targeted by Iran missile attack, US radar destroyed"},
+      "source_ids": ["src-1692"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-525",
+      "type": "Location",
+      "name": "Ali Al Salem Air Base",
+      "properties": {"type": "US military base", "location": "Kuwait", "status_jun11": "targeted again by Iran drone/missile attacks (second time after Jun 6)"},
+      "source_ids": ["src-1692"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Al-Azraq / Muwaffaq Salti Air Bases",
+      "properties": {"type": "US/Jordanian military bases", "location": "Jordan", "status_jun11": "targeted by Iran drone/missile attacks; Jordan intercepted 5 missiles, no casualties"},
+      "source_ids": ["src-1692", "src-1704", "src-1706"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "M/T Settebello Attack",
+      "properties": {"date": "2026-06-11", "vessel": "M/T Settebello", "flag": "Palau", "location": "Gulf of Oman", "weapon": "F/A-18 precision munitions into engine room", "missing": "3 Indian crew", "rescued": 21, "india_response": "summoned US diplomat, strong protest", "imo_response": "condemned attack"},
+      "source_ids": ["src-1697"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Houthi Red Sea Maritime Ban",
+      "properties": {"date": "2026-06-11", "declaration": "complete and total ban on Israeli maritime navigation in Red Sea", "threat": "close Bab el-Mandeb if conflict escalates", "significance": "both global chokepoints (Hormuz + Bab el-Mandeb) now under simultaneous threat"},
+      "source_ids": ["src-1696"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Ultimatum via Qatar",
+      "properties": {"date": "2026-06-11", "channel": "Qatar", "message": "strikes were response to Apache, not wider conflict", "ultimatum": "if Iran does not sign a deal, we'll bomb the S out of them tomorrow night", "iran_response": "IRGC denied contact with US"},
+      "source_ids": ["src-1694"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Houthis (Ansar Allah)",
+      "properties": {"type": "armed group", "location": "Yemen", "alignment": "Iran-aligned proxy", "action_jun11": "declared complete ban on Israeli Red Sea navigation, threatened Bab el-Mandeb closure"},
+      "source_ids": ["src-1696"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Bab el-Mandeb",
+      "properties": {"type": "strait/waterway", "significance": "southern Red Sea chokepoint, connects Gulf of Aden to Red Sea", "status_jun11": "threatened with closure by Houthis"},
+      "source_ids": ["src-1696"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IMO (International Maritime Organization)",
+      "properties": {"type": "international organization", "action_jun11": "condemned CENTCOM attack on M/T Settebello"},
+      "source_ids": ["src-1697"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "United Nations",
+      "properties": {"type": "international organization", "action_jun11": "reports families fleeing Beirut southern suburbs"},
+      "source_ids": ["src-1701"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "temp-002",
+      "source_ids": ["src-1690"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-003",
+      "predicate": "participatesIn",
+      "object": "temp-002",
+      "source_ids": ["src-1690"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-041",
+      "predicate": "participatesIn",
+      "object": "temp-002",
+      "source_ids": ["src-1690"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-042",
+      "predicate": "participatesIn",
+      "object": "temp-002",
+      "source_ids": ["src-1690"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-043",
+      "predicate": "participatesIn",
+      "object": "temp-002",
+      "source_ids": ["src-1690"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-002",
+      "predicate": "causedBy",
+      "object": "ent-544",
+      "source_ids": ["src-1690", "src-1698"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-003",
+      "predicate": "causedBy",
+      "object": "temp-002",
+      "source_ids": ["src-1692", "src-1698"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "participatesIn",
+      "object": "temp-003",
+      "source_ids": ["src-1692"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "opposes",
+      "object": "ent-003",
+      "source_ids": ["src-1692"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-005",
+      "predicate": "locatedIn",
+      "object": "ent-410",
+      "source_ids": ["src-1692"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-004",
+      "predicate": "causedBy",
+      "object": "temp-003",
+      "source_ids": ["src-1693"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "temp-010",
+      "source_ids": ["src-1694"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-010",
+      "predicate": "follows",
+      "object": "temp-002",
+      "source_ids": ["src-1694"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-336",
+      "predicate": "participatesIn",
+      "object": "temp-010",
+      "source_ids": ["src-1694"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "opposes",
+      "object": "ent-059",
+      "source_ids": ["src-1695"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-011",
+      "predicate": "cooperatesWith",
+      "object": "ent-002",
+      "source_ids": ["src-1696"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-011",
+      "predicate": "opposes",
+      "object": "ent-004",
+      "source_ids": ["src-1696"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-009",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "source_ids": ["src-1696"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-059",
+      "predicate": "participatesIn",
+      "object": "temp-008",
+      "source_ids": ["src-1697"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-080",
+      "predicate": "opposes",
+      "object": "ent-003",
+      "source_ids": ["src-1697"],
+      "confidence": 0.8
+    },
+    {
+      "subject": "temp-002",
+      "predicate": "follows",
+      "object": "ent-456",
+      "source_ids": ["src-1699"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-104",
+      "predicate": "affiliatedWith",
+      "object": "ent-003",
+      "source_ids": ["src-1691"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-050",
+      "source_ids": ["src-1701"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-012",
+      "predicate": "relatedTo",
+      "object": "ent-008",
+      "source_ids": ["src-1696"],
+      "confidence": 0.85
+    }
+  ],
+  "stats": {
+    "total_entities": 14,
+    "new_entities": 12,
+    "matched_entities": 2,
+    "total_relations": 24
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "src-1709",
+  "title": "모건스탠리 호르무즈 봉쇄 6월 말 넘기면 유가 재급등",
+  "url": "https://news.nate.com/view/20260511n31999",
+  "snippet": "모건스탠리는 호르무즈 해협 봉쇄가 6월 말을 넘기면 유가가 재급등할 것이라고 경고했다. 이란-미국 간 군사 충돌이 격화되면서 봉쇄 장기화 가능성이 높아지고 있다. 5월 11일 기사로 현재 상황과의 직접적 신규 정보는 없음.",
+  "source_name": "Nate/Morgan Stanley",
+  "language": "ko",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "background",
+  "related_item": null,
+  "tag_reason": "5월 11일 기사 — 모건스탠리 유가 전망 배경 자료, 신규 정보 없음",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "봉쇄 대상"},
+    {"id": "ent-026", "type": "Concept", "name": "Strait of Hormuz Blockade", "role": "유가 영향"}
+  ],
+  "relations": []
+}

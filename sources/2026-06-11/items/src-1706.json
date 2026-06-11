@@ -1,0 +1,20 @@
+{
+  "id": "src-1706",
+  "title": "Jordan, Bahrain and Kuwait deal with attacks — Arab News",
+  "url": "https://www.arabnews.com/node/2646597/middle-east",
+  "snippet": "Arab News reports on how Jordan, Bahrain, and Kuwait responded to Iranian retaliatory strikes. Covers regional diplomatic fallout and defense measures. Jordan intercepted 5 missiles with no casualties. Duplicate coverage of src-1692.",
+  "source_name": "Arab News",
+  "language": "en",
+  "discovered_date": "2026-06-11",
+  "tag": "reported",
+  "related_report": "2026-06-11/src-1692",
+  "related_item": "src-1692",
+  "tag_reason": "src-1692 이란 보복 공격의 중복 보도 — Arab News 아랍 지역 시각",
+  "entities": [
+    {"id": "ent-036", "type": "Organization", "name": "Bahrain", "role": "targeted"},
+    {"id": "ent-037", "type": "Organization", "name": "Kuwait", "role": "targeted"},
+    {"id": "temp-007", "type": "Location", "name": "Al-Azraq / Muwaffaq Salti", "role": "Jordan targeted"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Retaliatory Strikes June 11", "role": "same event"}
+  ],
+  "relations": []
+}
