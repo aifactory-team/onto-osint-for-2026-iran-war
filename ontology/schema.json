@@ -880,6 +880,13 @@
       "target": "11 new entities (ent-556~ent-566), 9 existing updated",
       "reason": "상호 중단 48시간 내 완전 붕괴, 미국 49 토마호크 이란 본토 폭격(테헤란 40mi·상황실 결정), 이란 4개국 미군기지 21건 보복(Al-Harir/Ali Al-Salem/바레인/Muwaffaq Salti), 미 대사관 바그다드 철수 명령, 헤그세스 'negotiate with bombs' 독트린, 트럼프 카타르 경유 최후통첩, IRGC 호르무즈 완전 봉쇄 주장(CENTCOM 부인), 후티 Red Sea 이스라엘 항행 완전 금지, M/T Settebello 유조선 무력화(인도 선원 3명 실종), MoU 사실상 사망. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1690", "src-1691", "src-1692", "src-1693", "src-1694", "src-1695", "src-1696", "src-1697", "src-1698", "src-1699", "src-1700", "src-1701"]
+    },
+    {
+      "date": "2026-06-12",
+      "action": "add_instances",
+      "target": "8 new entities (ent-567~ent-574), 5 existing updated",
+      "reason": "트럼프 공격 취소·딜 종결 주장('ended the war'·11개국 승인·서명 곧 발표), 이란 공식 부인(Fars 'no text approved'·FM 'merely speculation'), Kharg Island 점령 위협('total control'·실행 의지 불확실), IRGC 2일째 미군기지 공격(Ali Al Salem/Ahmed Al Jaber/Sheikh Isa·18표적·2파), 호르무즈 '모든 해상 교통 폐쇄' 선언·유조선 2척 공격, 유가 급락(WTI $87.71·Brent $90.38·상호 중단 이후 최저), 나스닥 2.5%↑ 급등. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1710", "src-1711", "src-1712", "src-1713", "src-1714", "src-1715", "src-1716", "src-1717", "src-1718", "src-1719", "src-1720", "src-1721"]
     }
   ]
 }

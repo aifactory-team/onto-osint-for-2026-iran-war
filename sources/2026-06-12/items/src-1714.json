@@ -1,0 +1,19 @@
+{
+  "id": "src-1714",
+  "title": "Oil prices crash after Trump cancels strikes — WTI $87.71 (-2%), Brent $90.38 (-3%)",
+  "url": "https://www.cnbc.com/2026/06/11/brent-wti-oil-prices-us-launches-fresh-strikes-on-iran-.html",
+  "snippet": "U.S. crude oil closed at $87.71/bbl (-2%), Brent settled at $90.38 (-3%). In extended trading, WTI fell 3.9% to $86.51, Brent lost 4.2% to $89.15. Triggered by Trump abruptly cancelling airstrikes and claiming deal is near. Biggest single-day decline since June 9 mutual halt. Intraday initially spiked on Hormuz closure/IRGC attacks, then reversed sharply.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New oil price data for June 12; significant reversal from intraday spike to sharp decline; first Brent sub-$91 since mutual halt",
+  "entities": [
+    {"id": "temp-010", "type": "Event", "name": "Oil Price Crash Jun 12"}
+  ],
+  "relations": [
+    {"subject": "temp-006", "predicate": "causedBy", "object": "temp-010"}
+  ]
+}

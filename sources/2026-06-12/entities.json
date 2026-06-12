@@ -1,0 +1,141 @@
+{
+  "date": "2026-06-12",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_jun12": "cancelled planned strikes; claimed deal 'approved at highest level'; Truth Social: deal covers 11 nations; blockade remains; threatened Kharg Island seizure then admitted 'not sure America has the stomach'; 'ended the war with Iran'; whiplash: 'VERY HARD TONIGHT' → cancellation same day"},
+      "source_ids": ["src-1710", "src-1711", "src-1715", "src-1716"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_jun12": "denies deal: Fars 'no text approved', FM 'merely speculation', 'no final decision'; Hormuz declared closed to all marine traffic; 2nd night retaliatory attacks on US bases"},
+      "source_ids": ["src-1712", "src-1713", "src-1718"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_jun12": "2nd consecutive night attacks on US bases: Ali Al Salem, Ahmed Al Jaber (Kuwait), Sheikh Isa (Bahrain); 18 targets in 2 waves; claims F-35 hangar destruction at Al-Azraq; declares Hormuz closed to all marine traffic; attacks 2 tankers in Hormuz"},
+      "source_ids": ["src-1712", "src-1713"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_jun12": "IRGC declares 'closed to all marine traffic'; 2 tankers attacked; CENTCOM denies full closure; traffic at ~5% pre-war levels"},
+      "source_ids": ["src-1713", "src-1714"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-007",
+      "type": "Location",
+      "name": "Kharg Island",
+      "properties": {"status_jun12": "Trump threatens seizure and 'total control'; 90% of Iran crude exports; Trump later admits doubt about execution"},
+      "source_ids": ["src-1711"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Strike Cancellation & Deal Claim Jun 12",
+      "properties": {"date": "2026-06-12", "description": "Trump cancels planned strikes, claims deal approved at highest Iranian leadership; covers 11 nations; Iran denies; signing 'to be announced shortly'"},
+      "source_ids": ["src-1710", "src-1715"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Kharg Island Seizure Threat",
+      "properties": {"date": "2026-06-12", "description": "Trump threatens 'total control' of Kharg Island and Iran oil/gas markets via Truth Social; later admits doubt; compared to Venezuela seizure"},
+      "source_ids": ["src-1711"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Second Night Attacks Jun 12",
+      "properties": {"date": "2026-06-12", "description": "2nd consecutive night of attacks on US bases; Ali Al Salem, Ahmed Al Jaber (Kuwait), Sheikh Isa (Bahrain); 18 targets in 2 waves; claims F-35 hangar destruction"},
+      "source_ids": ["src-1712"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Full Hormuz Closure Declaration Jun 12",
+      "properties": {"date": "2026-06-12", "description": "IRGC declares Hormuz 'closed to all marine traffic'; attacks 2 tankers; upgrade from partial blockade; CENTCOM denies"},
+      "source_ids": ["src-1713"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Crash Jun 12",
+      "properties": {"date": "2026-06-12", "description": "WTI $87.71 (-2%), Brent $90.38 (-3%); extended: WTI $86.51 (-3.9%), Brent $89.15 (-4.2%); biggest drop since mutual halt; triggered by Trump strike cancellation"},
+      "source_ids": ["src-1714"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Sheikh Isa Air Base",
+      "properties": {"type": "military base", "location": "Bahrain", "description": "IRGC missile/drone target in 2nd night attacks"},
+      "source_ids": ["src-1712"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Ahmed Al Jaber Air Base",
+      "properties": {"type": "military base", "location": "Kuwait", "description": "IRGC missile target in 2nd night attacks"},
+      "source_ids": ["src-1712"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US Stock Market Rally Jun 12",
+      "properties": {"date": "2026-06-12", "description": "Nasdaq +2.5% on Trump strike cancellation; markets surge on de-escalation signal"},
+      "source_ids": ["src-1719"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-1710", "src-1715"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-1711"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-1712"], "confidence": 0.95},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-009", "source_ids": ["src-1713"], "confidence": 0.90},
+    {"subject": "temp-006", "predicate": "follows", "object": "ent-557", "source_ids": ["src-1710"], "confidence": 0.90},
+    {"subject": "temp-006", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-1718"], "confidence": 0.85},
+    {"subject": "temp-008", "predicate": "follows", "object": "ent-558", "source_ids": ["src-1712"], "confidence": 0.90},
+    {"subject": "temp-009", "predicate": "follows", "object": "ent-570", "source_ids": ["src-1713"], "confidence": 0.85},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "ent-007", "source_ids": ["src-1711"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "causedBy", "object": "temp-010", "source_ids": ["src-1714"], "confidence": 0.85},
+    {"subject": "temp-006", "predicate": "causedBy", "object": "temp-013", "source_ids": ["src-1719"], "confidence": 0.80}
+  ],
+  "stats": {
+    "total_entities": 13,
+    "new_entities": 8,
+    "matched_entities": 5,
+    "total_relations": 11
+  }
+}

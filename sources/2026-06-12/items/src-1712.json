@@ -1,0 +1,24 @@
+{
+  "id": "src-1712",
+  "title": "IRGC 2nd night attacks on US bases — Ali Al Salem, Ahmed Al Jaber (Kuwait), Sheikh Isa (Bahrain)",
+  "url": "https://www.cnn.com/2026/06/09/world/live-news/iran-war-trump-israel",
+  "snippet": "Iran's IRGC launched a second consecutive night of retaliatory attacks on US military bases. Targets included Ali Al Salem and Ahmed Al Jaber air bases in Kuwait, and Sheikh Isa Air Base in Bahrain. IRGC claimed 18 targets in 2 waves, including alleged destruction of F-35 hangars at Al-Azraq base in Jordan. US military official told CNN attacks did not cause 'significant damage,' no US personnel harmed, nearly all missiles/drones intercepted.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Second consecutive night of IRGC attacks on US bases is new escalation; new targets (Ahmed Al Jaber, Sheikh Isa) not previously reported",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-561", "type": "Location", "name": "Ali Al-Salem Air Base"},
+    {"id": "temp-011", "type": "Location", "name": "Sheikh Isa Air Base"},
+    {"id": "temp-012", "type": "Location", "name": "Ahmed Al Jaber Air Base"},
+    {"id": "temp-008", "type": "Event", "name": "IRGC Second Night Attacks Jun 12"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-008"},
+    {"subject": "temp-008", "predicate": "follows", "object": "ent-558"}
+  ]
+}

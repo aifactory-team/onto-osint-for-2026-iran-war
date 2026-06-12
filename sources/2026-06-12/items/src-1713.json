@@ -1,0 +1,22 @@
+{
+  "id": "src-1713",
+  "title": "Iran declares Hormuz 'closed to all marine traffic' — IRGC Navy attacks 2 tankers",
+  "url": "https://news.cgtn.com/news/2026-06-11/Iran-strikes-US-bases-in-Middle-East-closes-Hormuz-Strait-1NTsYjGIKje/p.html",
+  "snippet": "Iran's military announced that the Strait of Hormuz is closed to all marine traffic. IRGC Navy said it attacked two oil tankers that tried to transit through the strait. CENTCOM continues to deny full closure, stating commercial ships are still transiting. This represents an upgrade from partial blockade to declared full closure.",
+  "source_name": "CGTN",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Formal declaration of full Hormuz closure is new; previously partial blockade with some traffic; 2 tanker attacks in single day also new escalation",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-009", "type": "Event", "name": "Iran Full Hormuz Closure Declaration Jun 12"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-009"},
+    {"subject": "temp-009", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

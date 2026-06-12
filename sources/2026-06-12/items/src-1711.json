@@ -1,0 +1,22 @@
+{
+  "id": "src-1711",
+  "title": "Trump threatens Kharg Island seizure — 'assume total control of their Oil and Gas Markets'",
+  "url": "https://www.euronews.com/2026/06/11/us-will-seize-and-control-irans-kharg-island-and-other-key-oil-facilities-trump-says",
+  "snippet": "Trump wrote on Truth Social: 'at some point in the not too distant future, we will be taking Kharg Island, and other oil infrastructure points, and assume total control of their Oil and Gas Markets, much like we have with Venezuela.' Kharg Island handles 90% of Iran's crude oil exports. Trump later told Fox News he's 'not sure America has the stomach' for it. The threat came before he cancelled the night's strikes.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of Trump explicitly threatening Kharg Island seizure and total control of Iran's oil; new escalation category (territory seizure vs bombing)",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-007", "type": "Location", "name": "Kharg Island"},
+    {"id": "temp-007", "type": "Event", "name": "Kharg Island Seizure Threat"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-007"},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "ent-007"}
+  ]
+}

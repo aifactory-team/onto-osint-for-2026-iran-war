@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-12",
   "nodes": [
     {
       "id": "ent-001",
@@ -13035,11 +13035,30 @@
     {"subject": "ent-559", "predicate": "relatedTo", "object": "ent-557", "date": "2026-06-11", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
     {"subject": "ent-564", "predicate": "relatedTo", "object": "ent-005", "date": "2026-06-11", "confidence": 0.82, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
     {"subject": "ent-456", "predicate": "follows", "object": "ent-566", "date": "2026-06-11", "confidence": 0.90, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
-    {"subject": "ent-565", "predicate": "relatedTo", "object": "ent-556", "date": "2026-06-11", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
+    {"subject": "ent-565", "predicate": "relatedTo", "object": "ent-556", "date": "2026-06-11", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-567", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1710"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-568", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1711"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-569", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-570", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1713"},
+    {"subject": "ent-567", "predicate": "follows", "object": "ent-557", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1710"},
+    {"subject": "ent-567", "predicate": "follows", "object": "ent-565", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1710"},
+    {"subject": "ent-569", "predicate": "follows", "object": "ent-558", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-569", "predicate": "locatedIn", "object": "ent-561", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-569", "predicate": "locatedIn", "object": "ent-572", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-569", "predicate": "locatedIn", "object": "ent-573", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-570", "predicate": "locatedIn", "object": "ent-008", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1713"},
+    {"subject": "ent-568", "predicate": "relatedTo", "object": "ent-007", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1711"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001", "date": "2026-06-12", "confidence": 0.85, "type": "explicit", "source_id": "src-1718", "note": "Iran denies Trump deal claim"},
+    {"subject": "ent-567", "predicate": "causedBy", "object": "ent-571", "date": "2026-06-12", "confidence": 0.85, "type": "explicit", "source_id": "src-1714"},
+    {"subject": "ent-567", "predicate": "causedBy", "object": "ent-574", "date": "2026-06-12", "confidence": 0.80, "type": "explicit", "source_id": "src-1719"},
+    {"subject": "ent-567", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-12", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "event_chain"},
+    {"subject": "ent-568", "predicate": "relatedTo", "object": "ent-567", "date": "2026-06-12", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-569", "predicate": "opposes", "object": "ent-567", "date": "2026-06-12", "confidence": 0.82, "type": "inferred", "source_id": "inferred", "rule": "co_participation"},
+    {"subject": "ent-571", "predicate": "relatedTo", "object": "ent-574", "date": "2026-06-12", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "co_participation"}
   ],
   "stats": {
-    "total_nodes": 527,
-    "total_edges": 400,
-    "total_triples": 1310
+    "total_nodes": 535,
+    "total_edges": 420,
+    "total_triples": 1330
   }
 }

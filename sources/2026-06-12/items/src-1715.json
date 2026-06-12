@@ -1,0 +1,21 @@
+{
+  "id": "src-1715",
+  "title": "Trump: 'ended the war with Iran'",
+  "url": "https://www.cnn.com/2026/06/11/world/live-news/iran-war-trump-israel-hnk",
+  "snippet": "Trump told reporters that the U.S. had 'made a great settlement of the war with Iran' that is 'subject to finalization of documents.' He expects the deal to be signed in Europe in the next few days. Iran has not confirmed any deal. This marks Trump's most ambitious claim yet — declaring the war 'ended' despite ongoing IRGC attacks on US bases and Hormuz closure.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First claim of war being 'ended'; qualitative escalation of Trump's deal rhetoric from 'close' to 'ended'; Iran has not confirmed",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-006", "type": "Event", "name": "Trump Strike Cancellation & Deal Claim Jun 12"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-006"}
+  ]
+}

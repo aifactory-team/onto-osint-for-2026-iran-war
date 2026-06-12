@@ -1,0 +1,18 @@
+{
+  "id": "src-1718",
+  "title": "Iran denies deal: Fars 'no text approved', FM 'merely speculation'",
+  "url": "https://www.axios.com/2026/06/11/trump-cancel-iran-strikes-deal-strait",
+  "snippet": "Fars, a semi-official news agency affiliated with IRGC, quoted an 'informed source close to Iran's negotiation team' saying 'no text for a preliminary memorandum of understanding with the United States has been approved.' Iran's FM spokesperson called reports of finalized agreement 'merely speculation' with 'no final decision.' Directly contradicts Trump's 'approved at highest level' claim.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "update",
+  "related_report": "2026-06-11",
+  "related_item": "src-1699",
+  "tag_reason": "Update to MoU collapse narrative: Trump now claims deal done, Iran formally denies any text approved; new phase of messaging war",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

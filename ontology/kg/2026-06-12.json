@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-12",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-567", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1710"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-568", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1711"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-569", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-570", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1713"},
+    {"subject": "ent-567", "predicate": "follows", "object": "ent-557", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1710"},
+    {"subject": "ent-567", "predicate": "follows", "object": "ent-565", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1710"},
+    {"subject": "ent-569", "predicate": "follows", "object": "ent-558", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-569", "predicate": "locatedIn", "object": "ent-561", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-569", "predicate": "locatedIn", "object": "ent-572", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-569", "predicate": "locatedIn", "object": "ent-573", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712"},
+    {"subject": "ent-570", "predicate": "locatedIn", "object": "ent-008", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1713"},
+    {"subject": "ent-568", "predicate": "relatedTo", "object": "ent-007", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1711"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001", "date": "2026-06-12", "confidence": 0.85, "type": "explicit", "source_id": "src-1718", "note": "Iran denies Trump's deal claim: 'no text approved'"},
+    {"subject": "ent-567", "predicate": "causedBy", "object": "ent-571", "date": "2026-06-12", "confidence": 0.85, "type": "explicit", "source_id": "src-1714"},
+    {"subject": "ent-567", "predicate": "causedBy", "object": "ent-574", "date": "2026-06-12", "confidence": 0.80, "type": "explicit", "source_id": "src-1719"},
+    {"subject": "ent-570", "predicate": "follows", "object": "ent-570", "date": "2026-06-12", "confidence": 0.85, "type": "explicit", "source_id": "src-1713", "note": "Upgrade from partial blockade to declared full closure"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-002", "date": "2026-06-12", "confidence": 0.90, "type": "explicit", "source_id": "src-1715", "note": "Trump: 'ended the war' vs Iran denial; messaging war peak"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003", "date": "2026-06-12", "confidence": 0.95, "type": "explicit", "source_id": "src-1712", "note": "IRGC 2nd night attacks on CENTCOM assets"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-567", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-12", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "event_chain", "note": "Trump deal claim may revive MoU framework, but Iran denial contradicts"},
+    {"subject": "ent-568", "predicate": "relatedTo", "object": "ent-567", "date": "2026-06-12", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "Kharg threat = negotiation leverage, made same day as deal claim; coercion + diplomacy simultaneous"},
+    {"subject": "ent-569", "predicate": "opposes", "object": "ent-567", "date": "2026-06-12", "confidence": 0.82, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "IRGC attacks continued DESPITE Trump cancellation = Iran hardline-moderate split; military track autonomous from diplomatic"},
+    {"subject": "ent-571", "predicate": "relatedTo", "object": "ent-574", "date": "2026-06-12", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "Oil crash + stock rally = market pricing de-escalation; conditional optimism vs 38 failed deal claims"}
+  ],
+  "stats": {
+    "new_nodes": 8,
+    "new_edges": 16,
+    "inferred_edges": 4
+  }
+}

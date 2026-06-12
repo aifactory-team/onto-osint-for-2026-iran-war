@@ -1,0 +1,18 @@
+{
+  "id": "src-1717",
+  "title": "트럼프, 이란 추가 공습 계획 전격 철회… 협상 타결 시사",
+  "url": "https://www.hankookilbo.com/news/article/A2026061203070001952",
+  "snippet": "트럼프 대통령은 이란과의 논의가 최고 지도부까지 올라가 승인됐다며 예정됐던 공습을 취소했다. 논의 내용은 미국, 이스라엘, 사우디아라비아, UAE, 카타르, 튀르키예, 파키스탄, 바레인, 쿠웨이트, 요르단, 이집트 등 관련 당사자들 모두의 승인을 받았다고 밝혔다. 해상 봉쇄는 협상 완전 타결까지 유지.",
+  "source_name": "한국일보",
+  "language": "ko",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 첫 보도; 11개국 합의 주장 등 한국 독자 대상 정리",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

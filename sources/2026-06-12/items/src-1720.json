@@ -1,0 +1,17 @@
+{
+  "id": "src-1720",
+  "title": "'오늘 밤 공격'에서 '공습 취소'로...트럼프의 급선회",
+  "url": "https://www.fnnews.com/news/202606120353157097",
+  "snippet": "트럼프 대통령이 24시간 만에 180도 전환한 배경 분석. '오늘 밤 이란을 매우 강력히 타격하겠다'에서 '공습 취소, 딜 거의 완료'로 급선회.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-06-12",
+  "tag": "update",
+  "related_report": "2026-06-11",
+  "related_item": "src-1700",
+  "tag_reason": "한국어 분석 보도: 24시간 180도 전환 프레임은 이전 보도에 없던 분석",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

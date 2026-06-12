@@ -1,0 +1,23 @@
+{
+  "id": "src-1710",
+  "title": "Trump cancels Iran strikes, claims deal approved at 'highest level'",
+  "url": "https://www.npr.org/2026/06/11/nx-s1-5854970/trump-iran-peace-deal-cancel-strikes",
+  "snippet": "President Trump announced on Truth Social that he had cancelled scheduled strikes and bombings against Iran, stating discussions have been brought to the highest level of Iranian leadership and approved. The final points have been 'in both concept and great detail, approved by all parties involved,' covering US, Israel, Saudi Arabia, UAE, Qatar, Turkey, Pakistan, Bahrain, Kuwait, Jordan and Egypt. Signing time and place 'to be announced shortly.' Naval blockade remains in full force until transaction finalized.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of Trump canceling planned strikes and claiming deal is near finalization; major reversal from 'bomb the S out of them' to cancellation in 24 hours",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-006", "type": "Event", "name": "Trump Strike Cancellation & Deal Claim Jun 12"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-006"},
+    {"subject": "temp-006", "predicate": "follows", "object": "ent-557"}
+  ]
+}

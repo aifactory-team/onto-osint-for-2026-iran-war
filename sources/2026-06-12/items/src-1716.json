@@ -1,0 +1,18 @@
+{
+  "id": "src-1716",
+  "title": "Trump whiplash: 'VERY HARD TONIGHT' → strike cancellation in same day",
+  "url": "https://www.npr.org/2026/06/10/nx-s1-5853882/us-strike-iran-second-day-renewed-fire",
+  "snippet": "In a single day, Trump went from vowing 'The United States will be hitting Iran...VERY HARD TONIGHT' and threatening to seize Kharg Island, to cancelling all planned strikes and claiming a deal. He cited 'slow progress' for justifying the 2nd night of strikes but then reversed course. This represents the latest in a pattern of whiplash proclamations — at least 38 times he has claimed a deal is close.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-06-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Same-day reversal from escalation to de-escalation is new event; '38 times' deal claims statistic is new context",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}
