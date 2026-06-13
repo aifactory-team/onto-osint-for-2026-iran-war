@@ -1,0 +1,25 @@
+{
+  "id": "src-1730",
+  "title": "Pakistan PM Shehbaz Sharif declares 'final, agreed upon text' of US-Iran peace deal reached",
+  "url": "https://www.washingtonpost.com/world/2026/06/12/pakistan-prime-minister-says-us-iran-deal-text-finalized/",
+  "snippet": "Pakistan Prime Minister Shehbaz Sharif announced that the 'final, agreed upon text' of a US-Iran peace deal has been reached. 'Peace has never been this close,' Sharif stated, confirming Pakistan's active mediator role between Washington and Tehran. The announcement marks the most definitive claim yet from any party that a formal agreement text exists, though US and Iranian officials have been more cautious in their characterizations.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First definitive claim from mediator that final deal text exists; most concrete statement yet from any party; Pakistan's mediator role elevated",
+  "entities": [
+    {"id": "ent-031", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM / Mediator"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"},
+    {"id": "temp-011", "type": "Event", "name": "Pakistan Mediation Deal Text Finalization"}
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "temp-011"},
+    {"subject": "ent-031", "predicate": "mediates", "object": "ent-456"},
+    {"subject": "temp-011", "predicate": "advances", "object": "ent-456"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-1739",
+  "title": "MoU contents analysis: frozen assets, crude sanctions relief — Korean analysis",
+  "url": "https://www.fnnews.com/news/202606130359485603",
+  "snippet": "미국과 이란 간 최종 협상 내용 분석: 동결자산 해제 및 원유 제재 완화 가능성. MoU에 호르무즈 해협 즉시 개방, 정전 60일 연장, 핵 관련 약속, 제재 완화 포함 전망. 이란 내부 승인 절차 관건.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 분석: 동결자산 및 원유 제재 완화 구체적 분석; 한국 경제에 대한 파급 효과 시사",
+  "entities": [
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "ent-456", "predicate": "specifies", "object": "ent-008"}
+  ]
+}

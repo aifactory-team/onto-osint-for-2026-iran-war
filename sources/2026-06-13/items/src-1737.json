@@ -1,0 +1,22 @@
+{
+  "id": "src-1737",
+  "title": "US moving forward with signing ceremony plans — Switzerland possible venue",
+  "url": "https://abc7news.com/post/us-moving-forward-signing-ceremony-plans-deal-needs-final-approval-iran-sources-say/19282299/",
+  "snippet": "The United States is moving forward with plans for a signing ceremony for the US-Iran deal, with Switzerland identified as a possible venue. The deal still requires final approval from Iran. Vice President JD Vance is expected to attend the ceremony. Sources indicate the logistics are being actively planned despite the deal not yet being formally signed.",
+  "source_name": "ABC News (abc7)",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First specific venue mention (Switzerland); Vance attendance confirmed; ceremony logistics planning despite no final sign-off signals US confidence level",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"},
+    {"id": "temp-015", "type": "Location", "name": "Switzerland"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-456"}
+  ]
+}

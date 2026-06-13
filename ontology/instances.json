@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "entities": [
     {
       "id": "ent-001",
@@ -6771,9 +6771,99 @@
       "first_seen": "2026-06-12",
       "last_seen": "2026-06-12",
       "mention_count": 2
+    },
+    {
+      "id": "ent-575",
+      "type": "Event",
+      "name": "Pakistan Final Text Declaration",
+      "properties": {"date": "2026-06-13", "description": "Sharif declares 'final, agreed upon text' of US-Iran peace deal reached; 'Peace has never been this close'"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-576",
+      "type": "Event",
+      "name": "US 80-85% Confidence Statement",
+      "properties": {"date": "2026-06-13", "description": "Senior US official: 80-85% confident of signing; up from 75% morning; Khamenei reportedly 'comfortable'"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-577",
+      "type": "Event",
+      "name": "Iran Never Been Closer Statement",
+      "properties": {"date": "2026-06-13", "description": "Araghchi: MoU 'has never been closer'; remote signing planned; media asked not to speculate"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-578",
+      "type": "Event",
+      "name": "IRGC First Positive Signal",
+      "properties": {"date": "2026-06-13", "description": "Fars News (IRGC-affiliated) reports 'high probability' of MoU approval; first positive IRGC signal; Tasnim: 'requires review'"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-579",
+      "type": "Event",
+      "name": "MoU Contents Revealed",
+      "properties": {"date": "2026-06-13", "description": "MoU details: Hormuz reopen immediately/no tolls, 30-day normalization, 60-day ceasefire, nuclear commitments, sanctions relief"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-580",
+      "type": "Event",
+      "name": "Oil Price Crash to $88",
+      "properties": {"date": "2026-06-13", "description": "Brent toward $88/bbl (~4% drop), lowest in 2 months; Fitch: $70 if deal materializes"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-581",
+      "type": "Event",
+      "name": "Switzerland Signing Ceremony Plan",
+      "properties": {"date": "2026-06-13", "description": "US moving forward with signing ceremony plans; Switzerland possible venue; Vance to attend"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-582",
+      "type": "Event",
+      "name": "Netanyahu Not Party Statement",
+      "properties": {"date": "2026-06-13", "description": "Netanyahu: 'Israel not a party to MoU'; praises nuclear restrictions; not informed in advance"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-583",
+      "type": "Event",
+      "name": "Vance Still TBD Statement",
+      "properties": {"date": "2026-06-13", "description": "Vance says deal 'still TBD'; cautious contrast with Pakistan's 'final text'"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-584",
+      "type": "Event",
+      "name": "Lebanon 12+ Killed Jun 13",
+      "properties": {"date": "2026-06-13", "description": "12+ killed in S. Lebanon Israeli strikes including Sidon; LAF warns may freeze ceasefire cooperation"},
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "mention_count": 3
     }
   ],
-  "total_count": 517,
+  "total_count": 527,
   "changelog": [
     {
       "date": "2026-05-11",
@@ -7271,6 +7361,13 @@
       "target": "8 new entities (ent-567~ent-574), 5 existing updated",
       "reason": "트럼프 공격 취소·딜 종결 주장('ended the war'·11개국 승인·서명 곧 발표), 이란 공식 부인(Fars 'no text approved'·FM 'merely speculation'), Kharg Island 점령 위협('total control'·실행 의지 불확실), IRGC 2일째 미군기지 공격(Ali Al Salem/Ahmed Al Jaber/Sheikh Isa·18표적·2파), 호르무즈 '모든 해상 교통 폐쇄' 선언·유조선 2척 공격, 유가 급락(WTI $87.71·Brent $90.38·상호 중단 이후 최저), 나스닥 2.5%↑ 급등. 스키마 변경 없음",
       "source_ids": ["src-1710", "src-1711", "src-1712", "src-1713", "src-1714", "src-1715", "src-1716", "src-1717", "src-1718", "src-1719", "src-1720", "src-1721"]
+    },
+    {
+      "date": "2026-06-13",
+      "action": "add_instances",
+      "target": "10 new entities (ent-575~ent-584), 6 existing updated",
+      "reason": "파키스탄 총리 '최종 합의문' 선언(Sharif 'final, agreed upon text'), 미국 고위관리 80-85% 서명 확신, 아라그치 MoU '역대 가장 가까운', Fars(IRGC 계열) 최초 긍정 '높은 확률', Tasnim '관련 기관 검토 필요', MoU 세부 조항 공개(호르무즈 즉시 개방/무통행료/30일 정상화/60일 휴전/핵 커미트먼트/제재 해제), 네타냐후 'MoU 비당사자' 선언, 밴스 'TBD' 유보, 유가 Brent $88 2개월 최저, 이스라엘 남부 레바논 12+ 사망/LAF 협력 동결 경고, 스위스 서명식 계획. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1730", "src-1731", "src-1732", "src-1733", "src-1734", "src-1735", "src-1736", "src-1737", "src-1738", "src-1739", "src-1740", "src-1741", "src-1742"]
     }
   ]
 }

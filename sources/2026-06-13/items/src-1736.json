@@ -1,0 +1,22 @@
+{
+  "id": "src-1736",
+  "title": "Oil crashes further: Brent toward $88/bbl on deal optimism",
+  "url": "https://www.business-standard.com/markets/news/can-crude-oil-prices-dip-to-70-if-us-iran-sign-peace-deal-analysts-said-this-126061200583_1.html",
+  "snippet": "Oil prices crashed further with Brent crude heading toward $88/bbl, a drop of approximately 4% on Friday and the lowest level in nearly 2 months, driven by deal optimism. Analysts project Brent could fall to approximately $70 if Hormuz fully reopens, per Fitch. Current trading range is $88-$108 amid conflicting forces of deal optimism and ongoing conflict uncertainty.",
+  "source_name": "Business Standard",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Continued oil price decline from previous day; new Fitch forecast of $70 floor if Hormuz reopens; $88 lowest in ~2 months; quantifies market impact of deal optimism",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-012", "type": "Event", "name": "Oil Price Crash Jun 13"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"}
+  ],
+  "relations": [
+    {"subject": "ent-456", "predicate": "causedBy", "object": "temp-012"},
+    {"subject": "temp-012", "predicate": "follows", "object": "ent-570"}
+  ]
+}

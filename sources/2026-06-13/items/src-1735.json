@@ -1,0 +1,25 @@
+{
+  "id": "src-1735",
+  "title": "MoU contents detailed: Hormuz reopen, ceasefire extension, nuclear commitments, sanctions relief",
+  "url": "https://www.axios.com/2026/06/12/iran-deal-mou-strait-open-sanctions-relief",
+  "snippet": "Detailed contents of the US-Iran MoU emerged: Strait of Hormuz to reopen immediately without tolls with pre-war shipping levels restored within 30 days; 60-day ceasefire extension; nuclear commitments including Iran committing to never acquire a nuclear weapon and resolving enriched uranium stockpile; sanctions relief tied to compliance milestones. Trump stated the deal 'conceptually deals' with nuclear material. The framework covers maritime security, military de-escalation, nuclear nonproliferation, and economic relief in an integrated package.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Most detailed leak of MoU contents yet; Hormuz terms (immediate reopen, no tolls, 30-day normalization) are new specifics; nuclear commitment language revealed; sanctions relief structure disclosed; 'conceptually deals' qualifier on nuclear material is notable hedge",
+  "entities": [
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-570", "type": "Event", "name": "Iran Full Hormuz Closure"},
+    {"id": "temp-012", "type": "Event", "name": "Oil Price Crash Jun 13"}
+  ],
+  "relations": [
+    {"subject": "ent-456", "predicate": "specifies", "object": "ent-008"},
+    {"subject": "ent-456", "predicate": "causedBy", "object": "temp-012"}
+  ]
+}

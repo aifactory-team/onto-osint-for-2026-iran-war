@@ -1,0 +1,23 @@
+{
+  "id": "src-1741",
+  "title": "Israel-Lebanon: at least 12 killed in continued Israeli strikes on southern Lebanon",
+  "url": "https://www.dailysabah.com/world/mid-east/at-least-12-people-killed-in-continued-israeli-strikes-on-s-lebanon/amp",
+  "snippet": "At least 12 people were killed in continued Israeli strikes on southern Lebanon, including the city of Sidon. The Lebanese Armed Forces (LAF) warned it may freeze cooperation with the ceasefire committee in response to the ongoing Israeli military operations. The strikes continue a pattern of Israeli actions in Lebanon even as the US-Iran deal appears close to finalization.",
+  "source_name": "Daily Sabah",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "update",
+  "related_report": "2026-06-12",
+  "related_item": "src-1712",
+  "tag_reason": "Update: continued Israeli strikes in Lebanon with significant casualties; LAF ceasefire cooperation freeze threat is new escalation; Sidon targeting is new geographic expansion; juxtaposition with deal progress notable",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-014", "type": "Event", "name": "Israeli Strikes Southern Lebanon Jun 13"},
+    {"id": "temp-017", "type": "Organization", "name": "LAF (Lebanese Armed Forces)"},
+    {"id": "ent-051", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israel PM"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-014"},
+    {"subject": "temp-017", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

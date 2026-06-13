@@ -1,0 +1,22 @@
+{
+  "id": "src-1738",
+  "title": "Pakistan PM 'final, agreed upon text' of US-Iran deal — Korean coverage",
+  "url": "https://www.fnnews.com/news/202606130159538449",
+  "snippet": "Pakistan PM Shehbaz Sharif가 미국과 이란 간 평화 협정의 '최종 합의문이 마련됐다'고 선언. '평화가 이렇게 가까웠던 적이 없다'고 발언. 파키스탄의 중재자 역할 부각.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 보도: 파키스탄 총리의 최종 합의문 선언 보도; 한국 독자 대상 맥락화",
+  "entities": [
+    {"id": "ent-031", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"}
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "mediates", "object": "ent-456"}
+  ]
+}

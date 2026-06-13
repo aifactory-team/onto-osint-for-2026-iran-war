@@ -1,0 +1,181 @@
+{
+  "date": "2026-06-13",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-031",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {"role": "Pakistan Prime Minister", "action_jun13": "declares 'final, agreed upon text' of US-Iran peace deal reached; 'Peace has never been this close'; acting as mediator between US and Iran"},
+      "source_ids": ["src-1730", "src-1738"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_jun13": "administration 80-85% confident of signing; 'conceptually deals' with nuclear material; MoU contents: Hormuz reopen, 60-day ceasefire extension, nuclear commitments, sanctions relief; signing ceremony plans moving forward; Switzerland possible venue"},
+      "source_ids": ["src-1731", "src-1735", "src-1737", "src-1742"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-036",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"role": "Iran Foreign Minister", "action_jun13": "says MoU with US 'has never been closer'; announces remote signing if deal agreed; urges media not to speculate on content"},
+      "source_ids": ["src-1732"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_jun13": "IRGC-affiliated Fars News shifts tone: 'high probability' Iran will approve MoU text; first positive signal from IRGC-aligned media; Tasnim still cautious: 'requires review and finalization'"},
+      "source_ids": ["src-1733"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-051",
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": {"role": "Israel Prime Minister", "action_jun13": "declares 'Israel not a party to MoU'; praises Trump's commitment to nuclear restrictions, enrichment dismantling, missile limits, proxy end; not informed in advance of strike cancellation"},
+      "source_ids": ["src-1734"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_jun13": "FM says MoU 'never been closer'; Fars News 'high probability' of approval; Tasnim: 'requires review'; overall tone shift from denial to cautious optimism"},
+      "source_ids": ["src-1732", "src-1733"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-041",
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": {"role": "US Vice President", "action_jun13": "says deal 'still TBD'; to attend signing ceremony; cautious contrast with Pakistan PM's definitive statement"},
+      "source_ids": ["src-1737", "src-1740"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_jun13": "MoU terms: reopen immediately without tolls; pre-war shipping levels within 30 days; key oil price driver"},
+      "source_ids": ["src-1735", "src-1736"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_jun13": "Netanyahu says Israel not party to MoU; continued strikes on southern Lebanon including Sidon; at least 12 killed; LAF warns may freeze ceasefire cooperation"},
+      "source_ids": ["src-1734", "src-1741"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-456",
+      "type": "Event",
+      "name": "MoU 60-day framework",
+      "properties": {"status_jun13": "text reportedly finalized per Pakistan PM; contents detailed: Hormuz reopen immediately, pre-war shipping in 30 days, 60-day ceasefire extension, nuclear commitments (never acquire weapon, resolve enriched uranium), sanctions relief tied to compliance; US 80-85% confident; Iran 'high probability' of approval; remote signing possible; Switzerland venue under consideration"},
+      "source_ids": ["src-1730", "src-1731", "src-1732", "src-1733", "src-1735", "src-1737"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Pakistan Mediation Deal Text Finalization",
+      "properties": {"date": "2026-06-13", "description": "Pakistan PM Sharif announces 'final, agreed upon text' of US-Iran peace deal; Pakistan's role as active mediator confirmed; 'Peace has never been this close'"},
+      "source_ids": ["src-1730", "src-1738"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Crash Jun 13",
+      "properties": {"date": "2026-06-13", "description": "Brent toward $88/bbl (~4% drop Friday), lowest in nearly 2 months; analysts: Brent could fall to ~$70 if Hormuz reopens (Fitch); range $88-$108 amid conflicting forces"},
+      "source_ids": ["src-1736"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Media Tone Shift Jun 13",
+      "properties": {"date": "2026-06-13", "description": "Fars News (IRGC-affiliated) shifts from denial to 'high probability' of MoU approval; first positive signal from IRGC-aligned media; Tasnim still cautious"},
+      "source_ids": ["src-1733"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israeli Strikes Southern Lebanon Jun 13",
+      "properties": {"date": "2026-06-13", "description": "At least 12 killed in continued Israeli strikes on southern Lebanon including Sidon; LAF warns may freeze cooperation with ceasefire committee"},
+      "source_ids": ["src-1741"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Switzerland",
+      "properties": {"type": "country", "role_jun13": "possible venue for MoU signing ceremony"},
+      "source_ids": ["src-1737"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ali Khamenei",
+      "properties": {"role": "Iran Supreme Leader", "action_jun13": "reportedly 'comfortable' with state of negotiations per US senior official"},
+      "source_ids": ["src-1731"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "LAF (Lebanese Armed Forces)",
+      "properties": {"action_jun13": "warns may freeze cooperation with ceasefire committee over continued Israeli strikes"},
+      "source_ids": ["src-1741"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-1730"], "confidence": 0.95},
+    {"subject": "ent-031", "predicate": "mediates", "object": "ent-456", "source_ids": ["src-1730"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-456", "source_ids": ["src-1731", "src-1735", "src-1737"], "confidence": 0.95},
+    {"subject": "ent-036", "predicate": "participatesIn", "object": "ent-456", "source_ids": ["src-1732"], "confidence": 0.90},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-013", "source_ids": ["src-1733"], "confidence": 0.85},
+    {"subject": "ent-051", "predicate": "opposes", "object": "ent-456", "source_ids": ["src-1734"], "confidence": 0.80},
+    {"subject": "ent-456", "predicate": "specifies", "object": "ent-008", "source_ids": ["src-1735"], "confidence": 0.95},
+    {"subject": "temp-011", "predicate": "advances", "object": "ent-456", "source_ids": ["src-1730"], "confidence": 0.90},
+    {"subject": "ent-456", "predicate": "causedBy", "object": "temp-012", "source_ids": ["src-1736"], "confidence": 0.85},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-456", "source_ids": ["src-1737", "src-1740"], "confidence": 0.85},
+    {"subject": "temp-013", "predicate": "follows", "object": "ent-567", "source_ids": ["src-1733"], "confidence": 0.80},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-014", "source_ids": ["src-1741"], "confidence": 0.90},
+    {"subject": "temp-017", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-1741"], "confidence": 0.80},
+    {"subject": "temp-016", "predicate": "supports", "object": "ent-456", "source_ids": ["src-1731"], "confidence": 0.75},
+    {"subject": "temp-012", "predicate": "follows", "object": "ent-570", "source_ids": ["src-1736"], "confidence": 0.80}
+  ],
+  "stats": {
+    "total_entities": 17,
+    "new_entities": 7,
+    "matched_entities": 10,
+    "total_relations": 15
+  }
+}

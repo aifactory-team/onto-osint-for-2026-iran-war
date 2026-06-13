@@ -1,0 +1,23 @@
+{
+  "id": "src-1732",
+  "title": "Iran FM Araghchi says MoU with US 'has never been closer'",
+  "url": "https://www.axios.com/2026/06/12/iran-deal-us-ceasefire-signing",
+  "snippet": "Iran's Foreign Minister Abbas Araghchi stated that a Memorandum of Understanding with the United States 'has never been closer.' He announced the possibility of remote signing if a deal is agreed upon and urged media not to speculate on the content of the agreement. This marks a significant tone shift from Iran's previous denials and the FM's earlier characterization of deal reports as 'merely speculation.'",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Major reversal from Iran FM who previously called deal reports 'merely speculation'; remote signing announcement is new procedural detail; 'never been closer' strongest positive signal from Iran diplomatic establishment",
+  "entities": [
+    {"id": "ent-036", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"}
+  ],
+  "relations": [
+    {"subject": "ent-036", "predicate": "participatesIn", "object": "ent-456"},
+    {"subject": "ent-002", "predicate": "supports", "object": "ent-456"}
+  ]
+}

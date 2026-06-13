@@ -1,0 +1,24 @@
+{
+  "id": "src-1734",
+  "title": "Netanyahu declares 'Israel not a party to MoU'",
+  "url": "https://themedialine.org/headlines/netanyahu-says-israel-not-party-to-iran-deal-praises-nuclear-restrictions-as-iran-signals-high-probability-of-approval/",
+  "snippet": "Israeli Prime Minister Benjamin Netanyahu declared 'Israel is not a party to the MoU' being negotiated between the US and Iran, but praised President Trump's commitment to nuclear restrictions, enrichment dismantling, missile limits, and ending proxy support. Netanyahu revealed he was not informed in advance of Trump's strike cancellation decision. The statement positions Israel as endorsing the deal's security provisions while maintaining distance from the diplomatic process itself.",
+  "source_name": "Media Line",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First official Israeli position on MoU framework; 'not a party' distancing while praising content; not informed of strike cancellation reveals US-Israel coordination gap; reveals MoU includes nuclear/missile/proxy provisions",
+  "entities": [
+    {"id": "ent-051", "type": "Person", "name": "Benjamin Netanyahu", "role": "Israel PM"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-051", "predicate": "opposes", "object": "ent-456"},
+    {"subject": "ent-004", "predicate": "distancesFrom", "object": "ent-456"}
+  ]
+}

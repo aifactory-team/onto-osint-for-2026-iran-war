@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-13",
+  "new_triples": [
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-575", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1730"},
+    {"subject": "ent-575", "predicate": "follows", "object": "ent-567", "date": "2026-06-13", "confidence": 0.90, "type": "explicit", "source_id": "src-1730", "note": "Sharif 'final text' follows Trump's 6/12 deal claim; 24-hour gap between Iran denial and Pakistan confirmation"},
+    {"subject": "ent-575", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-13", "confidence": 0.90, "type": "explicit", "source_id": "src-1730", "note": "Pakistan declares MoU final text agreed; MoU resurrected from 'dead' status"},
+    {"subject": "ent-576", "predicate": "follows", "object": "ent-575", "date": "2026-06-13", "confidence": 0.85, "type": "explicit", "source_id": "src-1731", "note": "US confidence upgraded from 75% to 80-85% after Pakistan final text declaration"},
+    {"subject": "ent-036", "predicate": "participatesIn", "object": "ent-577", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1732"},
+    {"subject": "ent-577", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-13", "confidence": 0.90, "type": "explicit", "source_id": "src-1732", "note": "Araghchi: MoU 'has never been closer'; remote signing planned"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-578", "date": "2026-06-13", "confidence": 0.90, "type": "explicit", "source_id": "src-1733", "note": "Fars News (IRGC-affiliated) reports 'high probability' of approval — first positive IRGC signal on MoU"},
+    {"subject": "ent-578", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-13", "confidence": 0.85, "type": "explicit", "source_id": "src-1733"},
+    {"subject": "ent-579", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1734", "note": "MoU contents: Hormuz reopen immediately/no tolls, 30-day normalization, 60-day ceasefire, nuclear commitments, sanctions relief"},
+    {"subject": "ent-579", "predicate": "relatedTo", "object": "ent-008", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1734", "note": "Hormuz immediate reopening and no tolls are core MoU terms"},
+    {"subject": "ent-580", "predicate": "causedBy", "object": "ent-575", "date": "2026-06-13", "confidence": 0.85, "type": "explicit", "source_id": "src-1735", "note": "Brent crashes to $88 (~4% drop) on deal optimism; Fitch: $70 if deal materializes"},
+    {"subject": "ent-580", "predicate": "follows", "object": "ent-571", "date": "2026-06-13", "confidence": 0.85, "type": "explicit", "source_id": "src-1735", "note": "2-day consecutive oil decline: 6/12 Brent $90.38 → 6/13 Brent ~$88; 2-month low"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-581", "date": "2026-06-13", "confidence": 0.85, "type": "explicit", "source_id": "src-1736", "note": "Vance to attend Switzerland signing ceremony"},
+    {"subject": "ent-051", "predicate": "participatesIn", "object": "ent-582", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1737"},
+    {"subject": "ent-582", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-13", "confidence": 0.85, "type": "explicit", "source_id": "src-1737", "note": "Netanyahu: 'Israel not a party to MoU' but praises Trump nuclear commitments — hedging strategy"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-583", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1738"},
+    {"subject": "ent-583", "predicate": "opposes", "object": "ent-575", "date": "2026-06-13", "confidence": 0.80, "type": "explicit", "source_id": "src-1738", "note": "Vance 'still TBD' directly contradicts Pakistan's 'final text' — intra-US messaging divergence"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-584", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1739"},
+    {"subject": "ent-584", "predicate": "locatedIn", "object": "ent-050", "date": "2026-06-13", "confidence": 0.95, "type": "explicit", "source_id": "src-1739", "note": "12+ killed in S. Lebanon strikes; LAF warns may freeze ceasefire cooperation"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-456", "predicate": "relatedTo", "object": "ent-002", "date": "2026-06-13", "confidence": 0.90, "type": "explicit", "source_id": "src-1732", "note": "MoU status upgrade: 'dead' (6/11) → 'denied' (6/12 Iran) → 'never been closer' (6/13 Iran FM). Dramatic 48-hour reversal."},
+    {"subject": "ent-031", "predicate": "cooperatesWith", "object": "ent-001", "date": "2026-06-13", "confidence": 0.90, "type": "explicit", "source_id": "src-1730", "note": "Pakistan PM Sharif central mediator — declares final text after direct coordination with US and Iran"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-578", "predicate": "relatedTo", "object": "ent-569", "date": "2026-06-13", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "IRGC first positive signal (Fars 'high probability') vs IRGC 2nd night attacks (6/12) = 24-hour reversal from military escalation to diplomatic acceptance. Indicates IRGC internal deliberation may have concluded, or dual-track IRGC behavior (military pressure while accepting political outcome)"},
+    {"subject": "ent-575", "predicate": "relatedTo", "object": "ent-577", "date": "2026-06-13", "confidence": 0.85, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "Pakistan 'final text' + Iran FM 'never been closer' = convergent positive signals from two independent parties. However, Tasnim 'requires review' and Vance 'TBD' introduce divergence — multi-party messaging NOT aligned"},
+    {"subject": "ent-580", "predicate": "causalChain", "object": "ent-567", "date": "2026-06-13", "confidence": 0.78, "type": "inferred", "source_id": "inferred", "rule": "event_chain", "note": "Trump deal claim (6/12) → Pakistan final text (6/13) → Oil crash to $88. 2-day oil decline chain: Brent $93→$90.38→$88. Market pricing in deal completion at increasing probability. Fitch $70 scenario = full de-escalation pricing."},
+    {"subject": "ent-582", "predicate": "relatedTo", "object": "ent-584", "date": "2026-06-13", "confidence": 0.75, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "Netanyahu 'not a party' distancing from MoU while simultaneously continuing Lebanon strikes (12+ killed). Hedging: if deal fails, Israel maintains military initiative. If deal succeeds, Israel claims non-participation to avoid constraints."},
+    {"subject": "ent-583", "predicate": "relatedTo", "object": "ent-576", "date": "2026-06-13", "confidence": 0.80, "type": "inferred", "source_id": "inferred", "rule": "co_participation", "note": "Vance 'still TBD' vs US official 80-85% confidence = intra-administration messaging divergence. Vance may be providing negotiating leverage (dampening expectations) while officials signal confidence. Classic good-cop/bad-cop within same administration."}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 19,
+    "updated_edges": 2,
+    "inferred_edges": 5
+  }
+}

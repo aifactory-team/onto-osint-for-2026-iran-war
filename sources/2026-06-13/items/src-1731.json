@@ -1,0 +1,23 @@
+{
+  "id": "src-1731",
+  "title": "US senior official says 80-85% confident of signing deal 'in coming days'",
+  "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
+  "snippet": "A US senior administration official said they are 80-85% confident of signing the US-Iran deal 'in coming days,' adding 'Not 100%.' Confidence reportedly rose from 75% in the morning to 80-85% by afternoon. The official also stated that Iran's Supreme Leader Khamenei is reportedly 'comfortable' with the state of negotiations, a notable shift from previous Iranian denials.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First quantified US confidence level (80-85%); Khamenei 'comfortable' is new intelligence on Supreme Leader's disposition; intra-day confidence increase notable",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-016", "type": "Person", "name": "Ali Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-456"},
+    {"subject": "temp-016", "predicate": "supports", "object": "ent-456"}
+  ]
+}

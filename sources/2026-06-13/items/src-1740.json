@@ -1,0 +1,21 @@
+{
+  "id": "src-1740",
+  "title": "Vance says deal 'still TBD' — cautious contrast with Pakistan PM",
+  "url": "https://houseofsaud.com/sharif-calls-iran-deal-text-final-vance-says-still-tbd/",
+  "snippet": "Vice President JD Vance characterized the US-Iran deal as 'still TBD,' providing a cautious contrast with Pakistan PM Shehbaz Sharif's definitive claim that the 'final, agreed upon text' has been reached. The message gap between the mediator's optimistic framing and the parties' hedging continues a pattern seen throughout negotiations.",
+  "source_name": "HouseofSaud",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "update",
+  "related_report": "2026-06-12",
+  "related_item": "src-1710",
+  "tag_reason": "Update to deal status: Vance 'still TBD' directly contrasts Pakistan PM 'final text'; reveals persistent messaging gap between mediator and principals; follows Trump's Jun 12 'deal done' claim",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-031", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-456"}
+  ]
+}

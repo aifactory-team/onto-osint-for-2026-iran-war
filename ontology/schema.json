@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-13",
   "classes": [
     {
       "id": "Entity",
@@ -887,6 +887,13 @@
       "target": "8 new entities (ent-567~ent-574), 5 existing updated",
       "reason": "트럼프 공격 취소·딜 종결 주장('ended the war'·11개국 승인·서명 곧 발표), 이란 공식 부인(Fars 'no text approved'·FM 'merely speculation'), Kharg Island 점령 위협('total control'·실행 의지 불확실), IRGC 2일째 미군기지 공격(Ali Al Salem/Ahmed Al Jaber/Sheikh Isa·18표적·2파), 호르무즈 '모든 해상 교통 폐쇄' 선언·유조선 2척 공격, 유가 급락(WTI $87.71·Brent $90.38·상호 중단 이후 최저), 나스닥 2.5%↑ 급등. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1710", "src-1711", "src-1712", "src-1713", "src-1714", "src-1715", "src-1716", "src-1717", "src-1718", "src-1719", "src-1720", "src-1721"]
+    },
+    {
+      "date": "2026-06-13",
+      "action": "add_instances",
+      "target": "10 new entities (ent-575~ent-584), 6 existing updated",
+      "reason": "파키스탄 '최종 합의문' 선언, 미국 80-85% 서명 확신, 이란 FM '역대 가장 가까운', IRGC 계열 최초 긍정, MoU 세부 공개, 유가 $88 2개월 최저, 네타냐후 비당사자, 스위스 서명식, 레바논 12+ 사망. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1730", "src-1731", "src-1732", "src-1733", "src-1734", "src-1735", "src-1736", "src-1737", "src-1738", "src-1739", "src-1740", "src-1741"]
     }
   ]
 }

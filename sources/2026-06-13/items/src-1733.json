@@ -1,0 +1,23 @@
+{
+  "id": "src-1733",
+  "title": "IRGC-affiliated Fars News: 'high probability' Iran will approve MoU text",
+  "url": "https://www.iranintl.com/en/202606115428",
+  "snippet": "IRGC-affiliated Fars News Agency reported 'high probability' that Iran will approve the MoU text with the United States. However, Tasnim News Agency, also close to IRGC, stated the text 'still requires review and finalization by relevant institutions.' This represents the first positive signal from IRGC-aligned media, a significant departure from Fars's June 12 report that 'no text for a preliminary memorandum of understanding has been approved.'",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First positive signal from IRGC-aligned media; Fars reversal from 'no text approved' to 'high probability'; indicates IRGC institutional stance shifting; Tasnim hedging suggests internal debate ongoing",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day framework"},
+    {"id": "temp-013", "type": "Event", "name": "IRGC Media Tone Shift Jun 13"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-013"},
+    {"subject": "temp-013", "predicate": "follows", "object": "ent-567"}
+  ]
+}
