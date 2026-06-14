@@ -1,0 +1,22 @@
+{
+  "id": "src-1757",
+  "title": "Iran FM spokesperson: 'not a final agreement' but 'understanding' — nuclear excluded",
+  "url": "https://www.cnn.com/2026/06/13/world/live-news/iran-war-trump-israel",
+  "snippet": "Iran FM spokesperson clarified: 'This is not a final agreement between Iran and the United States, but rather an understanding that outlines the general outlines of the disputed issues and specifies that the war will end.' Nuclear issue is excluded from the MoU — 'the two sides decided not to discuss the nuclear issue.' War ends on 'all fronts' including Lebanon.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 MoU 성격 재정의 — '합의' 아닌 '양해'; 핵 명시적 제외; 레바논 포함 전전선 종전 규정",
+  "entities": [
+    {"id": "ent-471", "type": "Person", "name": "Ismail Baghaei", "role": "Iran FM spokesperson"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"},
+    {"id": "ent-593", "type": "Event", "name": "Iran Understanding Not Agreement"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-593", "predicate": "opposes", "object": "ent-585"}
+  ]
+}

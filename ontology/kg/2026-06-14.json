@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-14",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-585", "source_id": "src-1750", "date": "2026-06-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-585", "predicate": "follows", "object": "ent-575", "source_id": "src-1750", "date": "2026-06-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-585", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-1750", "date": "2026-06-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-586", "predicate": "opposes", "object": "ent-585", "source_id": "src-1751", "date": "2026-06-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-587", "source_id": "src-1752", "date": "2026-06-14", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-587", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1752", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-588", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1753", "date": "2026-06-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-589", "source_id": "src-1753", "date": "2026-06-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-046", "predicate": "participatesIn", "object": "ent-589", "source_id": "src-1753", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-589", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1753", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-590", "predicate": "relatedTo", "object": "ent-456", "source_id": "src-1754", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-591", "predicate": "follows", "object": "ent-580", "source_id": "src-1755", "date": "2026-06-14", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-585", "predicate": "causedBy", "object": "ent-591", "source_id": "src-1755", "date": "2026-06-14", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-592", "predicate": "relatedTo", "object": "ent-585", "source_id": "src-1756", "date": "2026-06-14", "confidence": 0.75, "type": "explicit"},
+    {"subject": "ent-593", "predicate": "opposes", "object": "ent-585", "source_id": "src-1757", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-594", "predicate": "opposes", "object": "ent-585", "source_id": "src-1760", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-587", "predicate": "opposes", "object": "ent-593", "source_id": "src-1761", "date": "2026-06-14", "confidence": 0.85, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-456", "predicate": "relatedTo", "object": "ent-588", "date": "2026-06-14", "confidence": 0.90, "type": "explicit", "note": "MoU formally named Islamabad Declaration"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-456", "date": "2026-06-14", "confidence": 0.95, "type": "explicit", "note": "Sunday signing announced + dishonorable accusation + leaked terms rejection"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-585", "predicate": "relatedTo", "object": "ent-586", "date": "2026-06-14", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "note": "US-Iran signing timeline disagreement"},
+    {"subject": "ent-587", "predicate": "relatedTo", "object": "ent-586", "date": "2026-06-14", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "note": "Dishonorable accusation and timing pushback = dual message conflict"},
+    {"subject": "ent-591", "predicate": "causedBy", "object": "ent-585", "date": "2026-06-14", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "note": "3-day oil decline causally linked to successive deal signals"},
+    {"subject": "ent-593", "predicate": "relatedTo", "object": "ent-594", "date": "2026-06-14", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "note": "Iran downgrade (understanding not agreement) + Khamenei non-approval = structural uncertainty"}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 17,
+    "inferred_edges": 4
+  }
+}

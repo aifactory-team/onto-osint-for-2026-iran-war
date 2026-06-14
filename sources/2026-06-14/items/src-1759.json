@@ -1,0 +1,20 @@
+{
+  "id": "src-1759",
+  "title": "트럼프 \"이란 평화 합의 14일 서명 예정…호르무즈 모두에게 개방\"",
+  "url": "https://www.newspim.com/news/view/20260614000002",
+  "snippet": "트럼프 미국 대통령이 이란과의 종전합의가 14일(일요일)에 서명될 예정이라고 밝혔다. 서명 후 호르무즈 해협은 즉시 모두에게 개방된다고 덧붙임.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 속보 — 트럼프 14일 서명 예정 발표; src-1758와 유사하나 다른 매체",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-585", "type": "Event", "name": "Trump Sunday Signing Announcement"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "src-1762",
+  "title": "Tasnim counts Trump's 38th identical deal-imminence claim in two months",
+  "url": "https://www.iranintl.com/en/202606115428",
+  "snippet": "IRGC-affiliated Tasnim News Agency counted Trump's latest statement as his 38th identical deal-imminence claim in two months. This functions as a credibility metric and skepticism signal from IRGC media, contrasting with Fars News's 'high probability' positive signal from June 13.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "update",
+  "related_report": "2026-06-13/src-1733",
+  "related_item": "src-1733",
+  "tag_reason": "6/13 IRGC 이중 메시지 (Fars 긍정 vs Tasnim 유보)의 후속 — Tasnim의 38회 카운트라는 구체적 회의 지표 추가",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"}
+  ],
+  "relations": []
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-14",
   "classes": [
     {
       "id": "Entity",
@@ -894,6 +894,13 @@
       "target": "10 new entities (ent-575~ent-584), 6 existing updated",
       "reason": "파키스탄 '최종 합의문' 선언, 미국 80-85% 서명 확신, 이란 FM '역대 가장 가까운', IRGC 계열 최초 긍정, MoU 세부 공개, 유가 $88 2개월 최저, 네타냐후 비당사자, 스위스 서명식, 레바논 12+ 사망. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
       "source_ids": ["src-1730", "src-1731", "src-1732", "src-1733", "src-1734", "src-1735", "src-1736", "src-1737", "src-1738", "src-1739", "src-1740", "src-1741"]
+    },
+    {
+      "date": "2026-06-14",
+      "action": "add_instances",
+      "target": "10 new entities (ent-585~ent-594), 5 existing updated",
+      "reason": "트럼프 일요일 서명 발표(생일 6/14), 이란 '내일 아니다' 반박, 트럼프 이란 '불성실' 비난·유출 조항 거부, '이슬라마바드 선언' 공식 명칭·제네바·C-17 출발·밴스/칼리바프 서명자, 440kg 우라늄 60일 유예, 유가 Brent $86.5 3개월 최저, 스타머-트럼프 통화, 이란 FM '합의 아닌 양해', 하메네이 승인 분쟁. 스키마 변경 없음 — 기존 클래스/관계 유형으로 표현 가능",
+      "source_ids": ["src-1750", "src-1751", "src-1752", "src-1753", "src-1754", "src-1755", "src-1756", "src-1757", "src-1758", "src-1759", "src-1760", "src-1761", "src-1762"]
     }
   ]
 }

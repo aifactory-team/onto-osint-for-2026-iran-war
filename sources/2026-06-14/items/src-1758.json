@@ -1,0 +1,22 @@
+{
+  "id": "src-1758",
+  "title": "트럼프 \"이란과 14일 합의 서명…직후 호르무즈 개방\"(종합)",
+  "url": "https://www.fnnews.com/news/202606140302475002",
+  "snippet": "트럼프 대통령은 이란과의 합의가 일요일(14일)에 서명될 예정이며 호르무즈 해협이 즉시 모두에게 개방될 것이라고 밝혔다. 이란 외무부 대변인은 '내일은 아닐 것'이라며 반박. 양측의 서명 시점 불일치가 부각됨.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 종합보도 — 트럼프 14일 서명 발표와 이란 반박을 동시에 포함하는 최초 한국어 보도",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-585", "type": "Event", "name": "Trump Sunday Signing Announcement"},
+    {"id": "ent-586", "type": "Event", "name": "Iran Not Tomorrow Pushback"}
+  ],
+  "relations": [
+    {"subject": "ent-585", "predicate": "opposes", "object": "ent-586"}
+  ]
+}

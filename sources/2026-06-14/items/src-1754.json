@@ -1,0 +1,22 @@
+{
+  "id": "src-1754",
+  "title": "440kg enriched uranium (60%) stays in Tehran during 60-day talks — nuclear deferred",
+  "url": "https://www.techtimes.com/articles/318319/20260613/iran-peace-deal-text-agreed-440kg-enriched-uranium-stays-tehran-during-60-day-talks.htm",
+  "snippet": "The MoU leaves Iran's 440kg nuclear stockpile (enriched to 60%, stored in a mountain facility) untouched during the 60-day follow-on talks. Trump acknowledged the deal only 'conceptually' addresses nuclear material. Nuclear weapons-grade is 90%, but 60% enrichment makes the final step much faster. This is the most significant concession in the nuclear dimension — uranium stays as leverage.",
+  "source_name": "TechTimes",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "440kg 우라늄 현상 유지 조항 최초 구체적 보도 — 핵 쟁점의 60일 유예 확인",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"},
+    {"id": "ent-590", "type": "Event", "name": "440kg Uranium Deferral"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "ent-590", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

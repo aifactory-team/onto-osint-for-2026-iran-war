@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-14",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-585",
+      "type": "Event",
+      "name": "Trump Sunday Signing Announcement",
+      "properties": {"date": "2026-06-14", "description": "Trump announces Iran deal to be signed Sunday; Hormuz opens immediately; timed to his birthday June 14"},
+      "source_ids": ["src-1750", "src-1758", "src-1759"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-586",
+      "type": "Event",
+      "name": "Iran Not Tomorrow Pushback",
+      "properties": {"date": "2026-06-14", "description": "FM spokesperson Baghaei: signing not tomorrow but coming days; cites US-side delays"},
+      "source_ids": ["src-1751", "src-1758"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-587",
+      "type": "Event",
+      "name": "Trump Dishonorable Accusation",
+      "properties": {"date": "2026-06-14", "description": "Trump calls Iran negotiators 'very dishonorable people'; rejects leaked deal terms as 'fake news'; NOTHING to do with agreed terms"},
+      "source_ids": ["src-1752"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-588",
+      "type": "Concept",
+      "name": "Islamabad Declaration",
+      "properties": {"domain": "diplomacy", "description": "Formal name for US-Iran peace deal; acknowledges Pakistan mediation role"},
+      "source_ids": ["src-1753", "src-1765"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-589",
+      "type": "Event",
+      "name": "Geneva Signing Ceremony Plan",
+      "properties": {"date": "2026-06-14", "location": "Geneva", "description": "C-17 planes departed; Vance & Qalibaf signatories; near G7 France; Switzerland offered to host"},
+      "source_ids": ["src-1753", "src-1767"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-590",
+      "type": "Event",
+      "name": "440kg Uranium Deferral",
+      "properties": {"date": "2026-06-14", "description": "440kg enriched uranium at 60% stays in Tehran mountain during 60-day talks; nuclear excluded from MoU"},
+      "source_ids": ["src-1754"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-591",
+      "type": "Event",
+      "name": "Oil Crash to $86.5",
+      "properties": {"date": "2026-06-14", "description": "Brent below $86.5 3-month low; WTI $84.88; 3rd consecutive day of decline; markets closed Saturday"},
+      "source_ids": ["src-1755"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-592",
+      "type": "Event",
+      "name": "Starmer-Trump Call",
+      "properties": {"date": "2026-06-14", "description": "UK PM stands ready to support implementation; durable peace emphasis"},
+      "source_ids": ["src-1756"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-593",
+      "type": "Event",
+      "name": "Iran Understanding Not Agreement",
+      "properties": {"date": "2026-06-14", "description": "FM spokesperson: not a final agreement but understanding outlining general outlines; nuclear excluded; war ends all fronts"},
+      "source_ids": ["src-1757"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-594",
+      "type": "Event",
+      "name": "Khamenei Approval Disputed",
+      "properties": {"date": "2026-06-14", "description": "Israeli sources: no indication Khamenei approved; diplomat: approved at high levels but likely not Khamenei; Tasnim: 38th Trump claim"},
+      "source_ids": ["src-1760", "src-1762"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-585", "source_ids": ["src-1750"], "confidence": 0.95},
+    {"subject": "ent-585", "predicate": "opposes", "object": "ent-586", "source_ids": ["src-1751"], "confidence": 0.90},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-587", "source_ids": ["src-1752"], "confidence": 0.95},
+    {"subject": "ent-588", "predicate": "relatedTo", "object": "ent-456", "source_ids": ["src-1753"], "confidence": 0.90},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-589", "source_ids": ["src-1753"], "confidence": 0.90},
+    {"subject": "ent-046", "predicate": "participatesIn", "object": "ent-589", "source_ids": ["src-1753"], "confidence": 0.85},
+    {"subject": "ent-590", "predicate": "relatedTo", "object": "ent-456", "source_ids": ["src-1754"], "confidence": 0.85},
+    {"subject": "ent-585", "predicate": "causedBy", "object": "ent-591", "source_ids": ["src-1755"], "confidence": 0.80},
+    {"subject": "ent-592", "predicate": "relatedTo", "object": "ent-585", "source_ids": ["src-1756"], "confidence": 0.75},
+    {"subject": "ent-593", "predicate": "opposes", "object": "ent-585", "source_ids": ["src-1757"], "confidence": 0.85},
+    {"subject": "ent-594", "predicate": "opposes", "object": "ent-585", "source_ids": ["src-1760"], "confidence": 0.85},
+    {"subject": "ent-585", "predicate": "follows", "object": "ent-575", "source_ids": ["src-1750"], "confidence": 0.90},
+    {"subject": "ent-591", "predicate": "follows", "object": "ent-580", "source_ids": ["src-1755"], "confidence": 0.90},
+    {"subject": "ent-587", "predicate": "relatedTo", "object": "ent-456", "source_ids": ["src-1752"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 10,
+    "matched_entities": 0,
+    "total_relations": 14
+  }
+}

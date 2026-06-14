@@ -1,0 +1,23 @@
+{
+  "id": "src-1752",
+  "title": "Trump calls Iran negotiators 'very dishonorable people' — rejects leaked deal terms as 'fake news'",
+  "url": "https://www.aljazeera.com/news/2026/6/12/dishonorable-trump-says-leaked-iran-ceasefire-terms-fake",
+  "snippet": "Trump rejected Iran state media's leaked deal terms as 'fake news,' saying they had 'NOTHING to do with the terms that were agreed to, in writing.' Called Iranian negotiators 'Very dishonorable people to deal with' and 'no such thing as dealing in good faith.' Leaked terms claimed immediate frozen funds release and mandatory halt to Israeli operations — US version requires verified compliance first.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 이란 '불성실' 비난 및 유출 조항 거부 — 합의 텍스트에 대한 미-이란 해석 격차 최초 공개",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"},
+    {"id": "ent-587", "type": "Event", "name": "Trump Dishonorable Accusation"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-587"},
+    {"subject": "ent-587", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

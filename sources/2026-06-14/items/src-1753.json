@@ -1,0 +1,27 @@
+{
+  "id": "src-1753",
+  "title": "'Islamabad Declaration' — Geneva likely signing venue; C-17s departed; Vance & Qalibaf signatories",
+  "url": "https://www.tribuneindia.com/news/ceasefire-extension/iran-us-peace-deal-expected-in-geneva-to-include-hormuz-reopening-ceasefire-extension-reports",
+  "snippet": "The deal is formally called the 'Islamabad Declaration' acknowledging Pakistan's mediation role. Geneva is the likeliest venue for the signing ceremony. 4 US Air Force C-17 planes departed to Europe carrying equipment for possible VP Vance travel. Vance and Iran Parliament Speaker Qalibaf expected as signatories. Location is near Trump's G7 attendance in France next week.",
+  "source_name": "Tribune India",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "'이슬라마바드 선언' 공식 명칭, 제네바 장소, C-17 출발, 칼리바프 서명자 — 모두 신규 정보",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US VP"},
+    {"id": "ent-046", "type": "Person", "name": "Mohammad Baqer Qalibaf", "role": "Iran Parliament Speaker"},
+    {"id": "ent-588", "type": "Concept", "name": "Islamabad Declaration"},
+    {"id": "ent-589", "type": "Event", "name": "Geneva Signing Ceremony Plan"},
+    {"id": "ent-031", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-589"},
+    {"subject": "ent-046", "predicate": "participatesIn", "object": "ent-589"},
+    {"subject": "ent-588", "predicate": "relatedTo", "object": "ent-456"}
+  ]
+}

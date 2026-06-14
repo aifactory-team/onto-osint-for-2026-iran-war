@@ -1,0 +1,22 @@
+{
+  "id": "src-1760",
+  "title": "Israeli sources: 'no indication' Khamenei approved MoU terms",
+  "url": "https://www.timesofisrael.com/liveblog_entry/israeli-sources-claim-no-indication-mojtaba-khamenei-has-approved-terms-of-mou/",
+  "snippet": "Israeli intelligence sources said there is 'no indication' that Mojtaba Khamenei has approved the terms of the MoU. A diplomat from a mediating country said the agreement was approved 'at high levels' on the Iranian side but 'likely not' by Khamenei himself. This directly contradicts Trump's claim 'I understand the answer is yes.' Tasnim counted this as Trump's 38th identical deal-imminence claim in two months.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "update",
+  "related_report": "2026-06-13/src-1731",
+  "related_item": "src-1731",
+  "tag_reason": "6/13 미국 80-85% 확신 보도의 후속 — 이스라엘 소스가 하메네이 승인에 의문 제기; Tasnim의 38회 딜 주장 카운트 추가",
+  "entities": [
+    {"id": "ent-049", "type": "Person", "name": "Mojtaba Khamenei", "role": "Iran Supreme Leader"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-594", "type": "Event", "name": "Khamenei Approval Disputed"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"}
+  ],
+  "relations": [
+    {"subject": "ent-594", "predicate": "opposes", "object": "ent-585"}
+  ]
+}

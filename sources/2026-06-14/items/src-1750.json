@@ -1,0 +1,24 @@
+{
+  "id": "src-1750",
+  "title": "Trump says Iran deal to be signed Sunday — 'Hormuz will open immediately to everybody'",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-peace-deal-agreement/",
+  "snippet": "President Trump announced Saturday that the US-Iran peace deal will be signed on Sunday, his birthday (June 14). He stated Hormuz will open 'immediately to everybody' after signing. VP Vance expected to represent US at European signing ceremony. Electronic signing expected. Trump: 'I understand the answer is yes' regarding Khamenei approval.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 구체적 서명 일자(일요일) 최초 공식 발표; 이전 보도는 '며칠 내' 수준이었으나 이번은 특정 일자 지정",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US VP"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-585", "type": "Event", "name": "Trump Sunday Signing Announcement"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-585"},
+    {"subject": "ent-585", "predicate": "follows", "object": "ent-575"}
+  ]
+}

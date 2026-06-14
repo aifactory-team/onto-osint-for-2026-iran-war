@@ -1,0 +1,21 @@
+{
+  "id": "src-1755",
+  "title": "Oil crashes to 3-month low: Brent below $86.5, WTI $84.88 — 3rd consecutive day of declines",
+  "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "snippet": "Brent crude oil fell more than 4% on Friday to below $86.5/bbl, the lowest since early March. WTI at $84.88, down 3.23%. This marks the 3rd consecutive day of oil price declines as deal optimism is priced into energy markets. Markets closed Saturday June 14. Previous closes: $90.38 (6/12), $88 (6/13), $86.5 (6/14 Friday). Total 3-day decline approximately 10% from $93.",
+  "source_name": "Trading Economics",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유가 3일 연속 하락 확인 — Brent $93→$90.38→$88→$86.5; 3월 초 이후 최저; 딜 반영 본격화",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-591", "type": "Event", "name": "Oil Crash to $86.5"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"}
+  ],
+  "relations": [
+    {"subject": "ent-591", "predicate": "follows", "object": "ent-580"}
+  ]
+}

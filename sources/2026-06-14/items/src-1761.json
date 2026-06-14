@@ -1,0 +1,23 @@
+{
+  "id": "src-1761",
+  "title": "Iran deal terms disputed: US says inspectors verify first, Iran says immediate",
+  "url": "https://www.cnbc.com/2026/06/12/iran-us-peace-memo-strait-hormuz-oil-sanctions.html",
+  "snippet": "The US says sanctions relief comes only after international inspectors verify dismantling of nuclear weapons program and handover of enriched uranium. Iran's leaked terms claim immediate release of frozen funds and mandatory halt to all Israeli operations in Lebanon. Two fundamentally different deal descriptions from the same 'agreed text.' Trump called the leaked terms 'fake news.'",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "update",
+  "related_report": "2026-06-13/src-1735",
+  "related_item": "src-1735",
+  "tag_reason": "6/13 MoU 내용 공개 보도의 후속 — 미-이란 간 동일 텍스트에 대한 근본적 해석 격차 구체화",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"},
+    {"id": "ent-587", "type": "Event", "name": "Trump Dishonorable Accusation"},
+    {"id": "ent-593", "type": "Event", "name": "Iran Understanding Not Agreement"}
+  ],
+  "relations": [
+    {"subject": "ent-587", "predicate": "opposes", "object": "ent-593"}
+  ]
+}

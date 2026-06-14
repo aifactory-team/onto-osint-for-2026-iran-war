@@ -1,0 +1,21 @@
+{
+  "id": "src-1756",
+  "title": "Starmer-Trump call: UK 'stands ready to support implementation'",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-peace-deal-agreement/",
+  "snippet": "UK PM Keir Starmer spoke with Trump on Saturday (his birthday) about the Iran deal. Starmer 'reiterated that the UK stands ready to support the implementation of any peace agreement.' Emphasized 'ensuring any deal delivers a durable and lasting peace.' Part of broader international endorsement of the emerging deal.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "스타머-트럼프 전화 — 영국의 딜 이행 지원 약속; 국제적 지지 확대의 신규 사례",
+  "entities": [
+    {"id": "ent-592", "type": "Event", "name": "Starmer-Trump Call"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-starmer", "type": "Person", "name": "Keir Starmer", "role": "UK PM"}
+  ],
+  "relations": [
+    {"subject": "ent-592", "predicate": "relatedTo", "object": "ent-585"}
+  ]
+}

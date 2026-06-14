@@ -1,0 +1,22 @@
+{
+  "id": "src-1751",
+  "title": "Iran FM spokesperson Baghaei: MoU signing 'not tomorrow' but 'coming days'",
+  "url": "https://athens-times.com/iranian-foreign-ministry-spokesperson-us-iran-islamabad-memorandum-not-to-be-signed-tomorrow/",
+  "snippet": "Iranian FM spokesperson Ismail Baghaei stated the Islamabad MoU will not be signed on Sunday. Cited delays on the US side. Said 'even if it's not tomorrow, it could happen in the coming days.' Pushed back against Pakistan PM's 24-hour timeline. Described document as 'understanding' not 'final agreement.'",
+  "source_name": "Athens Times",
+  "language": "en",
+  "discovered_date": "2026-06-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 일요일 서명 부인 — 트럼프의 일요일 서명 발표에 대한 직접적 반박; 새로운 시점 불일치 정보",
+  "entities": [
+    {"id": "ent-471", "type": "Person", "name": "Ismail Baghaei", "role": "Iran FM spokesperson"},
+    {"id": "ent-456", "type": "Event", "name": "MoU 60-day"},
+    {"id": "ent-588", "type": "Concept", "name": "Islamabad Declaration"},
+    {"id": "ent-586", "type": "Event", "name": "Iran Not Tomorrow Pushback"}
+  ],
+  "relations": [
+    {"subject": "ent-586", "predicate": "opposes", "object": "ent-585"}
+  ]
+}
